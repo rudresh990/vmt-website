@@ -1,0 +1,99 @@
+/* ===============================
+   BASE / TYPOGRAPHY COMPONENTS
+   =============================== */
+
+body{
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-body);
+  color: var(--text-body);
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.main-headings {
+  font-size: var(--h1-size);
+  color: var(--text-main);
+  font-weight: 600;
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.sub-headings {
+  font-size: var(--h2-size);
+  color: var(--text-main);
+  font-weight: 400;
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.navbar{
+  position: sticky;
+  top:0;
+  z-index: 50;
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* brand */
+
+.navbar-brand .brand-text{
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.navbar-links{
+  display: flex;
+  gap: 1.75rem;
+}
+
+.navbar-links a{
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.navbar-links a:hover{
+  color: var(--text-main);
+}
+
+.navbar-cta{
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.45rem 0.9rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease , color 0.2s ease;
+}
+
+.btn-primary{
+  background-color: var(--primary);
+  color: #020617;
+}
+
+.btn-primary:hover{
+  background-color: var(--primary-glow);
+}

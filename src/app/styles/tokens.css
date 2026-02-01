@@ -1,0 +1,34 @@
+/* ===============================
+   TAILWIND DESIGN TOKENS (v4)
+   =============================== */
+@theme {
+  /* Typography scale */
+  --h1-size: clamp(2.2rem, 4vw, 3.5rem);
+  --h2-size:clamp(1.8rem,3vw,2.5rem);
+
+  /* Brand colors */
+  --primary: #22D3EE;
+  --primary-glow: #67E8F9;
+  --secondary: #3B82F6;
+}
+
+/* ===============================
+   GLOBAL CSS VARIABLES (BROWSER)
+   =============================== */
+:root {
+  /* Background layers */
+  --bg: #0B0F14;
+  --surface: #0F1620;
+  --card: #121A24;
+  --border: #1F2A37;
+
+  /* Text */
+  --text-main: #E5E7EB;
+  --text-body: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  /* Fonts (Next.js) */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-plex);
+  --font-mono: var(--font-mono);
+}

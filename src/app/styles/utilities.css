@@ -1,0 +1,46 @@
+/* ===============================
+   AUTH / HERO BACKGROUND
+   =============================== */
+.bg-authkit {
+  position: relative;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(96,165,250,0.25),
+      transparent 70%
+    ),
+    linear-gradient(
+      90deg,
+      #020617,
+      #00040c
+    );
+}
+
+.bg-authkit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.bg-authkit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(148,163,184,0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148,163,184,0.09) 1px, transparent 1px);
+  background-size: 200px 200px;
+  pointer-events: none;
+}
+
+/* ===============================
+   VIGNETTE
+   =============================== */
+.bg-vignette {
+  box-shadow: inset 0 0 280px rgba(2,6,23,0.55);
+}
