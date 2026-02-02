@@ -68,7 +68,7 @@ export default function Navbar() {
             <div className="navbar-inner">
                 {/* Brand */}
                 <div className="navbar-brand">
-                    <span className="brand-text"><Link href={"/"}>VOID MATRIX</Link></span>
+                    <span className="brand-text"><Link href={"/"}> <span className="braces">{` {  } `}</span>  VOID MATRIX</Link></span>
                 </div>
                 {/* links */}
                 <nav className="navbar-links">
