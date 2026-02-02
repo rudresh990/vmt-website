@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${IBMPlex.variable}`}>
       <body
-        className="bg-authkit overflow-hidden min-h-screen" 
+        className="bg-authkit min-h-screen" 
       >
         <Navbar/>
         {children}

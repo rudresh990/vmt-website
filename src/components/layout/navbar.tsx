@@ -1,5 +1,5 @@
 "use client"
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, use } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -49,9 +49,18 @@ export default function Navbar() {
         document.body.style.overflow = "hidden";
 
         return () =>{
-            document.body.style.overflow = originalOverflow;
+            document.body.style.overflow = "";
         };
     },[open]);
+
+    //scroll lock might cause bug by mounting overflow settings on component load only
+    //setting scroll lock to nothing while first load 
+
+    useEffect(()=>{
+        return()=>{
+            document.body.style.overflow=originalOverflow;
+        }
+    },[])
 
     
     return (

@@ -7,7 +7,7 @@
     radial-gradient(
       circle at center,
       rgba(96,165,250,0.25),
-      transparent 70%
+      transparent 90%
     ),
     linear-gradient(
       90deg,
@@ -32,8 +32,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(148,163,184,0.09) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148,163,184,0.09) 1px, transparent 1px);
+    linear-gradient(rgba(148,163,184,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148,163,184,0.05) 1px, transparent 1px);
   background-size: 120px 120px;
   pointer-events: none;
 }
