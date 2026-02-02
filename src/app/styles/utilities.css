@@ -34,7 +34,7 @@
   background-image:
     linear-gradient(rgba(148,163,184,0.09) 1px, transparent 1px),
     linear-gradient(90deg, rgba(148,163,184,0.09) 1px, transparent 1px);
-  background-size: 200px 200px;
+  background-size: 120px 120px;
   pointer-events: none;
 }
 
