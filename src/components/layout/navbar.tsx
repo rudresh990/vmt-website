@@ -58,7 +58,7 @@ export default function Navbar() {
 
     useEffect(()=>{
         return()=>{
-            document.body.style.overflow=originalOverflow;
+            document.body.style.overflow="";
         }
     },[])
 
