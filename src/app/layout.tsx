@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 import { Inter, IBM_Plex_Sans } from "next/font/google";
 import "./styles/globals.css";
 
@@ -66,7 +67,7 @@ export default function RootLayout({
         </main>
 
         <footer>
-          {/* later */}
+          <Footer />
         </footer>
       </body>
     </html>
