@@ -7,8 +7,8 @@ export default function Footer() {
                 {/* Left: Brand */}
                 <div className="footer-brand">
                     <span className="footer-brand-name">VOID MATRIX</span>
-                    <p className="footer-copy">
-                        © {new Date().getFullYear()} Void Matrix Technology. All rights reserved.
+                    <p className="footer-brand-tagline">STRUCTURED INTELLIGENCE</p>
+                    <p className="footer-copy">© {new Date().getFullYear()} Void Matrix Technology. All rights reserved.
                     </p>
                 </div>
 

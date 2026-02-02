@@ -232,6 +232,14 @@ body {
   white-space: nowrap;
 }
 
+.footer-brand-tagline{
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.02rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid var(--border);
+}
+
 /* Links */
 .footer-links {
   display: flex;
@@ -252,9 +260,7 @@ body {
 
 /* Copyright */
 .footer-copy {
-  /* max-width: 1400px; */
-  margin: 0.2rem;
-  padding-bottom: 0.1rem;
+  padding: 0.1rem 0;
   border-bottom: 1px solid var(--border);
   color: rgba(255,255,255,0.6);
   font-size: 0.75rem;
