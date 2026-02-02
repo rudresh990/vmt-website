@@ -206,9 +206,12 @@ body {
 
 .footer-legal {
   background-color: #000; /* pure authority */
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgb(255,255,255,0.08);
   padding: 1.25rem 1.5rem 0.75rem;
   font-size: 0.8rem;
+  isolation: isolate;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-legal-inner {
