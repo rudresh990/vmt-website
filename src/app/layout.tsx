@@ -57,8 +57,17 @@ export default function RootLayout({
       <body
         className="bg-authkit min-h-screen"
       >
-        <Navbar />
-        {children}
+        <header>
+          <Navbar />
+        </header>
+
+        <main id="main-content">
+          {children}
+        </main>
+
+        <footer>
+          {/* later */}
+        </footer>
       </body>
     </html>
   );
