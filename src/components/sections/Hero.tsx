@@ -7,7 +7,7 @@ export default function Hero() {
                 </h1>
                 <p className="hero-subtitle">
                     We design and engineer reliable software systems, platforms, and digital
-                    solutions—built for growth, security, and long-term impact.
+                    solutions-built for growth, security, and long-term impact.
                 </p>
                 <div className="hero-actions">
                     <button className="btn btn-primary">
