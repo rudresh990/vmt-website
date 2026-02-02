@@ -92,7 +92,7 @@ export default function Navbar() {
                     <Link href="solutions" className={isActive("/solutions") ? "nav-link active" : "nav-link"}>Solutions</Link>
                     <Link href="platforms" className={isActive("/platforms") ? "nav-link active" : "nav-link"}>Platfroms</Link>
                     <Link href="company" className={isActive("/company") ? "nav-link active" : "nav-link"}>Company</Link>
-                    <Link href="conact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link>
+                    <Link href="contact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link>
                     {/* cta-btn */}
                     <button className="btn btn-primary">
                         Estimate Cost
