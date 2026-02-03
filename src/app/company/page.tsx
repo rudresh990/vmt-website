@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ComingSoon from "@/components/common/ComingSoon";
+import Hero from "@/components/sections/Hero";
 export const metadata: Metadata = {
   title: "Company",
   description:
@@ -7,5 +7,9 @@ export const metadata: Metadata = {
 };
 
 export default function CompanyPage(){
-    return <ComingSoon title="Company"/>
+    return <Hero
+        title="Company"
+        subtitle="Void Matrix Technology is focused on building reliable, scalable, and secure technology platforms designed for long-term business impact."
+        note="Company overview coming soon"
+      />
 }

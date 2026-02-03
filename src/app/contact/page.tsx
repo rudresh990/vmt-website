@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ComingSoon from "@/components/common/ComingSoon";
+import Hero from "@/components/sections/Hero";
 
 export const metadata: Metadata = {
     title: "Contact",
@@ -8,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-    return <ComingSoon title="Contact" />
+    return <Hero
+        title="Contact"
+        subtitle="We’re open to discussions around technology platforms, system design, and future collaboration."
+        note="Contact details will be available soon"
+      />
 }

@@ -9,7 +9,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero
+        title="Building Scalable Technology Platforms for Modern Businesses"
+        subtitle="We design and engineer reliable software systems, platforms, and digital
+                    solutions-built for growth, security, and long-term impact."
+        ctaLable="Estimate Cost"
+        note="Solution Coming Soon."
+      />
     </>
   );
 }

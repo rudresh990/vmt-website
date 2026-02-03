@@ -1,22 +1,34 @@
-export default function Hero() {
+type HeroProps = {
+    title:string;
+    subtitle?:string;
+    ctaLable?:string;
+    onCtaClick?:()=>void;
+    note?:string;
+};
+export default function Hero({
+    title,
+    subtitle,
+    ctaLable,
+    onCtaClick,
+    note,
+}:HeroProps) {
     return (
         <section className="hero">
             <div className="hero-inner">
                 <h1 className="hero-title">
-                    Building Scalable Technology Platforms for Modern Businesses
+                    {title}
                 </h1>
-                <p className="hero-subtitle">
-                    We design and engineer reliable software systems, platforms, and digital
-                    solutions-built for growth, security, and long-term impact.
-                </p>
+                {subtitle && <p className="hero-subtitle">
+                    {subtitle}
+                </p>}
                 <div className="hero-actions">
-                    <button className="btn btn-primary">
-                        Estimate Cost
-                    </button>
+                    {ctaLable && <button className="btn btn-primary">
+                        {ctaLable}
+                    </button>}
 
-                    <span className="hero-note">
-                        Solutions coming soon
-                    </span>
+                    {note && <span className="hero-note">
+                        {note}
+                    </span>}
                 </div>
             </div>
         </section>
