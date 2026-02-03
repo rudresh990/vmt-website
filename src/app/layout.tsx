@@ -6,6 +6,14 @@ import Script from "next/script";
 import "./styles/globals.css";
 
 export const metadata: Metadata = {
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
+
   metadataBase: new URL("https://voidmatrixtech.com"),
   title: {
     default: "Void Matrix Technology",
