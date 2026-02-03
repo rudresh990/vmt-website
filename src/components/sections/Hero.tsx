@@ -1,17 +1,21 @@
+"use client"
+import { useRouter } from "next/navigation";
 type HeroProps = {
     title:string;
     subtitle?:string;
     ctaLable?:string;
-    onCtaClick?:()=>void;
+    ctaRoute?:string;
     note?:string;
 };
 export default function Hero({
     title,
     subtitle,
     ctaLable,
-    onCtaClick,
+    ctaRoute,
     note,
 }:HeroProps) {
+
+    const router = useRouter();
     return (
         <section className="hero">
             <div className="hero-inner">
@@ -22,7 +26,7 @@ export default function Hero({
                     {subtitle}
                 </p>}
                 <div className="hero-actions">
-                    {ctaLable && <button className="btn btn-primary">
+                    {ctaLable && ctaRoute && <button className="btn btn-primary" onClick={()=>router.push(ctaRoute)}>
                         {ctaLable}
                     </button>}
 

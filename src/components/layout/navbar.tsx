@@ -80,7 +80,7 @@ export default function Navbar() {
                 </nav>
                 {/* right cta */}
                 <div className="navbar-right">
-                    <button className="btn btn-primary navbar-cta">Estimate Cost</button>
+                    {/* <button className="btn btn-primary navbar-cta">Estimate Cost</button> */}
                     {/* hamburger btn */}
                     <button className="navbar-menu-btn" ref={toggleRef} onClick={() => setOpen(!open)} aria-label="Open menu" aria-expanded={open}>☰</button>
                 </div>
@@ -94,9 +94,9 @@ export default function Navbar() {
                     <Link href="company" className={isActive("/company") ? "nav-link active" : "nav-link"}>Company</Link>
                     <Link href="contact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link>
                     {/* cta-btn */}
-                    <button className="btn btn-primary">
+                    {/* <button className="btn btn-primary">
                         Estimate Cost
-                    </button>
+                    </button> */}
                 </div>
             )
 

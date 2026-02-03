@@ -14,7 +14,8 @@ export default function Home() {
         subtitle="We design and engineer reliable software systems, platforms, and digital
                     solutions-built for growth, security, and long-term impact."
         ctaLable="Estimate Cost"
-        note="Solution Coming Soon."
+        ctaRoute="/estimate"
+        // note="Solution Coming Soon."
       />
     </>
   );
