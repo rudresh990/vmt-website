@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description:
     "Void Matrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.",
   applicationName: "Void Matrix Technology",
+  
 
   robots: {
     index: true,
