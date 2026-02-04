@@ -10,7 +10,8 @@ export default function Home() {
   return (
     <>
       <Hero
-        title="Building Scalable Technology Platforms for Modern Businesses"
+        title="Void Matrix Technology"
+        herosub="Software • Platforms • Digital Solutions"
         subtitle="We design and engineer reliable software systems, platforms, and digital
                     solutions-built for growth, security, and long-term impact."
         ctaLable="Estimate Cost"

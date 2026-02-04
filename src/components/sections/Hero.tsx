@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 type HeroProps = {
     title:string;
+    herosub?:string;
     subtitle?:string;
     ctaLable?:string;
     ctaRoute?:string;
@@ -9,6 +10,7 @@ type HeroProps = {
 };
 export default function Hero({
     title,
+    herosub,
     subtitle,
     ctaLable,
     ctaRoute,
@@ -22,6 +24,9 @@ export default function Hero({
                 <h1 className="hero-title">
                     {title}
                 </h1>
+                {herosub && <h2 className="h-subtitle">
+                        {herosub}
+                </h2>}
                 {subtitle && <p className="hero-subtitle">
                     {subtitle}
                 </p>}

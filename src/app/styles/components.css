@@ -49,7 +49,7 @@ body {
 
 /* brand */
 
-.braces{
+.braces {
   font-weight: 900;
   letter-spacing: 2px;
 
@@ -59,7 +59,7 @@ body {
   /* removes softness */
   text-shadow:
     /* 1px 0 0 currentColor, */
-   -.1px 0 0 currentColor;
+    -.1px 0 0 currentColor;
 }
 
 .navbar-brand .brand-text {
@@ -73,19 +73,20 @@ body {
 .navbar-links {
   display: flex;
   gap: 2rem;
+  z-index: 1;
 }
 
 .nav-link {
   font-family: var(--font-sans);
   font-size: 0.95rem;
   color: var(--text-muted);
-  margin:0 auto;
+  margin: 0 auto;
   text-decoration: none;
   position: relative;
   transition: color 0.2s ease;
 }
 
-.navbar-link :hover {
+.nav-link:hover {
   color: var(--text-main);
 }
 
@@ -109,8 +110,20 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  flex:0 0 auto;
+  flex: 0 0 auto;
   display: none;
+}
+
+
+/* universal button css */
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .btn {
@@ -190,7 +203,21 @@ body {
   font-weight: 500;
   color: var(--text-main);
   letter-spacing: -0.015em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.h-subtitle {
+  margin: 0.5rem 0;
+  font-size: clamp(0.95rem, 1.1vw, 1.1rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(180, 210, 230, 0.85);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
 }
 
 .hero-subtitle {
@@ -221,8 +248,9 @@ body {
    =============================== */
 
 .footer-legal {
-  background-color: #000; /* pure authority */
-  border-top: 1px solid rgb(255,255,255,0.08);
+  background-color: #000;
+  /* pure authority */
+  border-top: 1px solid rgb(255, 255, 255, 0.08);
   padding: 1.25rem 1.5rem 0.75rem;
   font-size: 0.8rem;
   isolation: isolate;
@@ -251,7 +279,7 @@ body {
   white-space: nowrap;
 }
 
-.footer-brand-tagline{
+.footer-brand-tagline {
   color: var(--text-muted);
   font-size: 0.85rem;
   letter-spacing: 0.02rem;
@@ -267,7 +295,7 @@ body {
 }
 
 .footer-links a {
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
   white-space: nowrap;
 }
@@ -281,7 +309,7 @@ body {
 .footer-copy {
   padding: 0.1rem 0;
   border-bottom: 1px solid var(--border);
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 0.75rem;
 }
 
@@ -289,19 +317,117 @@ body {
 
 /* Coming Soon*/
 
-.coming-soon{
+.coming-soon {
   padding: 6rem 1.5rem;
   text-align: center;
 }
 
-.coming-soon h1{
+.coming-soon h1 {
   font-family: var(--font-display);
   font-size: var(--h1-size);
   margin: 0.5rem;
 }
-.coming-soon p{
+
+.coming-soon p {
   color: var(--text-muted);
 }
+
+/* Calculator */
+
+.calc {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: .5rem 1.5rem;
+}
+
+.calc-title {
+  margin-top: 1rem auto;
+  font-size: var(--h1-size);
+}
+
+.calc-subtitle {
+  margin-top: 1rem;
+}
+
+.calc-step {
+  margin: 1rem 0;
+}
+
+.calc-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.calc-helper {
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.calc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.calc-options button {
+  text-align: left;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.calc-options button:hover {
+  background: rgba(148, 163, 184, 0.08)
+}
+
+.calc-options button:focus-visible {
+  outline: 2px solid var(--primary);
+}
+
+.calc-summary {
+  scroll-margin-top: 96px;
+}
+
+.calc-summary h2{
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: 0.01875rem;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+}
+.calc-range{
+  font-size: 1.25rem; /* 36px */
+  font-weight: 700;
+  letter-spacing: 0.025rem;
+  margin-bottom: 1.25rem;
+}
+.calc-disclaimer{
+  font-size: 1rem; /* 14px */
+  line-height: 1.7;
+  color: var(--text-muted);
+  text-align: justify;
+}
+.calc-back {
+  margin: .5rem 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  background: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.calc-back:hover {
+  color: var(--text-main);
+}
+
 
 @media (max-width: 480px) {
   .navbar-cta {
@@ -331,8 +457,13 @@ body {
     flex-direction: row;
     justify-content: center;
   }
-  .footer-inner{
+
+  .footer-inner {
     grid-template-columns: 1fr auto;
     align-items: start;
+  }
+  .calc-back{
+    color: var(--text-body);
+    width: 100%;
   }
 }
