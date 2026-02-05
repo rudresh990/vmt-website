@@ -4,12 +4,13 @@ import CalculatorSummary from "./CalculatorSummary";
 import { StepProjectType, StepComplexity, StepScale, StepTimeline } from "./CalculatorStep";
 import { estimateCost } from "@/lib/calculator/pricing";
 
-type calculatorData = {
+export type calculatorData = {
     projectType?: "web" | "mobile" | "platform";
     complexity?: "simple" | "medium" | "complex";
     scale?: "mvp" | "growth" | "enterprise";
     timeline?: "flexible" | "standard" | "urgent";
 }
+
 export default function Calculator() {
     const [step, setStep] = useState(1);
     const [data, setData] = useState<calculatorData>({});
@@ -23,7 +24,12 @@ export default function Calculator() {
 
     const showbackbutton = step > 1 && !result;
 
-
+    const estimateData ={
+        projectType:data.projectType!,
+        complexity:data.complexity!,
+        scale:data.scale!,
+        timeline:data.timeline!
+    }
 
     //result scroll view 
 
@@ -95,10 +101,9 @@ export default function Calculator() {
                     />
                 )}
             </>}
-
-
-            {result && (
-                <CalculatorSummary min={result.min} max={result.max} ref={summaryRef} />
+                {/* render calc summary after all data is ready otherwise it will crash with undef estimate data */}
+            {result && data.projectType && data.complexity && data.scale && data.timeline &&(
+                <CalculatorSummary min={result.min} max={result.max} ref={summaryRef} estimateData={estimateData} />
             )}
         </section>
     )
