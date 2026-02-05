@@ -81,13 +81,13 @@ export default function RootLayout({
         </Script>
       </head>
       <body
-        className="bg-authkit min-h-screen"
+        className="bg-authkit min-h-screen app-root"
       >
         <header>
           <Navbar />
         </header>
 
-        <main id="main-content">
+        <main id="main-content" className="app-main">
           {children}
         </main>
 

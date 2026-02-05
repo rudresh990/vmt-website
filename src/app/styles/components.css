@@ -10,8 +10,16 @@ body {
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  height: 100%;
 }
-
+.app-root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-main{
+  flex: 1;
+}
 .main-headings {
   font-size: var(--h1-size);
   color: var(--text-main);
@@ -185,7 +193,7 @@ button {
   background:
     radial-gradient(700px 350px at 50% 25%,
       rgba(96, 165, 250, 0.18),
-      transparent 60%);
+      transparent 90%);
   pointer-events: none;
 }
 
