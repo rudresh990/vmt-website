@@ -36,6 +36,14 @@ export default async function ContactPage({
         scale &&
         timeline
 
+    const estimateContext = hasEstimateData ?{
+        source:source!,
+        projectType:projectType!,
+        complexity:complexity!,
+        scale:scale!,
+        timeline:timeline!,
+    } : null;
+    
     function EstimateSummary({
         projectType,
         complexity,
@@ -76,7 +84,7 @@ export default async function ContactPage({
             )}
 
             {/* load contact form from component */}
-            <ContactForm estimateContext={hasEstimateData ? searchParams : null} />
+            <ContactForm estimateContext={estimateContext} />
 
             <p className="contact-trust">
                 No spam. No sales pressure. Just a focused technical discussion.
