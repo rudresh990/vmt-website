@@ -1,12 +1,21 @@
 import { forwardRef } from "react";
 import Link from "next/link";
+import { calculatorData } from "./Calculator";
 type CalculatorSummaryProps = {
     min: number;
     max: number;
+    estimateData: calculatorData,
 }
 
 const Calculatorsummary = forwardRef<HTMLDivElement, CalculatorSummaryProps>(
-    function CalculatorSummary({ min, max }, ref) {
+    function CalculatorSummary({ min, max, estimateData }, ref) {
+        const param = new URLSearchParams({
+            source: "estimate",
+            projectType:estimateData.projectType!,
+            complexity:estimateData.complexity!,
+            scale:estimateData.scale!,
+            timeline:estimateData.timeline!
+})
         return (
             <div className="calc-summary" ref={ref} tabIndex={-1}>
                 <h2>Estimated Project Cost</h2>
@@ -20,7 +29,7 @@ const Calculatorsummary = forwardRef<HTMLDivElement, CalculatorSummaryProps>(
                     directional guidance only. Final pricing may vary after detailed
                     requirement analysis and scope definition.
                 </p>
-                <Link className="btn btn-primary estimate-cta-link" href="/contact">
+                <Link className="btn btn-primary estimate-cta-link" href={`/contact?${param}`}>
                     Discuss this estimate
                 </Link>
 
