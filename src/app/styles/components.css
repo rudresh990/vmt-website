@@ -10,8 +10,16 @@ body {
   color: var(--text-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  height: 100%;
 }
-
+.app-root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-main{
+  flex: 1;
+}
 .main-headings {
   font-size: var(--h1-size);
   color: var(--text-main);
@@ -185,7 +193,7 @@ button {
   background:
     radial-gradient(700px 350px at 50% 25%,
       rgba(96, 165, 250, 0.18),
-      transparent 60%);
+      transparent 90%);
   pointer-events: none;
 }
 
@@ -337,6 +345,8 @@ button {
 .calc {
   max-width: 720px;
   margin: 0 auto;
+  /* justify-content: center; */
+  text-align: center;
   padding: .5rem 1.5rem;
 }
 
@@ -372,7 +382,7 @@ button {
 }
 
 .calc-options button {
-  text-align: left;
+  text-align: center;
   padding: 0.9rem 1rem;
   border: 1px solid var(--border);
   background: transparent;
@@ -390,12 +400,15 @@ button {
 
 .calc-summary {
   scroll-margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .calc-summary h2{
   font-size: 1.375rem;
   font-weight: 600;
-  letter-spacing: 0.01875rem;
+  letter-spacing: 0.018rem;
   margin-bottom: 1rem;
   color: #f8fafc;
 }
@@ -409,7 +422,8 @@ button {
   font-size: 1rem; /* 14px */
   line-height: 1.7;
   color: var(--text-muted);
-  text-align: justify;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 .calc-back {
   margin: .5rem 0;
@@ -428,6 +442,10 @@ button {
   color: var(--text-main);
 }
 
+.estimate-cta-link{
+  font-size: 1.5rem;
+  margin: .5rem auto 1rem;
+}
 
 @media (max-width: 480px) {
   .navbar-cta {
