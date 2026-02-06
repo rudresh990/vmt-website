@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import { Inter, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./styles/globals.css";
 
 export const metadata: Metadata = {
@@ -94,6 +95,7 @@ export default function RootLayout({
         <footer>
           <Footer />
         </footer>
+        <SpeedInsights />
       </body>
     </html>
   );
