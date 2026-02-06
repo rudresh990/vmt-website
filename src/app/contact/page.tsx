@@ -36,14 +36,14 @@ export default async function ContactPage({
         scale &&
         timeline
 
-    const estimateContext = hasEstimateData ?{
-        source:source!,
-        projectType:projectType!,
-        complexity:complexity!,
-        scale:scale!,
-        timeline:timeline!,
+    const estimateContext = hasEstimateData ? {
+        source: source!,
+        projectType: projectType!,
+        complexity: complexity!,
+        scale: scale!,
+        timeline: timeline!,
     } : null;
-    
+
     function EstimateSummary({
         projectType,
         complexity,
@@ -51,14 +51,26 @@ export default async function ContactPage({
         timeline,
     }: EstimateParams) {
         return (
-            <div className="estimate-summary-li">
-                <h2>Your Project Overview</h2>
+            <div className="estimate-summary">
+                <h2 className="estimate-title">Your Project Overview</h2>
 
-                <ul>
-                    <li><strong>Project Type:</strong>{projectType}</li>
-                    <li><strong>Complexity:</strong>{complexity}</li>
-                    <li><strong>Scale:</strong>{scale}</li>
-                    <li><strong>Timeline:</strong>{timeline}</li>
+                <ul className="estimate-list">
+                    <li>
+                        <span className="estimate-label">Project Type:</span>
+                        <span className="estimate-value">{projectType}</span>
+                    </li>
+                    <li>
+                        <span className="estimate-label">Complexity:</span>
+                        <span className="estimate-value">{complexity}</span>
+                    </li>
+                    <li>
+                        <span className="estimate-label">Scale:</span>
+                        <span className="estimate-value">{scale}</span>
+                    </li>
+                    <li>
+                        <span className="estimate-label">Timeline:</span>
+                        <span className="estimate-value">{timeline}</span>
+                    </li>
                 </ul>
 
                 <p className="estimate-summary-note">
@@ -69,23 +81,24 @@ export default async function ContactPage({
     }
     return (
 
-        <section className="contact">
+        <section className="contact-container">
             <header className="contact-header">
                 <Hero title="Void Matrix Technology" subtitle="Tell us about your project and we'll help you move forward."></Hero>
             </header>
-
             {hasEstimateData && (
-                <EstimateSummary
-                    projectType={projectType}
-                    complexity={complexity}
-                    scale={scale}
-                    timeline={timeline}
-                />
+                <div className="contact-summary">
+                    <EstimateSummary
+                        projectType={projectType}
+                        complexity={complexity}
+                        scale={scale}
+                        timeline={timeline}
+                    />
+                </div>
             )}
-
             {/* load contact form from component */}
-            <ContactForm estimateContext={estimateContext} />
-
+            <div className="contact-form-wrapper">
+                <ContactForm estimateContext={estimateContext} />
+            </div>
             <p className="contact-trust">
                 No spam. No sales pressure. Just a focused technical discussion.
             </p>
