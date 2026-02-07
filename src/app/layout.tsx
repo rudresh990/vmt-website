@@ -5,7 +5,9 @@ import { Inter, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 import "./styles/globals.css";
 // light speed vercel
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+// analytics
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
 
@@ -92,6 +94,7 @@ export default function RootLayout({
         <main id="main-content" className="app-main">
           {children}
           <SpeedInsights/>
+          <Analytics/>
         </main>
 
         <footer>
