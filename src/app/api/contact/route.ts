@@ -1,7 +1,8 @@
 import { redirect } from "next/dist/server/api-utils";
 import { NextResponse } from "next/server";
 import { Resend } from "resend"
-
+const api_key = "re_2QqPbbDy_8FxP3objvYfKE2u4MLyc7mBi";
+const email_add = "rudresh@voidmatrixtech.com";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
@@ -55,7 +56,7 @@ export async function POST(req: Request) {
 
         await resend.emails.send({
             from: "Void Matrix Technology <no-reply@voidmatrixtech.com>",
-            to: process.env.CONTACT_TO_EMAIL!,
+            to: process.env.TO_EMAIL!,
             replyTo: payload.email,
             subject: "New Project Enquiry",
             html: `
