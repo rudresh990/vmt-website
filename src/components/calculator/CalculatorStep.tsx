@@ -37,9 +37,9 @@ export function StepProjectType({
             title="What type of project are you planning?"
             helper="This helps  us understand the overall structure and effort involved."
         >
-            <button onClick={() => onSelect("web")}>Web App</button>
-            <button onClick={() => onSelect("mobile")}>Mobile App</button>
-            <button onClick={() => onSelect("platform")}>Platform / SaaS</button>
+            <button onClick={() => onSelect("web")}>Web Application</button>
+            <button onClick={() => onSelect("mobile")}>Mobile Application</button>
+            <button onClick={() => onSelect("platform")}>SaaS / Platform Product</button>
         </StepWrapper>
     );
 }
