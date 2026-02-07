@@ -24,7 +24,7 @@ export async function POST(req: Request) {
 
         //validating important data is present
 
-        if (!payload.name || !payload.email || payload.phone) {
+        if (!payload.name || !payload.email || !payload.phone) {
             return NextResponse.json(
                 { error: "Missing required fields" },
                 { status: 400 }
