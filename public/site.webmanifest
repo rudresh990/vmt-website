@@ -2,7 +2,7 @@
   "name": "Void Matrix Technology",
   "short_name": "VMT",
   "description": "Void Matrix Technology - Software platform for digital solutions, engineering, and innovation.",
-  "start_url": "/?source=pwa",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "theme_color": "#0b0b0b",
