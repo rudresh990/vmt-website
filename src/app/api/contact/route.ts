@@ -1,14 +1,17 @@
+import CompanyPage from "@/app/company/page";
 import { redirect } from "next/dist/server/api-utils";
 import { NextResponse } from "next/server";
 import { Resend } from "resend"
-const api_key = "re_2QqPbbDy_8FxP3objvYfKE2u4MLyc7mBi";
-const email_add = "rudresh@voidmatrixtech.com";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
     try {
         const formData = await req.formData();
 
+        if (formData.get("company")) {
+            console.log("honey Pot");
+            return NextResponse.json({ ok: true })
+        }
         //normalising data for blank inputs
 
         const payload = {
@@ -16,6 +19,7 @@ export async function POST(req: Request) {
             email: formData.get("email")?.toString() || null,
             phone: formData.get("phone")?.toString() || null,
             message: formData.get("message")?.toString() || null,
+
 
             projectType: formData.get("projectType")?.toString() || null,
             complexity: formData.get("complexity")?.toString() || null,
@@ -51,9 +55,7 @@ export async function POST(req: Request) {
             </ul>
         `:
             "";
-
         // send internal notification email
-
         await resend.emails.send({
             from: "Void Matrix Technology <no-reply@voidmatrixtech.com>",
             to: process.env.TO_EMAIL!,
@@ -65,7 +67,7 @@ export async function POST(req: Request) {
             <p><strong>Email:</strong>${payload.email}</p>
             <p><strong>Phone:</strong>${payload.phone}</p>
             <h3>Message</h3>
-            <p>${payload.message} || "No message provided"</p>
+            <p>${payload.message  || "No message provided"}</p>
         `
         });
 
@@ -74,10 +76,10 @@ export async function POST(req: Request) {
         return NextResponse.redirect(
             new URL("/contact?success=true", req.url)
         );
-    }catch(error){
+    } catch (error) {
         return NextResponse.json(
-            {error:"Failed to send message"},
-            {status:500}
+            { error: "Failed to send message" },
+            { status: 500 }
         );
     }
 }

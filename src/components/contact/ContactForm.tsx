@@ -13,6 +13,8 @@ export default function ContactForm({ estimateContext }: ContactFormProps) {
   const [phoneError, setPhoneError] = useState("");
   const [emailError, setEmailError] = useState("");
 
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
   const phoneRegex = /^[6-9]\d{9}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -37,6 +39,8 @@ export default function ContactForm({ estimateContext }: ContactFormProps) {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const isPhoneValid = validatePhone(phone);
     const isEmailValid = validateEmail(email);
+
+    setIsSubmitting(true);
 
     if (!isPhoneValid || !isEmailValid) {
       e.preventDefault();
@@ -95,6 +99,12 @@ export default function ContactForm({ estimateContext }: ContactFormProps) {
         />
       </label>
 
+      {/* HP */}
+      <label className="absolute left-[-9999px] top-auto w-px h-px overflow-hidden">
+        Company
+        <input type="text" maxLength={50} name="company" tabIndex={-1} autoComplete="off"/>
+      </label>
+
       {estimateContext &&
         Object.entries(estimateContext).map(([key, value]) => (
           <input
@@ -105,7 +115,7 @@ export default function ContactForm({ estimateContext }: ContactFormProps) {
           />
         ))}
 
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
         Send message
       </button>
     </form>
