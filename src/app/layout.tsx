@@ -10,11 +10,20 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
-
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {
+        url: "/favicon-48.png",
+        sizes: "48x48",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
+    ],
     shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
 
@@ -27,7 +36,7 @@ export const metadata: Metadata = {
   description:
     "Void Matrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.",
   applicationName: "Void Matrix Technology",
-  
+
 
   robots: {
     index: true,
@@ -93,8 +102,8 @@ export default function RootLayout({
 
         <main id="main-content" className="app-main">
           {children}
-          <SpeedInsights/>
-          <Analytics/>
+          <SpeedInsights />
+          <Analytics />
         </main>
 
         <footer>

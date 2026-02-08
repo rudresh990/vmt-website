@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="footer-legal-inner">
                 {/* Left: Brand */}
                 <div className="footer-brand">
-                    <Link href="/"><span className="footer-brand-name">VOID MATRIX</span></Link>
+                    <Link href="/"><span className="footer-brand-name">VOID MATRIX TECHNOLOGY</span></Link>
                     <p className="footer-brand-tagline">STRUCTURED INTELLIGENCE</p>
                     <p className="footer-copy">© {new Date().getFullYear()} Void Matrix Technology. All rights reserved.
                     </p>
