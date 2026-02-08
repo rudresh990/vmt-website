@@ -31,9 +31,9 @@ export default function Hero({
                     {subtitle}
                 </p>}
                 <div className="hero-actions">
-                    {ctaLable && ctaRoute && <button className="btn btn-primary" onClick={()=>router.push(ctaRoute)}>
+                    {/* {ctaLable && ctaRoute && <button className="btn btn-primary" onClick={()=>router.push(ctaRoute)}>
                         {ctaLable}
-                    </button>}
+                    </button>} */}
 
                     {note && <span className="hero-note">
                         {note}
