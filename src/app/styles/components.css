@@ -680,6 +680,31 @@ border-color: var(--primary-glow);
   line-height: 1.6;
 }
 
+/* glass card */
+
+.how-we-work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+
+.vmt-glass-card {
+  position: relative;
+  border-radius: 18px;
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.vmt-glass-card:hover {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
 @media (max-width: 480px) {
   .navbar-cta {
     display: none;

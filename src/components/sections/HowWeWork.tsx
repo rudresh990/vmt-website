@@ -1,3 +1,5 @@
+import GlassCard from "../ui/GlassCard"
+
 export default function HowWeWork() {
     return (
         <section className="how-we-work">
@@ -10,42 +12,41 @@ export default function HowWeWork() {
                     business needs.
                 </p>
 
-                <div className="process-steps">
-                    <div className="process-step">
+                <div className="how-we-work-grid">
+                    <GlassCard>
                         <span className="step-number">01</span>
                         <h3>Understand the Problem</h3>
                         <p>
                             We begin by understanding your business goals, target users, and
                             technical requirements before designing any software solution.
                         </p>
-                    </div>
+                    </GlassCard>
 
-                    <div className="process-step">
+                    <GlassCard>
                         <span className="step-number">02</span>
                         <h3>Design the Right Architecture</h3>
                         <p>
                             We design scalable system architectures that balance performance,
                             security, and long-term maintainability.
                         </p>
-                    </div>
+                    </GlassCard>
 
-                    <div className="process-step">
+                    <GlassCard>
                         <span className="step-number">03</span>
                         <h3>Build & Iterate</h3>
                         <p>
                             We develop custom software in structured milestones with regular
                             updates and feedback-driven iteration.
                         </p>
-                    </div>
-
-                    <div className="process-step">
+                    </GlassCard>
+                    <GlassCard>
                         <span className="step-number">04</span>
                         <h3>Launch & Support</h3>
                         <p>
                             We support deployment and post-launch improvements to ensure
                             reliable performance as systems grow.
                         </p>
-                    </div>
+                    </GlassCard>
                 </div>
             </div>
         </section>

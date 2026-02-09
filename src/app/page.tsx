@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import WhatweDo from "@/components/sections/WhatweDo";
 import Hero from "@/components/sections/Hero";
-import CtaButton from "@/components/common/CtaButton";
+import CtaButton from "@/components/ui/CtaButton";
 import HowWeWork from "@/components/sections/HowWeWork";
 
 export const metadata: Metadata = {
