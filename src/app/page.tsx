@@ -3,6 +3,8 @@ import WhatweDo from "@/components/sections/WhatweDo";
 import Hero from "@/components/sections/Hero";
 import CtaButton from "@/components/ui/CtaButton";
 import HowWeWork from "@/components/sections/HowWeWork";
+import WhoWeWorkWith from "@/components/sections/WhoWeWorkWith";
+import WhyVMT from "@/components/sections/WhyVMT";
 
 export const metadata: Metadata = {
   title: "Void Matrix Technology | Scalable Technology Platforms",
@@ -23,6 +25,8 @@ export default function Home() {
       />
       <WhatweDo/>
       <HowWeWork/>
+      <WhoWeWorkWith/>
+      <WhyVMT/>
       <CtaButton/>
     </>
   );
