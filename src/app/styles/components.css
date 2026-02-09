@@ -629,6 +629,57 @@ border-color: var(--primary-glow);
   line-height: 1.6;
 }
 
+/* how-we-work */
+
+.how-we-work {
+  padding: 5rem 1.5rem;
+}
+
+.how-we-work-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hww-title {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+}
+
+.hww-intro {
+  max-width: 800px;
+  margin-bottom: 3rem;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+}
+
+.process-step {
+  position: relative;
+}
+
+.step-number {
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.process-step h3 {
+  margin: 0.5rem 0;
+  color: var(--text-main);
+}
+
+.process-step p {
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
 @media (max-width: 480px) {
   .navbar-cta {
     display: none;
