@@ -73,7 +73,7 @@ export default function Navbar() {
                 {/* links */}
                 <nav className="navbar-links">
                     <Link href="/" className={isActive("/") ? "nav-link active" : "nav-link"}>Home</Link>
-                    <Link href="solutions" className={isActive("/solutions") ? "nav-link active" : "nav-link"}>Solutions</Link>
+                    <Link href="services" className={isActive("/services") ? "nav-link active" : "nav-link"}>Services</Link>
                     <Link href="platforms" className={isActive("/platforms") ? "nav-link active" : "nav-link"}>Platfroms</Link>
                     <Link href="company" className={isActive("/company") ? "nav-link active" : "nav-link"}>Company</Link>
                     <Link href="contact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link>
@@ -89,7 +89,7 @@ export default function Navbar() {
             {open && (
                 <div className="mobile-nav" ref={menuRef}>
                     <Link href="/" className={isActive("/") ? "nav-link active" : "nav-link"}>Home</Link>
-                    <Link href="solutions" className={isActive("/solutions") ? "nav-link active" : "nav-link"}>Solutions</Link>
+                    <Link href="services" className={isActive("/services") ? "nav-link active" : "nav-link"}>Services</Link>
                     <Link href="platforms" className={isActive("/platforms") ? "nav-link active" : "nav-link"}>Platfroms</Link>
                     <Link href="company" className={isActive("/company") ? "nav-link active" : "nav-link"}>Company</Link>
                     <Link href="contact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link>

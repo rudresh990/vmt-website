@@ -9,7 +9,7 @@ export default function sitemap():MetadataRoute.Sitemap{
         priority:1,
     },
     {
-        url:`${baseUrl}/solutions`,
+        url:`${baseUrl}/services`,
         lastModified:new Date(),
         changeFrequency:"monthly",
         priority:0.7,
