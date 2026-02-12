@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Linkedin } from "lucide-react";
 export const metadata = {
     title: "Message Sent Successfully | Void Matrix Technology",
     description: "Your message has been successfully sent to Void Matrix Technology. Our team will contact you shortly.",
