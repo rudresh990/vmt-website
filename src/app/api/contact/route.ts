@@ -74,7 +74,7 @@ export async function POST(req: Request) {
         // redirect on success state
 
         return NextResponse.redirect(
-            new URL("/contact?success=true", req.url)
+            new URL("/contact/success", req.url)
         );
     } catch (error) {
         return NextResponse.json(
