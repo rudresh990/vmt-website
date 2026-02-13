@@ -2,7 +2,7 @@ import GlassCard from "../ui/GlassCard";
 
 export default function HowWeWork() {
     return (
-        <section className="how-we-work">
+        <section className="how-we-work" id="how-we-work">
             <div className="how-we-work-inner">
                 <div className="how-we-work-grid">
 
