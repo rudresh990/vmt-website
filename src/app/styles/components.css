@@ -946,9 +946,6 @@ border-color: var(--primary-glow);
   color: var(--text-body);
   line-height: 1.6;
 }
-.company-cta h2{
-
-}
 
 
 @media (max-width: 480px) {
@@ -959,6 +956,46 @@ border-color: var(--primary-glow);
   .mobile-nav .btn {
     display: inline-flex;
   }
+}
+
+/* legal Layout */
+
+.legal-page {
+  padding: 6rem 1.5rem 5rem;
+}
+
+.legal-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.legal-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.legal-content h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.legal-content p {
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+}
+
+.legal-content ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.legal-content li {
+  margin-bottom: 0.4rem;
 }
 
 @media (max-width: 900px) {
