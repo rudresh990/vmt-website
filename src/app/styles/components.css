@@ -870,7 +870,6 @@ border-color: var(--primary-glow);
 .platform-group h2 {
   margin-bottom: 0.5rem;
   color: var(--text-main);
-  font-size: var(--h2);
 
 }
 
@@ -893,7 +892,7 @@ border-color: var(--primary-glow);
 
 /* platform cta */
 
-.platform-cta .vmt-glass-card ,.company-cta{
+/* .platform-cta .vmt-glass-card ,.company-cta{
   margin: 0.5rem auto;
   max-width: 720px;
   text-align: center;
@@ -914,8 +913,15 @@ border-color: var(--primary-glow);
   margin-bottom: 1rem;
   color: var(--text-body);
   line-height: 1.6;
-}
+} */
 
+/* .platform-cta{
+  text-align: center;
+  padding: 2.5rem 2rem;
+  margin-bottom: 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+} */
 /* company page */
 
 .company-hero,

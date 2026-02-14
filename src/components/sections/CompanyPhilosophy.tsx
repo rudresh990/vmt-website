@@ -2,7 +2,7 @@ export default function CompanyPhilosophy() {
   return (
     <section className="company-philosophy">
       <div className="section-inner">
-        <h2>Our Philosophy</h2>
+        <h2 className="section-title">Our Philosophy</h2>
 
         <p>
           We believe software should be built with long-term stability in mind.

@@ -12,7 +12,7 @@ export default function PlatformGroup({
   return (
     <section className="platform-group">
       <div className="section-inner">
-        <h2>{title}</h2>
+        <h2 className="section-title">{title}</h2>
         <p className="platform-desc">{description}</p>
 
         <ul className="platform-points">

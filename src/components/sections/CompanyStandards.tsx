@@ -2,7 +2,7 @@ export default function CompanyStandards() {
   return (
     <section className="company-standards">
       <div className="section-inner">
-        <h2>Engineering Standards</h2>
+        <h2 className="section-title">Engineering Standards</h2>
 
         <ul className="company-list">
           <li>Scalable and maintainable architecture</li>

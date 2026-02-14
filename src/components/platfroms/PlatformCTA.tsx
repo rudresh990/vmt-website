@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function PlatformsCTA() {
   return (
-    <section className="platforms-cta">
-      <div className="platform-cta">
+    <section className="services-cta">
+      <div className="section-inner">
         <GlassCard>
           <h2>Building a Platform-Driven Product?</h2>
           <p>

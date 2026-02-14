@@ -2,7 +2,7 @@ export default function CompanyCollaboration() {
   return (
     <section className="company-collaboration">
       <div className="section-inner">
-        <h2>How We Work With Clients</h2>
+        <h2 className="section-title">How We Work With Clients</h2>
 
         <ul className="company-list">
           <li>

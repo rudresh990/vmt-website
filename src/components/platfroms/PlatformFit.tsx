@@ -2,7 +2,7 @@ export default function PlatformsFit() {
   return (
     <section className="platforms-fit">
       <div className="section-inner">
-        <h2>When Platform Choices Matter Most</h2>
+        <h2 className="section-title">When Platform Choices Matter Most</h2>
 
         <ul className="fit-list">
           <li>You are building a product meant to scale</li>

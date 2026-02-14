@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CompanyCTA() {
   return (
-    <section className="company-cta">
+    <section className="services-cta">
       <div className="section-inner">
         <GlassCard>
           <h2>Looking for a Reliable Technology Partner?</h2>

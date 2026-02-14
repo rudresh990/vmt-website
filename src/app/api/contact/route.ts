@@ -9,7 +9,7 @@ export async function POST(req: Request) {
         const formData = await req.formData();
 
         if (formData.get("company")) {
-            console.log("honey Pot");
+            // console.log("honey Pot");
             return NextResponse.json({ ok: true })
         }
         //normalising data for blank inputs
@@ -74,7 +74,8 @@ export async function POST(req: Request) {
         // redirect on success state
 
         return NextResponse.redirect(
-            new URL("/contact/success", req.url)
+            new URL("/contact/success", req.url),
+            303
         );
     } catch (error) {
         return NextResponse.json(
