@@ -889,41 +889,6 @@ border-color: var(--primary-glow);
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
-
-/* platform cta */
-
-/* .platform-cta .vmt-glass-card ,.company-cta{
-  margin: 0.5rem auto;
-  max-width: 720px;
-  text-align: center;
-  padding: 2.5rem 2rem;
-  margin-bottom: 1rem;
-}
-.platform-cta,.company-cta h2 {
-  text-align: center;
-  font-size: clamp(1.6rem, 3vw, 2rem);
-  margin-bottom: 0.75rem;
-  color: var(--text-main);
-}
-
-.platform-cta,.company-cta p {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 55ch;
-  margin-bottom: 1rem;
-  color: var(--text-body);
-  line-height: 1.6;
-} */
-
-/* .platform-cta{
-  text-align: center;
-  padding: 2.5rem 2rem;
-  margin-bottom: 1rem;
-  max-width: 720px;
-  margin: 0 auto;
-} */
-/* company page */
-
 .company-hero,
 .company-philosophy,
 .company-collaboration,
@@ -951,6 +916,36 @@ border-color: var(--primary-glow);
   margin-bottom: 1rem;
   color: var(--text-body);
   line-height: 1.6;
+}
+
+.footer-social {
+    display: flex;
+    gap: 18px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.social-icon {
+    width: 18px;
+    height: 18px;
+    color: #ffffff;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+/* Hover Animation */
+.footer-social a:hover .social-icon {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+/* Brand Hover Colors */
+.footer-social a[href*="linkedin"]:hover .social-icon {
+    color: #0A66C2;
+}
+
+.footer-social a[href*="instagram"]:hover .social-icon {
+    color: #E1306C;
 }
 
 
