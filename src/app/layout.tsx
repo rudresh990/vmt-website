@@ -4,6 +4,7 @@ import Footer from "@/components/layout/footer";
 import { Inter, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 import "./styles/globals.css";
+import { organizationSchema } from "./lib/schema";
 // light speed vercel
 import { SpeedInsights } from "@vercel/speed-insights/next";
 // analytics
@@ -93,6 +94,14 @@ export default function RootLayout({
             gtag('config', 'G-THEJRBKYV5');
           `}
         </Script>
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
       </head>
       <body
         className="bg-authkit min-h-screen app-root"
