@@ -4,28 +4,29 @@ import CoreServices from "@/components/sections/CoreServices";
 import EngineeringApproach from "@/components/sections/EngineeringApproach";
 import WhenToChooseVMT from "@/components/sections/WhenToChooseVMT";
 import ServicesCTA from "@/components/sections/ServicesCTA";
+import CtaButtonRe from "@/components/ui/CtaButtonRe";
+import ServicesFAQ from "@/components/sections/ServicesFAQ";
 
-export const metadata = {
-    title: "Software Development Services & Platform Engineering | Void Matrix Technology",
+export const metadata: Metadata = {
+    title:
+        "High-Performance Software & Technical SEO Services | VMT",
     description:
-        "Void Matrix Technology provides custom software development, scalable platform engineering, and digital system services for startups and growing businesses.",
+        "Custom software development, scalable platform engineering, technical SEO, and Core Web Vitals optimization for fast, growth-ready websites.",
 };
 
-
 export default function SolutionPage() {
-    // return <ComingSoon title="Solutions" />
     return (
         <>
             <Hero
-                title="Services"
-                subtitle="We design and deliver scalable software and platform solutions
-                tailored to modern business needs."
-                // note="Detailed solutions coming soon."
+                title="Performance-Driven Software & Technical SEO Services"
+                subtitle="From scalable web development to Core Web Vitals optimization, we engineer fast, search-optimized digital platforms built to grow your business."
             />
-            <CoreServices/>
-            <EngineeringApproach/>
-            <WhenToChooseVMT/>
-            <ServicesCTA/>
+            <CtaButtonRe title="Get Free Website Audit" url="/contact"/>
+            <CoreServices />
+            <EngineeringApproach />
+            <WhenToChooseVMT />
+            <ServicesFAQ/>
+            <ServicesCTA />
         </>
     )
 }

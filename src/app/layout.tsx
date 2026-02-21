@@ -4,11 +4,11 @@ import Footer from "@/components/layout/footer";
 import { Inter, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 import "./styles/globals.css";
-import { organizationSchema } from "./lib/schema";
 // light speed vercel
 import { SpeedInsights } from "@vercel/speed-insights/next";
 // analytics
 import { Analytics } from "@vercel/analytics/next"
+import { organizationSchema } from "./lib/schema/organization";
 
 export const metadata: Metadata = {
   icons: {
@@ -78,6 +78,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schema = {
+    "@context":"https://schema.org",
+    "@graph":[organizationSchema],
+  }
   return (
     <html lang="en" className={`${inter.variable} ${IBMPlex.variable}`}>
       <head>
@@ -99,7 +103,7 @@ export default function RootLayout({
           type="application/ld+json"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
+            __html: JSON.stringify(schema),
           }}
         />
       </head>

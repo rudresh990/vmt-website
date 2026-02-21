@@ -5,14 +5,24 @@ export default function ServicesCTA() {
     <section className="services-cta">
       <div className="section-inner">
         <GlassCard>
-          <h2>Planning a Software Project?</h2>
+
+          <h2>
+            Estimate Your Software Development Cost Before You Build
+          </h2>
+
           <p>
-            Use our estimator to get a clear idea of scope, timeline, and cost
-            before starting a conversation.
+            Get a clear estimate of your software development cost, project scope,
+            timeline, and technical requirements before starting. Our estimator
+            helps you plan scalable solutions with realistic budgets and execution clarity.
           </p>
-          <a href="/software-development-cost-estimator" className="btn btn-primary">
-            Estimate Project Cost
+
+          <a
+            href="/software-development-cost-estimator"
+            className="btn btn-primary"
+          >
+            Calculate Your Software Project Cost
           </a>
+
         </GlassCard>
       </div>
     </section>
