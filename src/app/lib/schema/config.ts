@@ -1,17 +1,27 @@
-import { AreaServed, B_Logo, ContactPoint, Person } from "./types";
+import { AreaServed, ContactPoint, ImageObject, Person } from "./types";
 
 export const SITE_URL = "https://voidmatrixtech.com";
 
-export const ORGINAZASTION_ID = `${SITE_URL}/#organization`;
+export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+
+export const FOUNDER_ID = `${SITE_URL}/#rudresh`;
+
+export const WEBSITE_ID = `${SITE_URL}/#website`
+
+export const NAME = "Void Matrix Technology";
+
+export const LEGAL_NAME = "Void Matrix Technology";
+
+export const BRAND_DESC = "Void Matrix Technology is a modern technology company specializing in SEO, website development, and high-performance web application solutions. We build scalable digital products using Next.js, React, AI, and cloud technologies to help businesses grow online.";
 
 export const BRAND_LOGO = {
     "@type":"ImageObject",
     url:`${SITE_URL}/logo.png`
-}satisfies B_Logo;
+} satisfies ImageObject;
 
 export const CONTACT_POINT = {
     "@type":"ContactPoint",
-    ContactType:"customer support",
+    contactType:"customer support",
     email:"hello@voidmatrixtech.com"
 } satisfies ContactPoint;
 
@@ -22,7 +32,7 @@ export const AREA_SERVED = [
     { "@type": "City", name: "Delhi" },
     { "@type": "AdministrativeArea", name: "Maharastra" },
     { "@type": "Country", name: "India" },
-    { "@type": "AdministrativeArea", name: "Worldwide" }
+    { "@type": "Place", name: "Worldwide" }
 ] satisfies AreaServed[];
 
 export const SOCIAL_LINKS = [
@@ -32,7 +42,7 @@ export const SOCIAL_LINKS = [
 
 export const PERSON = {
     "@type": "Person",
-    "@id":"https://voidmatrixtech.com/#rudresh",
+    "@id":FOUNDER_ID,
     name: "Rudresh Shrivastav",
 } satisfies Person;
 

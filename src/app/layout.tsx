@@ -8,7 +8,9 @@ import "./styles/globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 // analytics
 import { Analytics } from "@vercel/analytics/next"
-import { organizationSchema } from "./lib/schema/organization";
+import { generateOrganization} from "./lib/schema/organization";
+import { buildGraph } from "./lib/schema/graph";
+import { generateWebSite } from "./lib/schema/website";
 
 export const metadata: Metadata = {
   icons: {
@@ -73,15 +75,23 @@ const IBMPlex = IBM_Plex_Sans({
   display: "swap",
 });
 
+
+// Dynamic Schema injection 
+
+const org = generateOrganization();
+const website = generateWebSite();
+
+const schema = buildGraph([org , website]);
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const schema = {
-    "@context":"https://schema.org",
-    "@graph":[organizationSchema],
-  }
+  // const schema = {
+  //   "@context":"https://schema.org",
+  //   "@graph":[schema],
+  // }
   return (
     <html lang="en" className={`${inter.variable} ${IBMPlex.variable}`}>
       <head>

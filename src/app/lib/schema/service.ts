@@ -1,29 +1,39 @@
-import { SITE_URL, ORGINAZASTION_ID, AREA_SERVED } from "./config";
-interface GenerateServicesProps {
-    slug: string;
-    name: string;
-    description: string;
-    serviceType: string;
+import { BaseSchema } from "./base";
+import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, AREA_SERVED } from "./config";
+
+export interface ServiceSchema extends BaseSchema{
+    "@type":"Service",
+    name:string,
+    description:string,
+    provider:{
+        "@type":"Organization",
+        "@id":string,
+    };
+    isPartOf:{
+        "@type":"WebSite",
+        "@id":string,
+    },
+    areaServed:{};
 }
 
-export const generateServicesSchema = ({
-    slug,
-    name,
-    description,
-    serviceType,
-}: GenerateServicesProps) => {
-    const url = `${SITE_URL}/${slug}`;
-    return {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": `${url}/#service`,
+export function generateService (
+    name:string,
+    slug:string,
+    description:string,
+):ServiceSchema{
+    return{
+        "@type":"Service",
+        "@id":`${SITE_URL}/services/${slug}/#service`,
         name,
         description,
-        url,
-        serviceType,
-        provider: {
-            "@id": ORGINAZASTION_ID
+        provider:{
+            "@type":"Organization",
+            "@id":ORGANIZATION_ID,
         },
-        areaServed: AREA_SERVED,
-    };
-};
+        isPartOf:{
+            "@type":"WebSite",
+            "@id":WEBSITE_ID,
+        },
+        areaServed:AREA_SERVED,
+    }
+}
