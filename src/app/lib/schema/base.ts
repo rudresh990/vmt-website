@@ -1,4 +1,4 @@
 export interface BaseSchema{
-    "@context":"https://schema.org";
+    "@type":string;
     "@id":string;
 }
