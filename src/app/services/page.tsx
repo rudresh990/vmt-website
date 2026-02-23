@@ -9,7 +9,7 @@ import ServicesFAQ from "@/components/sections/ServicesFAQ";
 
 export const metadata: Metadata = {
     title:
-        "High-Performance Software & Technical SEO Services | VMT",
+        "Technical SEO & Custom Software Development",
     description:
         "Custom software development, scalable platform engineering, technical SEO, and Core Web Vitals optimization for fast, growth-ready websites.",
 };
