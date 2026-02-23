@@ -6,7 +6,9 @@ export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
 export const FOUNDER_ID = `${SITE_URL}/#rudresh`;
 
-export const WEBSITE_ID = `${SITE_URL}/#website`
+export const WEBSITE_ID = `${SITE_URL}/#website`;
+
+export const COLLECTION_ID =`${SITE_URL}/#Collection`;
 
 export const NAME = "Void Matrix Technology";
 
