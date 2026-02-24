@@ -4,11 +4,12 @@ import Footer from "@/components/layout/footer";
 import { Inter, IBM_Plex_Sans } from "next/font/google";
 import Script from "next/script";
 import "./styles/globals.css";
+import BreadcrumbInjector from "@/components/schema/BreadcrumbInjector";
 // light speed vercel
 import { SpeedInsights } from "@vercel/speed-insights/next";
 // analytics
 import { Analytics } from "@vercel/analytics/next"
-import { generateOrganization} from "./lib/schema/organization";
+import { generateOrganization } from "./lib/schema/organization";
 import { buildGraph } from "./lib/schema/graph";
 import { generateWebSite } from "./lib/schema/website";
 
@@ -76,22 +77,20 @@ const IBMPlex = IBM_Plex_Sans({
 });
 
 
+
 // Dynamic Schema injection 
 
 const org = generateOrganization();
 const website = generateWebSite();
 
-const schema = buildGraph([org , website]);
+const schema = buildGraph([org, website]);
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // const schema = {
-  //   "@context":"https://schema.org",
-  //   "@graph":[schema],
-  // }
+
   return (
     <html lang="en" className={`${inter.variable} ${IBMPlex.variable}`}>
       <head>
@@ -116,6 +115,8 @@ export default function RootLayout({
             __html: JSON.stringify(schema),
           }}
         />
+
+        <BreadcrumbInjector/>
       </head>
       <body
         className="bg-authkit min-h-screen app-root"
