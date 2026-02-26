@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import WhatweDo from "@/components/sections/WhatweDo";
 import Hero from "@/components/sections/Hero";
-import CtaButton from "@/components/ui/CtaButton";
 import HowWeWork from "@/components/sections/HowWeWork";
 import WhoWeWorkWith from "@/components/sections/WhoWeWorkWith";
 import WhyVMT from "@/components/sections/WhyVMT";
@@ -27,7 +26,6 @@ export default function Home() {
       <HowWeWork/>
       <WhoWeWorkWith/>
       <WhyVMT/>
-      <CtaButton/>
     </>
   );
 }

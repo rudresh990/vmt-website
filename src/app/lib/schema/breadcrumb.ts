@@ -9,7 +9,7 @@ export interface BreadcrumbItemInput {
 export interface BreadcrumbSchema extends BaseSchema{
     itemListElement:{
         "@type":"ListItem";
-        position: Number,
+        position: number,
         name:string,
         item:string,
     }[];
