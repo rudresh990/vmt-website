@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import Hero from '@/components/sections/Hero';
 import CompanyPhilosophy from '@/components/sections/CompanyPhilosophy';
 import CompanyCollabration from '@/components/sections/CompanyCollabration';
