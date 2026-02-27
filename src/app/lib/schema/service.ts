@@ -1,5 +1,5 @@
 import { BaseSchema } from './base';
-import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, AREA_SERVED } from './config';
+import { SITE_URL, ORGANIZATION_ID, AREA_SERVED } from './config';
 
 export interface ServiceSchema extends BaseSchema {
   '@type': 'Service';
@@ -9,13 +9,6 @@ export interface ServiceSchema extends BaseSchema {
   url: string;
   provider: {
     '@type': 'Organization';
-    '@id': string;
-  };
-  isPartOf: {
-    '@type': 'WebSite';
-    '@id': string;
-  };
-  hasPart: {
     '@id': string;
   };
   areaServed: {};
@@ -37,13 +30,6 @@ export function generateService(
     provider: {
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
-    },
-    isPartOf: {
-      '@type': 'WebSite',
-      '@id': WEBSITE_ID,
-    },
-    hasPart: {
-      '@id': `${SITE_URL}/services/${slug}/#faq`,
     },
     areaServed: AREA_SERVED,
   };
