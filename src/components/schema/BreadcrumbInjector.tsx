@@ -10,6 +10,7 @@ export default function BreadcrumbInjector() {
   return (
     <script
       type="application/ld+json"
+      id="breadcrumb-schema"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           '@context': 'https://schema.org',

@@ -5,6 +5,8 @@ export interface ServiceSchema extends BaseSchema {
   '@type': 'Service';
   name: string;
   description: string;
+  serviceType: string;
+  url: string;
   provider: {
     '@type': 'Organization';
     '@id': string;
@@ -13,15 +15,25 @@ export interface ServiceSchema extends BaseSchema {
     '@type': 'WebSite';
     '@id': string;
   };
+  hasPart: {
+    '@id': string;
+  };
   areaServed: {};
 }
 
-export function generateService(name: string, slug: string, description: string): ServiceSchema {
+export function generateService(
+  name: string,
+  slug: string,
+  serviceType: string,
+  description: string,
+): ServiceSchema {
   return {
     '@type': 'Service',
     '@id': `${SITE_URL}/services/${slug}/#service`,
     name,
     description,
+    serviceType,
+    url: `${SITE_URL}/services/${slug}`,
     provider: {
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
@@ -29,6 +41,9 @@ export function generateService(name: string, slug: string, description: string)
     isPartOf: {
       '@type': 'WebSite',
       '@id': WEBSITE_ID,
+    },
+    hasPart: {
+      '@id': `${SITE_URL}/services/${slug}/#faq`,
     },
     areaServed: AREA_SERVED,
   };

@@ -7,7 +7,9 @@ import ServicesCTA from '@/components/sections/ServicesCTA';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import ServicesFAQ from '@/components/sections/ServicesFAQ';
 import { buildGraph } from '../lib/schema/graph';
-import { generateServicePage } from '../lib/schema/services-page';
+import { generateServicePage } from '../lib/schema/services-collection-page';
+import { serviceCollectionFAQs } from '../lib/schema/data/services_data';
+import { generateFAQPage } from '../lib/schema/faq-generator';
 
 export const metadata: Metadata = {
   title: 'Technical SEO & Custom Software Development',
@@ -16,19 +18,24 @@ export const metadata: Metadata = {
 };
 
 export default function SolutionPage() {
-  const services = [
+  const coreServices = [
     { name: 'Scalable Custom Software Development', slug: 'custom-software-development' },
     { name: 'Web & Mobile Application Development', slug: 'web-mobile-application-development' },
     { name: 'Scalable Platform Engineering', slug: 'platform-engineering' },
     { name: 'APIs, Integrations & Internal Tools', slug: 'api-integrations-internal-tools' },
-    { name: 'Technical SEO & Website Performance Optimization', slug: 'technical-seo-performance' },
+    {
+      name: 'Technical SEO & Website Performance Optimization',
+      slug: 'technical-seo-performance',
+    },
   ];
-  const collectionSchema = generateServicePage(services);
-  const schema = buildGraph([collectionSchema]);
+  const collectionSchema = generateServicePage(coreServices);
+  const faqs = generateFAQPage('services', serviceCollectionFAQs);
+  const schema = buildGraph([collectionSchema, faqs]);
   return (
     <>
       <script
         type="application/ld+json"
+        id="service-collection-schema"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <Hero

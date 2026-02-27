@@ -33,10 +33,15 @@ export const AREA_SERVED = [
   { '@type': 'City', name: 'Pune' },
   { '@type': 'City', name: 'Bangalore' },
   { '@type': 'City', name: 'Delhi' },
-  { '@type': 'AdministrativeArea', name: 'Maharastra' },
+  { '@type': 'AdministrativeArea', name: 'Maharashtra' },
   { '@type': 'Country', name: 'India' },
   { '@type': 'Place', name: 'Worldwide' },
 ] satisfies AreaServed[];
+
+export interface FAQItem {
+  q: string;
+  a: string;
+}
 
 export const SOCIAL_LINKS = [
   'https://www.linkedin.com/company/void-matrix-technology/',
