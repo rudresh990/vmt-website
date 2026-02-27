@@ -1,12 +1,7 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
 import CalculatorSummary from './CalculatorSummary';
-import {
-  StepProjectType,
-  StepComplexity,
-  StepScale,
-  StepTimeline
-} from './CalculatorStep';
+import { StepProjectType, StepComplexity, StepScale, StepTimeline } from './CalculatorStep';
 import { estimateCost } from '@/lib/calculator/pricing';
 
 export type calculatorData = {
@@ -37,7 +32,7 @@ export default function Calculator() {
     projectType: data.projectType!,
     complexity: data.complexity!,
     scale: data.scale!,
-    timeline: data.timeline!
+    timeline: data.timeline!,
   };
 
   //result scroll view
@@ -47,7 +42,7 @@ export default function Calculator() {
     if (result && summaryRef.current) {
       summaryRef.current.scrollIntoView({
         behavior: 'smooth',
-        block: 'center'
+        block: 'center',
       });
 
       summaryRef.current.focus();
@@ -118,28 +113,23 @@ export default function Calculator() {
       )}
       {!result && (
         <p className="calc-disclaimer">
-          Our software development cost estimator helps startups and businesses
-          understand realistic project budgets before engaging in development.
-          By factoring in project type, complexity, scale, and timeline, this
-          tool provides a structured cost range for web applications, mobile
-          apps, SaaS platforms, and MVP development. Whether you are planning a
-          new product or validating an idea, this estimator offers clarity on
-          software development costs in India and for global markets.
+          Our software development cost estimator helps startups and businesses understand realistic
+          project budgets before engaging in development. By factoring in project type, complexity,
+          scale, and timeline, this tool provides a structured cost range for web applications,
+          mobile apps, SaaS platforms, and MVP development. Whether you are planning a new product
+          or validating an idea, this estimator offers clarity on software development costs in
+          India and for global markets.
         </p>
       )}
       {/* render calc summary after all data is ready otherwise it will crash with undef estimate data */}
-      {result &&
-        data.projectType &&
-        data.complexity &&
-        data.scale &&
-        data.timeline && (
-          <CalculatorSummary
-            min={result.min}
-            max={result.max}
-            ref={summaryRef}
-            estimateData={estimateData}
-          />
-        )}
+      {result && data.projectType && data.complexity && data.scale && data.timeline && (
+        <CalculatorSummary
+          min={result.min}
+          max={result.max}
+          ref={summaryRef}
+          estimateData={estimateData}
+        />
+      )}
     </section>
   );
 }

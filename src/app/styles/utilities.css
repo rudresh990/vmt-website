@@ -3,22 +3,21 @@
    =============================== */
 .bg-authkit {
   position: relative;
- background-color: var(--bg);
+  background-color: var(--bg);
 }
 
 .bg-authkit::after {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
-  background-image:
-    radial-gradient(circle, rgb(255 255 255 / 80%) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgb(255 255 255 / 80%) 1px, transparent 1px);
   background-size: 80px 80px;
   opacity: 0.25;
   pointer-events: none;
 }
 
 .bg-authkit::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background-image:

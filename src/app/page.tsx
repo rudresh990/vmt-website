@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
-import WhatweDo from "@/components/sections/WhatweDo";
-import Hero from "@/components/sections/Hero";
-import HowWeWork from "@/components/sections/HowWeWork";
-import WhoWeWorkWith from "@/components/sections/WhoWeWorkWith";
-import WhyVMT from "@/components/sections/WhyVMT";
+import type { Metadata } from 'next';
+import WhatweDo from '@/components/sections/WhatweDo';
+import Hero from '@/components/sections/Hero';
+import HowWeWork from '@/components/sections/HowWeWork';
+import WhoWeWorkWith from '@/components/sections/WhoWeWorkWith';
+import WhyVMT from '@/components/sections/WhyVMT';
 
 export const metadata: Metadata = {
-  title: "Void Matrix Technology | Scalable Technology Platforms",
+  title: 'Void Matrix Technology | Scalable Technology Platforms',
   description:
-    "Void Matrix Techonology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.",
+    'Void Matrix Techonology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.',
 };
 export default function Home() {
   return (
@@ -22,10 +22,10 @@ export default function Home() {
         ctaRoute="/software-development-cost-estimator"
         // note="Solution Coming Soon."
       />
-      <WhatweDo/>
-      <HowWeWork/>
-      <WhoWeWorkWith/>
-      <WhyVMT/>
+      <WhatweDo />
+      <HowWeWork />
+      <WhoWeWorkWith />
+      <WhyVMT />
     </>
   );
 }

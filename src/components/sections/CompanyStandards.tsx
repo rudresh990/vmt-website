@@ -12,8 +12,7 @@ export default function CompanyStandards() {
         </ul>
 
         <p className="section-link">
-          Explore our technical capabilities →
-          <a href="/platforms"> Platforms</a>
+          Explore our technical capabilities →<a href="/platforms"> Platforms</a>
         </p>
       </div>
     </section>

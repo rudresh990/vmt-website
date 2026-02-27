@@ -1,4 +1,4 @@
-export interface BaseSchema{
-    "@type":string;
-    "@id":string;
+export interface BaseSchema {
+  '@type': string;
+  '@id': string;
 }

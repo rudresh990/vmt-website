@@ -7,36 +7,32 @@ export default function WhenToChooseVMT() {
         </h2>
 
         <p>
-          We partner with ambitious founders, product teams, and enterprises
-          building scalable digital platforms. Our expertise in software engineering,
-          platform architecture, and technical SEO ensures your systems are built
-          for performance, security, and long-term growth.
+          We partner with ambitious founders, product teams, and enterprises building scalable
+          digital platforms. Our expertise in software engineering, platform architecture, and
+          technical SEO ensures your systems are built for performance, security, and long-term
+          growth.
         </p>
 
         <ul className="fit-list">
           <li>
-            You are building a scalable product or SaaS platform designed for
-            long-term growth.
+            You are building a scalable product or SaaS platform designed for long-term growth.
           </li>
 
           <li>
-            You need structured software architecture, not short-term fixes
-            or patchwork development.
+            You need structured software architecture, not short-term fixes or patchwork
+            development.
           </li>
 
           <li>
-            You’re looking for a technical partner for platform engineering,
-            performance optimization, and strategic guidance.
+            You’re looking for a technical partner for platform engineering, performance
+            optimization, and strategic guidance.
           </li>
 
           <li>
-            You prioritize maintainable code, security standards, and future-ready
-            infrastructure.
+            You prioritize maintainable code, security standards, and future-ready infrastructure.
           </li>
 
-          <li>
-            You want measurable business outcomes from your software investment.
-          </li>
+          <li>You want measurable business outcomes from your software investment.</li>
         </ul>
       </div>
     </section>

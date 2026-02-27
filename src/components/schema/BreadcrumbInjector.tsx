@@ -1,20 +1,21 @@
-"use client";
+'use client';
 
-import { usePathname } from "next/navigation";
-import { generateAutoBreadcrumb } from "@/app/lib/schema/breadcrumb-auto";
+import { usePathname } from 'next/navigation';
+import { generateAutoBreadcrumb } from '@/app/lib/schema/breadcrumb-auto';
 
-export default function BreadcrumbInjector(){
-    
-    const pathname = usePathname();
-    const schema = generateAutoBreadcrumb(pathname);
+export default function BreadcrumbInjector() {
+  const pathname = usePathname();
+  const schema = generateAutoBreadcrumb(pathname);
 
-    return (
-        <script 
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{__html:JSON.stringify({
-                "@context":"https://schema.org",
-                ...schema
-            })}}
-        />
-    )
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          ...schema,
+        }),
+      }}
+    />
+  );
 }

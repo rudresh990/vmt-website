@@ -4,7 +4,8 @@
     "no-duplicate-selectors": true,
     "declaration-block-no-duplicate-properties": true,
     "color-hex-length": "short",
-    "block-no-empty":true,
-    "declaration-property-value-no-unknown": null
+    "block-no-empty": true,
+    "declaration-property-value-no-unknown": null,
+    "no-descending-specificity": null
   }
 }

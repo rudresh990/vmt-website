@@ -1,47 +1,46 @@
-import type { Metadata } from "next";
-import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
-import { Inter, IBM_Plex_Sans } from "next/font/google";
-import Script from "next/script";
-import "./styles/globals.css";
-import BreadcrumbInjector from "@/components/schema/BreadcrumbInjector";
+import type { Metadata } from 'next';
+import Navbar from '@/components/layout/navbar';
+import Footer from '@/components/layout/footer';
+import { Inter, IBM_Plex_Sans } from 'next/font/google';
+import Script from 'next/script';
+import './styles/globals.css';
+import BreadcrumbInjector from '@/components/schema/BreadcrumbInjector';
 // light speed vercel
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 // analytics
-import { Analytics } from "@vercel/analytics/next"
-import { generateOrganization } from "./lib/schema/organization";
-import { buildGraph } from "./lib/schema/graph";
-import { generateWebSite } from "./lib/schema/website";
+import { Analytics } from '@vercel/analytics/next';
+import { generateOrganization } from './lib/schema/organization';
+import { buildGraph } from './lib/schema/graph';
+import { generateWebSite } from './lib/schema/website';
 
 export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon-48.png",
-        sizes: "48x48",
-        type: "image/png",
+        url: '/favicon-48.png',
+        sizes: '48x48',
+        type: 'image/png',
       },
       {
-        url: "/favicon-96.png",
-        sizes: "96x96",
-        type: "image/png",
+        url: '/favicon-96.png',
+        sizes: '96x96',
+        type: 'image/png',
       },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon-180x180.png"
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon-180x180.png',
   },
-  manifest: "/site.webmanifest",
+  manifest: '/site.webmanifest',
 
-  metadataBase: new URL("https://voidmatrixtech.com"),
+  metadataBase: new URL('https://voidmatrixtech.com'),
   title: {
-    default: "Void Matrix Technology",
-    template: "%s | Void Matrix Technology",
+    default: 'Void Matrix Technology',
+    template: '%s | Void Matrix Technology',
   },
 
   description:
-    "Void Matrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.",
-  applicationName: "Void Matrix Technology",
-
+    'Void Matrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.',
+  applicationName: 'Void Matrix Technology',
 
   robots: {
     index: true,
@@ -49,36 +48,34 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    type: "website",
-    siteName: "Void Matrix Technology",
-    title: "Void Matrix Technology",
+    type: 'website',
+    siteName: 'Void Matrix Technology',
+    title: 'Void Matrix Technology',
     description:
-      "Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.",
-    url: "https://voidmatrixtech.com",
+      'Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.',
+    url: 'https://voidmatrixtech.com',
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Void Matrix Technology",
+    card: 'summary_large_image',
+    title: 'Void Matrix Technology',
     description:
-      "Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.",
+      'Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.',
   },
-}
+};
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
+  variable: '--font-inter',
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 const IBMPlex = IBM_Plex_Sans({
-  variable: "--font-plex",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
+  variable: '--font-plex',
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  display: 'swap',
 });
 
-
-
-// Dynamic Schema injection 
+// Dynamic Schema injection
 
 const org = generateOrganization();
 const website = generateWebSite();
@@ -90,7 +87,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en" className={`${inter.variable} ${IBMPlex.variable}`}>
       <head>
@@ -116,11 +112,9 @@ export default async function RootLayout({
           }}
         />
 
-        <BreadcrumbInjector/>
+        <BreadcrumbInjector />
       </head>
-      <body
-        className="bg-authkit min-h-screen app-root"
-      >
+      <body className="bg-authkit min-h-screen app-root">
         <header>
           <Navbar />
         </header>

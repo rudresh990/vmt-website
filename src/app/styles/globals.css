@@ -1,4 +1,4 @@
-@import "tailwindcss";
-@import "./tokens.css";
-@import "./components.css";
-@import "./utilities.css";
+@import 'tailwindcss';
+@import './tokens.css';
+@import './components.css';
+@import './utilities.css';

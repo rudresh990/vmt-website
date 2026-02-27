@@ -1,16 +1,13 @@
-import { BaseSchema } from "./base";
+import { BaseSchema } from './base';
 
-export interface SchemaGraph <T extends BaseSchema>{
-    "@context":"https://schema.org";
-    "@graph":T[];
+export interface SchemaGraph<T extends BaseSchema> {
+  '@context': 'https://schema.org';
+  '@graph': T[];
 }
 
-export function buildGraph<T extends BaseSchema>(
-    schemas : T[]
-): SchemaGraph<T> {
-    return {
-        "@context":"https://schema.org",
-        "@graph":schemas,
-    };
+export function buildGraph<T extends BaseSchema>(schemas: T[]): SchemaGraph<T> {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': schemas,
+  };
 }
-

@@ -4,11 +4,7 @@ type PlatformGroupProps = {
   points: string[];
 };
 
-export default function PlatformGroup({
-  title,
-  description,
-  points,
-}: PlatformGroupProps) {
+export default function PlatformGroup({ title, description, points }: PlatformGroupProps) {
   return (
     <section className="platform-group">
       <div className="section-inner">

@@ -1,7 +1,7 @@
-import PlatformGroup from "@/components/platfroms/PlatformGroup";
-import PlatformsFit from "@/components/platfroms/PlatformFit";
-import PlatformsCTA from "@/components/platfroms/PlatformCTA";
-import Hero from "@/components/sections/Hero";
+import PlatformGroup from '@/components/platfroms/PlatformGroup';
+import PlatformsFit from '@/components/platfroms/PlatformFit';
+import PlatformsCTA from '@/components/platfroms/PlatformCTA';
+import Hero from '@/components/sections/Hero';
 
 export default function PlatformsPage() {
   return (
@@ -16,9 +16,9 @@ export default function PlatformsPage() {
         title="Web & Frontend Platforms"
         description="User-facing platforms built for performance, accessibility, and long-term maintainability."
         points={[
-          "Modern web applications",
-          "SEO-first and performance-focused builds",
-          "Component-driven UI systems",
+          'Modern web applications',
+          'SEO-first and performance-focused builds',
+          'Component-driven UI systems',
         ]}
       />
 
@@ -26,9 +26,9 @@ export default function PlatformsPage() {
         title="Backend & Application Platforms"
         description="Scalable backend systems that handle business logic, data flow, and integrations."
         points={[
-          "Secure APIs and application services",
-          "Clean domain-driven architecture",
-          "Authentication and authorization systems",
+          'Secure APIs and application services',
+          'Clean domain-driven architecture',
+          'Authentication and authorization systems',
         ]}
       />
 
@@ -36,9 +36,9 @@ export default function PlatformsPage() {
         title="Data & Infrastructure Platforms"
         description="Reliable infrastructure designed to support growth and operational stability."
         points={[
-          "Scalable databases (SQL & NoSQL)",
-          "Cloud-native hosting and deployment",
-          "Monitoring and observability",
+          'Scalable databases (SQL & NoSQL)',
+          'Cloud-native hosting and deployment',
+          'Monitoring and observability',
         ]}
       />
 
@@ -46,9 +46,9 @@ export default function PlatformsPage() {
         title="Integrations & Automation"
         description="Systems that connect services, automate workflows, and support real-world operations."
         points={[
-          "Payment and billing integrations",
-          "Email and notification pipelines",
-          "Third-party service integrations",
+          'Payment and billing integrations',
+          'Email and notification pipelines',
+          'Third-party service integrations',
         ]}
       />
 
