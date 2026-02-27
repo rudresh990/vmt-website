@@ -34,7 +34,7 @@ const Calculatorsummary = forwardRef<HTMLDivElement, CalculatorSummaryProps>(
         </Link>
 
         <p className="calc-note">
-          No commitment. We'll help you validate and refine this estimate.
+          {"No commitment. We'll help you validate and refine this estimate."}
         </p>
       </div>
     );

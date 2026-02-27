@@ -1,5 +1,5 @@
 'use client';
-import { useState, useRef, useEffect, use } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -43,7 +43,7 @@ export default function Navbar() {
     if (!open) return;
 
     //lock scroll
-    const originalOverflow = document.body.style.overflow;
+    // const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
 
     return () => {
@@ -84,7 +84,7 @@ export default function Navbar() {
             href="/platforms"
             className={isActive('/platforms') ? 'nav-link active' : 'nav-link'}
           >
-            Platfroms
+            Platforms
           </Link>
           <Link href="/company" className={isActive('/company') ? 'nav-link active' : 'nav-link'}>
             Company
@@ -121,7 +121,7 @@ export default function Navbar() {
             href="/platforms"
             className={isActive('/platforms') ? 'nav-link active' : 'nav-link'}
           >
-            Platfroms
+            Platforms
           </Link>
           <Link href="/company" className={isActive('/company') ? 'nav-link active' : 'nav-link'}>
             Company

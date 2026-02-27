@@ -13,7 +13,7 @@ export interface ServiceSchema extends BaseSchema {
     '@type': 'WebSite';
     '@id': string;
   };
-  areaServed: {};
+  areaServed: Record<string, unknown>;
 }
 
 export function generateService(name: string, slug: string, description: string): ServiceSchema {

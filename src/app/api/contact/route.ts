@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       projectType: formData.get('projectType')?.toString() || null,
       complexity: formData.get('complexity')?.toString() || null,
       scale: formData.get('scale')?.toString() || null,
-      timeline: formData.get('timeline')?.toString || null,
+      timeline: formData.get('timeline')?.toString() || null,
     };
 
     //validating important data is present
@@ -57,6 +57,9 @@ export async function POST(req: Request) {
             <p><strong>Name:</strong>${payload.name}</p>
             <p><strong>Email:</strong>${payload.email}</p>
             <p><strong>Phone:</strong>${payload.phone}</p>
+
+            ${estimateSection}
+            
             <h3>Message</h3>
             <p>${payload.message || 'No message provided'}</p>
         `,

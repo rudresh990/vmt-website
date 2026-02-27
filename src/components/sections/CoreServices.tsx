@@ -56,7 +56,7 @@ export default function CoreServices() {
                 scalable system connectivity across your digital ecosystem.
               </p>
               <p className="internal-link">
-                See how we build scalable <a href="/contact">API and integration systems</a>.
+                See how we build scalable API and integration systems.
               </p>
             </div>
           </Link>
@@ -69,9 +69,7 @@ export default function CoreServices() {
                 visibility, user experience, and conversion performance. Our technical SEO
                 implementation ensures long-term organic growth.
               </p>
-              <p className="internal-link">
-                Learn about our <a href="/contact">technical SEO services</a>.
-              </p>
+              <p className="internal-link">Learn about our technical SEO services.</p>
             </div>
           </Link>
         </div>

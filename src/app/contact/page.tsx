@@ -18,6 +18,38 @@ type EstimateParams = {
   timeline?: string;
 };
 
+function EstimateSummary({ projectType, complexity, scale, timeline }: EstimateParams) {
+  return (
+    <div className="estimate-summary">
+      <h2 className="estimate-title">Your Project Overview</h2>
+
+      <ul className="estimate-list">
+        <li>
+          <span className="estimate-label">Project Type:</span>
+          <span className="estimate-value">{projectType}</span>
+        </li>
+        <li>
+          <span className="estimate-label">Complexity:</span>
+          <span className="estimate-value">{complexity}</span>
+        </li>
+        <li>
+          <span className="estimate-label">Scale:</span>
+          <span className="estimate-value">{scale}</span>
+        </li>
+        <li>
+          <span className="estimate-label">Timeline:</span>
+          <span className="estimate-value">{timeline}</span>
+        </li>
+      </ul>
+
+      <p className="estimate-summary-note">
+        This summary is based on your inputs and helps us prepare for a more meaningful
+        conversation.
+      </p>
+    </div>
+  );
+}
+
 export default async function ContactPage({
   searchParams,
 }: {
@@ -36,38 +68,6 @@ export default async function ContactPage({
         timeline: timeline!,
       }
     : null;
-
-  function EstimateSummary({ projectType, complexity, scale, timeline }: EstimateParams) {
-    return (
-      <div className="estimate-summary">
-        <h2 className="estimate-title">Your Project Overview</h2>
-
-        <ul className="estimate-list">
-          <li>
-            <span className="estimate-label">Project Type:</span>
-            <span className="estimate-value">{projectType}</span>
-          </li>
-          <li>
-            <span className="estimate-label">Complexity:</span>
-            <span className="estimate-value">{complexity}</span>
-          </li>
-          <li>
-            <span className="estimate-label">Scale:</span>
-            <span className="estimate-value">{scale}</span>
-          </li>
-          <li>
-            <span className="estimate-label">Timeline:</span>
-            <span className="estimate-value">{timeline}</span>
-          </li>
-        </ul>
-
-        <p className="estimate-summary-note">
-          This summary is based on your inputs and helps us prepare for a more meaningful
-          conversation.
-        </p>
-      </div>
-    );
-  }
   return (
     <section className="contact-container">
       <header className="contact-header">
