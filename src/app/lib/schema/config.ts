@@ -1,6 +1,6 @@
 import { AreaServed, ContactPoint, ImageObject, Person } from './types';
 
-export const SITE_URL = 'https://voidmatrixtech.com';
+export const SITE_URL = 'https://www.voidmatrixtech.com';
 
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
