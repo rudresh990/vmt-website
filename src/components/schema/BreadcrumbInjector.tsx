@@ -7,6 +7,10 @@ export default function BreadcrumbInjector() {
   const pathname = usePathname();
   const schema = generateAutoBreadcrumb(pathname);
 
+  if (!pathname || pathname === '/') {
+    return null;
+  }
+
   return (
     <script
       type="application/ld+json"

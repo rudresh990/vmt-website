@@ -8,7 +8,7 @@ import WhyVMT from '@/components/sections/WhyVMT';
 export const metadata: Metadata = {
   title: 'Void Matrix Technology | Scalable Technology Platforms',
   description:
-    'Void Matrix Techonology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.',
+    'Void Matrix Technology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.',
 };
 export default function Home() {
   return (
