@@ -17,7 +17,7 @@ export default function ServiceCoreSection({ heading, intro, items }: Props) {
 
       <div className="services-list">
         {items.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="card-link">
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>

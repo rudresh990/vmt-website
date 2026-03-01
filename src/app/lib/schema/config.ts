@@ -1,4 +1,4 @@
-import { AreaServed, ContactPoint, ImageObject, Person } from './types';
+import { AreaServed, ContactPoint, ImageObject, Person, Address, potentialAction } from './types';
 
 export const SITE_URL = 'https://www.voidmatrixtech.com';
 
@@ -15,7 +15,7 @@ export const NAME = 'Void Matrix Technology';
 export const LEGAL_NAME = 'Void Matrix Technology';
 
 export const BRAND_DESC =
-  'Void Matrix Technology is a modern technology company specializing in SEO, website development, and high-performance web application solutions. We build scalable digital products using Next.js, React, AI, and cloud technologies to help businesses grow online.';
+  'Void Matrix Technology is a custom software development company in India building scalable SaaS platforms, enterprise applications, eCommerce systems, and architecture-driven digital products.';
 
 export const BRAND_LOGO = {
   '@type': 'ImageObject',
@@ -35,7 +35,7 @@ export const AREA_SERVED = [
   { '@type': 'City', name: 'Delhi' },
   { '@type': 'AdministrativeArea', name: 'Maharashtra' },
   { '@type': 'Country', name: 'India' },
-  { '@type': 'Place', name: 'Worldwide' },
+  { '@type': 'Place', name: 'Global' },
 ] satisfies AreaServed[];
 
 export interface FAQItem {
@@ -55,10 +55,24 @@ export const PERSON = {
 } satisfies Person;
 
 export const KNOWS = [
-  'Web Development',
-  'SEO',
+  'Custom Software Development',
+  'SaaS Platform Development',
+  'Enterprise Application Development',
+  'Web Application Development',
   'Next.js',
   'React',
-  'Custom Software',
-  'AI Solutions',
+  'Cloud Architecture',
 ];
+
+export const LOCAL_ADDRESS: Address = {
+  '@type': 'PostalAddress',
+  addressLocality: 'Mumbai',
+  addressRegion: 'Maharashtra',
+  addressCountry: 'IN',
+};
+
+export const POTENTIAL_ACTION: potentialAction = {
+  '@type': 'SearchAction',
+  target: 'https://www.voidmatrixtech.com/contact?q={search_term_string}',
+  'query-input': 'required name=search_term_string',
+};

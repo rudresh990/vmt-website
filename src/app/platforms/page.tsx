@@ -1,7 +1,7 @@
 import PlatformGroup from '@/components/platfroms/PlatformGroup';
 import PlatformsFit from '@/components/platfroms/PlatformFit';
 import PlatformsCTA from '@/components/platfroms/PlatformCTA';
-import Hero from '@/components/sections/Hero';
+import Hero from '@/components/sections/common/Hero';
 
 export default function PlatformsPage() {
   return (

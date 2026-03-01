@@ -30,6 +30,13 @@ export interface ContactPoint {
   email: string;
 }
 
+export interface Address {
+  '@type': 'PostalAddress';
+  addressLocality: string;
+  addressRegion: string;
+  addressCountry: string;
+}
+
 export type AreaServed = Country | Place;
 
 export interface OrganizationSchema extends BaseSchema {
@@ -45,11 +52,13 @@ export interface OrganizationSchema extends BaseSchema {
   contactPoint: ContactPoint;
   sameAs?: string[];
   knowsAbout?: string[];
+  address: Address;
 }
-// export type B_Logo = {
-//     "@type": "ImageObject",
-//     url: string,
-// }
+export interface potentialAction {
+  '@type': 'SearchAction';
+  target: string;
+  'query-input': string;
+}
 
 export interface ImageObject {
   '@type': 'ImageObject';

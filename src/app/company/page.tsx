@@ -1,4 +1,4 @@
-import Hero from '@/components/sections/Hero';
+import Hero from '@/components/sections/common/Hero';
 import CompanyPhilosophy from '@/components/sections/CompanyPhilosophy';
 import CompanyCollabration from '@/components/sections/CompanyCollabration';
 import CompanyStandards from '@/components/sections/CompanyStandards';

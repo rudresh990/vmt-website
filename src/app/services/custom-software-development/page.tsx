@@ -1,4 +1,4 @@
-import Hero from '@/components/sections/Hero';
+import Hero from '@/components/sections/common/Hero';
 import { Metadata } from 'next';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
 import ServiceApproachSection from '@/components/services/ServiceApproachSection';
@@ -125,7 +125,7 @@ export default function CustomSoftwareDev() {
       />
 
       {/* service FAQ */}
-      <MainServiceFAQ faqs={faqs} />
+      <MainServiceFAQ faqs={faqs} heading="Custom Software Development - FAQs" />
       <MainServiceCTA
         heading="Ready to Build Scalable Software for Your Business in India?"
         description="Partner with Void Matrix Technology to design secure, scalable, and performance-driven custom software."

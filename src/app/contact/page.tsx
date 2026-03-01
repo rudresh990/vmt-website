@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Hero from '@/components/sections/Hero';
+import Hero from '@/components/sections/common/Hero';
 import ContactForm from '@/components/contact/ContactForm';
 
 export const dynamic = 'force-dynamic';

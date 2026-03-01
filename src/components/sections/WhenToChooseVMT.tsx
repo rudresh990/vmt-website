@@ -17,15 +17,15 @@ export default function WhenToChooseVMT() {
           <li>
             You are building a scalable product or SaaS platform designed for long-term growth.
           </li>
-
           <li>
             You need structured software architecture, not short-term fixes or patchwork
             development.
           </li>
 
           <li>
-            You’re looking for a technical partner for platform engineering, performance
-            optimization, and strategic guidance.
+            {
+              "You're looking for a technical partner for platform engineering, performance optimization, and strategic guidance."
+            }
           </li>
 
           <li>
