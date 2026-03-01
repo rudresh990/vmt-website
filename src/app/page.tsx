@@ -23,8 +23,6 @@ export const metadata: Metadata = {
 };
 
 const schema = buildGraph([
-  generateOrganization(),
-  generateWebSite(),
   generateProfessionalService(),
   generateHomePrimaryService(),
   generateHomeWebPage(),
