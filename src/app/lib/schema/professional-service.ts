@@ -11,7 +11,7 @@ export interface ProfessionalServiceSchema extends BaseSchema {
 
 export function generateProfessionalService(): ProfessionalServiceSchema {
   return {
-    '@type': 'SoftwareCompany',
+    '@type': 'Organization',
     '@id': `${SITE_URL}/#softwarecompany`,
     name: NAME,
     url: SITE_URL,
