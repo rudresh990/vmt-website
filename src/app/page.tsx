@@ -10,8 +10,7 @@ import InvestmentRange from '@/components/sections/home/InvestmentRange';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import MainServiceCTA from '@/components/services/MainServiceCTA';
 import { buildGraph } from './lib/schema/graph';
-import { generateOrganization } from './lib/schema/organization';
-import { generateWebSite } from './lib/schema/website';
+import { generateFAQPage } from './lib/schema/faq-generator';
 import { generateProfessionalService } from './lib/schema/professional-service';
 import { generateHomePrimaryService } from './lib/schema/home-service';
 import { generateHomeWebPage } from './lib/schema/home-webpage';
@@ -21,12 +20,6 @@ export const metadata: Metadata = {
   description:
     'Void Matrix Technology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.',
 };
-
-const schema = buildGraph([
-  generateProfessionalService(),
-  generateHomePrimaryService(),
-  generateHomeWebPage(),
-]);
 
 const cards = [
   {
@@ -67,6 +60,13 @@ const faqs = [
     a: 'Yes. We build both small business websites and full-scale software ecosystems.',
   },
 ];
+
+const schema = buildGraph([
+  generateProfessionalService(),
+  generateHomePrimaryService(),
+  generateHomeWebPage(),
+  generateFAQPage('', faqs),
+]);
 
 export default function Home() {
   return (
