@@ -27,7 +27,7 @@ export function generateHomePrimaryService(): ServiceSchema {
     description:
       'Architecture-driven custom software development services in India including SaaS platforms, enterprise systems, eCommerce applications, and scalable business websites.',
     provider: {
-      '@id': 'https://www.voidmatrixtech.com/#softwarecompany',
+      '@id': ORGANIZATION_ID,
     },
     areaServed: AREA_SERVED,
     offers: {
