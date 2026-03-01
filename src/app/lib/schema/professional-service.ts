@@ -2,7 +2,7 @@ import { BaseSchema } from './base';
 import { SITE_URL, NAME, AREA_SERVED } from './config';
 
 export interface ProfessionalServiceSchema extends BaseSchema {
-  '@type': 'SoftwareCompany';
+  '@type': 'Organization';
   name: string;
   url: string;
   areaServed: {};
