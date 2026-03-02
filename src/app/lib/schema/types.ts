@@ -1,5 +1,14 @@
+// schema vocab controll wanna or remove schema we have to update this union
+export type SchemaType =
+  | 'Organization'
+  | 'ProfessionalService'
+  | 'Service'
+  | 'FAQPage'
+  | 'BreadcrumbList'
+  | 'WebSite';
+
 export interface BaseSchema {
-  '@type': SchemaType;
+  '@type': SchemaType | string[];
   '@id': string;
 }
 export interface Person {
@@ -74,11 +83,3 @@ export interface ImageObject {
   '@type': 'ImageObject';
   url: string;
 }
-
-// schema vocab controll wanna or remove schema we have to update this union
-export type SchemaType =
-  | ['Organization', 'ProfessionalService']
-  | 'Service'
-  | 'FAQPage'
-  | 'BreadcrumbList'
-  | 'WebSite';
