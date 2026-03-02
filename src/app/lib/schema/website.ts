@@ -1,6 +1,6 @@
 import { BaseSchema } from './base';
-import { NAME, ORGANIZATION_ID, POTENTIAL_ACTION, SITE_URL, WEBSITE_ID } from './config';
-import { potentialAction } from './types';
+import { NAME, ORGANIZATION_ID, SITE_URL, WEBSITE_ID } from './config';
+// import { potentialAction } from './types';
 
 export interface WebSiteSchema extends BaseSchema {
   '@type': 'WebSite';
@@ -10,7 +10,7 @@ export interface WebSiteSchema extends BaseSchema {
     '@type': 'Organization';
     '@id': string;
   };
-  potentialAction: potentialAction;
+  // potentialAction: potentialAction;
 }
 
 export function generateWebSite(): WebSiteSchema {
@@ -23,6 +23,6 @@ export function generateWebSite(): WebSiteSchema {
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
     },
-    potentialAction: POTENTIAL_ACTION,
+    // potentialAction: POTENTIAL_ACTION,
   };
 }

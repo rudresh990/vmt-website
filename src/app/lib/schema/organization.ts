@@ -14,7 +14,7 @@ import { OrganizationSchema } from './types';
 
 export function generateOrganization(): OrganizationSchema {
   return {
-    '@type': 'Organization',
+    '@type': ['Organization', 'ProfessionalService'],
     '@id': ORGANIZATION_ID,
     name: NAME,
     url: SITE_URL,

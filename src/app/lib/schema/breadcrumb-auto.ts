@@ -1,7 +1,8 @@
 import { BreadcrumbSchema } from './breadcrumb';
+import { SITE_URL } from './config';
 
 export function generateAutoBreadcrumb(pathname: string): BreadcrumbSchema {
-  const baseUrl = 'https://voidmatrixtech.com';
+  const baseUrl = SITE_URL;
 
   //removing leading / trailing slash
 

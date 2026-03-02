@@ -11,7 +11,6 @@ import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import MainServiceCTA from '@/components/services/MainServiceCTA';
 import { buildGraph } from './lib/schema/graph';
 import { generateFAQPage } from './lib/schema/faq-generator';
-import { generateProfessionalService } from './lib/schema/professional-service';
 import { generateHomePrimaryService } from './lib/schema/home-service';
 import { generateHomeWebPage } from './lib/schema/home-webpage';
 
@@ -62,7 +61,6 @@ const faqs = [
 ];
 
 const schema = buildGraph([
-  generateProfessionalService(),
   generateHomePrimaryService(),
   generateHomeWebPage(),
   generateFAQPage('', faqs),

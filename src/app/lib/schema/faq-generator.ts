@@ -3,7 +3,10 @@ export function generateFAQPage(slug: string, faqs: FAQItem[]) {
   return {
     '@type': 'FAQPage',
     '@id': `${SITE_URL}/${slug}#faq`,
-    name: `${slug} FAQs`,
+    // name: `${slug}FAQs`,
+    isPartOf: {
+      '@id': `${SITE_URL}/${slug}#webpage`,
+    },
     mainEntity: faqs.map((faq) => ({
       '@type': 'Question',
       name: faq.q,

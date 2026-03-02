@@ -1,4 +1,12 @@
-import { AreaServed, ContactPoint, ImageObject, Person, Address, potentialAction } from './types';
+import {
+  AreaServed,
+  ContactPoint,
+  ImageObject,
+  Person,
+  Address,
+  potentialAction,
+  Offer,
+} from './types';
 
 export const SITE_URL = 'https://www.voidmatrixtech.com';
 
@@ -28,15 +36,7 @@ export const CONTACT_POINT = {
   email: 'hello@voidmatrixtech.com',
 } satisfies ContactPoint;
 
-export const AREA_SERVED = [
-  { '@type': 'City', name: 'Mumbai' },
-  { '@type': 'City', name: 'Pune' },
-  { '@type': 'City', name: 'Bangalore' },
-  { '@type': 'City', name: 'Delhi' },
-  { '@type': 'AdministrativeArea', name: 'Maharashtra' },
-  { '@type': 'Country', name: 'India' },
-  { '@type': 'Place', name: 'Global' },
-] satisfies AreaServed[];
+export const AREA_SERVED = [{ '@type': 'Country', name: 'India' }] satisfies AreaServed[];
 
 export interface FAQItem {
   q: string;
@@ -76,4 +76,15 @@ export const POTENTIAL_ACTION: potentialAction = {
   '@type': 'SearchAction',
   target: 'https://www.voidmatrixtech.com/contact?q={search_term_string}',
   'query-input': 'required name=search_term_string',
+};
+
+export const OFFER: Offer = {
+  '@type': 'Offer',
+  priceCurrency: 'INR',
+  priceSpecification: {
+    '@type': 'PriceSpecification',
+    priceCurrency: 'INR',
+    minPrice: 300000,
+    maxPrice: 2500000,
+  },
 };

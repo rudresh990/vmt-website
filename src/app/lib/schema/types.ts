@@ -37,10 +37,20 @@ export interface Address {
   addressCountry: string;
 }
 
+export interface Offer {
+  '@type': 'Offer';
+  priceCurrency: string;
+  priceSpecification: {
+    '@type': 'PriceSpecification';
+    priceCurrency: string;
+    minPrice: number;
+    maxPrice: number;
+  };
+}
 export type AreaServed = Country | Place;
 
 export interface OrganizationSchema extends BaseSchema {
-  '@type': 'Organization';
+  '@type': ['Organization', 'ProfessionalService'];
   name: string;
   legalName?: string;
   url: string;
@@ -66,4 +76,9 @@ export interface ImageObject {
 }
 
 // schema vocab controll wanna or remove schema we have to update this union
-export type SchemaType = 'Organization' | 'Service' | 'FAQPage' | 'BreadcrumbList' | 'WebSite';
+export type SchemaType =
+  | ['Organization', 'ProfessionalService']
+  | 'Service'
+  | 'FAQPage'
+  | 'BreadcrumbList'
+  | 'WebSite';
