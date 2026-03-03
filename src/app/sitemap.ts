@@ -4,81 +4,97 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.voidmatrixtech.com';
+  const lastModified = new Date('2026-03-03');
 
   return [
     {
       url: `${baseUrl}/`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
+
+    // Core Services Hub
     {
       url: `${baseUrl}/services`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
+      lastModified,
+      changeFrequency: 'weekly',
       priority: 0.9,
     },
+
+    // Primary Ranking Page (Very Important)
     {
-      url: `${baseUrl}/platforms`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      url: `${baseUrl}/services/website-development`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.95,
     },
+
     {
       url: `${baseUrl}/services/custom-software-development`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.85,
     },
-    {
-      url: `${baseUrl}/company`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
+
     {
       url: `${baseUrl}/software-development-cost-estimator`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.85,
     },
+
     {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      url: `${baseUrl}/platforms`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+
+    {
+      url: `${baseUrl}/company`,
+      lastModified,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
 
-    // Legal Pages
+    {
+      url: `${baseUrl}/contact`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+
+    // Legal
     {
       url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
+      lastModified,
+      changeFrequency: 'yearly',
+      priority: 0.4,
+    },
+    {
+      url: `${baseUrl}/security`,
+      lastModified,
       changeFrequency: 'yearly',
       priority: 0.4,
     },
     {
       url: `${baseUrl}/cookies`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${baseUrl}/accessibility`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${baseUrl}/disclaimer`,
-      lastModified: new Date(),
+      lastModified,
       changeFrequency: 'yearly',
       priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/security`,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.4,
     },
   ];
 }
