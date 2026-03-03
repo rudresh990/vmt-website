@@ -10,12 +10,14 @@ import { buildGraph } from '../lib/schema/graph';
 import { generateServicePage } from '../lib/schema/services-collection-page';
 import { serviceCollectionFAQs } from '../lib/schema/data/services_data';
 import { generateFAQPage } from '../lib/schema/faq-generator';
+import { buildMetada } from '../lib/schema/seo';
 
-export const metadata: Metadata = {
-  title: 'Technical SEO & Custom Software Development',
+export const metadata: Metadata = buildMetada({
+  title: 'Website & Software Development Services India | Void Matrix Technology',
   description:
-    'Custom software development, scalable platform engineering, technical SEO, and Core Web Vitals optimization for fast, growth-ready websites.',
-};
+    'Explore website development and custom software services by Void Matrix Technology, engineered for scalability and long-term growth in India.',
+  path: '/services',
+});
 
 export default function SolutionPage() {
   const coreServices = [

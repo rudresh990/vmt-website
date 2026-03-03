@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
+import { buildMetada } from '../lib/schema/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetada({
   title: 'Disclaimer | Void Matrix Technology',
   description:
-    'Read the disclaimer for Void Matrix Technology regarding website content, estimates, and service representations.',
-};
+    'Review the official website disclaimer of Void Matrix Technology regarding service details and development representations.',
+  path: '/disclaimer',
+});
 
 export default function DisclaimerPage() {
   return (

@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
 import Hero from '@/components/sections/common/Hero';
 import ContactForm from '@/components/contact/ContactForm';
+import { buildMetada } from '../lib/schema/seo';
 
 export const dynamic = 'force-dynamic';
 
-export const metadata: Metadata = {
-  title: 'Contact',
+export const metadata: Metadata = buildMetada({
+  title: 'Contact Website Development Company India | Void Matrix Technology',
   description:
-    'Get in touch with Void Matrix Technology to discuss your requirements, ask questions, or explore potential collaboration opportunities.',
-};
+    'Contact Void Matrix Technology for website and custom software development services in Mumbai, Pune, and across India.',
+  path: '/contact',
+});
 
 type EstimateParams = {
   source?: string;

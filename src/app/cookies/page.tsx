@@ -3,7 +3,8 @@ import LegalLayout from '@/components/layout/LegalLayout';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy | Void Matrix Technology',
-  description: 'Learn about the use of cookies on the Void Matrix Technology website.',
+  description:
+    'Learn how Void Matrix Technology uses cookies to improve website performance, analytics, and overall user experience.',
 };
 
 export default function CookiePolicyPage() {

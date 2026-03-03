@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
 
 export const metadata: Metadata = {
-  title: 'Accessibility | Void Matrix Technology',
+  title: 'Accessibility Statement | Void Matrix Technology',
   description:
-    "Learn about Void Matrix Technology's commitment to accessibility and inclusive digital experiences.",
+    'Void Matrix Technology is committed to digital accessibility standards to ensure inclusive and usable web experiences.',
 };
 
 export default function AccessibilityPage() {

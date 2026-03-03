@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import WhatweDo from '@/components/sections/home/WhatweDo';
 import Hero from '@/components/sections/common/Hero';
-import HowWeWork from '@/components/sections/home/HowWeWork';
+import HowWeWork from '@/components/sections/common/HowWeWork';
 import WhoWeWorkWith from '@/components/sections/home/WhoWeWorkWith';
 import WhyVMT from '@/components/sections/home/WhyVMT';
 import Position from '@/components/sections/home/Positioning';
@@ -13,12 +13,14 @@ import { buildGraph } from './lib/schema/graph';
 import { generateFAQPage } from './lib/schema/faq-generator';
 import { generateHomePrimaryService } from './lib/schema/home-service';
 import { generateHomeWebPage } from './lib/schema/home-webpage';
+import { buildMetada } from './lib/schema/seo';
 
-export const metadata: Metadata = {
-  title: 'Void Matrix Technology | Scalable Technology Platforms',
+export const metadata: Metadata = buildMetada({
+  title: 'Void Matrix Technology | Scalable Software & Web Systems',
   description:
-    'Void Matrix Technology designs and engineers reliable software platforms, digital system, and technology solution built for scale, security, and long-term growth.',
-};
+    'Software development company in India delivering scalable websites and custom platforms engineered for security, performance, and business growth.',
+  path: '',
+});
 
 const cards = [
   {
@@ -96,7 +98,36 @@ export default function Home() {
       <WhatweDo />
       <CtaButtonRe title="Explore All Services" url="/services" />
       <InvestmentRange cards={cards} />
-      <HowWeWork />
+      <HowWeWork
+        title="Our Architecture-First Development Process"
+        intro="Our software development process is designed to keep projects clear, predictable, and focused on building scalable solutions that solve real business problems - not just ship features."
+        steps={[
+          {
+            number: '01',
+            title: 'Requirement Discovery & Business Analysis',
+            description:
+              'We understand workflows, integrations, and long-term goals before defining scope.',
+            wide: true,
+          },
+          {
+            number: '02',
+            title: 'System Architecture & UI/UX Design',
+            description: 'We design scalable backend structures and intuitive user experiences.',
+          },
+          {
+            number: '03',
+            title: 'Agile Development & Testing',
+            description:
+              'Secure, modular development cycles with continuous testing and optimization.',
+          },
+          {
+            number: '04',
+            title: 'Deployment & Long-Term Support',
+            description: 'Cloud deployment, monitoring, and scalable future enhancements.',
+            wide: true,
+          },
+        ]}
+      />
       <CtaButtonRe title="Start Your Project" url="/contact" />
       <WhoWeWorkWith />
       <WhyVMT />

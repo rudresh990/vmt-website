@@ -2,7 +2,14 @@ import PlatformGroup from '@/components/platfroms/PlatformGroup';
 import PlatformsFit from '@/components/platfroms/PlatformFit';
 import PlatformsCTA from '@/components/platfroms/PlatformCTA';
 import Hero from '@/components/sections/common/Hero';
-
+import { Metadata } from 'next';
+import { buildMetada } from '../lib/schema/seo';
+export const metadata: Metadata = buildMetada({
+  title: 'Technology Stack & Platforms | Void Matrix Technology',
+  description:
+    'Explore the modern development technologies and platforms used by Void Matrix Technology to build scalable digital systems.',
+  path: '/platforms',
+});
 export default function PlatformsPage() {
   return (
     <>

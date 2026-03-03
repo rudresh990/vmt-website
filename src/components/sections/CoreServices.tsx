@@ -6,6 +6,19 @@ export default function CoreServices() {
         <h2 className="section-title">Our Core Software & Performance Services</h2>
 
         <div className="services-list">
+          <Link href="/services/website-development" className="card-link">
+            <div>
+              <h3>Professional Website Development</h3>
+              <p>
+                We design and develop high-performance business websites engineered for credibility,
+                conversions, and long-term scalability. From corporate websites to dynamic
+                platforms, our development approach ensures speed, SEO-readiness, and seamless user
+                experience across all devices.
+              </p>
+              <p className="internal-link">Explore our website development services.</p>
+            </div>
+          </Link>
+
           <Link href="/services/custom-software-development" className="card-link">
             <div>
               <h3>Scalable Custom Software Development</h3>
