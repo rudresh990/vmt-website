@@ -176,10 +176,9 @@ const engineeringSteps = [
 export default function CustomSoftwareDev() {
   return (
     <>
-      <Script
+      <script
         type="application/ld+json"
         id="service-schema"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <Hero
