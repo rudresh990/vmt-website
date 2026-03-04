@@ -1,5 +1,6 @@
 import Hero from '@/components/sections/common/Hero';
 import { Metadata } from 'next';
+import Script from 'next/script';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
 import ServiceApproachSection from '@/components/services/ServiceApproachSection';
 import ServiceFitSection from '@/components/services/ServiceFitSection';
@@ -175,9 +176,10 @@ const engineeringSteps = [
 export default function CustomSoftwareDev() {
   return (
     <>
-      <script
+      <Script
         type="application/ld+json"
         id="service-schema"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <Hero
