@@ -1,6 +1,6 @@
 import { SITE_URL } from './config';
 
-export function generateOffer(slug: string, minPrice: number, maxPrice: number, currency = 'INR') {
+export function generateOffer(slug: string, lowPrice: number, highPrice: number, currency = 'INR') {
   return {
     '@type': 'Offer',
     '@id': `${SITE_URL}/services/${slug}/#offer`,
@@ -8,8 +8,8 @@ export function generateOffer(slug: string, minPrice: number, maxPrice: number, 
     priceSpecification: {
       '@type': 'PriceSpecification',
       priceCurrency: currency,
-      minPrice,
-      maxPrice,
+      lowPrice,
+      highPrice,
     },
     availability: 'https://schema.org/InStock',
   };
