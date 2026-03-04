@@ -15,6 +15,7 @@ import ServiceComp from '@/components/services/ServiceComp';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import { generateWebPage } from '@/app/lib/schema/webpage';
 import { buildMetada } from '@/app/lib/schema/seo';
+import { generateOffer } from '@/app/lib/schema/offer';
 export const metadata: Metadata = buildMetada({
   title: 'Custom Software Development Partner | Void Matrix Technology',
   description:
@@ -65,11 +66,14 @@ const faqs = [
   },
 ];
 
+const offer = generateOffer('custom-software-development', 300000, 2500000);
+
 const serviceSchema = generateService(
   'Custom Software Development',
   'custom-software-development',
   'Custom Software Development Services',
   `We provide custom software development services in India, helping startups, SMEs, and enterprises build scalable, secure, and high-performance digital solutions. Our team designs and develops tailored web applications, enterprise systems, SaaS platforms, automation tools, and business process software aligned with Indian market needs and regulatory requirements. From Mumbai, Delhi, Bangalore, and other major Indian cities, we support businesses across fintech, healthcare, eCommerce, logistics, manufacturing, and consulting sectors. Our development approach focuses on performance optimization, data security, cloud scalability, and long-term maintainability. We offer end-to-end services including requirement analysis, UI/UX design, architecture planning, full-stack development, API integration, cloud deployment, and ongoing support. Whether you need enterprise software, CRM/ERP systems, or custom automation solutions, we build technology that improves operational efficiency and drives measurable growth in the Indian business ecosystem.`,
+  offer,
 );
 
 const webPageSchema = generateWebPage(
