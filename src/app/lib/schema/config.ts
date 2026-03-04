@@ -33,19 +33,19 @@ export const BRAND_LOGO = {
 export const AREA_SERVED = [
   { '@type': 'Country', name: 'India' },
   {
-    '@type': 'City',
+    '@type': 'AdministrativeArea',
     name: 'Mumbai',
   },
   {
-    '@type': 'City',
+    '@type': 'AdministrativeArea',
     name: 'Delhi',
   },
   {
-    '@type': 'City',
+    '@type': 'AdministrativeArea',
     name: 'Pune',
   },
   {
-    '@type': 'City',
+    '@type': 'AdministrativeArea',
     name: 'Bangalore',
   },
 ] satisfies AreaServed[];
