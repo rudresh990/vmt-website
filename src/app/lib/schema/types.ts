@@ -37,6 +37,8 @@ export interface ContactPoint {
   '@type': 'ContactPoint';
   contactType: string;
   email: string;
+  areaServed: {};
+  availableLanguage: string[];
 }
 
 export interface Address {

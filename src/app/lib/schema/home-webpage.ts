@@ -9,6 +9,9 @@ export interface WebPageSchema extends BaseSchema {
   isPartOf: {
     '@id': string;
   };
+  about: {
+    '@id': string;
+  };
 }
 
 export function generateHomeWebPage(): WebPageSchema {
@@ -21,6 +24,9 @@ export function generateHomeWebPage(): WebPageSchema {
       'Void Matrix Technology is a custom software development company in India building scalable SaaS platforms, enterprise systems, eCommerce applications, and business websites.',
     isPartOf: {
       '@id': WEBSITE_ID,
+    },
+    about: {
+      '@id': `${SITE_URL}/Organization`,
     },
   };
 }

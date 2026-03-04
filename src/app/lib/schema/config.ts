@@ -30,13 +30,33 @@ export const BRAND_LOGO = {
   url: `${SITE_URL}/logo.png`,
 } satisfies ImageObject;
 
+export const AREA_SERVED = [
+  { '@type': 'Country', name: 'India' },
+  {
+    '@type': 'City',
+    name: 'Mumbai',
+  },
+  {
+    '@type': 'City',
+    name: 'Delhi',
+  },
+  {
+    '@type': 'City',
+    name: 'Pune',
+  },
+  {
+    '@type': 'City',
+    name: 'Bangalore',
+  },
+] satisfies AreaServed[];
+
 export const CONTACT_POINT = {
   '@type': 'ContactPoint',
   contactType: 'customer support',
   email: 'hello@voidmatrixtech.com',
+  areaServed: AREA_SERVED,
+  availableLanguage: ['English'],
 } satisfies ContactPoint;
-
-export const AREA_SERVED = [{ '@type': 'Country', name: 'India' }] satisfies AreaServed[];
 
 export interface FAQItem {
   q: string;

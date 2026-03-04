@@ -11,7 +11,6 @@ import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import MainServiceCTA from '@/components/services/MainServiceCTA';
 import { buildGraph } from './lib/schema/graph';
 import { generateFAQPage } from './lib/schema/faq-generator';
-import { generateHomePrimaryService } from './lib/schema/home-service';
 import { generateHomeWebPage } from './lib/schema/home-webpage';
 import { buildMetada } from './lib/schema/seo';
 
@@ -62,11 +61,7 @@ const faqs = [
   },
 ];
 
-const schema = buildGraph([
-  generateHomePrimaryService(),
-  generateHomeWebPage(),
-  generateFAQPage('', faqs),
-]);
+const schema = buildGraph([generateHomeWebPage(), generateFAQPage('', faqs)]);
 
 export default function Home() {
   return (

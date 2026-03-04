@@ -8,6 +8,10 @@ import ServiceFactors from '@/components/services/ServiceFactors';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import { Metadata } from 'next';
 import { buildMetada } from '@/app/lib/schema/seo';
+import { generateService } from '@/app/lib/schema/service';
+import { generateWebPage } from '@/app/lib/schema/webpage';
+import { generateFAQPage } from '@/app/lib/schema/faq-generator';
+import { buildGraph } from '@/app/lib/schema/graph';
 export const metadata: Metadata = buildMetada({
   title: 'Professional Website Development Company India | Void Matrix Technology',
   description:
@@ -45,9 +49,27 @@ const faqs = [
   },
 ];
 
+const serviceSchema = generateService(
+  'Web Development',
+  'web-development',
+  'Professional Web Development Services',
+  `We provide professional website development services in India helping businesses build fast secure and SEO optimized websites...`,
+);
+
+const webPageSchema = generateWebPage('Website Development Company in India', 'web-development');
+
+const faqSchema = generateFAQPage('services/web-development/', faqs);
+
+const schema = buildGraph([serviceSchema, webPageSchema, faqSchema]);
+
 export default function WebSiteDev() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        id="service-schema"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Hero
         title="Website Development Company In India"
         subtitle="We design and develop fast, secure, and conversion-focused business websites for startups, SMEs, and growing brands."

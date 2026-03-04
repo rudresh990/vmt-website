@@ -1,6 +1,5 @@
 import { BaseSchema } from './base';
-import { SITE_URL, ORGANIZATION_ID, AREA_SERVED, OFFER, WEBSITE_ID } from './config';
-import { Offer } from './types';
+import { SITE_URL, ORGANIZATION_ID, AREA_SERVED } from './config';
 
 export interface ServiceSchema extends BaseSchema {
   '@type': 'Service';
@@ -12,7 +11,7 @@ export interface ServiceSchema extends BaseSchema {
     '@type': 'Organization';
     '@id': string;
   };
-  offers: Offer;
+  offers?: any;
   areaServed: {};
 }
 
@@ -21,6 +20,7 @@ export function generateService(
   slug: string,
   serviceType: string,
   description: string,
+  offer?: any,
 ): ServiceSchema {
   return {
     '@type': 'Service',
@@ -33,7 +33,7 @@ export function generateService(
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
     },
-    offers: OFFER,
+    ...(offer && { offers: offer }),
     areaServed: AREA_SERVED,
   };
 }
