@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
+import { buildMetadata } from '../lib/schema/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: 'Cookie Policy | Void Matrix Technology',
   description:
     'Learn how Void Matrix Technology uses cookies to improve website performance, analytics, and overall user experience.',
-};
+  path: '/cookies',
+});
 
 export default function CookiePolicyPage() {
   return (

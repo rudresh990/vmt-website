@@ -7,6 +7,7 @@ export const metadata = {
   title: 'About Our Engineering Approach | Void Matrix Technology',
   description:
     'Learn how Void Matrix Technology builds scalable websites and custom software using an architecture-first development philosophy.',
+  path: '/company',
 };
 
 export default function CompanyPage() {

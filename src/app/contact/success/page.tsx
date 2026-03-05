@@ -1,9 +1,11 @@
+import { buildMetadata } from '@/app/lib/schema/seo';
 import Link from 'next/link';
-export const metadata = {
+export const metadata = buildMetadata({
   title: 'Message Sent Successfully | Void Matrix Technology',
   description:
     'Your message has been successfully sent to Void Matrix Technology. Our team will contact you shortly.',
-};
+  path: '/contact/success',
+});
 
 export default function success() {
   return (

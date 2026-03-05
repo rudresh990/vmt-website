@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
+import { buildMetadata } from '../lib/schema/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: 'Accessibility Statement | Void Matrix Technology',
   description:
     'Void Matrix Technology is committed to digital accessibility standards to ensure inclusive and usable web experiences.',
-};
+  path: '/accessibility',
+});
 
 export default function AccessibilityPage() {
   return (
