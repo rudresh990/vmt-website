@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
-import { buildMetada } from '../lib/schema/seo';
+import { buildMetadata } from '../lib/schema/seo';
 
-export const metadata: Metadata = buildMetada({
+export const metadata: Metadata = buildMetadata({
   title: 'Application Security Standards | Void Matrix Technology',
   description:
     'Discover how Void Matrix Technology ensures secure website and software development through modern infrastructure and protection standards.',

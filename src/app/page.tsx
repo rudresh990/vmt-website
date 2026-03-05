@@ -12,9 +12,9 @@ import MainServiceCTA from '@/components/services/MainServiceCTA';
 import { buildGraph } from './lib/schema/graph';
 import { generateFAQPage } from './lib/schema/faq-generator';
 import { generateHomeWebPage } from './lib/schema/home-webpage';
-import { buildMetada } from './lib/schema/seo';
+import { buildMetadata } from './lib/schema/seo';
 
-export const metadata: Metadata = buildMetada({
+export const metadata: Metadata = buildMetadata({
   title: 'Void Matrix Technology | Scalable Software & Web Systems',
   description:
     'Software development company in India delivering scalable websites and custom platforms engineered for security, performance, and business growth.',

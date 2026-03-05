@@ -7,12 +7,12 @@ import UpgradeSection from '@/components/sections/common/UpgradeSection';
 import ServiceFactors from '@/components/services/ServiceFactors';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import { Metadata } from 'next';
-import { buildMetada } from '@/app/lib/schema/seo';
+import { buildMetadata } from '@/app/lib/schema/seo';
 import { generateService } from '@/app/lib/schema/service';
 import { generateWebPage } from '@/app/lib/schema/webpage';
 import { generateFAQPage } from '@/app/lib/schema/faq-generator';
 import { buildGraph } from '@/app/lib/schema/graph';
-export const metadata: Metadata = buildMetada({
+export const metadata: Metadata = buildMetadata({
   title: 'Professional Website Development Company India | Void Matrix Technology',
   description:
     'Professional website development company in India creating high-performance, SEO-optimized, and scalable websites for modern businesses.',

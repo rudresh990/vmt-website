@@ -1,6 +1,5 @@
 import Hero from '@/components/sections/common/Hero';
 import { Metadata } from 'next';
-import Script from 'next/script';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
 import ServiceApproachSection from '@/components/services/ServiceApproachSection';
 import ServiceFitSection from '@/components/services/ServiceFitSection';
@@ -15,10 +14,10 @@ import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceComp from '@/components/services/ServiceComp';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import { generateWebPage } from '@/app/lib/schema/webpage';
-import { buildMetada } from '@/app/lib/schema/seo';
+import { buildMetadata } from '@/app/lib/schema/seo';
 import { generateOffer } from '@/app/lib/schema/offer';
-export const metadata: Metadata = buildMetada({
-  title: 'Custom Software Development Partner | Void Matrix Technology',
+export const metadata: Metadata = buildMetadata({
+  title: 'Custom Software Development Services in India',
   description:
     'Custom software development company in India building secure, scalable solutions tailored to enterprise and growing business needs.',
   path: '/services/custom-software-development',

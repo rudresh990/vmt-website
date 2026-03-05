@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/layout/LegalLayout';
-import { buildMetada } from '../lib/schema/seo';
+import { buildMetadata } from '../lib/schema/seo';
 
-export const metadata: Metadata = buildMetada({
+export const metadata: Metadata = buildMetadata({
   title: 'Privacy Policy | Void Matrix Technology',
   description:
     'Read how Void Matrix Technology collects, uses, and protects information related to its website and software development services.',

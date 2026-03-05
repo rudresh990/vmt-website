@@ -4,10 +4,11 @@ interface SEOProps {
   path: string;
 }
 
-export function buildMetada({ title, description, path }: SEOProps) {
+export function buildMetadata({ title, description, path }: SEOProps) {
   const baseUrl = 'https://www.voidmatrixtech.com';
   const url = `${baseUrl}${path}`;
   const imageUrl = `${baseUrl}/logo.png`;
+  title = title.replace(/\s*\|\s*Void Matrix Technology/i, '');
 
   return {
     title,

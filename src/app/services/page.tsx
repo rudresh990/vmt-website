@@ -10,9 +10,9 @@ import { buildGraph } from '../lib/schema/graph';
 import { generateServicePage } from '../lib/schema/services-collection-page';
 import { serviceCollectionFAQs } from '../lib/schema/data/services_data';
 import { generateFAQPage } from '../lib/schema/faq-generator';
-import { buildMetada } from '../lib/schema/seo';
+import { buildMetadata } from '../lib/schema/seo';
 
-export const metadata: Metadata = buildMetada({
+export const metadata: Metadata = buildMetadata({
   title: 'Website & Software Development Services India | Void Matrix Technology',
   description:
     'Explore website development and custom software services by Void Matrix Technology, engineered for scalability and long-term growth in India.',
