@@ -5,9 +5,6 @@ import ServiceApproachSection from '@/components/services/ServiceApproachSection
 import ServiceFitSection from '@/components/services/ServiceFitSection';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import MainServiceCTA from '@/components/services/MainServiceCTA';
-import { generateService } from '@/app/lib/schema/service';
-import { generateFAQPage } from '@/app/lib/schema/faq-generator';
-import { buildGraph } from '@/app/lib/schema/graph';
 import WhaIsService from '@/components/services/WhatIsService';
 import ServiceCost from '@/components/services/ServiceCost';
 import ServiceFactors from '@/components/services/ServiceFactors';
@@ -15,9 +12,6 @@ import ServiceComp from '@/components/services/ServiceComp';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 import { buildMetadata } from '@/app/lib/schema/seo';
-import { generateOffer } from '@/app/lib/schema/offer';
-import { generateGlobalWebpage as generateGlobalWebPage } from '@/app/lib/schema/globalWebpage';
-import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 export const metadata: Metadata = buildMetadata({
   title: 'Custom Software Development Services in India',
   description:
@@ -26,26 +20,6 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const s_data = serviceData['/services/custom-software-development'];
-
-// const offer = generateOffer('custom-software-development', 300000, 2500000);
-
-// const serviceSchema = generateService(
-//   '/services/custom-software-development',
-//   `We provide custom software development services in India, helping startups, SMEs, and enterprises build scalable, secure, and high-performance digital solutions. Our team designs and develops tailored web applications, enterprise systems, SaaS platforms, automation tools, and business process software aligned with Indian market needs and regulatory requirements. From Mumbai, Delhi, Bangalore, and other major Indian cities, we support businesses across fintech, healthcare, eCommerce, logistics, manufacturing, and consulting sectors. Our development approach focuses on performance optimization, data security, cloud scalability, and long-term maintainability. We offer end-to-end services including requirement analysis, UI/UX design, architecture planning, full-stack development, API integration, cloud deployment, and ongoing support. Whether you need enterprise software, CRM/ERP systems, or custom automation solutions, we build technology that improves operational efficiency and drives measurable growth in the Indian business ecosystem.`,
-//   'Custom Software Development',
-//   offer,
-// );
-
-// const webPageSchema = generateGlobalWebPage(
-//   '/services/custom-software-development',
-//   'Custom Software Development Company in India',
-// );
-
-// const faqSchema = generateFAQPage('services/custom-software-development/', s_data.faqs);
-
-// const schema = buildGraph([serviceSchema, webPageSchema, faqSchema]);
-
-// const schema = schemaFactory('/services/custom-software-development');
 
 const contents = [
   {

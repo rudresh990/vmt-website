@@ -10,10 +10,6 @@ import SchemaInjector from '@/components/schema/SchemaInjector';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 // analytics
 import { Analytics } from '@vercel/analytics/next';
-import { generateOrganization } from './lib/schema/organization';
-import { buildGraph } from './lib/schema/graph';
-import { generateWebSite } from './lib/schema/website';
-import { headers } from 'next/headers';
 
 export const metadata: Metadata = {
   icons: {
