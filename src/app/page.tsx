@@ -9,9 +9,6 @@ import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import InvestmentRange from '@/components/sections/home/InvestmentRange';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import MainServiceCTA from '@/components/services/MainServiceCTA';
-import { buildGraph } from './lib/schema/graph';
-import { generateFAQPage } from './lib/schema/faq-generator';
-import { generateHomeWebPage } from './lib/schema/home-webpage';
 import { buildMetadata } from './lib/schema/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -61,16 +58,9 @@ const faqs = [
   },
 ];
 
-const schema = buildGraph([generateHomeWebPage(), generateFAQPage('', faqs)]);
-
 export default function Home() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        id="home-page-schema"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
       <Hero
         title="Custom Software Development Company in India"
         herosub="We design, architect, and build scalable software, SaaS platforms, eCommerce systems, and business websites for startups, SMEs, and enterprises."

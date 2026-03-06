@@ -8,68 +8,19 @@ import ServiceFactors from '@/components/services/ServiceFactors';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 import { Metadata } from 'next';
 import { buildMetadata } from '@/app/lib/schema/seo';
-import { generateService } from '@/app/lib/schema/service';
-import { generateWebPage } from '@/app/lib/schema/webpage';
-import { generateFAQPage } from '@/app/lib/schema/faq-generator';
-import { buildGraph } from '@/app/lib/schema/graph';
+import { serviceData } from '@/app/lib/schema/data/services_data';
+
 export const metadata: Metadata = buildMetadata({
   title: 'Professional Website Development Company India | Void Matrix Technology',
   description:
     'Professional website development company in India creating high-performance, SEO-optimized, and scalable websites for modern businesses.',
   path: '/services/website-development',
 });
-const faqs = [
-  {
-    q: 'How much does website development cost in India?',
-    a: 'Website development cost in India typically ranges from ₹25,000 to ₹3,00,000 depending on design complexity, features, integrations, and scalability requirements. A basic business website costs less, while dynamic and ecommerce platforms require higher investment. At Void Matrix Technology, we provide transparent pricing based on your exact business goals and scope.',
-  },
-  {
-    q: 'How long does it take to build a business website?',
-    a: 'Most professional business websites take 3-6 weeks from planning to launch. Ecommerce websites or dynamic platforms with custom functionality may take longer depending on features, integrations, and approval cycles.',
-  },
-  {
-    q: 'Do you provide SEO with website development?',
-    a: 'Yes. Every website we build includes SEO-friendly architecture, mobile-first development, optimized page structure, and performance improvements to help your business rank better on search engines.',
-  },
-  {
-    q: 'Can you redesign my existing website without losing SEO rankings?',
-    a: 'Yes. We carefully restructure and modernize outdated websites while preserving existing SEO value, improving speed, usability, and overall performance.',
-  },
-  {
-    q: 'Do you offer website maintenance and long-term support?',
-    a: 'Yes. We provide ongoing website maintenance, performance monitoring, security updates, and scalability planning to ensure long-term stability and growth.',
-  },
-  {
-    q: 'Do you provide website development services in Mumbai and Pune?',
-    a: 'Yes. We actively work with startups, SMEs, and enterprises in Mumbai and Pune. Our remote-first collaboration model ensures smooth communication, structured project management, and timely delivery regardless of location.',
-  },
-  {
-    q: 'Why choose a professional website development company in Mumbai instead of a freelancer?',
-    a: 'A professional website development company provides structured planning, scalable architecture, ongoing support, and accountability. While freelancers may offer lower upfront costs, businesses often benefit from long-term reliability, SEO-focused development, and technical support provided by an experienced team.',
-  },
-];
-
-const serviceSchema = generateService(
-  'Web Development',
-  'web-development',
-  'Professional Web Development Services',
-  `We provide professional website development services in India helping businesses build fast secure and SEO optimized websites...`,
-);
-
-const webPageSchema = generateWebPage('Website Development Company in India', 'web-development');
-
-const faqSchema = generateFAQPage('services/web-development/', faqs);
-
-const schema = buildGraph([serviceSchema, webPageSchema, faqSchema]);
+const s_data = serviceData['/services/website-development'];
 
 export default function WebSiteDev() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        id="service-schema"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
       <Hero
         title="Website Development Company In India"
         subtitle="We design and develop fast, secure, and conversion-focused business websites for startups, SMEs, and growing brands."
@@ -155,7 +106,7 @@ export default function WebSiteDev() {
         ]}
         closing="Every website we deliver is engineered to scale with your business, not limit it."
       />
-      <MainServiceFAQ heading="Website Development Services in India - FAQs" faqs={faqs} />
+      <MainServiceFAQ heading="Website Development Services in India - FAQs" faqs={s_data.faqs} />
       <MainServiceCTA
         heading="Not Sure What You Need?"
         description="We assess your growth stage and architect for scale."

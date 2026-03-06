@@ -10,10 +10,17 @@ import { generateFAQPage } from './faq-generator';
 import { generateOffer } from './offer';
 
 export function schemaFactory(pathname: string) {
+  type ServicePath = keyof typeof serviceData;
+  const service = serviceData[pathname as ServicePath];
+  const isService = Boolean(service);
   const graph: any[] = [];
   graph.push(generateOrganization());
   graph.push(generateWebSite());
-  graph.push(generateGlobalWebpage(pathname));
+  if (isService) {
+    graph.push(generateGlobalWebpage(pathname, service.description));
+  } else {
+    graph.push(generateGlobalWebpage(pathname));
+  }
   if (pathname && pathname !== '/') {
     graph.push(generateAutoBreadcrumb(pathname));
   }
@@ -22,8 +29,6 @@ export function schemaFactory(pathname: string) {
     graph.push(generateFAQPage('services', serviceCollectionFAQs));
   }
 
-  type ServicePath = keyof typeof serviceData;
-  const service = serviceData[pathname as ServicePath];
   if (service) {
     if (service.offer) {
       const [lowPrice, highPrice] = service.offer;

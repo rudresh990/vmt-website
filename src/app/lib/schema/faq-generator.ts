@@ -2,10 +2,10 @@ import { SITE_URL, FAQItem } from './config';
 export function generateFAQPage(slug: string, faqs: FAQItem[]) {
   return {
     '@type': 'FAQPage',
-    '@id': `${SITE_URL}/${slug}#faq`,
+    '@id': `${SITE_URL}${slug}#faq`,
     // name: `${slug}FAQs`,
     isPartOf: {
-      '@id': `${SITE_URL}/${slug}#webpage`,
+      '@id': `${SITE_URL}${slug}#webpage`,
     },
     mainEntity: faqs.map((faq) => ({
       '@type': 'Question',

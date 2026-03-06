@@ -21,10 +21,13 @@ export function generateGlobalWebpage(pathname: string, description?: string): W
   const slug = path.split('/').pop() || '';
   const name = slug.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'HOME';
   const aboutId = isServicePage ? `${url}/#service` : ORGANIZATION_ID;
-  description = description === undefined ? 'Void Matrix Technology' : description;
+  description =
+    description === undefined
+      ? 'Void Matrix Technology provides custom software development, web applications, AI solutions, and scalable digital platforms to help startups, SMEs, and enterprises build powerful digital products.'
+      : description;
   return {
     '@type': 'WebPage',
-    '@id': `${url}#webpage`,
+    '@id': `${url}/#webpage`,
     name,
     url,
     description,
