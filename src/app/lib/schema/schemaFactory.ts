@@ -32,6 +32,7 @@ export function schemaFactory(pathname: string) {
     } else {
       graph.push(generateService(pathname, service.description));
     }
+    graph.push(generateFAQPage(pathname, service.faqs));
   }
   return {
     '@context': 'https://schema.org',
