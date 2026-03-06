@@ -273,15 +273,11 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* PLATFORMS */}
+            {/* COMPANY */}
             <div className="mobile-group">
               <Link onClick={closeMobile} href="/platforms" className="mobile-item">
                 Platforms
               </Link>
-            </div>
-
-            {/* COMPANY */}
-            <div className="mobile-group">
               <Link onClick={closeMobile} href="/company" className="mobile-item">
                 Company
               </Link>
