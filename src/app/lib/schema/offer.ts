@@ -2,8 +2,8 @@ import { SITE_URL } from './config';
 
 export function generateOffer(
   pathname: string,
-  lowPrice?: number,
-  highPrice?: number,
+  minPrice?: number,
+  maxPrice?: number,
   currency: string = 'INR',
 ) {
   const path = pathname === '/' ? '' : pathname.replace(/\/+$/, '');
@@ -12,13 +12,13 @@ export function generateOffer(
     '@type': 'Offer',
     '@id': `${url}/#offer`,
     priceCurrency: currency,
-    ...(lowPrice !== undefined &&
-      highPrice !== undefined && {
+    ...(minPrice !== undefined &&
+      maxPrice !== undefined && {
         priceSpecification: {
           '@type': 'PriceSpecification',
           priceCurrency: currency,
-          lowPrice,
-          highPrice,
+          minPrice,
+          maxPrice,
         },
       }),
     availability: 'https://schema.org/InStock',
