@@ -20,11 +20,7 @@ export function generateService(
   description: string,
   serviceType?: string,
   offer?: any,
-): ServiceSchema | null {
-  const isServicePage = /^\/services(\/|$)/.test(pathname);
-
-  if (!isServicePage) return null;
-
+): ServiceSchema {
   const path = pathname === '/' ? '' : pathname.replace(/\+$/, '');
   const url = `${SITE_URL}${path}`;
   console.log(url);
