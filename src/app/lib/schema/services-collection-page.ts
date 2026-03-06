@@ -23,7 +23,7 @@ export interface ServiceListItem {
   name: string;
   slug: string;
 }
-export function generateServicePage(services: ServiceListItem[]): ServicePageSchema {
+export function generateServiceCollectionPage(services: ServiceListItem[]): ServicePageSchema {
   return {
     '@type': 'CollectionPage',
     '@id': COLLECTION_ID,

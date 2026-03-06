@@ -7,8 +7,9 @@ import ServicesCTA from '@/components/sections/ServicesCTA';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import ServicesFAQ from '@/components/sections/ServicesFAQ';
 import { buildGraph } from '../lib/schema/graph';
-import { generateServicePage } from '../lib/schema/services-collection-page';
-import { serviceCollectionFAQs } from '../lib/schema/data/services_data';
+import { coreServicesData } from '../lib/schema/data/services_collection_data';
+import { serviceCollectionFAQs } from '../lib/schema/data/services_collection_data';
+import { generateServiceCollectionPage } from '../lib/schema/services-collection-page';
 import { generateFAQPage } from '../lib/schema/faq-generator';
 import { buildMetadata } from '../lib/schema/seo';
 
@@ -20,17 +21,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function SolutionPage() {
-  const coreServices = [
-    { name: 'Scalable Custom Software Development', slug: 'custom-software-development' },
-    { name: 'Web & Mobile Application Development', slug: 'web-mobile-application-development' },
-    { name: 'Scalable Platform Engineering', slug: 'platform-engineering' },
-    { name: 'APIs, Integrations & Internal Tools', slug: 'api-integrations-internal-tools' },
-    {
-      name: 'Technical SEO & Website Performance Optimization',
-      slug: 'technical-seo-performance',
-    },
-  ];
-  const collectionSchema = generateServicePage(coreServices);
+  const collectionSchema = generateServiceCollectionPage(coreServicesData);
   const faqs = generateFAQPage('services', serviceCollectionFAQs);
   const schema = buildGraph([collectionSchema, faqs]);
   return (

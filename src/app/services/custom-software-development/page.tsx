@@ -13,9 +13,11 @@ import ServiceCost from '@/components/services/ServiceCost';
 import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceComp from '@/components/services/ServiceComp';
 import CtaButtonRe from '@/components/ui/CtaButtonRe';
-import { generateWebPage } from '@/app/lib/schema/webpage';
+import { serviceData } from '@/app/lib/schema/data/services_data';
 import { buildMetadata } from '@/app/lib/schema/seo';
 import { generateOffer } from '@/app/lib/schema/offer';
+import { generateGlobalWebpage as generateGlobalWebPage } from '@/app/lib/schema/globalWebpage';
+import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 export const metadata: Metadata = buildMetadata({
   title: 'Custom Software Development Services in India',
   description:
@@ -23,67 +25,27 @@ export const metadata: Metadata = buildMetadata({
   path: '/services/custom-software-development',
 });
 
-const faqs = [
-  {
-    q: 'How much does custom software development cost in India?',
-    a: 'Custom software development in India typically ranges from ₹3,00,000 to ₹25,00,000+, depending on complexity, integrations, features, and scalability requirements. Simple internal business tools cost less, while enterprise-grade platforms with cloud architecture, AI integration, and multi-user systems require larger investments. At VMT, we provide transparent cost breakdowns based on your exact business needs.',
-  },
-  {
-    q: 'How long does it take to build custom software?',
-    a: 'Development timelines vary based on project scope. A basic MVP can take 6-10 weeks, while enterprise software solutions may require 4–8 months. The timeline depends on feature depth, integrations, UI/UX complexity, and testing cycles. We follow an agile methodology to ensure faster delivery and iterative improvements.',
-  },
-  {
-    q: 'Why choose custom software over off-the-shelf solutions?',
-    a: 'Off-the-shelf software limits customization and scalability. Custom software is built specifically for your business workflows, operational systems, and long-term growth strategy. It provides better integration, higher performance, improved security, and complete ownership of your technology infrastructure.',
-  },
-  {
-    q: 'Which industries benefit from custom software development?',
-    a: 'Industries such as healthcare, fintech, logistics, manufacturing, eCommerce, and enterprise consulting benefit significantly from custom software solutions. Any business with unique operational workflows or scalability requirements gains long-term efficiency and competitive advantage through tailored software systems.',
-  },
-  {
-    q: 'What technologies do you use for custom software development?',
-    a: 'We use modern and scalable technologies including React, Next.js, Node.js, Python, cloud platforms (AWS, Azure), and secure database architectures. Technology selection depends on performance needs, scalability goals, and integration requirements.',
-  },
-  {
-    q: 'Do you provide cloud deployment and DevOps support?',
-    a: 'Yes, we provide full cloud deployment, CI/CD pipelines, server configuration, DevOps automation, and infrastructure scaling. Our architecture-first approach ensures your custom software runs securely and efficiently in cloud environments.',
-  },
-  {
-    q: 'How do you ensure software security?',
-    a: 'We implement secure coding practices, role-based access control, encrypted data handling, secure APIs, and regular security audits. Our development approach aligns with global security standards to protect business-critical data.',
-  },
-  {
-    q: 'Do you offer post-launch maintenance and support?',
-    a: 'Yes. We provide long-term maintenance, performance optimization, feature upgrades, and scaling support. Custom software is an evolving system, and we ensure continuous improvement as your business grows.',
-  },
-  {
-    q: 'Can custom software scale as my business grows?',
-    a: 'Absolutely. We design scalable architectures that handle increasing users, transactions, and integrations. From startups to enterprise systems, our solutions are built for long-term growth.',
-  },
-  {
-    q: 'Do you sign NDAs and ensure confidentiality?',
-    a: 'Yes, we sign Non-Disclosure Agreements (NDAs) before project discussions. Protecting your intellectual property, business strategy, and sensitive data is a top priority.',
-  },
-];
+const s_data = serviceData['/services/custom-software-development'];
 
-const offer = generateOffer('custom-software-development', 300000, 2500000);
+// const offer = generateOffer('custom-software-development', 300000, 2500000);
 
-const serviceSchema = generateService(
-  'Custom Software Development',
-  'custom-software-development',
-  'Custom Software Development Services',
-  `We provide custom software development services in India, helping startups, SMEs, and enterprises build scalable, secure, and high-performance digital solutions. Our team designs and develops tailored web applications, enterprise systems, SaaS platforms, automation tools, and business process software aligned with Indian market needs and regulatory requirements. From Mumbai, Delhi, Bangalore, and other major Indian cities, we support businesses across fintech, healthcare, eCommerce, logistics, manufacturing, and consulting sectors. Our development approach focuses on performance optimization, data security, cloud scalability, and long-term maintainability. We offer end-to-end services including requirement analysis, UI/UX design, architecture planning, full-stack development, API integration, cloud deployment, and ongoing support. Whether you need enterprise software, CRM/ERP systems, or custom automation solutions, we build technology that improves operational efficiency and drives measurable growth in the Indian business ecosystem.`,
-  offer,
-);
+// const serviceSchema = generateService(
+//   '/services/custom-software-development',
+//   `We provide custom software development services in India, helping startups, SMEs, and enterprises build scalable, secure, and high-performance digital solutions. Our team designs and develops tailored web applications, enterprise systems, SaaS platforms, automation tools, and business process software aligned with Indian market needs and regulatory requirements. From Mumbai, Delhi, Bangalore, and other major Indian cities, we support businesses across fintech, healthcare, eCommerce, logistics, manufacturing, and consulting sectors. Our development approach focuses on performance optimization, data security, cloud scalability, and long-term maintainability. We offer end-to-end services including requirement analysis, UI/UX design, architecture planning, full-stack development, API integration, cloud deployment, and ongoing support. Whether you need enterprise software, CRM/ERP systems, or custom automation solutions, we build technology that improves operational efficiency and drives measurable growth in the Indian business ecosystem.`,
+//   'Custom Software Development',
+//   offer,
+// );
 
-const webPageSchema = generateWebPage(
-  'Custom Software Development Company in India',
-  'custom-software-development',
-);
+// const webPageSchema = generateGlobalWebPage(
+//   '/services/custom-software-development',
+//   'Custom Software Development Company in India',
+// );
 
-const faqSchema = generateFAQPage('services/custom-software-development/', faqs);
+// const faqSchema = generateFAQPage('services/custom-software-development/', s_data.faqs);
 
-const schema = buildGraph([serviceSchema, webPageSchema, faqSchema]);
+// const schema = buildGraph([serviceSchema, webPageSchema, faqSchema]);
+
+// const schema = schemaFactory('/services/custom-software-development');
 
 const contents = [
   {
@@ -175,11 +137,11 @@ const engineeringSteps = [
 export default function CustomSoftwareDev() {
   return (
     <>
-      <script
+      {/* <script
         type="application/ld+json"
         id="service-schema"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+      /> */}
       <Hero
         title="Custom Software Development Company in India"
         subtitle="Scalable, secure, and performance-driven custom software solutions for startups, enterprises, and growing businesses across India."
@@ -327,7 +289,7 @@ export default function CustomSoftwareDev() {
       />
 
       {/* service FAQ */}
-      <MainServiceFAQ faqs={faqs} heading="Custom Software Development - FAQs" />
+      <MainServiceFAQ faqs={s_data.faqs} heading="Custom Software Development - FAQs" />
       <MainServiceCTA
         heading="Ready to Build Scalable Software for Your Business in India?"
         description="Partner with Void Matrix Technology to design secure, scalable, and performance-driven custom software."

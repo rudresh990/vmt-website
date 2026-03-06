@@ -85,3 +85,16 @@ export interface ImageObject {
   '@type': 'ImageObject';
   url: string;
 }
+export interface BreadcrumbItemInput {
+  name: string;
+  url: string;
+}
+
+export interface BreadcrumbSchema extends BaseSchema {
+  itemListElement: {
+    '@type': 'ListItem';
+    position: number;
+    name: string;
+    item: string;
+  }[];
+}

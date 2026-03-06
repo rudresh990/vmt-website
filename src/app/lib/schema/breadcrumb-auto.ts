@@ -1,4 +1,4 @@
-import { BreadcrumbSchema } from './breadcrumb';
+import { BreadcrumbSchema } from './types';
 import { SITE_URL } from './config';
 
 export function generateAutoBreadcrumb(pathname: string): BreadcrumbSchema {

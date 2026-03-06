@@ -16,23 +16,34 @@ export interface ServiceSchema extends BaseSchema {
 }
 
 export function generateService(
-  name: string,
-  slug: string,
-  serviceType: string,
+  pathname: string,
   description: string,
+  serviceType?: string,
   offer?: any,
-): ServiceSchema {
+): ServiceSchema | null {
+  const isServicePage = /^\/services(\/|$)/.test(pathname);
+
+  if (!isServicePage) return null;
+
+  const path = pathname === '/' ? '' : pathname.replace(/\+$/, '');
+  const url = `${SITE_URL}${path}`;
+  console.log(url);
+  const slug = path.split('/').pop() || '';
+  const name = slug.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
   return {
     '@type': 'Service',
-    '@id': `${SITE_URL}/services/${slug}/#service`,
+    '@id': `${url}/#service`,
     name,
     description,
-    serviceType,
-    url: `${SITE_URL}/services/${slug}`,
+    serviceType: serviceType || name,
+    url,
     provider: {
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
       name: NAME,
+    },
+    mainEntityOfPage: {
+      '@id': `${url}/#webpage`,
     },
     ...(offer && { offers: offer }),
     areaServed: AREA_SERVED,

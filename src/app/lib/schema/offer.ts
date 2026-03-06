@@ -1,16 +1,26 @@
 import { SITE_URL } from './config';
 
-export function generateOffer(slug: string, lowPrice: number, highPrice: number, currency = 'INR') {
+export function generateOffer(
+  pathname: string,
+  lowPrice?: number,
+  highPrice?: number,
+  currency: string = 'INR',
+) {
+  const path = pathname === '/' ? '' : pathname.replace(/\/+$/, '');
+  const url = `${SITE_URL}${path}`;
   return {
     '@type': 'Offer',
-    '@id': `${SITE_URL}/services/${slug}/#offer`,
+    '@id': `${url}/#offer`,
     priceCurrency: currency,
-    priceSpecification: {
-      '@type': 'PriceSpecification',
-      priceCurrency: currency,
-      lowPrice,
-      highPrice,
-    },
+    ...(lowPrice !== undefined &&
+      highPrice !== undefined && {
+        priceSpecification: {
+          '@type': 'PriceSpecification',
+          priceCurrency: currency,
+          lowPrice,
+          highPrice,
+        },
+      }),
     availability: 'https://schema.org/InStock',
   };
 }

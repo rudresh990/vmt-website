@@ -4,7 +4,8 @@ import Footer from '@/components/layout/footer';
 import { Inter, IBM_Plex_Sans } from 'next/font/google';
 import Script from 'next/script';
 import './styles/globals.css';
-import BreadcrumbInjector from '@/components/schema/BreadcrumbInjector';
+import SchemaInjector from '@/components/schema/SchemaInjector';
+// import BreadcrumbInjector from '@/components/schema/BreadcrumbInjector';
 // light speed vercel
 import { SpeedInsights } from '@vercel/speed-insights/next';
 // analytics
@@ -12,6 +13,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { generateOrganization } from './lib/schema/organization';
 import { buildGraph } from './lib/schema/graph';
 import { generateWebSite } from './lib/schema/website';
+import { headers } from 'next/headers';
 
 export const metadata: Metadata = {
   icons: {
@@ -112,7 +114,8 @@ export default async function RootLayout({
           }}
         />
 
-        <BreadcrumbInjector />
+        {/* <BreadcrumbInjector /> */}
+        <SchemaInjector />
       </head>
       <body className="bg-authkit min-h-screen app-root">
         <header>
