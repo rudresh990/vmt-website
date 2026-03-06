@@ -79,10 +79,10 @@ const IBMPlex = IBM_Plex_Sans({
 
 // Dynamic Schema injection
 
-const org = generateOrganization();
-const website = generateWebSite();
+// const org = generateOrganization();
+// const website = generateWebSite();
 
-const schema = buildGraph([org, website]);
+// const schema = buildGraph([org, website]);
 
 export default async function RootLayout({
   children,
@@ -105,14 +105,14 @@ export default async function RootLayout({
             gtag('config', 'G-THEJRBKYV5');
           `}
         </Script>
-        <Script
+        {/* <Script
           id="organization-schema"
           type="application/ld+json"
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(schema),
           }}
-        />
+        /> */}
 
         {/* <BreadcrumbInjector /> */}
         <SchemaInjector />
