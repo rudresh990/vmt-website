@@ -204,4 +204,225 @@ export const serviceData = {
     ],
     offer: [150000, 1500000],
   },
+  '/services/web-application-development': {
+    name: 'web application development',
+    description:
+      'We provide web application development services in India, helping startups, SaaS companies, and enterprises build scalable digital platforms. Our team designs and develops custom web applications, SaaS platforms, internal dashboards, automation systems, and business workflow software. From Mumbai, Pune, Bangalore, and other technology ecosystems in India, we support companies that require reliable software systems for product development and operational efficiency. Our web application development approach focuses on scalable architecture, clean user experience, secure backend systems, and high-performance APIs. We build modern web applications using React, Node.js, cloud infrastructure, and modular backend architecture to ensure long-term scalability and maintainability. Our solutions enable businesses to automate operations, manage complex workflows, and launch digital products faster.',
+    faqs: [
+      {
+        q: 'What is web application development?',
+        a: 'Web application development involves building browser-based software platforms such as dashboards, SaaS tools, and automation systems that users interact with online.',
+      },
+      {
+        q: 'How is a web application different from a website?',
+        a: 'A website mainly provides information, while a web application allows users to perform actions such as managing accounts, processing data, or using software tools.',
+      },
+      {
+        q: 'How much does web application development cost in India?',
+        a: 'Custom web application projects in India typically range from ₹3,00,000 to ₹20,00,000 depending on system complexity, integrations, and required features.',
+      },
+      {
+        q: 'Which businesses need web applications?',
+        a: 'Startups, SaaS companies, fintech platforms, marketplaces, and enterprises often require web applications to manage operations and digital products.',
+      },
+      {
+        q: 'Do you build SaaS platforms?',
+        a: 'Yes. We design and develop scalable SaaS applications including subscription systems, dashboards, and multi-tenant platforms.',
+      },
+      {
+        q: 'Do you integrate APIs and third-party systems?',
+        a: 'Yes. We integrate payment gateways, CRM platforms, analytics systems, and other APIs depending on project requirements.',
+      },
+      {
+        q: 'Do you provide web application development services in Mumbai and Pune?',
+        a: 'Yes. We work with startups and companies across Mumbai and Pune to build scalable digital platforms and software systems.',
+      },
+    ],
+
+    offer: [300000, 2000000],
+  },
+  '/services/mobile-application-development': {
+    name: 'mobile application development',
+    description:
+      'We provide mobile application development services in India, helping startups and businesses build scalable Android and iOS applications. Our team designs high-performance mobile apps for digital products, eCommerce platforms, on-demand services, and customer engagement systems. From Mumbai, Pune, Bangalore, and other technology ecosystems in India, we support companies that want to launch mobile products and improve user engagement. Our mobile app development approach focuses on intuitive user experience, performance optimization, secure backend systems, and scalable architecture. We build modern mobile applications using React Native and cloud-connected backend systems to ensure cross-platform compatibility and rapid development. Our solutions enable businesses to deliver seamless mobile experiences, scale user engagement, and launch mobile platforms efficiently.',
+
+    faqs: [
+      {
+        q: 'What is mobile application development?',
+        a: 'Mobile application development involves building applications for smartphones and tablets that run on platforms such as Android and iOS.',
+      },
+      {
+        q: 'Do you develop both Android and iOS applications?',
+        a: 'Yes. We build cross-platform mobile applications that work on both Android and iOS devices using modern frameworks.',
+      },
+      {
+        q: 'How much does mobile app development cost in India?',
+        a: 'Mobile app development projects in India typically range from ₹4,00,000 to ₹25,00,000 depending on features, integrations, and platform requirements.',
+      },
+      {
+        q: 'Which businesses should build mobile apps?',
+        a: 'Startups, marketplaces, eCommerce companies, service platforms, and SaaS businesses often benefit from mobile applications.',
+      },
+      {
+        q: 'Do you build backend systems for mobile apps?',
+        a: 'Yes. We build scalable backend APIs, authentication systems, and databases that power mobile applications.',
+      },
+      {
+        q: 'Do you publish apps to Google Play and App Store?',
+        a: 'Yes. We help deploy applications to Google Play Store and Apple App Store including configuration and launch support.',
+      },
+      {
+        q: 'Do you provide mobile app development services in Mumbai and Pune?',
+        a: 'Yes. We work with startups and businesses across Mumbai and Pune to build scalable mobile applications.',
+      },
+    ],
+
+    offer: [400000, 2500000],
+  },
+  '/services/ecommerce-development': {
+    name: 'ecommerce development',
+    description:
+      'We provide eCommerce development services in India, helping brands build scalable online stores and digital commerce platforms. Our team develops custom eCommerce websites, online marketplaces, product management systems, and integrated payment infrastructures for growing businesses. From Mumbai, Pune, Bangalore, and other technology ecosystems in India, we support startups and established brands launching or scaling online sales. Our eCommerce development approach focuses on conversion-focused design, performance optimization, secure checkout systems, and scalable backend architecture. We build modern eCommerce platforms using scalable frameworks, payment gateway integrations, and inventory management systems. Our solutions enable businesses to manage online sales efficiently, improve customer experience, and scale digital commerce operations.',
+
+    faqs: [
+      {
+        q: 'What is eCommerce development?',
+        a: 'eCommerce development involves building online stores and digital commerce platforms that allow businesses to sell products or services online.',
+      },
+      {
+        q: 'Do you build custom eCommerce platforms?',
+        a: 'Yes. We build custom eCommerce websites, marketplaces, and product management systems depending on business requirements.',
+      },
+      {
+        q: 'How much does eCommerce development cost in India?',
+        a: 'eCommerce development projects in India typically range from ₹2,00,000 to ₹15,00,000 depending on platform complexity and integrations.',
+      },
+      {
+        q: 'Which businesses need eCommerce platforms?',
+        a: 'Retail brands, manufacturers, marketplaces, and D2C businesses often require scalable eCommerce platforms.',
+      },
+      {
+        q: 'Do you integrate payment gateways?',
+        a: 'Yes. We integrate secure payment gateways including Razorpay, Stripe, and other payment providers.',
+      },
+      {
+        q: 'Do you build multi-vendor marketplaces?',
+        a: 'Yes. We develop marketplace platforms that allow multiple vendors to sell products on a single system.',
+      },
+      {
+        q: 'Do you provide eCommerce development services in Mumbai and Pune?',
+        a: 'Yes. We work with brands and startups across Mumbai and Pune to build scalable online stores.',
+      },
+    ],
+
+    offer: [200000, 1500000],
+  },
+  '/services/technical-seo-performance-optimization': {
+    name: 'technical seo and performance',
+    description:
+      'We provide technical SEO and website performance optimization services in India, helping businesses in Mumbai, Pune, Bangalore, and other major technology ecosystems improve search visibility and organic traffic. Our team works with startups, SaaS companies, service businesses, and eCommerce brands that require strong technical SEO foundations for long-term search growth. Many websites struggle with crawl errors, indexing problems, slow page speeds, and poor site architecture that prevent them from ranking in Google search results. Our technical SEO services focus on fixing these structural issues and building scalable search-friendly website architecture. We perform complete technical SEO audits, resolve crawlability and indexing issues, optimize Core Web Vitals, improve internal linking structures, and implement structured data schemas. Businesses in Mumbai and Pune rely on our technical SEO expertise to build high-performance websites that search engines can easily crawl, understand, and rank. Our goal is to create technically optimized websites that support long-term organic growth and consistent inbound leads.',
+    faqs: [
+      {
+        q: 'What is technical SEO?',
+        a: 'Technical SEO focuses on optimizing the technical structure of a website so search engines can crawl, index, and understand it effectively.',
+      },
+      {
+        q: 'Why is technical SEO important for websites in Mumbai and Pune?',
+        a: 'Businesses in competitive markets like Mumbai and Pune require technically optimized websites to rank effectively against competitors.',
+      },
+      {
+        q: 'How much do technical SEO services cost in India?',
+        a: 'Technical SEO projects in India typically range from ₹60,000 to ₹4,00,000 depending on website size and complexity.',
+      },
+      {
+        q: 'Do startups need technical SEO?',
+        a: 'Yes. Technical SEO helps startup websites get properly indexed by search engines and build long-term organic growth.',
+      },
+      {
+        q: 'Do you fix crawl and indexing issues?',
+        a: 'Yes. We identify crawl errors, indexing issues, duplicate pages, and technical architecture problems.',
+      },
+      {
+        q: 'Do you implement structured data?',
+        a: 'Yes. Structured data helps search engines better understand your website content and improves visibility in search results.',
+      },
+      {
+        q: 'Do you provide technical SEO services in Mumbai and Pune?',
+        a: 'Yes. We work with startups, SaaS companies, and service businesses across Mumbai and Pune.',
+      },
+    ],
+    offer: [60000, 400000],
+  },
+  '/services/website-speed-optimization': {
+    name: 'website speed optimization',
+    description:
+      'We provide website speed optimization services in India, helping businesses in Mumbai, Pune, and other growing digital markets improve website performance and loading speed. Slow websites reduce search rankings, increase bounce rates, and negatively impact user experience. Our performance optimization services focus on improving Core Web Vitals, reducing page load times, and optimizing server performance for modern websites. We work with startups, SaaS platforms, eCommerce stores, and service businesses that require fast digital experiences for customers. Our optimization process includes frontend performance tuning, JavaScript and CSS optimization, image compression, server configuration improvements, and advanced caching systems. Businesses in Mumbai and Pune rely on high-performance websites to compete in digital markets and attract more customers through search engines. Our website speed optimization solutions ensure faster page loading, improved search rankings, and better engagement across devices and networks.',
+    faqs: [
+      {
+        q: 'What is website speed optimization?',
+        a: 'Website speed optimization focuses on improving loading times and overall performance of webpages.',
+      },
+      {
+        q: 'Why is website speed important for SEO?',
+        a: 'Search engines consider page speed and Core Web Vitals as ranking factors for search visibility.',
+      },
+      {
+        q: 'How much do website speed optimization services cost in India?',
+        a: 'Website speed optimization projects in India typically range from ₹40,000 to ₹2,50,000 depending on technical complexity.',
+      },
+      {
+        q: 'What are Core Web Vitals?',
+        a: 'Core Web Vitals measure loading speed, interactivity, and visual stability of webpages.',
+      },
+      {
+        q: 'Do you optimize JavaScript and CSS performance?',
+        a: 'Yes. We reduce script blocking, optimize asset delivery, and improve frontend performance.',
+      },
+      {
+        q: 'Do you optimize server infrastructure?',
+        a: 'Yes. We implement caching systems, CDN optimization, and server configuration improvements.',
+      },
+      {
+        q: 'Do you provide website speed optimization in Mumbai and Pune?',
+        a: 'Yes. We help businesses in Mumbai and Pune improve website performance and loading speed.',
+      },
+    ],
+    offer: [40000, 250000],
+  },
+  '/services/conversion-rate-optimization': {
+    name: 'conversion rate optimization',
+    description:
+      'We provide conversion rate optimization services in India, helping businesses in Mumbai, Pune, and other digital markets convert more website visitors into leads and customers. Many websites generate traffic but fail to convert visitors due to poor user experience, unclear messaging, or ineffective page structure. Our conversion rate optimization process focuses on analyzing user behavior and improving the website journey from first visit to final conversion. We work with SaaS companies, startups, service businesses, and eCommerce brands that want to improve lead generation and sales performance. Our CRO strategies include landing page optimization, call-to-action improvements, user journey analysis, funnel optimization, and data-driven experimentation. Businesses in Mumbai and Pune operate in highly competitive digital markets where optimizing conversion performance is critical for growth. Our CRO services help companies increase lead generation, improve sales funnels, and maximize the value of their existing website traffic.',
+    faqs: [
+      {
+        q: 'What is conversion rate optimization?',
+        a: 'Conversion rate optimization focuses on improving website elements so more visitors become customers or leads.',
+      },
+      {
+        q: 'Why is CRO important for websites in Mumbai and Pune?',
+        a: 'Businesses in competitive cities like Mumbai and Pune benefit from higher conversion rates to maximize marketing ROI.',
+      },
+      {
+        q: 'How much do CRO services cost in India?',
+        a: 'Conversion rate optimization projects typically range from ₹50,000 to ₹3,00,000 depending on project scope.',
+      },
+      {
+        q: 'Do you perform website conversion audits?',
+        a: 'Yes. We analyze user behavior, page structure, and funnels to identify conversion barriers.',
+      },
+      {
+        q: 'Do you run A/B testing?',
+        a: 'Yes. We run controlled experiments to identify page designs that perform better.',
+      },
+      {
+        q: 'Which businesses benefit from CRO?',
+        a: 'SaaS platforms, eCommerce brands, and service companies with significant website traffic benefit the most.',
+      },
+      {
+        q: 'Do you provide CRO services in Mumbai and Pune?',
+        a: 'Yes. We help businesses across Mumbai and Pune improve website conversions.',
+      },
+    ],
+    offer: [50000, 300000],
+  },
 } satisfies Record<string, servicePage>;

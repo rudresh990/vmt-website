@@ -95,7 +95,7 @@ export default function Navbar() {
                     <div className="mega-title">Mobile Application</div>
                   </Link>
 
-                  <Link href="/services/ecommerce-application-development" className="mega-item">
+                  <Link href="/services/ecommerce-development" className="mega-item">
                     <div className="mega-title">E-Commerce</div>
                   </Link>
                 </div>
@@ -112,11 +112,11 @@ export default function Navbar() {
                     <div className="mega-title">Technical SEO & Performance</div>
                   </Link>
 
-                  <Link href="/services/website-speed-optimiation" className="mega-item">
+                  <Link href="/services/website-speed-optimization" className="mega-item">
                     <div className="mega-title">Website Speed Optimization</div>
                   </Link>
 
-                  <Link href="/services/conversion-rate-optimiation" className="mega-item">
+                  <Link href="/services/conversion-rate-optimization" className="mega-item">
                     <div className="mega-title">Conversion Rate Optimization</div>
                   </Link>
                 </div>
@@ -252,7 +252,11 @@ export default function Navbar() {
             <div className="mobile-group">
               <div className="mobile-heading">Optimization</div>
 
-              <Link onClick={closeMobile} href="/services/technical-seo" className="mobile-item">
+              <Link
+                onClick={closeMobile}
+                href="/services/technical-seo-performance-optimization"
+                className="mobile-item"
+              >
                 Technical SEO & Performance
               </Link>
 
