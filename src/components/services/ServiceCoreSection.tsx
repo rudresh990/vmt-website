@@ -29,7 +29,12 @@ export default function ServiceCoreSection({ heading, intro, items, details }: P
 
       <div className="services-list mb-20">
         {items.map((item) => (
-          <Link href={`#${item.item_link}`} key={`${item.title}'-link'`} className="card-link">
+          // <Link href={`#${item.item_link}`} key={`${item.title}'-link'`} className="card-link">
+          <Link
+            href={item.item_link.startsWith('/') ? item.item_link : `#${item.item_link}`}
+            key={`${item.item_link}-link`}
+            className="card-link"
+          >
             <div key={item.title}>
               <h3>{item.title}</h3>
               <p>{item.description}</p>

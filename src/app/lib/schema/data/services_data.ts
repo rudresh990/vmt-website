@@ -90,4 +90,118 @@ export const serviceData = {
     ],
     offer: [25000, 500000],
   },
+  '/services/enterprise-software-development': {
+    name: 'enterprise software development',
+    description:
+      'We provide enterprise software development services in India, helping organizations build scalable digital infrastructure for complex business operations. Our team designs and develops ERP systems, enterprise dashboards, workflow automation platforms, internal management systems, and data-driven business applications. From Mumbai, Pune, Bangalore, and other major technology hubs in India, we support enterprises across fintech, healthcare, logistics, manufacturing, SaaS, and consulting industries. Our enterprise development approach focuses on scalability, performance optimization, data security, and long-term maintainability. We provide end-to-end enterprise software services including architecture design, cloud infrastructure planning, system integrations, API development, DevOps automation, and enterprise-grade deployment. Our solutions help businesses streamline operations, improve decision-making, and scale their digital capabilities across departments and global markets.',
+    faqs: [
+      {
+        q: 'What is enterprise software development?',
+        a: 'Enterprise software development focuses on building large-scale applications that support complex organizational operations such as ERP systems, workflow automation, analytics dashboards, and internal management platforms.',
+      },
+      {
+        q: 'How much does enterprise software development cost in India?',
+        a: 'Enterprise software development in India typically ranges from ₹5,00,000 to ₹40,00,000 depending on system complexity, integrations, user roles, and scalability requirements.',
+      },
+      {
+        q: 'Which industries require enterprise software?',
+        a: 'Industries such as fintech, logistics, healthcare, manufacturing, SaaS, and consulting rely heavily on enterprise software to manage operations and large-scale data workflows.',
+      },
+      {
+        q: 'How long does enterprise software development take?',
+        a: 'Enterprise software projects typically take 3–8 months depending on system architecture, integrations, testing cycles, and feature requirements.',
+      },
+      {
+        q: 'Do you build custom ERP systems?',
+        a: 'Yes. We design and build custom ERP systems that integrate finance, operations, HR, and inventory management into a unified platform.',
+      },
+      {
+        q: 'Do you provide enterprise system integrations?',
+        a: 'Yes. We integrate enterprise software with payment systems, analytics platforms, CRMs, ERPs, and third-party APIs.',
+      },
+      {
+        q: 'Can enterprise software scale with business growth?',
+        a: 'Yes. Our enterprise architecture is designed to scale with growing users, data, and operational requirements.',
+      },
+      {
+        q: 'Do you provide enterprise software services in Mumbai and Pune?',
+        a: 'Yes. We actively support enterprises and startups in Mumbai and Pune with scalable enterprise software systems.',
+      },
+    ],
+    offer: [500000, 4000000],
+  },
+
+  '/services/platform-engineering': {
+    name: 'platform engineering',
+    description:
+      'We provide platform engineering services in India, helping technology companies build scalable cloud infrastructure and developer platforms. Our team designs internal developer platforms, CI/CD pipelines, cloud-native infrastructure, DevOps automation systems, and scalable deployment environments for high-growth startups and enterprises. From Mumbai, Pune, Bangalore, and other technology ecosystems in India, we support SaaS companies, fintech startups, and enterprise engineering teams that require reliable infrastructure for rapid product development. Our platform engineering approach focuses on automation, infrastructure standardization, cloud scalability, and developer productivity. We build modern engineering platforms using Kubernetes, container orchestration, automated pipelines, infrastructure-as-code, and secure cloud architectures. Our solutions enable engineering teams to deploy faster, scale efficiently, and maintain reliable production systems.',
+    faqs: [
+      {
+        q: 'What is platform engineering?',
+        a: 'Platform engineering focuses on building internal developer platforms and infrastructure systems that enable engineering teams to develop, deploy, and scale software efficiently.',
+      },
+      {
+        q: 'How is platform engineering different from DevOps?',
+        a: 'DevOps focuses on collaboration between development and operations teams, while platform engineering builds reusable infrastructure platforms that automate development workflows.',
+      },
+      {
+        q: 'How much do platform engineering services cost in India?',
+        a: 'Platform engineering projects in India typically range from ₹4,00,000 to ₹30,00,000 depending on infrastructure complexity, automation systems, and cloud architecture.',
+      },
+      {
+        q: 'Which companies need platform engineering?',
+        a: 'Technology startups, SaaS companies, fintech platforms, and enterprises with large engineering teams benefit the most from platform engineering.',
+      },
+      {
+        q: 'Do you build CI/CD pipelines?',
+        a: 'Yes. We design automated CI/CD pipelines that streamline testing, deployment, and software delivery workflows.',
+      },
+      {
+        q: 'Do you work with cloud platforms?',
+        a: 'Yes. We build scalable infrastructure on AWS, Azure, and other cloud platforms depending on project requirements.',
+      },
+      {
+        q: 'Do you provide platform engineering services in Mumbai and Pune?',
+        a: 'Yes. We work with startups and technology companies across Mumbai and Pune to build scalable engineering platforms.',
+      },
+    ],
+    offer: [400000, 3000000],
+  },
+
+  '/services/api-integration': {
+    name: 'api development and integrations',
+    description:
+      'We provide API development and integration services in India, helping businesses connect software systems, third-party services, and digital platforms through secure and scalable APIs. Our team builds REST APIs, GraphQL APIs, microservice communication layers, and enterprise integration systems that power modern applications. From Mumbai, Pune, Bangalore, and other technology hubs across India, we support startups and enterprises integrating payment gateways, CRM systems, ERP platforms, logistics services, analytics tools, and SaaS products. Our API engineering approach focuses on reliability, performance optimization, and secure authentication systems. We develop API-first architectures that enable seamless communication between web platforms, mobile applications, cloud services, and enterprise software systems.',
+    faqs: [
+      {
+        q: 'What are API development services?',
+        a: 'API development services involve designing and building application programming interfaces that allow software systems to communicate and exchange data securely.',
+      },
+      {
+        q: 'How much does API development cost in India?',
+        a: 'API development in India typically ranges from ₹1,50,000 to ₹15,00,000 depending on integration complexity, security requirements, and system architecture.',
+      },
+      {
+        q: 'What types of APIs do you develop?',
+        a: 'We build REST APIs, GraphQL APIs, microservices APIs, and enterprise integration APIs.',
+      },
+      {
+        q: 'Which systems can APIs integrate?',
+        a: 'APIs can integrate CRMs, ERPs, payment gateways, analytics systems, SaaS platforms, and mobile applications.',
+      },
+      {
+        q: 'Do you provide secure authentication for APIs?',
+        a: 'Yes. We implement OAuth, JWT authentication, API keys, and secure access control mechanisms.',
+      },
+      {
+        q: 'Do you integrate third-party services?',
+        a: 'Yes. We integrate payment gateways, messaging services, cloud services, analytics platforms, and enterprise software.',
+      },
+      {
+        q: 'Do you provide API services for Mumbai and Pune companies?',
+        a: 'Yes. We support startups and enterprises in Mumbai and Pune with scalable API development and system integration.',
+      },
+    ],
+    offer: [150000, 1500000],
+  },
 } satisfies Record<string, servicePage>;

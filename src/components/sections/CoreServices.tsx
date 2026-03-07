@@ -46,7 +46,7 @@ export default function CoreServices() {
             </div>
           </Link>
 
-          <Link href="/contact" className="card-link">
+          <Link href="/services/platform-engineering" className="card-link">
             <div>
               <h3>Scalable Platform Engineering</h3>
               <p>
@@ -60,7 +60,7 @@ export default function CoreServices() {
             </div>
           </Link>
 
-          <Link href="/contact" className="card-link">
+          <Link href="/services/api-integration" className="card-link">
             <div>
               <h3>APIs, Integrations & Internal Tools</h3>
               <p>

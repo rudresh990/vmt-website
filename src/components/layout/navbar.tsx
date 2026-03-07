@@ -65,7 +65,7 @@ export default function Navbar() {
                     <div className="mega-title">Custom Software</div>
                   </Link>
 
-                  <Link href="/services/scalable-custom-software-development" className="mega-item">
+                  <Link href="/services/enterprise-software-development" className="mega-item">
                     <div className="mega-title">Enterprise Software</div>
                   </Link>
 
@@ -73,7 +73,7 @@ export default function Navbar() {
                     <div className="mega-title">Platform Engineering</div>
                   </Link>
 
-                  <Link href="/services/apis-integrations-internal-tools" className="mega-item">
+                  <Link href="/services/api-integration" className="mega-item">
                     <div className="mega-title">API & Integrations</div>
                   </Link>
                 </div>
@@ -192,7 +192,7 @@ export default function Navbar() {
 
               <Link
                 onClick={closeMobile}
-                href="/services/enterprise-software"
+                href="/services/enterprise-software-development"
                 className="mobile-item"
               >
                 Enterprise Software
@@ -206,7 +206,7 @@ export default function Navbar() {
                 Platform Engineering
               </Link>
 
-              <Link onClick={closeMobile} href="/services/api-integrations" className="mobile-item">
+              <Link onClick={closeMobile} href="/services/api-integration" className="mobile-item">
                 API & Integrations
               </Link>
             </div>

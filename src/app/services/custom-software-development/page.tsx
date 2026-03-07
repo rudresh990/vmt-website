@@ -128,7 +128,7 @@ export default function CustomSoftwareDev() {
         intro="We build high-performance systems tailored for Indian businesses."
         items={[
           {
-            item_link: 'enterprise',
+            item_link: '/services/enterprise-software-development',
             title: 'Enterprise Application',
             description: 'Robust enterprise-grade systems built for scale and reliability.',
           },

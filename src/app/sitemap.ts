@@ -4,7 +4,7 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.voidmatrixtech.com';
-  const lastModified = new Date('2026-03-03');
+  const lastModified = new Date();
 
   return [
     {
@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
 
-    // Core Services Hub
+    // Services Hub
     {
       url: `${baseUrl}/services`,
       lastModified,
@@ -22,28 +22,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
 
-    // Primary Ranking Page (Very Important)
+    // Core Service Pages
     {
       url: `${baseUrl}/services/website-development`,
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.95,
     },
-
     {
       url: `${baseUrl}/services/custom-software-development`,
       lastModified,
       changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/enterprise-software-development`,
+      lastModified,
+      changeFrequency: 'monthly',
       priority: 0.85,
     },
-
     {
-      url: `${baseUrl}/software-development-cost-estimator`,
+      url: `${baseUrl}/services/platform-engineering`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/services/api-integration`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.85,
     },
 
+    // Tools / Lead Generation
+    {
+      url: `${baseUrl}/software-development-cost-estimator`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+
+    // Platform Pages
     {
       url: `${baseUrl}/platforms`,
       lastModified,
@@ -51,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
 
+    // Company Pages
     {
       url: `${baseUrl}/company`,
       lastModified,
@@ -62,10 +82,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/contact`,
       lastModified,
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
     },
 
-    // Legal
+    // Legal Pages
     {
       url: `${baseUrl}/privacy`,
       lastModified,
