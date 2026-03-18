@@ -8,11 +8,11 @@ import RelatedPosts from '@/components/blog/relatedPosts';
 import { cache } from 'react';
 import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 
+export const revalidate = 360;
 const getBlog = cache(async (slug: string) => {
   const blog = await prisma.blog.findUnique({
     where: {
       slug,
-      status: 'PUBLISHED',
     },
     include: {
       tags: {
@@ -52,10 +52,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
   const blog = await getBlog(slug);
   if (!blog) return notFound();
   const schema = schemaFactory(`/blog/${blog?.slug}`, { blog });
-  const authour = await prisma.user.findUnique({
-    where: { id: blog.authorId },
-  });
-  const contentWithLinks = await injectInternalLinks(blog.content);
+  const contentWithLinks = (await injectInternalLinks(blog.content)) || '';
   return (
     <div className="container mx-auto px-4 py-10">
       <script
@@ -69,8 +66,8 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
         <div className="col-span-1 lg:col-span-3 w-full text-center">
           <h1 className="main-headings mb-4">{blog.title}</h1>
           <p className="text-center text-(--text-muted) mb-4">
-            {authour?.name} • {new Date(blog.publishedAt!).toDateString()} •{' '}
-            {
+            {blog.author?.name} • {new Date(blog.publishedAt!).toDateString()} •{' '}
+            {blog.category && (
               <Link
                 key={blog.categoryId}
                 href={`/category/${blog.category?.slug}`}
@@ -78,7 +75,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
               >
                 {blog.category?.name}
               </Link>
-            }
+            )}
           </p>
           <div
             className="prose prose-invert max-w-none wrap-break-word overflow-hidden"
@@ -94,10 +91,10 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
           {/* CATEGORY (centered) */}
           <div className="flex justify-center mb-3">
             <Link
-              href={`/category/${blog.category!.slug}`}
+              href={`/category/${blog.category?.slug}`}
               className="text-xs px-3 py-1 rounded-full border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 transition"
             >
-              {blog.category!.name}
+              {blog.category?.name}
             </Link>
           </div>
 
