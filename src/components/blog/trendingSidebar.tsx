@@ -1,6 +1,6 @@
 import Link from 'next/link';
 async function getTrending() {
-  const res = await fetch('http://localhost:3000/api/blogs/trending', { cache: 'no-store' });
+  const res = await fetch('/api/blogs/trending', { cache: 'no-store' });
   return res.json();
 }
 

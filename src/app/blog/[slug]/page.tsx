@@ -8,7 +8,7 @@ import RelatedPosts from '@/components/blog/relatedPosts';
 import { cache } from 'react';
 import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 
-export const revalidate = 360;
+export const revalidate = 60;
 const getBlog = cache(async (slug: string) => {
   const blog = await prisma.blog.findUnique({
     where: {

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 async function getRelated(id: number) {
-  const res = await fetch(`http://localhost:3000/api/blogs/related/${id}`, { cache: 'no-store' });
+  const res = await fetch(`/api/blogs/related/${id}`, { cache: 'no-store' });
   if (!res.ok) {
     console.error(await res.text());
     return [];
