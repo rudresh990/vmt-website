@@ -41,7 +41,7 @@ async function getTagBlogs(slug: string) {
 }
 
 export default async function TagPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const data = await getTagBlogs(slug);
   if (!data) return notFound();

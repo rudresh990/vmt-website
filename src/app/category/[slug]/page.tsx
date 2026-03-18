@@ -30,7 +30,7 @@ async function getCategoryBlogs(slug: string) {
 }
 
 export default async function CategoryPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const data = await getCategoryBlogs(slug);
   if (!data) return notFound();
