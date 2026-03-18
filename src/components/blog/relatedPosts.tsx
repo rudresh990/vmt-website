@@ -1,15 +1,25 @@
 import Link from 'next/link';
+import prisma from '../../../lib/prisma';
 
 async function getRelated(id: number) {
-  const res = await fetch(`/api/blogs/related/${id}`, { cache: 'no-store' });
-  if (!res.ok) {
-    console.error(await res.text());
-    return [];
-  }
-  return res.json();
+  return await prisma.blog.findMany({
+    where: {
+      id: { not: id },
+      status: 'PUBLISHED',
+    },
+    orderBy: {
+      createdAt: 'desc',
+    },
+    take: 5,
+    select: {
+      id: true,
+      title: true,
+      slug: true,
+    },
+  });
 }
 
-export default async function RelatedPosts({ blogId: blogId }: { blogId: number }) {
+export default async function RelatedPosts({ blogId }: { blogId: number }) {
   const blogs = await getRelated(blogId);
   if (!blogs.length) return null;
 
@@ -17,7 +27,7 @@ export default async function RelatedPosts({ blogId: blogId }: { blogId: number 
     <div className="mt-12">
       <h3 className="text-lg font-semibold mb-4">Related Posts</h3>
       <div className="grid gap-4">
-        {blogs.map((blog: any) => (
+        {blogs.map((blog) => (
           <Link
             key={blog.id}
             href={`/blog/${blog.slug}`}
