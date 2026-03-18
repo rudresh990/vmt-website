@@ -8,8 +8,9 @@ import { generateAutoBreadcrumb } from './breadcrumb-auto';
 import { generateServiceCollectionPage } from './services-collection-page';
 import { generateFAQPage } from './faq-generator';
 import { generateOffer } from './offer';
+import { generateBlogPosting } from './blog';
 
-export function schemaFactory(pathname: string) {
+export function schemaFactory(pathname: string, option?: { blog?: any }) {
   type ServicePath = keyof typeof serviceData;
   const service = serviceData[pathname as ServicePath];
   const isService = Boolean(service);
@@ -38,6 +39,9 @@ export function schemaFactory(pathname: string) {
       graph.push(generateService(pathname, service.description));
     }
     graph.push(generateFAQPage(pathname, service.faqs));
+  }
+  if (option?.blog) {
+    graph.push(generateBlogPosting(option.blog));
   }
   return {
     '@context': 'https://schema.org',

@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Blog" ADD COLUMN     "trendingScore" DOUBLE PRECISION NOT NULL DEFAULT 0;
