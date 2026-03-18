@@ -9,22 +9,22 @@ export default function Navbar() {
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
-  const [desktopOpen, setDesktopOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   function closeMobile() {
     setMobileOpen(false);
   }
+
   useEffect(() => {
     setMobileOpen(false);
-    setDesktopOpen(false);
+    setActiveDropdown(null);
   }, [pathname]);
 
   return (
     <header className="navbar">
       <div className="navbar-inner">
         {/* BRAND */}
-
         <div className="navbar-brand">
           <span className="brand-text">
             <Link href="/">
@@ -34,18 +34,16 @@ export default function Navbar() {
         </div>
 
         {/* DESKTOP NAV */}
-
         <nav className="navbar-links">
           <Link href="/" className={isActive('/') ? 'nav-link active' : 'nav-link'}>
             Home
           </Link>
 
-          {/* SERVICES */}
-
+          {/* SERVICES (KEEP DROPDOWN) */}
           <div
-            className={`nav-dropdown ${desktopOpen ? 'desktop-open' : ''}`}
-            onMouseEnter={() => setDesktopOpen(true)}
-            onMouseLeave={() => setDesktopOpen(false)}
+            className={`nav-dropdown ${activeDropdown === 'services' ? 'desktop-open' : ''}`}
+            onMouseEnter={() => setActiveDropdown('services')}
+            onMouseLeave={() => setActiveDropdown(null)}
           >
             <Link
               href="/services"
@@ -54,10 +52,8 @@ export default function Navbar() {
               Services
             </Link>
 
-            <div className="mega-wrapper" onClick={() => setDesktopOpen(false)}>
+            <div className="mega-wrapper">
               <div className="mega-menu">
-                {/* SOFTWARE DEVELOPMENT */}
-
                 <div className="mega-column">
                   <div className="mega-heading">Software Development</div>
 
@@ -78,8 +74,6 @@ export default function Navbar() {
                   </Link>
                 </div>
 
-                {/* WEB DEVELOPMENT */}
-
                 <div className="mega-column">
                   <div className="mega-heading">Web Development</div>
 
@@ -99,8 +93,6 @@ export default function Navbar() {
                     <div className="mega-title">E-Commerce</div>
                   </Link>
                 </div>
-
-                {/* OPTIMIZATION */}
 
                 <div className="mega-column">
                   <div className="mega-heading">Optimization</div>
@@ -124,6 +116,11 @@ export default function Navbar() {
             </div>
           </div>
 
+          {/* SIMPLE blogs LINK */}
+          <Link href="/blog" className={isActive('/blog') ? 'nav-link active' : 'nav-link'}>
+            Blogs
+          </Link>
+
           <Link
             href="/platforms"
             className={isActive('/platforms') ? 'nav-link active' : 'nav-link'}
@@ -141,7 +138,6 @@ export default function Navbar() {
         </nav>
 
         {/* MOBILE BUTTON */}
-
         <div className="navbar-right">
           <button className="navbar-menu-btn" onClick={() => setMobileOpen(true)}>
             ☰
@@ -150,7 +146,6 @@ export default function Navbar() {
       </div>
 
       {/* MOBILE MENU */}
-
       {mobileOpen && (
         <div className="mobile-panel">
           <div className="mobile-header">
@@ -166,8 +161,6 @@ export default function Navbar() {
           </div>
 
           <div className="mobile-scroll">
-            {/* MAIN NAV */}
-
             <div className="mobile-group">
               <Link onClick={closeMobile} href="/" className="mobile-item">
                 Home
@@ -176,9 +169,14 @@ export default function Navbar() {
               <Link onClick={closeMobile} href="/services" className="mobile-item">
                 Services
               </Link>
+
+              {/* SIMPLE blogs */}
+              <Link onClick={closeMobile} href="/blog" className="mobile-item">
+                Blogs
+              </Link>
             </div>
 
-            {/* SOFTWARE DEVELOPMENT */}
+            {/* SERVICES SECTIONS */}
             <div className="mobile-group">
               <div className="mobile-heading">Software Development</div>
 
@@ -211,7 +209,6 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* WEB DEVELOPMENT */}
             <div className="mobile-group">
               <div className="mobile-heading">Web Development</div>
 
@@ -233,7 +230,7 @@ export default function Navbar() {
 
               <Link
                 onClick={closeMobile}
-                href="/services/mobile-app-development"
+                href="/services/mobile-application-development"
                 className="mobile-item"
               >
                 Mobile Application
@@ -248,7 +245,6 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* OPTIMIZATION */}
             <div className="mobile-group">
               <div className="mobile-heading">Optimization</div>
 
@@ -277,11 +273,11 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* COMPANY */}
             <div className="mobile-group">
               <Link onClick={closeMobile} href="/platforms" className="mobile-item">
                 Platforms
               </Link>
+
               <Link onClick={closeMobile} href="/company" className="mobile-item">
                 Company
               </Link>
