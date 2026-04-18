@@ -2,3 +2,4 @@
 @import './tokens.css';
 @import './components.css';
 @import './utilities.css';
+@plugin '@tailwindcss/typography';

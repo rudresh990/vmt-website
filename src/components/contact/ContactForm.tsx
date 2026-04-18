@@ -91,7 +91,7 @@ export default function ContactForm({ estimateContext }: ContactFormProps) {
       </label>
 
       {/* HP */}
-      <label className="absolute -left-[-9999px] top-auto w-px h-px overflow-hidden">
+      <label className="absolute top-auto w-px h-px overflow-hidden pointer-events-none">
         Company
         <input type="text" maxLength={50} name="company" tabIndex={-1} autoComplete="off" />
       </label>

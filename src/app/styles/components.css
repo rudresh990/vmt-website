@@ -558,6 +558,7 @@ button {
   font-size: 1.05rem;
   font-weight: 500;
   color: var(--text-main);
+  word-break: break-all;
   text-transform: capitalize;
 }
 
@@ -1364,6 +1365,30 @@ button {
   color: var(--text-main);
   text-decoration: none;
   margin-bottom: 12px;
+}
+
+/* Placeholder styling  -editor*/
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  font-size: large;
+  color: #6b7280; /* gray-500 */
+  pointer-events: none;
+  height: 0;
+}
+
+/* editor btn */
+.e-btn {
+  padding: 6px 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  transition: 0.2s;
+}
+
+.e-btn:hover {
+  background: #374151; /* gray-700 */
 }
 
 /* menu upgrade ended */

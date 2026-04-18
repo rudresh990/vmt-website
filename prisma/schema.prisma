@@ -8,35 +8,41 @@ datasource db {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  password  String
-  role      Role     @default(WRITER)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  blogs     Blog[]
+  id                 Int       @id @default(autoincrement())
+  name               String
+  email              String    @unique
+  password           String
+  role               Role      @default(WRITER)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  isVerified         Boolean   @default(false)
+  resetToken         String?
+  resetTokenExpiry   DateTime?
+  verificationExpiry DateTime?
+  verificationToken  String?   @unique
+  blogs              Blog[]
 }
 
 model Blog {
-  id          Int       @id @default(autoincrement())
-  title       String
-  slug        String    @unique
-  excerpt     String?
-  content     String
-  status      Status    @default(DRAFT)
-  readTime Int? //minutes 
-  trendingScore Float @default(0)
-  authorId    Int
-  categoryId  Int?
-  publishedAt DateTime?
-  generatedAt DateTime?
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-  author      User      @relation(fields: [authorId], references: [id])
-  category    Category? @relation(fields: [categoryId], references: [id])
-  tags        BlogTag[]
-  views BlogView[]
+  id            Int        @id @default(autoincrement())
+  title         String
+  slug          String     @unique
+  excerpt       String?
+  content       String
+  status        Status     @default(DRAFT)
+  authorId      Int
+  categoryId    Int?
+  publishedAt   DateTime?
+  generatedAt   DateTime?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  readTime      Int?
+  trendingScore Float      @default(0)
+  author        User       @relation(fields: [authorId], references: [id])
+  category      Category?  @relation(fields: [categoryId], references: [id])
+  tags          BlogTag[]
+  views         BlogView[]
+
   @@index([status])
   @@index([publishedAt])
   @@index([trendingScore])
@@ -49,6 +55,7 @@ model Tag {
   createdAt DateTime        @default(now())
   status    CatAndTagStatus @default(PENDING)
   blogs     BlogTag[]
+
   @@index([status])
 }
 
@@ -59,6 +66,7 @@ model Category {
   createdAt DateTime        @default(now())
   status    CatAndTagStatus @default(PENDING)
   blogs     Blog[]
+
   @@index([status])
 }
 
@@ -67,18 +75,20 @@ model BlogTag {
   tagId  Int
   blog   Blog @relation(fields: [blogId], references: [id])
   tag    Tag  @relation(fields: [tagId], references: [id])
+
   @@id([blogId, tagId])
   @@index([blogId])
   @@index([tagId])
 }
 
-model BlogView{
-  id Int @id @default(autoincrement())
-  blogId Int
-  blog Blog @relation(fields:[blogId], references:[id])
-  ip String?
+model BlogView {
+  id        Int      @id @default(autoincrement())
+  blogId    Int
+  ip        String?
   userAgent String?
   createdAt DateTime @default(now())
+  blog      Blog     @relation(fields: [blogId], references: [id])
+
   @@index([blogId])
   @@index([createdAt])
 }

@@ -63,7 +63,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
       <ViewTracker blogId={blog.id} />
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         {/* main content */}
-        <div className="col-span-1 lg:col-span-3 w-full text-center">
+        <div className="col-span-1 lg:col-span-3 w-full p-4">
           <h1 className="main-headings mb-4">{blog.title}</h1>
           <p className="text-center text-(--text-muted) mb-4">
             {blog.author?.name} • {new Date(blog.publishedAt!).toDateString()} •{' '}

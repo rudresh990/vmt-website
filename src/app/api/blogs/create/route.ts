@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
   if (!title || !content || !authorId) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
   }
-  console.log(tags);
+  // console.log(tags);
   const slug = slugify(title);
   console.log(slug);
   try {

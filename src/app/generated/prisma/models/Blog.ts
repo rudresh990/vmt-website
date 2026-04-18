@@ -643,10 +643,6 @@ export type BlogUncheckedUpdateManyWithoutAuthorNestedInput = {
   deleteMany?: Prisma.BlogScalarWhereInput | Prisma.BlogScalarWhereInput[]
 }
 
-export type NullableStringFieldUpdateOperationsInput = {
-  set?: string | null
-}
-
 export type EnumStatusFieldUpdateOperationsInput = {
   set?: $Enums.Status
 }
@@ -665,10 +661,6 @@ export type FloatFieldUpdateOperationsInput = {
   decrement?: number
   multiply?: number
   divide?: number
-}
-
-export type NullableDateTimeFieldUpdateOperationsInput = {
-  set?: Date | string | null
 }
 
 export type BlogCreateNestedManyWithoutCategoryInput = {

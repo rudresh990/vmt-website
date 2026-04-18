@@ -3,6 +3,13 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
   const { blogId } = await req.json();
+  const blog = await prisma.blog.findUnique({
+    where: { id: blogId },
+    select: { status: true },
+  });
+  if (!blog || blog.status !== 'PUBLISHED') {
+    return NextResponse.json({ error: 'Blog not found or not published' }, { status: 404 });
+  }
   const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip');
   const userAgent = req.headers.get('user-agent');
   const recentView = await prisma.blogView.findFirst({
