@@ -19,6 +19,7 @@ export async function POST(req: NextRequest) {
     data: {
       name,
       slug,
+      status: 'APPROVED',
     },
   });
   return NextResponse.json(tag);

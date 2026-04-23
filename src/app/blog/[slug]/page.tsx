@@ -65,8 +65,8 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
         {/* main content */}
         <div className="col-span-1 lg:col-span-3 w-full p-4">
           <h1 className="main-headings mb-4">{blog.title}</h1>
-          <p className="text-center text-(--text-muted) mb-4">
-            {blog.author?.name} • {new Date(blog.publishedAt!).toDateString()} •{' '}
+          <p className="text-center text-(--text-muted) mb-4 capitalize">
+            {blog.author?.name} • {new Date(blog.publishedAt!).toDateString()}{' '}
             {blog.category && (
               <Link
                 key={blog.categoryId}

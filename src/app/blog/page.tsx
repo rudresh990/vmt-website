@@ -25,8 +25,12 @@ export default async function BlogPage() {
               href={`/blog/${blog.slug}`}
               className="vmt-glass-card p-5 hover:scale-[1.02] transition"
             >
-              <h2 className="capitalize">{blog.title}</h2>
-              <p className="uppercase">{blog.excerpt || 'No description available'}</p>
+              <h2 className="capitalize text-2xl mb-2 pb-1 border-b-2 border-cyan-400 rounded-lg">
+                {blog.title}
+              </h2>
+              <p className="uppercase text-(--text-muted) text-sm">
+                {blog.excerpt || 'No description available'}
+              </p>
               <div className="mt-4 text-xs text-(--text-muted)">
                 {new Date(blog.publishedAt).toDateString()}
               </div>

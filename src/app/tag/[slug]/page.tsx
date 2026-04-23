@@ -58,7 +58,9 @@ export default async function TagPage({ params }: { params: { slug: string } }) 
             className="vmt-glass-card p-5 hover:scale-[1.02] transition"
           >
             <h2 className="text-lg font-semibold mb-2">{blog.title}</h2>
-            <p className="text-sm text-(--text-muted)">{blog.excerpt || 'No description'}</p>
+            <p className="text-sm text-(--text-muted) uppercase">
+              {blog.excerpt || 'No description'}
+            </p>
           </Link>
         ))}
       </div>

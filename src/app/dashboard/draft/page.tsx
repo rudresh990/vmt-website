@@ -18,7 +18,10 @@ export default function DraftPage() {
           <ul className="space-y-4">
             {drafts.map((draft: any) => (
               <Link href={`/dashboard/write?id=${draft.id}`} key={draft.id}>
-                <li key={draft.id} className="bg-gray-800 p-4 rounded-lg">
+                <li
+                  key={draft.id}
+                  className="bg-gray-800 p-4 rounded-2xl mb-3 border-b-2 border-cyan-400 hover:scale-102 transform transition duration-300"
+                >
                   <h2 className="text-xl font-bold">{draft.title}</h2>
                   <p className="text-gray-400 text-sm mt-1">
                     Last edited: {new Date(draft.updatedAt).toLocaleString()}

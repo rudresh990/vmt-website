@@ -1,6 +1,7 @@
 'use client';
 export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Editor from '@/components/blog/Editor';
 import TagInput from '@/components/blog/tagInput';
 import BlogPreview from '@/components/blog/BlogPreview';
@@ -8,7 +9,8 @@ import { useSearchParams } from 'next/navigation';
 export default function WritePageClient() {
   const SearchParams = useSearchParams();
   const blogIDFromURL = SearchParams.get('id');
-  console.log('Blog ID from URL:', blogIDFromURL);
+  const router = useRouter();
+  // console.log('Blog ID from URL:', blogIDFromURL);
   const [title, setTitle] = useState('');
   const [excerpt, setExcerpt] = useState('');
   const [content, setContent] = useState('');
@@ -73,19 +75,51 @@ export default function WritePageClient() {
   };
 
   const handleSubmit = async () => {
+    // ✅ validation
     if (!title || !content) {
-      alert('Title and content are required to submit for review.');
+      alert('Title and content are required');
       return;
     }
+
     if (selectedTags.length === 0) {
-      alert('Please select at least one tag before submitting for review.');
+      alert('Please add at least one tag');
       return;
     }
-    await fetch(`/api/blogs/drafts/${draftId}/submit`, {
-      method: 'PATCH',
-      credentials: 'include',
-    });
-    console.log('Submitting for review...', { title, content, selectedTags });
+
+    if (!draftId) {
+      alert('Draft not saved yet');
+      return;
+    }
+
+    try {
+      const res = await fetch(`/api/blogs/drafts/${draftId}/submit`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        credentials: 'include',
+        body: JSON.stringify({
+          title,
+          content,
+          excerpt, // optional
+          tags: selectedTags,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert(data.error || 'Failed to submit');
+        return;
+      }
+
+      console.log('Submitted:', data);
+      alert('Blog submitted for review');
+      router.push('/dashboard/blogs');
+    } catch (err) {
+      console.error('Submit failed:', err);
+      alert('Something went wrong');
+    }
   };
   // auto-save every 10 seconds (kept off )
   // useEffect(() => {
