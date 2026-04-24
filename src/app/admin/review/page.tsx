@@ -46,7 +46,7 @@ export default function ReviewPage() {
         const res = await fetch('/api/admin/blogs/approve', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application-json',
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify({ blogId: numericId }),
         });
@@ -56,9 +56,9 @@ export default function ReviewPage() {
         if (!res.ok) {
           throw new Error(data.message || 'Failed to approve blog');
         }
-        console.log('Approved:', data);
-        router.push('/admin/review');
+        // console.log('Approved:', data);
         setSelectedBlog(null);
+        router.refresh();
       }
     } catch (e: any) {
       console.error('Approve error:', e.message);

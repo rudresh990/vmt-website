@@ -80,6 +80,7 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
                 create: {
                   name: tag,
                   slug: tag,
+                  status: 'APPROVED',
                 },
               },
             },
