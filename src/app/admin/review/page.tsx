@@ -1,6 +1,7 @@
 'use client';
 import BlogPreview from '@/components/blog/BlogPreview';
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 type Blog = {
   id: number;
@@ -20,6 +21,7 @@ export default function ReviewPage() {
   const [selectedBlog, setSelectedBlog] = useState<Blog | null>(null);
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
   useEffect(() => {
     fetch('/api/admin/blogs/review')
       .then((res) => res.json())
@@ -55,6 +57,7 @@ export default function ReviewPage() {
           throw new Error(data.message || 'Failed to approve blog');
         }
         console.log('Approved:', data);
+        router.push('/admin/review');
         setSelectedBlog(null);
       }
     } catch (e: any) {
