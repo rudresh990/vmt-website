@@ -111,8 +111,8 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
             ))}
           </div>
         </div>
-        <RelatedPosts blogId={blog.id} />
       </div>
+      <RelatedPosts blogId={blog.id} />
     </div>
   );
 }

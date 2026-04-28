@@ -26,12 +26,12 @@ export default async function RelatedPosts({ blogId }: { blogId: number }) {
   return (
     <div className="mt-12">
       <h3 className="text-lg font-semibold mb-4">Related Posts</h3>
-      <div className="grid gap-4">
+      <div className="flex gap-3 flex-col">
         {blogs.map((blog) => (
           <Link
             key={blog.id}
             href={`/blog/${blog.slug}`}
-            className="block p-4 border border-gray-700 rounded hover:bg-gray-800 transition"
+            className="block p-4 border border-gray-700 rounded-2xl hover:bg-gray-800 transition"
           >
             {blog.title}
           </Link>
