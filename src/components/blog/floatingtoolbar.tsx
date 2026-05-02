@@ -6,8 +6,16 @@ export default function FloatingToolbar() {
   const [visible, setVisible] = useState(false);
   const [position, setPosition] = useState({ top: 0, left: 0 });
 
-  const applyFormat = (command: string) => {
-    document.execCommand(command, false);
+  const applyFormat = (command: string, value?: string) => {
+    document.execCommand(command, false, value);
+  };
+
+  const clearFormatting = () => {
+    document.execCommand('removeFormat');
+  };
+
+  const applyHeading = (tag: 'h2' | 'h3') => {
+    document.execCommand('formatBlock', false, tag);
   };
 
   const INTERNAL_LINK_REGEX = /^(\/(?!\/)|#)[A-Za-z0-9\-\/#?=&._~]+$/;
@@ -47,18 +55,14 @@ export default function FloatingToolbar() {
       const range = selection.getRangeAt(0);
       const rect = range.getBoundingClientRect();
 
-      // 🔥 SMART POSITIONING
       let top;
 
       if (rect.top > TOOLBAR_HEIGHT + OFFSET) {
-        // show ABOVE
         top = rect.top - TOOLBAR_HEIGHT - OFFSET;
       } else {
-        // show BELOW
         top = rect.bottom + OFFSET;
       }
 
-      // 🔥 HORIZONTAL SAFETY
       const left = Math.min(window.innerWidth - 100, Math.max(100, rect.left + rect.width / 2));
 
       setVisible(true);
@@ -85,24 +89,50 @@ export default function FloatingToolbar() {
         transform: 'translateX(-50%)',
       }}
     >
+      {/* Bold */}
       <button
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => applyFormat('bold')}
       >
-        B
+        <b>B</b>
       </button>
 
+      {/* Italic */}
       <button
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => applyFormat('italic')}
       >
-        I
+        <i>I</i>
       </button>
 
+      {/* H2 */}
+      <button
+        className="btn"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => applyHeading('h2')}
+      >
+        H2
+      </button>
+
+      {/* H3 */}
+      <button
+        className="btn"
+        onMouseDown={(e) => e.preventDefault()}
+        onClick={() => applyHeading('h3')}
+      >
+        H3
+      </button>
+
+      {/* Link */}
       <button className="btn" onMouseDown={(e) => e.preventDefault()} onClick={addLink}>
         🔗
+      </button>
+
+      {/* Clear formatting */}
+      <button className="btn" onMouseDown={(e) => e.preventDefault()} onClick={clearFormatting}>
+        ✖
       </button>
     </div>
   );
