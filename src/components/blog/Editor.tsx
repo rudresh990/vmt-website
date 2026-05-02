@@ -55,9 +55,13 @@ export default function Editor({ content, onChange }: any) {
   const lastContent = useRef('');
   useEffect(() => {
     if (!editor) return;
-    if (editor && content !== lastContent.current) {
-      editor.commands.setContent(content);
-      lastContent.current = content;
+    // if (editor && content !== lastContent.current) {
+    //   editor.commands.setContent(content);
+    //   lastContent.current = content;
+    // }
+    const html = editor.getHTML();
+    if (content !== html) {
+      editor.commands.setContent(content, false);
     }
   }, [editor, content]);
 
