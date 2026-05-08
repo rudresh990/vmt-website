@@ -171,7 +171,7 @@ export default function Navbar() {
               </Link>
 
               {/* SIMPLE blogs */}
-              <Link onClick={closeMobile} href="/bloggoog" className="mobile-item">
+              <Link onClick={closeMobile} href="/blog" className="mobile-item">
                 Blogs
               </Link>
             </div>

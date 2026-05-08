@@ -1,6 +1,6 @@
 'use client';
 import { useEditor, EditorContent } from '@tiptap/react';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';
 import TextAlign from '@tiptap/extension-text-align';
@@ -23,7 +23,7 @@ export default function Editor({ content, onChange }: any) {
         link: {
           openOnClick: true,
           HTMLAttributes: {
-            class: 'text-blue-500 underline',
+            class: 'underline',
           },
         },
       }),
@@ -52,7 +52,6 @@ export default function Editor({ content, onChange }: any) {
     },
   });
 
-  const lastContent = useRef('');
   useEffect(() => {
     if (!editor) return;
     // if (editor && content !== lastContent.current) {
