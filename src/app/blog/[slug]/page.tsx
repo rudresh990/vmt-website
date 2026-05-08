@@ -87,30 +87,6 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
         </div>
         {/* CATEGORY */}
         {/* WRAPPER */}
-        <div className="mb-6 text-center md:col-span-3">
-          {/* CATEGORY (centered) */}
-          <div className="flex justify-center mb-3">
-            <Link
-              href={`/category/${blog.category?.slug}`}
-              className="text-xs px-3 py-1 rounded-full border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 transition"
-            >
-              {blog.category?.name}
-            </Link>
-          </div>
-
-          {/* TAGS (centered below) */}
-          <div className="flex flex-wrap justify-center gap-2">
-            {blog.tags.map((t: any) => (
-              <Link
-                key={t.tag.slug}
-                href={`/tag/${t.tag.slug}`}
-                className="text-xs px-2 py-1 border border-gray-600 rounded hover:border-cyan-400 hover:text-cyan-400 transition"
-              >
-                #{t.tag.name}
-              </Link>
-            ))}
-          </div>
-        </div>
       </div>
       <RelatedPosts blogId={blog.id} />
     </div>
