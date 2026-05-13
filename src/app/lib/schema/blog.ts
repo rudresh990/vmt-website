@@ -1,9 +1,13 @@
 export function generateBlogPosting(blog: any) {
+  const plainContent = blog.content
+    ?.replace(/<[^>]*>/g, ' ')
+    ?.replace(/\s+/g, ' ')
+    ?.trim();
   return {
     '@type': 'BlogPosting',
     '@id': `https://www.voidmatrixtech.com/blog/${blog.slug}#article`,
     headline: blog.title,
-    description: blog.excerpt || blog.content.slice(0, 150),
+    description: blog.excerpt || plainContent?.slice(0, 150),
 
     author: {
       '@type': 'Person',

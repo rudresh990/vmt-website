@@ -31,13 +31,17 @@ const getBlog = cache(async (slug: string) => {
 export async function generateMetadata({ params }: any) {
   const { slug } = await params;
   const blog = await getBlog(slug);
+  const plainContent = blog?.content
+    ?.replace(/<[^>]*>/g, ' ')
+    ?.replace(/\s+/g, ' ')
+    ?.trim();
 
   if (!blog) {
     return { title: 'Not Found' };
   }
   return {
     title: blog.title,
-    description: blog.content.slice(0, 150),
+    description: plainContent?.slice(0, 150),
 
     openGraph: {
       title: blog.title,
