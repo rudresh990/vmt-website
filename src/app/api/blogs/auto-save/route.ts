@@ -47,7 +47,7 @@ export async function POST(req: Request) {
             data: {
               name: tagName,
               slug: tagSlug,
-              status: 'PENDING',
+              status: 'APPROVED',
             },
           });
         }

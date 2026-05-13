@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       data: {
         name,
         slug,
-        status: 'PENDING',
+        status: 'APPROVED',
       },
     });
   }

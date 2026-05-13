@@ -69,3 +69,8 @@ export type BlogTag = Prisma.BlogTagModel
  * 
  */
 export type BlogView = Prisma.BlogViewModel
+/**
+ * Model ChangeRequest
+ * 
+ */
+export type ChangeRequest = Prisma.ChangeRequestModel

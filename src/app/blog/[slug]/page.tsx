@@ -1,3 +1,4 @@
+import { cache } from 'react';
 import { notFound } from 'next/navigation';
 import prisma from '../../../../lib/prisma';
 import { injectInternalLinks } from '@/app/lib/seo/internalLinks';
@@ -5,7 +6,6 @@ import Link from 'next/link';
 import ViewTracker from './viewTracker';
 import TrendingSidebar from '@/components/blog/trendingSidebar';
 import RelatedPosts from '@/components/blog/relatedPosts';
-import { cache } from 'react';
 import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 
 export const revalidate = 60;
@@ -81,6 +81,17 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
             className="prose prose-invert max-w-none wrap-break-word overflow-hidden"
             dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
+          <div className="flex gap-3 justify-center items-center mt-4">
+            {blog.tags.map(({ tag }) => (
+              <Link
+                href={`/tag/${tag.slug}`}
+                key={tag.slug}
+                className="block p-3 border border-gray-700 rounded-2xl hover:bg-gray-800 transition"
+              >
+                <p key={tag.slug}>#{tag.name}</p>
+              </Link>
+            ))}
+          </div>
         </div>
         <div className="w-full">
           <TrendingSidebar />

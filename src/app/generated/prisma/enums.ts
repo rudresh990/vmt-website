@@ -20,7 +20,8 @@ export type Role = (typeof Role)[keyof typeof Role]
 export const Status = {
   DRAFT: 'DRAFT',
   REVIEW: 'REVIEW',
-  PUBLISHED: 'PUBLISHED'
+  PUBLISHED: 'PUBLISHED',
+  CHANGES_REQUESTED: 'CHANGES_REQUESTED'
 } as const
 
 export type Status = (typeof Status)[keyof typeof Status]

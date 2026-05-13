@@ -24,24 +24,25 @@ model User {
 }
 
 model Blog {
-  id            Int        @id @default(autoincrement())
+  id            Int             @id @default(autoincrement())
   title         String
-  slug          String     @unique
+  slug          String          @unique
   excerpt       String?
   content       String
-  status        Status     @default(DRAFT)
+  status        Status          @default(DRAFT)
   authorId      Int
   categoryId    Int?
   publishedAt   DateTime?
   generatedAt   DateTime?
-  createdAt     DateTime   @default(now())
-  updatedAt     DateTime   @updatedAt
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
   readTime      Int?
-  trendingScore Float      @default(0)
-  author        User       @relation(fields: [authorId], references: [id])
-  category      Category?  @relation(fields: [categoryId], references: [id])
+  trendingScore Float           @default(0)
+  author        User            @relation(fields: [authorId], references: [id])
+  category      Category?       @relation(fields: [categoryId], references: [id])
   tags          BlogTag[]
   views         BlogView[]
+  ChangeRequest ChangeRequest[]
 
   @@index([status])
   @@index([publishedAt])
@@ -93,6 +94,16 @@ model BlogView {
   @@index([createdAt])
 }
 
+model ChangeRequest {
+  id        Int      @id @default(autoincrement())
+  blogId    Int
+  message   String
+  adminId   Int
+  status    String   @default("PENDING")
+  createdAt DateTime @default(now())
+  blog      Blog     @relation(fields: [blogId], references: [id])
+}
+
 enum Role {
   SUPERADMIN
   WRITER
@@ -102,6 +113,7 @@ enum Status {
   DRAFT
   REVIEW
   PUBLISHED
+  CHANGES_REQUESTED
 }
 
 enum CatAndTagStatus {

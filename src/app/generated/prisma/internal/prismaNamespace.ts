@@ -389,7 +389,8 @@ export const ModelName = {
   Tag: 'Tag',
   Category: 'Category',
   BlogTag: 'BlogTag',
-  BlogView: 'BlogView'
+  BlogView: 'BlogView',
+  ChangeRequest: 'ChangeRequest'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -405,7 +406,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "user" | "blog" | "tag" | "category" | "blogTag" | "blogView"
+    modelProps: "user" | "blog" | "tag" | "category" | "blogTag" | "blogView" | "changeRequest"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -853,6 +854,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    ChangeRequest: {
+      payload: Prisma.$ChangeRequestPayload<ExtArgs>
+      fields: Prisma.ChangeRequestFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.ChangeRequestFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.ChangeRequestFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        findFirst: {
+          args: Prisma.ChangeRequestFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.ChangeRequestFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        findMany: {
+          args: Prisma.ChangeRequestFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>[]
+        }
+        create: {
+          args: Prisma.ChangeRequestCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        createMany: {
+          args: Prisma.ChangeRequestCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.ChangeRequestCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>[]
+        }
+        delete: {
+          args: Prisma.ChangeRequestDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        update: {
+          args: Prisma.ChangeRequestUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        deleteMany: {
+          args: Prisma.ChangeRequestDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.ChangeRequestUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.ChangeRequestUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>[]
+        }
+        upsert: {
+          args: Prisma.ChangeRequestUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$ChangeRequestPayload>
+        }
+        aggregate: {
+          args: Prisma.ChangeRequestAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateChangeRequest>
+        }
+        groupBy: {
+          args: Prisma.ChangeRequestGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.ChangeRequestGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.ChangeRequestCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.ChangeRequestCountAggregateOutputType> | number
+        }
+      }
+    }
   }
 } & {
   other: {
@@ -898,13 +973,13 @@ export const UserScalarFieldEnum = {
   email: 'email',
   password: 'password',
   role: 'role',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt',
   isVerified: 'isVerified',
-  verificationToken: 'verificationToken',
-  verificationExpiry: 'verificationExpiry',
   resetToken: 'resetToken',
   resetTokenExpiry: 'resetTokenExpiry',
-  createdAt: 'createdAt',
-  updatedAt: 'updatedAt'
+  verificationExpiry: 'verificationExpiry',
+  verificationToken: 'verificationToken'
 } as const
 
 export type UserScalarFieldEnum = (typeof UserScalarFieldEnum)[keyof typeof UserScalarFieldEnum]
@@ -917,14 +992,14 @@ export const BlogScalarFieldEnum = {
   excerpt: 'excerpt',
   content: 'content',
   status: 'status',
-  readTime: 'readTime',
-  trendingScore: 'trendingScore',
   authorId: 'authorId',
   categoryId: 'categoryId',
   publishedAt: 'publishedAt',
   generatedAt: 'generatedAt',
   createdAt: 'createdAt',
-  updatedAt: 'updatedAt'
+  updatedAt: 'updatedAt',
+  readTime: 'readTime',
+  trendingScore: 'trendingScore'
 } as const
 
 export type BlogScalarFieldEnum = (typeof BlogScalarFieldEnum)[keyof typeof BlogScalarFieldEnum]
@@ -969,6 +1044,18 @@ export const BlogViewScalarFieldEnum = {
 } as const
 
 export type BlogViewScalarFieldEnum = (typeof BlogViewScalarFieldEnum)[keyof typeof BlogViewScalarFieldEnum]
+
+
+export const ChangeRequestScalarFieldEnum = {
+  id: 'id',
+  blogId: 'blogId',
+  message: 'message',
+  adminId: 'adminId',
+  status: 'status',
+  createdAt: 'createdAt'
+} as const
+
+export type ChangeRequestScalarFieldEnum = (typeof ChangeRequestScalarFieldEnum)[keyof typeof ChangeRequestScalarFieldEnum]
 
 
 export const SortOrder = {
@@ -1044,13 +1131,6 @@ export type ListEnumRoleFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaM
 
 
 /**
- * Reference to a field of type 'Boolean'
- */
-export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
-    
-
-
-/**
  * Reference to a field of type 'DateTime'
  */
 export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime'>
@@ -1061,6 +1141,13 @@ export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel
  * Reference to a field of type 'DateTime[]'
  */
 export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime[]'>
+    
+
+
+/**
+ * Reference to a field of type 'Boolean'
+ */
+export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
     
 
 
@@ -1206,6 +1293,7 @@ export type GlobalOmitConfig = {
   category?: Prisma.CategoryOmit
   blogTag?: Prisma.BlogTagOmit
   blogView?: Prisma.BlogViewOmit
+  changeRequest?: Prisma.ChangeRequestOmit
 }
 
 /* Types for Logging */

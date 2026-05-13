@@ -23,7 +23,7 @@ export default function Editor({ content, onChange }: any) {
         link: {
           openOnClick: true,
           HTMLAttributes: {
-            class: 'underline',
+            class: 'blog-link',
           },
         },
       }),
@@ -78,7 +78,7 @@ export default function Editor({ content, onChange }: any) {
       return;
     }
 
-    editor.chain().focus().extendMarkRange('link').setLink({ href: url }).run();
+    editor.chain().focus().extendMarkRange('link').setLink({ href: url, class: 'blog-link' }).run();
   };
   return (
     <div className="relative">

@@ -153,6 +153,19 @@ button {
   background-color: var(--primary-glow);
 }
 
+.blog-link {
+  display: inline-block;
+  color: rgb(43 127 255);
+  padding: 1;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+  transform: scale(1.01);
+}
+
 /* Media Query */
 .navbar-menu-btn {
   display: none;

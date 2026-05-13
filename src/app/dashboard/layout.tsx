@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 export default function DashboardLayout({ children }: any) {
   const [collapsed, setCollapsed] = useState(false);
+  const [CRBlogs, setCRBlogs] = useState([]);
   const [user, setUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -20,6 +21,10 @@ export default function DashboardLayout({ children }: any) {
       }
     };
     getUser();
+
+    fetch('../api/blogs/CRBlogs')
+      .then((res) => res.json())
+      .then((data) => setCRBlogs(data));
   }, []);
 
   return (
@@ -40,6 +45,16 @@ export default function DashboardLayout({ children }: any) {
             <Link href="/dashboard/write">Write Blog</Link>
             <Link href="/dashboard/blogs">My Blogs</Link>
             <Link href="/dashboard/draft">My Drafts</Link>
+            <Link href="/dashboard/changes" className="flex justify-between items-center">
+              Changes{''}
+              {CRBlogs.length > 0 ? (
+                <span className=" min-w-5 h-5 bg-blue-900 rounded-full m-0.5 px-1.5 text-sm">
+                  {CRBlogs.length}
+                </span>
+              ) : (
+                ''
+              )}
+            </Link>
           </nav>
         )}
         {!collapsed && !collapsed && (

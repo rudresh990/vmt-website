@@ -66,8 +66,7 @@ export default function DashboardLayout({ children }: any) {
               <nav className="flex flex-col gap-4">
                 <Link href="/admin">Dashboard</Link>
                 <Link href="/admin/review">Review Blogs</Link>
-                <Link href="/admin/blogs">My Blogs</Link>
-                <Link href="/admin/draft">My Drafts</Link>
+                <Link href="/admin/changeRequested">Change Requested</Link>
               </nav>
             )}
             {!collapsed && !collapsed && (

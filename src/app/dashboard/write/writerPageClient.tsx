@@ -113,7 +113,7 @@ export default function WritePageClient() {
         return;
       }
 
-      console.log('Submitted:', data);
+      // console.log('Submitted:', data);
       alert('Blog submitted for review');
       router.push('/dashboard/blogs');
     } catch (err) {

@@ -4,7 +4,6 @@ import { NextResponse, NextRequest } from 'next/server';
 
 export async function GET(req: NextRequest) {
   const token = req.headers.get('cookie')?.split('token=')[1]?.split(';')[0];
-  console.log(token);
   if (!token) {
     return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
   }
@@ -32,6 +31,5 @@ export async function GET(req: NextRequest) {
       },
     },
   });
-  console.log(blogs);
   return NextResponse.json(blogs);
 }

@@ -28,18 +28,18 @@ export type AggregateBlog = {
 
 export type BlogAvgAggregateOutputType = {
   id: number | null
-  readTime: number | null
-  trendingScore: number | null
   authorId: number | null
   categoryId: number | null
+  readTime: number | null
+  trendingScore: number | null
 }
 
 export type BlogSumAggregateOutputType = {
   id: number | null
-  readTime: number | null
-  trendingScore: number | null
   authorId: number | null
   categoryId: number | null
+  readTime: number | null
+  trendingScore: number | null
 }
 
 export type BlogMinAggregateOutputType = {
@@ -49,14 +49,14 @@ export type BlogMinAggregateOutputType = {
   excerpt: string | null
   content: string | null
   status: $Enums.Status | null
-  readTime: number | null
-  trendingScore: number | null
   authorId: number | null
   categoryId: number | null
   publishedAt: Date | null
   generatedAt: Date | null
   createdAt: Date | null
   updatedAt: Date | null
+  readTime: number | null
+  trendingScore: number | null
 }
 
 export type BlogMaxAggregateOutputType = {
@@ -66,14 +66,14 @@ export type BlogMaxAggregateOutputType = {
   excerpt: string | null
   content: string | null
   status: $Enums.Status | null
-  readTime: number | null
-  trendingScore: number | null
   authorId: number | null
   categoryId: number | null
   publishedAt: Date | null
   generatedAt: Date | null
   createdAt: Date | null
   updatedAt: Date | null
+  readTime: number | null
+  trendingScore: number | null
 }
 
 export type BlogCountAggregateOutputType = {
@@ -83,32 +83,32 @@ export type BlogCountAggregateOutputType = {
   excerpt: number
   content: number
   status: number
-  readTime: number
-  trendingScore: number
   authorId: number
   categoryId: number
   publishedAt: number
   generatedAt: number
   createdAt: number
   updatedAt: number
+  readTime: number
+  trendingScore: number
   _all: number
 }
 
 
 export type BlogAvgAggregateInputType = {
   id?: true
-  readTime?: true
-  trendingScore?: true
   authorId?: true
   categoryId?: true
+  readTime?: true
+  trendingScore?: true
 }
 
 export type BlogSumAggregateInputType = {
   id?: true
-  readTime?: true
-  trendingScore?: true
   authorId?: true
   categoryId?: true
+  readTime?: true
+  trendingScore?: true
 }
 
 export type BlogMinAggregateInputType = {
@@ -118,14 +118,14 @@ export type BlogMinAggregateInputType = {
   excerpt?: true
   content?: true
   status?: true
-  readTime?: true
-  trendingScore?: true
   authorId?: true
   categoryId?: true
   publishedAt?: true
   generatedAt?: true
   createdAt?: true
   updatedAt?: true
+  readTime?: true
+  trendingScore?: true
 }
 
 export type BlogMaxAggregateInputType = {
@@ -135,14 +135,14 @@ export type BlogMaxAggregateInputType = {
   excerpt?: true
   content?: true
   status?: true
-  readTime?: true
-  trendingScore?: true
   authorId?: true
   categoryId?: true
   publishedAt?: true
   generatedAt?: true
   createdAt?: true
   updatedAt?: true
+  readTime?: true
+  trendingScore?: true
 }
 
 export type BlogCountAggregateInputType = {
@@ -152,14 +152,14 @@ export type BlogCountAggregateInputType = {
   excerpt?: true
   content?: true
   status?: true
-  readTime?: true
-  trendingScore?: true
   authorId?: true
   categoryId?: true
   publishedAt?: true
   generatedAt?: true
   createdAt?: true
   updatedAt?: true
+  readTime?: true
+  trendingScore?: true
   _all?: true
 }
 
@@ -256,14 +256,14 @@ export type BlogGroupByOutputType = {
   excerpt: string | null
   content: string
   status: $Enums.Status
-  readTime: number | null
-  trendingScore: number
   authorId: number
   categoryId: number | null
   publishedAt: Date | null
   generatedAt: Date | null
   createdAt: Date
   updatedAt: Date
+  readTime: number | null
+  trendingScore: number
   _count: BlogCountAggregateOutputType | null
   _avg: BlogAvgAggregateOutputType | null
   _sum: BlogSumAggregateOutputType | null
@@ -296,18 +296,19 @@ export type BlogWhereInput = {
   excerpt?: Prisma.StringNullableFilter<"Blog"> | string | null
   content?: Prisma.StringFilter<"Blog"> | string
   status?: Prisma.EnumStatusFilter<"Blog"> | $Enums.Status
-  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
-  trendingScore?: Prisma.FloatFilter<"Blog"> | number
   authorId?: Prisma.IntFilter<"Blog"> | number
   categoryId?: Prisma.IntNullableFilter<"Blog"> | number | null
   publishedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   generatedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
+  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
+  trendingScore?: Prisma.FloatFilter<"Blog"> | number
   author?: Prisma.XOR<Prisma.UserScalarRelationFilter, Prisma.UserWhereInput>
   category?: Prisma.XOR<Prisma.CategoryNullableScalarRelationFilter, Prisma.CategoryWhereInput> | null
   tags?: Prisma.BlogTagListRelationFilter
   views?: Prisma.BlogViewListRelationFilter
+  ChangeRequest?: Prisma.ChangeRequestListRelationFilter
 }
 
 export type BlogOrderByWithRelationInput = {
@@ -317,18 +318,19 @@ export type BlogOrderByWithRelationInput = {
   excerpt?: Prisma.SortOrderInput | Prisma.SortOrder
   content?: Prisma.SortOrder
   status?: Prisma.SortOrder
-  readTime?: Prisma.SortOrderInput | Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrderInput | Prisma.SortOrder
   publishedAt?: Prisma.SortOrderInput | Prisma.SortOrder
   generatedAt?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  readTime?: Prisma.SortOrderInput | Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
   author?: Prisma.UserOrderByWithRelationInput
   category?: Prisma.CategoryOrderByWithRelationInput
   tags?: Prisma.BlogTagOrderByRelationAggregateInput
   views?: Prisma.BlogViewOrderByRelationAggregateInput
+  ChangeRequest?: Prisma.ChangeRequestOrderByRelationAggregateInput
 }
 
 export type BlogWhereUniqueInput = Prisma.AtLeast<{
@@ -341,18 +343,19 @@ export type BlogWhereUniqueInput = Prisma.AtLeast<{
   excerpt?: Prisma.StringNullableFilter<"Blog"> | string | null
   content?: Prisma.StringFilter<"Blog"> | string
   status?: Prisma.EnumStatusFilter<"Blog"> | $Enums.Status
-  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
-  trendingScore?: Prisma.FloatFilter<"Blog"> | number
   authorId?: Prisma.IntFilter<"Blog"> | number
   categoryId?: Prisma.IntNullableFilter<"Blog"> | number | null
   publishedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   generatedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
+  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
+  trendingScore?: Prisma.FloatFilter<"Blog"> | number
   author?: Prisma.XOR<Prisma.UserScalarRelationFilter, Prisma.UserWhereInput>
   category?: Prisma.XOR<Prisma.CategoryNullableScalarRelationFilter, Prisma.CategoryWhereInput> | null
   tags?: Prisma.BlogTagListRelationFilter
   views?: Prisma.BlogViewListRelationFilter
+  ChangeRequest?: Prisma.ChangeRequestListRelationFilter
 }, "id" | "slug">
 
 export type BlogOrderByWithAggregationInput = {
@@ -362,14 +365,14 @@ export type BlogOrderByWithAggregationInput = {
   excerpt?: Prisma.SortOrderInput | Prisma.SortOrder
   content?: Prisma.SortOrder
   status?: Prisma.SortOrder
-  readTime?: Prisma.SortOrderInput | Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrderInput | Prisma.SortOrder
   publishedAt?: Prisma.SortOrderInput | Prisma.SortOrder
   generatedAt?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  readTime?: Prisma.SortOrderInput | Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
   _count?: Prisma.BlogCountOrderByAggregateInput
   _avg?: Prisma.BlogAvgOrderByAggregateInput
   _max?: Prisma.BlogMaxOrderByAggregateInput
@@ -387,14 +390,14 @@ export type BlogScalarWhereWithAggregatesInput = {
   excerpt?: Prisma.StringNullableWithAggregatesFilter<"Blog"> | string | null
   content?: Prisma.StringWithAggregatesFilter<"Blog"> | string
   status?: Prisma.EnumStatusWithAggregatesFilter<"Blog"> | $Enums.Status
-  readTime?: Prisma.IntNullableWithAggregatesFilter<"Blog"> | number | null
-  trendingScore?: Prisma.FloatWithAggregatesFilter<"Blog"> | number
   authorId?: Prisma.IntWithAggregatesFilter<"Blog"> | number
   categoryId?: Prisma.IntNullableWithAggregatesFilter<"Blog"> | number | null
   publishedAt?: Prisma.DateTimeNullableWithAggregatesFilter<"Blog"> | Date | string | null
   generatedAt?: Prisma.DateTimeNullableWithAggregatesFilter<"Blog"> | Date | string | null
   createdAt?: Prisma.DateTimeWithAggregatesFilter<"Blog"> | Date | string
   updatedAt?: Prisma.DateTimeWithAggregatesFilter<"Blog"> | Date | string
+  readTime?: Prisma.IntNullableWithAggregatesFilter<"Blog"> | number | null
+  trendingScore?: Prisma.FloatWithAggregatesFilter<"Blog"> | number
 }
 
 export type BlogCreateInput = {
@@ -403,16 +406,17 @@ export type BlogCreateInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateInput = {
@@ -422,16 +426,17 @@ export type BlogUncheckedCreateInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUpdateInput = {
@@ -440,16 +445,17 @@ export type BlogUpdateInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateInput = {
@@ -459,16 +465,17 @@ export type BlogUncheckedUpdateInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogCreateManyInput = {
@@ -478,14 +485,14 @@ export type BlogCreateManyInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
 }
 
 export type BlogUpdateManyMutationInput = {
@@ -494,12 +501,12 @@ export type BlogUpdateManyMutationInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
 }
 
 export type BlogUncheckedUpdateManyInput = {
@@ -509,14 +516,14 @@ export type BlogUncheckedUpdateManyInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
 }
 
 export type BlogListRelationFilter = {
@@ -536,22 +543,22 @@ export type BlogCountOrderByAggregateInput = {
   excerpt?: Prisma.SortOrder
   content?: Prisma.SortOrder
   status?: Prisma.SortOrder
-  readTime?: Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrder
   publishedAt?: Prisma.SortOrder
   generatedAt?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  readTime?: Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
 }
 
 export type BlogAvgOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  readTime?: Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrder
+  readTime?: Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
 }
 
 export type BlogMaxOrderByAggregateInput = {
@@ -561,14 +568,14 @@ export type BlogMaxOrderByAggregateInput = {
   excerpt?: Prisma.SortOrder
   content?: Prisma.SortOrder
   status?: Prisma.SortOrder
-  readTime?: Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrder
   publishedAt?: Prisma.SortOrder
   generatedAt?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  readTime?: Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
 }
 
 export type BlogMinOrderByAggregateInput = {
@@ -578,22 +585,22 @@ export type BlogMinOrderByAggregateInput = {
   excerpt?: Prisma.SortOrder
   content?: Prisma.SortOrder
   status?: Prisma.SortOrder
-  readTime?: Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrder
   publishedAt?: Prisma.SortOrder
   generatedAt?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
+  readTime?: Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
 }
 
 export type BlogSumOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  readTime?: Prisma.SortOrder
-  trendingScore?: Prisma.SortOrder
   authorId?: Prisma.SortOrder
   categoryId?: Prisma.SortOrder
+  readTime?: Prisma.SortOrder
+  trendingScore?: Prisma.SortOrder
 }
 
 export type BlogScalarRelationFilter = {
@@ -733,21 +740,36 @@ export type BlogUpdateOneRequiredWithoutViewsNestedInput = {
   update?: Prisma.XOR<Prisma.XOR<Prisma.BlogUpdateToOneWithWhereWithoutViewsInput, Prisma.BlogUpdateWithoutViewsInput>, Prisma.BlogUncheckedUpdateWithoutViewsInput>
 }
 
+export type BlogCreateNestedOneWithoutChangeRequestInput = {
+  create?: Prisma.XOR<Prisma.BlogCreateWithoutChangeRequestInput, Prisma.BlogUncheckedCreateWithoutChangeRequestInput>
+  connectOrCreate?: Prisma.BlogCreateOrConnectWithoutChangeRequestInput
+  connect?: Prisma.BlogWhereUniqueInput
+}
+
+export type BlogUpdateOneRequiredWithoutChangeRequestNestedInput = {
+  create?: Prisma.XOR<Prisma.BlogCreateWithoutChangeRequestInput, Prisma.BlogUncheckedCreateWithoutChangeRequestInput>
+  connectOrCreate?: Prisma.BlogCreateOrConnectWithoutChangeRequestInput
+  upsert?: Prisma.BlogUpsertWithoutChangeRequestInput
+  connect?: Prisma.BlogWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.BlogUpdateToOneWithWhereWithoutChangeRequestInput, Prisma.BlogUpdateWithoutChangeRequestInput>, Prisma.BlogUncheckedUpdateWithoutChangeRequestInput>
+}
+
 export type BlogCreateWithoutAuthorInput = {
   title: string
   slug: string
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateWithoutAuthorInput = {
@@ -757,15 +779,16 @@ export type BlogUncheckedCreateWithoutAuthorInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogCreateOrConnectWithoutAuthorInput = {
@@ -804,14 +827,14 @@ export type BlogScalarWhereInput = {
   excerpt?: Prisma.StringNullableFilter<"Blog"> | string | null
   content?: Prisma.StringFilter<"Blog"> | string
   status?: Prisma.EnumStatusFilter<"Blog"> | $Enums.Status
-  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
-  trendingScore?: Prisma.FloatFilter<"Blog"> | number
   authorId?: Prisma.IntFilter<"Blog"> | number
   categoryId?: Prisma.IntNullableFilter<"Blog"> | number | null
   publishedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   generatedAt?: Prisma.DateTimeNullableFilter<"Blog"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Blog"> | Date | string
+  readTime?: Prisma.IntNullableFilter<"Blog"> | number | null
+  trendingScore?: Prisma.FloatFilter<"Blog"> | number
 }
 
 export type BlogCreateWithoutCategoryInput = {
@@ -820,15 +843,16 @@ export type BlogCreateWithoutCategoryInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateWithoutCategoryInput = {
@@ -838,15 +862,16 @@ export type BlogUncheckedCreateWithoutCategoryInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogCreateOrConnectWithoutCategoryInput = {
@@ -881,15 +906,16 @@ export type BlogCreateWithoutTagsInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateWithoutTagsInput = {
@@ -899,15 +925,16 @@ export type BlogUncheckedCreateWithoutTagsInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogCreateOrConnectWithoutTagsInput = {
@@ -932,15 +959,16 @@ export type BlogUpdateWithoutTagsInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateWithoutTagsInput = {
@@ -950,15 +978,16 @@ export type BlogUncheckedUpdateWithoutTagsInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogCreateWithoutViewsInput = {
@@ -967,15 +996,16 @@ export type BlogCreateWithoutViewsInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateWithoutViewsInput = {
@@ -985,15 +1015,16 @@ export type BlogUncheckedCreateWithoutViewsInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogCreateOrConnectWithoutViewsInput = {
@@ -1018,15 +1049,16 @@ export type BlogUpdateWithoutViewsInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateWithoutViewsInput = {
@@ -1036,15 +1068,106 @@ export type BlogUncheckedUpdateWithoutViewsInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
+}
+
+export type BlogCreateWithoutChangeRequestInput = {
+  title: string
+  slug: string
+  excerpt?: string | null
+  content: string
+  status?: $Enums.Status
+  publishedAt?: Date | string | null
+  generatedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
+  author: Prisma.UserCreateNestedOneWithoutBlogsInput
+  category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
+  tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
+  views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+}
+
+export type BlogUncheckedCreateWithoutChangeRequestInput = {
+  id?: number
+  title: string
+  slug: string
+  excerpt?: string | null
+  content: string
+  status?: $Enums.Status
+  authorId: number
+  categoryId?: number | null
+  publishedAt?: Date | string | null
+  generatedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
+  tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
+  views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+}
+
+export type BlogCreateOrConnectWithoutChangeRequestInput = {
+  where: Prisma.BlogWhereUniqueInput
+  create: Prisma.XOR<Prisma.BlogCreateWithoutChangeRequestInput, Prisma.BlogUncheckedCreateWithoutChangeRequestInput>
+}
+
+export type BlogUpsertWithoutChangeRequestInput = {
+  update: Prisma.XOR<Prisma.BlogUpdateWithoutChangeRequestInput, Prisma.BlogUncheckedUpdateWithoutChangeRequestInput>
+  create: Prisma.XOR<Prisma.BlogCreateWithoutChangeRequestInput, Prisma.BlogUncheckedCreateWithoutChangeRequestInput>
+  where?: Prisma.BlogWhereInput
+}
+
+export type BlogUpdateToOneWithWhereWithoutChangeRequestInput = {
+  where?: Prisma.BlogWhereInput
+  data: Prisma.XOR<Prisma.BlogUpdateWithoutChangeRequestInput, Prisma.BlogUncheckedUpdateWithoutChangeRequestInput>
+}
+
+export type BlogUpdateWithoutChangeRequestInput = {
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
+  publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
+  author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
+  category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
+  tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
+  views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+}
+
+export type BlogUncheckedUpdateWithoutChangeRequestInput = {
+  id?: Prisma.IntFieldUpdateOperationsInput | number
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
+  authorId?: Prisma.IntFieldUpdateOperationsInput | number
+  categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
+  tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
+  views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogCreateManyAuthorInput = {
@@ -1054,13 +1177,13 @@ export type BlogCreateManyAuthorInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   categoryId?: number | null
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
 }
 
 export type BlogUpdateWithoutAuthorInput = {
@@ -1069,15 +1192,16 @@ export type BlogUpdateWithoutAuthorInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateWithoutAuthorInput = {
@@ -1087,15 +1211,16 @@ export type BlogUncheckedUpdateWithoutAuthorInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateManyWithoutAuthorInput = {
@@ -1105,13 +1230,13 @@ export type BlogUncheckedUpdateManyWithoutAuthorInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
 }
 
 export type BlogCreateManyCategoryInput = {
@@ -1121,13 +1246,13 @@ export type BlogCreateManyCategoryInput = {
   excerpt?: string | null
   content: string
   status?: $Enums.Status
-  readTime?: number | null
-  trendingScore?: number
   authorId: number
   publishedAt?: Date | string | null
   generatedAt?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
 }
 
 export type BlogUpdateWithoutCategoryInput = {
@@ -1136,15 +1261,16 @@ export type BlogUpdateWithoutCategoryInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateWithoutCategoryInput = {
@@ -1154,15 +1280,16 @@ export type BlogUncheckedUpdateWithoutCategoryInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateManyWithoutCategoryInput = {
@@ -1172,13 +1299,13 @@ export type BlogUncheckedUpdateManyWithoutCategoryInput = {
   excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   content?: Prisma.StringFieldUpdateOperationsInput | string
   status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
-  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
-  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   authorId?: Prisma.IntFieldUpdateOperationsInput | number
   publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
 }
 
 
@@ -1189,11 +1316,13 @@ export type BlogUncheckedUpdateManyWithoutCategoryInput = {
 export type BlogCountOutputType = {
   tags: number
   views: number
+  ChangeRequest: number
 }
 
 export type BlogCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   tags?: boolean | BlogCountOutputTypeCountTagsArgs
   views?: boolean | BlogCountOutputTypeCountViewsArgs
+  ChangeRequest?: boolean | BlogCountOutputTypeCountChangeRequestArgs
 }
 
 /**
@@ -1220,6 +1349,13 @@ export type BlogCountOutputTypeCountViewsArgs<ExtArgs extends runtime.Types.Exte
   where?: Prisma.BlogViewWhereInput
 }
 
+/**
+ * BlogCountOutputType without action
+ */
+export type BlogCountOutputTypeCountChangeRequestArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.ChangeRequestWhereInput
+}
+
 
 export type BlogSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
   id?: boolean
@@ -1228,18 +1364,19 @@ export type BlogSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = r
   excerpt?: boolean
   content?: boolean
   status?: boolean
-  readTime?: boolean
-  trendingScore?: boolean
   authorId?: boolean
   categoryId?: boolean
   publishedAt?: boolean
   generatedAt?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  readTime?: boolean
+  trendingScore?: boolean
   author?: boolean | Prisma.UserDefaultArgs<ExtArgs>
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
   tags?: boolean | Prisma.Blog$tagsArgs<ExtArgs>
   views?: boolean | Prisma.Blog$viewsArgs<ExtArgs>
+  ChangeRequest?: boolean | Prisma.Blog$ChangeRequestArgs<ExtArgs>
   _count?: boolean | Prisma.BlogCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["blog"]>
 
@@ -1250,14 +1387,14 @@ export type BlogSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extensio
   excerpt?: boolean
   content?: boolean
   status?: boolean
-  readTime?: boolean
-  trendingScore?: boolean
   authorId?: boolean
   categoryId?: boolean
   publishedAt?: boolean
   generatedAt?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  readTime?: boolean
+  trendingScore?: boolean
   author?: boolean | Prisma.UserDefaultArgs<ExtArgs>
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
 }, ExtArgs["result"]["blog"]>
@@ -1269,14 +1406,14 @@ export type BlogSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensio
   excerpt?: boolean
   content?: boolean
   status?: boolean
-  readTime?: boolean
-  trendingScore?: boolean
   authorId?: boolean
   categoryId?: boolean
   publishedAt?: boolean
   generatedAt?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  readTime?: boolean
+  trendingScore?: boolean
   author?: boolean | Prisma.UserDefaultArgs<ExtArgs>
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
 }, ExtArgs["result"]["blog"]>
@@ -1288,22 +1425,23 @@ export type BlogSelectScalar = {
   excerpt?: boolean
   content?: boolean
   status?: boolean
-  readTime?: boolean
-  trendingScore?: boolean
   authorId?: boolean
   categoryId?: boolean
   publishedAt?: boolean
   generatedAt?: boolean
   createdAt?: boolean
   updatedAt?: boolean
+  readTime?: boolean
+  trendingScore?: boolean
 }
 
-export type BlogOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "title" | "slug" | "excerpt" | "content" | "status" | "readTime" | "trendingScore" | "authorId" | "categoryId" | "publishedAt" | "generatedAt" | "createdAt" | "updatedAt", ExtArgs["result"]["blog"]>
+export type BlogOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "title" | "slug" | "excerpt" | "content" | "status" | "authorId" | "categoryId" | "publishedAt" | "generatedAt" | "createdAt" | "updatedAt" | "readTime" | "trendingScore", ExtArgs["result"]["blog"]>
 export type BlogInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   author?: boolean | Prisma.UserDefaultArgs<ExtArgs>
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
   tags?: boolean | Prisma.Blog$tagsArgs<ExtArgs>
   views?: boolean | Prisma.Blog$viewsArgs<ExtArgs>
+  ChangeRequest?: boolean | Prisma.Blog$ChangeRequestArgs<ExtArgs>
   _count?: boolean | Prisma.BlogCountOutputTypeDefaultArgs<ExtArgs>
 }
 export type BlogIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
@@ -1322,6 +1460,7 @@ export type $BlogPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs =
     category: Prisma.$CategoryPayload<ExtArgs> | null
     tags: Prisma.$BlogTagPayload<ExtArgs>[]
     views: Prisma.$BlogViewPayload<ExtArgs>[]
+    ChangeRequest: Prisma.$ChangeRequestPayload<ExtArgs>[]
   }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
     id: number
@@ -1330,14 +1469,14 @@ export type $BlogPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs =
     excerpt: string | null
     content: string
     status: $Enums.Status
-    readTime: number | null
-    trendingScore: number
     authorId: number
     categoryId: number | null
     publishedAt: Date | null
     generatedAt: Date | null
     createdAt: Date
     updatedAt: Date
+    readTime: number | null
+    trendingScore: number
   }, ExtArgs["result"]["blog"]>
   composites: {}
 }
@@ -1736,6 +1875,7 @@ export interface Prisma__BlogClient<T, Null = never, ExtArgs extends runtime.Typ
   category<T extends Prisma.Blog$categoryArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$categoryArgs<ExtArgs>>): Prisma.Prisma__CategoryClient<runtime.Types.Result.GetResult<Prisma.$CategoryPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
   tags<T extends Prisma.Blog$tagsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$tagsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$BlogTagPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   views<T extends Prisma.Blog$viewsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$viewsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$BlogViewPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  ChangeRequest<T extends Prisma.Blog$ChangeRequestArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$ChangeRequestArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$ChangeRequestPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
    * @param onfulfilled The callback to execute when the Promise is resolved.
@@ -1771,14 +1911,14 @@ export interface BlogFieldRefs {
   readonly excerpt: Prisma.FieldRef<"Blog", 'String'>
   readonly content: Prisma.FieldRef<"Blog", 'String'>
   readonly status: Prisma.FieldRef<"Blog", 'Status'>
-  readonly readTime: Prisma.FieldRef<"Blog", 'Int'>
-  readonly trendingScore: Prisma.FieldRef<"Blog", 'Float'>
   readonly authorId: Prisma.FieldRef<"Blog", 'Int'>
   readonly categoryId: Prisma.FieldRef<"Blog", 'Int'>
   readonly publishedAt: Prisma.FieldRef<"Blog", 'DateTime'>
   readonly generatedAt: Prisma.FieldRef<"Blog", 'DateTime'>
   readonly createdAt: Prisma.FieldRef<"Blog", 'DateTime'>
   readonly updatedAt: Prisma.FieldRef<"Blog", 'DateTime'>
+  readonly readTime: Prisma.FieldRef<"Blog", 'Int'>
+  readonly trendingScore: Prisma.FieldRef<"Blog", 'Float'>
 }
     
 
@@ -2239,6 +2379,30 @@ export type Blog$viewsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs
   take?: number
   skip?: number
   distinct?: Prisma.BlogViewScalarFieldEnum | Prisma.BlogViewScalarFieldEnum[]
+}
+
+/**
+ * Blog.ChangeRequest
+ */
+export type Blog$ChangeRequestArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the ChangeRequest
+   */
+  select?: Prisma.ChangeRequestSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the ChangeRequest
+   */
+  omit?: Prisma.ChangeRequestOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.ChangeRequestInclude<ExtArgs> | null
+  where?: Prisma.ChangeRequestWhereInput
+  orderBy?: Prisma.ChangeRequestOrderByWithRelationInput | Prisma.ChangeRequestOrderByWithRelationInput[]
+  cursor?: Prisma.ChangeRequestWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.ChangeRequestScalarFieldEnum | Prisma.ChangeRequestScalarFieldEnum[]
 }
 
 /**

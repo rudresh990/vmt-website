@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
             data: {
               name: tagName,
               slug: tagSlug,
-              status: 'PENDING',
+              status: 'APPROVED',
             },
           });
         }

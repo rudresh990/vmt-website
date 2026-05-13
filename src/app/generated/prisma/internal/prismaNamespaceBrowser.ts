@@ -56,7 +56,8 @@ export const ModelName = {
   Tag: 'Tag',
   Category: 'Category',
   BlogTag: 'BlogTag',
-  BlogView: 'BlogView'
+  BlogView: 'BlogView',
+  ChangeRequest: 'ChangeRequest'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -81,13 +82,13 @@ export const UserScalarFieldEnum = {
   email: 'email',
   password: 'password',
   role: 'role',
+  createdAt: 'createdAt',
+  updatedAt: 'updatedAt',
   isVerified: 'isVerified',
-  verificationToken: 'verificationToken',
-  verificationExpiry: 'verificationExpiry',
   resetToken: 'resetToken',
   resetTokenExpiry: 'resetTokenExpiry',
-  createdAt: 'createdAt',
-  updatedAt: 'updatedAt'
+  verificationExpiry: 'verificationExpiry',
+  verificationToken: 'verificationToken'
 } as const
 
 export type UserScalarFieldEnum = (typeof UserScalarFieldEnum)[keyof typeof UserScalarFieldEnum]
@@ -100,14 +101,14 @@ export const BlogScalarFieldEnum = {
   excerpt: 'excerpt',
   content: 'content',
   status: 'status',
-  readTime: 'readTime',
-  trendingScore: 'trendingScore',
   authorId: 'authorId',
   categoryId: 'categoryId',
   publishedAt: 'publishedAt',
   generatedAt: 'generatedAt',
   createdAt: 'createdAt',
-  updatedAt: 'updatedAt'
+  updatedAt: 'updatedAt',
+  readTime: 'readTime',
+  trendingScore: 'trendingScore'
 } as const
 
 export type BlogScalarFieldEnum = (typeof BlogScalarFieldEnum)[keyof typeof BlogScalarFieldEnum]
@@ -152,6 +153,18 @@ export const BlogViewScalarFieldEnum = {
 } as const
 
 export type BlogViewScalarFieldEnum = (typeof BlogViewScalarFieldEnum)[keyof typeof BlogViewScalarFieldEnum]
+
+
+export const ChangeRequestScalarFieldEnum = {
+  id: 'id',
+  blogId: 'blogId',
+  message: 'message',
+  adminId: 'adminId',
+  status: 'status',
+  createdAt: 'createdAt'
+} as const
+
+export type ChangeRequestScalarFieldEnum = (typeof ChangeRequestScalarFieldEnum)[keyof typeof ChangeRequestScalarFieldEnum]
 
 
 export const SortOrder = {

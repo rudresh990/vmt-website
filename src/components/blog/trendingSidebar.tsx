@@ -6,7 +6,7 @@ async function getTrending() {
     where: {
       status: 'PUBLISHED',
     },
-    take: 7,
+    take: 10,
     select: {
       id: true,
       title: true,

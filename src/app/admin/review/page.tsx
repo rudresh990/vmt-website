@@ -18,6 +18,8 @@ type Blog = {
 };
 export default function ReviewPage() {
   const [previewBlog, setPreviewBlog] = useState(false);
+  const [changeMessage, setChangeMessage] = useState('');
+  const [changeRequest, setChangeRequest] = useState(false);
   const [selectedBlog, setSelectedBlog] = useState<Blog | null>(null);
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -64,6 +66,23 @@ export default function ReviewPage() {
       console.error('Approve error:', e.message);
     }
   };
+  const handleChanges = async () => {
+    if (!selectedBlog) return;
+    const nId = Number(selectedBlog.id);
+    const finalMessage = changeMessage.trim() == '' ? 'Changes requested by admin' : changeMessage;
+    const res = await fetch('/api/admin/blogs/request-change', {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ Id: nId, message: finalMessage }),
+    });
+    if (!res.ok) {
+      alert('Change request failed try after sometime');
+    }
+    setSelectedBlog(null);
+    router.refresh();
+  };
   return (
     <>
       <h1 className="text-3xl font-bold mb-6">Blogs for Review</h1>
@@ -101,8 +120,26 @@ export default function ReviewPage() {
             <button className="btn-primary p-2 rounded-4xl" onClick={approveBlog}>
               Approve
             </button>
-            <button className="btn-primary p-2 rounded-4xl">Request Changes</button>
+            <button className="btn-primary p-2 rounded-4xl" onClick={() => setChangeRequest(true)}>
+              Request Changes
+            </button>
           </div>
+          {changeRequest && (
+            <div className="flex flex-col justify-center items-center gap-4 mt-4">
+              <input
+                type="text"
+                placeholder="Describe changes to be made"
+                name="message"
+                id="changeMessage"
+                value={changeMessage}
+                onChange={(e) => setChangeMessage(e.target.value)}
+                className="w-3/4 text-3xl font-semibold bg-transparent border-b border-gray-600 focus:outline-none focus:border-cyan-400 py-3 mb-6 transition"
+              />
+              <button className="btn-primary p-2 rounded-4xl" onClick={handleChanges}>
+                Submit
+              </button>
+            </div>
+          )}
         </div>
       )}
     </>
