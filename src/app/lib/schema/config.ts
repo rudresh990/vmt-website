@@ -4,8 +4,8 @@ import {
   ImageObject,
   Person,
   Address,
-  potentialAction,
-  Offer,
+  // potentialAction,
+  OfferSchema,
 } from './types';
 
 export const SITE_URL = 'https://www.voidmatrixtech.com';
@@ -93,13 +93,13 @@ export const LOCAL_ADDRESS: Address = {
   addressCountry: 'IN',
 };
 
-export const POTENTIAL_ACTION: potentialAction = {
-  '@type': 'SearchAction',
-  target: 'https://www.voidmatrixtech.com/contact?q={search_term_string}',
-  'query-input': 'required name=search_term_string',
-};
+// export const POTENTIAL_ACTION: potentialAction = {
+//   '@type': 'SearchAction',
+//   target: 'https://www.voidmatrixtech.com/contact?q={search_term_string}',
+//   'query-input': 'required name=search_term_string',
+// };
 
-export const OFFER: Offer = {
+export const OFFER: OfferSchema = {
   '@type': 'Offer',
   priceCurrency: 'INR',
   priceSpecification: {
