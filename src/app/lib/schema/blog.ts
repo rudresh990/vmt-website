@@ -1,30 +1,79 @@
+import { SITE_URL } from './config';
+
 export function generateBlogPosting(blog: any) {
   const plainContent = blog.content
     ?.replace(/<[^>]*>/g, ' ')
     ?.replace(/\s+/g, ' ')
     ?.trim();
+
+  const pageUrl = `${SITE_URL}/blog/${blog.slug}`;
+
   return {
     '@type': 'BlogPosting',
-    '@id': `https://www.voidmatrixtech.com/blog/${blog.slug}#article`,
+
+    '@id': `${pageUrl}#article`,
+
+    url: pageUrl,
+
     headline: blog.title,
+
     description: blog.excerpt || plainContent?.slice(0, 150),
+
+    inLanguage: 'en-IN',
+
+    image: {
+      '@type': 'ImageObject',
+      url: blog.coverImage || `${SITE_URL}/og/default-blog.jpg`,
+    },
 
     author: {
       '@type': 'Person',
-      name: blog.author?.name || 'Unknown',
+
+      '@id': `${SITE_URL}/#author-${blog.author?.slug || 'admin'}`,
+
+      name: blog.author?.name || 'Void Matrix Technology',
     },
 
     publisher: {
       '@type': 'Organization',
-      '@id': 'https://www.voidmatrixtech.com/#organization',
-    },
 
-    datePublished: blog.publishedAt,
-    dateModified: blog.updatedAt,
+      '@id': `${SITE_URL}/#organization`,
+
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
 
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.voidmatrixtech.com/blog/${blog.slug}`,
+
+      '@id': `${pageUrl}#webpage`,
+    },
+
+    isPartOf: {
+      '@id': `${SITE_URL}#website`,
+    },
+
+    about: {
+      '@id': `${SITE_URL}#organization`,
+    },
+
+    datePublished: blog.publishedAt || blog.createdAt,
+
+    ...(blog.updatedAt && {
+      dateModified: blog.updatedAt,
+    }),
+
+    keywords: blog.tags?.map((tagItem: any) => tagItem.tag?.name).filter(Boolean) || [],
+
+    articleSection: blog.category || 'Technology',
+
+    wordCount: plainContent?.split(/\s+/).length || 0,
+
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['article'],
     },
   };
 }

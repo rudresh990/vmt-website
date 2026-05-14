@@ -1,5 +1,5 @@
 import { BaseSchema } from './base';
-import { SITE_URL, ORGANIZATION_ID, AREA_SERVED, NAME } from './config';
+import { SITE_URL, ORGANIZATION_ID, AREA_SERVED } from './config';
 
 export interface ServiceSchema extends BaseSchema {
   '@type': 'Service';
@@ -7,12 +7,21 @@ export interface ServiceSchema extends BaseSchema {
   description: string;
   serviceType: string;
   url: string;
+
   provider: {
-    '@type': 'Organization';
     '@id': string;
   };
+
   offers?: any;
+
   areaServed: {};
+
+  inLanguage: string;
+
+  mainEntityOfPage: {
+    '@type': 'WebPage';
+    '@id': string;
+  };
 }
 
 export function generateService(
@@ -21,27 +30,40 @@ export function generateService(
   serviceType?: string,
   offer?: any,
 ): ServiceSchema {
-  const path = pathname === '/' ? '' : pathname.replace(/\+$/, '');
+  const path = pathname === '/' ? '' : pathname.replace(/\/$/, '');
+
   const url = `${SITE_URL}${path}`;
-  console.log(url);
+
   const slug = path.split('/').pop() || '';
+
   const name = slug.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
   return {
     '@type': 'Service',
-    '@id': `${url}/#service`,
+
+    '@id': `${url}#service`,
+
     name,
+
     description,
-    serviceType: serviceType || name,
+
+    serviceType: name,
+
     url,
+
+    inLanguage: 'en-IN',
+
     provider: {
-      '@type': 'Organization',
       '@id': ORGANIZATION_ID,
-      name: NAME,
     },
+
     mainEntityOfPage: {
-      '@id': `${url}/#webpage`,
+      '@type': 'WebPage',
+      '@id': `${url}#webpage`,
     },
+
     ...(offer && { offers: offer }),
+
     areaServed: AREA_SERVED,
   };
 }

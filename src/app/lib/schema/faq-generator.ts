@@ -1,24 +1,51 @@
-import { SITE_URL, FAQItem } from './config';
+import { FAQItem } from './config';
+import { buildSchemaUrl } from './utils/utils';
 
-function normalizeSlug(slug: string) {
-  return slug.endsWith('/') ? slug : `${slug}/`;
+interface FAQPageInput {
+  slug: string;
+  title: string;
+  faqs: FAQItem[];
 }
 
-export function generateFAQPage(slug: string, faqs: FAQItem[]) {
-  const normalizedSlug = normalizeSlug(slug);
+export function generateFAQPage({ slug, title, faqs }: FAQPageInput) {
+  if (!faqs?.length) {
+    return null;
+  }
+
+  const pageUrl = buildSchemaUrl(slug);
 
   return {
     '@type': 'FAQPage',
-    '@id': `${SITE_URL}/${normalizedSlug}#faq`,
-    name: `${normalizedSlug}FAQs`,
+
+    '@id': `${pageUrl}#faq`,
+
+    url: pageUrl,
+
+    name: `${title} FAQs`,
+
+    inLanguage: 'en-IN',
+
     isPartOf: {
-      '@id': `${SITE_URL}/${normalizedSlug}#webpage`,
+      '@id': `${pageUrl}#webpage`,
     },
-    mainEntity: faqs.map((faq) => ({
+
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+    },
+
+    mainEntity: faqs.map((faq, index) => ({
       '@type': 'Question',
+
+      '@id': `${pageUrl}#faq-question-${index + 1}`,
+
       name: faq.q,
+
       acceptedAnswer: {
         '@type': 'Answer',
+
+        '@id': `${pageUrl}#faq-answer-${index + 1}`,
+
         text: faq.a,
       },
     })),

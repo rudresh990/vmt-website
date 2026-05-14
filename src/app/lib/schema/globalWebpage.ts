@@ -1,41 +1,95 @@
-import { BaseSchema } from './base';
-import { SITE_URL, WEBSITE_ID, ORGANIZATION_ID } from './config';
-export interface WebPageSchema extends BaseSchema {
-  '@type': 'WebPage';
-  '@id': string;
-  url: string;
-  name: string;
-  description?: string;
-  isPartOf: {
-    '@id': string;
-  };
-  about?: {
-    '@id': string;
-  };
-}
+import { ORGANIZATION_ID, SITE_URL, WEBSITE_ID } from './config';
+import { buildSchemaUrl } from './utils/utils';
 
-export function generateGlobalWebpage(pathname: string, description?: string): WebPageSchema {
-  const isServicePage = /^\/services(\/|$)/.test(pathname);
-  const path = pathname === '/' ? '' : pathname.replace(/\/+$/, '');
-  const url = `${SITE_URL}${path}`;
-  const slug = path.split('/').pop() || '';
-  const name = slug.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) || 'HOME';
-  const aboutId = isServicePage ? `${url}/#service` : ORGANIZATION_ID;
-  description =
-    description === undefined
-      ? 'Void Matrix Technology provides custom software development, web applications, AI solutions, and scalable digital platforms to help startups, SMEs, and enterprises build powerful digital products.'
-      : description;
+export function generateGlobalWebpage(
+  pathname: string,
+  description?: string,
+  dateModified?: string,
+  hasFAQ?: boolean,
+) {
+  const pageUrl = buildSchemaUrl(pathname);
+
+  const slug =
+    pathname === '/'
+      ? 'Home'
+      : pathname
+          .split('/')
+          .filter(Boolean)
+          .pop()
+          ?.replace(/-/g, ' ')
+          .replace(/\b\w/g, (char) => char.toUpperCase()) || 'Page';
+
+  const isHomepage = pathname === '/';
+
+  const isServicesCollection = pathname === '/services';
+
   return {
     '@type': 'WebPage',
-    '@id': `${url}/#webpage`,
-    name,
-    url,
+
+    '@id': `${pageUrl}#webpage`,
+
+    url: pageUrl,
+
+    name: slug,
+
     description,
+
+    inLanguage: 'en-IN',
+
     isPartOf: {
+      '@type': 'WebSite',
       '@id': WEBSITE_ID,
     },
-    about: {
-      '@id': aboutId,
+
+    ...(hasFAQ && {
+      hasPart: [
+        {
+          '@id': `${pageUrl}#faq`,
+        },
+      ],
+    }),
+
+    ...(dateModified && {
+      dateModified,
+    }),
+
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}/og/default.jpg`,
     },
+
+    potentialAction: {
+      '@type': 'ContactAction',
+      target: `${SITE_URL}/contact`,
+    },
+
+    ...(!isHomepage && {
+      breadcrumb: {
+        '@id': `${pageUrl}#breadcrumb`,
+      },
+    }),
+
+    // SERVICE PAGES
+    ...(!isHomepage &&
+      !isServicesCollection && {
+        about: {
+          '@id': `${pageUrl}#service`,
+        },
+
+        mainEntity: {
+          '@id': `${pageUrl}#service`,
+        },
+      }),
+
+    // SERVICES COLLECTION PAGE
+    ...(isServicesCollection && {
+      about: {
+        '@id': `${ORGANIZATION_ID}`,
+      },
+
+      mainEntity: {
+        '@id': `${pageUrl}#collection-page`,
+      },
+    }),
   };
 }

@@ -1,46 +1,63 @@
-import { BaseSchema } from './base';
-import { COLLECTION_ID, SITE_URL, WEBSITE_ID } from './config';
+import { ORGANIZATION_ID, SITE_URL, WEBSITE_ID } from './config';
 
-export interface ServicePageSchema extends BaseSchema {
-  '@type': 'CollectionPage';
-  description: string;
-  name: string;
-  isPartOf: {
-    '@type': 'WebSite';
-    '@id': string;
-  };
-  mainEntity: {
-    '@type': 'ItemList';
-    itemListElement: {
-      '@type': 'ListItem';
-      position: number;
-      name: string;
-      url: string;
-    }[];
-  };
-}
-export interface ServiceListItem {
+import { buildSchemaUrl } from './utils/utils';
+
+interface ServiceCollectionItem {
   name: string;
   slug: string;
 }
-export function generateServiceCollectionPage(services: ServiceListItem[]): ServicePageSchema {
+
+export function generateServiceCollectionPage(services: ServiceCollectionItem[]) {
+  const pageUrl = buildSchemaUrl('/services');
+
   return {
     '@type': 'CollectionPage',
-    '@id': COLLECTION_ID,
-    name: 'Our Services',
+
+    '@id': `${pageUrl}#collection-page`,
+
+    url: pageUrl,
+
+    name: 'Software Development Services',
+
     description:
-      'Explore web development, mobile apps, AI, automation, and digital transformation services offered by Void Matrix Technology.',
+      'Explore our professional software development, SaaS, SEO, platform engineering, and web application services for startups and enterprises.',
+
+    inLanguage: 'en-IN',
+
     isPartOf: {
       '@type': 'WebSite',
       '@id': WEBSITE_ID,
     },
+
+    about: {
+      '@id': ORGANIZATION_ID,
+    },
+
+    hasPart: services.map((service) => ({
+      '@id': `${SITE_URL}/services/${service.slug}#service`,
+    })),
+
     mainEntity: {
       '@type': 'ItemList',
+
+      '@id': `${pageUrl}#services-list`,
+
+      numberOfItems: services.length,
+
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+
       itemListElement: services.map((service, index) => ({
         '@type': 'ListItem',
+
         position: index + 1,
+
         name: service.name,
+
         url: `${SITE_URL}/services/${service.slug}`,
+
+        item: {
+          '@id': `${SITE_URL}/services/${service.slug}#service`,
+        },
       })),
     },
   };

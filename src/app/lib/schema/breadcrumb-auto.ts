@@ -1,45 +1,58 @@
 import { BreadcrumbSchema } from './types';
-import { SITE_URL } from './config';
+import { buildSchemaUrl, normalizePath } from './utils/utils';
 
 export function generateAutoBreadcrumb(pathname: string): BreadcrumbSchema {
-  const baseUrl = SITE_URL;
+  if (!pathname || pathname === '/') {
+    throw new Error('Breadcrumb should not be generated for homepage');
+  }
 
-  //removing leading / trailing slash
+  const pageUrl = buildSchemaUrl(pathname);
 
-  const cleanPath = pathname.replace(/^\/|\/$/g, '');
+  const cleanPath = normalizePath(pathname).replace(/^\/+/, '');
 
-  const segment = cleanPath ? cleanPath.split('/') : [];
+  const segments = cleanPath ? cleanPath.split('/') : [];
 
   const items = [
     {
       name: 'Home',
-      url: baseUrl,
+      url: buildSchemaUrl('/'),
     },
   ];
 
   let currentPath = '';
 
-  segment.forEach((segment) => {
-    currentPath += `/${segment}`;
+  segments.forEach((segmentItem) => {
+    currentPath += `/${segmentItem}`;
 
-    //convert slug to readable name
-
-    const formattedName = segment.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
+    const formattedName = segmentItem
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, (char) => char.toUpperCase());
 
     items.push({
       name: formattedName,
-      url: `${baseUrl}${currentPath}`,
+      url: buildSchemaUrl(currentPath),
     });
   });
 
   return {
     '@type': 'BreadcrumbList',
-    '@id': `${baseUrl}${pathname.replace(/\/$/, '')}/#breadcrumb`,
+
+    '@id': `${pageUrl}#breadcrumb`,
+
+    name: 'Breadcrumbs',
+
+    inLanguage: 'en-IN',
+
     itemListElement: items.map((item, index) => ({
       '@type': 'ListItem',
+
       position: index + 1,
+
       name: item.name,
-      item: item.url,
+
+      item: {
+        '@id': item.url,
+      },
     })),
   };
 }
