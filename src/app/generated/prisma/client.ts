@@ -50,6 +50,16 @@ export type User = Prisma.UserModel
  */
 export type Blog = Prisma.BlogModel
 /**
+ * Model FAQ
+ * 
+ */
+export type FAQ = Prisma.FAQModel
+/**
+ * Model BlogFAQ
+ * 
+ */
+export type BlogFAQ = Prisma.BlogFAQModel
+/**
  * Model Tag
  * 
  */

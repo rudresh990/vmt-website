@@ -42,19 +42,37 @@ model Blog {
   category      Category?       @relation(fields: [categoryId], references: [id])
   tags          BlogTag[]
   views         BlogView[]
+  faqs          BlogFAQ[]
   ChangeRequest ChangeRequest[]
 
   @@index([status])
   @@index([publishedAt])
-  @@index([trendingScore])
+  @@index([trendingScore(sort:Desc)])
 }
 
+model FAQ{
+  id Int @id @default(autoincrement())
+  question String
+  answer String
+  blogId Int
+  createdAt DateTime @default(now())
+
+  blogs BlogFAQ[]
+}
+model BlogFAQ{
+  id Int @id @default(autoincrement())
+  blogId Int
+  faqId Int
+  blog Blog @relation(fields:[blogId], references: [id], onDelete:Cascade)
+  faq FAQ @relation(fields: [faqId], references:[id], onDelete:Cascade)
+  @@unique([blogId,faqId])
+}
 model Tag {
   id        Int             @id @default(autoincrement())
   name      String          @unique
   slug      String          @unique
   createdAt DateTime        @default(now())
-  status    CatAndTagStatus @default(PENDING)
+  status    CatAndTagStatus @default(APPROVED)
   blogs     BlogTag[]
 
   @@index([status])

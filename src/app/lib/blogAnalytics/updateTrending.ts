@@ -5,20 +5,33 @@ export async function updateTrendingScore() {
     where: {
       status: 'PUBLISHED',
     },
-    include: {
-      _count: {
-        select: { views: true },
-      },
+    select: {
+      id: true,
+      publishedAt: true,
     },
   });
-  for (const blog of blogs) {
-    const hours = (Date.now() - new Date(blog.publishedAt!).getTime()) / 3600000;
-    const views = blog._count.views;
-    const score = views / Math.pow(hours + 2, 1.5);
+  const updates = await Promise.all(
+    blogs.map(async (blog) => {
+      if (!blog.publishedAt) return null;
 
-    await prisma.blog.update({
-      where: { id: blog.id },
-      data: { trendingScore: score },
-    });
-  }
+      const totalViews = await prisma.blogView.count({
+        where: {
+          blogId: blog.id,
+        },
+      });
+      const hours = (Date.now() - new Date(blog.publishedAt).getTime()) / 3600000;
+
+      const trendingScore = totalViews / Math.pow(hours + 2, 1.5);
+
+      return prisma.blog.update({
+        where: {
+          id: blog.id,
+        },
+        data: {
+          trendingScore,
+        },
+      });
+      await prisma.$transaction(updates.filter(Boolean));
+    }),
+  );
 }

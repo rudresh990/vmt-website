@@ -10,6 +10,8 @@
  */
 export type * from './models/User'
 export type * from './models/Blog'
+export type * from './models/FAQ'
+export type * from './models/BlogFAQ'
 export type * from './models/Tag'
 export type * from './models/Category'
 export type * from './models/BlogTag'

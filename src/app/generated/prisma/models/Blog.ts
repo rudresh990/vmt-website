@@ -308,6 +308,7 @@ export type BlogWhereInput = {
   category?: Prisma.XOR<Prisma.CategoryNullableScalarRelationFilter, Prisma.CategoryWhereInput> | null
   tags?: Prisma.BlogTagListRelationFilter
   views?: Prisma.BlogViewListRelationFilter
+  faqs?: Prisma.BlogFAQListRelationFilter
   ChangeRequest?: Prisma.ChangeRequestListRelationFilter
 }
 
@@ -330,6 +331,7 @@ export type BlogOrderByWithRelationInput = {
   category?: Prisma.CategoryOrderByWithRelationInput
   tags?: Prisma.BlogTagOrderByRelationAggregateInput
   views?: Prisma.BlogViewOrderByRelationAggregateInput
+  faqs?: Prisma.BlogFAQOrderByRelationAggregateInput
   ChangeRequest?: Prisma.ChangeRequestOrderByRelationAggregateInput
 }
 
@@ -355,6 +357,7 @@ export type BlogWhereUniqueInput = Prisma.AtLeast<{
   category?: Prisma.XOR<Prisma.CategoryNullableScalarRelationFilter, Prisma.CategoryWhereInput> | null
   tags?: Prisma.BlogTagListRelationFilter
   views?: Prisma.BlogViewListRelationFilter
+  faqs?: Prisma.BlogFAQListRelationFilter
   ChangeRequest?: Prisma.ChangeRequestListRelationFilter
 }, "id" | "slug">
 
@@ -416,6 +419,7 @@ export type BlogCreateInput = {
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
@@ -436,6 +440,7 @@ export type BlogUncheckedCreateInput = {
   trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
@@ -455,6 +460,7 @@ export type BlogUpdateInput = {
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
@@ -475,6 +481,7 @@ export type BlogUncheckedUpdateInput = {
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
@@ -670,6 +677,20 @@ export type FloatFieldUpdateOperationsInput = {
   divide?: number
 }
 
+export type BlogCreateNestedOneWithoutFaqsInput = {
+  create?: Prisma.XOR<Prisma.BlogCreateWithoutFaqsInput, Prisma.BlogUncheckedCreateWithoutFaqsInput>
+  connectOrCreate?: Prisma.BlogCreateOrConnectWithoutFaqsInput
+  connect?: Prisma.BlogWhereUniqueInput
+}
+
+export type BlogUpdateOneRequiredWithoutFaqsNestedInput = {
+  create?: Prisma.XOR<Prisma.BlogCreateWithoutFaqsInput, Prisma.BlogUncheckedCreateWithoutFaqsInput>
+  connectOrCreate?: Prisma.BlogCreateOrConnectWithoutFaqsInput
+  upsert?: Prisma.BlogUpsertWithoutFaqsInput
+  connect?: Prisma.BlogWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.BlogUpdateToOneWithWhereWithoutFaqsInput, Prisma.BlogUpdateWithoutFaqsInput>, Prisma.BlogUncheckedUpdateWithoutFaqsInput>
+}
+
 export type BlogCreateNestedManyWithoutCategoryInput = {
   create?: Prisma.XOR<Prisma.BlogCreateWithoutCategoryInput, Prisma.BlogUncheckedCreateWithoutCategoryInput> | Prisma.BlogCreateWithoutCategoryInput[] | Prisma.BlogUncheckedCreateWithoutCategoryInput[]
   connectOrCreate?: Prisma.BlogCreateOrConnectWithoutCategoryInput | Prisma.BlogCreateOrConnectWithoutCategoryInput[]
@@ -769,6 +790,7 @@ export type BlogCreateWithoutAuthorInput = {
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
@@ -788,6 +810,7 @@ export type BlogUncheckedCreateWithoutAuthorInput = {
   trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
@@ -837,6 +860,100 @@ export type BlogScalarWhereInput = {
   trendingScore?: Prisma.FloatFilter<"Blog"> | number
 }
 
+export type BlogCreateWithoutFaqsInput = {
+  title: string
+  slug: string
+  excerpt?: string | null
+  content: string
+  status?: $Enums.Status
+  publishedAt?: Date | string | null
+  generatedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
+  author: Prisma.UserCreateNestedOneWithoutBlogsInput
+  category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
+  tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
+  views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
+}
+
+export type BlogUncheckedCreateWithoutFaqsInput = {
+  id?: number
+  title: string
+  slug: string
+  excerpt?: string | null
+  content: string
+  status?: $Enums.Status
+  authorId: number
+  categoryId?: number | null
+  publishedAt?: Date | string | null
+  generatedAt?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  readTime?: number | null
+  trendingScore?: number
+  tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
+  views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
+}
+
+export type BlogCreateOrConnectWithoutFaqsInput = {
+  where: Prisma.BlogWhereUniqueInput
+  create: Prisma.XOR<Prisma.BlogCreateWithoutFaqsInput, Prisma.BlogUncheckedCreateWithoutFaqsInput>
+}
+
+export type BlogUpsertWithoutFaqsInput = {
+  update: Prisma.XOR<Prisma.BlogUpdateWithoutFaqsInput, Prisma.BlogUncheckedUpdateWithoutFaqsInput>
+  create: Prisma.XOR<Prisma.BlogCreateWithoutFaqsInput, Prisma.BlogUncheckedCreateWithoutFaqsInput>
+  where?: Prisma.BlogWhereInput
+}
+
+export type BlogUpdateToOneWithWhereWithoutFaqsInput = {
+  where?: Prisma.BlogWhereInput
+  data: Prisma.XOR<Prisma.BlogUpdateWithoutFaqsInput, Prisma.BlogUncheckedUpdateWithoutFaqsInput>
+}
+
+export type BlogUpdateWithoutFaqsInput = {
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
+  publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
+  author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
+  category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
+  tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
+  views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
+}
+
+export type BlogUncheckedUpdateWithoutFaqsInput = {
+  id?: Prisma.IntFieldUpdateOperationsInput | number
+  title?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  excerpt?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  content?: Prisma.StringFieldUpdateOperationsInput | string
+  status?: Prisma.EnumStatusFieldUpdateOperationsInput | $Enums.Status
+  authorId?: Prisma.IntFieldUpdateOperationsInput | number
+  categoryId?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  publishedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  generatedAt?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
+  trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
+  tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
+  views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
+}
+
 export type BlogCreateWithoutCategoryInput = {
   title: string
   slug: string
@@ -852,6 +969,7 @@ export type BlogCreateWithoutCategoryInput = {
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
@@ -871,6 +989,7 @@ export type BlogUncheckedCreateWithoutCategoryInput = {
   trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
@@ -915,6 +1034,7 @@ export type BlogCreateWithoutTagsInput = {
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
@@ -934,6 +1054,7 @@ export type BlogUncheckedCreateWithoutTagsInput = {
   readTime?: number | null
   trendingScore?: number
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
@@ -968,6 +1089,7 @@ export type BlogUpdateWithoutTagsInput = {
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
@@ -987,6 +1109,7 @@ export type BlogUncheckedUpdateWithoutTagsInput = {
   readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
@@ -1005,6 +1128,7 @@ export type BlogCreateWithoutViewsInput = {
   author: Prisma.UserCreateNestedOneWithoutBlogsInput
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestCreateNestedManyWithoutBlogInput
 }
 
@@ -1024,6 +1148,7 @@ export type BlogUncheckedCreateWithoutViewsInput = {
   readTime?: number | null
   trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedCreateNestedManyWithoutBlogInput
 }
 
@@ -1058,6 +1183,7 @@ export type BlogUpdateWithoutViewsInput = {
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
@@ -1077,6 +1203,7 @@ export type BlogUncheckedUpdateWithoutViewsInput = {
   readTime?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
@@ -1096,6 +1223,7 @@ export type BlogCreateWithoutChangeRequestInput = {
   category?: Prisma.CategoryCreateNestedOneWithoutBlogsInput
   tags?: Prisma.BlogTagCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQCreateNestedManyWithoutBlogInput
 }
 
 export type BlogUncheckedCreateWithoutChangeRequestInput = {
@@ -1115,6 +1243,7 @@ export type BlogUncheckedCreateWithoutChangeRequestInput = {
   trendingScore?: number
   tags?: Prisma.BlogTagUncheckedCreateNestedManyWithoutBlogInput
   views?: Prisma.BlogViewUncheckedCreateNestedManyWithoutBlogInput
+  faqs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutBlogInput
 }
 
 export type BlogCreateOrConnectWithoutChangeRequestInput = {
@@ -1149,6 +1278,7 @@ export type BlogUpdateWithoutChangeRequestInput = {
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogUncheckedUpdateWithoutChangeRequestInput = {
@@ -1168,6 +1298,7 @@ export type BlogUncheckedUpdateWithoutChangeRequestInput = {
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
 }
 
 export type BlogCreateManyAuthorInput = {
@@ -1201,6 +1332,7 @@ export type BlogUpdateWithoutAuthorInput = {
   category?: Prisma.CategoryUpdateOneWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
@@ -1220,6 +1352,7 @@ export type BlogUncheckedUpdateWithoutAuthorInput = {
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
@@ -1270,6 +1403,7 @@ export type BlogUpdateWithoutCategoryInput = {
   author?: Prisma.UserUpdateOneRequiredWithoutBlogsNestedInput
   tags?: Prisma.BlogTagUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUpdateManyWithoutBlogNestedInput
 }
 
@@ -1289,6 +1423,7 @@ export type BlogUncheckedUpdateWithoutCategoryInput = {
   trendingScore?: Prisma.FloatFieldUpdateOperationsInput | number
   tags?: Prisma.BlogTagUncheckedUpdateManyWithoutBlogNestedInput
   views?: Prisma.BlogViewUncheckedUpdateManyWithoutBlogNestedInput
+  faqs?: Prisma.BlogFAQUncheckedUpdateManyWithoutBlogNestedInput
   ChangeRequest?: Prisma.ChangeRequestUncheckedUpdateManyWithoutBlogNestedInput
 }
 
@@ -1316,12 +1451,14 @@ export type BlogUncheckedUpdateManyWithoutCategoryInput = {
 export type BlogCountOutputType = {
   tags: number
   views: number
+  faqs: number
   ChangeRequest: number
 }
 
 export type BlogCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   tags?: boolean | BlogCountOutputTypeCountTagsArgs
   views?: boolean | BlogCountOutputTypeCountViewsArgs
+  faqs?: boolean | BlogCountOutputTypeCountFaqsArgs
   ChangeRequest?: boolean | BlogCountOutputTypeCountChangeRequestArgs
 }
 
@@ -1352,6 +1489,13 @@ export type BlogCountOutputTypeCountViewsArgs<ExtArgs extends runtime.Types.Exte
 /**
  * BlogCountOutputType without action
  */
+export type BlogCountOutputTypeCountFaqsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.BlogFAQWhereInput
+}
+
+/**
+ * BlogCountOutputType without action
+ */
 export type BlogCountOutputTypeCountChangeRequestArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   where?: Prisma.ChangeRequestWhereInput
 }
@@ -1376,6 +1520,7 @@ export type BlogSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = r
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
   tags?: boolean | Prisma.Blog$tagsArgs<ExtArgs>
   views?: boolean | Prisma.Blog$viewsArgs<ExtArgs>
+  faqs?: boolean | Prisma.Blog$faqsArgs<ExtArgs>
   ChangeRequest?: boolean | Prisma.Blog$ChangeRequestArgs<ExtArgs>
   _count?: boolean | Prisma.BlogCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["blog"]>
@@ -1441,6 +1586,7 @@ export type BlogInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = 
   category?: boolean | Prisma.Blog$categoryArgs<ExtArgs>
   tags?: boolean | Prisma.Blog$tagsArgs<ExtArgs>
   views?: boolean | Prisma.Blog$viewsArgs<ExtArgs>
+  faqs?: boolean | Prisma.Blog$faqsArgs<ExtArgs>
   ChangeRequest?: boolean | Prisma.Blog$ChangeRequestArgs<ExtArgs>
   _count?: boolean | Prisma.BlogCountOutputTypeDefaultArgs<ExtArgs>
 }
@@ -1460,6 +1606,7 @@ export type $BlogPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs =
     category: Prisma.$CategoryPayload<ExtArgs> | null
     tags: Prisma.$BlogTagPayload<ExtArgs>[]
     views: Prisma.$BlogViewPayload<ExtArgs>[]
+    faqs: Prisma.$BlogFAQPayload<ExtArgs>[]
     ChangeRequest: Prisma.$ChangeRequestPayload<ExtArgs>[]
   }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
@@ -1875,6 +2022,7 @@ export interface Prisma__BlogClient<T, Null = never, ExtArgs extends runtime.Typ
   category<T extends Prisma.Blog$categoryArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$categoryArgs<ExtArgs>>): Prisma.Prisma__CategoryClient<runtime.Types.Result.GetResult<Prisma.$CategoryPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
   tags<T extends Prisma.Blog$tagsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$tagsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$BlogTagPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   views<T extends Prisma.Blog$viewsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$viewsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$BlogViewPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  faqs<T extends Prisma.Blog$faqsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$faqsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$BlogFAQPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   ChangeRequest<T extends Prisma.Blog$ChangeRequestArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Blog$ChangeRequestArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$ChangeRequestPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
@@ -2379,6 +2527,30 @@ export type Blog$viewsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs
   take?: number
   skip?: number
   distinct?: Prisma.BlogViewScalarFieldEnum | Prisma.BlogViewScalarFieldEnum[]
+}
+
+/**
+ * Blog.faqs
+ */
+export type Blog$faqsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the BlogFAQ
+   */
+  select?: Prisma.BlogFAQSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the BlogFAQ
+   */
+  omit?: Prisma.BlogFAQOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.BlogFAQInclude<ExtArgs> | null
+  where?: Prisma.BlogFAQWhereInput
+  orderBy?: Prisma.BlogFAQOrderByWithRelationInput | Prisma.BlogFAQOrderByWithRelationInput[]
+  cursor?: Prisma.BlogFAQWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.BlogFAQScalarFieldEnum | Prisma.BlogFAQScalarFieldEnum[]
 }
 
 /**

@@ -6,6 +6,9 @@ async function getTrending() {
     where: {
       status: 'PUBLISHED',
     },
+    orderBy: {
+      trendingScore: 'desc',
+    },
     take: 10,
     select: {
       id: true,
