@@ -10,15 +10,17 @@ export async function updateTrendingScore() {
       publishedAt: true,
     },
   });
-  const updates = await Promise.all(
+
+  await Promise.all(
     blogs.map(async (blog) => {
-      if (!blog.publishedAt) return null;
+      if (!blog.publishedAt) return;
 
       const totalViews = await prisma.blogView.count({
         where: {
           blogId: blog.id,
         },
       });
+
       const hours = (Date.now() - new Date(blog.publishedAt).getTime()) / 3600000;
 
       const trendingScore = totalViews / Math.pow(hours + 2, 1.5);
@@ -31,7 +33,6 @@ export async function updateTrendingScore() {
           trendingScore,
         },
       });
-      await prisma.$transaction(updates.filter(Boolean));
     }),
   );
 }
