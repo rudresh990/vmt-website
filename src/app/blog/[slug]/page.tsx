@@ -102,7 +102,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
             className="prose prose-invert max-w-none wrap-break-word overflow-hidden"
             dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
-          <div className="flex gap-3 justify-center items-center mt-4">
+          <div className="flex  flex-wrap gap-3 justify-center items-center mt-4 w-full">
             {blog.tags.map(({ tag }) => (
               <Link
                 href={`/tag/${tag.slug}`}
