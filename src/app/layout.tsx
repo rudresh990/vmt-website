@@ -4,6 +4,7 @@ import Footer from '@/components/layout/footer';
 import { Inter, IBM_Plex_Sans } from 'next/font/google';
 import Script from 'next/script';
 import './styles/globals.css';
+import WhatsAppButton from '@/components/common/WhatsAppButton';
 import SchemaInjector from '@/components/schema/SchemaInjector';
 // import BreadcrumbInjector from '@/components/schema/BreadcrumbInjector';
 // light speed vercel
@@ -122,6 +123,7 @@ export default async function RootLayout({
           {children}
           <SpeedInsights />
           <Analytics />
+          <WhatsAppButton />
         </main>
 
         <footer>

@@ -52,10 +52,17 @@ export const AREA_SERVED = [
 
 export const CONTACT_POINT = {
   '@type': 'ContactPoint',
+
   contactType: 'customer support',
+
   email: 'hello@voidmatrixtech.com',
+
   telephone: '+91-9321446746',
+
+  url: 'https://wa.me/919321446746',
+
   areaServed: AREA_SERVED,
+
   availableLanguage: ['English'],
 } satisfies ContactPoint;
 
