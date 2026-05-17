@@ -46,6 +46,8 @@ export interface ContactPoint {
 
   telephone?: string;
 
+  url?: string;
+
   areaServed?: AreaServed[];
 
   availableLanguage?: string[];
