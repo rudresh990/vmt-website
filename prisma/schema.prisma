@@ -34,6 +34,7 @@ model Blog {
   categoryId    Int?
   publishedAt   DateTime?
   generatedAt   DateTime?
+  deletedAt     DateTime?
   createdAt     DateTime        @default(now())
   updatedAt     DateTime        @updatedAt
   readTime      Int?
@@ -47,26 +48,30 @@ model Blog {
 
   @@index([status])
   @@index([publishedAt])
-  @@index([trendingScore(sort:Desc)])
+  @@index([trendingScore(sort: Desc)])
 }
 
-model FAQ{
-  id Int @id @default(autoincrement())
-  question String
-  answer String
-  blogId Int
+model FAQ {
+  id        Int      @id @default(autoincrement())
+  question  String 
+  answer    String
   createdAt DateTime @default(now())
 
   blogs BlogFAQ[]
 }
-model BlogFAQ{
-  id Int @id @default(autoincrement())
+
+model BlogFAQ {
+  id     Int  @id @default(autoincrement())
   blogId Int
-  faqId Int
-  blog Blog @relation(fields:[blogId], references: [id], onDelete:Cascade)
-  faq FAQ @relation(fields: [faqId], references:[id], onDelete:Cascade)
-  @@unique([blogId,faqId])
+  faqId  Int
+  blog   Blog @relation(fields: [blogId], references: [id], onDelete: Cascade)
+  faq    FAQ  @relation(fields: [faqId], references: [id], onDelete: Cascade)
+
+  @@unique([blogId, faqId])
+  @@index([blogId])
+  @@index([faqId])
 }
+
 model Tag {
   id        Int             @id @default(autoincrement())
   name      String          @unique
@@ -132,6 +137,7 @@ enum Status {
   REVIEW
   PUBLISHED
   CHANGES_REQUESTED
+  TRASH
 }
 
 enum CatAndTagStatus {

@@ -7,6 +7,7 @@ import ViewTracker from './viewTracker';
 import TrendingSidebar from '@/components/blog/trendingSidebar';
 import RelatedPosts from '@/components/blog/relatedPosts';
 import { schemaFactory } from '@/app/lib/schema/schemaFactory';
+import MainServiceFAQ from '@/components/services/MainServiceFAQ';
 
 export const revalidate = 60;
 const getBlog = cache(async (slug: string) => {
@@ -23,6 +24,17 @@ const getBlog = cache(async (slug: string) => {
       },
       author: {
         select: { name: true },
+      },
+      faqs: {
+        include: {
+          faq: {
+            select: {
+              id: true,
+              question: true,
+              answer: true,
+            },
+          },
+        },
       },
     },
   });
@@ -57,6 +69,11 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
   if (!blog) return notFound();
   const schema = schemaFactory(`/blog/${blog?.slug}`, { blog });
   const contentWithLinks = (await injectInternalLinks(blog.content)) || '';
+  const normalizedFaqs = blog.faqs.map((item) => ({
+    id: item.faq.id,
+    q: item.faq.question,
+    a: item.faq.answer,
+  }));
   return (
     <div className="container mx-auto px-4 py-10">
       <script
@@ -96,6 +113,15 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
               </Link>
             ))}
           </div>
+          {!!blog.faqs.length && (
+            <div className="w-full">
+              <MainServiceFAQ
+                heading="Frequently Asked Questions"
+                faqs={normalizedFaqs}
+                sectionClassName="w-full mt-8"
+              />
+            </div>
+          )}
         </div>
         <div className="w-full">
           <TrendingSidebar />

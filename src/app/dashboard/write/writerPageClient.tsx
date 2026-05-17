@@ -6,12 +6,13 @@ import Editor from '@/components/blog/Editor';
 import TagInput from '@/components/blog/tagInput';
 import BlogPreview from '@/components/blog/BlogPreview';
 import { useSearchParams } from 'next/navigation';
+import FAQSection from '../faqs/FAQSection';
 export default function WritePageClient() {
   const SearchParams = useSearchParams();
   const blogIDFromURL = SearchParams.get('id');
   const router = useRouter();
-  // console.log('Blog ID from URL:', blogIDFromURL);
   const [title, setTitle] = useState('');
+  const [slug, setSlug] = useState('');
   const [excerpt, setExcerpt] = useState('');
   const [content, setContent] = useState('');
   const [saving, setSaving] = useState(false);
@@ -26,6 +27,7 @@ export default function WritePageClient() {
       .then((data) => {
         setTitle(data.title || '');
         setDraftId(data.id);
+        setSlug(data.slug);
         setContent(data.content || '');
         setExcerpt(data.excerpt || '');
         if (data.tags) {
@@ -37,10 +39,9 @@ export default function WritePageClient() {
   // const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const saveDraft = async () => {
-    if (!title && !content) {
-      console.log('Missing Content');
-      alert('Please enter a title and content to save draft');
-      console.log({ title, content });
+    const cleanContent = content.replace(/<[^>]+>/g, '').trim();
+    if (!title || !cleanContent) {
+      alert('Please enter title and content');
       return;
     }
     setSaving(true);
@@ -70,6 +71,7 @@ export default function WritePageClient() {
       }
     } catch (err) {
       console.log(err);
+      alert(err);
     }
     setSaving(false);
   };
@@ -169,6 +171,9 @@ export default function WritePageClient() {
           />
           <div className="mt-3 ">
             <TagInput value={selectedTags} onChange={setSelectedTags} />
+          </div>
+          <div className="mt-3">
+            <FAQSection slug={slug} />
           </div>
         </div>
       )}

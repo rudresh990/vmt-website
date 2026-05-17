@@ -21,7 +21,8 @@ export const Status = {
   DRAFT: 'DRAFT',
   REVIEW: 'REVIEW',
   PUBLISHED: 'PUBLISHED',
-  CHANGES_REQUESTED: 'CHANGES_REQUESTED'
+  CHANGES_REQUESTED: 'CHANGES_REQUESTED',
+  TRASH: 'TRASH'
 } as const
 
 export type Status = (typeof Status)[keyof typeof Status]

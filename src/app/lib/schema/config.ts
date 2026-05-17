@@ -10,13 +10,13 @@ import {
 
 export const SITE_URL = 'https://www.voidmatrixtech.com';
 
-export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+export const ORGANIZATION_ID = `${SITE_URL}#organization`;
 
-export const FOUNDER_ID = `${SITE_URL}/#rudresh`;
+export const FOUNDER_ID = `${SITE_URL}#rudresh`;
 
-export const WEBSITE_ID = `${SITE_URL}/#website`;
+export const WEBSITE_ID = `${SITE_URL}#website`;
 
-export const COLLECTION_ID = `${SITE_URL}/#Collection`;
+export const COLLECTION_ID = `${SITE_URL}#Collection`;
 
 export const NAME = 'Void Matrix Technology';
 
@@ -67,6 +67,9 @@ export interface FAQItem {
 export const SOCIAL_LINKS = [
   'https://www.linkedin.com/company/void-matrix-technology/',
   'https://www.instagram.com/voidmatrixtechnology/',
+  'https://x.com/VoidMatrixTech',
+  'https://www.facebook.com/people/Void-Matrix-Technology-VMT/61590040701979/',
+  'https://www.threads.net/@voidmatrixtechnology',
   'https://www.google.com/maps/place/Void+Matrix+Technology/@19.7166261,60.9008933,4z/data=!3m1!4b1!4m6!3m5!1s0x6748f280e363b759:0x9aad3b06c1d6ee60!8m2!3d21.0680074!4d82.7525294!16s%2Fg%2F11y_zh07q4',
 ];
 

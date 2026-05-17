@@ -28,19 +28,16 @@ export type AggregateFAQ = {
 
 export type FAQAvgAggregateOutputType = {
   id: number | null
-  blogId: number | null
 }
 
 export type FAQSumAggregateOutputType = {
   id: number | null
-  blogId: number | null
 }
 
 export type FAQMinAggregateOutputType = {
   id: number | null
   question: string | null
   answer: string | null
-  blogId: number | null
   createdAt: Date | null
 }
 
@@ -48,7 +45,6 @@ export type FAQMaxAggregateOutputType = {
   id: number | null
   question: string | null
   answer: string | null
-  blogId: number | null
   createdAt: Date | null
 }
 
@@ -56,7 +52,6 @@ export type FAQCountAggregateOutputType = {
   id: number
   question: number
   answer: number
-  blogId: number
   createdAt: number
   _all: number
 }
@@ -64,19 +59,16 @@ export type FAQCountAggregateOutputType = {
 
 export type FAQAvgAggregateInputType = {
   id?: true
-  blogId?: true
 }
 
 export type FAQSumAggregateInputType = {
   id?: true
-  blogId?: true
 }
 
 export type FAQMinAggregateInputType = {
   id?: true
   question?: true
   answer?: true
-  blogId?: true
   createdAt?: true
 }
 
@@ -84,7 +76,6 @@ export type FAQMaxAggregateInputType = {
   id?: true
   question?: true
   answer?: true
-  blogId?: true
   createdAt?: true
 }
 
@@ -92,7 +83,6 @@ export type FAQCountAggregateInputType = {
   id?: true
   question?: true
   answer?: true
-  blogId?: true
   createdAt?: true
   _all?: true
 }
@@ -187,7 +177,6 @@ export type FAQGroupByOutputType = {
   id: number
   question: string
   answer: string
-  blogId: number
   createdAt: Date
   _count: FAQCountAggregateOutputType | null
   _avg: FAQAvgAggregateOutputType | null
@@ -218,7 +207,6 @@ export type FAQWhereInput = {
   id?: Prisma.IntFilter<"FAQ"> | number
   question?: Prisma.StringFilter<"FAQ"> | string
   answer?: Prisma.StringFilter<"FAQ"> | string
-  blogId?: Prisma.IntFilter<"FAQ"> | number
   createdAt?: Prisma.DateTimeFilter<"FAQ"> | Date | string
   blogs?: Prisma.BlogFAQListRelationFilter
 }
@@ -227,7 +215,6 @@ export type FAQOrderByWithRelationInput = {
   id?: Prisma.SortOrder
   question?: Prisma.SortOrder
   answer?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   blogs?: Prisma.BlogFAQOrderByRelationAggregateInput
 }
@@ -239,7 +226,6 @@ export type FAQWhereUniqueInput = Prisma.AtLeast<{
   NOT?: Prisma.FAQWhereInput | Prisma.FAQWhereInput[]
   question?: Prisma.StringFilter<"FAQ"> | string
   answer?: Prisma.StringFilter<"FAQ"> | string
-  blogId?: Prisma.IntFilter<"FAQ"> | number
   createdAt?: Prisma.DateTimeFilter<"FAQ"> | Date | string
   blogs?: Prisma.BlogFAQListRelationFilter
 }, "id">
@@ -248,7 +234,6 @@ export type FAQOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
   question?: Prisma.SortOrder
   answer?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   _count?: Prisma.FAQCountOrderByAggregateInput
   _avg?: Prisma.FAQAvgOrderByAggregateInput
@@ -264,14 +249,12 @@ export type FAQScalarWhereWithAggregatesInput = {
   id?: Prisma.IntWithAggregatesFilter<"FAQ"> | number
   question?: Prisma.StringWithAggregatesFilter<"FAQ"> | string
   answer?: Prisma.StringWithAggregatesFilter<"FAQ"> | string
-  blogId?: Prisma.IntWithAggregatesFilter<"FAQ"> | number
   createdAt?: Prisma.DateTimeWithAggregatesFilter<"FAQ"> | Date | string
 }
 
 export type FAQCreateInput = {
   question: string
   answer: string
-  blogId: number
   createdAt?: Date | string
   blogs?: Prisma.BlogFAQCreateNestedManyWithoutFaqInput
 }
@@ -280,7 +263,6 @@ export type FAQUncheckedCreateInput = {
   id?: number
   question: string
   answer: string
-  blogId: number
   createdAt?: Date | string
   blogs?: Prisma.BlogFAQUncheckedCreateNestedManyWithoutFaqInput
 }
@@ -288,7 +270,6 @@ export type FAQUncheckedCreateInput = {
 export type FAQUpdateInput = {
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   blogs?: Prisma.BlogFAQUpdateManyWithoutFaqNestedInput
 }
@@ -297,7 +278,6 @@ export type FAQUncheckedUpdateInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   blogs?: Prisma.BlogFAQUncheckedUpdateManyWithoutFaqNestedInput
 }
@@ -306,14 +286,12 @@ export type FAQCreateManyInput = {
   id?: number
   question: string
   answer: string
-  blogId: number
   createdAt?: Date | string
 }
 
 export type FAQUpdateManyMutationInput = {
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
 
@@ -321,7 +299,6 @@ export type FAQUncheckedUpdateManyInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
 
@@ -329,20 +306,17 @@ export type FAQCountOrderByAggregateInput = {
   id?: Prisma.SortOrder
   question?: Prisma.SortOrder
   answer?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
 }
 
 export type FAQAvgOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
 }
 
 export type FAQMaxOrderByAggregateInput = {
   id?: Prisma.SortOrder
   question?: Prisma.SortOrder
   answer?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
 }
 
@@ -350,13 +324,11 @@ export type FAQMinOrderByAggregateInput = {
   id?: Prisma.SortOrder
   question?: Prisma.SortOrder
   answer?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
   createdAt?: Prisma.SortOrder
 }
 
 export type FAQSumOrderByAggregateInput = {
   id?: Prisma.SortOrder
-  blogId?: Prisma.SortOrder
 }
 
 export type FAQScalarRelationFilter = {
@@ -381,7 +353,6 @@ export type FAQUpdateOneRequiredWithoutBlogsNestedInput = {
 export type FAQCreateWithoutBlogsInput = {
   question: string
   answer: string
-  blogId: number
   createdAt?: Date | string
 }
 
@@ -389,7 +360,6 @@ export type FAQUncheckedCreateWithoutBlogsInput = {
   id?: number
   question: string
   answer: string
-  blogId: number
   createdAt?: Date | string
 }
 
@@ -412,7 +382,6 @@ export type FAQUpdateToOneWithWhereWithoutBlogsInput = {
 export type FAQUpdateWithoutBlogsInput = {
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
 
@@ -420,7 +389,6 @@ export type FAQUncheckedUpdateWithoutBlogsInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   question?: Prisma.StringFieldUpdateOperationsInput | string
   answer?: Prisma.StringFieldUpdateOperationsInput | string
-  blogId?: Prisma.IntFieldUpdateOperationsInput | number
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
 }
 
@@ -459,7 +427,6 @@ export type FAQSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = ru
   id?: boolean
   question?: boolean
   answer?: boolean
-  blogId?: boolean
   createdAt?: boolean
   blogs?: boolean | Prisma.FAQ$blogsArgs<ExtArgs>
   _count?: boolean | Prisma.FAQCountOutputTypeDefaultArgs<ExtArgs>
@@ -469,7 +436,6 @@ export type FAQSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Extension
   id?: boolean
   question?: boolean
   answer?: boolean
-  blogId?: boolean
   createdAt?: boolean
 }, ExtArgs["result"]["fAQ"]>
 
@@ -477,7 +443,6 @@ export type FAQSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extension
   id?: boolean
   question?: boolean
   answer?: boolean
-  blogId?: boolean
   createdAt?: boolean
 }, ExtArgs["result"]["fAQ"]>
 
@@ -485,11 +450,10 @@ export type FAQSelectScalar = {
   id?: boolean
   question?: boolean
   answer?: boolean
-  blogId?: boolean
   createdAt?: boolean
 }
 
-export type FAQOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "question" | "answer" | "blogId" | "createdAt", ExtArgs["result"]["fAQ"]>
+export type FAQOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "question" | "answer" | "createdAt", ExtArgs["result"]["fAQ"]>
 export type FAQInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   blogs?: boolean | Prisma.FAQ$blogsArgs<ExtArgs>
   _count?: boolean | Prisma.FAQCountOutputTypeDefaultArgs<ExtArgs>
@@ -506,7 +470,6 @@ export type $FAQPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = 
     id: number
     question: string
     answer: string
-    blogId: number
     createdAt: Date
   }, ExtArgs["result"]["fAQ"]>
   composites: {}
@@ -935,7 +898,6 @@ export interface FAQFieldRefs {
   readonly id: Prisma.FieldRef<"FAQ", 'Int'>
   readonly question: Prisma.FieldRef<"FAQ", 'String'>
   readonly answer: Prisma.FieldRef<"FAQ", 'String'>
-  readonly blogId: Prisma.FieldRef<"FAQ", 'Int'>
   readonly createdAt: Prisma.FieldRef<"FAQ", 'DateTime'>
 }
     

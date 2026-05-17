@@ -84,6 +84,24 @@ export function schemaFactory(pathname: string, option?: SchemaFactoryOptions) {
   // Blog
   if (option?.blog) {
     graph.push(generateBlogPosting(option.blog));
+
+    if (option.blog.faqs?.length) {
+      const normalizedFaqs = option.blog.faqs.map((item: any) => ({
+        id: item.faq.id,
+        q: item.faq.question,
+        a: item.faq.answer,
+      }));
+
+      const blogFAQ = generateFAQPage({
+        slug: `/blog/${option.blog.slug}`,
+        title: option.blog.title,
+        faqs: normalizedFaqs,
+      });
+
+      if (blogFAQ) {
+        graph.push(blogFAQ);
+      }
+    }
   }
 
   return cleanSchema({

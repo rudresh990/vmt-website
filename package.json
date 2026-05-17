@@ -32,7 +32,8 @@
     "prisma": "^7.4.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "resend": "^6.9.1"
+    "resend": "^6.9.1",
+    "slugify": "^1.6.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1146,6 +1146,7 @@ export const BlogScalarFieldEnum = {
   categoryId: 'categoryId',
   publishedAt: 'publishedAt',
   generatedAt: 'generatedAt',
+  deletedAt: 'deletedAt',
   createdAt: 'createdAt',
   updatedAt: 'updatedAt',
   readTime: 'readTime',
@@ -1159,7 +1160,6 @@ export const FAQScalarFieldEnum = {
   id: 'id',
   question: 'question',
   answer: 'answer',
-  blogId: 'blogId',
   createdAt: 'createdAt'
 } as const
 

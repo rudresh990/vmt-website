@@ -4,8 +4,9 @@ import { buildSchemaUrl } from './utils/utils';
 export function generateGlobalWebpage(
   pathname: string,
   description?: string,
-  dateModified?: string,
+  mainEntityId?: string,
   hasFAQ?: boolean,
+  dateModified?: string,
 ) {
   const pageUrl = buildSchemaUrl(pathname);
 
@@ -69,22 +70,31 @@ export function generateGlobalWebpage(
       },
     }),
 
-    // SERVICE PAGES
-    ...(!isHomepage &&
-      !isServicesCollection && {
-        about: {
-          '@id': `${pageUrl}#service`,
-        },
+    /*
+    |--------------------------------------------------------------------------
+    | Dynamic Main Entity
+    |--------------------------------------------------------------------------
+    */
 
-        mainEntity: {
-          '@id': `${pageUrl}#service`,
-        },
-      }),
+    ...(mainEntityId && {
+      about: {
+        '@id': mainEntityId,
+      },
 
-    // SERVICES COLLECTION PAGE
+      mainEntity: {
+        '@id': mainEntityId,
+      },
+    }),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Services Collection Override
+    |--------------------------------------------------------------------------
+    */
+
     ...(isServicesCollection && {
       about: {
-        '@id': `${ORGANIZATION_ID}`,
+        '@id': ORGANIZATION_ID,
       },
 
       mainEntity: {

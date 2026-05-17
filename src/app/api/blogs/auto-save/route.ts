@@ -1,7 +1,6 @@
 import prisma from '../../../../../lib/prisma';
 import { verifyToken } from '@/app/lib/users/auth';
 import { slugify } from '../../methods';
-import { connect } from 'http2';
 
 export async function POST(req: Request) {
   const cookie = req.headers.get('cookie') || '';

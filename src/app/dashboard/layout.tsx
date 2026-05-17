@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 export default function DashboardLayout({ children }: any) {
   const [collapsed, setCollapsed] = useState(false);
+  const [writerMenuOpen, setWriterMenuOpen] = useState(false);
   const [CRBlogs, setCRBlogs] = useState([]);
   const [user, setUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
@@ -22,7 +23,7 @@ export default function DashboardLayout({ children }: any) {
     };
     getUser();
 
-    fetch('../api/blogs/CRBlogs')
+    fetch('/api/blogs/CRBlogs')
       .then((res) => res.json())
       .then((data) => setCRBlogs(data));
   }, []);
@@ -31,7 +32,7 @@ export default function DashboardLayout({ children }: any) {
     <div className="flex min-h-screen">
       {/* sidebar */}
       <div
-        className={`bg-blue  border-r border-r-emerald-200 rounded-4xl text-white p-4 transition-all ${collapsed ? '0' : 'w-48'}`}
+        className={`bg-blue  border-r border-r-emerald-200 rounded-4xl text-white p-4 transition-all ${collapsed ? '0' : 'w-48'} `}
       >
         <div className="flex justify-between">
           {!collapsed && <h2>Dashboard</h2>}
@@ -41,18 +42,68 @@ export default function DashboardLayout({ children }: any) {
         </div>
         {!collapsed && (
           <nav className="flex flex-col gap-4">
-            <Link href="/dashboard">Dashboard</Link>
-            <Link href="/dashboard/write">Write Blog</Link>
-            <Link href="/dashboard/blogs">My Blogs</Link>
-            <Link href="/dashboard/draft">My Drafts</Link>
-            <Link href="/dashboard/changes" className="flex justify-between items-center">
-              Changes{''}
-              {CRBlogs.length > 0 ? (
-                <span className=" min-w-5 h-5 bg-blue-900 rounded-full m-0.5 px-1.5 text-sm">
+            <Link href="/dashboard" className="transition-colors hover:text-cyan-300">
+              Dashboard
+            </Link>
+
+            <div className="flex flex-col">
+              <button
+                onClick={() => setWriterMenuOpen(!writerMenuOpen)}
+                className="flex items-center justify-between text-left transition-colors hover:text-cyan-300!"
+              >
+                <span>Write Blog</span>
+
+                <span
+                  className={`transition-transform duration-200 ${
+                    writerMenuOpen ? 'rotate-90' : ''
+                  }`}
+                >
+                  {'>'}
+                </span>
+              </button>
+
+              {writerMenuOpen && (
+                <div className="ml-4 mt-2 flex flex-col gap-3 text-sm">
+                  <button
+                    onClick={async () => {
+                      try {
+                        const res = await fetch('/api/blogs/drafts/untitled', {
+                          method: 'POST',
+                          credentials: 'include',
+                        });
+
+                        const blog = await res.json();
+
+                        window.location.href = `/dashboard/write?id=${blog.id}`;
+                      } catch (err) {
+                        console.error(err);
+                      }
+                    }}
+                    className="text-left transition-colors hover:text-cyan-300!"
+                  >
+                    New Blog
+                  </button>
+
+                  <Link href="/dashboard/draft" className="transition-colors hover:text-cyan-300">
+                    Continue Draft
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            <Link href="/dashboard/blogs" className="transition-colors hover:text-cyan-300">
+              My Blogs
+            </Link>
+
+            <Link
+              href="/dashboard/changes"
+              className="flex items-center justify-between transition-colors hover:text-cyan-300"
+            >
+              Changes
+              {CRBlogs.length > 0 && (
+                <span className="min-w-5 h-5 rounded-full bg-blue-900 px-1.5 text-sm">
                   {CRBlogs.length}
                 </span>
-              ) : (
-                ''
               )}
             </Link>
           </nav>

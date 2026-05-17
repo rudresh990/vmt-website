@@ -29,7 +29,7 @@ export function generateBlogPosting(blog: any) {
     author: {
       '@type': 'Person',
 
-      '@id': `${SITE_URL}/#author-${blog.author?.slug || 'admin'}`,
+      '@id': `${SITE_URL}#author-${blog.author?.slug || 'admin'}`,
 
       name: blog.author?.name || 'Void Matrix Technology',
     },
@@ -37,7 +37,7 @@ export function generateBlogPosting(blog: any) {
     publisher: {
       '@type': 'Organization',
 
-      '@id': `${SITE_URL}/#organization`,
+      '@id': `${SITE_URL}#organization`,
 
       logo: {
         '@type': 'ImageObject',
