@@ -8,7 +8,7 @@ async function getBlogs() {
     where: {
       status: 'PUBLISHED',
     },
-    orderBy: { createdAt: 'desc' },
+    orderBy: { trendingScore: 'desc' },
   });
 }
 

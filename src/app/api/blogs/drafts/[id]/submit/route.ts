@@ -62,33 +62,49 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
     }
 
     // ✅ UPDATE BLOG
+    const safeTags = (tags as string[]) || [];
+    const uniqueTags = [...new Set(safeTags)];
+
     const updatedBlog = await prisma.blog.update({
-      where: { id: blogId },
+      where: {
+        id: blogId,
+      },
+
       data: {
         title,
         content,
         excerpt,
 
-        // ✅ FIXED TAG HANDLING
         tags: {
-          deleteMany: {}, // remove old tags
+          deleteMany: {},
 
-          create: tags.map((tag: string) => ({
-            tag: {
-              connectOrCreate: {
-                where: { name: tag },
-                create: {
-                  name: tag,
-                  slug: tag,
-                  status: 'APPROVED',
+          create: uniqueTags.map((tag: string) => {
+            const slug = tag.toLowerCase().trim().replace(/\s+/g, '-');
+
+            return {
+              tag: {
+                connectOrCreate: {
+                  // Find existing tag by unique slug
+                  where: {
+                    slug,
+                  },
+
+                  // Create only if not found
+                  create: {
+                    name: tag,
+                    slug,
+                    status: 'APPROVED',
+                  },
                 },
               },
-            },
-          })),
+            };
+          }),
         },
 
         status: 'REVIEW',
-        createdAt: new Date(),
+
+        // remove this
+        // createdAt: new Date()
       },
     });
 
