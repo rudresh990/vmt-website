@@ -8,7 +8,11 @@ export function buildMetadata({ title, description, path }: SEOProps) {
   const baseUrl = 'https://www.voidmatrixtech.com';
   const url = `${baseUrl}${path}`;
   const imageUrl = `${baseUrl}/logo.png`;
-  title = title.replace(/\s*\|\s*Void Matrix Technology/i, '');
+  if (title.length > 136) {
+    title = title.replace(/\s*\|\s*VMT/i, '');
+  } else {
+    title = title.replace(/\s*\|\s*Void Matrix Technology/i, '');
+  }
 
   return {
     title,

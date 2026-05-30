@@ -55,11 +55,30 @@ export async function generateMetadata({ params }: any) {
     title: blog.title,
     description: plainContent?.slice(0, 150),
 
+    alternates: {
+      canonical: `https://www.voidmatrixtech.com/blog/${blog.slug}`,
+    },
+
     openGraph: {
       title: blog.title,
-      description: blog.content.slice(0, 150),
-      url: `https://voidmatrixtech.com/blog/${blog.slug}`,
+      description: plainContent?.slice(0, 150),
+      url: `https://www.voidmatrixtech.com/blog/${blog.slug}`,
+      siteName: 'Void Matrix Technology',
       type: 'article',
+      locale: 'en_IN',
+      images: [
+        {
+          url: 'https://www.voidmatrixtech.com/logo.png',
+          alt: blog.title,
+        },
+      ],
+    },
+
+    twitter: {
+      card: 'summary_large_image',
+      title: blog.title,
+      description: plainContent?.slice(0, 150),
+      images: ['https://www.voidmatrixtech.com/logo.png'],
     },
   };
 }

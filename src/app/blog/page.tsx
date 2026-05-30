@@ -1,5 +1,13 @@
 import Link from 'next/link';
 import prisma from '../../../lib/prisma';
+import { buildMetadata } from '../lib/schema/seo';
+
+export const metadata = buildMetadata({
+  title: 'Tech Insights & Developer Blog | Void Matrix Technology',
+  description:
+    'Software engineering, AI, and web dev insights from the Void Matrix team. Practical guides for modern builders.',
+  path: '/blog',
+});
 
 export const revalidate = 60;
 
