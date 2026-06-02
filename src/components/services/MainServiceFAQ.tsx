@@ -29,7 +29,7 @@ export default function MainServiceFAQ({
           <details className={itemClassName} key={faq.id ?? `faq-${index}`}>
             <summary>{faq.q}</summary>
 
-            <p>{faq.a}</p>
+            <p className="text-justify">{faq.a}</p>
           </details>
         ))}
       </div>

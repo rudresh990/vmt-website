@@ -3,8 +3,8 @@
    =============================== */
 @theme {
   /* Typography scale */
-  --h1-size: clamp(2.2rem, 4vw, 3.5rem);
-  --h2-size: clamp(1.8rem, 3vw, 2.5rem);
+  --h1-size: clamp(3.5rem, 4.5vw, 7rem);
+  --h2-size: clamp(1.5rem, 3vw, 2.5rem);
 
   /* Brand colors */
   --primary: #22d3ee;

@@ -1,21 +1,38 @@
 'use client';
 import { useRouter } from 'next/navigation';
+import { ReactNode } from 'react';
 type HeroProps = {
-  title: string;
-  herosub?: string;
-  subtitle?: string;
+  title: ReactNode;
+  herosub?: ReactNode;
+  subtitle?: ReactNode;
   ctaLable?: string;
   ctaRoute?: string;
   note?: string;
+  eyebrow?: string;
 };
-export default function Hero({ title, herosub, subtitle, ctaLable, ctaRoute, note }: HeroProps) {
+export default function Hero({
+  title,
+  eyebrow,
+  herosub,
+  subtitle,
+  ctaLable,
+  ctaRoute,
+  note,
+}: HeroProps) {
   const router = useRouter();
   return (
     <section className="hero">
       <div className="hero-inner">
+        {eyebrow && (
+          <div className="hero-eyebrow">
+            <span className="hero-eyebrow-dot"></span>
+            {eyebrow}
+            <span className="hero-eyebrow-dot"></span>
+          </div>
+        )}
         <h1 className="hero-title">{title}</h1>
         {herosub && <h2 className="h-subtitle">{herosub}</h2>}
-        {subtitle && <p className="hero-subtitle">{subtitle}</p>}
+        {subtitle && <div className="hero-subtitle">{subtitle}</div>}
         <div className="hero-actions">
           {ctaLable && ctaRoute && (
             <button className="btn btn-primary" onClick={() => router.push(ctaRoute)}>

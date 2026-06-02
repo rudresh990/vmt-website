@@ -12,7 +12,7 @@ export default function MainServiceCTA({
 }: Props) {
   return (
     <section className="services-cta">
-      <div className="vmt-glass-card">
+      <div className="vmt-glass-card no-hover">
         <h2>{heading}</h2>
         <p>{description}</p>
 

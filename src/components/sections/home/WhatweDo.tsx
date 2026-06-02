@@ -1,58 +1,59 @@
 export default function WhatweDo() {
   return (
-    <section className="who-we-work-with">
+    <section className="who-we-work-with pt-0!">
       <div className="what-we-do-inner">
         <ul className="fit-list">
-          <h2 className="section-title">Software & Digital Solutions We Build</h2>
+          <h2 className="section-title">Software & Digital Solutions for Mumbai Businesses</h2>
           <li>
             <h3 className="section-subtitle">Business Website Development</h3>
           </li>
           <p className="section-intro">
-            Fast, SEO-ready websites built to convert visitors into customers. Ideal for SMEs and
-            service businesses upgrading their online presence.
+            Professional, fast-loading, SEO-optimized websites designed to help Mumbai businesses
+            attract more customers, generate leads, and build a strong online presence.
           </p>
           <li>
-            <h3 className="section-subtitle">eCommerce & Advanced Web Applications</h3>
+            <h3 className="section-subtitle">eCommerce & Web Application Development</h3>
           </li>
           <p className="section-intro">
-            Secure, scalable platforms with payment gateways, admin dashboards, and performance
-            optimization.
+            Secure and scalable eCommerce platforms, customer portals, and web applications with
+            payment gateway integration, inventory management, and high-performance architecture.
           </p>
           <li>
             <h3 className="section-subtitle">Custom Software Development</h3>
           </li>
           <p className="section-intro">
-            Tailored business systems, internal tools, workflow automation, and enterprise
-            applications built around your operations.
+            Tailor-made software solutions for Mumbai businesses including CRM systems, ERP
+            solutions, workflow automation, internal management tools, and enterprise applications.
           </p>
           <li>
             <h3 className="section-subtitle">SaaS Platform Development</h3>
           </li>
           <p className="section-intro">
-            Cloud-based, subscription-driven, multi-role software systems designed for long-term
-            scalability.
+            Cloud-based SaaS products, subscription platforms, multi-tenant systems, and scalable
+            software solutions built for startups and growing businesses across India and global
+            markets.
           </p>
         </ul>
         <div className="capabilities">
           <div className="capability">
             <h3>Product & Platform Engineering</h3>
             <p>
-              We build custom web applications, mobile applications, and internal platforms that
-              solve real business problems and support growing user bases.
+              We develop modern web platforms, business applications, customer portals, and digital
+              products that help Mumbai companies streamline operations and accelerate growth.
             </p>
           </div>
           <div className="capability">
-            <h3>Scalable Architecture & Systems</h3>
+            <h3>Scalable Architecture & System Design</h3>
             <p>
-              We design scalable system architectures for MVPs and production platforms, ensuring
-              reliability, performance, and security as products evolve.
+              Our engineering team designs secure, high-performance, and scalable software
+              architectures that support rapid business expansion and increasing user demand.
             </p>
           </div>
           <div className="capability">
-            <h3>Long-Term Technical Partnership</h3>
+            <h3>Technology Partner for Long-Term Growth</h3>
             <p>
-              We work as a long-term technology partner, supporting product development with clear
-              communication, transparent execution, and practical engineering decisions.
+              Beyond development, we act as your strategic technology partner, helping businesses in
+              Mumbai innovate, scale efficiently, and stay competitive in the digital marketplace.
             </p>
           </div>
         </div>
