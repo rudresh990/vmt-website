@@ -1,17 +1,15 @@
 import { generateOrganization } from './organization';
 import { generateWebSite } from './website';
 import { generateService } from './service';
+import { homeFaqs } from './data/home_faqs';
 import { serviceData } from './data/services_data';
-
 import { coreServicesData, serviceCollectionFAQs } from './data/services_collection_data';
-
 import { generateGlobalWebpage } from './globalWebpage';
 import { generateAutoBreadcrumb } from './breadcrumb-auto';
 import { generateServiceCollectionPage } from './services-collection-page';
 import { generateFAQPage } from './faq-generator';
 import { generateOffer } from './offer';
 import { generateBlogPosting } from './blog';
-
 import { cleanSchema } from './utils/utils';
 
 interface SchemaFactoryOptions {
@@ -29,9 +27,11 @@ export function schemaFactory(pathname: string, option?: SchemaFactoryOptions) {
 
   // FAQ Detection
   const hasFAQ =
-    pathname === '/services'
-      ? Boolean(serviceCollectionFAQs?.length)
-      : Boolean(service?.faqs?.length);
+    pathname === '/'
+      ? Boolean(homeFaqs?.length)
+      : pathname === '/services'
+        ? Boolean(serviceCollectionFAQs?.length)
+        : Boolean(service?.faqs?.length);
 
   // Organization
   graph.push(generateOrganization());
@@ -46,7 +46,18 @@ export function schemaFactory(pathname: string, option?: SchemaFactoryOptions) {
   if (pathname && pathname !== '/') {
     graph.push(generateAutoBreadcrumb(pathname));
   }
+  //home page
+  if (pathname === '/') {
+    const homeFAQ = generateFAQPage({
+      slug: '/',
+      title: 'Home',
+      faqs: homeFaqs,
+    });
 
+    if (homeFAQ) {
+      graph.push(homeFAQ);
+    }
+  }
   // Services Collection Page
   if (pathname === '/services') {
     graph.push(generateServiceCollectionPage(coreServicesData));
