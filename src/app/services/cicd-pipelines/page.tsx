@@ -1,0 +1,4 @@
+import ComingSoon from '@/components/common/ComingSoon';
+export default function page() {
+  return <ComingSoon title="CI/CD Pipelines" />;
+}

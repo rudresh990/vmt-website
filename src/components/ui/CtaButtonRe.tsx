@@ -3,11 +3,12 @@ import { useRouter } from 'next/navigation';
 type ctaprops = {
   title: string;
   url: string;
+  cls?: string;
 };
-export default function CtaButtonRe({ title, url }: ctaprops) {
+export default function CtaButtonRe({ title, url, cls }: ctaprops) {
   const router = useRouter();
   return (
-    <div className="flex justify-center mb-8">
+    <div className={cls ? cls : 'flex justify-center mb-8'}>
       <button
         className="btn btn-primary transition-all duration-300 hover:scale-105 hover:shadow-lg"
         onClick={() => router.push(`${url}`)}

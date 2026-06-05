@@ -49,9 +49,8 @@ body {
 }
 
 .navbar-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0.75rem 1.5rem;
+  margin: 0 1.2rem;
+  padding: 0.75rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,15 +75,47 @@ body {
   letter-spacing: -0.01em;
 }
 
+.mega-item:hover .mega-title {
+  color: white;
+}
+
 .navbar-links {
   display: flex;
-  gap: 2rem;
+  margin: 0 0 0 15rem;
+  gap: 6px;
   z-index: 1;
+}
+
+.marquee {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1.2rem 0;
+  overflow: hidden;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
 }
 
 .nav-link {
   font-family: var(--font-sans);
   font-size: 0.95rem;
+  padding: 0 8px;
   color: var(--text-muted);
   margin: 0 auto;
   text-decoration: none;
@@ -843,7 +874,7 @@ button {
   transform: scale(1.1);
 }
 
-.vmt-glass-card:hover h3 {
+.vmt-glass-card:hover :is(h2, h3) {
   color: var(--primary);
 }
 
@@ -1371,13 +1402,20 @@ button {
 /* menu container */
 
 .mega-menu {
-  width: 720px;
+  width: max-content;
   background: var(--surface);
   border-radius: 16px;
   padding: 1.25rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
+  gap: 1.25rem;
+}
+
+.mega-footer {
+  border: 1px solid var(--primary-glow);
+  text-align: center;
+  width: auto;
+  grid-column: span 3;
 }
 
 /* columns */
@@ -1393,8 +1431,9 @@ button {
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--primary-glow);
   margin-bottom: 0.4rem;
+  border-bottom: 1px solid rgb(255 255 255 / 8%);
 }
 
 /* item */
@@ -1418,6 +1457,7 @@ button {
 .mega-title {
   font-size: 0.95rem;
   color: var(--text-main);
+  transition: color 0.25s ease;
 }
 
 /* description */
@@ -1425,6 +1465,11 @@ button {
 .mega-desc {
   font-size: 0.7rem;
   color: var(--text-muted);
+}
+
+.mega-menu-two {
+  width: max-content;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* MOBILE MENU */
@@ -1585,6 +1630,15 @@ button {
 @media (width<=900px) {
   .navbar-links {
     display: none;
+  }
+
+  .marquee-track {
+    animation-duration: 30s;
+  }
+
+  .navbar-inner {
+    padding: 1rem 0;
+    z-index: 50;
   }
 
   .navbar-menu-btn {

@@ -24,14 +24,14 @@ export default async function BlogPage() {
   const blogs = await getBlogs();
   return (
     <>
-      <div className="container mx-auto px-4 py-10">
+      <div className="container mx-auto px-10 py-10">
         <h1 className="section-title text-center">Void Matrix Technology Blogs</h1>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog: any) => (
             <Link
               key={blog.id}
               href={`/blog/${blog.slug}`}
-              className="vmt-glass-card p-5 hover:scale-[1.02] transition"
+              className="vmt-glass-card p-5 hover:scale-[1.01]! transition"
             >
               <h2 className="capitalize text-2xl mb-2 pb-1 border-b-2 border-cyan-400 rounded-lg">
                 {blog.title}
