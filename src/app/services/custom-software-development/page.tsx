@@ -236,7 +236,7 @@ export default function CustomSoftwareDev() {
         heading="Custom Software Development for Mumbai & Pune Businesses"
         costdesc={[
           {
-            para: 'Mumbai and Pune are among India’s fastest-growing technology and industrial ecosystems. From fintech startups in Mumbai to manufacturing and SaaS companies in Pune, businesses in these cities require scalable, secure, and performance-driven digital systems.',
+            para: "Mumbai and Pune are among India's fastest-growing technology and industrial ecosystems. From fintech startups in Mumbai to manufacturing and SaaS companies in Pune, businesses in these cities require scalable, secure, and performance-driven digital systems.",
           },
           {
             para: 'We provide architecture-first custom software development for organizations across Mumbai and Pune - building enterprise applications, SaaS platforms, CRM/ERP systems, and automation tools tailored to local business needs. Our solutions are designed for long-term scalability, regulatory compliance, and seamless integration with existing infrastructure.',

@@ -10,7 +10,7 @@ export default function CtaButtonRe({ title, url, cls }: ctaprops) {
   return (
     <div className={cls ? cls : 'flex justify-center mb-8'}>
       <button
-        className="btn btn-primary transition-all duration-300 hover:scale-105 hover:shadow-lg"
+        className="btn btn-primary transition-all duration-300 hover:scale-108 hover:shadow-lg"
         onClick={() => router.push(`${url}`)}
       >
         {title}

@@ -500,6 +500,7 @@ export default function Home() {
       />
       <MainServiceCTA
         heading="Ready to Build, Scale & Grow?"
+        ctaTitle2="View All Services"
         description="From small business websites to enterprise software systems - we design solutions that scale."
       />
     </>
