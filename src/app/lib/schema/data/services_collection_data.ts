@@ -56,6 +56,27 @@ export const coreServicesData: ServiceItem[] = [
       'End-to-end SaaS product development including architecture design, multi-tenancy, billing integrations, and scalable infrastructure for Indian and global markets.',
   },
   {
+    name: 'CRO Design',
+    slug: 'cro-design',
+    category: 'design-and-branding',
+    description:
+      'Conversion-focused design services that improve user experience, increase engagement, optimize customer journeys, and turn more website visitors into qualified leads and customers.',
+  },
+  {
+    name: 'Digital Marketing & Content',
+    slug: 'digital-marketing-and-content',
+    category: 'marketing-and-seo',
+    description:
+      'Data-driven digital marketing and content strategies including SEO, content creation, social media marketing, paid advertising, and lead generation to accelerate business growth.',
+  },
+  {
+    name: 'Maintenance & Support',
+    slug: 'maintenance-and-support',
+    category: 'software-development',
+    description:
+      'Ongoing website and software maintenance services including security updates, performance optimization, bug fixes, monitoring, backups, and technical support for uninterrupted operations.',
+  },
+  {
     name: 'Enterprise Software Development',
     slug: 'enterprise-software-development',
     category: 'software-development',
@@ -64,7 +85,7 @@ export const coreServicesData: ServiceItem[] = [
   },
   {
     name: 'CRM & ERP Development',
-    slug: 'crm-erp-design',
+    slug: 'crm-erp-development',
     category: 'software-development',
     description:
       'Custom CRM and ERP systems designed around your business operations - replacing generic tools with software that fits how your business actually works.',

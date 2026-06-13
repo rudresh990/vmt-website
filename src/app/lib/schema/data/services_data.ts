@@ -770,7 +770,7 @@ export const serviceData = {
     faqs: [
       {
         q: 'Why invest in email marketing when social media and ads are more visible?',
-        a: 'Unlike social media posts (which reach 2–5% of your followers organically) or ads (which stop generating leads the moment you stop spending), email reaches 100% of your list consistently, can be automated, and generates revenue without ongoing ad spend. It is also the channel with the highest average ROI across all digital marketing.',
+        a: 'Unlike social media posts (which reach 2-5% of your followers organically) or ads (which stop generating leads the moment you stop spending), email reaches 100% of your list consistently, can be automated, and generates revenue without ongoing ad spend. It is also the channel with the highest average ROI across all digital marketing.',
       },
       {
         q: 'How much do email marketing services cost in India?',

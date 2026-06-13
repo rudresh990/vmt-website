@@ -81,7 +81,7 @@ body {
 
 .navbar-links {
   display: flex;
-  margin: 0 0 0 15rem;
+  margin-left: clamp(2rem, 6vw, 15rem);
   gap: 6px;
   z-index: 1;
 }

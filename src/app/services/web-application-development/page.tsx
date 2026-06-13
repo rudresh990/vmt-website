@@ -9,7 +9,7 @@ import { buildMetadata } from '@/app/lib/schema/seo';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Web Application Development Company India | Void Matrix Technology',
+  title: 'Web & App Development Services in Mumbai, India',
   description:
     'Custom web application development company in India building scalable SaaS platforms, dashboards, and business systems.',
   path: '/services/web-application-development',
