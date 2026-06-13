@@ -23,12 +23,14 @@ export type ServiceCategory =
   | 'web-app-development'
   | 'platform-cloud'
   | 'seo-services'
+  | 'design-and-branding'
   | 'digital-marketing'
   | 'content-marketing'
   | 'social-media'
   | 'ui-ux-design'
   | 'consulting'
   | 'optimization'
+  | 'marketing-and-seo'
   | 'support-maintenance';
 
 // ─── CORE SERVICES DATA ───────────────────────────────────────────────────────
