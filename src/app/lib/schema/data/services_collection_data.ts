@@ -675,6 +675,18 @@ export const serviceCategoryMeta: Record<
     description:
       'Website UI, SaaS design, mobile app UI, wireframing, UX research, and CRO design for startups and businesses in India.',
   },
+  'design-and-branding': {
+    label: 'Design & Branding',
+    slug: 'design-and-branding',
+    description:
+      'Brand identity, visual design systems, and product branding for startups and businesses across Mumbai and India.',
+  },
+  'marketing-and-seo': {
+    label: 'Marketing & SEO',
+    slug: 'marketing-and-seo',
+    description:
+      'Integrated digital marketing, SEO strategy, content marketing, and lead generation services for businesses across India.',
+  },
   consulting: {
     label: 'Consulting & Strategy',
     slug: 'consulting',
