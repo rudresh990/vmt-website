@@ -2,7 +2,6 @@ import type { MetadataRoute } from 'next';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 import prisma from '../../lib/prisma';
 
-export const dynamic = 'force-static';
 export const revalidate = 86400; // 24 hours
 
 const BASE_URL = 'https://www.voidmatrixtech.com';
@@ -47,25 +46,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
-      lastModified: new Date('2026-05-13'), // update manually on major homepage changes
+      lastModified: new Date('2026-06-14'), // update manually on major homepage changes
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/services`,
-      lastModified: new Date('2026-05-13'),
+      lastModified: new Date('2026-06-14'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/software-development-cost-estimator`,
-      lastModified: new Date('2026-05-01'),
+      lastModified: new Date('2026-06-14'),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/platforms`,
-      lastModified: new Date('2026-05-01'),
+      lastModified: new Date('2026-06-14'),
       changeFrequency: 'monthly',
       priority: 0.75,
     },
@@ -90,7 +89,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // ─────────────────────────────────────────────
   const servicePages: MetadataRoute.Sitemap = Object.keys(serviceData).map((path) => ({
     url: `${BASE_URL}${path}`,
-    lastModified: new Date('2026-05-01'), // update when you ship service page edits
+    lastModified: new Date('2026-06-14'), // update when you ship service page edits
     changeFrequency: 'monthly' as const,
     priority: 0.85,
   }));

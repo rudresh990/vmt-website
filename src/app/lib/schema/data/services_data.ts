@@ -18,7 +18,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to build custom software?',
-        a: 'A focused MVP typically takes 6-10 weeks. A mid-complexity business platform with integrations and custom workflows runs 3–5 months. Enterprise-grade systems requiring multi-department coordination and compliance reviews can take 6–9 months. We follow an agile sprint model, so you see working software every 2 weeks - not just a delivery at the end.',
+        a: 'A focused MVP typically takes 6-10 weeks. A mid-complexity business platform with integrations and custom workflows runs 3-5 months. Enterprise-grade systems requiring multi-department coordination and compliance reviews can take 6-9 months. We follow an agile sprint model, so you see working software every 2 weeks - not just a delivery at the end.',
       },
       {
         q: 'Why choose custom software over off-the-shelf solutions?',
@@ -67,7 +67,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to build a professional website?',
-        a: 'A standard business website typically takes 3–5 weeks from kickoff to launch. eCommerce sites, content-heavy platforms, or websites with custom backend logic take 5–10 weeks. Timeline depends on content readiness, revision cycles, and feature scope - we share a clear project schedule upfront so nothing is a surprise.',
+        a: 'A standard business website typically takes 3-5 weeks from kickoff to launch. eCommerce sites, content-heavy platforms, or websites with custom backend logic take 5-10 weeks. Timeline depends on content readiness, revision cycles, and feature scope - we share a clear project schedule upfront so nothing is a surprise.',
       },
       {
         q: 'Is SEO included in your website development?',
@@ -215,7 +215,7 @@ export const serviceData = {
     faqs: [
       {
         q: 'How much does website development cost in Mumbai?',
-        a: 'Professional website development in Mumbai starts from ₹75,000 for a standard business website built on Next.js with up to 8–10 pages, contact form, basic SEO setup, and mobile optimisation. More complex websites with CMS integration, custom animations, multiple service sections, and blog infrastructure typically range from ₹1,20,000 to ₹3,00,000. We provide a detailed written estimate after a free consultation with no hidden charges.',
+        a: 'Professional website development in Mumbai starts from ₹75,000 for a standard business website built on Next.js with up to 8-10 pages, contact form, basic SEO setup, and mobile optimisation. More complex websites with CMS integration, custom animations, multiple service sections, and blog infrastructure typically range from ₹1,20,000 to ₹3,00,000. We provide a detailed written estimate after a free consultation with no hidden charges.',
       },
       {
         q: 'Why does VMT build on Next.js instead of WordPress?',
@@ -223,7 +223,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to build a website in India?',
-        a: 'A professional business website generally takes 3–5 weeks from design approval to launch. Web applications and eCommerce platforms usually require 8–14 weeks depending on complexity, while SaaS products and marketplaces are delivered in phased releases over 4–6 months. Every project includes a milestone-based delivery plan before development begins.',
+        a: 'A professional business website generally takes 3-5 weeks from design approval to launch. Web applications and eCommerce platforms usually require 8-14 weeks depending on complexity, while SaaS products and marketplaces are delivered in phased releases over 4-6 months. Every project includes a milestone-based delivery plan before development begins.',
       },
       {
         q: 'Do you build mobile apps for Android and iOS in Mumbai?',
@@ -231,7 +231,7 @@ export const serviceData = {
       },
       {
         q: 'Can you rebuild my existing WordPress website on Next.js?',
-        a: 'Yes. We migrate existing WordPress websites to a modern Next.js architecture, preserving your content while improving performance, restructuring information architecture, and integrating technical SEO from launch. Many clients experience measurable improvements in search visibility within 60–90 days after relaunch.',
+        a: 'Yes. We migrate existing WordPress websites to a modern Next.js architecture, preserving your content while improving performance, restructuring information architecture, and integrating technical SEO from launch. Many clients experience measurable improvements in search visibility within 60-90 days after relaunch.',
       },
       {
         q: 'Do you integrate Indian payment gateways like Razorpay and UPI?',
@@ -250,6 +250,163 @@ export const serviceData = {
     offer: [300000, 2000000],
   },
 
+  // ─────────────────────────────────────────────
+  // DIGITAL MARKETING & CONTENT
+  // ─────────────────────────────────────────────
+
+  '/services/digital-marketing-and-content': {
+    name: 'digital marketing & content',
+    description:
+      'Void Matrix Technology provides digital marketing and content marketing services for businesses across Mumbai and India that want sustainable organic growth rather than short-term traffic spikes. We combine technical SEO, conversion-focused copywriting, content strategy, landing page optimisation, blog writing, local SEO, analytics, and performance reporting to increase qualified traffic and generate measurable business enquiries. Every strategy is tailored to your business goals, target audience, and competitive landscape, ensuring your website becomes a long-term growth asset rather than just an online brochure.',
+
+    faqs: [
+      {
+        q: 'How much does digital marketing cost in India?',
+        a: 'Professional digital marketing services typically start from ₹40,000 per month for SEO, content creation, social media management, and reporting. More comprehensive campaigns involving technical SEO, paid advertising, conversion optimisation, and multi-channel content marketing generally range from ₹75,000 to ₹3,00,000+ per month. VMT prepares a customised proposal after understanding your business objectives.',
+      },
+      {
+        q: 'Do you provide SEO-friendly content writing?',
+        a: 'Yes. Every page is researched around search intent, topical authority, internal linking, semantic keywords, and conversion optimisation. Our content is written for both search engines and real users without relying on keyword stuffing.',
+      },
+      {
+        q: 'How long does digital marketing take to show results?',
+        a: 'SEO and content marketing generally begin showing measurable improvements within 3-6 months, although highly competitive industries may require additional time. Paid campaigns can generate traffic much sooner where appropriate.',
+      },
+      {
+        q: 'Can you manage both our website and marketing?',
+        a: 'Yes. Since we design and develop websites ourselves, we continuously optimise technical SEO, landing pages, content, Core Web Vitals, and conversion rates without relying on third-party developers.',
+      },
+      {
+        q: 'Do you work with clients outside Mumbai across India and internationally?',
+        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
+      },
+    ],
+
+    offer: [40000, 300000],
+  },
+
+  '/services/local-seo': {
+    name: 'local seo',
+    description:
+      'Void Matrix Technology helps businesses improve their visibility in Google Search and Google Maps through comprehensive Local SEO services. We optimise Google Business Profiles, location pages, local citations, structured data, reviews, and technical SEO to increase local enquiries and qualified leads. Whether you operate from a single location or manage multiple branches across India, our Local SEO strategies are designed to improve rankings, increase calls, and generate more local business.',
+
+    faqs: [
+      {
+        q: 'How much does Local SEO cost in India?',
+        a: 'Professional Local SEO services generally start from ₹25,000 per month for Google Business Profile optimisation, citation management, location pages, and local keyword targeting. Businesses operating in competitive markets or multiple cities typically invest between ₹50,000 and ₹2,00,000+ per month.',
+      },
+      {
+        q: 'Can Local SEO improve my Google Maps rankings?',
+        a: 'Yes. Local SEO strengthens your visibility in Google Maps by improving business profile optimisation, local authority, review management, citation consistency, and location relevance.',
+      },
+      {
+        q: 'How long does Local SEO take?',
+        a: 'Most businesses begin seeing measurable improvements within 2-4 months, although competitive industries and newer websites may require additional time to build authority.',
+      },
+      {
+        q: 'Do you optimise websites built by other agencies?',
+        a: 'Yes. We frequently optimise websites developed by third-party agencies by improving technical SEO, page speed, local landing pages, schema markup, and search visibility.',
+      },
+      {
+        q: 'Do you work with clients outside Mumbai across India and internationally?',
+        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
+      },
+    ],
+
+    offer: [25000, 200000],
+  },
+
+  '/services/maintenance-and-support': {
+    name: 'maintenance & support',
+    description:
+      'Void Matrix Technology provides ongoing website and web application maintenance for businesses that require security, reliability, and continuous improvements after launch. Our maintenance plans include software updates, security monitoring, backups, bug fixing, performance optimisation, uptime monitoring, technical support, and feature enhancements. Whether your website was developed by VMT or another agency, we ensure it remains secure, fast, and ready for future growth.',
+
+    faqs: [
+      {
+        q: 'How much does website maintenance cost in India?',
+        a: 'Professional website maintenance plans typically start from ₹15,000 per month for routine updates, backups, monitoring, and support. Larger websites, eCommerce platforms, and custom web applications generally require plans ranging from ₹30,000 to ₹2,50,000+ per month depending on complexity and support requirements.',
+      },
+      {
+        q: 'Can you maintain websites developed by another agency?',
+        a: 'Yes. We regularly take over maintenance for websites and web applications developed by other companies after performing a technical audit of the existing codebase and infrastructure.',
+      },
+      {
+        q: 'Do you provide emergency support?',
+        a: 'Yes. Priority support plans include rapid response for downtime, production bugs, security incidents, and critical business issues to minimise disruption.',
+      },
+      {
+        q: 'Do maintenance plans include feature development?',
+        a: 'Minor enhancements are typically included within the allocated support hours. Larger features are estimated separately to ensure transparent pricing and project planning.',
+      },
+      {
+        q: 'Do you work with clients outside Mumbai across India and internationally?',
+        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
+      },
+    ],
+
+    offer: [15000, 250000],
+  },
+
+  '/case-studies': {
+    name: 'case studies',
+    description:
+      "Explore real-world projects delivered by Void Matrix Technology across website development, web applications, eCommerce platforms, SEO, and business automation. Each case study highlights the client's challenge, our technical approach, the technologies used, and the measurable business outcomes achieved.",
+
+    faqs: [
+      {
+        q: 'What do your case studies include?',
+        a: "Our case studies explain the client's objectives, technical challenges, design decisions, technology stack, development process, and measurable business outcomes wherever client confidentiality allows.",
+      },
+      {
+        q: 'Can I request examples relevant to my industry?',
+        a: 'Yes. During our consultation we can share relevant projects and experience based on your industry, business size, and technical requirements, subject to client confidentiality agreements.',
+      },
+      {
+        q: 'Do all your projects appear as case studies?',
+        a: 'No. Many client projects remain confidential due to NDAs or commercial sensitivity. We publish only those projects where we have permission to share implementation details.',
+      },
+      {
+        q: 'Do you work with clients outside Mumbai across India and internationally?',
+        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
+      },
+    ],
+
+    offer: [0, 0],
+  },
+
+  '/services/web-app-development': {
+    name: 'web application development',
+    description:
+      'Void Matrix Technology builds web applications in India for startups, SaaS companies, and enterprises that need software their users interact with daily - not just a website, but a functioning digital product. Based in Mumbai, we design and develop custom web apps, SaaS platforms, internal dashboards, customer portals, workflow tools, and business automation systems built for performance, scalability, and real-world usage. Our approach focuses on clean architecture, responsive user experience, secure backend systems, and API-first design that makes future integrations straightforward. We build on React, Next.js, Node.js, and cloud infrastructure - with database design, authentication, and deployment handled as part of every engagement. Whether you are a founder shipping your first product, an operations team replacing an Excel-based process, or an enterprise building internal tooling, our web application development team in Mumbai delivers software that works reliably at the scale you need today and the scale you are targeting tomorrow.',
+    faqs: [
+      {
+        q: 'How much does web application development cost in India?',
+        a: 'Web application development in India typically starts from ₹3,00,000 for a focused MVP with core user flows, authentication, basic data management, and a clean UI. More complex applications with multi-role user management, third-party integrations, reporting dashboards, and scalable infrastructure range from ₹6,00,000 to ₹20,00,000+. VMT provides a detailed estimate after a scoping session - no ballpark figures without understanding your requirements.',
+      },
+      {
+        q: 'How long does it take to build a web application in Mumbai?',
+        a: 'A focused MVP with clearly defined scope typically takes 8-14 weeks. A full-featured web application with multiple user roles, complex workflows, and third-party integrations usually takes 4-8 months, delivered in structured phases. VMT does not provide delivery timelines without a scoping session because timelines without scope are simply guesses.',
+      },
+      {
+        q: 'What is the difference between a web application and a website?',
+        a: 'A website primarily presents information about your business, services, or products. A web application allows users to log in, manage data, perform actions, and complete workflows such as bookings, reporting, ordering, or collaboration. If users interact with the software rather than just read content, you need a web application. VMT builds both and helps businesses choose the right solution during a free consultation.',
+      },
+      {
+        q: 'Can you build a web application that replaces our current Excel and WhatsApp workflows?',
+        a: 'Yes. This is one of the most common projects we undertake for Indian SMEs. We analyse your existing Excel sheets, WhatsApp communication, approval processes, and operational workflow before designing a custom web application with the right data model, user roles, permissions, and automation. The result is a centralised system that improves efficiency, reduces manual errors, and provides complete visibility across your business.',
+      },
+      {
+        q: 'Will my web application work on mobile devices?',
+        a: 'Yes. Every web application developed by VMT is fully responsive and optimised for modern mobile browsers, tablets, laptops, and desktops. If your business requires deeper device integration or offline capabilities, we can also advise whether a Progressive Web App (PWA) or a dedicated native mobile application is the better long-term solution.',
+      },
+      {
+        q: 'Do you build web applications for startups in Mumbai?',
+        a: 'Yes. Building scalable MVPs for startups is one of VMT’s core specialities. We follow lean product development principles by identifying the smallest feature set needed to validate your business idea before expanding based on real user feedback. This approach helps founders avoid unnecessary development costs while creating a strong technical foundation for future growth.',
+      },
+    ],
+    offer: [250000, 400000],
+  },
+
   '/services/mobile-application-development': {
     name: 'mobile application development',
     description:
@@ -257,7 +414,7 @@ export const serviceData = {
     faqs: [
       {
         q: 'Do you build for both Android and iOS?',
-        a: 'Yes. We use React Native to build cross-platform apps that run natively on both Android and iOS from a single codebase. This approach delivers 80–90% cost efficiency compared to building two separate native apps, with no meaningful performance or UX compromise for most product types.',
+        a: 'Yes. We use React Native to build cross-platform apps that run natively on both Android and iOS from a single codebase. This approach delivers 80-90% cost efficiency compared to building two separate native apps, with no meaningful performance or UX compromise for most product types.',
       },
       {
         q: 'How much does mobile app development cost in India?',
@@ -277,7 +434,7 @@ export const serviceData = {
       },
       {
         q: 'How long does mobile app development take?',
-        a: 'A well-scoped MVP takes 8–12 weeks. A full-featured consumer or enterprise app takes 4–6 months. Timeline depends on feature set, design complexity, and integration requirements. We publish a project schedule at kickoff so expectations are clear.',
+        a: 'A well-scoped MVP takes 8-12 weeks. A full-featured consumer or enterprise app takes 4-6 months. Timeline depends on feature set, design complexity, and integration requirements. We publish a project schedule at kickoff so expectations are clear.',
       },
       {
         q: 'Do you serve businesses in Mumbai and Pune?',
@@ -343,7 +500,7 @@ export const serviceData = {
       },
       {
         q: 'Do startups in India need technical SEO?',
-        a: 'Especially startups. New websites that are not technically configured correctly from day one can take 6–12 months longer to rank - time your growth cannot afford to waste. Setting up technical SEO early prevents compounding problems that are expensive to fix later.',
+        a: 'Especially startups. New websites that are not technically configured correctly from day one can take 6-12 months longer to rank - time your growth cannot afford to waste. Setting up technical SEO early prevents compounding problems that are expensive to fix later.',
       },
       {
         q: 'Do you fix crawl budget and indexation problems?',
@@ -388,7 +545,7 @@ export const serviceData = {
       },
       {
         q: 'How much faster can my website get?',
-        a: 'Results vary by starting point, but most clients see 40–70% reductions in load time and significant Core Web Vitals improvements. We share realistic expectations based on your audit findings before work begins.',
+        a: 'Results vary by starting point, but most clients see 40-70% reductions in load time and significant Core Web Vitals improvements. We share realistic expectations based on your audit findings before work begins.',
       },
       {
         q: 'Do you work with businesses in Mumbai and Pune?',
@@ -409,7 +566,7 @@ export const serviceData = {
       },
       {
         q: 'How much of an improvement can CRO realistically deliver?',
-        a: 'Typical CRO programs deliver 15–40% conversion rate improvements over 3–6 months of systematic testing. The exact uplift depends on how well-optimized the current site is, how much traffic is available for testing, and how significant the identified friction points are. We share realistic projections based on your site audit before engagement begins.',
+        a: 'Typical CRO programs deliver 15-40% conversion rate improvements over 3-6 months of systematic testing. The exact uplift depends on how well-optimized the current site is, how much traffic is available for testing, and how significant the identified friction points are. We share realistic projections based on your site audit before engagement begins.',
       },
       {
         q: 'How much do CRO services cost in India?',
@@ -495,7 +652,7 @@ export const serviceData = {
       },
       {
         q: 'Can you reduce our existing cloud costs?',
-        a: 'Yes - cloud cost optimization is a standalone service. We audit existing cloud resource utilization, identify waste (idle instances, over-provisioned databases, unused storage, suboptimal Reserved Instance coverage), and implement changes that typically reduce bills by 20–40% without impacting performance.',
+        a: 'Yes - cloud cost optimization is a standalone service. We audit existing cloud resource utilization, identify waste (idle instances, over-provisioned databases, unused storage, suboptimal Reserved Instance coverage), and implement changes that typically reduce bills by 20-40% without impacting performance.',
       },
       {
         q: 'Do you set up monitoring and alerting?',
@@ -594,7 +751,7 @@ export const serviceData = {
       },
       {
         q: 'How long before content marketing generates leads?',
-        a: 'Most businesses see measurable organic traffic growth from content within 3–6 months of consistent publishing. Lead generation typically follows traffic, often picking up by month 4–8 as articles rank and accumulate clicks. Content marketing is a compounding channel - the payoff grows over time, unlike paid ads which stop the moment you stop spending.',
+        a: 'Most businesses see measurable organic traffic growth from content within 3-6 months of consistent publishing. Lead generation typically follows traffic, often picking up by month 4-8 as articles rank and accumulate clicks. Content marketing is a compounding channel - the payoff grows over time, unlike paid ads which stop the moment you stop spending.',
       },
       {
         q: 'How much does content marketing cost in India?',
@@ -610,7 +767,7 @@ export const serviceData = {
       },
       {
         q: 'How many articles should I publish per month?',
-        a: 'For meaningful topical authority growth, 4–8 articles per month is a productive cadence for most businesses. However, quality consistently outperforms quantity - one well-researched, expertly written 2,000-word article beats five thin posts every time.',
+        a: 'For meaningful topical authority growth, 4-8 articles per month is a productive cadence for most businesses. However, quality consistently outperforms quantity - one well-researched, expertly written 2,000-word article beats five thin posts every time.',
       },
       {
         q: 'Do you work with businesses in Mumbai and Pune?',
@@ -623,11 +780,11 @@ export const serviceData = {
   '/services/content-strategy': {
     name: 'content strategy',
     description:
-      'Void Matrix Technology provides content strategy services in India for businesses that are producing content without a clear plan - and wondering why organic traffic is not growing. Based in Mumbai, we build structured content programs for SaaS companies, technology brands, consulting firms, and service businesses in Mumbai, Pune, Bangalore, and across India that want to turn their website into a consistent lead generation channel through search. A content strategy is the difference between publishing randomly and building topical authority systematically. We start with a content audit of what you already have, then map keyword opportunities to your service areas, build topic cluster frameworks, define content formats by intent type, and deliver a prioritized editorial calendar your team can execute against. Our deliverables include audience research, keyword mapping documents, topical authority plans, content gap analysis, and a 3–6 month editorial roadmap. Whether you are starting from zero or improving an existing program, we give you the structure that makes every content investment compound.',
+      'Void Matrix Technology provides content strategy services in India for businesses that are producing content without a clear plan - and wondering why organic traffic is not growing. Based in Mumbai, we build structured content programs for SaaS companies, technology brands, consulting firms, and service businesses in Mumbai, Pune, Bangalore, and across India that want to turn their website into a consistent lead generation channel through search. A content strategy is the difference between publishing randomly and building topical authority systematically. We start with a content audit of what you already have, then map keyword opportunities to your service areas, build topic cluster frameworks, define content formats by intent type, and deliver a prioritized editorial calendar your team can execute against. Our deliverables include audience research, keyword mapping documents, topical authority plans, content gap analysis, and a 3-6 month editorial roadmap. Whether you are starting from zero or improving an existing program, we give you the structure that makes every content investment compound.',
     faqs: [
       {
         q: 'What does a content strategy actually include?',
-        a: 'A complete content strategy includes: audience definition and intent mapping, keyword research and prioritization, competitive content gap analysis, topic cluster architecture (pillar pages and supporting articles), content format recommendations by intent type, editorial calendar for 3–6 months, distribution channel recommendations, and success metrics. You leave with a specific plan, not a generic framework.',
+        a: 'A complete content strategy includes: audience definition and intent mapping, keyword research and prioritization, competitive content gap analysis, topic cluster architecture (pillar pages and supporting articles), content format recommendations by intent type, editorial calendar for 3-6 months, distribution channel recommendations, and success metrics. You leave with a specific plan, not a generic framework.',
       },
       {
         q: 'Why do businesses need a content strategy instead of just writing articles?',
@@ -676,7 +833,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to build?',
-        a: 'A focused CRM system typically takes 2–4 months. A multi-module ERP covering finance, HR, inventory, and operations takes 5–9 months. We deliver in phases so you start using core modules while additional ones are being developed.',
+        a: 'A focused CRM system typically takes 2-4 months. A multi-module ERP covering finance, HR, inventory, and operations takes 5-9 months. We deliver in phases so you start using core modules while additional ones are being developed.',
       },
       {
         q: 'Can you migrate our data from existing systems?',
@@ -746,7 +903,7 @@ export const serviceData = {
       },
       {
         q: 'How quickly will I see results?',
-        a: 'Paid advertising (Google Ads, Meta Ads) typically generates leads within the first 2–4 weeks of a well-structured campaign. SEO and content marketing show meaningful traffic growth within 3–6 months. A combined program delivers short-term paid leads while building the long-term organic engine simultaneously.',
+        a: 'Paid advertising (Google Ads, Meta Ads) typically generates leads within the first 2-4 weeks of a well-structured campaign. SEO and content marketing show meaningful traffic growth within 3-6 months. A combined program delivers short-term paid leads while building the long-term organic engine simultaneously.',
       },
       {
         q: 'Do you work with both B2B and B2C businesses?',
@@ -849,7 +1006,7 @@ export const serviceData = {
     faqs: [
       {
         q: 'How much should I budget for Google Ads in India?',
-        a: 'Minimum effective Google Ads budgets in India are ₹20,000–₹50,000 per month for small business campaigns in less competitive industries, and ₹75,000–₹2,00,000+ per month in competitive sectors like real estate, fintech, or education. Management fees are separate. We recommend budgets based on your cost-per-click landscape and lead volume targets - not arbitrary minimums.',
+        a: 'Minimum effective Google Ads budgets in India are ₹20,000-₹50,000 per month for small business campaigns in less competitive industries, and ₹75,000-₹2,00,000+ per month in competitive sectors like real estate, fintech, or education. Management fees are separate. We recommend budgets based on your cost-per-click landscape and lead volume targets - not arbitrary minimums.',
       },
       {
         q: 'How much do Google Ads management services cost?',
@@ -857,7 +1014,7 @@ export const serviceData = {
       },
       {
         q: 'How quickly will Google Ads generate leads?',
-        a: 'A well-structured campaign typically generates its first leads within 3–7 days of going live. Performance improves significantly over the first 4–8 weeks as the algorithm accumulates conversion data and our team implements optimizations based on real search term and ad performance data.',
+        a: 'A well-structured campaign typically generates its first leads within 3-7 days of going live. Performance improves significantly over the first 4-8 weeks as the algorithm accumulates conversion data and our team implements optimizations based on real search term and ad performance data.',
       },
       {
         q: 'Can you fix an underperforming Google Ads account?',
@@ -919,7 +1076,7 @@ export const serviceData = {
   '/services/landing-pages': {
     name: 'landing page design and development',
     description:
-      'Void Matrix Technology designs and develops landing pages in India for businesses that are spending money driving traffic - and losing too many of those visitors before they convert. Based in Mumbai, we build high-converting landing pages for paid campaigns, product launches, lead generation, webinar registrations, and event sign-ups for SaaS companies, real estate developers, educational platforms, eCommerce brands, and B2B service businesses across Mumbai, Pune, Bangalore, and India. A landing page is the most directly measurable marketing asset you have: it converts a known percentage of visitors into leads or customers, and improving that percentage has an immediate, calculable impact on cost per lead and campaign ROI. We combine conversion-optimized layout, persuasive copywriting, trust signal design, mobile performance optimization, and tracking setup into pages that outperform generic homepages for paid traffic - typically by 40–150%.',
+      'Void Matrix Technology designs and develops landing pages in India for businesses that are spending money driving traffic - and losing too many of those visitors before they convert. Based in Mumbai, we build high-converting landing pages for paid campaigns, product launches, lead generation, webinar registrations, and event sign-ups for SaaS companies, real estate developers, educational platforms, eCommerce brands, and B2B service businesses across Mumbai, Pune, Bangalore, and India. A landing page is the most directly measurable marketing asset you have: it converts a known percentage of visitors into leads or customers, and improving that percentage has an immediate, calculable impact on cost per lead and campaign ROI. We combine conversion-optimized layout, persuasive copywriting, trust signal design, mobile performance optimization, and tracking setup into pages that outperform generic homepages for paid traffic - typically by 40-150%.',
     faqs: [
       {
         q: 'Why does my ad campaign need a dedicated landing page?',
@@ -935,7 +1092,7 @@ export const serviceData = {
       },
       {
         q: 'How fast can you build a landing page?',
-        a: 'A focused single landing page with copy and design can typically be delivered in 7–10 business days. More complex pages with multiple sections, custom illustrations, and integration requirements take 2–3 weeks.',
+        a: 'A focused single landing page with copy and design can typically be delivered in 7-10 business days. More complex pages with multiple sections, custom illustrations, and integration requirements take 2-3 weeks.',
       },
       {
         q: 'Do you set up A/B testing?',
@@ -980,7 +1137,7 @@ export const serviceData = {
       },
       {
         q: 'How quickly can we expect to see leads?',
-        a: 'Paid channels (Google Ads, Meta Ads) typically generate the first leads within 1–2 weeks of campaign launch. SEO-driven leads take 3–6 months to develop but have lower cost per lead at scale. We typically recommend a combined approach for immediate results with compounding long-term growth.',
+        a: 'Paid channels (Google Ads, Meta Ads) typically generate the first leads within 1-2 weeks of campaign launch. SEO-driven leads take 3-6 months to develop but have lower cost per lead at scale. We typically recommend a combined approach for immediate results with compounding long-term growth.',
       },
       {
         q: 'Do you work with businesses in Mumbai and Pune?',
@@ -1005,7 +1162,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to launch a marketplace?',
-        a: 'A marketplace MVP - with core vendor management, product listings, search, and payment - typically takes 3–5 months. Full-featured platforms with mobile apps, advanced search, and comprehensive vendor tools take 6–10 months. We recommend launching an MVP to validate market demand before building every planned feature.',
+        a: 'A marketplace MVP - with core vendor management, product listings, search, and payment - typically takes 3-5 months. Full-featured platforms with mobile apps, advanced search, and comprehensive vendor tools take 6-10 months. We recommend launching an MVP to validate market demand before building every planned feature.',
       },
       {
         q: 'How do you handle payments in a marketplace?',
@@ -1038,7 +1195,7 @@ export const serviceData = {
       },
       {
         q: 'How much should I budget for Meta Ads in India?',
-        a: 'Minimum effective Meta Ads budgets in India start at ₹15,000–₹30,000 per month for testing campaigns in less competitive markets. Established businesses in competitive sectors like real estate or education typically spend ₹1,00,000–₹5,00,000+ monthly. We recommend starting with a testing budget and scaling what works rather than committing large spend before validating ad creative and audiences.',
+        a: 'Minimum effective Meta Ads budgets in India start at ₹15,000-₹30,000 per month for testing campaigns in less competitive markets. Established businesses in competitive sectors like real estate or education typically spend ₹1,00,000-₹5,00,000+ monthly. We recommend starting with a testing budget and scaling what works rather than committing large spend before validating ad creative and audiences.',
       },
       {
         q: 'How much do Meta Ads management services cost?',
@@ -1054,7 +1211,7 @@ export const serviceData = {
       },
       {
         q: 'Do you run retargeting campaigns?',
-        a: 'Yes. Retargeting - reaching users who visited your website, watched your video ads, or engaged with your Instagram profile - typically delivers 3–5x higher conversion rates than cold audience campaigns. We build layered retargeting funnels across different engagement levels.',
+        a: 'Yes. Retargeting - reaching users who visited your website, watched your video ads, or engaged with your Instagram profile - typically delivers 3-5x higher conversion rates than cold audience campaigns. We build layered retargeting funnels across different engagement levels.',
       },
       {
         q: 'Do you manage Meta Ads for businesses in Mumbai and Pune?',
@@ -1075,7 +1232,7 @@ export const serviceData = {
       },
       {
         q: 'How much does mobile UI design cost in India?',
-        a: 'Mobile UI design projects in India range from ₹80,000 for a focused 15–20 screen app to ₹4,00,000 for a comprehensive multi-flow application with a full design system and extensive prototyping.',
+        a: 'Mobile UI design projects in India range from ₹80,000 for a focused 15-20 screen app to ₹4,00,000 for a comprehensive multi-flow application with a full design system and extensive prototyping.',
       },
       {
         q: 'Do you design for both iOS and Android?',
@@ -1112,7 +1269,7 @@ export const serviceData = {
       },
       {
         q: 'How quickly does on-page SEO show results?',
-        a: 'On-page changes are typically recrawled and reflected in rankings within 2–6 weeks for actively crawled pages. Unlike link building, which takes months to show ranking impact, on-page optimization is one of the fastest-acting SEO interventions available.',
+        a: 'On-page changes are typically recrawled and reflected in rankings within 2-6 weeks for actively crawled pages. Unlike link building, which takes months to show ranking impact, on-page optimization is one of the fastest-acting SEO interventions available.',
       },
       {
         q: 'How much does on-page SEO cost in India?',
@@ -1186,7 +1343,7 @@ export const serviceData = {
       },
       {
         q: 'How much does product engineering cost in India?',
-        a: 'Product engineering engagements in India range from ₹3,00,000 for a focused MVP build to ₹25,00,000 or more for a full product team engagement over 6–12 months. We typically structure engagements as monthly sprint retainers after an initial discovery and architecture phase.',
+        a: 'Product engineering engagements in India range from ₹3,00,000 for a focused MVP build to ₹25,00,000 or more for a full product team engagement over 6-12 months. We typically structure engagements as monthly sprint retainers after an initial discovery and architecture phase.',
       },
       {
         q: 'Do you build SaaS products end-to-end?',
@@ -1194,7 +1351,7 @@ export const serviceData = {
       },
       {
         q: 'Can you work as our dedicated product engineering team?',
-        a: 'Yes. For startups that need full-stack engineering capacity without building an in-house team, we work as a dedicated product engineering partner - typically a team of 2–5 engineers with a technical lead - operating as an extension of your team with full sprint participation, daily standups if needed, and direct access to engineers.',
+        a: 'Yes. For startups that need full-stack engineering capacity without building an in-house team, we work as a dedicated product engineering partner - typically a team of 2-5 engineers with a technical lead - operating as an extension of your team with full sprint participation, daily standups if needed, and direct access to engineers.',
       },
       {
         q: 'What does your development process look like?',
@@ -1264,7 +1421,7 @@ export const serviceData = {
       },
       {
         q: 'How long does it take to build a SaaS MVP?',
-        a: 'A well-scoped SaaS MVP takes 8–14 weeks - delivering authentication, core product functionality, basic subscription billing, and onboarding. The key is disciplined scoping: an MVP should prove the core value proposition, not include every feature on the roadmap.',
+        a: 'A well-scoped SaaS MVP takes 8-14 weeks - delivering authentication, core product functionality, basic subscription billing, and onboarding. The key is disciplined scoping: an MVP should prove the core value proposition, not include every feature on the roadmap.',
       },
       {
         q: 'Do you build multi-tenant architecture?',
@@ -1297,7 +1454,7 @@ export const serviceData = {
       },
       {
         q: 'How much does SaaS UI design cost in India?',
-        a: 'SaaS UI design in India ranges from ₹1,00,000 for a focused product with 20–30 screens to ₹6,00,000 or more for a comprehensive multi-module platform with a full design system, extensive onboarding design, and mobile responsive treatment.',
+        a: 'SaaS UI design in India ranges from ₹1,00,000 for a focused product with 20-30 screens to ₹6,00,000 or more for a comprehensive multi-module platform with a full design system, extensive onboarding design, and mobile responsive treatment.',
       },
       {
         q: 'Why is the onboarding flow so important in SaaS UI design?',
@@ -1338,7 +1495,7 @@ export const serviceData = {
       },
       {
         q: 'How long does an SEO audit take?',
-        a: 'A focused audit of a 20–50 page website takes 3–5 business days. A comprehensive audit of a larger website with deep technical analysis and competitive benchmarking takes 7–12 business days. We set timelines at scoping and stick to them.',
+        a: 'A focused audit of a 20-50 page website takes 3-5 business days. A comprehensive audit of a larger website with deep technical analysis and competitive benchmarking takes 7-12 business days. We set timelines at scoping and stick to them.',
       },
       {
         q: 'Can an audit explain why our traffic suddenly dropped?',
@@ -1371,11 +1528,11 @@ export const serviceData = {
       },
       {
         q: 'How much does SEO blog writing cost in India?',
-        a: 'SEO blog writing in India ranges from ₹3,000 for a short 600-800 word supporting article to ₹15,000 or more for a comprehensive 2,500–4,000 word pillar article with extensive research, custom examples, and full optimization. Price reflects depth, research intensity, and technical complexity of the subject.',
+        a: 'SEO blog writing in India ranges from ₹3,000 for a short 600-800 word supporting article to ₹15,000 or more for a comprehensive 2,500-4,000 word pillar article with extensive research, custom examples, and full optimization. Price reflects depth, research intensity, and technical complexity of the subject.',
       },
       {
         q: 'How long should SEO blog posts be?',
-        a: 'Length should match what search intent demands, not a target word count. Informational queries like "how to" guides often require 1,500–3,000 words to compete with comprehensive ranking content. Commercial queries comparing products or services might rank with focused 800-word pieces. We recommend length based on keyword research and competitor analysis - not arbitrary minimums.',
+        a: 'Length should match what search intent demands, not a target word count. Informational queries like "how to" guides often require 1,500-3,000 words to compete with comprehensive ranking content. Commercial queries comparing products or services might rank with focused 800-word pieces. We recommend length based on keyword research and competitor analysis - not arbitrary minimums.',
       },
       {
         q: 'Do you write for technical industries?',
@@ -1383,7 +1540,7 @@ export const serviceData = {
       },
       {
         q: 'How many articles per month do I need?',
-        a: 'For meaningful topical authority and ranking progress, 4–8 articles per month targeting a focused set of keyword clusters is a productive cadence. Fewer articles spread across too many topics builds authority in nothing. We recommend a focused content calendar targeting 2–3 topic clusters deeply rather than 10 topics superficially.',
+        a: 'For meaningful topical authority and ranking progress, 4-8 articles per month targeting a focused set of keyword clusters is a productive cadence. Fewer articles spread across too many topics builds authority in nothing. We recommend a focused content calendar targeting 2-3 topic clusters deeply rather than 10 topics superficially.',
       },
       {
         q: 'Do you include internal links and schema in the articles?',
@@ -1412,7 +1569,7 @@ export const serviceData = {
       },
       {
         q: 'How long before SEO shows results?',
-        a: 'Honest answer: meaningful ranking movements typically take 3–5 months; significant organic traffic growth develops over 6–12 months. SEO is a compounding investment - the organic traffic you build in month 6 keeps generating leads in month 18 without additional spend. The businesses that win with SEO are the ones who start early and stay consistent.',
+        a: 'Honest answer: meaningful ranking movements typically take 3-5 months; significant organic traffic growth develops over 6-12 months. SEO is a compounding investment - the organic traffic you build in month 6 keeps generating leads in month 18 without additional spend. The businesses that win with SEO are the ones who start early and stay consistent.',
       },
       {
         q: 'Do you provide local SEO for Mumbai businesses?',
@@ -1445,11 +1602,11 @@ export const serviceData = {
       },
       {
         q: 'How much does social media management cost in India?',
-        a: 'Social media management in India ranges from ₹15,000 per month for basic 3–4 posts per week on a single platform to ₹80,000 per month for comprehensive multi-platform management with graphic design, community management, and story content across LinkedIn, Instagram, and Facebook.',
+        a: 'Social media management in India ranges from ₹15,000 per month for basic 3-4 posts per week on a single platform to ₹80,000 per month for comprehensive multi-platform management with graphic design, community management, and story content across LinkedIn, Instagram, and Facebook.',
       },
       {
         q: 'How many posts per week do we need?',
-        a: 'Consistency matters more than frequency. For most businesses, 3–5 posts per week on your primary platform is a strong cadence. The right frequency depends on platform - LinkedIn rewards quality over quantity (3–4 posts per week is optimal), while Instagram benefits from higher frequency including stories and reels.',
+        a: 'Consistency matters more than frequency. For most businesses, 3-5 posts per week on your primary platform is a strong cadence. The right frequency depends on platform - LinkedIn rewards quality over quantity (3-4 posts per week is optimal), while Instagram benefits from higher frequency including stories and reels.',
       },
       {
         q: 'Do you manage LinkedIn for B2B businesses?',
@@ -1511,7 +1668,7 @@ export const serviceData = {
   '/services/startup-consulting': {
     name: 'startup consulting',
     description:
-      "Void Matrix Technology provides startup consulting services in India for early-stage founders who need experienced guidance on the decisions that determine whether their startup succeeds or fails - before they have burned through budget on the wrong things. Based in Mumbai, we work with pre-seed and seed-stage founders across Mumbai, Pune, Bangalore, and India's growing startup ecosystem on product definition, technology architecture, go-to-market strategy, and MVP development planning. The cost of bad early-stage decisions is not just financial - it is time, momentum, and team morale. Founders who validate assumptions before building, choose technology stacks they can actually hire for, and structure their MVP around the highest-leverage proof points consistently move faster and waste less. Our startup consulting engagements are practical and execution-focused, delivering concrete recommendations on specific decisions rather than generic frameworks. We engage with founders as thinking partners who have built and advised technology companies - bringing direct experience to the challenges that matter most in the first 12–18 months.",
+      "Void Matrix Technology provides startup consulting services in India for early-stage founders who need experienced guidance on the decisions that determine whether their startup succeeds or fails - before they have burned through budget on the wrong things. Based in Mumbai, we work with pre-seed and seed-stage founders across Mumbai, Pune, Bangalore, and India's growing startup ecosystem on product definition, technology architecture, go-to-market strategy, and MVP development planning. The cost of bad early-stage decisions is not just financial - it is time, momentum, and team morale. Founders who validate assumptions before building, choose technology stacks they can actually hire for, and structure their MVP around the highest-leverage proof points consistently move faster and waste less. Our startup consulting engagements are practical and execution-focused, delivering concrete recommendations on specific decisions rather than generic frameworks. We engage with founders as thinking partners who have built and advised technology companies - bringing direct experience to the challenges that matter most in the first 12-18 months.",
     faqs: [
       {
         q: 'What decisions does startup consulting help with?',
@@ -1519,7 +1676,7 @@ export const serviceData = {
       },
       {
         q: 'How early should I engage a startup consultant?',
-        a: 'Before committing significant development spend - ideally in the idea validation or early product definition phase. The most common (and expensive) mistake is building for 3–6 months before discovering that the feature set is wrong, the target customer is wrong, or a simpler solution exists. Consulting before building saves that cost.',
+        a: 'Before committing significant development spend - ideally in the idea validation or early product definition phase. The most common (and expensive) mistake is building for 3-6 months before discovering that the feature set is wrong, the target customer is wrong, or a simpler solution exists. Consulting before building saves that cost.',
       },
       {
         q: 'How much does startup consulting cost in India?',
@@ -1622,7 +1779,7 @@ export const serviceData = {
   '/services/technology-roadmaps': {
     name: 'technology roadmap planning',
     description:
-      'Void Matrix Technology provides technology roadmap planning services in India for businesses that need to make significant technology investments over the next 12–36 months and want a structured, sequenced plan before committing budget. Based in Mumbai, we work with leadership teams, CTOs, and founders in Mumbai, Pune, Bangalore, and across India building product development roadmaps, infrastructure modernization plans, digital transformation strategies, and technology capability buildouts. Technology investment without sequencing is expensive: building system B before system A is ready, choosing a vendor that conflicts with a platform you plan to add in 6 months, or scaling infrastructure before the product architecture supports it. Our roadmap planning engagements audit current technology capabilities, define future-state requirements, identify dependencies and sequencing constraints, and deliver phased roadmaps with clear milestones, resource implications, and decision points - so your technology investment compounds intelligently rather than accruing debt.',
+      'Void Matrix Technology provides technology roadmap planning services in India for businesses that need to make significant technology investments over the next 12-36 months and want a structured, sequenced plan before committing budget. Based in Mumbai, we work with leadership teams, CTOs, and founders in Mumbai, Pune, Bangalore, and across India building product development roadmaps, infrastructure modernization plans, digital transformation strategies, and technology capability buildouts. Technology investment without sequencing is expensive: building system B before system A is ready, choosing a vendor that conflicts with a platform you plan to add in 6 months, or scaling infrastructure before the product architecture supports it. Our roadmap planning engagements audit current technology capabilities, define future-state requirements, identify dependencies and sequencing constraints, and deliver phased roadmaps with clear milestones, resource implications, and decision points - so your technology investment compounds intelligently rather than accruing debt.',
     faqs: [
       {
         q: 'What does a technology roadmap include?',
@@ -1634,11 +1791,11 @@ export const serviceData = {
       },
       {
         q: 'How much does technology roadmap planning cost in India?',
-        a: 'Technology roadmap engagements in India range from ₹60,000 for a focused 2-week planning sprint to ₹4,00,000 for a comprehensive engagement with stakeholder workshops, competitive technology benchmarking, vendor evaluation, and a detailed 18–24 month roadmap.',
+        a: 'Technology roadmap engagements in India range from ₹60,000 for a focused 2-week planning sprint to ₹4,00,000 for a comprehensive engagement with stakeholder workshops, competitive technology benchmarking, vendor evaluation, and a detailed 18-24 month roadmap.',
       },
       {
         q: 'How do you facilitate stakeholder alignment around the roadmap?',
-        a: 'We run structured workshops - typically 2–3 sessions with different stakeholder groups - that surface competing priorities, identify hidden dependencies, and build shared understanding before documentation begins. Roadmaps built on stakeholder consensus get funded and executed; ones built in isolation get ignored.',
+        a: 'We run structured workshops - typically 2-3 sessions with different stakeholder groups - that surface competing priorities, identify hidden dependencies, and build shared understanding before documentation begins. Roadmaps built on stakeholder consensus get funded and executed; ones built in isolation get ignored.',
       },
       {
         q: 'How do you prioritize what goes on the roadmap?',
@@ -1815,7 +1972,7 @@ export const serviceData = {
       },
       {
         q: 'How much does website UI design cost in India?',
-        a: 'Website UI design in India ranges from ₹50,000 for a focused 5–8 page business website design to ₹4,00,000 for a comprehensive multi-section corporate website with a full design system, multiple page templates, and mobile-first responsive treatment.',
+        a: 'Website UI design in India ranges from ₹50,000 for a focused 5-8 page business website design to ₹4,00,000 for a comprehensive multi-section corporate website with a full design system, multiple page templates, and mobile-first responsive treatment.',
       },
       {
         q: 'Do you design mobile-responsive websites?',
@@ -1856,7 +2013,7 @@ export const serviceData = {
       },
       {
         q: 'How much does wireframing cost in India?',
-        a: 'Wireframing projects in India range from ₹30,000 for a focused 10–15 screen wireframe set to ₹2,00,000 for a comprehensive wireframing project covering a full web application or mobile app with complex user flows, multiple user roles, and interactive prototyping.',
+        a: 'Wireframing projects in India range from ₹30,000 for a focused 10-15 screen wireframe set to ₹2,00,000 for a comprehensive wireframing project covering a full web application or mobile app with complex user flows, multiple user roles, and interactive prototyping.',
       },
       {
         q: 'Do you create clickable prototypes from wireframes?',
@@ -1905,7 +2062,7 @@ export const serviceData = {
       },
       {
         q: 'How long does automation implementation take?',
-        a: 'A focused single-process automation takes 1–2 weeks. Complex multi-system workflow programs take 4–8 weeks. Timeline depends on the number of systems involved, data transformation complexity, and testing requirements.',
+        a: 'A focused single-process automation takes 1-2 weeks. Complex multi-system workflow programs take 4-8 weeks. Timeline depends on the number of systems involved, data transformation complexity, and testing requirements.',
       },
       {
         q: 'Do you work with businesses in Mumbai and Pune?',
