@@ -21,7 +21,14 @@ export default function WebApplicationDev() {
     <>
       <Hero
         eyebrow="Web & App Development - Mumbai, India"
-        title="Website, Web Application & Mobile App Development Company in Mumbai, India"
+        title={
+          <>
+            <span className="text-(--primary)">Website</span>,{' '}
+            <span className="text-(--primary)">Web Application</span> &{' '}
+            <span className="text-(--primary)">Mobile App</span> Development Company in Mumbai,
+            India
+          </>
+        }
         herosub={
           <>
             <div className="my-2.5">

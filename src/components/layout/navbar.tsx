@@ -79,7 +79,9 @@ export default function Navbar() {
                 </div>
 
                 <div className="mega-column">
-                  <div className="mega-heading">Web & App</div>
+                  <Link href={'/services/web-application-development'}>
+                    <div className="mega-heading">Web & App</div>
+                  </Link>
 
                   <Link href="/services/website-development" className="mega-item">
                     <div className="mega-title">Professional Websites</div>
@@ -418,8 +420,9 @@ export default function Navbar() {
             </div>
 
             <div className="mobile-group">
-              <div className="mobile-heading">Web & App</div>
-
+              <Link href={'/services/web-application-development'}>
+                <div className="mobile-heading">Web & App</div>
+              </Link>
               <Link
                 onClick={closeMobile}
                 href="/services/website-development"
