@@ -39,6 +39,28 @@ export default function page() {
             </div>
           </>
         }
+        subtitle={
+          <>
+            <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
+              <span>
+                Projects from <span className="text-(--primary)">₹75,000</span>{' '}
+              </span>
+              <span className="text-glow"> |</span>
+              <span>
+                <span className="text-(--primary)">NDA</span> Protected{' '}
+              </span>
+              <span className="text-glow"> |</span>
+              <span>
+                Architecture-
+                <span className="text-(--primary)">First</span>
+              </span>
+              <span className="text-glow"> |</span>
+              <span>
+                Long-term <span className="text-(--primary)">Support</span>{' '}
+              </span>
+            </div>
+          </>
+        }
       />
       {/* ---------------------------------------------------------------- */}
       {/* SECTION 1 */}
