@@ -214,34 +214,39 @@ export const serviceData = {
       'Void Matrix Technology builds web applications in India for startups, SaaS companies, and enterprises that need software their users interact with daily - not just a website, but a functioning digital product. Based in Mumbai, we design and develop custom web apps, SaaS platforms, internal dashboards, customer portals, workflow tools, and business automation systems built for performance, scalability, and real-world usage. Our approach focuses on clean architecture, responsive user experience, secure backend systems, and API-first design that makes future integrations straightforward. We build on React, Next.js, Node.js, and cloud infrastructure - with database design, authentication, and deployment handled as part of every engagement. Whether you are a founder shipping your first product, an operations team replacing an Excel-based process, or an enterprise building internal tooling, our web application development team in Mumbai delivers software that works reliably at the scale you need today and the scale you are targeting tomorrow.',
     faqs: [
       {
-        q: 'What distinguishes a web application from a website?',
-        a: 'A website primarily delivers content and information. A web application allows users to interact, perform tasks, and manipulate data - think project management tools, customer portals, SaaS dashboards, or internal operations software. If users log in and do something, it is a web application.',
+        q: 'How much does website development cost in Mumbai?',
+        a: 'Professional website development in Mumbai starts from ₹75,000 for a standard business website built on Next.js with up to 8–10 pages, contact form, basic SEO setup, and mobile optimisation. More complex websites with CMS integration, custom animations, multiple service sections, and blog infrastructure typically range from ₹1,20,000 to ₹3,00,000. We provide a detailed written estimate after a free consultation with no hidden charges.',
       },
       {
-        q: 'How much does web application development cost in India?',
-        a: 'Web application projects in India range from ₹3,00,000 for a focused MVP to ₹20,00,000 or more for feature-rich platforms with complex integrations and multi-user role systems. We scope projects carefully before quoting - there are no range estimates based on guesswork.',
+        q: 'Why does VMT build on Next.js instead of WordPress?',
+        a: "WordPress sites typically score between 40 and 65 on Google's Lighthouse audit due to plugin overhead and PHP rendering limitations. Next.js websites built by VMT routinely achieve scores above 90, delivering faster load times, stronger Core Web Vitals, and a superior technical foundation for SEO. WordPress is convenient. Next.js is built to compete.",
       },
       {
-        q: 'Which businesses most commonly need web applications?',
-        a: 'Startups building digital products, SaaS companies, fintech platforms, marketplaces, eCommerce businesses with complex backend needs, and any organization with internal processes that currently run on spreadsheets or manual workflows. If a process involves multiple users, data, and decisions - it probably needs a web application.',
+        q: 'How long does it take to build a website in India?',
+        a: 'A professional business website generally takes 3–5 weeks from design approval to launch. Web applications and eCommerce platforms usually require 8–14 weeks depending on complexity, while SaaS products and marketplaces are delivered in phased releases over 4–6 months. Every project includes a milestone-based delivery plan before development begins.',
       },
       {
-        q: 'Do you build SaaS platforms?',
-        a: 'Yes. SaaS development is a core specialization - we handle multi-tenant architecture, subscription billing integration, user role management, onboarding flows, and admin dashboards. We have built SaaS MVPs that went from zero to paying customers within weeks of launch.',
+        q: 'Do you build mobile apps for Android and iOS in Mumbai?',
+        a: 'Yes. We develop cross-platform mobile applications using React Native for businesses across Mumbai and India, allowing a single codebase for both Android and iOS. For products requiring platform-specific performance, we also build native Android applications with Kotlin and native iOS applications with Swift. UPI and Indian payment gateway integrations are available on request.',
       },
       {
-        q: 'How do you handle third-party integrations?',
-        a: 'Integrations are planned during architecture design, not bolted on after development. We build API clients, webhook handlers, and data sync systems as first-class features - supporting payment gateways, CRMs, analytics tools, communication platforms, and any system with a documented API.',
+        q: 'Can you rebuild my existing WordPress website on Next.js?',
+        a: 'Yes. We migrate existing WordPress websites to a modern Next.js architecture, preserving your content while improving performance, restructuring information architecture, and integrating technical SEO from launch. Many clients experience measurable improvements in search visibility within 60–90 days after relaunch.',
       },
       {
-        q: 'What is your development process?',
-        a: 'We work in 2-week agile sprints. You see working, deployable software every sprint - not a 3-month black box. Each sprint includes a review session where you provide feedback before we move forward. This keeps projects on track and aligned with what you actually need.',
+        q: 'Do you integrate Indian payment gateways like Razorpay and UPI?',
+        a: 'Yes. We integrate Razorpay, PayU, Cashfree, CCAvenue, UPI, and other Indian payment gateways into eCommerce websites, marketplaces, SaaS products, and custom web applications. We also support payment reconciliation, refund workflows, subscriptions, and GST-compliant invoice generation where required.',
       },
       {
-        q: 'Do you work with companies in Mumbai and Pune?',
-        a: 'Yes. We build web applications for startups and companies across Mumbai, Pune, and across India. Our remote-first model is built around clear async communication and structured delivery milestones.',
+        q: 'Will my website be optimised for SEO from launch day?',
+        a: 'Absolutely. Technical SEO is integrated throughout our development process rather than added after launch. Every website includes schema markup, canonical URLs, XML sitemaps, robots.txt configuration, metadata architecture, Open Graph tags, and Core Web Vitals optimisation to ensure Google can efficiently crawl, index, and rank your website.',
+      },
+      {
+        q: 'Do you work with clients outside Mumbai across India and internationally?',
+        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
       },
     ],
+
     offer: [300000, 2000000],
   },
 
