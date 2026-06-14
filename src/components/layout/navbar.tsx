@@ -87,7 +87,7 @@ export default function Navbar() {
                     <div className="mega-title">Professional Websites</div>
                   </Link>
 
-                  <Link href="/services/web-application-development" className="mega-item">
+                  <Link href="/services/web-app-development" className="mega-item">
                     <div className="mega-title">Web Applications</div>
                   </Link>
 
@@ -433,7 +433,7 @@ export default function Navbar() {
 
               <Link
                 onClick={closeMobile}
-                href="/services/web-application-development"
+                href="/services/web-app-development"
                 className="mobile-item"
               >
                 Web Applications
