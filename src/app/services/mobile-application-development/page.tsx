@@ -21,7 +21,14 @@ export default function MobileApplicationDev() {
     <>
       <Hero
         eyebrow="Mobile Application Development - Mumbai, India"
-        title="Mobile Application Development Company In India"
+        title={
+          <>
+            {' '}
+            <span className="text-(--primary)">Mobile Application Development</span>
+            <br />
+            In Mumbai, India
+          </>
+        }
         herosub={
           <>
             <div className="my-2.5">
