@@ -8,9 +8,9 @@ import { buildMetadata } from '@/app/lib/schema/seo';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'eCommerce Development Company in Mumbai, India | Custom Online Store Development',
+  title: 'eCommerce Development Company in Mumbai, India',
   description:
-    'VMT builds custom eCommerce stores for Indian businesses on Next.js with Razorpay, UPI, and PayU integration. Faster than Shopify, built to rank on Google. Projects from ₹1,50,000. Mumbai-based team.',
+    'VMT builds custom Next.js eCommerce stores with Razorpay, UPI & PayU integration. Fast, SEO-ready websites for Indian businesses. Mumbai team.',
   path: '/services/ecommerce-development',
 });
 
