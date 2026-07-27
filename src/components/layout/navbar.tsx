@@ -313,9 +313,38 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/blog" className={isActive('/blog') ? 'nav-link active' : 'nav-link'}>
+          {/*<Link href="/blog" className={isActive('/blog') ? 'nav-link active' : 'nav-link'}>
             Blog
-          </Link>
+          </Link>*/}
+
+          <div
+            className={`nav-dropdown ${activeDropdown === 'resources' ? 'desktop-open' : ''}`}
+            onMouseEnter={() => setActiveDropdown('resources')}
+            onMouseLeave={() => setActiveDropdown(null)}
+          >
+
+            <button className="nav-link nav-trigger">Resources</button>
+
+            <div className="mega-wrapper">
+              <div className="mega-menu mega-menu-two">
+                <div className="mega-column">
+                  <div className="mega-heading">Insights</div>
+
+                  <Link href="/blog" className="mega-item">
+                    <div className="mega-title">Blog</div>
+                  </Link>
+                </div>
+
+                <div className="mega-column">
+                  <div className="mega-heading">Success Stories</div>
+
+                  <Link href="/case-studies" className="mega-item">
+                    <div className="mega-title">Case Studies</div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* <Link
             href="/platforms"
@@ -364,9 +393,9 @@ export default function Navbar() {
                 Home
               </Link>
 
-              <Link onClick={closeMobile} href="/blog" className="mobile-item">
+              {/* <Link onClick={closeMobile} href="/blog" className="mobile-item">
                 Blog
-              </Link>
+              </Link> */}
             </div>
 
             {/* DEVELOPMENT */}
@@ -683,6 +712,25 @@ export default function Navbar() {
                 className="mobile-item"
               >
                 Growth Consulting
+              </Link>
+            </div>
+            <div className="mobile-group">
+              <div className="mobile-heading">Resources</div>
+
+              <Link
+                onClick={closeMobile}
+                href="/blog"
+                className="mobile-item"
+              >
+                Blog
+              </Link>
+
+              <Link
+                onClick={closeMobile}
+                href="/case-studies"
+                className="mobile-item"
+              >
+                Case Studies
               </Link>
             </div>
 
