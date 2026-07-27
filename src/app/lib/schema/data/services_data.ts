@@ -1411,35 +1411,57 @@ export const serviceData = {
     description:
       'Void Matrix Technology builds SaaS products in India for founders and technology companies who want to launch recurring-revenue software businesses - built on architecture that can scale from 10 paying users to 10,000 without a complete rebuild. Based in Mumbai, we work with SaaS founders in Mumbai, Pune, Bangalore, and across India building vertical SaaS tools, horizontal productivity software, API products, and enterprise SaaS platforms. SaaS development requires specific architectural thinking that standard app development does not: multi-tenant data isolation, subscription billing with plan management and dunning, usage metering, role-based access control across organizations, onboarding flows designed for self-serve activation, and admin infrastructure for managing the platform at scale. We handle every layer - product scoping, technical architecture, frontend and backend development, subscription billing integration, cloud deployment, and post-launch iteration - delivering a SaaS product your first customers can adopt confidently and your business can grow on.',
     faqs: [
-      {
-        q: 'What makes SaaS development different from regular app development?',
-        a: "SaaS products require architectural decisions that most apps do not: multi-tenant data isolation (keeping each customer's data separate within a shared infrastructure), subscription billing lifecycle management (trials, upgrades, downgrades, cancellations, failed payment handling), organization-level user management (teams, roles, permissions), feature flagging by plan, usage analytics, and self-serve onboarding. Getting these wrong early is expensive to fix later.",
-      },
-      {
-        q: 'How much does SaaS development cost in India?',
-        a: 'SaaS development in India ranges from ₹5,00,000 for a focused MVP with core functionality, basic billing, and user management to ₹30,00,000 or more for a full-featured product with advanced plan management, analytics, integrations, and mobile access.',
-      },
-      {
-        q: 'How long does it take to build a SaaS MVP?',
-        a: 'A well-scoped SaaS MVP takes 8-14 weeks - delivering authentication, core product functionality, basic subscription billing, and onboarding. The key is disciplined scoping: an MVP should prove the core value proposition, not include every feature on the roadmap.',
-      },
-      {
-        q: 'Do you build multi-tenant architecture?',
-        a: 'Yes. We design multi-tenant SaaS architecture with appropriate tenant isolation strategies - from shared database with row-level isolation (for cost efficiency at early stage) to schema-per-tenant or database-per-tenant models for products with strong data isolation requirements.',
-      },
-      {
-        q: 'Do you integrate subscription billing?',
-        a: 'Yes. We integrate Razorpay Subscriptions (for Indian billing), Stripe Billing (for international markets), or both - including plan management, trial flows, upgrade/downgrade handling, dunning (automatic retry and dunning emails for failed payments), and customer billing portal.',
-      },
-      {
-        q: 'Can I white-label the SaaS product?',
-        a: 'Yes. We can architect the product to support white-labeling - custom domains, custom branding, and branded email sending - for SaaS businesses that sell through resellers or want to offer a branded product to enterprise customers.',
-      },
-      {
-        q: 'Do you work with SaaS founders in Mumbai and Pune?',
-        a: 'Yes. We build SaaS products for founders and technology companies across Mumbai and Pune - from pre-revenue MVPs to established platforms adding new feature sets.',
-      },
-    ],
+  {
+    q: 'How much does SaaS development cost in India?',
+    a:
+      'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
+  },
+  {
+    q: 'How long does it take to build a SaaS MVP?',
+    a:
+      'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
+  },
+  {
+    q: 'What technologies do you use for SaaS development?',
+    a:
+      'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
+  },
+  {
+    q: 'Can you build a multi-tenant SaaS platform?',
+    a:
+      'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
+  },
+  {
+    q: 'Do you develop SaaS products for startups as well as enterprises?',
+    a:
+      'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
+  },
+  {
+    q: 'Can you modernize or rebuild an existing SaaS application?',
+    a:
+      'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
+  },
+  {
+    q: 'Do you integrate payment gateways and subscription billing?',
+    a:
+      'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
+  },
+  {
+    q: 'Will my SaaS platform be scalable as my business grows?',
+    a:
+      'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
+  },
+  {
+    q: 'Do you provide support after the SaaS product is launched?',
+    a:
+      'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
+  },
+  {
+    q: 'Why choose Void Matrix Technology for SaaS development?',
+    a:
+      'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
+  },
+],
     offer: [500000, 3000000],
   },
 
@@ -1569,7 +1591,7 @@ export const serviceData = {
       },
       {
         q: 'How long before SEO shows results?',
-        a: 'Honest answer: meaningful ranking movements typically take 3-5 months; significant organic traffic growth develops over 6-12 months. SEO is a compounding investment - the organic traffic you build in month 6 keeps generating leads in month 18 without additional spend. The businesses that win with SEO are the ones who start early and stay consistent.',
+        a: 'Honest a: meaningful ranking movements typically take 3-5 months; significant organic traffic growth develops over 6-12 months. SEO is a compounding investment - the organic traffic you build in month 6 keeps generating leads in month 18 without additional spend. The businesses that win with SEO are the ones who start early and stay consistent.',
       },
       {
         q: 'Do you provide local SEO for Mumbai businesses?',

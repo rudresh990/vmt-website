@@ -19,7 +19,7 @@ export default function ServiceApproachSection({ heading, intro, steps }: Props)
 
         <div className="approach-grid">
           {steps.map((step, index) => (
-            <div className="vmt-glass-card process-card" key={index}>
+            <div className="vmt-glass-card no-hover process-card" key={index}>
               <span className="step-number">{String(index + 1).padStart(2, '0')}</span>
 
               <h3>{step.title}</h3>

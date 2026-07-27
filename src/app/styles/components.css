@@ -759,7 +759,7 @@ button {
 }
 
 .section-intro {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin-bottom: 1.2rem;
   color: var(--text-body);
   line-height: 1.6;
@@ -858,6 +858,7 @@ button {
   position: relative;
   border-radius: 18px;
   padding: 1rem;
+  margin: 1rem 0;
 
   /* background: rgba(255, 255, 255, 0.035); */
   background-color: var(--surface);
