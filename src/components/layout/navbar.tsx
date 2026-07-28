@@ -136,7 +136,7 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <div className="mega-footer mega-item">
-                  <Link href="services/maintenance-and-support">Maintenance & Support</Link>
+                  <Link href="/services/maintenance-and-support">Maintenance & Support</Link>
                 </div>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function Navbar() {
                 CMS Development
               </Link>
 
-              <Link href="services/maintenance-and-support" className="mobile-item">
+              <Link href="/services/maintenance-and-support" className="mobile-item">
                 Maintenance & Support
               </Link>
             </div>
