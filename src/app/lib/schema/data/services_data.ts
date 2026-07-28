@@ -820,32 +820,44 @@ export const serviceData = {
       'Void Matrix Technology builds custom CRM and ERP systems in India for businesses that have grown beyond what spreadsheets and generic software can handle - and need systems that actually match how they work. Based in Mumbai, we design and develop CRM platforms, ERP systems, and business management tools for manufacturing companies, consulting firms, logistics businesses, retail brands, and service organizations in Mumbai, Pune, Bangalore, and across India. Off-the-shelf CRM and ERP tools are built for average workflows - which means every business using them is making workflow compromises to fit the software. Custom systems eliminate those compromises, giving you a platform that matches your sales process, reporting structure, operational hierarchy, and integration requirements exactly. We handle the complete delivery: requirements workshops, system architecture, module development, data migration from legacy systems or spreadsheets, third-party integrations, user training, and post-launch support. Whether you need a lightweight CRM for a 5-person sales team or a full multi-department ERP, we build it to scale with your business.',
     faqs: [
       {
-        q: 'What is the difference between a CRM and an ERP?',
-        a: 'A CRM (Customer Relationship Management system) manages your customer-facing operations - sales pipelines, contact records, lead tracking, follow-up workflows, and deal management. An ERP (Enterprise Resource Planning system) covers broader operational functions - finance, HR, inventory, procurement, and production - in a unified platform. Some businesses need both; others need just one. We help you scope the right system for your actual requirements.',
+        q: 'What is the difference between CRM and ERP software?',
+        a: 'CRM software focuses on managing customer relationships, sales pipelines, marketing, and customer support, while ERP software manages internal business operations such as finance, inventory, HR, procurement, manufacturing, and reporting. Many growing businesses benefit from integrating both systems into a single platform.',
       },
       {
-        q: 'Why build a custom CRM or ERP instead of using Salesforce, Zoho, or SAP?',
-        a: 'Off-the-shelf CRM and ERP tools work well for businesses with standard workflows. If your sales process, reporting hierarchy, approval workflows, or integration requirements deviate significantly from the norm - which is common in Indian manufacturing, logistics, and consulting businesses - you end up spending as much on customization and workarounds as a custom build would cost, but with less control and recurring licensing fees forever.',
+        q: 'Should my business build a CRM, an ERP, or both?',
+        a: 'The right solution depends on your business processes. Companies primarily focused on sales and customer management usually begin with a CRM, while organizations managing inventory, finance, HR, or production often require an ERP. Businesses with multiple departments frequently benefit from an integrated CRM and ERP platform.',
       },
       {
         q: 'How much does custom CRM or ERP development cost in India?',
-        a: 'Custom CRM development in India starts around ₹3,00,000 for a focused sales pipeline and contact management tool. Comprehensive ERP systems with multiple operational modules range from ₹10,00,000 to ₹30,00,000 depending on module count, user volume, and integration complexity.',
+        a: 'The cost depends on the number of modules, workflow complexity, integrations, reporting requirements, security, user roles, and scalability. After understanding your business processes, we provide a detailed project scope and transparent development estimate.',
       },
       {
-        q: 'How long does it take to build?',
-        a: 'A focused CRM system typically takes 2-4 months. A multi-module ERP covering finance, HR, inventory, and operations takes 5-9 months. We deliver in phases so you start using core modules while additional ones are being developed.',
+        q: 'Can you migrate our existing Excel sheets or legacy software into a new CRM or ERP?',
+        a: 'Yes. We help businesses migrate data from spreadsheets, desktop applications, legacy software, and existing databases into modern cloud-based CRM and ERP systems while maintaining data accuracy and minimizing operational disruption.',
       },
       {
-        q: 'Can you migrate our data from existing systems?',
-        a: 'Yes. Data migration from Excel spreadsheets, legacy software, Tally, older CRM systems, or existing databases is a standard part of our delivery. We handle extraction, transformation, validation, and import - with zero-loss migration verified before cutover.',
+        q: 'Can the CRM or ERP integrate with third-party software?',
+        a: 'Absolutely. We develop secure integrations with payment gateways, accounting software, ERP systems, WhatsApp Business, email platforms, logistics providers, cloud services, and custom APIs to create a connected business ecosystem.',
       },
       {
-        q: 'Do you integrate with payment, communication, and analytics tools?',
-        a: 'Yes. CRM and ERP integrations with Razorpay, WhatsApp Business API, email platforms, accounting software (Tally, Zoho Books), and analytics dashboards are common components of our builds.',
+        q: 'Which industries do you develop CRM and ERP software for?',
+        a: 'We build custom business software for manufacturing, logistics, healthcare, finance, education, retail, professional services, construction, real estate, technology companies, and many other industries requiring workflow automation and centralized business management.',
       },
       {
-        q: 'Do you serve businesses in Mumbai and Pune?',
-        a: 'Yes. We build custom CRM and ERP systems for companies across Mumbai and Pune - including manufacturing businesses, logistics operators, consulting firms, and retail organizations.',
+        q: 'Can multiple departments use the same CRM or ERP platform?',
+        a: 'Yes. Our platforms support role-based access control, allowing departments such as sales, finance, HR, inventory, procurement, management, and customer support to securely access the information relevant to their responsibilities.',
+      },
+      {
+        q: 'Is the CRM or ERP scalable as our business grows?',
+        a: 'Yes. Every platform is architected for scalability so additional users, departments, business modules, reports, integrations, and automation workflows can be added as your organization expands.',
+      },
+      {
+        q: 'Do you provide support and maintenance after deployment?',
+        a: 'Yes. We offer ongoing maintenance, performance optimization, security updates, feature enhancements, cloud infrastructure support, and long-term technical assistance to ensure your business software continues to evolve with your organization.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for CRM and ERP development?',
+        a: 'We build architecture-first CRM and ERP solutions using modern technologies such as Next.js, React, Node.js, PostgreSQL, and cloud infrastructure. Every platform is engineered specifically for your business workflows, emphasizing scalability, security, performance, and long-term maintainability rather than generic templates.',
       },
     ],
     offer: [300000, 3000000],
@@ -1411,57 +1423,57 @@ export const serviceData = {
     description:
       'Void Matrix Technology builds SaaS products in India for founders and technology companies who want to launch recurring-revenue software businesses - built on architecture that can scale from 10 paying users to 10,000 without a complete rebuild. Based in Mumbai, we work with SaaS founders in Mumbai, Pune, Bangalore, and across India building vertical SaaS tools, horizontal productivity software, API products, and enterprise SaaS platforms. SaaS development requires specific architectural thinking that standard app development does not: multi-tenant data isolation, subscription billing with plan management and dunning, usage metering, role-based access control across organizations, onboarding flows designed for self-serve activation, and admin infrastructure for managing the platform at scale. We handle every layer - product scoping, technical architecture, frontend and backend development, subscription billing integration, cloud deployment, and post-launch iteration - delivering a SaaS product your first customers can adopt confidently and your business can grow on.',
     faqs: [
-  {
-    q: 'How much does SaaS development cost in India?',
-    a:
-      'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
-  },
-  {
-    q: 'How long does it take to build a SaaS MVP?',
-    a:
-      'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
-  },
-  {
-    q: 'What technologies do you use for SaaS development?',
-    a:
-      'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
-  },
-  {
-    q: 'Can you build a multi-tenant SaaS platform?',
-    a:
-      'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
-  },
-  {
-    q: 'Do you develop SaaS products for startups as well as enterprises?',
-    a:
-      'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
-  },
-  {
-    q: 'Can you modernize or rebuild an existing SaaS application?',
-    a:
-      'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
-  },
-  {
-    q: 'Do you integrate payment gateways and subscription billing?',
-    a:
-      'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
-  },
-  {
-    q: 'Will my SaaS platform be scalable as my business grows?',
-    a:
-      'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
-  },
-  {
-    q: 'Do you provide support after the SaaS product is launched?',
-    a:
-      'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
-  },
-  {
-    q: 'Why choose Void Matrix Technology for SaaS development?',
-    a:
-      'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
-  },
-],
+      {
+        q: 'How much does SaaS development cost in India?',
+        a:
+          'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
+      },
+      {
+        q: 'How long does it take to build a SaaS MVP?',
+        a:
+          'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
+      },
+      {
+        q: 'What technologies do you use for SaaS development?',
+        a:
+          'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
+      },
+      {
+        q: 'Can you build a multi-tenant SaaS platform?',
+        a:
+          'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
+      },
+      {
+        q: 'Do you develop SaaS products for startups as well as enterprises?',
+        a:
+          'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
+      },
+      {
+        q: 'Can you modernize or rebuild an existing SaaS application?',
+        a:
+          'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
+      },
+      {
+        q: 'Do you integrate payment gateways and subscription billing?',
+        a:
+          'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
+      },
+      {
+        q: 'Will my SaaS platform be scalable as my business grows?',
+        a:
+          'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
+      },
+      {
+        q: 'Do you provide support after the SaaS product is launched?',
+        a:
+          'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for SaaS development?',
+        a:
+          'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
+      },
+    ],
     offer: [500000, 3000000],
   },
 

@@ -98,12 +98,55 @@ export default function EnterpriseSoftwareDev() {
   return (
     <>
       <Hero
-        title="Enterprise Software Development Company in India"
-        subtitle="We design scalable enterprise software systems for organizations, startups, and enterprises across Mumbai, Pune, and India."
-        ctaLable="Discuss Enterprise Project"
-        ctaRoute="/contact"
+        eyebrow="Enterprise Software Development Company in Mumbai, India"
+        title={
+          <>
+            Enterprise <span className="text-(--primary)">Software Solutions</span>{" "}
+            For Organizations Across{" "}
+            <span className="text-(--primary)">Mumbai</span> and{" "}
+            <span className="text-(--primary)">India</span>
+          </>
+        }
+        herosub={
+          <>
+            <div className="my-2.5">
+              <p>
+                <span className="text-white">
+                  Enterprise software should scale with your organization—not limit
+                  it.
+                </span>
+                <br />
+                We design and develop enterprise-grade software that connects
+                departments, automates operations, improves reporting, and supports
+                secure business growth. VMT engineers high-performance enterprise
+                systems for organizations across Mumbai, Pune, India, and
+                international markets.
+              </p>
+            </div>
+          </>
+        }
+        subtitle={
+          <>
+            <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
+              <span>
+                Enterprise Ready
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                <span className="text-(--primary)">Secure</span> Architecture
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Built for <span className="text-(--primary)">Scale</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Long-term <span className="text-(--primary)">Support</span>
+              </span>
+            </div>
+          </>
+        }
       />
-
       <WhaIsService heading="What is Enterprise Software Development?" contents={contents} />
 
       <ServiceCoreSection

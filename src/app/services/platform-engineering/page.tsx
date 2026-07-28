@@ -45,10 +45,52 @@ export default function PlatformEngineering() {
   return (
     <>
       <Hero
-        title="Platform Engineering Services in India"
-        subtitle="Cloud infrastructure and developer platforms for scalable digital products."
-        ctaLable="Discuss Platform Architecture"
-        ctaRoute="/contact"
+        eyebrow="Platform Engineering Services in Mumbai, India"
+        title={
+          <>
+            Modern <span className="text-(--primary)">Platform Engineering</span> For
+            High-Growth Businesses Across{" "}
+            <span className="text-(--primary)">Mumbai</span> and{" "}
+            <span className="text-(--primary)">India</span>
+          </>
+        }
+        herosub={
+          <>
+            <div className="my-2.5">
+              <p>
+                <span className="text-white">
+                  Great software starts with a reliable platform.
+                </span>
+                <br />
+                We build cloud-native platforms that enable faster development,
+                scalable infrastructure, automated deployments, and resilient systems.
+                VMT helps startups and enterprises create engineering platforms that
+                improve developer productivity and support long-term business growth.
+              </p>
+            </div>
+          </>
+        }
+        subtitle={
+          <>
+            <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
+              <span>
+                Cloud <span className="text-(--primary)">Native</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                DevOps <span className="text-(--primary)">Ready</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Scalable <span className="text-(--primary)">Infrastructure</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Enterprise <span className="text-(--primary)">Architecture</span>
+              </span>
+            </div>
+          </>
+        }
       />
 
       <WhaIsService heading="What is Platform Engineering?" contents={contents} />

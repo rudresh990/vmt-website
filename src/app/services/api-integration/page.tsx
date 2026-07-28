@@ -43,10 +43,53 @@ export default function ApiIntegration() {
   return (
     <>
       <Hero
-        title="API Development & Integration Services in India"
-        subtitle="Secure APIs and system integrations for SaaS platforms and enterprise systems."
-        ctaLable="Discuss API Integration"
-        ctaRoute="/contact"
+        eyebrow="API Development & Integration Company in Mumbai, India"
+        title={
+          <>
+            Secure <span className="text-(--primary)">API Development</span> &
+            System Integrations For{" "}
+            <span className="text-(--primary)">Mumbai</span> and{" "}
+            <span className="text-(--primary)">India</span>
+          </>
+        }
+        herosub={
+          <>
+            <div className="my-2.5">
+              <p>
+                <span className="text-white">
+                  Connect your applications, automate data flow, and eliminate manual
+                  processes.
+                </span>
+                <br />
+                VMT develops secure REST APIs, backend services, and third-party
+                integrations that enable SaaS platforms, enterprise applications, and
+                business systems to communicate reliably. Our API-first architecture
+                ensures scalability, security, and long-term maintainability.
+              </p>
+            </div>
+          </>
+        }
+        subtitle={
+          <>
+            <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
+              <span>
+                REST & <span className="text-(--primary)">GraphQL</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                <span className="text-(--primary)">Secure</span> Integrations
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                API-<span className="text-(--primary)">First</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Long-term <span className="text-(--primary)">Support</span>
+              </span>
+            </div>
+          </>
+        }
       />
 
       <WhaIsService heading="What is API Development & Integration?" contents={contents} />

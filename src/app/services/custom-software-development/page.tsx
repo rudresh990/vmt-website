@@ -117,10 +117,54 @@ export default function CustomSoftwareDev() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       /> */}
       <Hero
-        title="Custom Software Development Company in India"
-        subtitle="Scalable, secure, and performance-driven custom software solutions for startups, enterprises, and growing businesses across India."
-        ctaLable="Get Custom Software Estimate"
-        ctaRoute="/software-development-cost-estimator"
+        eyebrow="Custom Software Development Company in Mumbai, India"
+        title={
+          <>
+            Custom <span className="text-(--primary)">Software Solutions</span> For
+            Businesses Across <span className="text-(--primary)">Mumbai</span> and{" "}
+            <span className="text-(--primary)">India</span>
+          </>
+        }
+        herosub={
+          <>
+            <div className="my-2.5">
+              <p>
+                <span className="text-white">
+                  Your business deserves software built around your processes—not the
+                  other way around.
+                </span>
+                <br />
+                VMT develops custom software solutions that automate workflows,
+                improve operational efficiency, and support long-term business growth.
+                Using modern technologies like Next.js, React, Node.js, and
+                PostgreSQL, we build scalable, secure, and maintainable software for
+                startups, SMEs, and enterprises across Mumbai, Pune, India, and
+                global markets.
+              </p>
+            </div>
+          </>
+        }
+        subtitle={
+          <>
+            <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
+              <span>
+                Projects from <span className="text-(--primary)">₹1.5L</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                <span className="text-(--primary)">NDA</span> Protected
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Architecture-<span className="text-(--primary)">First</span>
+              </span>
+              <span className="text-glow">|</span>
+              <span>
+                Long-term <span className="text-(--primary)">Support</span>
+              </span>
+            </div>
+          </>
+        }
       />
       <WhaIsService heading="What is Custom Software Development?" contents={contents} />
       <ServiceCoreSection
