@@ -2074,35 +2074,47 @@ export const serviceData = {
     description:
       'Void Matrix Technology provides workflow automation services in India for businesses that are still doing manually what software should be doing automatically - losing hours every week to data entry, copy-paste between systems, manual reporting, and status update emails. Based in Mumbai, we design and build workflow automation solutions for SMEs, startups, and enterprises across Mumbai, Pune, Bangalore, and India in retail, logistics, consulting, healthcare, and technology sectors. The arithmetic on automation is usually compelling: if a process takes 10 hours per week at ₹500/hour and automation costs ₹2,00,000, it pays back in 40 weeks - then saves money every week indefinitely. Our automation team uses custom code, API integrations, and no-code/low-code platforms (Zapier, Make, n8n) to connect systems and trigger actions automatically - from lead routing and invoice generation to inventory updates, approval workflows, and customer communication sequences. We map the process, design the automation, build and test it rigorously, and document it so your team understands and can maintain what we build.',
     faqs: [
-      {
-        q: 'Which business processes are best suited for automation?',
-        a: 'The best automation candidates are: high-volume, repetitive processes (data entry, report generation, invoice creation), multi-system data synchronization (CRM to accounting, eCommerce to inventory, form submissions to CRM), time-sensitive notifications (payment confirmations, order status updates, lead alerts), approval workflows (expense approvals, content reviews, contract routing), and data aggregation for reporting. Any process that involves copying data from one system to another is a strong automation candidate.',
-      },
-      {
-        q: 'How much does workflow automation cost in India?',
-        a: 'Automation projects in India range from ₹75,000 for a focused single-process automation to ₹5,00,000 or more for complex multi-system workflow automation programs covering multiple business processes with monitoring and alerting infrastructure.',
-      },
-      {
-        q: 'Do you use no-code tools like Zapier or custom code?',
-        a: 'Both - and we recommend based on the use case. Zapier, Make (Integromat), and n8n are excellent for straightforward integrations between common SaaS tools. Custom code is needed for complex business logic, high-volume processing, sensitive data that should not pass through third-party automation platforms, or integrations with custom internal systems. We use the right tool for the job, not a single preferred approach.',
-      },
-      {
-        q: 'How do you ensure automated workflows do not fail silently?',
-        a: 'Every automation we build includes error handling, failure alerting, and execution logging. When an automation step fails, the right person is notified immediately with enough context to diagnose the issue - not discovered 3 days later when someone notices a data gap.',
-      },
-      {
-        q: 'Can you automate workflows that span multiple systems?',
-        a: 'Yes - multi-system workflow automation is typically where the biggest efficiency gains are. Common examples: new lead in Google Ads → CRM contact creation → sales team WhatsApp notification → welcome email sequence trigger → pipeline stage update. We design end-to-end automation that spans the complete process, not individual tool connections.',
-      },
-      {
-        q: 'How long does automation implementation take?',
-        a: 'A focused single-process automation takes 1-2 weeks. Complex multi-system workflow programs take 4-8 weeks. Timeline depends on the number of systems involved, data transformation complexity, and testing requirements.',
-      },
-      {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We automate business processes for companies across Mumbai and Pune - helping operations, sales, and finance teams recover significant time from manual workflows.',
-      },
-    ],
+  {
+    q: 'What is workflow automation?',
+    a: 'Workflow automation uses software to automate repetitive business processes, approvals, notifications, and data movement based on predefined rules. It reduces manual work, improves operational efficiency, minimizes errors, and helps organizations complete tasks faster while maintaining consistency across departments.',
+  },
+  {
+    q: 'What business processes can be automated?',
+    a: 'Almost any repetitive business process can be automated, including approval workflows, employee onboarding, purchase requests, invoice processing, customer onboarding, document management, lead assignment, support ticket routing, inventory updates, procurement, HR operations, and recurring administrative tasks.',
+  },
+  {
+    q: 'How much does workflow automation software cost in India?',
+    a: 'The cost depends on the number of workflows, business rules, integrations, users, reporting requirements, and overall platform complexity. After understanding your operational requirements, we provide a detailed project scope with transparent pricing.',
+  },
+  {
+    q: 'Can workflow automation integrate with our existing CRM or ERP?',
+    a: 'Yes. We develop workflow automation platforms that integrate seamlessly with CRM systems, ERP software, HR platforms, accounting software, payment gateways, communication tools, and custom business applications using secure APIs.',
+  },
+  {
+    q: 'Is workflow automation suitable for small and medium-sized businesses?',
+    a: 'Absolutely. Small and medium-sized businesses often benefit the most because automation reduces administrative overhead, improves employee productivity, and enables teams to scale operations without significantly increasing staffing costs.',
+  },
+  {
+    q: 'Can approval workflows be automated?',
+    a: 'Yes. We develop approval workflow systems for finance, HR, procurement, purchase orders, quotations, contracts, reimbursements, leave requests, vendor onboarding, and other business processes that require one or multiple approval levels.',
+  },
+  {
+    q: 'Can you automate paper-based or spreadsheet-driven processes?',
+    a: 'Yes. We help organizations digitize manual workflows by replacing paper forms, spreadsheets, emails, and legacy approval processes with secure cloud-based workflow automation software that improves visibility, collaboration, and efficiency.',
+  },
+  {
+    q: 'How long does it take to build workflow automation software?',
+    a: 'Project timelines depend on the number of workflows, integrations, users, and business complexity. Smaller automation projects may take a few weeks, while enterprise workflow automation platforms with multiple departments typically require several months of structured development.',
+  },
+  {
+    q: 'Will the workflow automation platform grow with our business?',
+    a: 'Yes. Every workflow automation solution we develop is built using scalable architecture that allows additional workflows, departments, integrations, dashboards, users, and business modules to be added as your organization continues to grow.',
+  },
+  {
+    q: 'Why choose Void Matrix Technology for workflow automation development?',
+    a: 'We engineer custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every solution is built around your existing business processes with an architecture-first approach that emphasizes scalability, security, performance, maintainability, and long-term business value.',
+  },
+],
     offer: [75000, 500000],
   },
 } satisfies Record<string, servicePage>;
