@@ -1350,32 +1350,44 @@ export const serviceData = {
       'Void Matrix Technology provides product engineering services in India for startups and technology companies that need a technical partner who thinks about the product, not just the code. Based in Mumbai, we work as an embedded product engineering team for founders and product leaders in Mumbai, Pune, Bangalore, and across India who need full-stack technical execution combined with the product judgment to know what to build, how to build it, and when to cut scope. Product engineering is the discipline of building software products users actually want to use - combining frontend and backend development, API design, cloud deployment, and iterative quality improvement with the product thinking that ensures engineering effort goes toward features that create business value. We build SaaS products, consumer applications, B2B platforms, and internal tools on React, Node.js, and cloud infrastructure, using agile sprint delivery that gives you visibility into progress every two weeks rather than a finished product at the end.',
     faqs: [
       {
-        q: 'How is product engineering different from custom software development?',
-        a: 'Custom software development is typically project-based and output-focused - you define requirements, we build to spec. Product engineering is more collaborative and iterative - we work with you to shape what to build, build it in short cycles, learn from usage, and continuously improve. The relationship is ongoing rather than project-bounded, and we bring product thinking to engineering decisions rather than just implementing specifications.',
+        q: 'What is product engineering?',
+        a: 'Product engineering is the end-to-end process of designing, developing, launching, maintaining, and continuously improving digital products. It combines product strategy, software engineering, cloud infrastructure, security, and continuous innovation to build products that remain scalable and competitive throughout their lifecycle.',
       },
       {
-        q: 'How much does product engineering cost in India?',
-        a: 'Product engineering engagements in India range from ₹3,00,000 for a focused MVP build to ₹25,00,000 or more for a full product team engagement over 6-12 months. We typically structure engagements as monthly sprint retainers after an initial discovery and architecture phase.',
+        q: 'How is product engineering different from software development?',
+        a: 'Software development typically focuses on delivering a predefined application, while product engineering covers the entire lifecycle of a product—from idea validation and architecture to product launch, scaling, modernization, and continuous improvement. It is a long-term engineering approach rather than a one-time development project.',
       },
       {
-        q: 'Do you build SaaS products end-to-end?',
-        a: 'Yes. SaaS product engineering is a core specialty - we handle product scoping, architecture design, multi-tenant database design, subscription billing integration, user management, feature development, admin dashboards, and cloud deployment through to production launch and beyond.',
+        q: 'Can you build MVPs for startups?',
+        a: 'Yes. We develop Minimum Viable Products (MVPs) that allow startups to validate business ideas, launch faster, gather user feedback, and attract investors. Every MVP is designed with scalable architecture so it can evolve into a complete production-ready product without rebuilding the foundation.',
       },
       {
-        q: 'Can you work as our dedicated product engineering team?',
-        a: 'Yes. For startups that need full-stack engineering capacity without building an in-house team, we work as a dedicated product engineering partner - typically a team of 2-5 engineers with a technical lead - operating as an extension of your team with full sprint participation, daily standups if needed, and direct access to engineers.',
+        q: 'Which technologies do you use for product engineering?',
+        a: 'Our engineering team builds digital products using modern technologies including Next.js, React, TypeScript, Node.js, PostgreSQL, REST APIs, Docker, cloud infrastructure, and scalable backend architectures selected according to each product’s requirements.',
       },
       {
-        q: 'What does your development process look like?',
-        a: 'We work in 2-week sprints with sprint planning at the start, a mid-sprint check-in, and a review and retrospective at the end. Every sprint ends with working, deployed software you can test in a staging environment. Nothing ships to production without passing code review and automated tests.',
+        q: 'Can you modernize our existing software product?',
+        a: 'Yes. We help businesses modernize legacy applications by upgrading outdated technologies, improving performance, redesigning user experiences, migrating to cloud-native architectures, strengthening security, and implementing scalable engineering practices while minimizing business disruption.',
       },
       {
-        q: 'How do you handle technical decisions?',
-        a: 'Technical decisions are documented, reasoned, and transparent. We write architecture decision records (ADRs) for significant choices so you understand why the system is built the way it is - reducing your dependency on institutional knowledge and making future changes easier.',
+        q: 'How much do product engineering services cost in India?',
+        a: 'The investment depends on the product scope, engineering complexity, integrations, infrastructure, security, and long-term roadmap. After understanding your business objectives and technical requirements, we provide a detailed proposal with transparent pricing and phased development recommendations.',
       },
       {
-        q: 'Do you work with companies in Mumbai and Pune?',
-        a: 'Yes. We partner with startups and product companies across Mumbai and Pune - as both project-based engineers and as long-term dedicated product engineering teams.',
+        q: 'Do you provide product engineering for enterprises?',
+        a: 'Yes. We work with startups, SMEs, and enterprise organizations to develop customer-facing applications, SaaS products, internal platforms, enterprise portals, and mission-critical software engineered for scalability, security, and long-term growth.',
+      },
+      {
+        q: 'Can you scale our product after launch?',
+        a: 'Absolutely. Product engineering continues after launch. We provide infrastructure scaling, performance optimization, new feature development, cloud optimization, analytics, monitoring, security updates, and ongoing engineering support to help products grow with increasing user demand.',
+      },
+      {
+        q: 'Do you offer dedicated product engineering teams?',
+        a: 'Yes. Businesses can work with dedicated cross-functional engineering teams including product engineers, frontend developers, backend developers, UI/UX designers, QA engineers, DevOps specialists, and technical architects depending on project requirements.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for product engineering?',
+        a: 'Void Matrix Technology builds architecture-first digital products designed for long-term success. We combine product strategy, modern engineering, cloud-native development, scalable architecture, security, and continuous product evolution to help startups and enterprises transform ideas into successful digital products.',
       },
     ],
     offer: [300000, 2500000],
@@ -2074,47 +2086,47 @@ export const serviceData = {
     description:
       'Void Matrix Technology provides workflow automation services in India for businesses that are still doing manually what software should be doing automatically - losing hours every week to data entry, copy-paste between systems, manual reporting, and status update emails. Based in Mumbai, we design and build workflow automation solutions for SMEs, startups, and enterprises across Mumbai, Pune, Bangalore, and India in retail, logistics, consulting, healthcare, and technology sectors. The arithmetic on automation is usually compelling: if a process takes 10 hours per week at ₹500/hour and automation costs ₹2,00,000, it pays back in 40 weeks - then saves money every week indefinitely. Our automation team uses custom code, API integrations, and no-code/low-code platforms (Zapier, Make, n8n) to connect systems and trigger actions automatically - from lead routing and invoice generation to inventory updates, approval workflows, and customer communication sequences. We map the process, design the automation, build and test it rigorously, and document it so your team understands and can maintain what we build.',
     faqs: [
-  {
-    q: 'What is workflow automation?',
-    a: 'Workflow automation uses software to automate repetitive business processes, approvals, notifications, and data movement based on predefined rules. It reduces manual work, improves operational efficiency, minimizes errors, and helps organizations complete tasks faster while maintaining consistency across departments.',
-  },
-  {
-    q: 'What business processes can be automated?',
-    a: 'Almost any repetitive business process can be automated, including approval workflows, employee onboarding, purchase requests, invoice processing, customer onboarding, document management, lead assignment, support ticket routing, inventory updates, procurement, HR operations, and recurring administrative tasks.',
-  },
-  {
-    q: 'How much does workflow automation software cost in India?',
-    a: 'The cost depends on the number of workflows, business rules, integrations, users, reporting requirements, and overall platform complexity. After understanding your operational requirements, we provide a detailed project scope with transparent pricing.',
-  },
-  {
-    q: 'Can workflow automation integrate with our existing CRM or ERP?',
-    a: 'Yes. We develop workflow automation platforms that integrate seamlessly with CRM systems, ERP software, HR platforms, accounting software, payment gateways, communication tools, and custom business applications using secure APIs.',
-  },
-  {
-    q: 'Is workflow automation suitable for small and medium-sized businesses?',
-    a: 'Absolutely. Small and medium-sized businesses often benefit the most because automation reduces administrative overhead, improves employee productivity, and enables teams to scale operations without significantly increasing staffing costs.',
-  },
-  {
-    q: 'Can approval workflows be automated?',
-    a: 'Yes. We develop approval workflow systems for finance, HR, procurement, purchase orders, quotations, contracts, reimbursements, leave requests, vendor onboarding, and other business processes that require one or multiple approval levels.',
-  },
-  {
-    q: 'Can you automate paper-based or spreadsheet-driven processes?',
-    a: 'Yes. We help organizations digitize manual workflows by replacing paper forms, spreadsheets, emails, and legacy approval processes with secure cloud-based workflow automation software that improves visibility, collaboration, and efficiency.',
-  },
-  {
-    q: 'How long does it take to build workflow automation software?',
-    a: 'Project timelines depend on the number of workflows, integrations, users, and business complexity. Smaller automation projects may take a few weeks, while enterprise workflow automation platforms with multiple departments typically require several months of structured development.',
-  },
-  {
-    q: 'Will the workflow automation platform grow with our business?',
-    a: 'Yes. Every workflow automation solution we develop is built using scalable architecture that allows additional workflows, departments, integrations, dashboards, users, and business modules to be added as your organization continues to grow.',
-  },
-  {
-    q: 'Why choose Void Matrix Technology for workflow automation development?',
-    a: 'We engineer custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every solution is built around your existing business processes with an architecture-first approach that emphasizes scalability, security, performance, maintainability, and long-term business value.',
-  },
-],
+      {
+        q: 'What is workflow automation?',
+        a: 'Workflow automation uses software to automate repetitive business processes, approvals, notifications, and data movement based on predefined rules. It reduces manual work, improves operational efficiency, minimizes errors, and helps organizations complete tasks faster while maintaining consistency across departments.',
+      },
+      {
+        q: 'What business processes can be automated?',
+        a: 'Almost any repetitive business process can be automated, including approval workflows, employee onboarding, purchase requests, invoice processing, customer onboarding, document management, lead assignment, support ticket routing, inventory updates, procurement, HR operations, and recurring administrative tasks.',
+      },
+      {
+        q: 'How much does workflow automation software cost in India?',
+        a: 'The cost depends on the number of workflows, business rules, integrations, users, reporting requirements, and overall platform complexity. After understanding your operational requirements, we provide a detailed project scope with transparent pricing.',
+      },
+      {
+        q: 'Can workflow automation integrate with our existing CRM or ERP?',
+        a: 'Yes. We develop workflow automation platforms that integrate seamlessly with CRM systems, ERP software, HR platforms, accounting software, payment gateways, communication tools, and custom business applications using secure APIs.',
+      },
+      {
+        q: 'Is workflow automation suitable for small and medium-sized businesses?',
+        a: 'Absolutely. Small and medium-sized businesses often benefit the most because automation reduces administrative overhead, improves employee productivity, and enables teams to scale operations without significantly increasing staffing costs.',
+      },
+      {
+        q: 'Can approval workflows be automated?',
+        a: 'Yes. We develop approval workflow systems for finance, HR, procurement, purchase orders, quotations, contracts, reimbursements, leave requests, vendor onboarding, and other business processes that require one or multiple approval levels.',
+      },
+      {
+        q: 'Can you automate paper-based or spreadsheet-driven processes?',
+        a: 'Yes. We help organizations digitize manual workflows by replacing paper forms, spreadsheets, emails, and legacy approval processes with secure cloud-based workflow automation software that improves visibility, collaboration, and efficiency.',
+      },
+      {
+        q: 'How long does it take to build workflow automation software?',
+        a: 'Project timelines depend on the number of workflows, integrations, users, and business complexity. Smaller automation projects may take a few weeks, while enterprise workflow automation platforms with multiple departments typically require several months of structured development.',
+      },
+      {
+        q: 'Will the workflow automation platform grow with our business?',
+        a: 'Yes. Every workflow automation solution we develop is built using scalable architecture that allows additional workflows, departments, integrations, dashboards, users, and business modules to be added as your organization continues to grow.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for workflow automation development?',
+        a: 'We engineer custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every solution is built around your existing business processes with an architecture-first approach that emphasizes scalability, security, performance, maintainability, and long-term business value.',
+      },
+    ],
     offer: [75000, 500000],
   },
 } satisfies Record<string, servicePage>;
