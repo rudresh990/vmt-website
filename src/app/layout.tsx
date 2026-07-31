@@ -3,6 +3,7 @@ import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/footer';
 import { Inter, IBM_Plex_Sans } from 'next/font/google';
 import Script from 'next/script';
+import {GoogleTagManager} from "@next/third-parties/google";
 import './styles/globals.css';
 import WhatsAppButton from '@/components/common/WhatsAppButton';
 import SchemaInjector from '@/components/schema/SchemaInjector';
@@ -129,6 +130,7 @@ export default async function RootLayout({
         <footer>
           <Footer />
         </footer>
+        <GoogleTagManager gtmId="GTM-NZH23L7Z" />
       </body>
     </html>
   );
