@@ -322,27 +322,47 @@ export const serviceData = {
       'Void Matrix Technology provides ongoing website and web application maintenance for businesses that require security, reliability, and continuous improvements after launch. Our maintenance plans include software updates, security monitoring, backups, bug fixing, performance optimisation, uptime monitoring, technical support, and feature enhancements. Whether your website was developed by VMT or another agency, we ensure it remains secure, fast, and ready for future growth.',
 
     faqs: [
-      {
-        q: 'How much does website maintenance cost in India?',
-        a: 'Professional website maintenance plans typically start from ₹15,000 per month for routine updates, backups, monitoring, and support. Larger websites, eCommerce platforms, and custom web applications generally require plans ranging from ₹30,000 to ₹2,50,000+ per month depending on complexity and support requirements.',
-      },
-      {
-        q: 'Can you maintain websites developed by another agency?',
-        a: 'Yes. We regularly take over maintenance for websites and web applications developed by other companies after performing a technical audit of the existing codebase and infrastructure.',
-      },
-      {
-        q: 'Do you provide emergency support?',
-        a: 'Yes. Priority support plans include rapid response for downtime, production bugs, security incidents, and critical business issues to minimise disruption.',
-      },
-      {
-        q: 'Do maintenance plans include feature development?',
-        a: 'Minor enhancements are typically included within the allocated support hours. Larger features are estimated separately to ensure transparent pricing and project planning.',
-      },
-      {
-        q: 'Do you work with clients outside Mumbai across India and internationally?',
-        a: 'Yes. While Void Matrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
-      },
-    ],
+  {
+    q: 'What are software maintenance and support services?',
+    a: 'Software maintenance and support services keep applications secure, stable, and high-performing after deployment. They include bug fixes, security updates, framework upgrades, performance optimization, cloud monitoring, feature enhancements, and ongoing technical support.',
+  },
+  {
+    q: 'Why is software maintenance important?',
+    a: 'Regular maintenance prevents security vulnerabilities, reduces downtime, improves application performance, ensures compatibility with modern technologies, and extends the lifespan of your software. Proactive maintenance is significantly more cost-effective than fixing critical failures after they occur.',
+  },
+  {
+    q: 'What types of software do you maintain?',
+    a: 'We maintain SaaS platforms, web applications, enterprise software, CRM systems, ERP solutions, eCommerce platforms, internal business applications, APIs, customer portals, and custom software built using modern or legacy technologies.',
+  },
+  {
+    q: 'Do you provide Annual Maintenance Contracts (AMC)?',
+    a: 'Yes. We offer flexible Annual Maintenance Contracts (AMC) and monthly maintenance plans that include monitoring, bug fixes, security updates, technical support, performance optimization, infrastructure management, and ongoing software improvements based on your business requirements.',
+  },
+  {
+    q: 'Can you maintain software developed by another company?',
+    a: 'Absolutely. Our engineers can review existing applications, understand the architecture, perform technical audits, resolve outstanding issues, and provide long-term maintenance even if the software was developed by another vendor.',
+  },
+  {
+    q: 'How much do software maintenance services cost?',
+    a: 'The cost depends on application size, technology stack, cloud infrastructure, business criticality, support coverage, response times, and maintenance scope. After assessing your software, we provide a transparent proposal tailored to your support requirements.',
+  },
+  {
+    q: 'Do you provide emergency support for critical issues?',
+    a: 'Yes. We offer priority support for production issues, critical bugs, security incidents, server failures, and application downtime. Response times depend on the selected maintenance plan or SLA.',
+  },
+  {
+    q: 'Can you improve software performance as part of maintenance?',
+    a: 'Yes. Our maintenance services include database optimization, API tuning, caching strategies, server optimization, cloud infrastructure improvements, code refactoring, and performance monitoring to keep applications fast and reliable.',
+  },
+  {
+    q: 'Do you support cloud-hosted applications?',
+    a: 'Yes. We maintain applications hosted on modern cloud platforms, providing server management, monitoring, backups, deployment support, scalability planning, security updates, and infrastructure optimization.',
+  },
+  {
+    q: 'Why choose Void Matrix Technology for software maintenance?',
+    a: 'Void Matrix Technology provides proactive, architecture-aware maintenance rather than reactive bug fixing. Our engineering team focuses on security, performance, scalability, monitoring, and continuous improvements to ensure your software remains reliable, future-ready, and aligned with your business goals.',
+  },
+],
 
     offer: [15000, 250000],
   },
@@ -671,35 +691,47 @@ export const serviceData = {
     description:
       'Void Matrix Technology builds CMS platforms in India for businesses whose marketing and content teams need to publish and update website content without filing a developer ticket every time. Based in Mumbai, we develop headless CMS architectures, custom admin panels, and editorial platforms for corporate websites, media properties, eCommerce stores, and SaaS marketing sites across Mumbai, Pune, Bangalore, and beyond. The right CMS investment pays back quickly - when your team can publish a new service page, update pricing, or push a blog post independently, content velocity increases and developer bandwidth goes toward product work. We implement headless CMS solutions using Sanity, Contentful, and Strapi for modern frontend architectures, and WordPress-based systems for teams comfortable in that ecosystem. We build content models, editorial workflows, media management, multi-language support, and SEO-friendly publishing systems - and we document everything so your team can operate independently from day one.',
     faqs: [
-      {
-        q: 'What is CMS development and what problem does it solve?',
-        a: 'CMS development involves building or implementing a content management system that lets your team create, edit, and publish website content without developer involvement. It solves the bottleneck where every content update - a new blog post, a pricing change, a team page edit - requires engineering time that should be spent on product development.',
-      },
-      {
-        q: 'Should I use a headless CMS or a traditional CMS like WordPress?',
-        a: 'Headless CMS (Sanity, Contentful, Strapi) is the right choice if your website is built on Next.js or another modern frontend framework - it gives your developers full control over the frontend while editors get a clean publishing interface. WordPress is appropriate if your team is already familiar with it and your site does not have complex frontend requirements. We guide you to the right decision based on your stack and team.',
-      },
-      {
-        q: 'How much does CMS development cost in India?',
-        a: 'CMS development in India ranges from ₹75,000 for integrating a headless CMS into an existing website to ₹6,00,000 for a custom-built editorial platform with complex content models, multi-language support, and workflow approvals.',
-      },
-      {
-        q: 'Do you build custom CMS admin panels?',
-        a: 'Yes. For businesses with very specific editorial workflows or content types that off-the-shelf CMS platforms handle poorly, we build custom admin panels tailored to exactly how your team works.',
-      },
-      {
-        q: 'Do you support multi-language content?',
-        a: 'Yes. We build multilingual CMS setups for businesses targeting both Indian regional audiences and international markets - with proper locale management, translation workflows, and hreflang implementation.',
-      },
-      {
-        q: 'Do you integrate the CMS with our existing website or platform?',
-        a: 'Yes - CMS integration into existing platforms is a common engagement. We map your current content, design the appropriate content model, integrate the CMS API with your frontend, and migrate existing content.',
-      },
-      {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We build CMS platforms for businesses and content teams across Mumbai and Pune - including media companies, D2C brands, and B2B service firms with active content programs.',
-      },
-    ],
+  {
+    q: 'What is a Content Management System (CMS)?',
+    a: 'A Content Management System (CMS) is software that enables businesses to create, organize, manage, and publish digital content without modifying application code. Modern CMS platforms support websites, portals, mobile applications, documentation, and omnichannel content delivery.',
+  },
+  {
+    q: 'What is the difference between a traditional CMS and a headless CMS?',
+    a: 'A traditional CMS manages both content and presentation within the same platform, while a headless CMS separates content management from the frontend. This allows content to be delivered through APIs to websites, mobile apps, kiosks, and other digital channels using a single content repository.',
+  },
+  {
+    q: 'Do you build custom CMS solutions?',
+    a: 'Yes. We develop fully custom CMS platforms tailored to your business workflows, user roles, publishing processes, approval systems, and integration requirements. Every solution is designed for security, scalability, and long-term maintainability.',
+  },
+  {
+    q: 'Which CMS technologies do you work with?',
+    a: 'We build modern CMS solutions using Payload CMS, Strapi, Sanity, WordPress (when appropriate), Next.js, React, Node.js, PostgreSQL, REST APIs, and GraphQL. The technology stack is selected based on your business objectives and scalability requirements.',
+  },
+  {
+    q: 'Can you migrate our existing CMS?',
+    a: 'Yes. We migrate websites and applications from legacy or traditional CMS platforms to modern custom or headless CMS architectures while preserving content, media, SEO metadata, URLs, and existing business workflows whenever possible.',
+  },
+  {
+    q: 'How much does CMS development cost?',
+    a: 'The investment depends on the type of CMS, content structure, user roles, workflow complexity, integrations, security requirements, and scalability goals. After understanding your requirements, we provide a transparent proposal with phased development recommendations.',
+  },
+  {
+    q: 'Can a CMS integrate with CRM, ERP, or eCommerce platforms?',
+    a: 'Absolutely. We integrate CMS platforms with CRM systems, ERP software, eCommerce solutions, payment gateways, marketing automation platforms, analytics tools, and other third-party business applications using secure APIs.',
+  },
+  {
+    q: 'Do you provide CMS maintenance and support?',
+    a: 'Yes. We provide ongoing CMS maintenance including security updates, framework upgrades, performance optimization, bug fixes, monitoring, cloud management, feature enhancements, and long-term engineering support.',
+  },
+  {
+    q: 'Is a headless CMS suitable for growing businesses?',
+    a: 'Yes. Headless CMS platforms provide greater flexibility, faster performance, API-first architecture, and omnichannel content delivery, making them an excellent choice for businesses planning long-term digital growth.',
+  },
+  {
+    q: 'Why choose Void Matrix Technology for CMS development?',
+    a: 'Void Matrix Technology builds architecture-first CMS solutions that combine intuitive content management with modern engineering practices. Our custom and headless CMS platforms are secure, scalable, SEO-friendly, and designed to support long-term business growth across websites, applications, and digital ecosystems.',
+  },
+],
     offer: [75000, 600000],
   },
 
