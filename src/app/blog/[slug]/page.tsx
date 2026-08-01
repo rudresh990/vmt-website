@@ -8,6 +8,8 @@ import TrendingSidebar from '@/components/blog/trendingSidebar';
 import RelatedPosts from '@/components/blog/relatedPosts';
 import { schemaFactory } from '@/app/lib/schema/schemaFactory';
 import MainServiceFAQ from '@/components/services/MainServiceFAQ';
+import BlogHero from '@/components/blog/bloghero';
+import ReadingProgress from '@/components/blog/progress';
 
 export const revalidate = 60;
 const getBlog = cache(async (slug: string) => {
@@ -94,6 +96,8 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
     a: item.faq.answer,
   }));
   return (
+    <>
+    <ReadingProgress/>
     <div className="container mx-auto px-4 py-10">
       <script
         type="application/ld+json"
@@ -118,7 +122,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
             )}
           </p>
           <div
-            className="prose prose-invert max-w-none wrap-break-word overflow-hidden"
+            className="relative prose prose-invert max-w-none wrap-break-word overflow-hidden"
             dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
           <div className="flex  flex-wrap gap-3 justify-center items-center mt-4 w-full">
@@ -150,5 +154,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
       </div>
       <RelatedPosts blogId={blog.id} />
     </div>
+
+    </>
   );
 }

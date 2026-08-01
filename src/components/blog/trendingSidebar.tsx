@@ -23,8 +23,8 @@ export default async function TrendingSidebar() {
   if (!blogs.length) return null;
 
   return (
-    <div className="vmt-glass-card p-5">
-      <h3 className="text-lg font-semibold mb-4">Trending Blogs</h3>
+    <div className="vmt-glass-card p-5 no-hover">
+      <h3 className="text-lg font-semibold mb-4 text-white!">Trending Blogs</h3>
       <div className="flex flex-col gap-3">
         {blogs.map((blog, i: number) => (
           <Link key={blog.id} href={`/blog/${blog.slug}`} className="text-sm internal-link">
