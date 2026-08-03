@@ -322,47 +322,47 @@ export const serviceData = {
       'Void Matrix Technology provides ongoing website and web application maintenance for businesses that require security, reliability, and continuous improvements after launch. Our maintenance plans include software updates, security monitoring, backups, bug fixing, performance optimisation, uptime monitoring, technical support, and feature enhancements. Whether your website was developed by VMT or another agency, we ensure it remains secure, fast, and ready for future growth.',
 
     faqs: [
-  {
-    q: 'What are software maintenance and support services?',
-    a: 'Software maintenance and support services keep applications secure, stable, and high-performing after deployment. They include bug fixes, security updates, framework upgrades, performance optimization, cloud monitoring, feature enhancements, and ongoing technical support.',
-  },
-  {
-    q: 'Why is software maintenance important?',
-    a: 'Regular maintenance prevents security vulnerabilities, reduces downtime, improves application performance, ensures compatibility with modern technologies, and extends the lifespan of your software. Proactive maintenance is significantly more cost-effective than fixing critical failures after they occur.',
-  },
-  {
-    q: 'What types of software do you maintain?',
-    a: 'We maintain SaaS platforms, web applications, enterprise software, CRM systems, ERP solutions, eCommerce platforms, internal business applications, APIs, customer portals, and custom software built using modern or legacy technologies.',
-  },
-  {
-    q: 'Do you provide Annual Maintenance Contracts (AMC)?',
-    a: 'Yes. We offer flexible Annual Maintenance Contracts (AMC) and monthly maintenance plans that include monitoring, bug fixes, security updates, technical support, performance optimization, infrastructure management, and ongoing software improvements based on your business requirements.',
-  },
-  {
-    q: 'Can you maintain software developed by another company?',
-    a: 'Absolutely. Our engineers can review existing applications, understand the architecture, perform technical audits, resolve outstanding issues, and provide long-term maintenance even if the software was developed by another vendor.',
-  },
-  {
-    q: 'How much do software maintenance services cost?',
-    a: 'The cost depends on application size, technology stack, cloud infrastructure, business criticality, support coverage, response times, and maintenance scope. After assessing your software, we provide a transparent proposal tailored to your support requirements.',
-  },
-  {
-    q: 'Do you provide emergency support for critical issues?',
-    a: 'Yes. We offer priority support for production issues, critical bugs, security incidents, server failures, and application downtime. Response times depend on the selected maintenance plan or SLA.',
-  },
-  {
-    q: 'Can you improve software performance as part of maintenance?',
-    a: 'Yes. Our maintenance services include database optimization, API tuning, caching strategies, server optimization, cloud infrastructure improvements, code refactoring, and performance monitoring to keep applications fast and reliable.',
-  },
-  {
-    q: 'Do you support cloud-hosted applications?',
-    a: 'Yes. We maintain applications hosted on modern cloud platforms, providing server management, monitoring, backups, deployment support, scalability planning, security updates, and infrastructure optimization.',
-  },
-  {
-    q: 'Why choose Void Matrix Technology for software maintenance?',
-    a: 'Void Matrix Technology provides proactive, architecture-aware maintenance rather than reactive bug fixing. Our engineering team focuses on security, performance, scalability, monitoring, and continuous improvements to ensure your software remains reliable, future-ready, and aligned with your business goals.',
-  },
-],
+      {
+        q: 'What are software maintenance and support services?',
+        a: 'Software maintenance and support services keep applications secure, stable, and high-performing after deployment. They include bug fixes, security updates, framework upgrades, performance optimization, cloud monitoring, feature enhancements, and ongoing technical support.',
+      },
+      {
+        q: 'Why is software maintenance important?',
+        a: 'Regular maintenance prevents security vulnerabilities, reduces downtime, improves application performance, ensures compatibility with modern technologies, and extends the lifespan of your software. Proactive maintenance is significantly more cost-effective than fixing critical failures after they occur.',
+      },
+      {
+        q: 'What types of software do you maintain?',
+        a: 'We maintain SaaS platforms, web applications, enterprise software, CRM systems, ERP solutions, eCommerce platforms, internal business applications, APIs, customer portals, and custom software built using modern or legacy technologies.',
+      },
+      {
+        q: 'Do you provide Annual Maintenance Contracts (AMC)?',
+        a: 'Yes. We offer flexible Annual Maintenance Contracts (AMC) and monthly maintenance plans that include monitoring, bug fixes, security updates, technical support, performance optimization, infrastructure management, and ongoing software improvements based on your business requirements.',
+      },
+      {
+        q: 'Can you maintain software developed by another company?',
+        a: 'Absolutely. Our engineers can review existing applications, understand the architecture, perform technical audits, resolve outstanding issues, and provide long-term maintenance even if the software was developed by another vendor.',
+      },
+      {
+        q: 'How much do software maintenance services cost?',
+        a: 'The cost depends on application size, technology stack, cloud infrastructure, business criticality, support coverage, response times, and maintenance scope. After assessing your software, we provide a transparent proposal tailored to your support requirements.',
+      },
+      {
+        q: 'Do you provide emergency support for critical issues?',
+        a: 'Yes. We offer priority support for production issues, critical bugs, security incidents, server failures, and application downtime. Response times depend on the selected maintenance plan or SLA.',
+      },
+      {
+        q: 'Can you improve software performance as part of maintenance?',
+        a: 'Yes. Our maintenance services include database optimization, API tuning, caching strategies, server optimization, cloud infrastructure improvements, code refactoring, and performance monitoring to keep applications fast and reliable.',
+      },
+      {
+        q: 'Do you support cloud-hosted applications?',
+        a: 'Yes. We maintain applications hosted on modern cloud platforms, providing server management, monitoring, backups, deployment support, scalability planning, security updates, and infrastructure optimization.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for software maintenance?',
+        a: 'Void Matrix Technology provides proactive, architecture-aware maintenance rather than reactive bug fixing. Our engineering team focuses on security, performance, scalability, monitoring, and continuous improvements to ensure your software remains reliable, future-ready, and aligned with your business goals.',
+      },
+    ],
 
     offer: [15000, 250000],
   },
@@ -653,36 +653,55 @@ export const serviceData = {
     name: 'cloud and devops services',
     description:
       'Void Matrix Technology provides cloud and DevOps services in India for businesses that need scalable, secure, and cost-efficient infrastructure - not just hosted applications. Based in Mumbai, we design and implement cloud infrastructure, container orchestration, CI/CD automation, monitoring systems, and security hardening for SaaS companies, fintech platforms, and product engineering teams in Mumbai, Pune, Bangalore, and other Indian technology hubs. Poor cloud architecture is expensive in two ways: financially, through over-provisioned or inefficiently used resources, and operationally, through reliability incidents that affect users and erode trust. Our team builds cloud environments on AWS and Azure that are right-sized for your current scale, designed to grow with you, and monitored continuously so issues surface before users feel them. We handle everything from initial cloud account setup and infrastructure-as-code implementation to Kubernetes cluster management, cost optimization audits, and incident response runbook creation.',
-    faqs: [
-      {
-        q: 'What do cloud and DevOps services include?',
-        a: 'Cloud and DevOps services cover the full infrastructure lifecycle - cloud account setup, network architecture, compute and database provisioning, Kubernetes or container management, CI/CD pipelines, infrastructure-as-code (Terraform), monitoring and alerting, log management, security hardening, and ongoing cost optimization. It is the operational backbone that keeps your software running reliably.',
-      },
-      {
-        q: 'How much do cloud and DevOps services cost in India?',
-        a: 'Cloud and DevOps engagements in India range from ₹1,50,000 for a focused infrastructure setup to ₹15,00,000 or more for comprehensive cloud architecture, migration, and ongoing managed operations. Cloud infrastructure costs (AWS/Azure bills) are separate from service fees.',
-      },
-      {
-        q: 'Which cloud platforms do you work with?',
-        a: 'We work primarily with AWS and Azure. GCP is also supported for specific use cases. We are platform-agnostic - we recommend the cloud based on your existing ecosystem, workload characteristics, and cost considerations.',
-      },
-      {
-        q: 'Do you manage Kubernetes deployments?',
-        a: 'Yes. Kubernetes cluster setup, configuration, autoscaling, RBAC, network policy, persistent storage, and ongoing cluster management are all within scope. We also handle managed Kubernetes services like EKS (AWS) and AKS (Azure).',
-      },
-      {
-        q: 'Can you reduce our existing cloud costs?',
-        a: 'Yes - cloud cost optimization is a standalone service. We audit existing cloud resource utilization, identify waste (idle instances, over-provisioned databases, unused storage, suboptimal Reserved Instance coverage), and implement changes that typically reduce bills by 20-40% without impacting performance.',
-      },
-      {
-        q: 'Do you set up monitoring and alerting?',
-        a: 'Yes. We implement monitoring using CloudWatch, Datadog, Grafana, or Prometheus/AlertManager depending on your stack - covering infrastructure metrics, application performance, error rates, and business-critical custom metrics. Alerts are configured to reach the right people through the right channels before users report issues.',
-      },
-      {
-        q: 'Do you work with teams in Mumbai and Pune?',
-        a: 'Yes. We support technology startups and product engineering teams across Mumbai and Pune with cloud infrastructure design, DevOps automation, and ongoing infrastructure operations.',
-      },
-    ],
+    faqs: [{
+      q: 'What are Cloud and DevOps services?',
+      a: 'Cloud and DevOps services help businesses build, deploy, manage, and scale applications using modern cloud infrastructure and automation practices. These services include cloud architecture, CI/CD pipelines, infrastructure automation, monitoring, security, migration, and ongoing optimization.',
+    },
+
+    {
+      q: 'Why do businesses need Cloud and DevOps?',
+      a: 'Cloud and DevOps help organizations release software faster, improve reliability, automate repetitive operations, reduce infrastructure risks, and scale applications efficiently. They enable businesses to build secure and flexible technology foundations for long-term growth.',
+    },
+
+    {
+      q: 'Which cloud platforms do you support?',
+      a: 'We work with leading cloud platforms including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. The right cloud provider is selected based on application requirements, scalability needs, security considerations, and business objectives.',
+    },
+
+    {
+      q: 'How much do Cloud and DevOps services cost in India?',
+      a: 'The cost depends on infrastructure requirements, application complexity, cloud platform, automation needs, security requirements, and ongoing support requirements. After understanding your goals, we recommend an optimized cloud and DevOps strategy.',
+    },
+
+    {
+      q: 'Can you migrate our existing application to the cloud?',
+      a: 'Yes. We provide cloud migration services including application assessment, migration planning, infrastructure setup, database migration, security configuration, deployment optimization, and post-migration monitoring.',
+    },
+
+    {
+      q: 'What is CI/CD pipeline automation?',
+      a: 'CI/CD automation enables teams to automatically build, test, and deploy software changes. It reduces manual errors, accelerates releases, improves development efficiency, and allows businesses to deliver new features faster and more reliably.',
+    },
+
+    {
+      q: 'Do you provide Docker and Kubernetes services?',
+      a: 'Yes. We help businesses containerize applications using Docker and manage scalable deployments using Kubernetes. Our services include container setup, cluster configuration, deployment automation, scaling strategies, and production management.',
+    },
+
+    {
+      q: 'Can you improve our existing cloud infrastructure?',
+      a: 'Yes. We analyze existing cloud environments and improve architecture, performance, security, scalability, monitoring, and cost efficiency through cloud optimization and DevOps best practices.',
+    },
+
+    {
+      q: 'Do you provide ongoing Cloud and DevOps support?',
+      a: 'Yes. We provide continuous cloud management, infrastructure monitoring, security updates, performance optimization, deployment support, and technical consulting to ensure reliable operations.',
+    },
+
+    {
+      q: 'Why choose Void Matrix Technology for Cloud and DevOps services?',
+      a: 'Void Matrix Technology builds secure and scalable cloud foundations using modern DevOps practices. We combine cloud architecture, automation, security, monitoring, and engineering expertise to help startups and enterprises build reliable digital platforms ready for growth.',
+    },],
     offer: [150000, 1500000],
   },
 
@@ -691,47 +710,47 @@ export const serviceData = {
     description:
       'Void Matrix Technology builds CMS platforms in India for businesses whose marketing and content teams need to publish and update website content without filing a developer ticket every time. Based in Mumbai, we develop headless CMS architectures, custom admin panels, and editorial platforms for corporate websites, media properties, eCommerce stores, and SaaS marketing sites across Mumbai, Pune, Bangalore, and beyond. The right CMS investment pays back quickly - when your team can publish a new service page, update pricing, or push a blog post independently, content velocity increases and developer bandwidth goes toward product work. We implement headless CMS solutions using Sanity, Contentful, and Strapi for modern frontend architectures, and WordPress-based systems for teams comfortable in that ecosystem. We build content models, editorial workflows, media management, multi-language support, and SEO-friendly publishing systems - and we document everything so your team can operate independently from day one.',
     faqs: [
-  {
-    q: 'What is a Content Management System (CMS)?',
-    a: 'A Content Management System (CMS) is software that enables businesses to create, organize, manage, and publish digital content without modifying application code. Modern CMS platforms support websites, portals, mobile applications, documentation, and omnichannel content delivery.',
-  },
-  {
-    q: 'What is the difference between a traditional CMS and a headless CMS?',
-    a: 'A traditional CMS manages both content and presentation within the same platform, while a headless CMS separates content management from the frontend. This allows content to be delivered through APIs to websites, mobile apps, kiosks, and other digital channels using a single content repository.',
-  },
-  {
-    q: 'Do you build custom CMS solutions?',
-    a: 'Yes. We develop fully custom CMS platforms tailored to your business workflows, user roles, publishing processes, approval systems, and integration requirements. Every solution is designed for security, scalability, and long-term maintainability.',
-  },
-  {
-    q: 'Which CMS technologies do you work with?',
-    a: 'We build modern CMS solutions using Payload CMS, Strapi, Sanity, WordPress (when appropriate), Next.js, React, Node.js, PostgreSQL, REST APIs, and GraphQL. The technology stack is selected based on your business objectives and scalability requirements.',
-  },
-  {
-    q: 'Can you migrate our existing CMS?',
-    a: 'Yes. We migrate websites and applications from legacy or traditional CMS platforms to modern custom or headless CMS architectures while preserving content, media, SEO metadata, URLs, and existing business workflows whenever possible.',
-  },
-  {
-    q: 'How much does CMS development cost?',
-    a: 'The investment depends on the type of CMS, content structure, user roles, workflow complexity, integrations, security requirements, and scalability goals. After understanding your requirements, we provide a transparent proposal with phased development recommendations.',
-  },
-  {
-    q: 'Can a CMS integrate with CRM, ERP, or eCommerce platforms?',
-    a: 'Absolutely. We integrate CMS platforms with CRM systems, ERP software, eCommerce solutions, payment gateways, marketing automation platforms, analytics tools, and other third-party business applications using secure APIs.',
-  },
-  {
-    q: 'Do you provide CMS maintenance and support?',
-    a: 'Yes. We provide ongoing CMS maintenance including security updates, framework upgrades, performance optimization, bug fixes, monitoring, cloud management, feature enhancements, and long-term engineering support.',
-  },
-  {
-    q: 'Is a headless CMS suitable for growing businesses?',
-    a: 'Yes. Headless CMS platforms provide greater flexibility, faster performance, API-first architecture, and omnichannel content delivery, making them an excellent choice for businesses planning long-term digital growth.',
-  },
-  {
-    q: 'Why choose Void Matrix Technology for CMS development?',
-    a: 'Void Matrix Technology builds architecture-first CMS solutions that combine intuitive content management with modern engineering practices. Our custom and headless CMS platforms are secure, scalable, SEO-friendly, and designed to support long-term business growth across websites, applications, and digital ecosystems.',
-  },
-],
+      {
+        q: 'What is a Content Management System (CMS)?',
+        a: 'A Content Management System (CMS) is software that enables businesses to create, organize, manage, and publish digital content without modifying application code. Modern CMS platforms support websites, portals, mobile applications, documentation, and omnichannel content delivery.',
+      },
+      {
+        q: 'What is the difference between a traditional CMS and a headless CMS?',
+        a: 'A traditional CMS manages both content and presentation within the same platform, while a headless CMS separates content management from the frontend. This allows content to be delivered through APIs to websites, mobile apps, kiosks, and other digital channels using a single content repository.',
+      },
+      {
+        q: 'Do you build custom CMS solutions?',
+        a: 'Yes. We develop fully custom CMS platforms tailored to your business workflows, user roles, publishing processes, approval systems, and integration requirements. Every solution is designed for security, scalability, and long-term maintainability.',
+      },
+      {
+        q: 'Which CMS technologies do you work with?',
+        a: 'We build modern CMS solutions using Payload CMS, Strapi, Sanity, WordPress (when appropriate), Next.js, React, Node.js, PostgreSQL, REST APIs, and GraphQL. The technology stack is selected based on your business objectives and scalability requirements.',
+      },
+      {
+        q: 'Can you migrate our existing CMS?',
+        a: 'Yes. We migrate websites and applications from legacy or traditional CMS platforms to modern custom or headless CMS architectures while preserving content, media, SEO metadata, URLs, and existing business workflows whenever possible.',
+      },
+      {
+        q: 'How much does CMS development cost?',
+        a: 'The investment depends on the type of CMS, content structure, user roles, workflow complexity, integrations, security requirements, and scalability goals. After understanding your requirements, we provide a transparent proposal with phased development recommendations.',
+      },
+      {
+        q: 'Can a CMS integrate with CRM, ERP, or eCommerce platforms?',
+        a: 'Absolutely. We integrate CMS platforms with CRM systems, ERP software, eCommerce solutions, payment gateways, marketing automation platforms, analytics tools, and other third-party business applications using secure APIs.',
+      },
+      {
+        q: 'Do you provide CMS maintenance and support?',
+        a: 'Yes. We provide ongoing CMS maintenance including security updates, framework upgrades, performance optimization, bug fixes, monitoring, cloud management, feature enhancements, and long-term engineering support.',
+      },
+      {
+        q: 'Is a headless CMS suitable for growing businesses?',
+        a: 'Yes. Headless CMS platforms provide greater flexibility, faster performance, API-first architecture, and omnichannel content delivery, making them an excellent choice for businesses planning long-term digital growth.',
+      },
+      {
+        q: 'Why choose Void Matrix Technology for CMS development?',
+        a: 'Void Matrix Technology builds architecture-first CMS solutions that combine intuitive content management with modern engineering practices. Our custom and headless CMS platforms are secure, scalable, SEO-friendly, and designed to support long-term business growth across websites, applications, and digital ecosystems.',
+      },
+    ],
     offer: [75000, 600000],
   },
 

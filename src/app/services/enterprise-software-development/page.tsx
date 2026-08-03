@@ -129,7 +129,7 @@ export default function EnterpriseSoftwareDev() {
           <>
             <div className="flex flex-wrap w-full text-sm gap-4 justify-center items-center">
               <span>
-                Enterprise Ready
+                Enterprise <span className="text-(--primary)">Ready</span>
               </span>
               <span className="text-glow">|</span>
               <span>
