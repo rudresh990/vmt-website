@@ -1362,36 +1362,99 @@ export const serviceData = {
     name: 'payment gateway integration',
     description:
       'Void Matrix Technology provides payment gateway integration services in India for businesses that need to accept payments reliably - without checkout failures, compliance gaps, or integration debt that creates problems at scale. Based in Mumbai, we integrate Razorpay, PayU, Cashfree, Stripe, PayPal, and other payment systems into websites, mobile applications, SaaS platforms, and marketplace infrastructure for startups, eCommerce brands, subscription businesses, and platform operators across Mumbai, Pune, Bangalore, and India. Payment integration quality directly impacts conversion rates: checkout errors, limited payment method support, slow redirect flows, and failed webhook handling all cost revenue. We build payment infrastructure that handles the Indian payments landscape comprehensively - UPI, net banking, credit and debit cards, wallets, EMI - with proper webhook handling, idempotency, refund management, reconciliation support, and RBI/PCI DSS compliance.',
-    faqs: [
-      {
-        q: 'Which payment gateways do you integrate in India?',
-        a: 'We integrate Razorpay (most common for Indian businesses), Cashfree, PayU, CCAvenue, Instamojo, Stripe (for international transactions), and PayPal. Gateway recommendation depends on your transaction volume, payout requirements, international payment needs, and marketplace payment splitting requirements.',
-      },
-      {
-        q: 'How much does payment gateway integration cost in India?',
-        a: 'Payment integration in India ranges from ₹40,000 for a standard single-gateway checkout integration to ₹2,50,000 for complex marketplace payment systems with split payments, subscription billing, escrow, and multi-currency support.',
-      },
-      {
-        q: 'Do you support UPI, net banking, and EMI payments?',
-        a: 'Yes. UPI (Razorpay, Cashfree), net banking, card payments, wallets (Paytm, PhonePe), and EMI options through card networks and NBFC partnerships are all standard in Indian payment gateway integrations. We configure all payment methods appropriate for your customer base.',
-      },
-      {
-        q: 'Do you build subscription and recurring billing?',
-        a: 'Yes. Recurring billing integration for SaaS, membership, and subscription businesses includes subscription plan management, trial periods, billing cycle automation, dunning workflows for failed payments, prorations for plan upgrades, and customer subscription management interfaces.',
-      },
-      {
-        q: 'How do you handle marketplace split payments?',
-        a: 'We implement Razorpay Route or Cashfree Marketplace for multi-party payment splitting - automating commission deduction and vendor payouts within the payment flow. This is more reliable than manual reconciliation and processes payouts at scale without operational overhead.',
-      },
-      {
-        q: 'Is the integration PCI DSS and RBI compliant?',
-        a: 'Yes. We follow secure payment integration practices including tokenization (never storing card data on your servers), using gateway-hosted payment pages or SDK-based flows for PCI scope minimization, and adhering to RBI guidelines on payment aggregator and payment gateway usage.',
-      },
-      {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We integrate payment systems for startups and established businesses across Mumbai and Pune - including eCommerce stores, SaaS platforms, marketplaces, and mobile apps.',
-      },
-    ],
+    
+faqs: [
+
+{
+  q:
+  'What is payment integration?',
+
+  a:
+  'Payment integration connects websites, applications, and digital platforms with payment providers to enable secure online transactions. It allows businesses to accept payments through UPI, cards, wallets, net banking, and other payment methods while automating transaction processing.',
+},
+
+
+{
+  q:
+  'What payment gateways can you integrate?',
+
+  a:
+  'We integrate popular payment platforms including Razorpay, Stripe, PayPal, Cashfree, PayU, and custom payment APIs. The right payment provider depends on your business model, target customers, transaction requirements, and geographic markets.',
+},
+
+
+{
+  q:
+  'How much does payment integration cost in India?',
+
+  a:
+  'Payment integration cost depends on the number of payment methods, gateway complexity, customization requirements, security needs, subscription logic, marketplace workflows, and required integrations. After understanding your requirements, we provide a suitable development approach and estimate.',
+},
+
+
+{
+  q:
+  'Can you integrate UPI payments into websites and applications?',
+
+  a:
+  'Yes. We develop UPI payment integrations for websites, mobile applications, SaaS platforms, and marketplaces. Solutions can include payment collection, transaction verification, QR payments, automated status updates, and payment reconciliation workflows.',
+},
+
+
+{
+  q:
+  'Do you build subscription payment systems for SaaS products?',
+
+  a:
+  'Yes. We build recurring billing systems for SaaS platforms and subscription businesses. These systems can include subscription plans, automatic renewals, invoice generation, payment failure handling, and customer billing management.',
+},
+
+
+{
+  q:
+  'Can you develop marketplace payment systems?',
+
+  a:
+  'Yes. We develop marketplace payment workflows including split payments, vendor payouts, commission calculation, settlements, refunds, and transaction tracking for multi-vendor platforms.',
+},
+
+
+{
+  q:
+  'Do you support international payment integration?',
+
+  a:
+  'Yes. We integrate international payment providers and build payment systems supporting global customers, multiple currencies, international cards, and cross-border transactions for businesses expanding worldwide.',
+},
+
+
+{
+  q:
+  'Is payment integration secure?',
+
+  a:
+  'Yes. We follow secure development practices including encrypted communication, secure API handling, webhook validation, proper authentication, and safe transaction processing workflows to reduce payment risks.',
+},
+
+
+{
+  q:
+  'Can you integrate payments with existing software?',
+
+  a:
+  'Yes. We integrate payment systems with existing websites, SaaS platforms, CRM systems, ERP software, mobile applications, and custom business applications using secure APIs.',
+},
+
+
+{
+  q:
+  'Why choose Void Matrix Technology for payment integration?',
+
+  a:
+  'Void Matrix Technology builds scalable payment solutions designed around your business model. We focus on secure architecture, reliable transaction flows, automation, and long-term maintainability for eCommerce platforms, SaaS products, marketplaces, and enterprise applications.',
+},
+
+],
     offer: [40000, 250000],
   },
 
