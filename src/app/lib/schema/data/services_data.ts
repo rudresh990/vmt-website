@@ -653,55 +653,57 @@ export const serviceData = {
     name: 'cloud and devops services',
     description:
       'Void Matrix Technology provides cloud and DevOps services in India for businesses that need scalable, secure, and cost-efficient infrastructure - not just hosted applications. Based in Mumbai, we design and implement cloud infrastructure, container orchestration, CI/CD automation, monitoring systems, and security hardening for SaaS companies, fintech platforms, and product engineering teams in Mumbai, Pune, Bangalore, and other Indian technology hubs. Poor cloud architecture is expensive in two ways: financially, through over-provisioned or inefficiently used resources, and operationally, through reliability incidents that affect users and erode trust. Our team builds cloud environments on AWS and Azure that are right-sized for your current scale, designed to grow with you, and monitored continuously so issues surface before users feel them. We handle everything from initial cloud account setup and infrastructure-as-code implementation to Kubernetes cluster management, cost optimization audits, and incident response runbook creation.',
-    faqs: [{
-      q: 'What are Cloud and DevOps services?',
-      a: 'Cloud and DevOps services help businesses build, deploy, manage, and scale applications using modern cloud infrastructure and automation practices. These services include cloud architecture, CI/CD pipelines, infrastructure automation, monitoring, security, migration, and ongoing optimization.',
-    },
+    faqs: [
+      {
+        q: 'What are Cloud and DevOps services?',
+        a: 'Cloud and DevOps services help businesses build, deploy, manage, and scale applications using modern cloud infrastructure and automation practices. These services include cloud architecture, CI/CD pipelines, infrastructure automation, monitoring, security, migration, and ongoing optimization.',
+      },
 
-    {
-      q: 'Why do businesses need Cloud and DevOps?',
-      a: 'Cloud and DevOps help organizations release software faster, improve reliability, automate repetitive operations, reduce infrastructure risks, and scale applications efficiently. They enable businesses to build secure and flexible technology foundations for long-term growth.',
-    },
+      {
+        q: 'Why do businesses need Cloud and DevOps?',
+        a: 'Cloud and DevOps help organizations release software faster, improve reliability, automate repetitive operations, reduce infrastructure risks, and scale applications efficiently. They enable businesses to build secure and flexible technology foundations for long-term growth.',
+      },
 
-    {
-      q: 'Which cloud platforms do you support?',
-      a: 'We work with leading cloud platforms including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. The right cloud provider is selected based on application requirements, scalability needs, security considerations, and business objectives.',
-    },
+      {
+        q: 'Which cloud platforms do you support?',
+        a: 'We work with leading cloud platforms including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. The right cloud provider is selected based on application requirements, scalability needs, security considerations, and business objectives.',
+      },
 
-    {
-      q: 'How much do Cloud and DevOps services cost in India?',
-      a: 'The cost depends on infrastructure requirements, application complexity, cloud platform, automation needs, security requirements, and ongoing support requirements. After understanding your goals, we recommend an optimized cloud and DevOps strategy.',
-    },
+      {
+        q: 'How much do Cloud and DevOps services cost in India?',
+        a: 'The cost depends on infrastructure requirements, application complexity, cloud platform, automation needs, security requirements, and ongoing support requirements. After understanding your goals, we recommend an optimized cloud and DevOps strategy.',
+      },
 
-    {
-      q: 'Can you migrate our existing application to the cloud?',
-      a: 'Yes. We provide cloud migration services including application assessment, migration planning, infrastructure setup, database migration, security configuration, deployment optimization, and post-migration monitoring.',
-    },
+      {
+        q: 'Can you migrate our existing application to the cloud?',
+        a: 'Yes. We provide cloud migration services including application assessment, migration planning, infrastructure setup, database migration, security configuration, deployment optimization, and post-migration monitoring.',
+      },
 
-    {
-      q: 'What is CI/CD pipeline automation?',
-      a: 'CI/CD automation enables teams to automatically build, test, and deploy software changes. It reduces manual errors, accelerates releases, improves development efficiency, and allows businesses to deliver new features faster and more reliably.',
-    },
+      {
+        q: 'What is CI/CD pipeline automation?',
+        a: 'CI/CD automation enables teams to automatically build, test, and deploy software changes. It reduces manual errors, accelerates releases, improves development efficiency, and allows businesses to deliver new features faster and more reliably.',
+      },
 
-    {
-      q: 'Do you provide Docker and Kubernetes services?',
-      a: 'Yes. We help businesses containerize applications using Docker and manage scalable deployments using Kubernetes. Our services include container setup, cluster configuration, deployment automation, scaling strategies, and production management.',
-    },
+      {
+        q: 'Do you provide Docker and Kubernetes services?',
+        a: 'Yes. We help businesses containerize applications using Docker and manage scalable deployments using Kubernetes. Our services include container setup, cluster configuration, deployment automation, scaling strategies, and production management.',
+      },
 
-    {
-      q: 'Can you improve our existing cloud infrastructure?',
-      a: 'Yes. We analyze existing cloud environments and improve architecture, performance, security, scalability, monitoring, and cost efficiency through cloud optimization and DevOps best practices.',
-    },
+      {
+        q: 'Can you improve our existing cloud infrastructure?',
+        a: 'Yes. We analyze existing cloud environments and improve architecture, performance, security, scalability, monitoring, and cost efficiency through cloud optimization and DevOps best practices.',
+      },
 
-    {
-      q: 'Do you provide ongoing Cloud and DevOps support?',
-      a: 'Yes. We provide continuous cloud management, infrastructure monitoring, security updates, performance optimization, deployment support, and technical consulting to ensure reliable operations.',
-    },
+      {
+        q: 'Do you provide ongoing Cloud and DevOps support?',
+        a: 'Yes. We provide continuous cloud management, infrastructure monitoring, security updates, performance optimization, deployment support, and technical consulting to ensure reliable operations.',
+      },
 
-    {
-      q: 'Why choose Void Matrix Technology for Cloud and DevOps services?',
-      a: 'Void Matrix Technology builds secure and scalable cloud foundations using modern DevOps practices. We combine cloud architecture, automation, security, monitoring, and engineering expertise to help startups and enterprises build reliable digital platforms ready for growth.',
-    },],
+      {
+        q: 'Why choose Void Matrix Technology for Cloud and DevOps services?',
+        a: 'Void Matrix Technology builds secure and scalable cloud foundations using modern DevOps practices. We combine cloud architecture, automation, security, monitoring, and engineering expertise to help startups and enterprises build reliable digital platforms ready for growth.',
+      },
+    ],
     offer: [150000, 1500000],
   },
 
@@ -1362,99 +1364,68 @@ export const serviceData = {
     name: 'payment gateway integration',
     description:
       'Void Matrix Technology provides payment gateway integration services in India for businesses that need to accept payments reliably - without checkout failures, compliance gaps, or integration debt that creates problems at scale. Based in Mumbai, we integrate Razorpay, PayU, Cashfree, Stripe, PayPal, and other payment systems into websites, mobile applications, SaaS platforms, and marketplace infrastructure for startups, eCommerce brands, subscription businesses, and platform operators across Mumbai, Pune, Bangalore, and India. Payment integration quality directly impacts conversion rates: checkout errors, limited payment method support, slow redirect flows, and failed webhook handling all cost revenue. We build payment infrastructure that handles the Indian payments landscape comprehensively - UPI, net banking, credit and debit cards, wallets, EMI - with proper webhook handling, idempotency, refund management, reconciliation support, and RBI/PCI DSS compliance.',
-    
-faqs: [
 
-{
-  q:
-  'What is payment integration?',
+    faqs: [
+      {
+        q: 'What is payment integration?',
 
-  a:
-  'Payment integration connects websites, applications, and digital platforms with payment providers to enable secure online transactions. It allows businesses to accept payments through UPI, cards, wallets, net banking, and other payment methods while automating transaction processing.',
-},
+        a: 'Payment integration connects websites, applications, and digital platforms with payment providers to enable secure online transactions. It allows businesses to accept payments through UPI, cards, wallets, net banking, and other payment methods while automating transaction processing.',
+      },
 
+      {
+        q: 'What payment gateways can you integrate?',
 
-{
-  q:
-  'What payment gateways can you integrate?',
+        a: 'We integrate popular payment platforms including Razorpay, Stripe, PayPal, Cashfree, PayU, and custom payment APIs. The right payment provider depends on your business model, target customers, transaction requirements, and geographic markets.',
+      },
 
-  a:
-  'We integrate popular payment platforms including Razorpay, Stripe, PayPal, Cashfree, PayU, and custom payment APIs. The right payment provider depends on your business model, target customers, transaction requirements, and geographic markets.',
-},
+      {
+        q: 'How much does payment integration cost in India?',
 
+        a: 'Payment integration cost depends on the number of payment methods, gateway complexity, customization requirements, security needs, subscription logic, marketplace workflows, and required integrations. After understanding your requirements, we provide a suitable development approach and estimate.',
+      },
 
-{
-  q:
-  'How much does payment integration cost in India?',
+      {
+        q: 'Can you integrate UPI payments into websites and applications?',
 
-  a:
-  'Payment integration cost depends on the number of payment methods, gateway complexity, customization requirements, security needs, subscription logic, marketplace workflows, and required integrations. After understanding your requirements, we provide a suitable development approach and estimate.',
-},
+        a: 'Yes. We develop UPI payment integrations for websites, mobile applications, SaaS platforms, and marketplaces. Solutions can include payment collection, transaction verification, QR payments, automated status updates, and payment reconciliation workflows.',
+      },
 
+      {
+        q: 'Do you build subscription payment systems for SaaS products?',
 
-{
-  q:
-  'Can you integrate UPI payments into websites and applications?',
+        a: 'Yes. We build recurring billing systems for SaaS platforms and subscription businesses. These systems can include subscription plans, automatic renewals, invoice generation, payment failure handling, and customer billing management.',
+      },
 
-  a:
-  'Yes. We develop UPI payment integrations for websites, mobile applications, SaaS platforms, and marketplaces. Solutions can include payment collection, transaction verification, QR payments, automated status updates, and payment reconciliation workflows.',
-},
+      {
+        q: 'Can you develop marketplace payment systems?',
 
+        a: 'Yes. We develop marketplace payment workflows including split payments, vendor payouts, commission calculation, settlements, refunds, and transaction tracking for multi-vendor platforms.',
+      },
 
-{
-  q:
-  'Do you build subscription payment systems for SaaS products?',
+      {
+        q: 'Do you support international payment integration?',
 
-  a:
-  'Yes. We build recurring billing systems for SaaS platforms and subscription businesses. These systems can include subscription plans, automatic renewals, invoice generation, payment failure handling, and customer billing management.',
-},
+        a: 'Yes. We integrate international payment providers and build payment systems supporting global customers, multiple currencies, international cards, and cross-border transactions for businesses expanding worldwide.',
+      },
 
+      {
+        q: 'Is payment integration secure?',
 
-{
-  q:
-  'Can you develop marketplace payment systems?',
+        a: 'Yes. We follow secure development practices including encrypted communication, secure API handling, webhook validation, proper authentication, and safe transaction processing workflows to reduce payment risks.',
+      },
 
-  a:
-  'Yes. We develop marketplace payment workflows including split payments, vendor payouts, commission calculation, settlements, refunds, and transaction tracking for multi-vendor platforms.',
-},
+      {
+        q: 'Can you integrate payments with existing software?',
 
+        a: 'Yes. We integrate payment systems with existing websites, SaaS platforms, CRM systems, ERP software, mobile applications, and custom business applications using secure APIs.',
+      },
 
-{
-  q:
-  'Do you support international payment integration?',
+      {
+        q: 'Why choose Void Matrix Technology for payment integration?',
 
-  a:
-  'Yes. We integrate international payment providers and build payment systems supporting global customers, multiple currencies, international cards, and cross-border transactions for businesses expanding worldwide.',
-},
-
-
-{
-  q:
-  'Is payment integration secure?',
-
-  a:
-  'Yes. We follow secure development practices including encrypted communication, secure API handling, webhook validation, proper authentication, and safe transaction processing workflows to reduce payment risks.',
-},
-
-
-{
-  q:
-  'Can you integrate payments with existing software?',
-
-  a:
-  'Yes. We integrate payment systems with existing websites, SaaS platforms, CRM systems, ERP software, mobile applications, and custom business applications using secure APIs.',
-},
-
-
-{
-  q:
-  'Why choose Void Matrix Technology for payment integration?',
-
-  a:
-  'Void Matrix Technology builds scalable payment solutions designed around your business model. We focus on secure architecture, reliable transaction flows, automation, and long-term maintainability for eCommerce platforms, SaaS products, marketplaces, and enterprise applications.',
-},
-
-],
+        a: 'Void Matrix Technology builds scalable payment solutions designed around your business model. We focus on secure architecture, reliable transaction flows, automation, and long-term maintainability for eCommerce platforms, SaaS products, marketplaces, and enterprise applications.',
+      },
+    ],
     offer: [40000, 250000],
   },
 
@@ -1551,53 +1522,43 @@ faqs: [
     faqs: [
       {
         q: 'How much does SaaS development cost in India?',
-        a:
-          'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
+        a: 'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
       },
       {
         q: 'How long does it take to build a SaaS MVP?',
-        a:
-          'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
+        a: 'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
       },
       {
         q: 'What technologies do you use for SaaS development?',
-        a:
-          'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
+        a: 'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
       },
       {
         q: 'Can you build a multi-tenant SaaS platform?',
-        a:
-          'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
+        a: 'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
       },
       {
         q: 'Do you develop SaaS products for startups as well as enterprises?',
-        a:
-          'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
+        a: 'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
       },
       {
         q: 'Can you modernize or rebuild an existing SaaS application?',
-        a:
-          'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
+        a: 'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
       },
       {
         q: 'Do you integrate payment gateways and subscription billing?',
-        a:
-          'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
+        a: 'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
       },
       {
         q: 'Will my SaaS platform be scalable as my business grows?',
-        a:
-          'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
+        a: 'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
       },
       {
         q: 'Do you provide support after the SaaS product is launched?',
-        a:
-          'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
+        a: 'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
       },
       {
         q: 'Why choose Void Matrix Technology for SaaS development?',
-        a:
-          'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
+        a: 'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
       },
     ],
     offer: [500000, 3000000],
@@ -1979,32 +1940,63 @@ faqs: [
       'Void Matrix Technology provides third-party integration services in India for businesses that need their digital platforms to work together - reliably, securely, and without constant manual data entry between disconnected systems. Based in Mumbai, we design and build integrations for SaaS companies, eCommerce platforms, startups, and enterprises across Mumbai, Pune, Bangalore, and India who need to connect web applications, mobile platforms, ERPs, CRMs, payment processors, communication tools, analytics services, and logistics providers into a coherent automated ecosystem. Every integration we build prioritizes reliability: proper error handling, webhook retry logic, idempotent operations, event logging, and alerting for failures - because integrations that silently fail are worse than no integration at all. We handle the complete integration lifecycle from API research and architecture design through implementation, testing, and documentation - so your team understands and can maintain what we build.',
     faqs: [
       {
-        q: 'Which types of systems do you integrate?',
-        a: 'We integrate CRMs (Zoho, HubSpot, Salesforce), ERPs (SAP, Oracle, custom systems), payment gateways (Razorpay, Stripe, PayU, Cashfree), communication platforms (WhatsApp Business API, Twilio, SendGrid), logistics providers (Shiprocket, Delhivery), analytics tools (Google Analytics, Mixpanel, Segment), marketing automation platforms (Mailchimp, Klaviyo, Brevo), and custom internal systems with documented APIs.',
+        q: 'What is third-party integration?',
+
+        a: 'Third-party integration connects your website, application, SaaS platform, or business software with an external service or system through APIs, webhooks, SDKs, or other integration methods. It allows different platforms to exchange data and automate business workflows.',
       },
+
       {
-        q: 'How much do integration services cost in India?',
-        a: 'Integration projects in India range from ₹50,000 for a focused single-system integration to ₹3,00,000 or more for complex multi-system data pipelines with real-time synchronization, error handling, and monitoring infrastructure.',
+        q: 'What types of third-party systems can you integrate?',
+
+        a: 'We integrate CRMs, ERPs, payment gateways, SaaS applications, communication platforms, marketing tools, analytics systems, eCommerce platforms, logistics services, cloud platforms, and other business applications through secure APIs and integration workflows.',
       },
+
       {
-        q: 'Do you build webhook-based integrations?',
-        a: 'Yes. Webhook-based integrations for real-time event processing - payment status updates, order events, CRM triggers, form submissions - are a standard part of our integration work. We implement proper webhook signature validation, idempotency handling, and retry logic.',
+        q: 'How much does third-party integration cost in India?',
+
+        a: 'The cost depends on the number of systems, API complexity, authentication requirements, data synchronization, custom business logic, transaction volume, and security requirements. A simple API connection will generally require less development than a multi-system integration platform.',
       },
+
       {
-        q: 'How do you handle integration failures?',
-        a: 'Every integration we build includes error logging, retry logic with exponential backoff for transient failures, dead-letter queuing for messages that consistently fail, and alerting to notify your team when an integration needs attention. Silent failures are not acceptable - you always know when something goes wrong.',
+        q: 'Can you integrate CRM and ERP systems?',
+
+        a: 'Yes. We integrate CRM and ERP systems with websites, SaaS platforms, eCommerce applications, and custom business software. Integrations can synchronize customers, leads, orders, inventory, invoices, and other operational information.',
       },
+
       {
-        q: 'Can you integrate Indian platforms like Razorpay, Shiprocket, or Zoho?',
-        a: 'Yes. Indian platform integrations - Razorpay payment processing and Route, Shiprocket multi-courier management, Zoho CRM and Books, GSTIN verification APIs, Aadhaar verification services - are a routine part of our work.',
+        q: 'Can you integrate multiple SaaS applications?',
+
+        a: 'Yes. We connect multiple SaaS platforms through APIs, webhooks, SDKs, and custom integration workflows. This can automate data synchronization and business processes across sales, marketing, customer support, finance, communication, and operations.',
       },
+
       {
-        q: 'Do you document the integrations you build?',
-        a: 'Yes. Every integration includes technical documentation covering the integration architecture, API endpoints used, authentication mechanism, error handling logic, and monitoring setup. This documentation ensures your team can understand, maintain, and extend the integration over time.',
+        q: 'Do you provide API and webhook integration services?',
+
+        a: 'Yes. We develop and integrate REST APIs, GraphQL APIs, webhooks, and third-party SDKs. Our integrations can include authentication, data validation, transformation, event processing, error handling, retries, and monitoring.',
       },
+
       {
-        q: 'Do you serve businesses in Mumbai and Pune?',
-        a: 'Yes. We build third-party integrations for startups and established businesses across Mumbai and Pune - connecting the tools and platforms that power their operations.',
+        q: 'Can you integrate third-party services into an existing application?',
+
+        a: 'Yes. We can integrate external services into existing websites, mobile applications, SaaS platforms, eCommerce systems, and enterprise software without requiring the entire application to be rebuilt.',
+      },
+
+      {
+        q: 'Can third-party integrations automate business workflows?',
+
+        a: 'Yes. Integrations can automatically transfer data and trigger actions between systems. Examples include creating CRM records from website leads, updating inventory after an order, sending customer notifications after payments, or synchronizing data between business applications.',
+      },
+
+      {
+        q: 'Do you provide custom integration development?',
+
+        a: 'Yes. When an existing connector does not support your requirements, we develop custom integrations using APIs, webhooks, SDKs, middleware, and application-specific business logic.',
+      },
+
+      {
+        q: 'Why choose Void Matrix Technology for third-party integrations?',
+
+        a: 'Void Matrix Technology focuses on reliable integration architecture rather than simply connecting two systems. We consider data flow, authentication, validation, error handling, scalability, security, and long-term maintainability when building integrations for startups and enterprises.',
       },
     ],
     offer: [50000, 300000],
