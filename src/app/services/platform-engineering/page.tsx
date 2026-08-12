@@ -180,7 +180,7 @@ export default function PlatformEngineering() {
 
       <MainServiceCTA
         heading="Build Scalable Platform Infrastructure"
-        description="Partner with Void Matrix Technology for platform engineering services."
+        description="Partner with VoidMatrix Technology for platform engineering services."
       />
     </>
   );

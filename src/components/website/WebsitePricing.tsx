@@ -116,7 +116,7 @@ export default function WebsitePricing() {
       <section className="services-core">
         <section className="section-inner">
           <h2 className="section-title">How We Keep Pricing Transparent</h2>
-          <p className="section-intro">At Void Matrix Technology:</p>
+          <p className="section-intro">At VoidMatrix Technology:</p>
           <ul className="fit-list">
             <li>You receive a clear project scope document</li>
             <li>Deliverables are defined before development</li>

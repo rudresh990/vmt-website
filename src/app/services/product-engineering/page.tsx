@@ -33,7 +33,7 @@ const contents = [
   },
   {
     id: 'p3',
-    para: 'At Void Matrix Technology, we partner with startups, growing businesses, and enterprises to engineer modern digital products using Next.js, React, Node.js, PostgreSQL, cloud-native infrastructure, and API-first architectures. Every solution is designed for scalability, maintainability, security, and rapid product evolution.',
+    para: 'At VoidMatrix Technology, we partner with startups, growing businesses, and enterprises to engineer modern digital products using Next.js, React, Node.js, PostgreSQL, cloud-native infrastructure, and API-first architectures. Every solution is designed for scalability, maintainability, security, and rapid product evolution.',
   },
   {
     id: 'p4',
@@ -308,7 +308,7 @@ export default function ProductEngineeringPage() {
             para: 'Unlike traditional project-based software development, product engineering focuses on building a technology foundation that supports continuous growth. Every architectural decision is made with future scalability, maintainability, security, and product evolution in mind, allowing businesses to expand without rebuilding core systems.',
           },
           {
-            para: 'At Void Matrix Technology, we engineer products that can grow from an initial MVP into enterprise-grade digital platforms. Our approach reduces technical debt, accelerates future development, and ensures your investment continues delivering value as your business evolves.',
+            para: 'At VoidMatrix Technology, we engineer products that can grow from an initial MVP into enterprise-grade digital platforms. Our approach reduces technical debt, accelerates future development, and ensures your investment continues delivering value as your business evolves.',
           },
         ]}
       />

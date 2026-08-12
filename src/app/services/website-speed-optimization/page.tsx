@@ -9,7 +9,7 @@ import { buildMetadata } from '@/app/lib/schema/seo';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Website Speed Optimization Services India | Void Matrix Technology',
+  title: 'Website Speed Optimization Services India | VoidMatrix Technology',
   description:
     'Website speed optimization services in Mumbai and Pune improving Core Web Vitals, page speed, and performance.',
   path: '/services/website-speed-optimization',
@@ -93,7 +93,7 @@ export default function WebsiteSpeed() {
       />
 
       <ServiceFactors
-        heading="Why Choose Void Matrix Technology?"
+        heading="Why Choose VoidMatrix Technology?"
         intro="Our engineering-driven approach focuses on measurable performance improvements."
         facts={[
           'Core Web Vitals expertise',

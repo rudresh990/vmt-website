@@ -31,7 +31,7 @@ export function generateBlogPosting(blog: any) {
 
       '@id': `${SITE_URL}#author-${blog.author?.slug || 'admin'}`,
 
-      name: blog.author?.name || 'Void Matrix Technology',
+      name: blog.author?.name || 'VoidMatrix Technology',
     },
 
     publisher: {

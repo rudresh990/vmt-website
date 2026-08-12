@@ -4,7 +4,7 @@ export default function WhyVMT() {
   return (
     <section className="why-vmt">
       <div className="section-inner">
-        <h2 className="section-title">Why Void Matrix Technology</h2>
+        <h2 className="section-title">Why VoidMatrix Technology</h2>
 
         <p className="section-intro">
           We approach software development with an engineering-first mindset, focusing on clarity,

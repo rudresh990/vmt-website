@@ -9,7 +9,7 @@ import { buildMetadata } from '@/app/lib/schema/seo';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Technical SEO & Performance Services India | Void Matrix Technology',
+  title: 'Technical SEO & Performance Services India | VoidMatrix Technology',
   description:
     'Technical SEO and website performance optimization services in Mumbai, Pune, and across India for startups and growing businesses.',
   path: '/services/technical-seo-performance-optimization',
@@ -93,7 +93,7 @@ export default function TechnicalSEO() {
       />
 
       <ServiceFactors
-        heading="Why Choose Void Matrix Technology?"
+        heading="Why Choose VoidMatrix Technology?"
         intro="Our team combines technical engineering expertise with SEO strategy to build search-optimized websites."
         facts={[
           'Technical SEO engineering expertise',

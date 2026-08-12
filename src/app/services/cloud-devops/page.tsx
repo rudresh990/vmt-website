@@ -50,7 +50,7 @@ const contents = [
     id: 'cloud3',
 
     para:
-      'At Void Matrix Technology, we design and implement cloud infrastructure, DevOps automation, CI/CD pipelines, containerized deployments, monitoring systems, and scalable cloud architectures using modern technologies such as AWS, Azure, Google Cloud, Docker, Kubernetes, and Infrastructure-as-Code solutions.',
+      'At VoidMatrix Technology, we design and implement cloud infrastructure, DevOps automation, CI/CD pipelines, containerized deployments, monitoring systems, and scalable cloud architectures using modern technologies such as AWS, Azure, Google Cloud, Docker, Kubernetes, and Infrastructure-as-Code solutions.',
   },
 
 
@@ -537,7 +537,7 @@ return (
 
     {
       para:
-      'At Void Matrix Technology, we design cloud and DevOps solutions based on your business goals rather than unnecessary infrastructure complexity. Whether you need cloud migration, deployment automation, scalable architecture, or managed DevOps support, we create solutions that deliver reliability, performance, and long-term value.',
+      'At VoidMatrix Technology, we design cloud and DevOps solutions based on your business goals rather than unnecessary infrastructure complexity. Whether you need cloud migration, deployment automation, scalable architecture, or managed DevOps support, we create solutions that deliver reliability, performance, and long-term value.',
     },
 
   ]}

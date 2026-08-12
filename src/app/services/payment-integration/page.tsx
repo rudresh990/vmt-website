@@ -40,7 +40,7 @@ const contents = [
   {
     id: 'payment3',
 
-    para: 'At Void Matrix Technology, we build secure payment integration solutions for eCommerce platforms, SaaS products, marketplaces, mobile applications, and enterprise software systems. Our payment architectures are designed for reliability, scalability, and better customer experiences.',
+    para: 'At VoidMatrix Technology, we build secure payment integration solutions for eCommerce platforms, SaaS products, marketplaces, mobile applications, and enterprise software systems. Our payment architectures are designed for reliability, scalability, and better customer experiences.',
   },
 
   {
@@ -277,7 +277,7 @@ export default function PaymentIntegrationPage() {
           },
 
           {
-            para: 'At Void Matrix Technology, we design payment solutions based on your business model. Whether you need a simple checkout system, SaaS billing architecture, marketplace payment splitting, or enterprise payment workflows, we create scalable solutions aligned with your growth requirements.',
+            para: 'At VoidMatrix Technology, we design payment solutions based on your business model. Whether you need a simple checkout system, SaaS billing architecture, marketplace payment splitting, or enterprise payment workflows, we create scalable solutions aligned with your growth requirements.',
           },
         ]}
       />

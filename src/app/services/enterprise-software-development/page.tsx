@@ -37,7 +37,7 @@ const contents = [
   },
   {
     id: 'p4',
-    para: 'At Void Matrix Technology, we design enterprise software systems using modern architectures including microservices, cloud-native infrastructure, and secure API integrations.',
+    para: 'At VoidMatrix Technology, we design enterprise software systems using modern architectures including microservices, cloud-native infrastructure, and secure API integrations.',
   },
 ];
 
@@ -241,7 +241,7 @@ export default function EnterpriseSoftwareDev() {
 
       <MainServiceCTA
         heading="Ready to Build Enterprise Software?"
-        description="Partner with Void Matrix Technology to design scalable enterprise systems."
+        description="Partner with VoidMatrix Technology to design scalable enterprise systems."
       />
     </>
   );

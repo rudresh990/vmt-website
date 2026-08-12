@@ -3,9 +3,9 @@ import LegalLayout from '@/components/layout/LegalLayout';
 import { buildMetadata } from '../lib/schema/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Disclaimer | Void Matrix Technology',
+  title: 'Disclaimer | VoidMatrix Technology',
   description:
-    'Review the official website disclaimer of Void Matrix Technology regarding service details and development representations.',
+    'Review the official website disclaimer of VoidMatrix Technology regarding service details and development representations.',
   path: '/disclaimer',
 });
 
@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
   return (
     <LegalLayout title="Disclaimer">
       <p>
-        The information provided on this website by Void Matrix Technology is for general
+        The information provided on this website by VoidMatrix Technology is for general
         informational purposes only. All content is published in good faith and for general
         guidance.
       </p>
@@ -40,7 +40,7 @@ export default function DisclaimerPage() {
 
       <h2>Limitation of Liability</h2>
       <p>
-        Under no circumstances shall Void Matrix Technology be liable for any loss or damage arising
+        Under no circumstances shall VoidMatrix Technology be liable for any loss or damage arising
         from the use of this website or reliance on the information provided herein.
       </p>
 

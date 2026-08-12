@@ -177,7 +177,7 @@ export default function ApiIntegration() {
       <MainServiceFAQ faqs={s_data.faqs} heading="API Development & Integration - FAQs" />
       <MainServiceCTA
         heading="Need Secure API Integrations for Your Business?"
-        description="Partner with Void Matrix Technology to build scalable APIs and seamless system integrations for your digital platforms."
+        description="Partner with VoidMatrix Technology to build scalable APIs and seamless system integrations for your digital platforms."
       />
     </>
   );

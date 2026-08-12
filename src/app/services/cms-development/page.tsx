@@ -34,7 +34,7 @@ const contents = [
   },
   {
     id: 'cms3',
-    para: 'At Void Matrix Technology, we build custom CMS platforms and headless CMS solutions using technologies such as Next.js, React, Node.js, Payload CMS, Strapi, Sanity, PostgreSQL, REST APIs, and GraphQL. Every CMS is engineered for performance, security, scalability, and long-term maintainability.',
+    para: 'At VoidMatrix Technology, we build custom CMS platforms and headless CMS solutions using technologies such as Next.js, React, Node.js, Payload CMS, Strapi, Sanity, PostgreSQL, REST APIs, and GraphQL. Every CMS is engineered for performance, security, scalability, and long-term maintainability.',
   },
   {
     id: 'cms4',
@@ -315,7 +315,7 @@ export default function CMSDevelopmentPage() {
       para: 'Modern CMS development also includes API architecture, media management, SEO capabilities, role-based permissions, security, cloud deployment, workflow automation, and integration with business systems such as CRMs, ERPs, eCommerce platforms, and marketing tools. These factors influence both the initial investment and the long-term scalability of the platform.',
     },
     {
-      para: 'At Void Matrix Technology, we design CMS solutions that grow with your business. Whether you need a custom CMS, headless CMS, enterprise content platform, or migration from an existing system, every solution is engineered for long-term performance, maintainability, and future expansion.',
+      para: 'At VoidMatrix Technology, we design CMS solutions that grow with your business. Whether you need a custom CMS, headless CMS, enterprise content platform, or migration from an existing system, every solution is engineered for long-term performance, maintainability, and future expansion.',
     },
   ]}
 />

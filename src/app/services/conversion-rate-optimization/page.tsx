@@ -9,7 +9,7 @@ import { buildMetadata } from '@/app/lib/schema/seo';
 import { serviceData } from '@/app/lib/schema/data/services_data';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Conversion Rate Optimization Services India | Void Matrix Technology',
+  title: 'Conversion Rate Optimization Services India | VoidMatrix Technology',
   description:
     'Conversion rate optimization services in Mumbai and Pune helping websites generate more leads and sales.',
   path: '/services/conversion-rate-optimization',
@@ -92,7 +92,7 @@ export default function CRO() {
       />
 
       <ServiceFactors
-        heading="Why Choose Void Matrix Technology?"
+        heading="Why Choose VoidMatrix Technology?"
         intro="We combine UX design expertise and analytics-driven optimization strategies."
         facts={[
           'Data-driven CRO strategies',

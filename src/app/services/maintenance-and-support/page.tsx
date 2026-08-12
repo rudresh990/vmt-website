@@ -34,7 +34,7 @@ const contents = [
   },
   {
     id: 'm3',
-    para: 'At Void Matrix Technology, we provide comprehensive maintenance and support services for SaaS platforms, web applications, enterprise software, CRM systems, ERP solutions, and custom business applications. Our engineering teams continuously monitor, optimize, secure, and improve software so businesses can focus on growth while we ensure technology remains reliable.',
+    para: 'At VoidMatrix Technology, we provide comprehensive maintenance and support services for SaaS platforms, web applications, enterprise software, CRM systems, ERP solutions, and custom business applications. Our engineering teams continuously monitor, optimize, secure, and improve software so businesses can focus on growth while we ensure technology remains reliable.',
   },
   {
     id: 'm4',
@@ -323,7 +323,7 @@ export default function MaintenanceSupportPage() {
             para: 'Maintenance is not limited to fixing bugs. It includes security patching, framework upgrades, cloud monitoring, performance optimization, database maintenance, backup management, API compatibility updates, and ongoing feature enhancements that keep software reliable and future-ready.',
           },
           {
-            para: 'At Void Matrix Technology, we offer flexible maintenance plans ranging from monthly support packages to dedicated engineering teams and Annual Maintenance Contracts (AMC). Every engagement is tailored to your business objectives, software complexity, and required response times.',
+            para: 'At VoidMatrix Technology, we offer flexible maintenance plans ranging from monthly support packages to dedicated engineering teams and Annual Maintenance Contracts (AMC). Every engagement is tailored to your business objectives, software complexity, and required response times.',
           },
         ]}
       />

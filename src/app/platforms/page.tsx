@@ -5,9 +5,9 @@ import Hero from '@/components/sections/common/Hero';
 import { Metadata } from 'next';
 import { buildMetadata } from '../lib/schema/seo';
 export const metadata: Metadata = buildMetadata({
-  title: 'Technology Stack & Platforms | Void Matrix Technology',
+  title: 'Technology Stack & Platforms | VoidMatrix Technology',
   description:
-    'Explore the modern development technologies and platforms used by Void Matrix Technology to build scalable digital systems.',
+    'Explore the modern development technologies and platforms used by VoidMatrix Technology to build scalable digital systems.',
   path: '/platforms',
 });
 export default function PlatformsPage() {

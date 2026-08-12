@@ -310,7 +310,7 @@ export default function CustomSoftwareDev() {
       <MainServiceFAQ faqs={s_data.faqs} heading="Custom Software Development - FAQs" />
       <MainServiceCTA
         heading="Ready to Build Scalable Software for Your Business in India?"
-        description="Partner with Void Matrix Technology to design secure, scalable, and performance-driven custom software."
+        description="Partner with VoidMatrix Technology to design secure, scalable, and performance-driven custom software."
       />
     </>
   );

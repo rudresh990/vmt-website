@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 
   metadataBase: new URL('https://voidmatrixtech.com'),
   title: {
-    default: 'Void Matrix Technology',
-    template: '%s | Void Matrix Technology',
+    default: 'VoidMatrix Technology',
+    template: '%s | VoidMatrix Technology',
   },
 
   description:
-    'Void Matrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.',
-  applicationName: 'Void Matrix Technology',
+    'VoidMatrix Technology builds scalable software platforms, digital systems and technology solutions for modern businesses.',
+  applicationName: 'VoidMatrix Technology',
 
   robots: {
     index: true,
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: 'website',
-    siteName: 'Void Matrix Technology',
-    title: 'Void Matrix Technology',
+    siteName: 'VoidMatrix Technology',
+    title: 'VoidMatrix Technology',
     description:
       'Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.',
     url: 'https://voidmatrixtech.com',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Void Matrix Technology',
+    title: 'VoidMatrix Technology',
     description:
       'Scalable technology platforms and digital solutions built for reliability, growth, and long-term impact.',
   },

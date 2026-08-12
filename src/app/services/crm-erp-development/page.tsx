@@ -37,7 +37,7 @@ const contents = [
   },
   {
     id: 'p4',
-    para: 'At Void Matrix Technology, we build architecture-first CRM and ERP platforms using modern technologies such as Next.js, React, Node.js, PostgreSQL, and cloud-native infrastructure. Every system is designed for scalability, security, maintainability, and seamless integration with existing business applications.',
+    para: 'At VoidMatrix Technology, we build architecture-first CRM and ERP platforms using modern technologies such as Next.js, React, Node.js, PostgreSQL, and cloud-native infrastructure. Every system is designed for scalability, security, maintainability, and seamless integration with existing business applications.',
   },
   {
     id: 'p5',
@@ -309,7 +309,7 @@ export default function CRMERPDevelopment() {
             para: 'Unlike subscription-based business software, custom CRM and ERP systems are designed specifically around your organization. This eliminates unnecessary licensing costs, removes workflow limitations, and allows the platform to evolve as your business grows. The result is a long-term digital asset rather than an ongoing software expense.',
           },
           {
-            para: 'At Void Matrix Technology, every CRM and ERP platform is architected for future expansion. Whether you need a departmental solution today or a complete enterprise management platform tomorrow, we build systems that support continuous business growth without expensive redevelopment.',
+            para: 'At VoidMatrix Technology, every CRM and ERP platform is architected for future expansion. Whether you need a departmental solution today or a complete enterprise management platform tomorrow, we build systems that support continuous business growth without expensive redevelopment.',
           },
         ]}
       />

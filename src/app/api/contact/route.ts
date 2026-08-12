@@ -48,7 +48,7 @@ export async function POST(req: Request) {
       : '';
     // send internal notification email
     await resend.emails.send({
-      from: 'Void Matrix Technology <no-reply@voidmatrixtech.com>',
+      from: 'VoidMatrix Technology <no-reply@voidmatrixtech.com>',
       to: process.env.TO_EMAIL!,
       replyTo: payload.email,
       subject: 'New Project Enquiry',

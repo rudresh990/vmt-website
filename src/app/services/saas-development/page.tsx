@@ -41,7 +41,7 @@ const contents = [
   },
   {
     id: 'p5',
-    para: 'At Void Matrix Technology, we build SaaS products that become long-term business assets—helping founders launch faster, scale confidently, and continuously improve their platforms without technology becoming a bottleneck.',
+    para: 'At VoidMatrix Technology, we build SaaS products that become long-term business assets—helping founders launch faster, scale confidently, and continuously improve their platforms without technology becoming a bottleneck.',
   },
 ];
 
@@ -309,7 +309,7 @@ export default function SaaSDevelopment() {
             para: 'Unlike traditional software projects, SaaS platforms require continuous engineering around subscription management, tenant isolation, cloud infrastructure, API ecosystems, and performance optimization. Investing in a scalable architecture early significantly reduces future redevelopment costs while enabling rapid product evolution.',
           },
           {
-            para: 'At Void Matrix Technology, we focus on delivering architecture-first SaaS products that balance launch speed with long-term maintainability, ensuring your platform remains reliable as your customer base grows.',
+            para: 'At VoidMatrix Technology, we focus on delivering architecture-first SaaS products that balance launch speed with long-term maintainability, ensuring your platform remains reliable as your customer base grows.',
           },
         ]}
       />

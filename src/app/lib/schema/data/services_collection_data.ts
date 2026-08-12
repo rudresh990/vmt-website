@@ -527,8 +527,8 @@ export function getAllServiceSlugs(): string[] {
 export const serviceCollectionFAQs: FAQItem[] = [
   // ── GENERAL / TRUST ───────────────────────────────────────────────────────
   {
-    q: 'What services does Void Matrix Technology offer?',
-    a: 'Void Matrix Technology is a full-service technology and digital growth company based in Mumbai, India. We offer custom software development, SaaS development, enterprise software, web development, mobile app development, eCommerce development, platform engineering, cloud and DevOps services, API development, technical SEO, on-page SEO, local SEO, content marketing, Google Ads, Meta Ads, social media management, UI/UX design, and business consulting - all under one roof.',
+    q: 'What services does VoidMatrix Technology offer?',
+    a: 'VoidMatrix Technology is a full-service technology and digital growth company based in Mumbai, India. We offer custom software development, SaaS development, enterprise software, web development, mobile app development, eCommerce development, platform engineering, cloud and DevOps services, API development, technical SEO, on-page SEO, local SEO, content marketing, Google Ads, Meta Ads, social media management, UI/UX design, and business consulting - all under one roof.',
   },
   {
     q: 'How much do your services cost in India?',

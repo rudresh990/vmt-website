@@ -3,9 +3,9 @@ import LegalLayout from '@/components/layout/LegalLayout';
 import { buildMetadata } from '../lib/schema/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Application Security Standards | Void Matrix Technology',
+  title: 'Application Security Standards | VoidMatrix Technology',
   description:
-    'Discover how Void Matrix Technology ensures secure website and software development through modern infrastructure and protection standards.',
+    'Discover how VoidMatrix Technology ensures secure website and software development through modern infrastructure and protection standards.',
   path: '/security',
 });
 
@@ -13,7 +13,7 @@ export default function SecurityPage() {
   return (
     <LegalLayout title="Security Policy">
       <p>
-        Void Matrix Technology prioritizes the security and integrity of the systems we build and
+        VoidMatrix Technology prioritizes the security and integrity of the systems we build and
         the information shared with us. We implement industry-standard practices to safeguard data
         and maintain secure development workflows.
       </p>

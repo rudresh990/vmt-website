@@ -10,13 +10,13 @@ export default function Footer() {
         {/* Left */}
         <div className="footer-brand">
           <Link href="/">
-            <span className="footer-brand-name">VOID MATRIX TECHNOLOGY</span>
+            <span className="footer-brand-name">VOIDMATRIX TECHNOLOGY</span>
           </Link>
 
           <p className="footer-brand-tagline">STRUCTURED INTELLIGENCE</p>
 
           <p className="footer-copy">
-            © {new Date().getFullYear()} Void Matrix Technology. All rights reserved.
+            © {new Date().getFullYear()} VoidMatrix Technology. All rights reserved.
           </p>
         </div>
 

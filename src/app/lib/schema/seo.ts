@@ -11,7 +11,7 @@ export function buildMetadata({ title, description, path }: SEOProps) {
   if (title.length > 136) {
     title = title.replace(/\s*\|\s*VMT/i, '');
   } else {
-    title = title.replace(/\s*\|\s*Void Matrix Technology/i, '');
+    title = title.replace(/\s*\|\s*VoidMatrix Technology/i, '');
   }
 
   return {
@@ -24,13 +24,13 @@ export function buildMetadata({ title, description, path }: SEOProps) {
       title,
       description,
       url,
-      siteName: 'Void Matrix Technology',
+      siteName: 'VoidMatrix Technology',
       locale: 'en_IN',
       type: 'website',
       images: [
         {
           url: imageUrl,
-          alt: 'Void Matrix Technology Logo',
+          alt: 'VoidMatrix Technology Logo',
         },
       ],
     },

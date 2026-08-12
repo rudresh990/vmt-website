@@ -3,9 +3,9 @@ import LegalLayout from '@/components/layout/LegalLayout';
 import { buildMetadata } from '../lib/schema/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Accessibility Statement | Void Matrix Technology',
+  title: 'Accessibility Statement | VoidMatrix Technology',
   description:
-    'Void Matrix Technology is committed to digital accessibility standards to ensure inclusive and usable web experiences.',
+    'VoidMatrix Technology is committed to digital accessibility standards to ensure inclusive and usable web experiences.',
   path: '/accessibility',
 });
 
@@ -13,7 +13,7 @@ export default function AccessibilityPage() {
   return (
     <LegalLayout title="Accessibility Statement">
       <p>
-        Void Matrix Technology is committed to ensuring digital accessibility for all users,
+        VoidMatrix Technology is committed to ensuring digital accessibility for all users,
         including individuals with disabilities. We strive to improve the user experience for
         everyone by applying relevant accessibility standards and best practices.
       </p>

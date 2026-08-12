@@ -35,7 +35,7 @@ export default function SolutionPage() {
             <div className="my-2.5">
               <p>
                 <span className="text-white">
-                  Void Matrix Technology is a full-service technology and digital growth company in
+                  VoidMatrix Technology is a full-service technology and digital growth company in
                   Mumbai
                 </span>
                 <br />

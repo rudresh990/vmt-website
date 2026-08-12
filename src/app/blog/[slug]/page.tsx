@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: any) {
       title: blog.title,
       description: plainContent?.slice(0, 150),
       url: `https://www.voidmatrixtech.com/blog/${blog.slug}`,
-      siteName: 'Void Matrix Technology',
+      siteName: 'VoidMatrix Technology',
       type: 'article',
       locale: 'en_IN',
       images: [

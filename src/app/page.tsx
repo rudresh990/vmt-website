@@ -12,9 +12,9 @@ import GlassCard from '@/components/ui/GlassCard';
 import { homeFaqs } from './lib/schema/data/home_faqs';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Void Matrix Technology | Scalable Software & Web Systems',
+  title: 'VoidMatrix Technology | Scalable Software & Web Systems',
   description:
-    'Void Matrix Technology delivers custom software, SaaS, websites, mobile apps, eCommerce, SEO, and digital marketing for business growth.',
+    'VoidMatrix Technology delivers custom software, SaaS, websites, mobile apps, eCommerce, SEO, and digital marketing for business growth.',
   path: '',
 });
 
@@ -97,7 +97,7 @@ export default function Home() {
         clsName="hero-eyebrow-glowing-b"
       >
         <p className="text-lg my-5 text-justify">
-          Void Matrix Technology is a full-service IT company based in Mumbai, India. We help
+          VoidMatrix Technology is a full-service IT company based in Mumbai, India. We help
           startups, small and medium enterprises, and large organisations build digital products,
           scale their operations, and grow their revenue through technology and digital marketing -
           all under one roof.
@@ -371,7 +371,7 @@ export default function Home() {
           <>
             Why businesses in Mumbai and across India <br />
             <span className="text-(--primary) italic font-medium">
-              choose Void Matrix Technology
+              choose VoidMatrix Technology
             </span>
           </>
         }

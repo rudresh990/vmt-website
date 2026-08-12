@@ -37,7 +37,7 @@ const contents = [
   },
   {
     id: 'p4',
-    para: 'At Void Matrix Technology, we build custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every automation platform is engineered around your existing business processes rather than forcing your teams to adapt to generic software. Our architecture-first approach ensures every solution remains scalable, secure, and easy to maintain as your business evolves.',
+    para: 'At VoidMatrix Technology, we build custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every automation platform is engineered around your existing business processes rather than forcing your teams to adapt to generic software. Our architecture-first approach ensures every solution remains scalable, secure, and easy to maintain as your business evolves.',
   },
   {
     id: 'p5',
@@ -316,7 +316,7 @@ export default function WorkflowAutomationPage() {
             para: "Unlike generic workflow software, custom workflow automation platforms are designed around your organization's unique operations. This eliminates unnecessary features, removes licensing restrictions, and provides complete flexibility to automate the exact processes your teams rely on every day.",
           },
           {
-            para: 'At Void Matrix Technology, every workflow automation solution is engineered for long-term scalability. Whether you begin by automating one department or your entire organization, we build platforms that can continuously evolve alongside your business without requiring complete redevelopment.',
+            para: 'At VoidMatrix Technology, every workflow automation solution is engineered for long-term scalability. Whether you begin by automating one department or your entire organization, we build platforms that can continuously evolve alongside your business without requiring complete redevelopment.',
           },
         ]}
       />

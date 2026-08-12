@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="navbar-brand">
           <span className="brand-text">
             <Link href="/">
-              <span className="braces">{` {  } `}</span> VOID MATRIX TECHNOLOGY
+              <span className="braces">{` {  } `}</span> VOIDMATRIX TECHNOLOGY
             </Link>
           </span>
         </div>
@@ -378,7 +378,7 @@ export default function Navbar() {
           <div className="mobile-header">
             <span className="brand-text">
               <Link href="/" onClick={closeMobile}>
-                <span className="braces">{` {  } `}</span> VOID MATRIX TECHNOLOGY
+                <span className="braces">{` {  } `}</span> VOIDMATRIX TECHNOLOGY
               </Link>
             </span>
 

@@ -3,7 +3,7 @@ export default function WhenToChooseVMT() {
     <section className="services-fit">
       <div className="section-inner">
         <h2 className="section-title">
-          When Void Matrix Technology Is the Right Technical Partner
+          When VoidMatrix Technology Is the Right Technical Partner
         </h2>
 
         <p>

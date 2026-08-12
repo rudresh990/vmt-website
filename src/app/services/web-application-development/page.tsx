@@ -10,7 +10,7 @@ import Position from '@/components/sections/home/Positioning';
 export const metadata: Metadata = buildMetadata({
   title: 'Web & App Development Services in Mumbai, India',
   description:
-    'Hire Void Matrix Technology for custom website, web app, mobile app, eCommerce, marketplace, and CMS development in Mumbai. From ₹75,000.',
+    'Hire VoidMatrix Technology for custom website, web app, mobile app, eCommerce, marketplace, and CMS development in Mumbai. From ₹75,000.',
   path: '/services/web-application-development',
 });
 
@@ -37,7 +37,7 @@ export default function WebApplicationDev() {
                   Most Indian businesses are running on websites that are slow, poorly ranked, and
                   built on platforms that were never designed for performance.
                 </span>
-                Void Matrix Technology builds websites, web applications, mobile apps, eCommerce
+                VoidMatrix Technology builds websites, web applications, mobile apps, eCommerce
                 stores, and marketplace platforms on modern technology - Next.js, not WordPress -
                 that load fast, rank on Google, and convert visitors into customers.
               </p>
@@ -335,7 +335,7 @@ export default function WebApplicationDev() {
                 <h2>Technology Is Not Where We Cut Corners.</h2>
 
                 <p>
-                  At Void Matrix Technology, we build on modern engineering principles because
+                  At VoidMatrix Technology, we build on modern engineering principles because
                   businesses should never have to rebuild their website after launch simply because
                   the original technology couldn&apos;t scale.
                 </p>

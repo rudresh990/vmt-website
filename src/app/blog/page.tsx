@@ -3,9 +3,9 @@ import prisma from '../../../lib/prisma';
 import { buildMetadata } from '../lib/schema/seo';
 
 export const metadata = buildMetadata({
-  title: 'Tech Insights & Developer Blog | Void Matrix Technology',
+  title: 'Tech Insights & Developer Blog | VoidMatrix Technology',
   description:
-    'Software engineering, AI, and web dev insights from the Void Matrix team. Practical guides for modern builders.',
+    'Software engineering, AI, and web dev insights from the VoidMatrix team. Practical guides for modern builders.',
   path: '/blog',
 });
 
@@ -25,7 +25,7 @@ export default async function BlogPage() {
   return (
     <>
       <div className="container mx-auto px-10 py-10">
-        <h1 className="section-title text-center">Void Matrix Technology Blogs</h1>
+        <h1 className="section-title text-center">VoidMatrix Technology Blogs</h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog: any) => (
             <Link

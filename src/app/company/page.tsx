@@ -5,7 +5,7 @@ import Position from '@/components/sections/home/Positioning';
 export const metadata = {
   title: 'Software & Web Development Company in Mumbai, India',
   description:
-    'Void Matrix Technology is a Mumbai-based software development and digital growth company helping businesses build fast, SEO-friendly websites and software.',
+    'VoidMatrix Technology is a Mumbai-based software development and digital growth company helping businesses build fast, SEO-friendly websites and software.',
   path: '/company',
 };
 
@@ -35,7 +35,7 @@ export default function CompanyPage() {
                   built for speed, SEO, or scale.
                 </span>
                 <span>
-                  <span className="font-semibold">Void Matrix Technology</span> is a software
+                  <span className="font-semibold">VoidMatrix Technology</span> is a software
                   development and digital marketing company in Mumbai building the alternative -
                   fast, modern, globally competitive digital products for Indian businesses.
                 </span>
@@ -52,7 +52,7 @@ export default function CompanyPage() {
           clsName="hero-eyebrow-glowing-b"
         >
           <p className="text-lg text-justify my-5">
-            At <span className="font-semibold text-(--primary)">Void Matrix Technology</span>, our
+            At <span className="font-semibold text-(--primary)">VoidMatrix Technology</span>, our
             mission started with a simple observation: many businesses invest in their digital
             presence, yet few achieve the results they deserve.
           </p>
@@ -81,7 +81,7 @@ export default function CompanyPage() {
           <p className="text-lg text-justify my-5">We believed there was a better approach.</p>
           <p className="text-lg text-justify my-5">
             In 2026, we founded
-            <span className="font-semibold text-(--primary)"> Void Matrix Technology </span>
+            <span className="font-semibold text-(--primary)"> VoidMatrix Technology </span>
             in Mumbai with a clear vision: to assist businesses in creating
             <span className="font-semibold">
               {' '}

@@ -6,9 +6,9 @@ import { buildMetadata } from '../lib/schema/seo';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Contact Website Development Company India | Void Matrix Technology',
+  title: 'Contact Website Development Company India | VoidMatrix Technology',
   description:
-    'Contact Void Matrix Technology for website and custom software development services in Mumbai, Pune, and across India.',
+    'Contact VoidMatrix Technology for website and custom software development services in Mumbai, Pune, and across India.',
   path: '/contact',
 });
 
@@ -74,7 +74,7 @@ export default async function ContactPage({
     <section className="contact-container">
       <header className="contact-header">
         <Hero
-          title="Void Matrix Technology"
+          title="VoidMatrix Technology"
           subtitle="Tell us about your project and we'll help you move forward."
         ></Hero>
       </header>

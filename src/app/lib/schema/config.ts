@@ -18,12 +18,12 @@ export const WEBSITE_ID = `${SITE_URL}#website`;
 
 export const COLLECTION_ID = `${SITE_URL}#Collection`;
 
-export const NAME = 'Void Matrix Technology';
+export const NAME = 'VoidMatrix Technology';
 
-export const LEGAL_NAME = 'Void Matrix Technology';
+export const LEGAL_NAME = 'VoidMatrix Technology';
 
 export const BRAND_DESC =
-  'Void Matrix Technology is a custom software development company in India building scalable SaaS platforms, enterprise applications, eCommerce systems, and architecture-driven digital products.';
+  'VoidMatrix Technology is a custom software development company in India building scalable SaaS platforms, enterprise applications, eCommerce systems, and architecture-driven digital products.';
 
 export const BRAND_LOGO = {
   '@type': 'ImageObject',

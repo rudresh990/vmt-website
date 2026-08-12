@@ -40,7 +40,7 @@ const contents = [
   {
     id: 'integration3',
 
-    para: 'At Void Matrix Technology, we design and develop secure third-party integrations that allow different systems to exchange data reliably. Our engineers work with REST APIs, GraphQL, webhooks, SDKs, OAuth, custom APIs, and middleware to create reliable connections between your technology ecosystem.',
+    para: 'At VoidMatrix Technology, we design and develop secure third-party integrations that allow different systems to exchange data reliably. Our engineers work with REST APIs, GraphQL, webhooks, SDKs, OAuth, custom APIs, and middleware to create reliable connections between your technology ecosystem.',
   },
 
   {
@@ -280,7 +280,7 @@ export default function ThirdPartyIntegrationPage() {
 
     {
       para:
-        'At Void Matrix Technology, we first understand how your systems currently exchange information and where manual processes or data gaps exist. We then design the appropriate integration architecture instead of adding unnecessary connectors or automation layers.',
+        'At VoidMatrix Technology, we first understand how your systems currently exchange information and where manual processes or data gaps exist. We then design the appropriate integration architecture instead of adding unnecessary connectors or automation layers.',
     },
 
   ]}
