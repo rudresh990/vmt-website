@@ -618,32 +618,63 @@ export const serviceData = {
       'VoidMatrix Technology sets up CI/CD pipelines in India for software teams that are spending too much time on manual deployments, environment inconsistencies, and release anxiety. Based in Mumbai, we design and implement automated build, test, and deployment workflows for startups and enterprise engineering teams in Mumbai, Pune, Bangalore, and other technology hubs. A well-designed CI/CD pipeline eliminates the manual bottlenecks that slow release cycles, reduces human error in deployment processes, and gives engineering teams the confidence to ship to production multiple times per day. We work with GitHub Actions, GitLab CI, Jenkins, CircleCI, and other tooling - integrating automated unit tests, integration tests, security scans, and staging deployments before any code reaches production. We also handle containerized deployments with Docker and Kubernetes, infrastructure-as-code with Terraform, and environment parity between staging and production. The result is a deployment process your engineers trust and a release cadence your business can rely on.',
     faqs: [
       {
-        q: 'What is a CI/CD pipeline and why does my team need one?',
-        a: "A CI/CD pipeline is an automated sequence that takes code from a developer's commit to a tested, deployed production release - without manual intervention. Teams without CI/CD spend significant engineering time on repetitive deployment tasks, introduce errors through manual processes, and release infrequently because each deployment is stressful. With CI/CD, releases become routine rather than events.",
+        q: 'What is a CI/CD pipeline?',
+
+        a: 'A CI/CD pipeline is an automated workflow that takes software changes from source code through building, testing, and deployment. It helps development teams release applications more consistently while reducing manual work and deployment errors.',
       },
+
       {
-        q: 'How much does CI/CD pipeline setup cost in India?',
-        a: 'CI/CD pipeline setup in India ranges from ₹80,000 for a straightforward single-application pipeline to ₹5,00,000 for complex multi-environment, multi-service infrastructure with comprehensive automated testing and security scanning integrated throughout.',
+        q: 'What is the difference between CI and CD?',
+
+        a: 'Continuous Integration (CI) focuses on automatically integrating and validating code changes through processes such as builds, testing, linting, and quality checks. Continuous Delivery or Continuous Deployment (CD) extends the workflow by automating the delivery or deployment of validated software to target environments.',
       },
+
+      {
+        q: 'How much does CI/CD pipeline development cost in India?',
+
+        a: 'CI/CD development cost depends on the application architecture, number of environments, testing requirements, deployment infrastructure, cloud platform, containerization, security controls, and rollback requirements. A basic application pipeline requires less engineering effort than a multi-application enterprise delivery platform.',
+      },
+
       {
         q: 'Which CI/CD tools do you work with?',
-        a: 'We work with GitHub Actions (most common), GitLab CI/CD, Jenkins, CircleCI, and Bitbucket Pipelines. Tool selection is based on your existing version control, team familiarity, and infrastructure requirements - we do not push any single tool.',
+
+        a: 'We work with modern CI/CD and DevOps tools including GitHub Actions, GitLab CI/CD, Jenkins, Docker, Kubernetes, AWS, Microsoft Azure, and Google Cloud. The tooling is selected according to your application architecture, development workflow, and infrastructure requirements.',
       },
+
       {
-        q: 'Do you set up pipelines for containerized applications?',
-        a: 'Yes. Docker-based and Kubernetes-based deployment pipelines are a regular part of our work - including container image building, registry management, Helm chart deployment, and rolling update strategies to eliminate downtime during releases.',
+        q: 'Can you build a CI/CD pipeline for a SaaS application?',
+
+        a: 'Yes. We build CI/CD pipelines for SaaS applications that automate code validation, testing, builds, deployments, environment management, database migrations, and production releases. The pipeline can be designed to support frequent feature releases as the SaaS product grows.',
       },
+
       {
-        q: 'Can you integrate automated testing into the pipeline?',
-        a: 'Yes. Automated testing integration is the most important part of a CI pipeline. We connect unit tests, integration tests, end-to-end tests, and security scans (SAST, dependency vulnerability scanning) into the pipeline - blocking deployments when tests fail.',
+        q: 'Can CI/CD pipelines include automated testing?',
+
+        a: 'Yes. Automated tests can be integrated directly into the CI/CD workflow. Depending on the application, pipelines can run unit tests, integration tests, API tests, linting, type checks, security checks, and other quality validations before deployment.',
       },
+
       {
-        q: 'We currently deploy manually. How disruptive is the transition?',
-        a: 'We design the transition to be incremental - building the new pipeline alongside your existing process, validating it thoroughly in staging, and only cutting over to automated deployment once your team is confident. We also document everything so your team understands and owns the system after handoff.',
+        q: 'Can you create CI/CD pipelines for Docker and Kubernetes applications?',
+
+        a: 'Yes. We build CI/CD workflows that automatically build and test Docker images, publish approved images to container registries, and deploy applications to Kubernetes environments. These pipelines can also include environment-specific configurations and controlled release processes.',
       },
+
       {
-        q: 'Do you serve technology teams in Mumbai and Pune?',
-        a: 'Yes. We help engineering teams across Mumbai and Pune automate their deployment workflows - reducing release risk and freeing engineers for product work rather than deployment maintenance.',
+        q: 'Can you automate deployment to AWS, Azure, or Google Cloud?',
+
+        a: 'Yes. We implement automated cloud deployment pipelines for AWS, Microsoft Azure, and Google Cloud environments. The pipeline can manage application builds, environment configuration, deployments, database migrations, approvals, and other release activities.',
+      },
+
+      {
+        q: 'Can a CI/CD pipeline support rollback?',
+
+        a: 'Yes. CI/CD workflows can include controlled rollback mechanisms using versioned builds, deployment history, container images, release strategies, and environment configuration. The appropriate rollback approach depends on the application architecture and deployment infrastructure.',
+      },
+
+      {
+        q: 'Why choose Void Matrix Technology for CI/CD development?',
+
+        a: 'Void Matrix Technology designs CI/CD pipelines around your actual development workflow, application architecture, and infrastructure. We focus on practical automation, reliable deployments, automated quality checks, security, and long-term maintainability for startups and enterprises.',
       },
     ],
     offer: [80000, 500000],
