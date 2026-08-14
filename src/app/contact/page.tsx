@@ -74,8 +74,8 @@ export default async function ContactPage({
     <section className="contact-container">
       <header className="contact-header">
         <Hero
-          title="VoidMatrix Technology"
-          subtitle="Tell us about your project and we'll help you move forward."
+          title="VoidMatrix Technology Pvt Ltd"
+          herosub="Trusted Technology Partner for Website and Custom Software Development"
         ></Hero>
       </header>
       {hasEstimateData && (

@@ -12,7 +12,7 @@ import GlassCard from '@/components/ui/GlassCard';
 import { homeFaqs } from './lib/schema/data/home_faqs';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'VoidMatrix Technology | Scalable Software & Web Systems',
+  title: 'VoidMatrix Technology Pvt Ltd | Scalable Software & Web Systems',
   description:
     'VoidMatrix Technology delivers custom software, SaaS, websites, mobile apps, eCommerce, SEO, and digital marketing for business growth.',
   path: '',
