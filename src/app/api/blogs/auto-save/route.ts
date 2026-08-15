@@ -4,18 +4,47 @@ import { slugify } from '../../methods';
 
 export async function POST(req: Request) {
   try {
+    // =========================
+    // AUTH
+    // =========================
+
     const cookie = req.headers.get('cookie') || '';
     const token = cookie.split('token=')[1]?.split(';')[0];
 
     const user: any = verifyToken(token);
 
-    const { id, title, content, tags = [], excerpt } = await req.json();
+    if (!user) {
+      return Response.json(
+        {
+          error: 'Unauthorized',
+        },
+        {
+          status: 401,
+        },
+      );
+    }
+
+    // =========================
+    // REQUEST DATA
+    // =========================
+
+    const {
+      id,
+      title,
+      content,
+      tags = [],
+      excerpt,
+    } = await req.json();
 
     console.log('Auto-saving blog:', {
       id,
       title,
       tags,
     });
+
+    // =========================
+    // VALIDATION
+    // =========================
 
     if (!title || !content) {
       return Response.json(
@@ -28,9 +57,20 @@ export async function POST(req: Request) {
       );
     }
 
+    // =========================
+    // GENERATE SLUG
+    // =========================
+
+    const slug = slugify(title);
+
+    // =========================
+    // UPDATE DATA
+    // =========================
+
     const updateData: any = {
       title,
       content,
+      slug,
     };
 
     if (excerpt !== undefined) {
@@ -45,7 +85,9 @@ export async function POST(req: Request) {
       const numericId = Number(id);
 
       const blog = await prisma.$transaction(async (tx) => {
-        // Update blog content
+        // =========================
+        // UPDATE BLOG
+        // =========================
 
         const updatedBlog = await tx.blog.update({
           where: {
@@ -55,10 +97,12 @@ export async function POST(req: Request) {
           data: updateData,
         });
 
-        // Handle Tags
+        // =========================
+        // HANDLE TAGS
+        // =========================
 
         if (Array.isArray(tags)) {
-          // Remove old relations
+          // Remove old tag relationships
 
           await tx.blogTag.deleteMany({
             where: {
@@ -66,14 +110,21 @@ export async function POST(req: Request) {
             },
           });
 
+          // Clean tags
+
           const cleanTags = tags
-            .filter((tag: string) => tag && tag.trim())
+            .filter(
+              (tag: string) =>
+                typeof tag === 'string' && tag.trim(),
+            )
             .map((tag: string) => tag.trim());
+
+          // Create/find tags
 
           for (const tagName of cleanTags) {
             const tagSlug = slugify(tagName);
 
-            // Find tag using slug OR name
+            // Find existing tag
 
             let tag = await tx.tag.findFirst({
               where: {
@@ -81,7 +132,6 @@ export async function POST(req: Request) {
                   {
                     slug: tagSlug,
                   },
-
                   {
                     name: tagName,
                   },
@@ -89,35 +139,32 @@ export async function POST(req: Request) {
               },
             });
 
-            // Create only if tag does not exist
+            // Create tag if it doesn't exist
 
             if (!tag) {
               tag = await tx.tag.create({
                 data: {
                   name: tagName,
-
                   slug: tagSlug,
-
                   status: 'APPROVED',
                 },
               });
             }
 
-            // Avoid duplicate BlogTag relation
+            // Create BlogTag relationship
 
-            const existingRelation = await tx.blogTag.findFirst({
-              where: {
-                blogId: numericId,
-
-                tagId: tag.id,
-              },
-            });
+            const existingRelation =
+              await tx.blogTag.findFirst({
+                where: {
+                  blogId: numericId,
+                  tagId: tag.id,
+                },
+              });
 
             if (!existingRelation) {
               await tx.blogTag.create({
                 data: {
                   blogId: numericId,
-
                   tagId: tag.id,
                 },
               });
@@ -138,18 +185,21 @@ export async function POST(req: Request) {
     const blog = await prisma.blog.create({
       data: {
         title,
-
         content,
-
         excerpt,
 
-        slug: slugify(title),
+        // Generate slug from title
+        slug,
 
         status: 'DRAFT',
 
         authorId: user.id,
       },
     });
+
+    // =========================
+    // RETURN CREATED BLOG
+    // =========================
 
     return Response.json(blog);
   } catch (error: any) {
@@ -159,7 +209,6 @@ export async function POST(req: Request) {
       {
         error: error.message,
       },
-
       {
         status: 500,
       },
