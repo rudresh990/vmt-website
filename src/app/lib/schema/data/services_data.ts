@@ -1896,35 +1896,78 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technical SEO services in India for businesses whose websites are not ranking despite good content - because the technical foundation that search engines require to crawl, index, and understand your pages is broken. Based in Mumbai, we work with startups, SaaS platforms, eCommerce stores, and enterprises in Mumbai, Pune, Bangalore, and across India to diagnose and fix the technical issues silently suppressing organic rankings. Technical SEO problems are invisible to the naked eye but highly visible to search engine crawlers: pages stuck in discovered-not-indexed status, canonical tag errors that split ranking signals, slow Core Web Vitals penalizing pages in competitive results, duplicate content from URL parameter variations, and missing or malformed structured data. We identify and fix these issues systematically, with before/after measurements in Google Search Console so you can see the impact of each improvement. Strong technical SEO is the prerequisite for every other SEO investment - content and links do not work as well on a technically compromised site.',
     faqs: [
-      {
-        q: 'What technical SEO problems do you fix most often?',
-        a: 'The most common issues we diagnose and fix: pages blocked from indexing despite being valuable, crawl budget wasted on low-value URLs (paginated pages, filter combinations, session parameters), duplicate content from www/non-www, HTTP/HTTPS, or trailing slash inconsistencies, broken internal links diluting crawl efficiency, missing or incorrect canonical tags, Core Web Vitals failures on mobile, missing structured data for key page types, and hreflang errors on multilingual sites.',
-      },
-      {
-        q: 'How do I know if my site has serious technical SEO problems?',
-        a: 'Red flags: significant number of submitted pages in Search Console showing "Discovered - currently not indexed" or "Crawled - currently not indexed" status, organic traffic decline following a site migration or redesign, Core Web Vitals report showing red or orange for large portions of your URLs, Google Search Console showing a large coverage gap between submitted and indexed pages, or pages that should clearly rank for branded terms but do not appear in search.',
-      },
-      {
-        q: 'How much does technical SEO cost in India?',
-        a: 'Technical SEO services in India range from ₹50,000 for a focused audit and targeted fix implementation on a small website to ₹4,00,000 or more for comprehensive technical remediation of complex platforms with significant architecture and indexation issues.',
-      },
-      {
-        q: 'Do you fix indexation problems?',
-        a: 'Yes - indexation is often the most urgent technical SEO problem. We diagnose exactly why pages are not being indexed (robots.txt blocks, noindex tags, canonical errors, crawl budget exhaustion, quality signals, or JavaScript rendering issues) and implement the appropriate fixes.',
-      },
-      {
-        q: 'Do you implement schema markup?',
-        a: "Yes. We implement LocalBusiness, FAQPage, Article, Product, Review, BreadcrumbList, SitelinksSearchBox, and other relevant schema types in JSON-LD format - validated in Google's Rich Results Test and monitored in Search Console for rich result eligibility.",
-      },
-      {
-        q: 'Do you optimize Core Web Vitals?',
-        a: 'Yes. We diagnose LCP (Largest Contentful Paint), CLS (Cumulative Layout Shift), and INP (Interaction to Next Paint) issues - implementing server-side, caching, asset optimization, and JavaScript improvements that improve real-user field data, not just lab scores.',
-      },
-      {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We provide technical SEO services to businesses across Mumbai and Pune - from small service businesses to large eCommerce and SaaS platforms with complex technical requirements.',
-      },
-    ],
+    {
+      q: 'What is technical SEO?',
+      a:
+        'Technical SEO is the process of improving the technical structure of a website so search engines can efficiently crawl, render, understand, and index its pages. It includes areas such as crawlability, indexation, website architecture, redirects, canonical URLs, structured data, JavaScript SEO, and website performance.',
+    },
+
+    {
+      q: 'What does a technical SEO audit include?',
+      a:
+        'A technical SEO audit examines the technical factors that can affect organic search visibility. Depending on the website, this can include crawlability, indexation, robots.txt, XML sitemaps, canonical URLs, redirects, status codes, internal linking, duplicate URLs, structured data, JavaScript rendering, page speed, and Core Web Vitals.',
+    },
+
+    {
+      q: 'How can technical SEO improve Google rankings?',
+      a:
+        'Technical SEO helps remove technical barriers that can prevent search engines from accessing, understanding, and indexing important website pages. A technically sound website provides a stronger foundation for organic search visibility when combined with relevant content, authority, and a broader SEO strategy.',
+    },
+
+    {
+      q: 'What is included in your technical SEO services?',
+      a:
+        'VMT technical SEO services can include technical SEO audits, crawlability and indexation analysis, website architecture optimization, Core Web Vitals and performance optimization, JavaScript SEO, structured data implementation, internal linking improvements, XML sitemap and robots.txt configuration, canonicalization, and technical SEO implementation.',
+    },
+
+    {
+      q: 'Can you fix Core Web Vitals issues?',
+      a:
+        'Yes. VMT can investigate Core Web Vitals and related performance problems involving page rendering, JavaScript execution, images, caching, server response time, layout stability, and frontend architecture. We focus on identifying the underlying engineering issues rather than simply reporting performance scores.',
+    },
+
+    {
+      q: 'Do you provide technical SEO for Next.js and React websites?',
+      a:
+        'Yes. VMT works with modern JavaScript websites including Next.js and React. Technical SEO for these websites can require additional attention to rendering, metadata, routing, internal links, JavaScript execution, structured data, and crawlability.',
+    },
+
+    {
+      q: 'Can you perform a technical SEO audit for an eCommerce website?',
+      a:
+        'Yes. eCommerce websites often require additional technical SEO analysis because of product URLs, category structures, filters, faceted navigation, pagination, duplicate pages, canonicalization, internal linking, structured data, and large numbers of crawlable URLs.',
+    },
+
+    {
+      q: 'How do I know if my website has technical SEO problems?',
+      a:
+        'Common warning signs include important pages not appearing in Google, indexing errors in Google Search Console, unexpected organic traffic declines, duplicate URLs, slow page performance, poor Core Web Vitals, broken internal links, incorrect canonical tags, crawling problems, and JavaScript-rendering issues.',
+    },
+
+    {
+      q: 'Do you provide technical SEO services in Mumbai?',
+      a:
+        'Yes. VMT provides technical SEO services for businesses in Mumbai, Pune, and across India. Our technical SEO work can be performed for corporate websites, SaaS platforms, eCommerce stores, startups, and custom web applications.',
+    },
+
+    {
+      q: 'How much do technical SEO services cost in India?',
+      a:
+        'Technical SEO pricing depends on the size and complexity of the website, the number of technical issues, the required implementation work, and whether ongoing optimization is required. VMT can assess your website and recommend an appropriate scope before development or optimization begins.',
+    },
+
+    {
+      q: 'Do you fix crawlability and indexation problems?',
+      a:
+        'Yes. We investigate crawl and indexation issues involving robots.txt, noindex directives, XML sitemaps, canonical URLs, redirects, HTTP status codes, internal linking, duplicate URLs, JavaScript rendering, and other technical factors that can affect how search engines discover and process website pages.',
+    },
+
+    {
+      q: 'Do you implement structured data and schema markup?',
+      a:
+        'Yes. VMT can implement and validate relevant structured data for supported website entities such as organizations, services, products, articles, and other appropriate content types. The implementation is based on the actual content and structure of the website rather than adding unnecessary schema markup.',
+    },
+  ],
     offer: [50000, 400000],
   },
 
