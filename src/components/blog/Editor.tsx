@@ -82,7 +82,7 @@ export default function Editor({ content, onChange }: any) {
   };
   return (
     <div className="relative">
-      <FloatingToolbar />
+      <FloatingToolbar editor={editor}/>
 
       <div className="p-4 text-white">
         {/* TOOLBAR */}
@@ -194,7 +194,7 @@ export default function Editor({ content, onChange }: any) {
             }`}
           >
             🔗
-          </button>
+          </button> 
 
           {/* REMOVE LINK */}
           <button

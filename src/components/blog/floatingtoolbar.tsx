@@ -1,37 +1,77 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import type { Editor } from '@tiptap/react';
 
-export default function FloatingToolbar() {
+interface FloatingToolbarProps {
+  editor: Editor;
+}
+
+export default function FloatingToolbar({
+  editor,
+}: FloatingToolbarProps) {
   const [visible, setVisible] = useState(false);
-  const [position, setPosition] = useState({ top: 0, left: 0 });
+  const [position, setPosition] = useState({
+    top: 0,
+    left: 0,
+  });
 
-  const applyFormat = (command: string, value?: string) => {
-    document.execCommand(command, false, value);
-  };
-
-  const clearFormatting = () => {
-    document.execCommand('removeFormat');
-  };
-
-  const applyHeading = (tag: 'h2' | 'h3') => {
-    document.execCommand('formatBlock', false, tag);
-  };
-
-  const INTERNAL_LINK_REGEX = /^(\/(?!\/)|#)[A-Za-z0-9\-\/#?=&._~]+$/;
+  const INTERNAL_LINK_REGEX =
+    /^(\/(?!\/)|#)[A-Za-z0-9\-\/#?=&._~]+$/;
 
   const addLink = () => {
     const url = prompt('Enter URL');
+
     if (!url) return;
 
-    const isInternal = url.startsWith('/') || url.startsWith('#');
+    const isInternal =
+      url.startsWith('/') || url.startsWith('#');
 
-    if (!isInternal || !INTERNAL_LINK_REGEX.test(url)) {
+    if (
+      !isInternal ||
+      !INTERNAL_LINK_REGEX.test(url)
+    ) {
       alert('Only internal links allowed');
       return;
     }
 
-    document.execCommand('createLink', false, url);
+    editor
+      .chain()
+      .focus()
+      .extendMarkRange('link')
+      .setLink({
+        href: url,
+      })
+      .run();
+  };
+
+  const applyFormat = (
+    command: 'bold' | 'italic'
+  ) => {
+    if (command === 'bold') {
+      editor.chain().focus().toggleBold().run();
+    }
+
+    if (command === 'italic') {
+      editor.chain().focus().toggleItalic().run();
+    }
+  };
+
+  const clearFormatting = () => {
+    editor
+      .chain()
+      .focus()
+      .unsetAllMarks()
+      .clearNodes()
+      .run();
+  };
+
+  const applyHeading = (level: 2 | 3) => {
+    editor
+      .chain()
+      .focus()
+      .setHeading({ level })
+      .run();
   };
 
   useEffect(() => {
@@ -39,44 +79,92 @@ export default function FloatingToolbar() {
     const OFFSET = 8;
 
     const handleSelection = () => {
-      const selection = window.getSelection();
+      if (!editor) return;
 
-      if (!selection || selection.rangeCount === 0) {
+      const { from, to } = editor.state.selection;
+
+      // No text selected
+      if (from === to) {
         setVisible(false);
         return;
       }
 
-      const text = selection.toString().trim();
-      if (!text) {
+      const selectedText = editor.state.doc.textBetween(
+        from,
+        to,
+        ' '
+      );
+
+      if (!selectedText.trim()) {
         setVisible(false);
         return;
       }
 
-      const range = selection.getRangeAt(0);
+      const domSelection = window.getSelection();
+
+      if (
+        !domSelection ||
+        domSelection.rangeCount === 0
+      ) {
+        setVisible(false);
+        return;
+      }
+
+      const range = domSelection.getRangeAt(0);
       const rect = range.getBoundingClientRect();
 
       let top;
 
-      if (rect.top > TOOLBAR_HEIGHT + OFFSET) {
-        top = rect.top - TOOLBAR_HEIGHT - OFFSET;
+      if (
+        rect.top >
+        TOOLBAR_HEIGHT + OFFSET
+      ) {
+        top =
+          rect.top -
+          TOOLBAR_HEIGHT -
+          OFFSET;
       } else {
         top = rect.bottom + OFFSET;
       }
 
-      const left = Math.min(window.innerWidth - 100, Math.max(100, rect.left + rect.width / 2));
+      const left = Math.min(
+        window.innerWidth - 100,
+        Math.max(
+          100,
+          rect.left + rect.width / 2
+        )
+      );
 
       setVisible(true);
-      setPosition({ top, left });
+
+      setPosition({
+        top,
+        left,
+      });
     };
 
-    document.addEventListener('mouseup', handleSelection);
-    document.addEventListener('keyup', handleSelection);
+    document.addEventListener(
+      'mouseup',
+      handleSelection
+    );
+
+    document.addEventListener(
+      'keyup',
+      handleSelection
+    );
 
     return () => {
-      document.removeEventListener('mouseup', handleSelection);
-      document.removeEventListener('keyup', handleSelection);
+      document.removeEventListener(
+        'mouseup',
+        handleSelection
+      );
+
+      document.removeEventListener(
+        'keyup',
+        handleSelection
+      );
     };
-  }, []);
+  }, [editor]);
 
   if (!visible) return null;
 
@@ -91,6 +179,7 @@ export default function FloatingToolbar() {
     >
       {/* Bold */}
       <button
+        type="button"
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => applyFormat('bold')}
@@ -100,6 +189,7 @@ export default function FloatingToolbar() {
 
       {/* Italic */}
       <button
+        type="button"
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
         onClick={() => applyFormat('italic')}
@@ -109,29 +199,68 @@ export default function FloatingToolbar() {
 
       {/* H2 */}
       <button
+        type="button"
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
-        onClick={() => applyHeading('h2')}
+        onClick={() => applyHeading(2)}
       >
         H2
       </button>
 
       {/* H3 */}
       <button
+        type="button"
         className="btn"
         onMouseDown={(e) => e.preventDefault()}
-        onClick={() => applyHeading('h3')}
+        onClick={() => applyHeading(3)}
       >
         H3
       </button>
 
       {/* Link */}
-      <button className="btn" onMouseDown={(e) => e.preventDefault()} onClick={addLink}>
+      <button
+        type="button"
+        className={`btn ${
+          editor.isActive('link')
+            ? 'bg-cyan-500 text-black'
+            : ''
+        }`}
+        onMouseDown={(e) =>
+          e.preventDefault()
+        }
+        onClick={addLink}
+      >
         🔗
       </button>
 
-      {/* Clear formatting */}
-      <button className="btn" onMouseDown={(e) => e.preventDefault()} onClick={clearFormatting}>
+      {/* Remove Link */}
+      <button
+        type="button"
+        className="btn"
+        onMouseDown={(e) =>
+          e.preventDefault()
+        }
+        onClick={() => {
+          editor
+            .chain()
+            .focus()
+            .extendMarkRange('link')
+            .unsetLink()
+            .run();
+        }}
+      >
+        ❌
+      </button>
+
+      {/* Clear */}
+      <button
+        type="button"
+        className="btn"
+        onMouseDown={(e) =>
+          e.preventDefault()
+        }
+        onClick={clearFormatting}
+      >
         ✖
       </button>
     </div>
