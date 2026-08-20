@@ -1,9 +1,6 @@
 import { Metadata } from 'next';
-
 import Hero from '@/components/sections/common/Hero';
-
 import WhaIsService from '@/components/services/WhatIsService';
-
 import { serviceData } from '@/app/lib/schema/data/services_data';
 import { buildMetadata } from '@/app/lib/schema/seo';
 import MainServiceCTA from '@/components/services/MainServiceCTA';

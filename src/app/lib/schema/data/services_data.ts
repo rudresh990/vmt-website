@@ -1360,32 +1360,78 @@ export const serviceData = {
       'VoidMatrix Technology provides on-page SEO services in India for businesses whose pages have good content but are not ranking - because the optimization signals search engines need are missing, weak, or misaligned. Based in Mumbai, we optimize individual web pages for startups, service businesses, eCommerce stores, and SaaS platforms in Mumbai, Pune, Bangalore, and across India targeting specific commercial and informational keywords. On-page SEO is the layer of optimization you fully control: keyword placement in titles, headings, and body content; title tag and meta description quality; internal link structure; image optimization; structured data; and content depth aligned with search intent. Most pages have significant on-page optimization gaps - and closing those gaps is one of the fastest ways to move rankings without building more links or creating new content. We perform thorough page-by-page audits and implement structured optimizations that search engines register within weeks.',
     faqs: [
       {
-        q: 'What does on-page SEO optimization actually change?',
-        a: 'On-page SEO adjustments include: rewriting title tags to include primary keywords with click-worthy phrasing; improving meta descriptions to improve click-through rates; restructuring heading hierarchy to clearly signal topic relevance; optimizing body content for target keywords and semantic variants; building internal links to distribute authority; adding or fixing schema markup; optimizing images with descriptive alt text; and improving content comprehensiveness to match what top-ranking pages cover.',
+        q: 'What is on-page SEO?',
+        a: 'On-page SEO is the process of optimizing individual website pages to improve their relevance, structure, content quality, and visibility for relevant search queries.',
       },
+
       {
-        q: 'How quickly does on-page SEO show results?',
-        a: 'On-page changes are typically recrawled and reflected in rankings within 2-6 weeks for actively crawled pages. Unlike link building, which takes months to show ranking impact, on-page optimization is one of the fastest-acting SEO interventions available.',
+        q: 'What does on-page SEO include?',
+        a: 'On-page SEO can include keyword research and mapping, title tags, meta descriptions, headings, content optimization, internal linking, URL optimization, image SEO, and relevant structured data.',
       },
+
+      {
+        q: 'Why is on-page SEO important for a website?',
+        a: 'On-page SEO helps search engines understand what your pages are about and whether they are relevant to particular searches. It also improves the structure and usability of important website pages.',
+      },
+
+      {
+        q: 'How does on-page SEO improve Google rankings?',
+        a: 'On-page SEO improves the relevance, structure, and quality of website pages so search engines can better understand their relationship to search queries. Ranking improvements depend on many factors, including competition, website authority, content quality, and technical SEO.',
+      },
+
       {
         q: 'How much does on-page SEO cost in India?',
-        a: 'On-page SEO services in India range from ₹30,000 for optimizing a focused set of priority pages to ₹2,00,000 for a comprehensive site-wide on-page optimization program covering 50+ pages with full keyword research, content updates, and internal linking restructuring.',
+        a: 'On-page SEO pricing depends on the number of pages, website size, existing SEO condition, keyword competition, content requirements, website architecture, and optimization scope. The appropriate cost can be determined after reviewing the website.',
       },
+
       {
-        q: 'Do you perform keyword research as part of on-page SEO?',
-        a: 'Yes - always. Effective on-page optimization requires knowing exactly what keywords each page should target, what users searching those terms actually want to find, and how to satisfy that intent better than current ranking competitors. We do not optimize based on assumptions.',
+        q: 'How long does on-page SEO take to show results?',
+        a: 'The timeframe varies depending on the website, competition, existing search visibility, domain strength, content quality, and the extent of optimization. Some changes can be reflected relatively quickly, while meaningful organic growth generally requires ongoing optimization and monitoring.',
       },
+
       {
-        q: 'Do you rewrite content as part of on-page optimization?',
-        a: 'Where needed, yes. On-page SEO sometimes requires expanding thin content, restructuring poorly organized articles, adding missing topic sections, or rewriting to better match search intent. We scope content changes as part of the optimization plan.',
+        q: 'Can you optimize existing website content for SEO?',
+        a: 'Yes. Existing content can be reviewed and optimized for search intent, keyword relevance, topical coverage, headings, metadata, readability, internal linking, and overall page structure.',
       },
+
       {
-        q: 'How is on-page SEO different from technical SEO?',
-        a: 'Technical SEO fixes infrastructure problems (crawling, indexing, site speed, schema). On-page SEO optimizes the content and signals within individual pages. Both are necessary for strong rankings - technical SEO ensures pages can be found and indexed; on-page SEO ensures they are relevant and competitive once indexed.',
+        q: 'Do you provide keyword research with on-page SEO services?',
+        a: 'Yes. Keyword research and search intent analysis are important parts of on-page SEO because they help determine what each page should target and how the content should be structured.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We optimize websites for businesses across Mumbai and Pune - including local service businesses targeting Mumbai-specific keywords and national businesses competing in pan-India search results.',
+        q: 'Can on-page SEO help businesses in Mumbai and Pune?',
+        a: 'Yes. On-page SEO can support local and commercial search visibility by optimizing relevant service pages, location pages, business content, metadata, internal links, and other page-level elements around relevant searches.',
+      },
+
+      {
+        q: 'Do you provide on-page SEO services across India?',
+        a: 'Yes. VMT provides on-page SEO services for businesses targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, other Indian cities, and nationwide searches.',
+      },
+
+      {
+        q: 'Do you provide on-page SEO for international websites?',
+        a: 'Yes. We optimize websites targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets based on the target audience, search intent, language, location, and business objectives.',
+      },
+
+      {
+        q: 'Do you provide on-page SEO for eCommerce websites?',
+        a: 'Yes. eCommerce on-page SEO can cover product pages, category pages, collection pages, metadata, content, internal linking, URLs, images, product information, and appropriate structured data.',
+      },
+
+      {
+        q: 'Do you provide on-page SEO for SaaS websites?',
+        a: 'Yes. SaaS on-page SEO can include optimization of product pages, feature pages, solution pages, landing pages, comparison pages, integrations, educational content, and other pages targeting relevant software searches.',
+      },
+
+      {
+        q: 'Is on-page SEO the same as technical SEO?',
+        a: 'No. On-page SEO primarily focuses on page-level content and elements such as keywords, headings, metadata, internal links, URLs, and content structure. Technical SEO focuses more broadly on areas such as crawling, indexing, site performance, rendering, architecture, and technical accessibility.',
+      },
+
+      {
+        q: 'Can you audit my existing website before doing on-page SEO?',
+        a: 'Yes. An initial website and SEO analysis can identify existing optimization gaps, important pages, keyword opportunities, content issues, internal linking opportunities, and other areas that should be addressed.',
       },
     ],
     offer: [30000, 200000],
@@ -1896,78 +1942,66 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technical SEO services in India for businesses whose websites are not ranking despite good content - because the technical foundation that search engines require to crawl, index, and understand your pages is broken. Based in Mumbai, we work with startups, SaaS platforms, eCommerce stores, and enterprises in Mumbai, Pune, Bangalore, and across India to diagnose and fix the technical issues silently suppressing organic rankings. Technical SEO problems are invisible to the naked eye but highly visible to search engine crawlers: pages stuck in discovered-not-indexed status, canonical tag errors that split ranking signals, slow Core Web Vitals penalizing pages in competitive results, duplicate content from URL parameter variations, and missing or malformed structured data. We identify and fix these issues systematically, with before/after measurements in Google Search Console so you can see the impact of each improvement. Strong technical SEO is the prerequisite for every other SEO investment - content and links do not work as well on a technically compromised site.',
     faqs: [
-    {
-      q: 'What is technical SEO?',
-      a:
-        'Technical SEO is the process of improving the technical structure of a website so search engines can efficiently crawl, render, understand, and index its pages. It includes areas such as crawlability, indexation, website architecture, redirects, canonical URLs, structured data, JavaScript SEO, and website performance.',
-    },
+      {
+        q: 'What is technical SEO?',
+        a: 'Technical SEO is the process of improving the technical structure of a website so search engines can efficiently crawl, render, understand, and index its pages. It includes areas such as crawlability, indexation, website architecture, redirects, canonical URLs, structured data, JavaScript SEO, and website performance.',
+      },
 
-    {
-      q: 'What does a technical SEO audit include?',
-      a:
-        'A technical SEO audit examines the technical factors that can affect organic search visibility. Depending on the website, this can include crawlability, indexation, robots.txt, XML sitemaps, canonical URLs, redirects, status codes, internal linking, duplicate URLs, structured data, JavaScript rendering, page speed, and Core Web Vitals.',
-    },
+      {
+        q: 'What does a technical SEO audit include?',
+        a: 'A technical SEO audit examines the technical factors that can affect organic search visibility. Depending on the website, this can include crawlability, indexation, robots.txt, XML sitemaps, canonical URLs, redirects, status codes, internal linking, duplicate URLs, structured data, JavaScript rendering, page speed, and Core Web Vitals.',
+      },
 
-    {
-      q: 'How can technical SEO improve Google rankings?',
-      a:
-        'Technical SEO helps remove technical barriers that can prevent search engines from accessing, understanding, and indexing important website pages. A technically sound website provides a stronger foundation for organic search visibility when combined with relevant content, authority, and a broader SEO strategy.',
-    },
+      {
+        q: 'How can technical SEO improve Google rankings?',
+        a: 'Technical SEO helps remove technical barriers that can prevent search engines from accessing, understanding, and indexing important website pages. A technically sound website provides a stronger foundation for organic search visibility when combined with relevant content, authority, and a broader SEO strategy.',
+      },
 
-    {
-      q: 'What is included in your technical SEO services?',
-      a:
-        'VMT technical SEO services can include technical SEO audits, crawlability and indexation analysis, website architecture optimization, Core Web Vitals and performance optimization, JavaScript SEO, structured data implementation, internal linking improvements, XML sitemap and robots.txt configuration, canonicalization, and technical SEO implementation.',
-    },
+      {
+        q: 'What is included in your technical SEO services?',
+        a: 'VMT technical SEO services can include technical SEO audits, crawlability and indexation analysis, website architecture optimization, Core Web Vitals and performance optimization, JavaScript SEO, structured data implementation, internal linking improvements, XML sitemap and robots.txt configuration, canonicalization, and technical SEO implementation.',
+      },
 
-    {
-      q: 'Can you fix Core Web Vitals issues?',
-      a:
-        'Yes. VMT can investigate Core Web Vitals and related performance problems involving page rendering, JavaScript execution, images, caching, server response time, layout stability, and frontend architecture. We focus on identifying the underlying engineering issues rather than simply reporting performance scores.',
-    },
+      {
+        q: 'Can you fix Core Web Vitals issues?',
+        a: 'Yes. VMT can investigate Core Web Vitals and related performance problems involving page rendering, JavaScript execution, images, caching, server response time, layout stability, and frontend architecture. We focus on identifying the underlying engineering issues rather than simply reporting performance scores.',
+      },
 
-    {
-      q: 'Do you provide technical SEO for Next.js and React websites?',
-      a:
-        'Yes. VMT works with modern JavaScript websites including Next.js and React. Technical SEO for these websites can require additional attention to rendering, metadata, routing, internal links, JavaScript execution, structured data, and crawlability.',
-    },
+      {
+        q: 'Do you provide technical SEO for Next.js and React websites?',
+        a: 'Yes. VMT works with modern JavaScript websites including Next.js and React. Technical SEO for these websites can require additional attention to rendering, metadata, routing, internal links, JavaScript execution, structured data, and crawlability.',
+      },
 
-    {
-      q: 'Can you perform a technical SEO audit for an eCommerce website?',
-      a:
-        'Yes. eCommerce websites often require additional technical SEO analysis because of product URLs, category structures, filters, faceted navigation, pagination, duplicate pages, canonicalization, internal linking, structured data, and large numbers of crawlable URLs.',
-    },
+      {
+        q: 'Can you perform a technical SEO audit for an eCommerce website?',
+        a: 'Yes. eCommerce websites often require additional technical SEO analysis because of product URLs, category structures, filters, faceted navigation, pagination, duplicate pages, canonicalization, internal linking, structured data, and large numbers of crawlable URLs.',
+      },
 
-    {
-      q: 'How do I know if my website has technical SEO problems?',
-      a:
-        'Common warning signs include important pages not appearing in Google, indexing errors in Google Search Console, unexpected organic traffic declines, duplicate URLs, slow page performance, poor Core Web Vitals, broken internal links, incorrect canonical tags, crawling problems, and JavaScript-rendering issues.',
-    },
+      {
+        q: 'How do I know if my website has technical SEO problems?',
+        a: 'Common warning signs include important pages not appearing in Google, indexing errors in Google Search Console, unexpected organic traffic declines, duplicate URLs, slow page performance, poor Core Web Vitals, broken internal links, incorrect canonical tags, crawling problems, and JavaScript-rendering issues.',
+      },
 
-    {
-      q: 'Do you provide technical SEO services in Mumbai?',
-      a:
-        'Yes. VMT provides technical SEO services for businesses in Mumbai, Pune, and across India. Our technical SEO work can be performed for corporate websites, SaaS platforms, eCommerce stores, startups, and custom web applications.',
-    },
+      {
+        q: 'Do you provide technical SEO services in Mumbai?',
+        a: 'Yes. VMT provides technical SEO services for businesses in Mumbai, Pune, and across India. Our technical SEO work can be performed for corporate websites, SaaS platforms, eCommerce stores, startups, and custom web applications.',
+      },
 
-    {
-      q: 'How much do technical SEO services cost in India?',
-      a:
-        'Technical SEO pricing depends on the size and complexity of the website, the number of technical issues, the required implementation work, and whether ongoing optimization is required. VMT can assess your website and recommend an appropriate scope before development or optimization begins.',
-    },
+      {
+        q: 'How much do technical SEO services cost in India?',
+        a: 'Technical SEO pricing depends on the size and complexity of the website, the number of technical issues, the required implementation work, and whether ongoing optimization is required. VMT can assess your website and recommend an appropriate scope before development or optimization begins.',
+      },
 
-    {
-      q: 'Do you fix crawlability and indexation problems?',
-      a:
-        'Yes. We investigate crawl and indexation issues involving robots.txt, noindex directives, XML sitemaps, canonical URLs, redirects, HTTP status codes, internal linking, duplicate URLs, JavaScript rendering, and other technical factors that can affect how search engines discover and process website pages.',
-    },
+      {
+        q: 'Do you fix crawlability and indexation problems?',
+        a: 'Yes. We investigate crawl and indexation issues involving robots.txt, noindex directives, XML sitemaps, canonical URLs, redirects, HTTP status codes, internal linking, duplicate URLs, JavaScript rendering, and other technical factors that can affect how search engines discover and process website pages.',
+      },
 
-    {
-      q: 'Do you implement structured data and schema markup?',
-      a:
-        'Yes. VMT can implement and validate relevant structured data for supported website entities such as organizations, services, products, articles, and other appropriate content types. The implementation is based on the actual content and structure of the website rather than adding unnecessary schema markup.',
-    },
-  ],
+      {
+        q: 'Do you implement structured data and schema markup?',
+        a: 'Yes. VMT can implement and validate relevant structured data for supported website entities such as organizations, services, products, articles, and other appropriate content types. The implementation is based on the actual content and structure of the website rather than adding unnecessary schema markup.',
+      },
+    ],
     offer: [50000, 400000],
   },
 
