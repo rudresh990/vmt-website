@@ -291,27 +291,106 @@ export const serviceData = {
       'VoidMatrix Technology helps businesses improve their visibility in Google Search and Google Maps through comprehensive Local SEO services. We optimise Google Business Profiles, location pages, local citations, structured data, reviews, and technical SEO to increase local enquiries and qualified leads. Whether you operate from a single location or manage multiple branches across India, our Local SEO strategies are designed to improve rankings, increase calls, and generate more local business.',
 
     faqs: [
-      {
-        q: 'How much does Local SEO cost in India?',
-        a: 'Professional Local SEO services generally start from ₹25,000 per month for Google Business Profile optimisation, citation management, location pages, and local keyword targeting. Businesses operating in competitive markets or multiple cities typically invest between ₹50,000 and ₹2,00,000+ per month.',
-      },
-      {
-        q: 'Can Local SEO improve my Google Maps rankings?',
-        a: 'Yes. Local SEO strengthens your visibility in Google Maps by improving business profile optimisation, local authority, review management, citation consistency, and location relevance.',
-      },
-      {
-        q: 'How long does Local SEO take?',
-        a: 'Most businesses begin seeing measurable improvements within 2-4 months, although competitive industries and newer websites may require additional time to build authority.',
-      },
-      {
-        q: 'Do you optimise websites built by other agencies?',
-        a: 'Yes. We frequently optimise websites developed by third-party agencies by improving technical SEO, page speed, local landing pages, schema markup, and search visibility.',
-      },
-      {
-        q: 'Do you work with clients outside Mumbai across India and internationally?',
-        a: 'Yes. While VoidMatrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
-      },
-    ],
+  {
+    q: 'What is local SEO?',
+    a: 'Local SEO is the process of optimizing a business website and online presence to improve visibility for location-based searches on Google Search and Google Maps. It helps customers find relevant businesses, products, and services in their area.',
+  },
+
+  {
+    q: 'What does a local SEO company do?',
+    a: 'A local SEO company improves a business’s local search presence through Google Business Profile optimization, local keyword research, location page optimization, citations, local content, internal linking, structured data, technical SEO, and local authority building.',
+  },
+
+  {
+    q: 'How can local SEO help my business?',
+    a: 'Local SEO can help your business become more visible when potential customers search for relevant products or services in your target location. Improved local visibility can contribute to more website visits, phone calls, enquiries, store visits, and leads.',
+  },
+
+  {
+    q: 'How much does local SEO cost in India?',
+    a: 'Local SEO costs in India vary depending on the number of locations, competition, services being targeted, website condition, Google Business Profile requirements, content needs, citation work, and the level of ongoing optimization required.',
+  },
+
+  {
+    q: 'How long does local SEO take to show results?',
+    a: 'The time required to see local SEO results depends on competition, existing website authority, Google Business Profile condition, location, industry, and the amount of optimization required. Some improvements can appear relatively quickly, while stronger and more consistent organic growth generally requires ongoing SEO work.',
+  },
+
+  {
+    q: 'Can local SEO improve my Google Maps ranking?',
+    a: 'Local SEO can improve the factors that contribute to local search and Google Maps visibility, including Google Business Profile optimization, local relevance, website signals, citations, reviews, and local authority. Rankings cannot be guaranteed because Google determines search results dynamically.',
+  },
+
+  {
+    q: 'What is Google Business Profile optimization?',
+    a: 'Google Business Profile optimization involves improving and maintaining important business information such as categories, services, descriptions, contact details, business information, images, and other relevant profile elements to create a stronger local search presence.',
+  },
+
+  {
+    q: 'Do I need local SEO if I already have a website?',
+    a: 'Yes. Having a website does not automatically provide strong local search visibility. Local SEO connects your website with location-based search intent through Google Business Profile optimization, local keywords, location pages, citations, local content, structured data, and other local search signals.',
+  },
+
+  {
+    q: 'Is local SEO useful for small businesses?',
+    a: 'Yes. Local SEO can be particularly valuable for small businesses that depend on customers from specific cities, neighborhoods, or service areas. It can help smaller businesses compete for relevant local searches without relying entirely on broad national keywords.',
+  },
+
+  {
+    q: 'Do you provide local SEO services in Mumbai?',
+    a: 'Yes. We provide local SEO services for businesses targeting Mumbai and surrounding areas. Strategies can include Google Business Profile optimization, local keyword research, location pages, local on-page SEO, citations, and local authority building.',
+  },
+
+  {
+    q: 'Do you provide local SEO services in Pune?',
+    a: 'Yes. We provide local SEO services for businesses targeting Pune. The strategy can be tailored around local search demand, business services, target areas, competitors, website structure, and Google Business Profile visibility.',
+  },
+
+  {
+    q: 'What is the difference between local SEO and regular SEO?',
+    a: 'Traditional SEO focuses broadly on improving organic search visibility, while local SEO focuses specifically on searches connected to geographic locations. Local SEO includes additional areas such as Google Business Profile, Google Maps visibility, local citations, location pages, reviews, and geographic search intent.',
+  },
+
+  {
+    q: 'Do you optimize Google Business Profiles for local SEO?',
+    a: 'Yes. Google Business Profile optimization can be an important part of a local SEO strategy. We review business information, categories, services, descriptions, profile content, and the relationship between the profile and the website.',
+  },
+
+  {
+    q: 'Do you create location pages for local SEO?',
+    a: 'Yes. Location pages can be created and optimized when they represent genuine business locations or service areas. We focus on creating useful location-specific content rather than producing thin pages that only change the city name.',
+  },
+
+  {
+    q: 'Do local citations still matter for SEO?',
+    a: 'Relevant and consistent local citations can support a business’s local search presence by providing consistent information about the business across appropriate online platforms. We focus on relevant and trustworthy citation opportunities rather than building large volumes of low-quality listings.',
+  },
+
+  {
+    q: 'Can local SEO help generate more leads?',
+    a: 'Yes. Local SEO is designed to improve visibility for searches performed by people looking for relevant businesses, products, or services in a specific area. Greater visibility for high-intent local searches can create additional opportunities for calls, enquiries, visits, and leads.',
+  },
+
+  {
+    q: 'Do you provide local SEO for multi-location businesses?',
+    a: 'Yes. Multi-location businesses can use a structured local SEO strategy covering individual locations, Google Business Profiles, location pages, local keywords, citations, internal linking, and location-specific content.',
+  },
+
+  {
+    q: 'Do you provide local SEO services across India?',
+    a: 'Yes. We provide local SEO services for businesses targeting cities and markets across India. The strategy can be adapted according to the business location, services, competition, target customers, and search demand.',
+  },
+
+  {
+    q: 'Can local SEO help a new business?',
+    a: 'Yes. Local SEO can help establish the search presence of a new business by creating and optimizing relevant business information, Google Business Profile, website pages, local keywords, citations, content, and other local search assets.',
+  },
+
+  {
+    q: 'How do I choose the right local SEO company?',
+    a: 'Look for a local SEO company that explains its strategy clearly, understands your target locations and customers, focuses on relevant search intent, provides transparent reporting, avoids unrealistic ranking guarantees, and can demonstrate how its SEO work connects to meaningful business outcomes.',
+  },
+],
 
     offer: [25000, 200000],
   },
