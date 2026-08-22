@@ -291,106 +291,106 @@ export const serviceData = {
       'VoidMatrix Technology helps businesses improve their visibility in Google Search and Google Maps through comprehensive Local SEO services. We optimise Google Business Profiles, location pages, local citations, structured data, reviews, and technical SEO to increase local enquiries and qualified leads. Whether you operate from a single location or manage multiple branches across India, our Local SEO strategies are designed to improve rankings, increase calls, and generate more local business.',
 
     faqs: [
-  {
-    q: 'What is local SEO?',
-    a: 'Local SEO is the process of optimizing a business website and online presence to improve visibility for location-based searches on Google Search and Google Maps. It helps customers find relevant businesses, products, and services in their area.',
-  },
+      {
+        q: 'What is local SEO?',
+        a: 'Local SEO is the process of optimizing a business website and online presence to improve visibility for location-based searches on Google Search and Google Maps. It helps customers find relevant businesses, products, and services in their area.',
+      },
 
-  {
-    q: 'What does a local SEO company do?',
-    a: 'A local SEO company improves a business’s local search presence through Google Business Profile optimization, local keyword research, location page optimization, citations, local content, internal linking, structured data, technical SEO, and local authority building.',
-  },
+      {
+        q: 'What does a local SEO company do?',
+        a: 'A local SEO company improves a business’s local search presence through Google Business Profile optimization, local keyword research, location page optimization, citations, local content, internal linking, structured data, technical SEO, and local authority building.',
+      },
 
-  {
-    q: 'How can local SEO help my business?',
-    a: 'Local SEO can help your business become more visible when potential customers search for relevant products or services in your target location. Improved local visibility can contribute to more website visits, phone calls, enquiries, store visits, and leads.',
-  },
+      {
+        q: 'How can local SEO help my business?',
+        a: 'Local SEO can help your business become more visible when potential customers search for relevant products or services in your target location. Improved local visibility can contribute to more website visits, phone calls, enquiries, store visits, and leads.',
+      },
 
-  {
-    q: 'How much does local SEO cost in India?',
-    a: 'Local SEO costs in India vary depending on the number of locations, competition, services being targeted, website condition, Google Business Profile requirements, content needs, citation work, and the level of ongoing optimization required.',
-  },
+      {
+        q: 'How much does local SEO cost in India?',
+        a: 'Local SEO costs in India vary depending on the number of locations, competition, services being targeted, website condition, Google Business Profile requirements, content needs, citation work, and the level of ongoing optimization required.',
+      },
 
-  {
-    q: 'How long does local SEO take to show results?',
-    a: 'The time required to see local SEO results depends on competition, existing website authority, Google Business Profile condition, location, industry, and the amount of optimization required. Some improvements can appear relatively quickly, while stronger and more consistent organic growth generally requires ongoing SEO work.',
-  },
+      {
+        q: 'How long does local SEO take to show results?',
+        a: 'The time required to see local SEO results depends on competition, existing website authority, Google Business Profile condition, location, industry, and the amount of optimization required. Some improvements can appear relatively quickly, while stronger and more consistent organic growth generally requires ongoing SEO work.',
+      },
 
-  {
-    q: 'Can local SEO improve my Google Maps ranking?',
-    a: 'Local SEO can improve the factors that contribute to local search and Google Maps visibility, including Google Business Profile optimization, local relevance, website signals, citations, reviews, and local authority. Rankings cannot be guaranteed because Google determines search results dynamically.',
-  },
+      {
+        q: 'Can local SEO improve my Google Maps ranking?',
+        a: 'Local SEO can improve the factors that contribute to local search and Google Maps visibility, including Google Business Profile optimization, local relevance, website signals, citations, reviews, and local authority. Rankings cannot be guaranteed because Google determines search results dynamically.',
+      },
 
-  {
-    q: 'What is Google Business Profile optimization?',
-    a: 'Google Business Profile optimization involves improving and maintaining important business information such as categories, services, descriptions, contact details, business information, images, and other relevant profile elements to create a stronger local search presence.',
-  },
+      {
+        q: 'What is Google Business Profile optimization?',
+        a: 'Google Business Profile optimization involves improving and maintaining important business information such as categories, services, descriptions, contact details, business information, images, and other relevant profile elements to create a stronger local search presence.',
+      },
 
-  {
-    q: 'Do I need local SEO if I already have a website?',
-    a: 'Yes. Having a website does not automatically provide strong local search visibility. Local SEO connects your website with location-based search intent through Google Business Profile optimization, local keywords, location pages, citations, local content, structured data, and other local search signals.',
-  },
+      {
+        q: 'Do I need local SEO if I already have a website?',
+        a: 'Yes. Having a website does not automatically provide strong local search visibility. Local SEO connects your website with location-based search intent through Google Business Profile optimization, local keywords, location pages, citations, local content, structured data, and other local search signals.',
+      },
 
-  {
-    q: 'Is local SEO useful for small businesses?',
-    a: 'Yes. Local SEO can be particularly valuable for small businesses that depend on customers from specific cities, neighborhoods, or service areas. It can help smaller businesses compete for relevant local searches without relying entirely on broad national keywords.',
-  },
+      {
+        q: 'Is local SEO useful for small businesses?',
+        a: 'Yes. Local SEO can be particularly valuable for small businesses that depend on customers from specific cities, neighborhoods, or service areas. It can help smaller businesses compete for relevant local searches without relying entirely on broad national keywords.',
+      },
 
-  {
-    q: 'Do you provide local SEO services in Mumbai?',
-    a: 'Yes. We provide local SEO services for businesses targeting Mumbai and surrounding areas. Strategies can include Google Business Profile optimization, local keyword research, location pages, local on-page SEO, citations, and local authority building.',
-  },
+      {
+        q: 'Do you provide local SEO services in Mumbai?',
+        a: 'Yes. We provide local SEO services for businesses targeting Mumbai and surrounding areas. Strategies can include Google Business Profile optimization, local keyword research, location pages, local on-page SEO, citations, and local authority building.',
+      },
 
-  {
-    q: 'Do you provide local SEO services in Pune?',
-    a: 'Yes. We provide local SEO services for businesses targeting Pune. The strategy can be tailored around local search demand, business services, target areas, competitors, website structure, and Google Business Profile visibility.',
-  },
+      {
+        q: 'Do you provide local SEO services in Pune?',
+        a: 'Yes. We provide local SEO services for businesses targeting Pune. The strategy can be tailored around local search demand, business services, target areas, competitors, website structure, and Google Business Profile visibility.',
+      },
 
-  {
-    q: 'What is the difference between local SEO and regular SEO?',
-    a: 'Traditional SEO focuses broadly on improving organic search visibility, while local SEO focuses specifically on searches connected to geographic locations. Local SEO includes additional areas such as Google Business Profile, Google Maps visibility, local citations, location pages, reviews, and geographic search intent.',
-  },
+      {
+        q: 'What is the difference between local SEO and regular SEO?',
+        a: 'Traditional SEO focuses broadly on improving organic search visibility, while local SEO focuses specifically on searches connected to geographic locations. Local SEO includes additional areas such as Google Business Profile, Google Maps visibility, local citations, location pages, reviews, and geographic search intent.',
+      },
 
-  {
-    q: 'Do you optimize Google Business Profiles for local SEO?',
-    a: 'Yes. Google Business Profile optimization can be an important part of a local SEO strategy. We review business information, categories, services, descriptions, profile content, and the relationship between the profile and the website.',
-  },
+      {
+        q: 'Do you optimize Google Business Profiles for local SEO?',
+        a: 'Yes. Google Business Profile optimization can be an important part of a local SEO strategy. We review business information, categories, services, descriptions, profile content, and the relationship between the profile and the website.',
+      },
 
-  {
-    q: 'Do you create location pages for local SEO?',
-    a: 'Yes. Location pages can be created and optimized when they represent genuine business locations or service areas. We focus on creating useful location-specific content rather than producing thin pages that only change the city name.',
-  },
+      {
+        q: 'Do you create location pages for local SEO?',
+        a: 'Yes. Location pages can be created and optimized when they represent genuine business locations or service areas. We focus on creating useful location-specific content rather than producing thin pages that only change the city name.',
+      },
 
-  {
-    q: 'Do local citations still matter for SEO?',
-    a: 'Relevant and consistent local citations can support a business’s local search presence by providing consistent information about the business across appropriate online platforms. We focus on relevant and trustworthy citation opportunities rather than building large volumes of low-quality listings.',
-  },
+      {
+        q: 'Do local citations still matter for SEO?',
+        a: 'Relevant and consistent local citations can support a business’s local search presence by providing consistent information about the business across appropriate online platforms. We focus on relevant and trustworthy citation opportunities rather than building large volumes of low-quality listings.',
+      },
 
-  {
-    q: 'Can local SEO help generate more leads?',
-    a: 'Yes. Local SEO is designed to improve visibility for searches performed by people looking for relevant businesses, products, or services in a specific area. Greater visibility for high-intent local searches can create additional opportunities for calls, enquiries, visits, and leads.',
-  },
+      {
+        q: 'Can local SEO help generate more leads?',
+        a: 'Yes. Local SEO is designed to improve visibility for searches performed by people looking for relevant businesses, products, or services in a specific area. Greater visibility for high-intent local searches can create additional opportunities for calls, enquiries, visits, and leads.',
+      },
 
-  {
-    q: 'Do you provide local SEO for multi-location businesses?',
-    a: 'Yes. Multi-location businesses can use a structured local SEO strategy covering individual locations, Google Business Profiles, location pages, local keywords, citations, internal linking, and location-specific content.',
-  },
+      {
+        q: 'Do you provide local SEO for multi-location businesses?',
+        a: 'Yes. Multi-location businesses can use a structured local SEO strategy covering individual locations, Google Business Profiles, location pages, local keywords, citations, internal linking, and location-specific content.',
+      },
 
-  {
-    q: 'Do you provide local SEO services across India?',
-    a: 'Yes. We provide local SEO services for businesses targeting cities and markets across India. The strategy can be adapted according to the business location, services, competition, target customers, and search demand.',
-  },
+      {
+        q: 'Do you provide local SEO services across India?',
+        a: 'Yes. We provide local SEO services for businesses targeting cities and markets across India. The strategy can be adapted according to the business location, services, competition, target customers, and search demand.',
+      },
 
-  {
-    q: 'Can local SEO help a new business?',
-    a: 'Yes. Local SEO can help establish the search presence of a new business by creating and optimizing relevant business information, Google Business Profile, website pages, local keywords, citations, content, and other local search assets.',
-  },
+      {
+        q: 'Can local SEO help a new business?',
+        a: 'Yes. Local SEO can help establish the search presence of a new business by creating and optimizing relevant business information, Google Business Profile, website pages, local keywords, citations, content, and other local search assets.',
+      },
 
-  {
-    q: 'How do I choose the right local SEO company?',
-    a: 'Look for a local SEO company that explains its strategy clearly, understands your target locations and customers, focuses on relevant search intent, provides transparent reporting, avoids unrealistic ranking guarantees, and can demonstrate how its SEO work connects to meaningful business outcomes.',
-  },
-],
+      {
+        q: 'How do I choose the right local SEO company?',
+        a: 'Look for a local SEO company that explains its strategy clearly, understands your target locations and customers, focuses on relevant search intent, provides transparent reporting, avoids unrealistic ranking guarantees, and can demonstrate how its SEO work connects to meaningful business outcomes.',
+      },
+    ],
 
     offer: [25000, 200000],
   },
@@ -1143,32 +1143,103 @@ export const serviceData = {
       'VoidMatrix Technology provides enterprise SEO services in India for large businesses, national brands, and high-traffic websites that need systematic, scalable search optimization programs - not the same tactics applied to a 10-page website. Based in Mumbai, we work with enterprises, eCommerce platforms, SaaS companies, and digital brands in Mumbai, Pune, Bangalore, and across India managing websites with thousands of pages, multiple stakeholder teams, and competitive keyword environments. Enterprise SEO requires a different approach: large-scale technical audits, content governance frameworks, cross-department coordination, international SEO architecture, advanced link authority programs, and analytics infrastructure that can measure performance across hundreds of keyword clusters simultaneously. Our enterprise SEO team has the processes and tooling to operate at this scale - delivering technical fixes, content strategies, and authority building programs that compound into sustainable organic traffic growth for businesses where a single ranking improvement can generate significant revenue.',
     faqs: [
       {
-        q: 'What makes enterprise SEO different from standard SEO?',
-        a: 'Enterprise SEO operates at a scale where different rules apply. A single site-wide configuration change affects thousands of pages simultaneously. Content needs governance frameworks, not just an editorial calendar. Technical issues compound across massive URL structures. Authority building requires sophisticated digital PR programs, not basic link outreach. And analytics must track performance across hundreds of keyword clusters, not dozens.',
+        q: 'What is enterprise SEO?',
+        a: 'Enterprise SEO is the process of improving organic search visibility for large and complex websites through scalable technical SEO, website architecture, keyword strategy, content optimization, internal linking, indexation management, structured data, and ongoing search optimization.',
       },
+
       {
-        q: 'How much do enterprise SEO services cost in India?',
-        a: 'Enterprise SEO programs in India typically range from ₹1,50,000 to ₹10,00,000 per month depending on website scale, competitive keyword environment, content production requirements, and link building scope. Enterprise SEO is an investment where ROI is typically measured in revenue per organic session recovered or captured.',
+        q: 'What does an enterprise SEO company do?',
+        a: 'An enterprise SEO company helps large organizations improve organic search performance across complex websites. This can include technical SEO, site architecture, crawl and indexation management, enterprise keyword research, content strategy, internal linking, migrations, structured data, and ongoing SEO monitoring.',
       },
+
       {
-        q: 'Do you conduct enterprise-scale technical SEO audits?',
-        a: 'Yes. Our enterprise technical audits use log file analysis, crawl data at scale, index coverage reporting, Core Web Vitals field data aggregation, and structured data validation - giving you a complete picture of technical health across the entire website, not a sample.',
+        q: 'How is enterprise SEO different from regular SEO?',
+        a: 'Enterprise SEO operates at a much larger scale. Instead of optimizing only individual pages, enterprise SEO addresses website architecture, templates, technical systems, thousands of URLs, large keyword portfolios, content systems, internal linking, indexation, multiple locations, and organizational implementation processes.',
       },
+
       {
-        q: 'How do you manage SEO across a large content team?',
-        a: "We build SEO governance frameworks - content briefs, on-page optimization standards, internal linking guidelines, metadata templates, and quality checklists - that embed SEO best practices into your content team's workflow, so optimization happens at production rather than as a retroactive fix.",
+        q: 'Why is enterprise SEO important for large websites?',
+        a: 'Large websites can contain thousands or millions of URLs, making technical and structural SEO issues more difficult to manage. Enterprise SEO creates scalable systems that help search engines discover, crawl, index, and understand important pages while supporting long-term organic growth.',
       },
+
       {
-        q: 'Do you manage enterprise link building?',
-        a: 'Yes. Enterprise authority building programs include editorial link acquisition through content partnerships, digital PR campaigns, broken link reclamation at scale, and strategic mention-to-link conversion - building the domain authority that supports ranking in competitive, high-commercial-value keywords.',
+        q: 'How much does enterprise SEO cost in India?',
+        a: 'Enterprise SEO pricing in India depends on website size, number of URLs, technical complexity, target markets, keyword competition, content requirements, technology stack, number of locations, and the level of ongoing SEO support required.',
       },
+
       {
-        q: 'Do you support international SEO for multi-region websites?',
-        a: 'Yes. hreflang architecture, international site structure decisions (subdirectory vs subdomain vs ccTLD), multi-region content strategy, and Google Search Console international targeting are all part of our enterprise international SEO capability.',
+        q: 'How long does enterprise SEO take to show results?',
+        a: 'Enterprise SEO timelines vary according to website size, technical condition, authority, competition, implementation speed, content requirements, and the number of markets being targeted. Technical improvements can sometimes produce relatively quick changes, while broader organic growth generally requires ongoing optimization.',
       },
+
       {
-        q: 'Do you serve enterprise clients in Mumbai and Pune?',
-        a: 'Yes. We work with large businesses and national brands across Mumbai and Pune, providing enterprise SEO programs that protect and grow organic search performance at scale.',
+        q: 'Can enterprise SEO help large eCommerce websites?',
+        a: 'Yes. Enterprise SEO can help large eCommerce websites address product and category architecture, faceted navigation, crawl management, indexation, internal linking, product content, structured data, technical performance, and large-scale keyword targeting.',
+      },
+
+      {
+        q: 'Can enterprise SEO help SaaS companies?',
+        a: 'Yes. SaaS companies can use enterprise SEO to build scalable strategies across product pages, solution pages, industry pages, integrations, use cases, educational content, comparison pages, and other search opportunities while maintaining a technically sound website architecture.',
+      },
+
+      {
+        q: 'Can enterprise SEO improve website architecture?',
+        a: 'Yes. Enterprise SEO includes analyzing and improving information architecture, URL structures, navigation, breadcrumbs, internal linking, category systems, content hubs, and relationships between important website sections.',
+      },
+
+      {
+        q: 'What is enterprise technical SEO?',
+        a: 'Enterprise technical SEO focuses on technical issues that affect large websites, including crawlability, indexation, JavaScript rendering, canonicalization, redirects, duplicate URLs, XML sitemaps, website performance, faceted navigation, and other technical systems.',
+      },
+
+      {
+        q: 'How does enterprise SEO handle thousands of pages?',
+        a: 'Enterprise SEO uses scalable systems and patterns instead of relying entirely on manual page-by-page optimization. Templates, URL structures, internal linking systems, content frameworks, technical controls, and keyword mappings can be designed to support large numbers of pages.',
+      },
+
+      {
+        q: 'Can enterprise SEO help with website migrations?',
+        a: 'Yes. Enterprise SEO can support redesigns, CMS migrations, replatforming, domain changes, URL restructuring, technology migrations, mergers, and other large website changes by planning redirects, URL mappings, metadata, canonical signals, internal links, sitemaps, and post-launch monitoring.',
+      },
+
+      {
+        q: 'Do you provide enterprise SEO services in Mumbai?',
+        a: 'Yes. We provide enterprise SEO services for businesses and organizations in Mumbai, including SaaS companies, eCommerce platforms, technology businesses, manufacturers, professional services, and other large organizations.',
+      },
+
+      {
+        q: 'Do you provide enterprise SEO services in Pune?',
+        a: 'Yes. We provide enterprise SEO services for businesses targeting Pune and other major Indian markets. Strategies can be adapted according to website complexity, industry, competition, technology, and target customers.',
+      },
+
+      {
+        q: 'Do you provide enterprise SEO services across India?',
+        a: 'Yes. Enterprise SEO strategies can be developed for organizations targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian markets, as well as businesses targeting customers nationwide.',
+      },
+
+      {
+        q: 'Can enterprise SEO support international websites?',
+        a: 'Yes. Enterprise SEO can support international websites targeting multiple countries and markets through appropriate website architecture, international search strategies, location targeting, content structures, technical SEO, and market-specific keyword research.',
+      },
+
+      {
+        q: 'How do you measure enterprise SEO performance?',
+        a: 'Enterprise SEO performance can be evaluated using organic traffic, keyword visibility, rankings, indexed pages, crawl patterns, qualified leads, conversions, revenue-related search performance, technical SEO metrics, and other business-specific KPIs.',
+      },
+
+      {
+        q: 'Does enterprise SEO require developers?',
+        a: 'Some enterprise SEO improvements require development support, particularly when they involve website architecture, templates, rendering, URL systems, structured data, internal linking systems, migrations, or technical indexation controls. SEO and development teams often need to collaborate on these changes.',
+      },
+
+      {
+        q: 'How do I choose an enterprise SEO company?',
+        a: 'Look for an enterprise SEO company that understands technical SEO, large-scale website architecture, content systems, development workflows, search intent, analytics, and business objectives. A strong provider should also explain its methodology clearly and avoid unrealistic ranking guarantees.',
+      },
+
+      {
+        q: 'Can enterprise SEO increase organic leads and revenue?',
+        a: 'Enterprise SEO can create more opportunities for qualified organic traffic by improving visibility across relevant commercial and informational searches. The potential impact depends on search demand, competition, website authority, conversion performance, implementation quality, and the business model.',
       },
     ],
     offer: [150000, 1000000],
@@ -1763,32 +1834,108 @@ export const serviceData = {
       'VoidMatrix Technology provides SEO audits in India for businesses that want to understand exactly why their website is not ranking - and have a clear, prioritized plan to fix it. Based in Mumbai, we audit websites for businesses in Mumbai, Pune, Bangalore, and across India: startups launching new sites, established businesses that have seen organic traffic decline, and companies preparing for a serious SEO investment who need a defensible baseline. An SEO audit without recommendations is just a report. Every VMT audit delivers a prioritized issues list tied to specific ranking impact, competitive benchmarking against your top organic competitors, keyword opportunity analysis showing untapped search demand you could be capturing, and a structured 90-day action plan. We cover technical health, site architecture, content quality, on-page optimization, Core Web Vitals, internal linking, structured data, and backlink profile - the complete picture of why your site is where it is in search results.',
     faqs: [
       {
-        q: 'What will I learn from an SEO audit?',
-        a: 'A comprehensive SEO audit reveals: which technical issues are preventing pages from being crawled or indexed, which pages have ranking potential but are under-optimized, how your content compares to what competitors are ranking with, which keywords you should be targeting but are not, what your backlink profile looks like relative to competitors, and a prioritized list of the specific changes that will have the most impact on your rankings.',
+        q: 'What is an SEO audit?',
+        a: 'An SEO audit is a detailed analysis of a website to identify technical, on-page, content, indexing, performance, architecture, internal linking, structured data, and other factors that may affect organic search visibility.',
       },
+
+      {
+        q: 'What does an SEO audit company do?',
+        a: 'An SEO audit company analyzes a website to identify SEO problems and opportunities. The audit can cover technical SEO, crawling, indexing, content, on-page optimization, website architecture, internal linking, structured data, performance, rankings, and search visibility.',
+      },
+
+      {
+        q: 'Why does my website need an SEO audit?',
+        a: 'An SEO audit can help identify technical problems, indexing issues, content gaps, poor page optimization, architecture problems, and other factors that may be limiting organic search performance.',
+      },
+
       {
         q: 'How much does an SEO audit cost in India?',
-        a: 'SEO audits in India range from ₹20,000 for a streamlined audit of a small business website to ₹1,50,000 for a comprehensive enterprise-level audit covering technical infrastructure, content analysis, competitive benchmarking, and keyword opportunity mapping.',
+        a: 'SEO audit pricing in India depends on website size, number of URLs, technical complexity, technology stack, content volume, number of target markets, and the depth of analysis required.',
       },
+
       {
         q: 'How long does an SEO audit take?',
-        a: 'A focused audit of a 20-50 page website takes 3-5 business days. A comprehensive audit of a larger website with deep technical analysis and competitive benchmarking takes 7-12 business days. We set timelines at scoping and stick to them.',
+        a: 'The time required for an SEO audit depends on the size and complexity of the website. A small website may require a focused review, while large eCommerce, SaaS, marketplace, or enterprise websites require significantly deeper technical, architectural, content, and indexation analysis.',
       },
+
       {
-        q: 'Can an audit explain why our traffic suddenly dropped?',
-        a: "Yes. Traffic drop diagnosis is one of the most common audit use cases. We analyze Google Search Console data, cross-reference with Google algorithm update timelines, audit for manual actions, review technical changes in the site's history, and assess competitive shifts - identifying the most likely cause of the decline with supporting evidence.",
+        q: 'What does a technical SEO audit include?',
+        a: 'A technical SEO audit can include crawlability, indexation, rendering, robots.txt, XML sitemaps, canonicalization, redirects, URL structures, JavaScript SEO, website performance, mobile usability, duplicate URLs, and other technical SEO factors.',
       },
+
       {
-        q: 'Do you provide an action plan with the audit?',
-        a: 'Yes - always. A list of issues without prioritization is not useful. Every audit includes a prioritized recommendations matrix with severity ratings (critical, high, medium, low), estimated implementation effort, and specific next steps. You know exactly what to tackle first.',
+        q: 'What is included in an on-page SEO audit?',
+        a: 'An on-page SEO audit can review title tags, meta descriptions, headings, content structure, keyword targeting, URLs, images, internal links, anchor text, duplicate page elements, and search intent alignment.',
       },
+
       {
-        q: 'Should I get an audit before starting monthly SEO services?',
-        a: 'Yes - strongly recommended. SEO without a baseline audit means working on assumptions about what your site needs. An audit ensures your monthly SEO investment addresses your actual highest-impact opportunities, not generic best practices.',
+        q: 'Can an SEO audit improve Google rankings?',
+        a: 'An SEO audit itself does not directly improve rankings. It identifies issues and opportunities that can then be implemented to improve technical SEO, content, architecture, relevance, and other factors that may contribute to better organic search performance.',
       },
+
       {
-        q: 'Do you audit websites for businesses in Mumbai and Pune?',
-        a: 'Yes. We audit websites for businesses across Mumbai, Pune, and other Indian cities - including sites competing in highly competitive local Mumbai markets and national search results.',
+        q: 'Can an SEO audit find why my organic traffic dropped?',
+        a: 'Yes. An SEO audit can investigate changes in organic traffic, rankings, indexed pages, technical issues, content changes, website migrations, search visibility, and other factors that may help explain a decline in organic performance.',
+      },
+
+      {
+        q: 'Can you audit an eCommerce website?',
+        a: 'Yes. eCommerce SEO audits can examine product and category architecture, faceted navigation, duplicate URLs, crawlability, indexation, product content, internal linking, structured data, technical performance, and other factors affecting organic visibility.',
+      },
+
+      {
+        q: 'Can you audit a SaaS website?',
+        a: 'Yes. SaaS SEO audits can cover product pages, solution pages, integrations, use cases, content architecture, technical SEO, internal linking, search intent, indexation, structured data, and other factors relevant to SaaS organic growth.',
+      },
+
+      {
+        q: 'Can an SEO audit identify indexing problems?',
+        a: 'Yes. An SEO audit can analyze indexing signals such as robots.txt, noindex directives, canonical tags, XML sitemaps, redirects, duplicate URLs, crawl paths, parameter pages, and other factors that can affect search engine indexation.',
+      },
+
+      {
+        q: 'Do you check website speed during an SEO audit?',
+        a: 'Yes. Website performance can be reviewed as part of a technical SEO audit. The analysis can include page performance, Core Web Vitals-related factors, loading behavior, mobile performance, resource issues, and technical opportunities affecting user experience and search performance.',
+      },
+
+      {
+        q: 'Do you audit website architecture?',
+        a: 'Yes. A website architecture audit can review URL structures, navigation, categories, breadcrumbs, internal linking, page hierarchy, content relationships, and other structural elements that affect users and search engines.',
+      },
+
+      {
+        q: 'Do you provide SEO audits in Mumbai?',
+        a: 'Yes. We provide SEO audit services for businesses in Mumbai, including SaaS companies, eCommerce businesses, service businesses, manufacturers, corporate websites, and technology companies.',
+      },
+
+      {
+        q: 'Do you provide SEO audits in Pune?',
+        a: 'Yes. We provide SEO audit services for businesses targeting Pune and other major Indian markets. Audits can be customized according to the website, industry, technology stack, competition, and SEO objectives.',
+      },
+
+      {
+        q: 'Do you provide SEO audits across India?',
+        a: 'Yes. We provide SEO audits for businesses across India, including companies targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian markets.',
+      },
+
+      {
+        q: 'Can you perform an SEO audit before a website migration?',
+        a: 'Yes. A pre-migration SEO audit can identify existing SEO assets, technical issues, important URLs, internal linking relationships, metadata, indexation requirements, and other areas that should be protected during a migration.',
+      },
+
+      {
+        q: 'What do I receive after an SEO audit?',
+        a: 'The audit should provide identified SEO issues, opportunities, priorities, and actionable recommendations. The exact format depends on the scope of the audit and may include technical findings, content recommendations, architecture observations, and an SEO implementation roadmap.',
+      },
+
+      {
+        q: 'How often should a website have an SEO audit?',
+        a: 'The ideal frequency depends on website size, development activity, SEO investment, migrations, content changes, and business objectives. Large or frequently changing websites may benefit from more regular technical monitoring and periodic comprehensive audits.',
+      },
+
+      {
+        q: 'How do I choose the right SEO audit company?',
+        a: 'Look for an SEO audit company that analyzes more than automated tool scores, understands technical SEO and website development, explains findings clearly, prioritizes issues according to impact, provides actionable recommendations, and avoids unrealistic ranking guarantees.',
       },
     ],
     offer: [20000, 150000],
