@@ -452,25 +452,78 @@ export const serviceData = {
       "Explore real-world projects delivered by VoidMatrix Technology across website development, web applications, eCommerce platforms, SEO, and business automation. Each case study highlights the client's challenge, our technical approach, the technologies used, and the measurable business outcomes achieved.",
 
     faqs: [
-      {
-        q: 'What do your case studies include?',
-        a: "Our case studies explain the client's objectives, technical challenges, design decisions, technology stack, development process, and measurable business outcomes wherever client confidentiality allows.",
-      },
-      {
-        q: 'Can I request examples relevant to my industry?',
-        a: 'Yes. During our consultation we can share relevant projects and experience based on your industry, business size, and technical requirements, subject to client confidentiality agreements.',
-      },
-      {
-        q: 'Do all your projects appear as case studies?',
-        a: 'No. Many client projects remain confidential due to NDAs or commercial sensitivity. We publish only those projects where we have permission to share implementation details.',
-      },
-      {
-        q: 'Do you work with clients outside Mumbai across India and internationally?',
-        a: 'Yes. While VoidMatrix Technology is based in Mumbai, we work with startups, SMEs, and enterprises throughout India, including Pune, Delhi NCR, Bangalore, Hyderabad, Chennai, and Ahmedabad, as well as international clients in the UAE, UK, USA, and Southeast Asia. Projects are managed remotely through structured communication, shared project management tools, and scheduled progress reviews.',
-      },
-    ],
+    {
+      q: 'What is a website development case study?',
+      a: 'A website development case study explains a real website project, including the business requirements, challenges, technology decisions, development process, implementation, and outcomes.',
+    },
 
-    offer: [0, 0],
+    {
+      q: 'What do SEO case studies show?',
+      a: 'SEO case studies explain how technical SEO, on-page SEO, local SEO, content strategy, website architecture, performance optimization, and other search optimization activities are used to address organic search challenges.',
+    },
+
+    {
+      q: 'Why are case studies important when choosing an SEO company?',
+      a: 'Case studies help businesses understand how an SEO company approaches real search problems, develops a strategy, implements SEO improvements, and measures progress instead of evaluating an agency only from its list of services.',
+    },
+
+    {
+      q: 'What types of website development projects does VoidMatrix Technology handle?',
+      a: 'VoidMatrix Technology works on business websites, corporate websites, SaaS websites, eCommerce platforms, web applications, landing pages, website redesigns, and custom digital platforms.',
+    },
+
+    {
+      q: 'Do you have website redesign case studies?',
+      a: 'Yes. Website redesign case studies can cover the analysis of an existing website, redesign strategy, website architecture, performance improvements, SEO considerations, responsive development, and user experience improvements.',
+    },
+
+    {
+      q: 'Do your case studies include technical SEO?',
+      a: 'Yes. Relevant SEO case studies can cover crawlability, indexing, website architecture, internal linking, structured data, Core Web Vitals, page performance, metadata, and other technical SEO factors.',
+    },
+
+    {
+      q: 'Do you provide eCommerce development case studies?',
+      a: 'Yes. eCommerce case studies can cover storefront development, product and category architecture, payment integrations, inventory workflows, performance, SEO, and scalable commerce functionality.',
+    },
+
+    {
+      q: 'Can I find an SEO case study from India?',
+      a: 'Yes. VoidMatrix Technology works with businesses across Mumbai, Pune, and India. Relevant case studies can demonstrate SEO strategies for Indian businesses, local markets, national search, and industry-specific search queries.',
+    },
+
+    {
+      q: 'Do your case studies include digital marketing projects?',
+      a: 'Yes. Digital marketing case studies can cover SEO, content marketing, paid advertising, lead generation, landing pages, conversion optimization, and other digital acquisition strategies.',
+    },
+
+    {
+      q: 'Can VoidMatrix Technology build a website similar to a case study?',
+      a: 'Yes. A case study can be used as a reference for understanding our approach, but every project is planned around the specific business model, audience, technical requirements, SEO objectives, and growth goals of the client.',
+    },
+
+    {
+      q: 'Do you provide website development and SEO together?',
+      a: 'Yes. VoidMatrix Technology can combine website development with technical SEO, on-page optimization, performance optimization, content strategy, structured data, and other search-focused requirements.',
+    },
+
+    {
+      q: 'Do you provide SEO and website services in Mumbai and Pune?',
+      a: 'Yes. VoidMatrix Technology provides website development, SEO, eCommerce, and digital marketing services for businesses in Mumbai, Pune, across India, and international markets.',
+    },
+
+    {
+      q: 'How much does a website development or SEO project cost?',
+      a: 'Project cost depends on the scope, number of pages, technology requirements, integrations, SEO requirements, content requirements, complexity, and ongoing support. We recommend evaluating the actual project requirements before determining the investment.',
+    },
+
+    {
+      q: 'How can I start a project with VoidMatrix Technology?',
+      a: 'You can contact VoidMatrix Technology with your website development, SEO, eCommerce, digital marketing, or technology requirements. We can then review the project scope and discuss the appropriate strategy and implementation approach.',
+    },
+  ],
+
+    offer: [30000, 250000],
   },
 
   '/services/web-app-development': {
@@ -946,32 +999,63 @@ export const serviceData = {
       'VoidMatrix Technology provides content strategy services in India for businesses that are producing content without a clear plan - and wondering why organic traffic is not growing. Based in Mumbai, we build structured content programs for SaaS companies, technology brands, consulting firms, and service businesses in Mumbai, Pune, Bangalore, and across India that want to turn their website into a consistent lead generation channel through search. A content strategy is the difference between publishing randomly and building topical authority systematically. We start with a content audit of what you already have, then map keyword opportunities to your service areas, build topic cluster frameworks, define content formats by intent type, and deliver a prioritized editorial calendar your team can execute against. Our deliverables include audience research, keyword mapping documents, topical authority plans, content gap analysis, and a 3-6 month editorial roadmap. Whether you are starting from zero or improving an existing program, we give you the structure that makes every content investment compound.',
     faqs: [
       {
-        q: 'What does a content strategy actually include?',
-        a: 'A complete content strategy includes: audience definition and intent mapping, keyword research and prioritization, competitive content gap analysis, topic cluster architecture (pillar pages and supporting articles), content format recommendations by intent type, editorial calendar for 3-6 months, distribution channel recommendations, and success metrics. You leave with a specific plan, not a generic framework.',
+        q: 'What is content strategy?',
+        a: 'Content strategy is the planning, organization, and management of content to achieve specific business goals such as SEO growth, lead generation, customer education, brand authority, and organic traffic growth.',
       },
+
       {
-        q: 'Why do businesses need a content strategy instead of just writing articles?',
-        a: "Random publishing rarely builds ranking momentum because Google evaluates topical authority - how comprehensively a site covers a subject area. A strategy ensures your content builds on itself, with each article reinforcing your site's authority in target topic clusters. Without strategy, you get scattered content that ranks for nothing consistently.",
+        q: 'Why do businesses need a content strategy?',
+        a: 'Without a clear strategy, businesses often publish unrelated content without a defined search or business objective. A content strategy connects keywords, search intent, audience needs, business priorities, and content formats so every important piece of content has a clear purpose.',
       },
+
       {
         q: 'How much does content strategy cost in India?',
-        a: 'Content strategy engagements in India range from ₹40,000 for a focused keyword mapping and editorial calendar to ₹2,50,000 for a comprehensive strategy including audience research, full content audit, topical authority framework, and competitive analysis.',
+        a: 'Content strategy engagements in India typically range from ₹40,000 to ₹2,50,000 depending on website size, research requirements, number of topics, competitor analysis, content audit requirements, target markets, and the depth of the strategy.',
       },
+
       {
-        q: 'Do you audit existing content as part of the strategy?',
-        a: 'Yes. A content audit is essential to any strategy - it identifies which existing pages are performing, which have ranking potential with optimization, which are cannibalizing each other, and which should be consolidated or removed. We never recommend publishing more without first assessing what is already there.',
+        q: 'What does a content strategy include?',
+        a: 'A professional content strategy can include audience research, keyword research, search intent analysis, competitor research, content audits, content gap analysis, topic clusters, keyword mapping, topical authority planning, editorial calendars, content formats, and internal linking recommendations.',
       },
+
       {
-        q: 'Do you build topical authority frameworks?',
-        a: 'Yes. Topical authority mapping - defining pillar pages, topic cluster content, and internal linking architecture - is a core deliverable. This is what tells Google you are a comprehensive, trustworthy source on your subject area, not just a site with a few random articles.',
+        q: 'Do you perform content audits?',
+        a: 'Yes. We audit existing website content to identify content gaps, outdated pages, keyword overlap, cannibalization opportunities, weak content, internal linking opportunities, and pages that may require improvement or consolidation.',
       },
+
       {
-        q: 'Can you train our internal team to execute the strategy?',
-        a: 'Yes. We can include training sessions covering keyword research, content brief creation, on-page SEO, and editorial quality standards - so your internal team can execute the strategy confidently without ongoing dependency on us.',
+        q: 'Do you build topic clusters for SEO?',
+        a: 'Yes. We develop topic cluster frameworks that organize related subjects around important business themes. These clusters can connect service pages, product pages, blogs, guides, comparisons, FAQs, and supporting content.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We build content strategies for startups, B2B service companies, and technology brands across Mumbai and Pune.',
+        q: 'Can content strategy improve SEO?',
+        a: 'A well-executed content strategy can support SEO by identifying relevant search opportunities, improving topical coverage, aligning content with search intent, strengthening internal linking, and creating useful content around subjects relevant to the target audience.',
+      },
+
+      {
+        q: 'Do you provide content strategy services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix Technology provides content strategy services for startups, SMEs, technology companies, SaaS businesses, manufacturers, professional service firms, and other businesses across Mumbai and Pune.',
+      },
+
+      {
+        q: 'Do you provide content strategy services across India?',
+        a: 'Yes. We develop content strategies for businesses targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, other Indian markets, and nationwide search visibility.',
+      },
+
+      {
+        q: 'Can you create a content strategy for SaaS companies?',
+        a: 'Yes. SaaS content strategies can be built around product education, problem-based searches, use cases, integrations, comparisons, industry topics, commercial investigation, customer questions, and long-tail queries relevant to the SaaS product.',
+      },
+
+      {
+        q: 'Can content strategy support lead generation?',
+        a: 'Yes. Content strategy can connect informational and commercial search opportunities with service pages, product pages, landing pages, case studies, comparison content, and conversion paths so organic traffic has a clearer route toward business enquiries.',
+      },
+
+      {
+        q: 'Do you create the content after developing the strategy?',
+        a: 'Yes. Content strategy can be implemented alongside SEO blog writing, website copywriting, service page content, landing page content, case studies, and other content services depending on the requirements of the business.',
       },
     ],
     offer: [40000, 250000],
@@ -1325,32 +1409,93 @@ export const serviceData = {
       'VoidMatrix Technology designs and develops landing pages in India for businesses that are spending money driving traffic - and losing too many of those visitors before they convert. Based in Mumbai, we build high-converting landing pages for paid campaigns, product launches, lead generation, webinar registrations, and event sign-ups for SaaS companies, real estate developers, educational platforms, eCommerce brands, and B2B service businesses across Mumbai, Pune, Bangalore, and India. A landing page is the most directly measurable marketing asset you have: it converts a known percentage of visitors into leads or customers, and improving that percentage has an immediate, calculable impact on cost per lead and campaign ROI. We combine conversion-optimized layout, persuasive copywriting, trust signal design, mobile performance optimization, and tracking setup into pages that outperform generic homepages for paid traffic - typically by 40-150%.',
     faqs: [
       {
-        q: 'Why does my ad campaign need a dedicated landing page?',
-        a: 'When you send paid traffic to your homepage, you lose visitors to navigation menus, unrelated content, and a lack of message match between the ad and the page. A dedicated landing page maintains the conversation your ad started, removes distractions, and presents a single focused offer. Businesses that use dedicated landing pages consistently see significantly lower cost per lead from the same ad spend.',
+        q: 'What is landing page development?',
+        a: 'Landing page development is the process of designing and developing a focused web page around a specific marketing, advertising, product, service, or lead generation objective.',
       },
+
+      {
+        q: 'How is a landing page different from a website?',
+        a: 'A website usually contains multiple pages and serves several purposes, while a landing page is generally focused on a specific audience, offer, campaign, and conversion objective.',
+      },
+
       {
         q: 'How much does landing page development cost in India?',
-        a: 'Landing page projects in India range from ₹20,000 for a single focused campaign page to ₹1,50,000 for a comprehensive landing page with custom design, full copywriting, mobile optimization, integrations, and A/B testing setup.',
+        a: 'Landing page development cost in India depends on the design complexity, number of sections, integrations, animations, tracking requirements, CMS requirements, content requirements, and technical features required.',
       },
+
       {
-        q: 'Do you write the landing page copy?',
-        a: 'Yes - copywriting is included and essential. The headline, value proposition, benefit statements, objection handling, social proof framing, and CTA are written as part of our design process. Landing page design without strong copy consistently underperforms.',
+        q: 'How much does it cost to develop a landing page in Mumbai?',
+        a: 'The cost of developing a landing page in Mumbai depends on the scope of design and development, integrations, content requirements, conversion features, analytics, SEO requirements, and overall technical complexity.',
       },
+
       {
-        q: 'How fast can you build a landing page?',
-        a: 'A focused single landing page with copy and design can typically be delivered in 7-10 business days. More complex pages with multiple sections, custom illustrations, and integration requirements take 2-3 weeks.',
+        q: 'Does VoidMatrix develop landing pages for Google Ads?',
+        a: 'Yes. VoidMatrix develops landing pages for Google Ads campaigns with campaign-focused messaging, responsive design, clear calls to action, performance optimization, and conversion tracking requirements.',
       },
+
       {
-        q: 'Do you set up A/B testing?',
-        a: 'Yes. For clients with sufficient traffic volume, we set up A/B tests across headlines, hero sections, CTA copy, and form design - running tests until statistical significance is reached and implementing the winning variant.',
+        q: 'Does VoidMatrix develop landing pages for Meta Ads?',
+        a: 'Yes. VoidMatrix develops landing pages for Meta Ads campaigns with mobile-friendly layouts, focused messaging, lead generation functionality, fast performance, and conversion tracking.',
       },
+
       {
-        q: 'How do you integrate lead capture with our CRM?',
-        a: 'We integrate form submissions with your CRM (Zoho, HubSpot, Salesforce, or custom systems), Google Sheets, email marketing platforms, and WhatsApp or SMS notification systems - so every lead is captured and routed to the right person immediately.',
+        q: 'Can you develop a landing page for lead generation?',
+        a: 'Yes. VoidMatrix develops lead generation landing pages with focused messaging, forms, calls to action, trust elements, and integrations with analytics, CRM, and other lead management systems where required.',
       },
+
       {
-        q: 'Do you serve businesses in Mumbai and Pune?',
-        a: 'Yes. We design and develop landing pages for businesses across Mumbai and Pune - including pages for Google Ads, Meta Ads, and organic campaigns targeting local and national audiences.',
+        q: 'Can landing pages rank on Google?',
+        a: 'Yes. Landing pages can be developed with SEO-friendly architecture, relevant content, proper headings, metadata, semantic HTML, internal linking opportunities, responsive design, and performance optimization to support organic search visibility.',
+      },
+
+      {
+        q: 'Do you provide SEO-friendly landing page development?',
+        a: 'Yes. VoidMatrix develops SEO-friendly landing pages with technical SEO considerations including page structure, headings, metadata, semantic HTML, internal linking opportunities, responsive design, and performance optimization.',
+      },
+
+      {
+        q: 'Can you integrate Google Analytics with a landing page?',
+        a: 'Yes. Analytics and conversion tracking can be integrated into landing pages to help businesses measure traffic, user behavior, leads, and other relevant conversion events.',
+      },
+
+      {
+        q: 'Can you integrate a CRM with a landing page?',
+        a: 'Yes. Landing pages can be integrated with CRM systems and other lead management platforms so that submitted lead information can be transferred into the appropriate business workflow.',
+      },
+
+      {
+        q: 'Can you develop SaaS landing pages?',
+        a: 'Yes. VoidMatrix develops SaaS landing pages that communicate product value, features, use cases, integrations, benefits, and calls to action while maintaining a responsive and performance-focused experience.',
+      },
+
+      {
+        q: 'Can you develop product landing pages?',
+        a: 'Yes. VoidMatrix develops product landing pages for product launches, marketing campaigns, advertising traffic, product education, and conversion-focused customer journeys.',
+      },
+
+      {
+        q: 'Can you develop service landing pages?',
+        a: 'Yes. VoidMatrix develops dedicated landing pages for individual services with focused messaging, service information, trust elements, FAQs, calls to action, and conversion-focused structures.',
+      },
+
+      {
+        q: 'How long does it take to develop a landing page?',
+        a: 'Development time depends on the design, number of sections, content, integrations, animations, tracking requirements, and approval process. A straightforward landing page generally requires less development time than a highly customized campaign or SaaS landing page.',
+      },
+
+      {
+        q: 'Can you redesign an existing landing page?',
+        a: 'Yes. VoidMatrix can redesign existing landing pages to improve their structure, responsiveness, performance, SEO, usability, messaging, and conversion experience.',
+      },
+
+      {
+        q: 'Do you provide landing page development services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides landing page development services for businesses in Mumbai, Pune, across India, and for organizations targeting international markets.',
+      },
+
+      {
+        q: 'Do you develop landing pages using Next.js and React?',
+        a: 'Yes. VoidMatrix can develop high-performance landing pages using Next.js, React, and other appropriate frontend technologies based on the project requirements.',
       },
     ],
     offer: [20000, 150000],
@@ -1947,32 +2092,108 @@ export const serviceData = {
       'VoidMatrix Technology provides SEO blog writing services in India for businesses that understand content marketing in principle but need execution - articles that actually rank in Google, attract the right audience, and convert readers into leads. Based in Mumbai, we write SEO-optimized blog content for B2B technology companies, SaaS platforms, consulting firms, healthcare providers, and service businesses across Mumbai, Pune, Bangalore, and India. Most SEO blog writing in India fails for one of three reasons: thin content that does not satisfy search intent, generic articles that do not demonstrate expertise, or keyword stuffing that alienates readers. Our writing process starts with keyword research and search intent analysis, produces articles with genuine depth and industry relevance, and optimizes every structural element - heading hierarchy, meta data, internal linking, and schema - so search engines know exactly what the article is about and why it deserves to rank.',
     faqs: [
       {
-        q: 'How is SEO blog writing different from regular blog writing?',
-        a: 'Regular blog writing creates content that readers might enjoy. SEO blog writing creates content that ranks in search results for specific queries and converts those readers into leads or customers. The difference is in the research (keyword selection, intent analysis, competitor content review), the structure (heading hierarchy, content comprehensiveness, internal linking), and the optimization (meta data, schema, image alt text) that happens before, during, and after writing.',
+        q: 'What is SEO blog writing?',
+        a: 'SEO blog writing is the process of creating useful blog content around relevant search queries, keywords, and user intent while applying appropriate on-page SEO practices. The objective is to create content that is useful for readers and capable of supporting organic search visibility.',
       },
+
+      {
+        q: 'What does an SEO blog writing company do?',
+        a: 'An SEO blog writing company researches relevant keywords and topics, analyzes search intent, plans content structures, writes articles, applies on-page SEO recommendations, identifies internal linking opportunities, and creates content aligned with a broader organic search strategy.',
+      },
+
+      {
+        q: 'How is SEO blog writing different from normal blog writing?',
+        a: 'Normal blog writing may focus primarily on communicating information about a topic. SEO blog writing additionally considers search queries, keyword relevance, search intent, content structure, competitors, internal linking, on-page SEO, and opportunities to attract organic search traffic.',
+      },
+
       {
         q: 'How much does SEO blog writing cost in India?',
-        a: 'SEO blog writing in India ranges from ₹3,000 for a short 600-800 word supporting article to ₹15,000 or more for a comprehensive 2,500-4,000 word pillar article with extensive research, custom examples, and full optimization. Price reflects depth, research intensity, and technical complexity of the subject.',
+        a: 'SEO blog writing costs in India depend on article length, topic complexity, research requirements, industry specialization, keyword research, search intent analysis, optimization requirements, and the number of articles required.',
       },
+
       {
-        q: 'How long should SEO blog posts be?',
-        a: 'Length should match what search intent demands, not a target word count. Informational queries like "how to" guides often require 1,500-3,000 words to compete with comprehensive ranking content. Commercial queries comparing products or services might rank with focused 800-word pieces. We recommend length based on keyword research and competitor analysis - not arbitrary minimums.',
+        q: 'How long should an SEO blog be?',
+        a: 'There is no fixed ideal word count for an SEO blog. The article should be long enough to properly satisfy the search intent and cover the important information required by the reader. Some queries require short answers while complex topics may require detailed articles.',
       },
+
       {
-        q: 'Do you write for technical industries?',
-        a: 'Yes. We write for technology, SaaS, fintech, healthcare, logistics, legal, manufacturing, and other specialized sectors. Technical industry content requires research depth and subject familiarity that generalist writers cannot provide. We invest in pre-writing research and work with subject matter experts where needed.',
+        q: 'Can SEO blog writing improve Google rankings?',
+        a: 'SEO blog writing can support organic rankings when the content is relevant, useful, well-structured, technically accessible, and aligned with search intent. Rankings also depend on factors such as website authority, competition, technical SEO, internal linking, content quality, and overall search relevance.',
       },
+
       {
-        q: 'How many articles per month do I need?',
-        a: 'For meaningful topical authority and ranking progress, 4-8 articles per month targeting a focused set of keyword clusters is a productive cadence. Fewer articles spread across too many topics builds authority in nothing. We recommend a focused content calendar targeting 2-3 topic clusters deeply rather than 10 topics superficially.',
+        q: 'Do you perform keyword research before writing SEO blogs?',
+        a: 'Yes. Keyword and topic research can be performed before writing to identify relevant search queries, related terms, questions, long-tail opportunities, and topics that align with the business and its target audience.',
       },
+
       {
-        q: 'Do you include internal links and schema in the articles?',
-        a: 'Yes. Every article includes natural internal links to relevant service and topic pages, optimized title tags and meta descriptions, proper heading structure, image alt text recommendations, and FAQPage schema where applicable.',
+        q: 'What is search intent in SEO blog writing?',
+        a: 'Search intent refers to the purpose behind a search query and what the user expects to find. Understanding search intent helps determine the appropriate content format, depth, structure, and information required for an SEO blog.',
       },
+
       {
-        q: 'Do you write SEO content for businesses in Mumbai and Pune?',
-        a: 'Yes. We write SEO blog content for businesses across Mumbai, Pune, and across India - including content targeting local Mumbai-specific audiences and pan-India B2B decision-maker audiences.',
+        q: 'Can SEO blogs target long-tail keywords?',
+        a: 'Yes. SEO blogs are particularly useful for targeting relevant long-tail keywords and specific questions because these searches often represent clear information needs and can expand the number of relevant queries a website addresses.',
+      },
+
+      {
+        q: 'Can SEO blog writing help build topical authority?',
+        a: 'Yes. A structured collection of high-quality articles covering related subjects can help a website develop broader topical coverage. Topic clusters and internal linking can connect related content and create a more organized information structure.',
+      },
+
+      {
+        q: 'Can you write SEO blogs for SaaS companies?',
+        a: 'Yes. SEO blog content for SaaS companies can target product-related questions, use cases, integrations, industry topics, comparisons, educational searches, technical questions, and other queries relevant to potential customers.',
+      },
+
+      {
+        q: 'Can you write SEO blogs for eCommerce websites?',
+        a: 'Yes. eCommerce SEO blog content can target product research, buying guides, comparisons, product questions, use cases, educational topics, category-related searches, and other informational queries that support the customer journey.',
+      },
+
+      {
+        q: 'Can you write SEO blogs for B2B companies?',
+        a: 'Yes. B2B SEO blog writing can target industry questions, technical topics, business problems, solution research, comparisons, use cases, and educational searches that potential customers may use during longer buying journeys.',
+      },
+
+      {
+        q: 'Do SEO blogs need internal links?',
+        a: 'Internal links can help connect blog articles with relevant service pages, product pages, category pages, and other supporting content. A relevant internal linking structure can also help users navigate the website and help search engines understand relationships between pages.',
+      },
+
+      {
+        q: 'Do you optimize blog titles and meta descriptions?',
+        a: 'Yes. SEO blog optimization can include recommendations or optimization for title tags, meta descriptions, headings, URLs, internal links, images, content structure, and other relevant on-page SEO elements.',
+      },
+
+      {
+        q: 'Do you provide SEO blog writing services in Mumbai?',
+        a: 'Yes. We provide SEO blog writing services for businesses in Mumbai across industries including technology, SaaS, eCommerce, manufacturing, professional services, B2B, and other sectors.',
+      },
+
+      {
+        q: 'Do you provide SEO blog writing services in Pune?',
+        a: 'Yes. We provide SEO blog writing services for businesses targeting Pune and other major Indian markets. Content strategies can be adapted according to the business, industry, audience, and search opportunities.',
+      },
+
+      {
+        q: 'Do you provide SEO blog writing services across India?',
+        a: 'Yes. We provide SEO blog writing services for businesses across India, including companies targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian markets.',
+      },
+
+      {
+        q: 'Can you write SEO blogs for international audiences?',
+        a: 'Yes. SEO blog content can be created for international markets including the USA, UK, UAE, Europe, Australia, and other regions. Content strategies can be adapted according to market-specific search behavior, terminology, audience needs, and search intent.',
+      },
+
+      {
+        q: 'How many SEO blogs should I publish per month?',
+        a: 'There is no universal number of blogs that every business should publish. The appropriate publishing frequency depends on available search opportunities, competition, content quality, business objectives, website authority, resources, and the overall SEO strategy.',
+      },
+
+      {
+        q: 'How do I choose an SEO blog writing company?',
+        a: 'Look for an SEO blog writing company that understands keyword research, search intent, content strategy, on-page SEO, internal linking, and your industry. The provider should focus on useful, original content rather than keyword stuffing or producing large quantities of low-value articles.',
       },
     ],
     offer: [3000, 15000],
@@ -2416,32 +2637,103 @@ export const serviceData = {
       'VoidMatrix Technology provides website copywriting services in India for businesses whose websites look professional but are not generating enough leads - because the copy is not doing the selling work it should. Based in Mumbai, we write homepage copy, service page copy, landing pages, about pages, and product pages for technology companies, consulting firms, healthcare providers, eCommerce brands, real estate businesses, and professional service firms across Mumbai, Pune, Bangalore, and India. Most website copy fails for the same reasons: it describes features rather than communicating benefits, talks about the company rather than the customer, and uses vague generic language that says nothing memorable. Our copywriting combines audience research, competitive messaging analysis, persuasion principles, and SEO keyword integration to produce copy that speaks directly to buyer motivations, addresses real objections, and drives visitors to take action.',
     faqs: [
       {
-        q: 'What makes website copy convert?',
-        a: "Converting copy speaks directly to a specific buyer's problem, positions your solution as the logical answer, handles the objections that prevent purchase, provides social proof that reduces risk, and makes the next step clear and easy. It is not about sounding clever - it is about making the reader feel understood and confident that you can solve their problem. We write copy that does this job.",
+        q: 'What is website copywriting?',
+        a: 'Website copywriting is the process of creating clear, persuasive and purposeful content for website pages. It helps communicate a business, product or service, explain its value, address customer needs and guide visitors toward an appropriate action.',
       },
+
+      {
+        q: 'What does a website copywriting company do?',
+        a: 'A website copywriting company researches the business and target audience, develops messaging, structures website content and writes pages such as homepages, service pages, product pages, landing pages and other important website sections.',
+      },
+
+      {
+        q: 'How is website copywriting different from regular content writing?',
+        a: 'Website copywriting focuses strongly on communication, positioning and conversion. It considers what visitors need to understand, what problems they have, why the business is relevant and what action the visitor should take. Content writing can have broader informational or editorial objectives.',
+      },
+
       {
         q: 'How much does website copywriting cost in India?',
-        a: 'Website copywriting in India ranges from ₹15,000 for a focused service page to ₹1,50,000 for a full website copy package covering homepage, service pages, about page, and case study copy.',
+        a: 'Website copywriting costs in India depend on the number of pages, content length, industry complexity, research requirements, SEO requirements, conversion strategy, technical subject matter and level of customization required.',
       },
+
       {
-        q: 'Do you research our target audience before writing?',
-        a: 'Yes. Audience research is the foundation of effective copy. We review competitor messaging, analyze customer review language (how buyers describe their problems and solutions in their own words), review any customer interview data you have, and study your sales conversations - so copy is grounded in real buyer language, not assumptions.',
+        q: 'Can website copywriting improve conversions?',
+        a: 'Good website copy can help improve conversion opportunities by making the value proposition clearer, addressing customer concerns, communicating benefits, strengthening calls to action and creating a more understandable customer journey. Actual conversion performance also depends on design, offer, traffic quality, pricing and other factors.',
       },
+
       {
-        q: 'Do you integrate SEO into the copy?',
-        a: 'Yes. Every page is written with target keywords integrated naturally - not keyword-stuffed but present in title tags, H1, subheadings, and body copy in ways that satisfy both search engines and readers. SEO copywriting is standard, not an add-on.',
+        q: 'Can website copywriting help SEO?',
+        a: 'Yes. Website copy can support SEO when it is created around relevant search intent, useful information, appropriate keywords, clear headings, internal linking and well-structured page content. SEO copywriting should prioritize usefulness rather than keyword stuffing.',
       },
+
       {
-        q: 'How many revision rounds do you provide?',
-        a: 'We typically include 2 rounds of revisions in our standard delivery. Most projects land close to final in round 1 because we align on messaging direction before writing begins - through a creative brief that covers positioning, audience, key messages, and tone.',
+        q: 'Do you write homepage copy?',
+        a: 'Yes. Homepage copywriting can communicate the business value proposition, services, benefits, differentiators, trust signals and important calls to action while helping visitors quickly understand what the company provides.',
       },
+
       {
-        q: 'Do you write copy for technical products and services?',
-        a: 'Yes - technology and B2B software copywriting is a primary specialization. We translate complex technical capabilities into business value language that non-technical buyers understand, while maintaining credibility with the technical audience evaluating your solution.',
+        q: 'Do you write service page content?',
+        a: 'Yes. Service page copywriting can explain the service, customer problems, benefits, process, differentiators, use cases, FAQs and relevant calls to action while incorporating appropriate SEO considerations.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We write website copy for businesses across Mumbai and Pune - including local service businesses targeting Mumbai-based customers and national B2B brands targeting pan-India buyers.',
+        q: 'Do you provide landing page copywriting?',
+        a: 'Yes. Landing page copy can be created around a specific audience, campaign, product, service, search query or conversion objective. The messaging is structured to keep the visitor focused on the intended action.',
+      },
+
+      {
+        q: 'Can you write website copy for SaaS companies?',
+        a: 'Yes. SaaS website copywriting can cover homepages, product pages, feature pages, solution pages, industry pages, use cases, integrations, comparison pages and other content needed to explain software products clearly.',
+      },
+
+      {
+        q: 'Can you write website copy for B2B companies?',
+        a: 'Yes. B2B website copywriting can explain complex products and services around business problems, solutions, industries, capabilities, use cases, differentiators and customer outcomes.',
+      },
+
+      {
+        q: 'Can you write eCommerce website copy?',
+        a: 'Yes. eCommerce copywriting can include product descriptions, category content, buying guides, landing pages and supporting content designed to communicate product value and help customers make informed purchasing decisions.',
+      },
+
+      {
+        q: 'Do you provide SEO website copywriting?',
+        a: 'Yes. SEO website copywriting combines customer-focused messaging with search considerations such as keyword research, search intent, page structure, headings, internal linking and relevant on-page SEO elements.',
+      },
+
+      {
+        q: 'Do you perform keyword research for website copy?',
+        a: 'Keyword research can be included when SEO is part of the website copywriting requirement. Relevant queries and search intent can help determine what information should be included on important website pages.',
+      },
+
+      {
+        q: 'Do you provide website copywriting services in Mumbai?',
+        a: 'Yes. VoidMatrix provides website copywriting services for businesses in Mumbai, including technology companies, SaaS businesses, manufacturers, professional services, eCommerce businesses and startups.',
+      },
+
+      {
+        q: 'Do you provide website copywriting services in Pune?',
+        a: 'Yes. VoidMatrix provides website copywriting services for businesses targeting Pune and other major Indian markets. Content can be adapted according to the business, industry, audience and website objectives.',
+      },
+
+      {
+        q: 'Do you provide website copywriting services across India?',
+        a: 'Yes. VoidMatrix provides website copywriting services for businesses across India, including companies targeting Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad and other markets.',
+      },
+
+      {
+        q: 'Can you write website copy for international businesses?',
+        a: 'Yes. VoidMatrix can create website copy for businesses targeting international markets such as the USA, UK, UAE, Europe, Australia and other regions. Content can be adapted according to the target audience, terminology, market and business positioning.',
+      },
+
+      {
+        q: 'How long does website copywriting take?',
+        a: 'The timeline depends on the number of pages, research requirements, industry complexity, content length, feedback cycles and project scope. A small website generally requires less time than a large SaaS, eCommerce or enterprise website.',
+      },
+
+      {
+        q: 'How do I choose a website copywriting company?',
+        a: 'Look for a website copywriting company that understands your audience, business model, positioning and conversion objectives. If SEO is also important, choose a provider that understands search intent, keyword research, website architecture and on-page SEO rather than simply producing generic website text.',
       },
     ],
     offer: [15000, 150000],
