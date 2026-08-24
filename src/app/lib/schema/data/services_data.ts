@@ -452,76 +452,76 @@ export const serviceData = {
       "Explore real-world projects delivered by VoidMatrix Technology across website development, web applications, eCommerce platforms, SEO, and business automation. Each case study highlights the client's challenge, our technical approach, the technologies used, and the measurable business outcomes achieved.",
 
     faqs: [
-    {
-      q: 'What is a website development case study?',
-      a: 'A website development case study explains a real website project, including the business requirements, challenges, technology decisions, development process, implementation, and outcomes.',
-    },
+      {
+        q: 'What is a website development case study?',
+        a: 'A website development case study explains a real website project, including the business requirements, challenges, technology decisions, development process, implementation, and outcomes.',
+      },
 
-    {
-      q: 'What do SEO case studies show?',
-      a: 'SEO case studies explain how technical SEO, on-page SEO, local SEO, content strategy, website architecture, performance optimization, and other search optimization activities are used to address organic search challenges.',
-    },
+      {
+        q: 'What do SEO case studies show?',
+        a: 'SEO case studies explain how technical SEO, on-page SEO, local SEO, content strategy, website architecture, performance optimization, and other search optimization activities are used to address organic search challenges.',
+      },
 
-    {
-      q: 'Why are case studies important when choosing an SEO company?',
-      a: 'Case studies help businesses understand how an SEO company approaches real search problems, develops a strategy, implements SEO improvements, and measures progress instead of evaluating an agency only from its list of services.',
-    },
+      {
+        q: 'Why are case studies important when choosing an SEO company?',
+        a: 'Case studies help businesses understand how an SEO company approaches real search problems, develops a strategy, implements SEO improvements, and measures progress instead of evaluating an agency only from its list of services.',
+      },
 
-    {
-      q: 'What types of website development projects does VoidMatrix Technology handle?',
-      a: 'VoidMatrix Technology works on business websites, corporate websites, SaaS websites, eCommerce platforms, web applications, landing pages, website redesigns, and custom digital platforms.',
-    },
+      {
+        q: 'What types of website development projects does VoidMatrix Technology handle?',
+        a: 'VoidMatrix Technology works on business websites, corporate websites, SaaS websites, eCommerce platforms, web applications, landing pages, website redesigns, and custom digital platforms.',
+      },
 
-    {
-      q: 'Do you have website redesign case studies?',
-      a: 'Yes. Website redesign case studies can cover the analysis of an existing website, redesign strategy, website architecture, performance improvements, SEO considerations, responsive development, and user experience improvements.',
-    },
+      {
+        q: 'Do you have website redesign case studies?',
+        a: 'Yes. Website redesign case studies can cover the analysis of an existing website, redesign strategy, website architecture, performance improvements, SEO considerations, responsive development, and user experience improvements.',
+      },
 
-    {
-      q: 'Do your case studies include technical SEO?',
-      a: 'Yes. Relevant SEO case studies can cover crawlability, indexing, website architecture, internal linking, structured data, Core Web Vitals, page performance, metadata, and other technical SEO factors.',
-    },
+      {
+        q: 'Do your case studies include technical SEO?',
+        a: 'Yes. Relevant SEO case studies can cover crawlability, indexing, website architecture, internal linking, structured data, Core Web Vitals, page performance, metadata, and other technical SEO factors.',
+      },
 
-    {
-      q: 'Do you provide eCommerce development case studies?',
-      a: 'Yes. eCommerce case studies can cover storefront development, product and category architecture, payment integrations, inventory workflows, performance, SEO, and scalable commerce functionality.',
-    },
+      {
+        q: 'Do you provide eCommerce development case studies?',
+        a: 'Yes. eCommerce case studies can cover storefront development, product and category architecture, payment integrations, inventory workflows, performance, SEO, and scalable commerce functionality.',
+      },
 
-    {
-      q: 'Can I find an SEO case study from India?',
-      a: 'Yes. VoidMatrix Technology works with businesses across Mumbai, Pune, and India. Relevant case studies can demonstrate SEO strategies for Indian businesses, local markets, national search, and industry-specific search queries.',
-    },
+      {
+        q: 'Can I find an SEO case study from India?',
+        a: 'Yes. VoidMatrix Technology works with businesses across Mumbai, Pune, and India. Relevant case studies can demonstrate SEO strategies for Indian businesses, local markets, national search, and industry-specific search queries.',
+      },
 
-    {
-      q: 'Do your case studies include digital marketing projects?',
-      a: 'Yes. Digital marketing case studies can cover SEO, content marketing, paid advertising, lead generation, landing pages, conversion optimization, and other digital acquisition strategies.',
-    },
+      {
+        q: 'Do your case studies include digital marketing projects?',
+        a: 'Yes. Digital marketing case studies can cover SEO, content marketing, paid advertising, lead generation, landing pages, conversion optimization, and other digital acquisition strategies.',
+      },
 
-    {
-      q: 'Can VoidMatrix Technology build a website similar to a case study?',
-      a: 'Yes. A case study can be used as a reference for understanding our approach, but every project is planned around the specific business model, audience, technical requirements, SEO objectives, and growth goals of the client.',
-    },
+      {
+        q: 'Can VoidMatrix Technology build a website similar to a case study?',
+        a: 'Yes. A case study can be used as a reference for understanding our approach, but every project is planned around the specific business model, audience, technical requirements, SEO objectives, and growth goals of the client.',
+      },
 
-    {
-      q: 'Do you provide website development and SEO together?',
-      a: 'Yes. VoidMatrix Technology can combine website development with technical SEO, on-page optimization, performance optimization, content strategy, structured data, and other search-focused requirements.',
-    },
+      {
+        q: 'Do you provide website development and SEO together?',
+        a: 'Yes. VoidMatrix Technology can combine website development with technical SEO, on-page optimization, performance optimization, content strategy, structured data, and other search-focused requirements.',
+      },
 
-    {
-      q: 'Do you provide SEO and website services in Mumbai and Pune?',
-      a: 'Yes. VoidMatrix Technology provides website development, SEO, eCommerce, and digital marketing services for businesses in Mumbai, Pune, across India, and international markets.',
-    },
+      {
+        q: 'Do you provide SEO and website services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix Technology provides website development, SEO, eCommerce, and digital marketing services for businesses in Mumbai, Pune, across India, and international markets.',
+      },
 
-    {
-      q: 'How much does a website development or SEO project cost?',
-      a: 'Project cost depends on the scope, number of pages, technology requirements, integrations, SEO requirements, content requirements, complexity, and ongoing support. We recommend evaluating the actual project requirements before determining the investment.',
-    },
+      {
+        q: 'How much does a website development or SEO project cost?',
+        a: 'Project cost depends on the scope, number of pages, technology requirements, integrations, SEO requirements, content requirements, complexity, and ongoing support. We recommend evaluating the actual project requirements before determining the investment.',
+      },
 
-    {
-      q: 'How can I start a project with VoidMatrix Technology?',
-      a: 'You can contact VoidMatrix Technology with your website development, SEO, eCommerce, digital marketing, or technology requirements. We can then review the project scope and discuss the appropriate strategy and implementation approach.',
-    },
-  ],
+      {
+        q: 'How can I start a project with VoidMatrix Technology?',
+        a: 'You can contact VoidMatrix Technology with your website development, SEO, eCommerce, digital marketing, or technology requirements. We can then review the project scope and discuss the appropriate strategy and implementation approach.',
+      },
+    ],
 
     offer: [30000, 250000],
   },
@@ -1190,32 +1190,63 @@ export const serviceData = {
       'VoidMatrix Technology provides email marketing services in India for SaaS companies, eCommerce brands, and B2B service businesses that want to turn their contact lists into consistent revenue - through welcome sequences, nurture campaigns, promotional emails, and lifecycle automation that work while you sleep. Based in Mumbai, we build and manage email marketing programs for businesses across Mumbai, Pune, Bangalore, and across India. Email marketing consistently delivers the highest ROI of any digital marketing channel in India - averaging ₹40+ return per ₹1 spent when executed correctly. The difference between email campaigns that convert and ones that get ignored is strategy, segmentation, copywriting, and deliverability - all areas where most businesses underinvest. We handle the full program: list health management, automation workflow design, email copywriting, template design, A/B testing, deliverability optimization, and performance analytics.',
     faqs: [
       {
-        q: 'Why invest in email marketing when social media and ads are more visible?',
-        a: 'Unlike social media posts (which reach 2-5% of your followers organically) or ads (which stop generating leads the moment you stop spending), email reaches 100% of your list consistently, can be automated, and generates revenue without ongoing ad spend. It is also the channel with the highest average ROI across all digital marketing.',
+        q: 'What is email marketing?',
+        a: 'Email marketing is a digital marketing strategy that uses targeted emails to communicate with prospects and customers. Businesses can use it for lead nurturing, promotions, customer engagement, newsletters, retention, product updates, and automated customer communication.',
       },
+
       {
-        q: 'How much do email marketing services cost in India?',
-        a: 'Email marketing programs in India range from ₹20,000 per month for basic campaign management to ₹1,50,000 per month for comprehensive programs with multiple automation workflows, list segmentation, A/B testing, and detailed analytics.',
+        q: 'How can email marketing help my business?',
+        a: 'Email marketing can help businesses nurture leads, communicate with existing customers, promote products and services, increase repeat purchases, improve customer engagement, and maintain long-term relationships with their audience.',
       },
+
       {
-        q: 'What types of email campaigns do you create?',
-        a: 'We design welcome sequences (to convert new subscribers while interest is high), lead nurture drips (to move prospects through the buying decision), promotional campaigns, re-engagement sequences for dormant subscribers, cart abandonment emails, post-purchase follow-ups, and newsletter programs.',
+        q: 'How much does email marketing cost in India?',
+        a: 'Email marketing costs in India depend on campaign frequency, subscriber database size, content requirements, automation, segmentation, integrations, design requirements, and ongoing management. The exact investment should be determined according to the scope of the email marketing strategy.',
       },
+
       {
-        q: 'Do you set up email automation workflows?',
-        a: 'Yes - automation is where most of the ROI lives. We build behavior-triggered sequences that respond to user actions: signing up, visiting a pricing page, downloading a resource, completing a purchase. These automated sequences run continuously without manual effort.',
+        q: 'Is email marketing suitable for small businesses?',
+        a: 'Yes. Small businesses can use email marketing to nurture leads, communicate with existing customers, promote offers, share updates, and build repeat business without requiring a large marketing infrastructure.',
       },
+
       {
-        q: 'Which email platforms do you work with?',
-        a: 'We work with Mailchimp, Klaviyo (eCommerce), HubSpot, Brevo (formerly Sendinblue), SendGrid, and other platforms. Platform selection depends on your business model, existing CRM integration, and scale.',
+        q: 'Can you create automated email campaigns?',
+        a: 'Yes. Email automation can be used for welcome emails, lead nurturing, onboarding, follow-ups, customer education, abandoned actions, re-engagement, and retention workflows.',
       },
+
       {
-        q: 'How do you improve email deliverability?',
-        a: 'Deliverability is often overlooked and costs businesses significantly in wasted campaigns. We audit SPF, DKIM, and DMARC configuration, manage list hygiene, segment engagement levels, implement sunset policies for unengaged contacts, and monitor domain reputation - ensuring your emails reach inboxes, not spam folders.',
+        q: 'Can email marketing generate leads?',
+        a: 'Yes. Email marketing can support lead generation and lead nurturing. Email campaigns can be connected with website forms, landing pages, lead magnets, CRM systems, and other acquisition channels to move prospects through the customer journey.',
       },
+
       {
-        q: 'Do you serve businesses in Mumbai and Pune?',
-        a: 'Yes. We manage email marketing programs for eCommerce brands, SaaS companies, and service businesses across Mumbai and Pune.',
+        q: 'Do you provide email copywriting services?',
+        a: 'Yes. Email copywriting can include subject lines, preview text, headlines, body content, promotional messaging, benefits, and calls to action based on the campaign objective and target audience.',
+      },
+
+      {
+        q: 'Can you segment our email subscriber list?',
+        a: 'Yes. Subscriber lists can be segmented using relevant information such as customer type, interests, engagement, purchase history, lead stage, location, or other available customer data.',
+      },
+
+      {
+        q: 'Can email marketing integrate with our CRM?',
+        a: 'Yes. Email marketing systems can be integrated with suitable CRM, website, eCommerce, and other business systems depending on the platforms being used and the available integration capabilities.',
+      },
+
+      {
+        q: 'How do you measure email marketing performance?',
+        a: 'Email marketing performance can be evaluated using metrics such as delivery, opens, clicks, conversions, engagement, unsubscribes, and campaign-level performance. The most important metrics depend on the business objective of each campaign.',
+      },
+
+      {
+        q: 'Do you provide email marketing services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides email marketing services for businesses in Mumbai, Pune, other Indian cities, and international markets. Campaign strategies can be developed around the target audience, industry, market, and business objectives.',
+      },
+
+      {
+        q: 'Can email marketing work with SEO and digital marketing?',
+        a: 'Yes. Email marketing can complement SEO, paid advertising, social media, landing pages, content marketing, and other digital marketing channels. Combining these channels can create a more connected customer acquisition and retention strategy.',
       },
     ],
     offer: [20000, 150000],
@@ -1335,32 +1366,48 @@ export const serviceData = {
       'VoidMatrix Technology manages Google Ads campaigns in India for businesses that want to reach high-intent buyers at the exact moment they are searching for what you offer - and generate qualified leads and sales profitably. Based in Mumbai, we run search campaigns, display campaigns, Shopping ads, and Performance Max campaigns for startups, SMEs, and enterprises across B2B services, eCommerce, real estate, healthcare, education, and technology in Mumbai, Pune, Bangalore, and across India. Google Ads is the most measurable paid acquisition channel in India, but it is also one of the easiest to waste budget on - poor campaign structure, weak ad copy, misaligned landing pages, and manual bidding strategies cost businesses thousands of rupees daily in wasted spend. Our team fixes that: we build tightly structured campaigns, write ads that earn high Quality Scores, align landing pages with ad messaging, set up accurate conversion tracking, and optimize continuously based on real performance data.',
     faqs: [
       {
-        q: 'How much should I budget for Google Ads in India?',
-        a: 'Minimum effective Google Ads budgets in India are ₹20,000-₹50,000 per month for small business campaigns in less competitive industries, and ₹75,000-₹2,00,000+ per month in competitive sectors like real estate, fintech, or education. Management fees are separate. We recommend budgets based on your cost-per-click landscape and lead volume targets - not arbitrary minimums.',
+        q: 'Why are my Google Ads generating clicks but not enough leads?',
+        a: 'Google Ads can generate clicks without producing enough leads when keywords are too broad, search intent is mismatched, negative keywords are missing, advertisements are not relevant, landing pages are weak, or conversion tracking is inaccurate. We analyze the complete campaign and conversion journey to identify where performance is being lost.',
       },
+
       {
-        q: 'How much do Google Ads management services cost?',
-        a: 'Our Google Ads management fees range from ₹15,000 to ₹80,000 per month depending on campaign complexity, number of campaigns, and ad spend volume. We structure fees as a flat monthly retainer, not a percentage of spend - so our incentive is campaign performance, not budget inflation.',
+        q: 'How quickly can Google Ads generate results?',
+        a: 'Google Ads can begin generating relevant traffic and enquiries shortly after campaigns are launched. However, consistent performance usually requires several weeks of data collection, testing, search-term analysis, and optimization. Results vary depending on industry competition, budget, targeting, landing pages, and conversion rates.',
       },
+
       {
-        q: 'How quickly will Google Ads generate leads?',
-        a: 'A well-structured campaign typically generates its first leads within 3-7 days of going live. Performance improves significantly over the first 4-8 weeks as the algorithm accumulates conversion data and our team implements optimizations based on real search term and ad performance data.',
+        q: 'How much should I spend on Google Ads in India?',
+        a: 'There is no single Google Ads budget that works for every business. Smaller local campaigns may start with around ₹20,000 to ₹50,000 per month in advertising spend, while competitive industries and larger campaigns may require significantly higher budgets. The appropriate budget depends on search demand, competition, customer value, and conversion economics.',
       },
+
       {
-        q: 'Can you fix an underperforming Google Ads account?',
-        a: 'Yes - account turnarounds are a significant part of our work. Common issues we find in underperforming accounts: overly broad keyword matching wasting budget on irrelevant searches, poor campaign structure diluting Quality Scores, landing pages misaligned with ad messaging, missing negative keyword lists, and conversion tracking that does not actually measure the right actions. We audit, diagnose, and fix.',
+        q: 'How much do Google Ads management services cost in India?',
+        a: 'Google Ads management fees in India commonly range from around ₹15,000 to ₹80,000 or more per month depending on campaign complexity, advertising budget, number of campaigns, locations, products or services, and optimization requirements. The Google advertising budget is separate from the management fee.',
       },
+
       {
-        q: 'Do you manage Google Shopping campaigns for eCommerce?',
-        a: 'Yes. Shopping campaign setup and management includes Google Merchant Center account configuration, product feed optimization, Shopping campaign structure, and Performance Max campaign management for eCommerce businesses.',
+        q: 'Do you provide Google Shopping and Performance Max campaign management?',
+        a: 'Yes. We provide Google Shopping and Performance Max campaign management for suitable eCommerce and product-based businesses. Campaigns can include product feed configuration, targeting, conversion tracking, performance monitoring, and ongoing optimization.',
       },
+
       {
-        q: 'How do you set up conversion tracking?',
-        a: 'Conversion tracking is non-negotiable for effective campaign management. We set up tracking for form submissions, phone calls, purchases, and other key actions using Google Ads conversion tags, Google Analytics 4 goals, and Google Tag Manager - ensuring every lead and sale is attributed correctly.',
+        q: 'Do you set up Google Ads conversion tracking?',
+        a: 'Yes. Conversion tracking is an important part of our Google Ads management process. Depending on the business, we can track forms, phone calls, purchases, bookings, signups, enquiries, and other meaningful conversion actions.',
       },
+
       {
-        q: 'Do you run Google Ads for businesses in Mumbai and Pune?',
-        a: 'Yes. We manage Google Ads campaigns for businesses across Mumbai, Pune, and across India - including hyper-local campaigns targeting specific Mumbai localities and national campaigns for pan-India reach.',
+        q: 'Can you improve an existing Google Ads campaign that is wasting money?',
+        a: 'Yes. We can audit existing Google Ads accounts to identify wasted spend, irrelevant search terms, weak keyword targeting, poor campaign structure, ineffective advertisements, tracking issues, and landing page problems. We then restructure and optimize the account based on the findings.',
+      },
+
+      {
+        q: 'Do you provide Google Ads management in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix Technology provides Google Ads management services for businesses in Mumbai, Pune, and other Indian cities. Campaigns can target local, regional, national, or international markets depending on the business objective.',
+      },
+
+      {
+        q: 'Can Google Ads work together with SEO?',
+        a: 'Yes. Google Ads and SEO can complement each other. Google Ads can provide immediate visibility for high-intent searches while SEO builds long-term organic search visibility. Search query and conversion data from paid campaigns can also provide useful insights for broader search marketing strategies.',
       },
     ],
     offer: [15000, 80000],
@@ -1507,32 +1554,63 @@ export const serviceData = {
       'VoidMatrix Technology provides lead generation services in India for B2B companies, consulting firms, real estate businesses, educational platforms, and service organizations that need a consistent pipeline of qualified prospects - not just occasional inquiries. Based in Mumbai, we build multi-channel lead generation systems for businesses in Mumbai, Pune, Bangalore, and across India combining SEO, Google Ads, Meta Ads, landing page optimization, LinkedIn outreach, and CRM-integrated lead nurturing into a coordinated acquisition engine. Most businesses treat lead generation as a collection of disconnected tactics. We build it as a system: defined target audience, matched channels, optimized conversion points, qualification criteria, and nurturing workflows that move prospects from awareness to a sales-ready conversation. The output is a predictable, scalable pipeline - not month-to-month fluctuation based on which tactic is currently running.',
     faqs: [
       {
-        q: 'What makes a lead generation program successful in India?',
-        a: 'Channel-audience fit (reaching your actual buyers where they are), conversion optimization (landing pages and forms that capture intent), and lead qualification (filtering for buyers with genuine need and budget). Many lead generation programs in India generate high volumes of low-quality inquiries. We design for qualified pipeline - leads your sales team can actually close.',
+        q: 'What is lead generation?',
+        a: 'Lead generation is the process of attracting potential customers and converting their interest into business enquiries. It can use channels such as SEO, Google Ads, Meta Ads, landing pages, content marketing, and conversion optimization.',
       },
+
+      {
+        q: 'What lead generation services does VoidMatrix Technology provide?',
+        a: 'VoidMatrix Technology provides SEO lead generation, landing page lead generation, Google Ads, Meta Ads, B2B lead generation, conversion optimization, and lead tracking and analytics.',
+      },
+
+      {
+        q: 'How does SEO help with lead generation?',
+        a: 'SEO can attract people who are actively searching for products, services, solutions, or providers. By optimizing relevant pages around commercial and high-intent searches, businesses can generate organic traffic that has a stronger potential to become qualified enquiries.',
+      },
+
       {
         q: 'How much does lead generation cost in India?',
-        a: 'Lead generation service fees in India range from ₹30,000 to ₹2,50,000 per month, depending on channel mix and campaign complexity. This is separate from ad spend (Google, Meta). We structure programs based on your cost-per-lead target and sales capacity - not arbitrary volume targets.',
+        a: 'Lead generation costs vary depending on the target market, industry competition, acquisition channels, advertising budget, website requirements, landing pages, content, tracking, and optimization requirements. A specific estimate should be based on the actual business and lead generation goals.',
       },
+
       {
-        q: 'Which channels work best for B2B lead generation in India?',
-        a: 'Google Search Ads are typically the highest-intent channel - you reach buyers actively searching for your solution. SEO compounds over time and generates leads without ongoing ad spend. LinkedIn is effective for enterprise B2B where decision-maker targeting matters. Content marketing builds a long-term inbound pipeline. The right mix depends on your sales cycle length, deal size, and target buyer.',
+        q: 'How long does it take to generate leads?',
+        a: 'The timeline depends on the acquisition channel. Paid advertising can begin generating enquiries after campaigns and conversion tracking are properly configured, while SEO-based lead generation generally requires a longer period to build organic search visibility and rankings.',
       },
+
       {
-        q: 'How do you qualify the leads you generate?',
-        a: 'We define qualification criteria with you upfront - company size, industry, role, intent signals, budget indicators - and then design campaigns, targeting parameters, and intake forms that filter for those criteria. We also implement lead scoring in your CRM to prioritize follow-up.',
+        q: 'Is SEO or Google Ads better for lead generation?',
+        a: 'SEO and Google Ads serve different purposes. Google Ads can provide immediate access to relevant paid search traffic, while SEO can build longer-term organic visibility. Many businesses benefit from using both channels as part of a broader lead generation strategy.',
       },
+
       {
-        q: 'How do you handle CRM integration?',
-        a: 'All leads are captured directly into your CRM (Zoho, HubSpot, Salesforce, or custom systems) with full campaign source attribution - so your team knows exactly which channel, ad, and page generated each lead and can measure cost per qualified lead accurately.',
+        q: 'Can you generate B2B leads for manufacturers?',
+        a: 'Yes. B2B lead generation for manufacturers can target products, applications, industries, locations, technical requirements, distributors, buyers, and commercial search queries using SEO, landing pages, Google Ads, content, and other relevant acquisition channels.',
       },
+
       {
-        q: 'How quickly can we expect to see leads?',
-        a: 'Paid channels (Google Ads, Meta Ads) typically generate the first leads within 1-2 weeks of campaign launch. SEO-driven leads take 3-6 months to develop but have lower cost per lead at scale. We typically recommend a combined approach for immediate results with compounding long-term growth.',
+        q: 'Can you create landing pages for lead generation?',
+        a: 'Yes. Landing pages can be designed around specific campaigns, audiences, products, services, offers, and conversion goals. They can include focused messaging, calls to action, enquiry forms, trust signals, FAQs, and conversion-focused page structures.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We build lead generation programs for businesses across Mumbai, Pune, and across India - including hyper-local campaigns for Mumbai-based service businesses and pan-India campaigns for technology and consulting firms.',
+        q: 'Can you run Google Ads for lead generation?',
+        a: 'Yes. Google Ads campaigns can be structured around relevant commercial and high-intent searches, with appropriate keyword targeting, ad groups, conversion tracking, negative keywords, landing page alignment, and ongoing campaign optimization.',
+      },
+
+      {
+        q: 'Can you run Meta Ads for lead generation?',
+        a: 'Yes. Meta Ads can be used to reach targeted audiences on Facebook and Instagram through website conversion campaigns, lead forms, remarketing, audience testing, and campaign-specific landing pages.',
+      },
+
+      {
+        q: 'How do you measure lead generation performance?',
+        a: 'Lead generation can be measured using metrics such as qualified leads, conversion rate, cost per lead, lead source, campaign performance, landing page conversion rate, and other business-specific conversion actions. The most useful measurement depends on the sales process and business model.',
+      },
+
+      {
+        q: 'Do you provide lead generation services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix Technology provides lead generation services for businesses targeting Mumbai, Pune, other Indian cities, nationwide markets, and international customers.',
       },
     ],
     offer: [30000, 250000],
@@ -1581,32 +1659,58 @@ export const serviceData = {
       "VoidMatrix Technology manages Meta Ads campaigns in India - Facebook and Instagram - for businesses that want to build brand awareness, generate qualified leads, and drive online sales through India's largest social advertising platform. Based in Mumbai, we run Meta Ads for eCommerce brands, real estate developers, educational institutions, healthcare providers, SaaS companies, and service businesses across Mumbai, Pune, Bangalore, and India. With over 400 million Meta users in India, the audience reach is unmatched - but the platform's complexity and competitive advertising market mean poorly managed campaigns waste budget rapidly. Our team manages the complete campaign lifecycle: audience research and segmentation, creative briefing and copy development, campaign structure, pixel setup and conversion tracking, retargeting audiences, budget optimization, and detailed performance reporting. We optimize for the metrics that matter - cost per qualified lead, cost per purchase, and return on ad spend - not just impressions and clicks.",
     faqs: [
       {
-        q: 'Are Meta Ads effective for businesses in India?',
-        a: "Yes - Meta Ads (Facebook and Instagram) are among the most effective customer acquisition channels for consumer-facing businesses in India. The platform's demographic and interest targeting allows you to reach specific buyer profiles at meaningful scale. They work particularly well for eCommerce, real estate, education, healthcare, local services, and D2C brands. B2B businesses are better served by Google Ads or LinkedIn for direct lead generation.",
+        q: 'Why are my Meta Ads getting engagement but not enough leads or sales?',
+        a: 'Meta Ads can generate likes, views, clicks, and other engagement without producing enough business results when audience targeting is too broad, creative messaging is weak, the offer is unclear, landing pages are not optimized, or conversion tracking is inaccurate. We analyze the complete campaign and conversion journey to identify where performance is being lost.',
       },
+
       {
-        q: 'How much should I budget for Meta Ads in India?',
-        a: 'Minimum effective Meta Ads budgets in India start at ₹15,000-₹30,000 per month for testing campaigns in less competitive markets. Established businesses in competitive sectors like real estate or education typically spend ₹1,00,000-₹5,00,000+ monthly. We recommend starting with a testing budget and scaling what works rather than committing large spend before validating ad creative and audiences.',
+        q: 'How quickly can Meta Ads generate results?',
+        a: 'Meta Ads can begin generating reach, traffic, leads, or sales shortly after campaigns are launched. However, consistent performance usually requires time for audience testing, creative testing, conversion data collection, and campaign optimization. Results vary depending on the industry, audience, budget, offer, creative quality, and conversion process.',
       },
+
       {
-        q: 'How much do Meta Ads management services cost?',
-        a: 'Our Meta Ads management fees range from ₹15,000 to ₹75,000 per month depending on campaign scale, number of campaigns, and creative production requirements. Ad spend is separate.',
+        q: 'How much should I spend on Meta Ads in India?',
+        a: 'There is no single Meta Ads budget that works for every business. Smaller local campaigns may start with around ₹20,000 to ₹50,000 per month in advertising spend, while competitive industries, eCommerce businesses, and larger customer acquisition campaigns may require significantly higher budgets. The appropriate budget depends on the target audience, competition, customer value, and conversion economics.',
       },
+
       {
-        q: 'Do you create ad creative and copy?',
-        a: 'We develop creative briefs, write all ad copy, and coordinate with your design team or our creative partners on visuals. For eCommerce clients, we also create dynamic product ads using your catalog. Creative quality is the primary performance lever on Meta - we take it seriously.',
+        q: 'How much do Meta Ads management services cost in India?',
+        a: 'Meta Ads management fees in India commonly range from around ₹15,000 to ₹80,000 or more per month depending on campaign complexity, advertising budget, number of campaigns, target locations, creative requirements, and optimization requirements. The advertising budget paid to Meta is separate from the management fee.',
       },
+
       {
-        q: 'How do you set up and use the Facebook Pixel?',
-        a: 'Facebook Pixel (now Meta Pixel) setup is standard on every engagement - including standard events (ViewContent, AddToCart, Lead, Purchase) and custom conversions aligned to your specific business goals. We also implement the Conversions API for server-side tracking where browser-side tracking is limited by iOS privacy changes.',
+        q: 'Do you manage both Facebook Ads and Instagram Ads?',
+        a: 'Yes. We manage advertising campaigns across Facebook and Instagram through Meta Ads. Campaigns can be structured around the most relevant audiences, placements, creative formats, campaign objectives, and conversion goals for the business.',
       },
+
       {
-        q: 'Do you run retargeting campaigns?',
-        a: 'Yes. Retargeting - reaching users who visited your website, watched your video ads, or engaged with your Instagram profile - typically delivers 3-5x higher conversion rates than cold audience campaigns. We build layered retargeting funnels across different engagement levels.',
+        q: 'Do you provide Meta Ads lead generation campaigns?',
+        a: 'Yes. We provide Meta lead generation campaigns for businesses that want to generate enquiries through Facebook and Instagram. Depending on the campaign strategy, leads can be captured through Meta lead forms, website forms, landing pages, or other conversion journeys.',
       },
+
       {
-        q: 'Do you manage Meta Ads for businesses in Mumbai and Pune?',
-        a: 'Yes. We run Meta Ads campaigns for businesses across Mumbai, Pune, and India - including geotargeted campaigns for local service businesses and national campaigns for brands with pan-India reach.',
+        q: 'Do you provide Meta Ads retargeting?',
+        a: 'Yes. We can create retargeting campaigns for website visitors, previous customers, engaged users, product viewers, social media audiences, and other relevant warm audiences. Retargeting helps businesses reconnect with people who have already interacted with their brand.',
+      },
+
+      {
+        q: 'Do you set up Meta Ads conversion tracking?',
+        a: 'Yes. Conversion tracking is an important part of our Meta Ads management process. Depending on the business, we can track leads, purchases, registrations, enquiries, bookings, and other meaningful customer actions.',
+      },
+
+      {
+        q: 'Can you improve an existing Meta Ads campaign that is wasting money?',
+        a: 'Yes. We can review existing Meta Ads campaigns to identify inefficient audiences, weak creatives, poor campaign structures, unnecessary spending, tracking issues, weak retargeting strategies, and conversion problems. We then optimize or restructure the campaigns based on the findings.',
+      },
+
+      {
+        q: 'Do you provide Meta Ads management in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix Technology provides Meta Ads management services for businesses in Mumbai, Pune, and other Indian cities. Campaigns can target local, regional, national, or international audiences depending on the business objective.',
+      },
+
+      {
+        q: 'Can Meta Ads work together with SEO and Google Ads?',
+        a: 'Yes. Meta Ads, Google Ads, and SEO can complement each other as part of a broader digital marketing strategy. Meta Ads can help build demand and reach targeted audiences, Google Ads can capture active search intent, and SEO can build long-term organic visibility. Combining these channels can provide broader coverage across different stages of the customer journey.',
       },
     ],
     offer: [15000, 75000],
@@ -2241,35 +2345,76 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides social media management services in India for businesses that need a consistent, professional brand presence on LinkedIn, Instagram, Facebook, and other platforms - without pulling internal resources away from core business operations. Based in Mumbai, we manage social media for startups, SMEs, and enterprises across Mumbai, Pune, Bangalore, and India in B2B services, eCommerce, healthcare, education, real estate, and hospitality sectors. Social media without strategy is noise. Our programs start with a clear content strategy aligned to your business goals - brand awareness, lead generation, talent attraction, or customer retention - and execute consistently with designed graphics, written copy, publishing schedules, and community engagement management. We produce content that reflects your actual brand, not a generic corporate template, and report on metrics that matter for your specific goal rather than vanity numbers.',
     faqs: [
-      {
-        q: 'What does social media management include?',
-        a: 'A full social media management program includes: content strategy development, monthly content calendar planning, graphic design for all posts, caption and hashtag copywriting, post scheduling and publishing, community management (responding to comments and messages), story and reel production guidance, and monthly performance reporting covering reach, engagement, follower growth, and link clicks.',
-      },
-      {
-        q: 'How much does social media management cost in India?',
-        a: 'Social media management in India ranges from ₹15,000 per month for basic 3-4 posts per week on a single platform to ₹80,000 per month for comprehensive multi-platform management with graphic design, community management, and story content across LinkedIn, Instagram, and Facebook.',
-      },
-      {
-        q: 'How many posts per week do we need?',
-        a: 'Consistency matters more than frequency. For most businesses, 3-5 posts per week on your primary platform is a strong cadence. The right frequency depends on platform - LinkedIn rewards quality over quantity (3-4 posts per week is optimal), while Instagram benefits from higher frequency including stories and reels.',
-      },
-      {
-        q: 'Do you manage LinkedIn for B2B businesses?',
-        a: 'Yes - LinkedIn management for B2B brands is a primary specialization. We design LinkedIn content that builds founder and brand authority, attracts ideal-fit business leads, and supports sales prospecting - not just brand awareness posts. LinkedIn done well generates inbound leads directly.',
-      },
-      {
-        q: 'How do you make the content sound like our brand?',
-        a: 'We start every engagement with a brand voice and messaging session - understanding your positioning, tone, audience, and what makes your business different. The first content calendar is reviewed carefully and refined until it reflects your voice accurately. Most clients tell us we sound more like them than they expected.',
-      },
-      {
-        q: 'Do you create graphic designs or just captions?',
-        a: 'We provide both - graphic design and copywriting are included together. Social posts without strong design underperform, and well-designed posts with weak copy do not convert. Both components are delivered as a package.',
-      },
-      {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We manage social media for businesses across Mumbai and Pune - including hyper-local businesses building a Mumbai audience and national brands building pan-India presence.',
-      },
-    ],
+  {
+    q: 'What is social media management?',
+    a: 'Social media management is the process of planning, creating, publishing, managing, and optimizing content across social media platforms to build brand visibility, engage audiences, communicate with customers, and support business objectives.',
+  },
+
+  {
+    q: 'How can social media management help my business?',
+    a: 'Social media management can help businesses build brand awareness, maintain a consistent online presence, engage customers, promote products and services, drive website traffic, support lead generation, and strengthen customer relationships.',
+  },
+
+  {
+    q: 'How much does social media management cost in India?',
+    a: 'Social media management costs in India depend on the number of platforms, posting frequency, content volume, creative requirements, community management, campaign requirements, reporting, and ongoing optimization. The exact cost depends on the scope required by the business.',
+  },
+
+  {
+    q: 'Is social media marketing suitable for small businesses?',
+    a: 'Yes. Small businesses can use social media marketing to build local visibility, communicate with customers, showcase products and services, answer questions, promote offers, and establish a consistent digital presence.',
+  },
+
+  {
+    q: 'Which social media platforms do you manage?',
+    a: 'We can manage relevant social media platforms based on the business and target audience. Depending on the requirements, this may include Instagram, Facebook, LinkedIn, X, YouTube, and other relevant platforms.',
+  },
+
+  {
+    q: 'Do you create social media content?',
+    a: 'Yes. Social media content management can include content planning, social media copywriting, creative direction, educational posts, promotional content, product communication, company updates, industry content, and other relevant formats.',
+  },
+
+  {
+    q: 'Can you manage our LinkedIn social media page?',
+    a: 'Yes. LinkedIn management can be used for B2B brand building, company communication, industry insights, thought leadership, recruitment communication, product or service visibility, and audience engagement.',
+  },
+
+  {
+    q: 'Can you manage Instagram and Facebook for our business?',
+    a: 'Yes. Instagram and Facebook can be managed through structured content planning, publishing, audience engagement, promotional communication, brand content, and performance analysis based on the business objectives.',
+  },
+
+  {
+    q: 'Does social media management include community management?',
+    a: 'Community management can be included depending on the selected scope. It may involve monitoring comments, messages, audience interactions, questions, and relevant conversations across managed social platforms.',
+  },
+
+  {
+    q: 'Can social media marketing generate leads?',
+    a: 'Yes. Social media can support lead generation by building audience awareness, promoting relevant offers, driving users to websites or landing pages, supporting campaigns, and creating opportunities for prospects to contact the business.',
+  },
+
+  {
+    q: 'Does social media management help SEO?',
+    a: 'Social media and SEO are different marketing channels, but social media can support broader digital visibility by distributing website content, increasing brand exposure, generating referral traffic, and creating additional opportunities for people to discover and engage with a business.',
+  },
+
+  {
+    q: 'How do you measure social media performance?',
+    a: 'Social media performance can be evaluated using metrics such as reach, impressions, engagement, profile activity, audience growth, website traffic, leads, and other relevant metrics depending on the platform and campaign objectives.',
+  },
+
+  {
+    q: 'Do you provide social media management services in Mumbai and Pune?',
+    a: 'Yes. VoidMatrix provides social media management services for businesses in Mumbai, Pune, other Indian cities, and international markets. Strategies can be developed according to the target audience, industry, platform, and business objectives.',
+  },
+
+  {
+    q: 'Can social media management work with SEO and digital marketing?',
+    a: 'Yes. Social media management can complement SEO, content marketing, email marketing, Google Ads, Meta Ads, landing pages, website development, and lead generation. Integrating these channels can create a stronger overall digital marketing strategy.',
+  },
+],
     offer: [15000, 80000],
   },
 
