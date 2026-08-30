@@ -1116,32 +1116,73 @@ export const serviceData = {
       'VoidMatrix Technology provides conversion-focused design services in India for businesses that are driving traffic to pages that are not converting - and losing potential customers to poor design, unclear messaging, or weak calls to action. Based in Mumbai, we design landing pages, product pages, and website experiences for SaaS companies, startups, eCommerce brands, and service businesses in Mumbai, Pune, Bangalore, and across India that need more from their existing traffic. Conversion-focused design is not about making things pretty - it is about understanding how users make decisions and designing page experiences that guide them toward the action you want. We combine UX principles, persuasion psychology, visual hierarchy, and mobile-first execution to create pages that convert. Our process includes conversion auditing of existing pages, wireframe design, copy refinement, visual design, and developer handoff - all grounded in what the data about your specific audience tells us about their decision-making process.',
     faqs: [
       {
-        q: 'What makes conversion-focused design different from regular web design?',
-        a: 'Regular web design optimizes for aesthetics and brand impression. Conversion-focused design optimizes for a specific user action - a form submission, a purchase, a demo booking. Every design decision - headline hierarchy, CTA placement, trust signal positioning, form length, visual flow - is made with that single goal in mind. Beauty is a tool for building trust, not the objective.',
+        q: 'What is CRO design?',
+        a: 'CRO design, or Conversion Rate Optimization design, is the process of designing and improving digital experiences to help more users complete important actions such as submitting a lead form, making a purchase, requesting a quote, registering for a service, or signing up for a SaaS product.',
       },
+
       {
-        q: 'How much does conversion-focused design cost in India?',
-        a: 'CRO design projects in India range from ₹40,000 for a single landing page to ₹3,00,000 or more for a full homepage redesign with multiple section variants and mobile optimization.',
+        q: 'What is the difference between CRO and UI design?',
+        a: 'UI design focuses primarily on the visual interface and usability of a digital product. CRO design additionally considers conversion goals, user intent, messaging, calls to action, trust signals, friction points, forms, and the complete journey users follow before taking an important business action.',
       },
+
       {
-        q: 'Which pages benefit most from conversion-focused design?',
-        a: 'Landing pages receiving paid traffic (Google Ads, Meta Ads) offer the fastest ROI because conversion rate improvements directly reduce cost per lead. Homepages, pricing pages, and product pages are the next priority. Any page with significant traffic and a defined conversion goal is a candidate.',
+        q: 'How much does CRO design cost in India?',
+        a: 'CRO design cost in India depends on the number of pages or screens, conversion goals, website complexity, research requirements, available analytics data, user journey complexity, and the level of optimization required.',
       },
+
       {
-        q: 'Do you design landing pages for ad campaigns?',
-        a: 'Yes - ad campaign landing pages are a primary use case. We design pages that align with specific ad creative and messaging, maintain message match, load quickly on mobile, and present a focused single call to action. These consistently outperform generic homepages for paid traffic conversion.',
+        q: 'Can CRO design improve website conversion rates?',
+        a: 'CRO design can help identify and reduce usability and conversion friction by improving information hierarchy, messaging, calls to action, forms, trust elements, navigation, and important user journeys. Actual conversion improvement depends on factors including traffic quality, offer, audience, pricing, and implementation.',
       },
+
       {
-        q: 'Do you optimize existing pages or only design new ones?',
-        a: 'Both. We audit existing pages for conversion barriers and redesign specific elements - headlines, hero sections, form design, CTA copy, social proof placement - without requiring a full page rebuild. Often targeted element optimization delivers strong results faster than a complete redesign.',
+        q: 'What types of websites can benefit from CRO design?',
+        a: 'Lead-generation websites, B2B websites, eCommerce stores, SaaS websites, service businesses, landing pages, technology websites, and other digital experiences with measurable conversion goals can benefit from CRO-focused design.',
       },
+
       {
-        q: 'Do you write the copy too?',
-        a: 'Yes. Conversion copy is integral to design - layout without the right words does not convert. We write headlines, subheadings, value proposition statements, benefit bullets, and CTA copy as part of the design process, not as an afterthought.',
+        q: 'Do you provide landing page CRO design?',
+        a: 'Yes. VoidMatrix provides landing page CRO design focused on user intent, value propositions, messaging hierarchy, trust signals, calls to action, forms, objections, and the specific conversion objective of the campaign or landing page.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We design conversion pages for businesses across Mumbai and Pune - particularly for companies running paid advertising who want to improve cost per lead.',
+        q: 'Do you provide eCommerce CRO design?',
+        a: 'Yes. eCommerce CRO design can focus on product discovery, product pages, product information, pricing presentation, cart, checkout, forms, trust signals, and other parts of the purchasing journey where users may experience friction.',
+      },
+
+      {
+        q: 'Do you provide SaaS CRO design?',
+        a: 'Yes. VoidMatrix provides CRO design for SaaS websites and selected product journeys involving demo requests, free trials, registrations, onboarding, upgrades, and other important conversion or activation actions.',
+      },
+
+      {
+        q: 'Can you optimize website forms for conversions?',
+        a: 'Yes. Form CRO can focus on reducing unnecessary friction, improving field organization, clarifying instructions, improving calls to action, addressing error states, and creating a clearer form completion experience while maintaining the information required by the business.',
+      },
+
+      {
+        q: 'Do you use A/B testing for CRO design?',
+        a: 'A/B testing can be used to compare different design, messaging, layout, or conversion approaches when sufficient traffic and suitable measurement infrastructure are available. CRO design can also identify testing opportunities for future experimentation.',
+      },
+
+      {
+        q: 'Can you perform CRO design on an existing website?',
+        a: 'Yes. Existing websites can be reviewed for conversion friction, information hierarchy, messaging, calls to action, forms, navigation, and important user journeys before redesign or optimization recommendations are implemented.',
+      },
+
+      {
+        q: 'Do you provide CRO design services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides CRO design services for businesses in Mumbai, Pune, Bangalore, Hyderabad, other Indian cities, and international markets.',
+      },
+
+      {
+        q: 'Is CRO design the same as SEO?',
+        a: 'No. SEO focuses on improving a website’s visibility and organic search performance, while CRO focuses on improving the percentage of users who complete desired actions after reaching the website or digital product. SEO and CRO can work together because increasing qualified traffic and improving conversion performance address different parts of the customer journey.',
+      },
+
+      {
+        q: 'Can CRO design be combined with UX research?',
+        a: 'Yes. UX research can provide evidence about user needs, behavior, problems, and expectations, while CRO design can use those insights to improve conversion-focused journeys, page structure, messaging, forms, and calls to action.',
       },
     ],
     offer: [40000, 300000],
@@ -1722,32 +1763,68 @@ export const serviceData = {
       'VoidMatrix Technology provides mobile UI design services in India for startups and product companies that want their mobile app to look and feel as good as the best apps users compare it to - because first impressions in mobile are everything. Based in Mumbai, we design mobile interfaces for Android and iOS applications for companies in Mumbai, Pune, Bangalore, and across India. Great mobile UI is not decoration - it directly affects App Store ratings, user retention, and whether users recommend the app to others. Our design team creates pixel-perfect mobile interfaces following iOS Human Interface Guidelines and Android Material Design principles, applying modern visual design with the functional clarity that mobile users demand. We design the complete screen set for every user journey - onboarding, core features, dashboards, transactions, settings, notifications, and error states - with interactive Figma prototypes and developer-ready handoff documentation that eliminates ambiguity during development.',
     faqs: [
       {
-        q: 'What does mobile UI design include?',
-        a: 'Mobile UI design covers the visual design of every screen in your application - including onboarding flows, home/dashboard screens, feature screens, data input forms, settings, notifications, empty states, and error states. It includes user flow mapping, wireframing, high-fidelity visual design, interactive prototyping, icon and illustration design, and developer handoff documentation.',
+        q: 'What is mobile UI design?',
+        a: 'Mobile UI design is the process of designing the visual interface and interactive elements of a mobile application. It includes screen layouts, navigation, buttons, forms, cards, typography, icons, interaction states and other components required for a usable mobile experience.',
       },
+
       {
         q: 'How much does mobile UI design cost in India?',
-        a: 'Mobile UI design projects in India range from ₹80,000 for a focused 15-20 screen app to ₹4,00,000 for a comprehensive multi-flow application with a full design system and extensive prototyping.',
+        a: 'Mobile UI design cost in India depends on the number of screens, application complexity, user flows, number of user roles, UX requirements, interaction complexity, prototype requirements and design system requirements. A mobile MVP generally requires a smaller scope than a large application with multiple modules and workflows.',
       },
+
       {
-        q: 'Do you design for both iOS and Android?',
-        a: 'Yes. We design following platform conventions for both iOS (Human Interface Guidelines) and Android (Material Design) - delivering separate design files where platform differences in navigation, component styling, and interaction patterns matter.',
+        q: 'What is the difference between mobile UI design and mobile UX design?',
+        a: 'Mobile UI design focuses primarily on the visual interface and interaction elements of the application, while mobile UX design focuses on the overall user journey, navigation, information architecture, workflows and usability. Professional mobile app design often combines both UI and UX considerations.',
       },
+
       {
-        q: 'What is a design system and do we need one?',
-        a: 'A design system is a library of reusable components (buttons, inputs, cards, navigation elements) with defined styles, states, and usage rules. For any app that will grow and be maintained over time, a design system is essential - it ensures new screens are built consistently without redesigning every component from scratch. We build component libraries as part of every substantial mobile UI project.',
+        q: 'Do you provide mobile app UI and UX design services?',
+        a: 'Yes. VoidMatrix provides mobile UI and UX design services including user flows, information architecture, wireframing, screen design, navigation, interaction patterns, prototypes and reusable interface components according to the project scope.',
       },
+
       {
-        q: 'Do you create interactive prototypes?',
-        a: 'Yes. Every project includes clickable Figma prototypes that demonstrate user flows and interactions. These are invaluable for stakeholder alignment, user testing, and giving developers a clear understanding of intended behavior before coding begins.',
+        q: 'Can you design a mobile app MVP?',
+        a: 'Yes. VoidMatrix can design mobile MVP interfaces around the essential features and user workflows required for the initial product launch and validation.',
       },
+
       {
-        q: 'How do you hand off designs to developers?',
-        a: 'We deliver annotated Figma files with all specifications (spacing, typography, colors using design tokens), exported assets in required formats and resolutions, component documentation, and interaction notes. We also support developer queries during implementation to ensure the design is built accurately.',
+        q: 'Do you design both iOS and Android app interfaces?',
+        a: 'Yes. Mobile UI designs can be planned for iOS, Android or both platforms depending on the product requirements. Platform-specific interface considerations can be incorporated where required.',
       },
+
       {
-        q: 'Do you serve companies in Mumbai and Pune?',
-        a: 'Yes. We design mobile interfaces for startups and product companies across Mumbai and Pune - including consumer apps, enterprise mobile tools, and SaaS mobile extensions.',
+        q: 'Can you redesign an existing mobile application?',
+        a: 'Yes. We can redesign existing mobile applications by reviewing the current interface, navigation, user flows, visual hierarchy and component consistency and then creating an improved mobile UI system.',
+      },
+
+      {
+        q: 'Do you create mobile app design systems?',
+        a: 'Yes. A mobile design system can include reusable buttons, forms, cards, navigation components, typography, spacing, icons, colors, interaction states and other interface elements required for consistent product development.',
+      },
+
+      {
+        q: 'Do you design mobile dashboards?',
+        a: 'Yes. We design mobile dashboards for analytics products, business applications, SaaS platforms, fintech applications, operational systems and other products that require data-driven mobile interfaces.',
+      },
+
+      {
+        q: 'Do you provide mobile app prototypes?',
+        a: 'Yes. Interactive mobile prototypes can be created to demonstrate navigation, user flows and interactions before development, depending on the project scope.',
+      },
+
+      {
+        q: 'Do you provide Figma mobile app UI design?',
+        a: 'Mobile UI projects can be delivered as structured design files and prototypes suitable for development handoff, including reusable components, screen specifications and design-system references according to the project scope.',
+      },
+
+      {
+        q: 'Do you provide mobile UI design services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides mobile UI design services for businesses in Mumbai, Pune, Bangalore, Hyderabad, other Indian cities and international markets.',
+      },
+
+      {
+        q: 'Why should I hire a mobile UI design company?',
+        a: 'A professional mobile UI design process considers the complete application experience including navigation, touch interactions, user flows, screen hierarchy, responsive layouts, accessibility, reusable components and design systems rather than focusing only on individual screen visuals.',
       },
     ],
     offer: [80000, 400000],
@@ -2046,32 +2123,63 @@ export const serviceData = {
       'VoidMatrix Technology provides SaaS UI design services in India for software companies and founders whose product needs to be as good to use as it is to demo. Based in Mumbai, we design clean, functional, and scalable user interfaces for web-based software products for companies in Mumbai, Pune, Bangalore, and across India. SaaS UI is uniquely challenging: complex feature sets, data-heavy screens, multiple user roles with different needs, and the requirement for design consistency across dozens or hundreds of views. Poor SaaS UI means longer onboarding, higher support ticket volume, lower feature adoption, and elevated churn - even when the underlying product works well. Our design team creates SaaS interfaces where visual clarity and functional density coexist - making complex software feel approachable without dumbing it down. We build complete design systems, not just pretty screens, so every future feature your team builds fits consistently into the existing product.',
     faqs: [
       {
-        q: 'What screens does a SaaS UI design project typically cover?',
-        a: 'A complete SaaS UI project covers: authentication screens (login, signup, password reset), onboarding flow, main dashboard, all core feature views, data tables and list views, detail and settings pages, admin screens, billing and subscription management, empty states, error states, and mobile responsive views. We design every screen a user will see - not just the hero screens.',
+        q: 'What is SaaS UI design?',
+        a: 'SaaS UI design is the process of designing user interfaces for software-as-a-service products, dashboards, web applications, and B2B platforms. It focuses on usability, visual hierarchy, navigation, workflows, responsive layouts, and consistent interface components.',
       },
+
       {
         q: 'How much does SaaS UI design cost in India?',
-        a: 'SaaS UI design in India ranges from ₹1,00,000 for a focused product with 20-30 screens to ₹6,00,000 or more for a comprehensive multi-module platform with a full design system, extensive onboarding design, and mobile responsive treatment.',
+        a: 'SaaS UI design cost in India depends on the number of screens, product complexity, user roles, workflows, UX requirements, responsive design, design system requirements, and prototype requirements. A SaaS MVP generally requires a smaller design scope than a large enterprise SaaS platform.',
       },
+
       {
-        q: 'Why is the onboarding flow so important in SaaS UI design?',
-        a: 'Onboarding is where SaaS products are most often abandoned. Users who do not experience core product value within their first session rarely return. We design onboarding flows that minimize time-to-value - progressive disclosure of features, contextual tooltips, empty state guidance, and activation checklists - because activation is where revenue is made or lost.',
+        q: 'How is SaaS UI design different from website UI design?',
+        a: 'Website UI design primarily focuses on presenting information, services, products, and calls to action. SaaS UI design focuses on interactive software experiences such as dashboards, workflows, forms, tables, analytics, settings, navigation, user roles, and application functionality.',
       },
+
       {
-        q: 'Do you create a design system as part of the project?',
-        a: 'Yes - always. A design system (component library with defined colors, typography, spacing, icon set, button states, form elements, card patterns, and usage guidelines) is the foundation of scalable SaaS design. Without it, every new feature gets designed from scratch and the product becomes visually inconsistent.',
+        q: 'Do you provide SaaS UX design along with UI design?',
+        a: 'Yes. SaaS UI design can include UX planning such as user flows, information architecture, navigation, workflow analysis, wireframing, interaction patterns, and interface design depending on the project scope.',
       },
+
       {
-        q: 'How do you handle different user roles in SaaS UI design?',
-        a: 'SaaS products often have multiple user types - end users, team administrators, billing owners, super admins. We design distinct views and permission-aware UI states for each role, ensuring the interface appropriately reflects what each user can see and do.',
+        q: 'Can you design a SaaS MVP?',
+        a: 'Yes. VoidMatrix can design SaaS MVP interfaces around the core features and workflows required for the initial product launch. The design can later be expanded into a larger design system as the product grows.',
       },
+
       {
-        q: 'Do you design for data-heavy interfaces?',
-        a: 'Yes. Data tables, analytics dashboards, reporting views, and complex filtering and sorting interfaces are a core part of SaaS UI. We design these with particular attention to information hierarchy, scannability, and cognitive load - making large amounts of data navigable rather than overwhelming.',
+        q: 'Do you design SaaS dashboards?',
+        a: 'Yes. We design SaaS dashboards for analytics platforms, CRM systems, ERP applications, fintech products, HR platforms, project management tools, operational software, and other business applications.',
       },
+
       {
-        q: 'Do you serve SaaS companies in Mumbai and Pune?',
-        a: 'Yes. We design SaaS interfaces for software companies and founders across Mumbai and Pune - from early-stage MVPs to established products undergoing redesign.',
+        q: 'Do you create SaaS design systems?',
+        a: 'Yes. SaaS design systems can include reusable buttons, forms, inputs, cards, tables, navigation components, typography, spacing, interaction states, and other reusable interface elements that support consistent product development.',
+      },
+
+      {
+        q: 'Can you redesign an existing SaaS application?',
+        a: 'Yes. We can redesign existing SaaS products by reviewing the current interface, identifying usability and consistency issues, improving user flows, restructuring important screens, and creating a more scalable UI system.',
+      },
+
+      {
+        q: 'Do you provide responsive SaaS UI design?',
+        a: 'Yes. We design responsive SaaS interfaces for desktop, tablet, and mobile screen sizes where the product requirements call for multi-device access.',
+      },
+
+      {
+        q: 'Do you provide Figma designs for SaaS products?',
+        a: 'SaaS UI projects can be delivered as structured design files and prototypes suitable for developer handoff, including reusable components, interface specifications, and design-system references according to the project scope.',
+      },
+
+      {
+        q: 'Do you provide SaaS UI design services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides SaaS UI design services for businesses in Mumbai, Pune, Bangalore, Hyderabad, other Indian cities, and international markets.',
+      },
+
+      {
+        q: 'Why should I hire a SaaS UI design company instead of a general UI designer?',
+        a: 'SaaS products contain complex workflows, dashboards, navigation systems, forms, tables, user roles, and application states. A SaaS-focused UI design approach considers these product requirements together so the interface can remain usable and consistent as the application grows.',
       },
     ],
     offer: [100000, 600000],
@@ -2345,76 +2453,76 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides social media management services in India for businesses that need a consistent, professional brand presence on LinkedIn, Instagram, Facebook, and other platforms - without pulling internal resources away from core business operations. Based in Mumbai, we manage social media for startups, SMEs, and enterprises across Mumbai, Pune, Bangalore, and India in B2B services, eCommerce, healthcare, education, real estate, and hospitality sectors. Social media without strategy is noise. Our programs start with a clear content strategy aligned to your business goals - brand awareness, lead generation, talent attraction, or customer retention - and execute consistently with designed graphics, written copy, publishing schedules, and community engagement management. We produce content that reflects your actual brand, not a generic corporate template, and report on metrics that matter for your specific goal rather than vanity numbers.',
     faqs: [
-  {
-    q: 'What is social media management?',
-    a: 'Social media management is the process of planning, creating, publishing, managing, and optimizing content across social media platforms to build brand visibility, engage audiences, communicate with customers, and support business objectives.',
-  },
+      {
+        q: 'What is social media management?',
+        a: 'Social media management is the process of planning, creating, publishing, managing, and optimizing content across social media platforms to build brand visibility, engage audiences, communicate with customers, and support business objectives.',
+      },
 
-  {
-    q: 'How can social media management help my business?',
-    a: 'Social media management can help businesses build brand awareness, maintain a consistent online presence, engage customers, promote products and services, drive website traffic, support lead generation, and strengthen customer relationships.',
-  },
+      {
+        q: 'How can social media management help my business?',
+        a: 'Social media management can help businesses build brand awareness, maintain a consistent online presence, engage customers, promote products and services, drive website traffic, support lead generation, and strengthen customer relationships.',
+      },
 
-  {
-    q: 'How much does social media management cost in India?',
-    a: 'Social media management costs in India depend on the number of platforms, posting frequency, content volume, creative requirements, community management, campaign requirements, reporting, and ongoing optimization. The exact cost depends on the scope required by the business.',
-  },
+      {
+        q: 'How much does social media management cost in India?',
+        a: 'Social media management costs in India depend on the number of platforms, posting frequency, content volume, creative requirements, community management, campaign requirements, reporting, and ongoing optimization. The exact cost depends on the scope required by the business.',
+      },
 
-  {
-    q: 'Is social media marketing suitable for small businesses?',
-    a: 'Yes. Small businesses can use social media marketing to build local visibility, communicate with customers, showcase products and services, answer questions, promote offers, and establish a consistent digital presence.',
-  },
+      {
+        q: 'Is social media marketing suitable for small businesses?',
+        a: 'Yes. Small businesses can use social media marketing to build local visibility, communicate with customers, showcase products and services, answer questions, promote offers, and establish a consistent digital presence.',
+      },
 
-  {
-    q: 'Which social media platforms do you manage?',
-    a: 'We can manage relevant social media platforms based on the business and target audience. Depending on the requirements, this may include Instagram, Facebook, LinkedIn, X, YouTube, and other relevant platforms.',
-  },
+      {
+        q: 'Which social media platforms do you manage?',
+        a: 'We can manage relevant social media platforms based on the business and target audience. Depending on the requirements, this may include Instagram, Facebook, LinkedIn, X, YouTube, and other relevant platforms.',
+      },
 
-  {
-    q: 'Do you create social media content?',
-    a: 'Yes. Social media content management can include content planning, social media copywriting, creative direction, educational posts, promotional content, product communication, company updates, industry content, and other relevant formats.',
-  },
+      {
+        q: 'Do you create social media content?',
+        a: 'Yes. Social media content management can include content planning, social media copywriting, creative direction, educational posts, promotional content, product communication, company updates, industry content, and other relevant formats.',
+      },
 
-  {
-    q: 'Can you manage our LinkedIn social media page?',
-    a: 'Yes. LinkedIn management can be used for B2B brand building, company communication, industry insights, thought leadership, recruitment communication, product or service visibility, and audience engagement.',
-  },
+      {
+        q: 'Can you manage our LinkedIn social media page?',
+        a: 'Yes. LinkedIn management can be used for B2B brand building, company communication, industry insights, thought leadership, recruitment communication, product or service visibility, and audience engagement.',
+      },
 
-  {
-    q: 'Can you manage Instagram and Facebook for our business?',
-    a: 'Yes. Instagram and Facebook can be managed through structured content planning, publishing, audience engagement, promotional communication, brand content, and performance analysis based on the business objectives.',
-  },
+      {
+        q: 'Can you manage Instagram and Facebook for our business?',
+        a: 'Yes. Instagram and Facebook can be managed through structured content planning, publishing, audience engagement, promotional communication, brand content, and performance analysis based on the business objectives.',
+      },
 
-  {
-    q: 'Does social media management include community management?',
-    a: 'Community management can be included depending on the selected scope. It may involve monitoring comments, messages, audience interactions, questions, and relevant conversations across managed social platforms.',
-  },
+      {
+        q: 'Does social media management include community management?',
+        a: 'Community management can be included depending on the selected scope. It may involve monitoring comments, messages, audience interactions, questions, and relevant conversations across managed social platforms.',
+      },
 
-  {
-    q: 'Can social media marketing generate leads?',
-    a: 'Yes. Social media can support lead generation by building audience awareness, promoting relevant offers, driving users to websites or landing pages, supporting campaigns, and creating opportunities for prospects to contact the business.',
-  },
+      {
+        q: 'Can social media marketing generate leads?',
+        a: 'Yes. Social media can support lead generation by building audience awareness, promoting relevant offers, driving users to websites or landing pages, supporting campaigns, and creating opportunities for prospects to contact the business.',
+      },
 
-  {
-    q: 'Does social media management help SEO?',
-    a: 'Social media and SEO are different marketing channels, but social media can support broader digital visibility by distributing website content, increasing brand exposure, generating referral traffic, and creating additional opportunities for people to discover and engage with a business.',
-  },
+      {
+        q: 'Does social media management help SEO?',
+        a: 'Social media and SEO are different marketing channels, but social media can support broader digital visibility by distributing website content, increasing brand exposure, generating referral traffic, and creating additional opportunities for people to discover and engage with a business.',
+      },
 
-  {
-    q: 'How do you measure social media performance?',
-    a: 'Social media performance can be evaluated using metrics such as reach, impressions, engagement, profile activity, audience growth, website traffic, leads, and other relevant metrics depending on the platform and campaign objectives.',
-  },
+      {
+        q: 'How do you measure social media performance?',
+        a: 'Social media performance can be evaluated using metrics such as reach, impressions, engagement, profile activity, audience growth, website traffic, leads, and other relevant metrics depending on the platform and campaign objectives.',
+      },
 
-  {
-    q: 'Do you provide social media management services in Mumbai and Pune?',
-    a: 'Yes. VoidMatrix provides social media management services for businesses in Mumbai, Pune, other Indian cities, and international markets. Strategies can be developed according to the target audience, industry, platform, and business objectives.',
-  },
+      {
+        q: 'Do you provide social media management services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides social media management services for businesses in Mumbai, Pune, other Indian cities, and international markets. Strategies can be developed according to the target audience, industry, platform, and business objectives.',
+      },
 
-  {
-    q: 'Can social media management work with SEO and digital marketing?',
-    a: 'Yes. Social media management can complement SEO, content marketing, email marketing, Google Ads, Meta Ads, landing pages, website development, and lead generation. Integrating these channels can create a stronger overall digital marketing strategy.',
-  },
-],
+      {
+        q: 'Can social media management work with SEO and digital marketing?',
+        a: 'Yes. Social media management can complement SEO, content marketing, email marketing, Google Ads, Meta Ads, landing pages, website development, and lead generation. Integrating these channels can create a stronger overall digital marketing strategy.',
+      },
+    ],
     offer: [15000, 80000],
   },
 
@@ -2745,32 +2853,63 @@ export const serviceData = {
       'VoidMatrix Technology provides UX research services in India for product teams and businesses that want to build products users actually want - rather than discovering after launch that the design assumptions were wrong. Based in Mumbai, we conduct user research for startups, product managers, and design teams in Mumbai, Pune, Bangalore, and across India. UX research is risk management for product investment. Every unvalidated assumption about user behavior, terminology, workflow preference, or mental model is a potential source of design failure - and research is how you replace those assumptions with evidence. Our research team conducts user interviews, usability tests, surveys, contextual inquiry, card sorting, and jobs-to-be-done research - synthesizing findings into specific, actionable design and product recommendations. Whether you are exploring a new product opportunity, validating a design before development, or diagnosing why users are abandoning a specific flow, we deliver insights that reduce product risk and improve design quality.',
     faqs: [
       {
-        q: 'What types of UX research do you conduct?',
-        a: 'We conduct: user interviews (to understand goals, workflows, and mental models), usability testing (to evaluate how well a design performs with real users), surveys (for quantitative attitude and behavior data), contextual inquiry (observing users in their actual work environment), card sorting (to validate information architecture), jobs-to-be-done research (to understand underlying user motivations), and competitive UX benchmarking.',
+        q: 'What is UX research?',
+        a: 'UX research is the process of studying users, their needs, behaviors, expectations, problems, and interactions with a digital product. It helps businesses make product and design decisions based on evidence rather than assumptions.',
       },
+
       {
-        q: 'When in the product development process should we do UX research?',
-        a: 'Generative research (user interviews, contextual inquiry) is most valuable before design begins - to understand who users are and what they actually need. Evaluative research (usability testing, prototype testing) is valuable during design - to validate decisions before committing to development. Post-launch research (analytics review, satisfaction surveys) identifies improvement opportunities after release. The highest-ROI research is typically done before significant design or development investment.',
+        q: 'What does a UX researcher do?',
+        a: 'A UX researcher studies users through methods such as interviews, usability testing, surveys, user journey research, competitor research, and behavioral analysis. The findings are analyzed to identify user needs, usability problems, friction points, and opportunities for improvement.',
       },
+
+      {
+        q: 'Why is UX research important for a website?',
+        a: 'UX research helps identify how users navigate a website, what information they expect, where they experience confusion, and what prevents them from completing important actions. These insights can help improve usability, user experience, and conversion journeys.',
+      },
+
+      {
+        q: 'Why does a SaaS company need UX research?',
+        a: 'SaaS products often contain complex workflows, dashboards, onboarding processes, and multiple user roles. UX research helps identify where users struggle and provides evidence that can guide improvements to product usability, onboarding, navigation, and important workflows.',
+      },
+
+      {
+        q: 'What UX research methods do you use?',
+        a: 'UX research can include user interviews, usability testing, surveys, user journey research, competitor UX research, behavioral analysis, and other research methods selected according to the research objective and product requirements.',
+      },
+
+      {
+        q: 'What is usability testing in UX research?',
+        a: 'Usability testing involves observing users while they complete specific tasks on a website, application, or digital product. It helps identify confusion, navigation problems, unnecessary steps, unclear interfaces, and other usability issues.',
+      },
+
       {
         q: 'How much does UX research cost in India?',
-        a: 'UX research projects in India range from ₹60,000 for a focused 5-participant usability test with findings report to ₹4,00,000 for a comprehensive mixed-methods research program including user interviews, usability testing, synthesis workshop, and strategic recommendations.',
+        a: 'UX research cost in India depends on factors such as the research objective, number of participants, user segments, methodology, product complexity, number of journeys being studied, and depth of analysis. A focused usability study will generally have different requirements from a large enterprise UX research project.',
       },
+
       {
-        q: 'Do you help recruit research participants?',
-        a: 'Yes. We define participant criteria (demographics, behavior, role, industry) with you, and can assist with participant recruitment through panel services, social media outreach, or your existing customer base depending on the target profile.',
+        q: 'How long does a UX research project take?',
+        a: 'The timeline depends on the research methodology, number of participants, product complexity, research scope, and analysis requirements. A focused usability study can be completed faster than a broader research program involving interviews, surveys, multiple user segments, and detailed analysis.',
       },
+
       {
-        q: 'How do you deliver research findings?',
-        a: 'Research findings are delivered as a structured report with key insights, supporting evidence, direct quotes (with participant permission), behavioral observations, and specific design recommendations ranked by impact. We also offer synthesis workshops where we walk your team through findings interactively and facilitate prioritization.',
+        q: 'Can UX research be done before designing a website or app?',
+        a: 'Yes. UX research can be conducted before design to understand target users, their needs, problems, expectations, workflows, and decision-making behavior. These findings can provide valuable direction for information architecture, user journeys, wireframes, and interface design.',
       },
+
       {
-        q: 'Can you test our existing product with users?',
-        a: 'Yes. Evaluative usability testing of existing products - identifying where users struggle, what they misunderstand, and which flows need redesign - is a high-ROI research engagement for companies preparing a product redesign or struggling with engagement and activation metrics.',
+        q: 'Can UX research improve website conversion rates?',
+        a: 'UX research can help identify usability problems, confusing journeys, information gaps, trust issues, and friction points that may affect conversions. The research findings can then be used to prioritize UX and conversion improvements.',
       },
+
       {
-        q: 'Do you work with product teams in Mumbai and Pune?',
-        a: 'Yes. We conduct UX research for product teams across Mumbai and Pune - including remote-first research sessions using video conferencing tools for participants across India.',
+        q: 'Do you provide UX research services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides UX research services for businesses in Mumbai, Pune, Bangalore, Hyderabad, other Indian cities, and international markets.',
+      },
+
+      {
+        q: 'Can UX research be combined with UI UX design?',
+        a: 'Yes. UX research can be integrated with the UI UX design process. Research findings can guide information architecture, user flows, wireframes, prototypes, interface design, and usability validation before development.',
       },
     ],
     offer: [60000, 400000],
@@ -2890,32 +3029,58 @@ export const serviceData = {
       'VoidMatrix Technology provides website UI design services in India for businesses that want their website to look as credible and professional as the best sites in their industry - because first impressions determine whether visitors stay or leave within 8 seconds. Based in Mumbai, we design corporate websites, startup platforms, SaaS marketing sites, professional service firm sites, and eCommerce storefronts for companies across Mumbai, Pune, Bangalore, and India. Website UI design is the visual execution that turns a content and structural plan into a digital presence that communicates quality, builds trust, and guides visitors toward conversion. Our design team combines brand alignment, conversion best practices, modern visual design, and technical implementation awareness to produce websites that look great across devices and perform commercially. We deliver Figma design files that are production-ready - organized, annotated, and built with developer implementation in mind.',
     faqs: [
       {
-        q: 'What does website UI design include?',
-        a: 'Website UI design covers: visual design for every page (homepage, service/product pages, about, contact, landing pages), responsive design across desktop, tablet, and mobile breakpoints, typography and color system definition, component design (navigation, buttons, cards, forms, footers), hover and interaction states, and production-ready Figma files with developer specifications.',
+        q: 'What is website UI design?',
+        a: 'Website UI design is the process of designing the visual interface of a website, including layouts, typography, colours, navigation, buttons, forms, cards, spacing, and interactive elements. The goal is to create a website that is visually consistent, easy to use, responsive, and aligned with business objectives.',
       },
+
       {
         q: 'How much does website UI design cost in India?',
-        a: 'Website UI design in India ranges from ₹50,000 for a focused 5-8 page business website design to ₹4,00,000 for a comprehensive multi-section corporate website with a full design system, multiple page templates, and mobile-first responsive treatment.',
+        a: 'Website UI design cost in India depends on the number of pages, number of unique layouts, design complexity, responsive requirements, custom components, UX research, and interaction requirements. A small business website generally requires less design work than a SaaS platform, eCommerce website, or enterprise website with complex interfaces.',
       },
+
       {
-        q: 'Do you design mobile-responsive websites?',
-        a: 'Yes - all designs are fully responsive for desktop, tablet, and mobile. With 70%+ of Indian web traffic on mobile, mobile-first design is not optional. We design mobile layouts before scaling to desktop where appropriate.',
+        q: 'Why is UI design important for a business website?',
+        a: 'Good UI design helps visitors understand information, navigate the website, identify important actions, and interact with the business more easily. A professional interface can also improve perceived credibility, usability, consistency, and the overall customer experience.',
       },
+
       {
-        q: 'Do you create Figma files for developer handoff?',
-        a: 'Yes. We deliver organized, named Figma files with all components, styles (as Figma variables), assets exported in required formats, and developer annotations for spacing, typography, and interaction behavior. Good handoff files dramatically reduce development time and revision cycles.',
+        q: 'Do you provide responsive website UI design?',
+        a: 'Yes. Our website UI design process considers desktop, tablet, and mobile layouts so the interface can adapt to different screen sizes and provide a consistent user experience across devices.',
       },
+
       {
-        q: 'Do you work with our existing brand guidelines?',
-        a: 'Yes. We design within existing brand guidelines where they exist - applying your logo, color palette, typography, and brand voice to the website design. If you do not have developed brand guidelines, we can establish visual identity direction as part of the website design engagement.',
+        q: 'Do you provide UI design for website redesign projects?',
+        a: 'Yes. We design UI systems for website redesign projects by reviewing the existing website structure, content, user experience, branding, and business objectives before developing the new interface direction.',
       },
+
       {
-        q: 'Do you design conversion-focused landing pages?',
-        a: 'Yes. Landing pages for ad campaigns, product launches, and lead generation require specific design thinking - focused CTA hierarchy, message match with ad creative, trust signal placement, and minimal navigation distraction. We design these with conversion metrics, not just aesthetics, as the measure of success.',
+        q: 'Do you design UI for SaaS websites and products?',
+        a: 'Yes. We design website interfaces for SaaS companies as well as product-oriented interfaces where the project requires structured components, dashboards, user journeys, responsive layouts, and reusable UI systems.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes. We design websites for businesses across Mumbai and Pune - from startup launch sites to corporate platform redesigns.',
+        q: 'Can website UI design improve conversions?',
+        a: 'Yes. UI design can support conversions by creating clearer page hierarchy, stronger calls to action, easier navigation, better forms, focused landing page layouts, and user journeys aligned with the intended business objective.',
+      },
+
+      {
+        q: 'Do you provide website UI design services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides website UI design services for businesses in Mumbai, Pune, and other Indian cities. We work with startups, SMEs, SaaS companies, B2B businesses, professional services, and enterprises.',
+      },
+
+      {
+        q: 'Do you provide UI design for SEO-friendly websites?',
+        a: 'Yes. UI design can be planned alongside SEO requirements so important content remains accessible, page hierarchy is clear, navigation is logical, and the final design can be implemented without unnecessarily compromising search-friendly website structure.',
+      },
+
+      {
+        q: 'Do you provide developer handoff with website UI design?',
+        a: 'Yes. Website UI projects can include structured design specifications and component guidance so developers can implement layouts, responsive behaviour, typography, spacing, and reusable interface elements more consistently.',
+      },
+
+      {
+        q: 'Should I hire a UI design company or a freelancer for my website?',
+        a: 'The right choice depends on project complexity and requirements. A professional UI design company can provide structured design planning, responsive systems, reusable components, UX considerations, developer handoff, and ongoing design support, which can be valuable for businesses building larger or long-term digital platforms.',
       },
     ],
     offer: [50000, 400000],
@@ -2927,32 +3092,73 @@ export const serviceData = {
       'VoidMatrix Technology provides wireframing and prototyping services in India for product teams, founders, and businesses that need to see how a digital product will be structured before committing to visual design and development. Based in Mumbai, we create wireframes and interactive prototypes for web applications, mobile apps, SaaS platforms, eCommerce sites, and marketing websites for companies across Mumbai, Pune, Bangalore, and India. Wireframing is the fastest, cheapest way to discover structural and usability problems - when a problem is found at the wireframe stage, it takes an hour to fix. When the same problem is found in development, it costs days. Our wireframing process translates product requirements and user flows into clear page-level blueprints in Figma, identifying information hierarchy problems, navigation gaps, and content organization issues before a single pixel of visual design is applied. The output is a clickable prototype your team can review, test with users, and use to brief development teams unambiguously.',
     faqs: [
       {
-        q: 'What is wireframing and what does it produce?',
-        a: 'Wireframing produces simplified visual blueprints of web or app pages showing layout, content hierarchy, user flow, and interaction logic - without color, typography, or visual design elements. The deliverable is a Figma file with annotated wireframes and a clickable prototype demonstrating how the product flows from screen to screen.',
+        q: 'What is wireframing in UX design?',
+        a: 'Wireframing is the process of creating a structural representation of a website, mobile application, SaaS product, or digital platform before detailed UI design. It defines layouts, navigation, content hierarchy, user flows, and the placement of important interface elements.',
       },
+
       {
-        q: 'Why wireframe before visual design?',
-        a: 'Visual design decisions - color, typography, imagery - are expensive to change. Structural decisions - page layout, navigation architecture, content hierarchy, user flow - are inexpensive to change in wireframes and very expensive to change in visual design or development. Wireframing forces structural decisions to be made and validated before the expensive work begins.',
+        q: 'Why is wireframing important for website development?',
+        a: 'Wireframing helps define the structure and user journey of a website before visual design and development begin. It allows teams to identify navigation problems, content hierarchy issues, unnecessary steps, and structural changes earlier in the project.',
       },
+
       {
-        q: 'How much does wireframing cost in India?',
-        a: 'Wireframing projects in India range from ₹30,000 for a focused 10-15 screen wireframe set to ₹2,00,000 for a comprehensive wireframing project covering a full web application or mobile app with complex user flows, multiple user roles, and interactive prototyping.',
+        q: 'How much do wireframing services cost in India?',
+        a: 'Wireframing cost in India depends on the number of screens or pages, product complexity, number of user journeys, information architecture requirements, user roles, workflow complexity, and level of detail required.',
       },
+
       {
-        q: 'Do you create clickable prototypes from wireframes?',
-        a: 'Yes. Clickable Figma prototypes are a standard deliverable - allowing stakeholders to navigate through the product flow, identify usability issues, and experience the user journey before development begins. These are also used for user testing to validate structural decisions.',
+        q: 'What is the difference between wireframing and UI design?',
+        a: 'Wireframing focuses on the structure, layout, navigation, hierarchy, and functionality of a digital experience. UI design focuses on the visual appearance, including typography, colors, spacing, imagery, components, and detailed interaction states.',
       },
+
       {
-        q: 'Do you wireframe both web and mobile products?',
-        a: 'Yes. We create wireframes for responsive web products (with mobile, tablet, and desktop breakpoint considerations), native mobile apps (iOS and Android, respecting platform navigation conventions), and SaaS dashboards with complex data management interfaces.',
+        q: 'What is the difference between a wireframe and a prototype?',
+        a: 'A wireframe represents the structure of a digital product, while a prototype can simulate interactions and navigation between screens. Wireframes can be used as the foundation for creating interactive prototypes.',
       },
+
       {
-        q: 'How do wireframes help with developer handoff?',
-        a: 'Wireframes give developers a clear picture of intended content, functionality, and user flow before visual design begins - reducing questions, surprises, and rework during development. Annotated wireframes with interaction notes are particularly valuable for complex features where behavior is not obvious from screenshots.',
+        q: 'Do you provide website wireframing services?',
+        a: 'Yes. VoidMatrix provides website wireframing services covering page structure, navigation, content hierarchy, user journeys, calls to action, forms, and other important website elements.',
       },
+
       {
-        q: 'Do you work with product teams in Mumbai and Pune?',
-        a: 'Yes. We provide wireframing services for founders, product managers, and design teams across Mumbai and Pune - working on new product builds and feature additions to existing platforms.',
+        q: 'Do you provide mobile app wireframing?',
+        a: 'Yes. We create mobile app wireframes covering screens, navigation, onboarding, user journeys, forms, dashboards, account areas, transactions, and other application workflows.',
+      },
+
+      {
+        q: 'Do you provide SaaS wireframing services?',
+        a: 'Yes. VoidMatrix provides SaaS wireframing services for dashboards, workflows, modules, navigation, account areas, forms, tables, onboarding, reporting, and other SaaS product functionality.',
+      },
+
+      {
+        q: 'Can you create wireframes for an MVP?',
+        a: 'Yes. Wireframes can be created for an MVP around the essential screens, user journeys, features, navigation, and workflows required for the initial product launch and validation.',
+      },
+
+      {
+        q: 'Can you create wireframes for an existing website or app redesign?',
+        a: 'Yes. Existing websites and applications can be analyzed and restructured through wireframing to improve navigation, information hierarchy, user journeys, page structures, and important workflows before the redesigned UI is created.',
+      },
+
+      {
+        q: 'Do you create low-fidelity and high-fidelity wireframes?',
+        a: 'Wireframes can be created at different levels of detail depending on the project requirements. Low-fidelity wireframes are useful for establishing structure and flows, while more detailed wireframes can provide additional guidance before final UI design.',
+      },
+
+      {
+        q: 'Do you provide wireframing services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides wireframing services for businesses in Mumbai, Pune, Bangalore, Hyderabad, other Indian cities, and international markets.',
+      },
+
+      {
+        q: 'Can wireframing be done before UI UX design?',
+        a: 'Yes. Wireframing is commonly used before detailed UI design to establish page structure, information hierarchy, navigation, user journeys, and functionality before visual design decisions are finalized.',
+      },
+
+      {
+        q: 'Do you provide Figma wireframes?',
+        a: 'Wireframing projects can be delivered as structured design files and prototypes suitable for review, UI design, and developer handoff according to the project scope.',
       },
     ],
     offer: [30000, 200000],
