@@ -1459,35 +1459,106 @@ export const serviceData = {
     description:
       "VoidMatrix Technology provides growth consulting services in India for startups and scaling businesses that have moved past initial traction but are struggling to identify what to do next - and how to do it systematically. Based in Mumbai, we work with founders and growth teams in Mumbai, Pune, Bangalore, and across India who are ready to replace ad-hoc experimentation with structured, repeatable growth systems. Growth consulting is not strategy for strategy's sake: our engagements diagnose exactly what is suppressing growth (acquisition bottlenecks, activation failures, retention problems, or sales funnel leaks), identify the highest-leverage interventions, and build execution frameworks your team can run without consultants present. We have worked across B2B SaaS, consumer apps, eCommerce, and service businesses - understanding that growth levers differ significantly by business model and market.",
     faqs: [
-      {
-        q: 'What is growth consulting and how is it different from marketing consulting?',
-        a: 'Marketing consulting typically focuses on channel strategy - which platforms to use and how to use them. Growth consulting takes a broader view across the entire customer lifecycle: acquisition, activation, retention, referral, and revenue. We identify which part of your funnel has the highest leverage potential and build systems to improve it - which might be marketing, or might be onboarding, pricing, retention, or sales.',
-      },
-      {
-        q: 'Who benefits most from growth consulting?',
-        a: 'Startups that have achieved initial product-market fit and are trying to scale beyond founder-led growth. Businesses that have tried various marketing tactics without a consistent framework. Companies experiencing a growth plateau and unsure which lever to pull. Founders preparing for a funding round who need a credible growth narrative backed by data.',
-      },
-      {
-        q: 'How much does growth consulting cost in India?',
-        a: 'Growth consulting engagements in India range from ₹75,000 for a focused growth audit to ₹5,00,000 for a comprehensive engagement including audit, strategy development, and execution framework delivery.',
-      },
-      {
-        q: 'What does a growth audit involve?',
-        a: 'A growth audit systematically reviews every stage of your customer lifecycle - how people find you, how they first experience the product, what drives them to convert, what makes them stay or leave, and how you generate referrals. We use data from analytics tools, CRM, and customer interviews to identify the biggest growth constraint and quantify the revenue opportunity of fixing it.',
-      },
-      {
-        q: 'Do you help with go-to-market strategy for new products?',
-        a: 'Yes. Go-to-market engagements cover positioning, ideal customer profile definition, channel selection and sequencing, pricing strategy, sales playbook development, and launch execution planning - giving you a structured plan for reaching and converting your target market.',
-      },
-      {
-        q: 'Do you work with B2B and B2C businesses?',
-        a: 'Yes. Growth strategies differ significantly between B2B (longer sales cycles, relationship-driven, content and outreach heavy) and B2C (volume-driven, UX and conversion-critical, paid acquisition intensive). We tailor the approach to your business model.',
-      },
-      {
-        q: 'Do you work with companies in Mumbai and Pune?',
-        a: 'Yes. We work with founders and growth teams across Mumbai and Pune - both as project-based consultants and as ongoing growth advisors.',
-      },
-    ],
+  {
+    q: 'What is growth consulting?',
+    a: 'Growth consulting is the process of helping businesses identify and prioritize opportunities to improve customer acquisition, website traffic, conversions, revenue, retention, marketing efficiency, and overall business growth.'
+  },
+
+  {
+    q: 'What does a growth consultant do?',
+    a: 'A growth consultant evaluates the business model, target customers, digital presence, acquisition channels, website performance, SEO, conversion opportunities, analytics, and marketing activities to identify practical opportunities for growth.'
+  },
+
+  {
+    q: 'Why does a business need growth consulting?',
+    a: 'Growth consulting can help businesses identify growth opportunities, prioritize marketing activities, improve customer acquisition, optimize conversion journeys, strengthen digital performance, and connect marketing activities with measurable business objectives.'
+  },
+
+  {
+    q: 'What is included in growth consulting services?',
+    a: 'Growth consulting can include growth strategy, customer acquisition, SEO, digital marketing, website optimization, conversion optimization, analytics, content strategy, customer journey analysis, and growth roadmap planning.'
+  },
+
+  {
+    q: 'How much does growth consulting cost in India?',
+    a: 'Growth consulting cost in India depends on the business size, growth objectives, existing digital presence, marketing channels, SEO requirements, website performance, analytics requirements, competitive environment, and scope of consulting.'
+  },
+
+  {
+    q: 'Do you provide growth consulting services in Mumbai?',
+    a: 'Yes. VoidMatrix provides growth consulting services in Mumbai covering SEO, digital marketing, website optimization, conversion optimization, customer acquisition, analytics, and growth strategy.'
+  },
+
+  {
+    q: 'Do you provide growth consulting across India?',
+    a: 'Yes. VoidMatrix provides growth consulting services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
+  },
+
+  {
+    q: 'Can growth consulting help improve website conversions?',
+    a: 'Yes. Growth consulting can evaluate landing pages, website structure, calls to action, forms, content, user journeys, page performance, and other conversion factors to identify opportunities for improving conversion rates.'
+  },
+
+  {
+    q: 'Can growth consulting include SEO?',
+    a: 'Yes. Growth consulting can include technical SEO, on-page SEO, content strategy, local SEO, search intent, internal linking, search visibility, and other SEO activities connected with business growth objectives.'
+  },
+
+  {
+    q: 'Can growth consulting include digital marketing?',
+    a: 'Yes. Growth consulting can evaluate SEO, paid advertising, social media, content marketing, email marketing, website performance, analytics, and other digital channels to determine how they can support customer acquisition and growth.'
+  },
+
+  {
+    q: 'Can growth consulting help reduce customer acquisition costs?',
+    a: 'Growth consulting can identify opportunities to improve acquisition efficiency by evaluating marketing channels, targeting, landing pages, conversion rates, customer journeys, website performance, and marketing measurement.'
+  },
+
+  {
+    q: 'Can growth consulting help startups?',
+    a: 'Yes. Growth consulting can help startups define acquisition strategies, identify target customers, prioritize digital channels, improve websites and landing pages, establish analytics, and create a practical growth roadmap.'
+  },
+
+  {
+    q: 'Do you provide growth consulting for SaaS businesses?',
+    a: 'Yes. VoidMatrix provides growth consulting for SaaS businesses covering customer acquisition, SEO, website conversion, digital marketing, analytics, content, customer journeys, and scalable growth strategies.'
+  },
+
+  {
+    q: 'Do you provide growth consulting for eCommerce businesses?',
+    a: 'Yes. Growth consulting for eCommerce businesses can cover organic search, paid acquisition, website conversion, product journeys, customer acquisition, analytics, retention opportunities, and digital marketing strategy.'
+  },
+
+  {
+    q: 'Can growth consulting help businesses entering new markets?',
+    a: 'Yes. Growth consulting can help businesses evaluate target markets, customer segments, search opportunities, digital channels, website requirements, competitive environments, and acquisition strategies when expanding into new markets.'
+  },
+
+  {
+    q: 'How is growth consulting different from digital marketing?',
+    a: 'Digital marketing focuses on executing marketing activities across channels. Growth consulting takes a broader strategic view by evaluating business objectives, customer acquisition, website performance, conversion, SEO, marketing channels, analytics, and growth priorities before deciding where execution should focus.'
+  },
+
+  {
+    q: 'Can growth consulting help with analytics and tracking?',
+    a: 'Yes. Growth consulting can include evaluating analytics, conversion tracking, key performance indicators, acquisition sources, customer journeys, and other data required to measure and improve digital growth.'
+  },
+
+  {
+    q: 'How long does growth consulting take?',
+    a: 'The duration depends on the scope of the business and the number of areas being evaluated. A focused growth strategy may require less consulting work than a broader engagement covering SEO, digital marketing, website optimization, analytics, and customer acquisition.'
+  },
+
+  {
+    q: 'Do you provide growth consulting for international businesses?',
+    a: 'Yes. VoidMatrix provides growth consulting for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
+  },
+
+  {
+    q: 'Why choose VoidMatrix for growth consulting?',
+    a: 'VoidMatrix connects business growth with technology, SEO, digital marketing, website performance, conversion optimization, analytics, and customer acquisition. Our approach focuses on identifying practical priorities rather than simply increasing the number of marketing activities.'
+  }
+],
     offer: [75000, 500000],
   },
 
@@ -2036,35 +2107,86 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides product strategy services in India for startup founders and product leaders who need to cut through ambiguity and focus engineering investment on the features, workflows, and user journeys that actually move the business forward. Based in Mumbai, we work with companies in Mumbai, Pune, Bangalore, and across India at every stage: pre-seed teams defining their initial product scope, scaling companies managing growing feature complexity, and enterprises planning new digital product lines. Most failed products fail on strategy, not execution - they build the wrong thing, for the wrong user, solving the wrong problem. Our product strategy engagements are designed to prevent that: through structured discovery workshops, user research synthesis, competitive positioning analysis, and rigorous prioritization, we help you arrive at a product definition your team can build and your market actually wants. Deliverables include product roadmaps, feature priority frameworks, and go-to-market alignment documentation that your entire team can execute against.',
     faqs: [
-      {
-        q: 'What does product strategy deliver?',
-        a: 'A product strategy engagement delivers: a clearly defined product vision, a prioritized feature roadmap phased against business milestones, user personas grounded in research, competitive positioning analysis, a feature prioritization framework (so your team can evaluate future requests consistently), and go-to-market alignment. You leave knowing what to build first, second, and third - and why.',
-      },
-      {
-        q: 'When should a startup invest in product strategy?',
-        a: 'Before committing significant engineering budget to a build. The best time is after you have a validated problem hypothesis but before you have written a single line of product code. Strategy prevents the most common and costly startup mistake: building a fully realized product for a problem that did not need that exact solution.',
-      },
-      {
-        q: 'How much does product strategy cost in India?',
-        a: 'Product strategy engagements in India range from ₹60,000 for a focused 2-week sprint covering roadmap prioritization to ₹4,00,000 for a comprehensive engagement including user research, competitive analysis, full product definition, and go-to-market alignment.',
-      },
-      {
-        q: 'Do you facilitate discovery workshops?',
-        a: 'Yes. Structured discovery workshops with founders and key stakeholders are a core part of our strategy process - surfacing assumptions, aligning on user problems, and building shared clarity on product priorities before documentation begins.',
-      },
-      {
-        q: 'Do you conduct user research?',
-        a: 'Yes. User interviews, survey design, and synthesis into product-relevant insights are included in comprehensive strategy engagements. We turn qualitative research findings into specific, actionable design and prioritization recommendations.',
-      },
-      {
-        q: 'How do you prioritize features?',
-        a: 'We use a combination of impact-effort scoring, Jobs-to-be-Done alignment, and business goal mapping - applied to a complete feature inventory. Every feature on the roadmap has a rationale tied to a user need and a business outcome, not just stakeholder preference.',
-      },
-      {
-        q: 'Do you work with founders in Mumbai and Pune?',
-        a: 'Yes. We work with startup founders and product teams across Mumbai and Pune - both in intensive strategy sprints and as ongoing product advisors.',
-      },
-    ],
+  {
+    q: 'What is product strategy?',
+    a: 'Product strategy is the process of defining a product’s goals, target users, core problems, features, priorities, and development direction. It connects business objectives with customer requirements and practical product development.',
+  },
+
+  {
+    q: 'Why is product strategy important for a startup?',
+    a: 'Product strategy helps startups determine what they should build first, which features are essential for the MVP, and which functionality can be developed later. This can help reduce unnecessary development work and provide a clearer product direction.',
+  },
+
+  {
+    q: 'What does a product strategy consultant do?',
+    a: 'A product strategy consultant helps businesses define product objectives, understand users, structure requirements, prioritize features, plan MVPs, create product roadmaps, and align product decisions with business and technology requirements.',
+  },
+
+  {
+    q: 'How does VoidMatrix provide product strategy services?',
+    a: 'VoidMatrix begins by understanding the business model, product vision, target users, customer problems, requirements, and current product stage. We then structure product requirements, prioritize features, plan the MVP or product roadmap, and align the strategy with technology and development requirements.',
+  },
+
+  {
+    q: 'Can you help us create an MVP product strategy?',
+    a: 'Yes. VoidMatrix can help define the essential functionality required for an MVP, prioritize features, structure user journeys, identify technical requirements, and create a practical roadmap for the initial product release.',
+  },
+
+  {
+    q: 'How do you prioritize product features?',
+    a: 'Feature prioritization considers factors such as business objectives, customer value, product requirements, development effort, dependencies, technical requirements, and the importance of each feature to the initial product release.',
+  },
+
+  {
+    q: 'Can product strategy be created for an existing product?',
+    a: 'Yes. Product strategy can be used for existing products that need improved functionality, feature prioritization, user journeys, product restructuring, technology alignment, or a clearer roadmap for future development.',
+  },
+
+  {
+    q: 'Do you provide product roadmap planning services?',
+    a: 'Yes. VoidMatrix can create product roadmaps that organize features, improvements, technical requirements, and development priorities into logical product phases and future releases.',
+  },
+
+  {
+    q: 'Can product strategy include technology planning?',
+    a: 'Yes. Product strategy can include technology alignment covering application requirements, architecture considerations, APIs, integrations, scalability, security, and other technical requirements that affect product development.',
+  },
+
+  {
+    q: 'How much does product strategy consulting cost in India?',
+    a: 'Product strategy consulting cost in India depends on factors such as product complexity, business model, product stage, research requirements, MVP scope, feature count, and the depth of strategy and roadmap planning required.',
+  },
+
+  {
+    q: 'Do you provide product strategy consulting in Mumbai and Pune?',
+    a: 'Yes. VoidMatrix provides product strategy consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
+  },
+
+  {
+    q: 'Can VoidMatrix help with product strategy for SaaS and marketplace platforms?',
+    a: 'Yes. Product strategy can be structured for SaaS platforms, marketplaces, eCommerce platforms, mobile applications, websites, business software, and other custom digital products.',
+  },
+
+  {
+    q: 'What is the difference between product strategy and product development?',
+    a: 'Product strategy defines what should be built, why it should be built, who it is for, and how features should be prioritized. Product development focuses on designing, developing, testing, deploying, and maintaining the actual product.',
+  },
+
+  {
+    q: 'How long does product strategy planning take?',
+    a: 'The timeline depends on the product scope, complexity, research requirements, number of stakeholders, and depth of planning required. A smaller MVP strategy can generally require less planning than a comprehensive strategy for a complex digital platform.',
+  },
+
+  {
+    q: 'Can product strategy reduce development costs?',
+    a: 'A structured product strategy can help reduce unnecessary development by prioritizing essential functionality, identifying dependencies, clarifying requirements, and avoiding investment in features that are not required during the initial product stage.',
+  },
+
+  {
+    q: 'Why should we choose VoidMatrix for product strategy consulting?',
+    a: 'VoidMatrix connects product strategy with business objectives, user requirements, technology, and development planning. This provides businesses with a practical approach to defining products and creating structured roadmaps for development and future growth.',
+  },
+],
     offer: [60000, 400000],
   },
 
@@ -2531,35 +2653,81 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides software consulting services in India for businesses that need independent, experienced technical guidance before making consequential technology decisions. Based in Mumbai, we work with founders, CTOs, and business leaders in Mumbai, Pune, Bangalore, and across India who are evaluating significant software investments, facing architectural challenges, dealing with underperforming systems, or navigating technology modernization. Software consulting is different from software development - we are not here to build, we are here to advise. Our engagements are structured and time-bound, delivering concrete recommendations, risk assessments, and implementation roadmaps based on objective analysis of your situation. We provide guidance on software architecture, technology stack evaluation, build-versus-buy decisions, vendor selection, legacy system assessment, and technical due diligence - giving you the clarity to make decisions you can defend and execute with confidence.',
     faqs: [
-      {
-        q: 'When should a business hire software consultants instead of building internally?',
-        a: 'Hire consultants when: you are about to make a major technology decision without internal expertise to evaluate it properly; your current software is not performing and you need an objective diagnosis; you are assessing a vendor proposal and want independent technical review; you are modernizing legacy systems and need a prioritized migration strategy; or you need technical due diligence for an acquisition or investment decision.',
-      },
-      {
-        q: 'How much does software consulting cost in India?',
-        a: 'Software consulting engagements in India range from ₹50,000 for a focused technical assessment or vendor proposal review to ₹4,00,000 for a comprehensive consulting engagement including system audit, architecture review, competitive technology analysis, and implementation roadmap.',
-      },
-      {
-        q: 'Do you evaluate existing software and identify problems?',
-        a: 'Yes. Technical debt assessment, scalability evaluation, security review, performance benchmarking, and architecture quality analysis are all services we provide. We produce a clear findings report with prioritized recommendations rather than a list of generic observations.',
-      },
-      {
-        q: 'Can you review a software vendor proposal before we sign?',
-        a: 'Yes - and this is highly recommended before any significant vendor commitment. We review proposals for technical completeness (are all requirements properly addressed?), architectural soundness (will it scale?), hidden risks (vendor lock-in, integration complexity, data migration assumptions), and pricing fairness relative to scope.',
-      },
-      {
-        q: 'Do you advise on build vs buy decisions?',
-        a: 'Yes. Build-versus-buy analysis is one of our most requested consulting services. We evaluate the actual total cost of ownership for both options - including hidden costs of off-the-shelf tools (licensing, customization limits, integration overhead) versus custom development (initial investment, ongoing maintenance, team capability requirements).',
-      },
-      {
-        q: 'Can you help modernize legacy systems?',
-        a: 'Yes. Legacy modernization consulting includes: assessing what in the current system should be preserved versus replaced; evaluating technology migration paths; sequencing modernization phases to minimize operational disruption; and creating a realistic timeline and investment estimate for the full transformation.',
-      },
-      {
-        q: 'Do you serve businesses in Mumbai and Pune?',
-        a: 'Yes. We work with technology teams and business leaders across Mumbai and Pune - both in one-time consulting projects and as ongoing technical advisors.',
-      },
-    ],
+  {
+    q: 'What is software consulting?',
+    a: 'Software consulting is the process of helping businesses make better decisions about software technology, architecture, development, integrations, security, performance, scalability, and long-term technology planning.'
+  },
+
+  {
+    q: 'What does a software consultant do?',
+    a: 'A software consultant evaluates business and technical requirements and provides recommendations related to technology stacks, software architecture, development strategy, integrations, security, modernization, performance, and scalability.'
+  },
+
+  {
+    q: 'Why does my business need software consulting?',
+    a: 'Software consulting can help businesses reduce technology risks, clarify requirements, select suitable technologies, plan software architecture, prioritize development, identify technical problems, and create a structured roadmap before investing heavily in software development.'
+  },
+
+  {
+    q: 'How much does software consulting cost in India?',
+    a: 'Software consulting costs in India depend on the scope of consulting, software complexity, existing technology, architecture requirements, integrations, security requirements, and the level of technical planning required.'
+  },
+
+  {
+    q: 'Do you provide software consulting in Mumbai?',
+    a: 'Yes. VoidMatrix provides software consulting services in Mumbai covering technology strategy, software architecture, custom software planning, development strategy, integrations, modernization, security, and scalability.'
+  },
+
+  {
+    q: 'Do you provide software consulting services across India?',
+    a: 'Yes. VoidMatrix provides software consulting services for businesses across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
+  },
+
+  {
+    q: 'Can you help us choose the right technology stack?',
+    a: 'Yes. We can evaluate your software requirements, business objectives, application complexity, integrations, infrastructure requirements, security needs, and scalability goals to help determine an appropriate technology stack.'
+  },
+
+  {
+    q: 'Can software consultants review an existing application?',
+    a: 'Yes. Software consulting can include reviewing an existing application, architecture, technology stack, database, APIs, integrations, performance, security requirements, and technical limitations to identify improvement opportunities.'
+  },
+
+  {
+    q: 'Do you provide legacy software modernization consulting?',
+    a: 'Yes. VoidMatrix can help businesses evaluate legacy software and create a structured modernization approach focused on architecture, maintainability, performance, security, scalability, and future development requirements.'
+  },
+
+  {
+    q: 'Can you help with software architecture?',
+    a: 'Yes. Software architecture consulting can cover application architecture, databases, APIs, authentication, integrations, infrastructure, security, performance, and scalability requirements.'
+  },
+
+  {
+    q: 'Do you provide software integration consulting?',
+    a: 'Yes. Software integration consulting can cover APIs, payment gateways, third-party platforms, business applications, databases, external services, authentication, data flows, security, and integration requirements.'
+  },
+
+  {
+    q: 'Can you create a software development roadmap?',
+    a: 'Yes. We can create a structured software development roadmap covering requirements, technology decisions, architecture, development phases, technical dependencies, integrations, testing, deployment, security, and future scalability.'
+  },
+
+  {
+    q: 'Do you provide software consulting for startups?',
+    a: 'Yes. Software consulting can help startups with technology selection, software architecture, MVP planning, development strategy, integrations, security, scalability, and long-term technology planning.'
+  },
+
+  {
+    q: 'Do you provide software consulting for SaaS businesses?',
+    a: 'Yes. VoidMatrix provides software consulting for SaaS businesses covering application architecture, technology strategy, APIs, databases, integrations, security, scalability, development planning, and software improvement.'
+  },
+
+  {
+    q: 'Do you provide software consulting for international businesses?',
+    a: 'Yes. VoidMatrix provides software consulting services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
+  }
+],
     offer: [50000, 400000],
   },
 
@@ -2569,32 +2737,103 @@ export const serviceData = {
       "VoidMatrix Technology provides startup consulting services in India for early-stage founders who need experienced guidance on the decisions that determine whether their startup succeeds or fails - before they have burned through budget on the wrong things. Based in Mumbai, we work with pre-seed and seed-stage founders across Mumbai, Pune, Bangalore, and India's growing startup ecosystem on product definition, technology architecture, go-to-market strategy, and MVP development planning. The cost of bad early-stage decisions is not just financial - it is time, momentum, and team morale. Founders who validate assumptions before building, choose technology stacks they can actually hire for, and structure their MVP around the highest-leverage proof points consistently move faster and waste less. Our startup consulting engagements are practical and execution-focused, delivering concrete recommendations on specific decisions rather than generic frameworks. We engage with founders as thinking partners who have built and advised technology companies - bringing direct experience to the challenges that matter most in the first 12-18 months.",
     faqs: [
       {
-        q: 'What decisions does startup consulting help with?',
-        a: "The most common areas: product scope definition (what to build first and what to defer), technology stack selection (which technologies fit your team's skills, hiring market, and scaling needs in India), MVP planning (how to validate your core hypothesis with minimum build), go-to-market approach (which customer segment to target first and how to reach them), and operational setup (legal structure, banking, early hiring decisions).",
+        q: 'What is startup consulting?',
+        a: 'Startup consulting provides founders with strategic and practical guidance on areas such as business planning, product development, MVP scope, technology selection, software architecture, development strategy, infrastructure, and digital growth.',
       },
+
       {
-        q: 'How early should I engage a startup consultant?',
-        a: 'Before committing significant development spend - ideally in the idea validation or early product definition phase. The most common (and expensive) mistake is building for 3-6 months before discovering that the feature set is wrong, the target customer is wrong, or a simpler solution exists. Consulting before building saves that cost.',
+        q: 'What does a startup consultant do?',
+        a: 'A startup consultant helps founders evaluate business and product requirements, prioritize features, plan an MVP, select suitable technology, create development roadmaps, identify technical risks, and make better decisions before investing significant resources.',
       },
+
       {
         q: 'How much does startup consulting cost in India?',
-        a: 'Startup consulting engagements in India range from ₹40,000 for a focused advisory session on a specific decision to ₹3,00,000 for an ongoing advisory relationship through early product launch and first customer acquisition.',
+        a: 'Startup consulting costs in India depend on the scope of work, startup stage, product complexity, MVP requirements, technology requirements, research needs, architecture, and the amount of strategic support required.',
       },
+
       {
-        q: 'Do you help with MVP planning?',
-        a: 'Yes. MVP scoping is one of our most common startup consulting engagements. We help founders define the minimum feature set that proves the core hypothesis, estimate realistic development timelines and costs, identify what can be validated without building (landing pages, concierge service, prototype testing), and avoid the common trap of building an over-engineered v1.',
+        q: 'Do you provide startup consulting in Mumbai?',
+        a: 'Yes. VoidMatrix provides startup consulting services in Mumbai covering technology strategy, MVP planning, product development, software architecture, development planning, and digital growth.',
       },
+
       {
-        q: 'Do you recommend technology stacks for Indian startups?',
-        a: 'Yes - with market context. Technology recommendations for Indian startups consider the local hiring market (which technologies you can actually recruit for in Mumbai/Pune/Bangalore), community and support quality, startup-stage appropriateness (avoid enterprise-grade complexity at MVP stage), and what your likely technical co-founder profile will be comfortable with.',
+        q: 'Do you provide startup consulting services in Pune?',
+        a: 'Yes. VoidMatrix provides startup consulting services for startups and technology businesses in Pune and across India.',
       },
+
       {
-        q: 'Can you help with investor preparation?',
-        a: 'Yes. We support technical due diligence preparation, help founders articulate their technology architecture clearly to non-technical investors, review pitch deck technology sections, and prepare responses to common technical questions from investors and VCs.',
+        q: 'Can you help me plan an MVP?',
+        a: 'Yes. We help founders identify essential MVP features, prioritize functionality, structure user journeys, define technical requirements, and create a practical roadmap for MVP development.',
       },
+
       {
-        q: 'Do you work with founders in Mumbai and Pune?',
-        a: 'Yes. We are active in the Mumbai and Pune startup ecosystems and work with founders at every stage from idea to post-seed - both in structured consulting engagements and as ongoing advisors.',
+        q: 'Can a startup consultant help choose the technology stack?',
+        a: 'Yes. Technology consulting can evaluate product requirements, scalability, development complexity, integrations, security, infrastructure, team capabilities, and long-term requirements before recommending an appropriate technology approach.',
+      },
+
+      {
+        q: 'Can you help with startup product development?',
+        a: 'Yes. VoidMatrix can provide consulting around product requirements, user journeys, feature prioritization, MVP planning, technical architecture, development strategy, and the roadmap required to build a digital product.',
+      },
+
+      {
+        q: 'Do you provide technology consulting for startups?',
+        a: 'Yes. Our technology consulting covers areas such as technology stack selection, application architecture, databases, APIs, integrations, cloud infrastructure, security, scalability, and technical planning.',
+      },
+
+      {
+        q: 'Can you help reduce startup development costs?',
+        a: 'Structured planning can help reduce unnecessary development by identifying essential MVP functionality, prioritizing features, identifying technical dependencies, and avoiding unnecessary complexity before development begins.',
+      },
+
+      {
+        q: 'Can you help startups that already have a product?',
+        a: 'Yes. We can consult on existing products that require technology improvements, architecture reviews, performance optimization, scalability planning, development restructuring, or product roadmap planning.',
+      },
+
+      {
+        q: 'Do you provide startup consulting for SaaS companies?',
+        a: 'Yes. SaaS startups can receive consulting around product planning, MVP scope, subscription workflows, user management, application architecture, APIs, infrastructure, scalability, and product growth.',
+      },
+
+      {
+        q: 'Do you provide consulting for marketplace startups?',
+        a: 'Yes. Marketplace startups can receive consulting around buyer and seller workflows, marketplace architecture, user roles, product requirements, payments, commissions, inventory, logistics, and platform scalability.',
+      },
+
+      {
+        q: 'Can you help with startup technology architecture?',
+        a: 'Yes. We can help structure application architecture, APIs, databases, authentication, integrations, infrastructure, storage, security, and scalability requirements according to the product scope.',
+      },
+
+      {
+        q: 'Do you provide startup consulting in India?',
+        a: 'Yes. VoidMatrix provides startup consulting services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.',
+      },
+
+      {
+        q: 'Do you provide startup consulting for international businesses?',
+        a: 'Yes. VoidMatrix can provide startup technology and product consulting for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.',
+      },
+
+      {
+        q: 'When should a startup hire a consultant?',
+        a: 'A startup can benefit from consulting before building an MVP, when selecting technology, when defining product requirements, when planning development, when experiencing technical problems, or when preparing an existing product for growth.',
+      },
+
+      {
+        q: 'Can you create a technology roadmap for my startup?',
+        a: 'Yes. A technology roadmap can define the recommended development phases, core technology requirements, architecture, APIs, infrastructure, integrations, security considerations, and future scalability priorities.',
+      },
+
+      {
+        q: 'Is startup consulting only for technology startups?',
+        a: 'No. Startup consulting can be useful for SaaS businesses, marketplaces, eCommerce companies, service platforms, mobile applications, digital products, and other businesses that depend on technology to deliver their products or services.',
+      },
+
+      {
+        q: 'Why should startups plan the MVP before development?',
+        a: 'MVP planning helps identify the core functionality required for the initial product and prevents development resources from being spent prematurely on features that are not essential to the first version.',
       },
     ],
     offer: [40000, 300000],
@@ -2605,35 +2844,101 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technical advisory services in India for business leaders and non-technical founders who are making significant technology decisions without the internal expertise to evaluate them objectively - and need an independent, experienced technical perspective they can trust. Based in Mumbai, we serve as technical advisors and fractional CTOs for businesses in Mumbai, Pune, Bangalore, and across India: founders managing development teams without engineering backgrounds, business leaders evaluating technology vendors or digital transformation programs, and boards overseeing major technology investments. The cost of poor technical oversight is steep: vendors who deliver substandard work, technology stacks that cannot scale, development teams running without accountability, and platforms that need rebuilding 18 months after launch. Our technical advisory services put experienced engineering judgment in the room for the decisions that matter - vendor selection, architecture reviews, development team evaluation, and technology investment prioritization.',
     faqs: [
-      {
-        q: 'What is technical advisory and what does it include?',
-        a: 'Technical advisory provides on-demand engineering expertise to business leaders and non-technical founders. Engagements typically include: reviewing vendor proposals and development contracts, assessing development team performance and code quality, evaluating technology architecture decisions, advising on build-versus-buy choices, conducting technical due diligence for partnerships or acquisitions, and serving as the technical voice in leadership meetings. We translate complex technical topics into business-relevant terms so you can make informed decisions.',
-      },
-      {
-        q: 'What is a fractional CTO and do I need one?',
-        a: 'A fractional CTO provides part-time senior technology leadership for businesses that need engineering oversight but are not ready to hire a full-time CTO. If you have a development team you cannot fully evaluate, are making technology decisions without confidence, or are experiencing persistent delivery problems with no internal accountability mechanism, fractional CTO support fills that gap at a fraction of the cost of a full-time hire.',
-      },
-      {
-        q: 'How much does technical advisory cost in India?',
-        a: 'Technical advisory retainers in India range from ₹40,000 per month for light-touch advisory (a few hours monthly for specific reviews) to ₹2,50,000 per month for deep fractional CTO engagement with regular team involvement, sprint reviews, and architecture oversight.',
-      },
-      {
-        q: 'Can you review a vendor proposal before we sign a contract?',
-        a: 'Yes - and strongly recommended for any engagement above ₹5,00,000. We review proposals for technical scope completeness, hidden assumptions, realistic timeline assessment, technology choices relative to requirements, and pricing fairness. A one-time review cost is trivial compared to a poorly structured vendor contract.',
-      },
-      {
-        q: 'Can you evaluate whether our development team is performing well?',
-        a: 'Yes. Development team assessment covers: code quality review, delivery velocity analysis, process maturity, communication and transparency, technical debt accumulation, and security practices - producing a clear findings report with specific recommendations for addressing gaps.',
-      },
-      {
-        q: 'Do you serve on advisory boards?',
-        a: 'Yes. We serve in formal technical advisory board roles for startups that need credible technical oversight for investor confidence and governance purposes - including participating in board meetings and providing technical perspective on strategic decisions.',
-      },
-      {
-        q: 'Do you work with business leaders in Mumbai and Pune?',
-        a: 'Yes. We provide technical advisory services to founders, CEOs, and business leaders across Mumbai and Pune - both as ongoing retainer advisors and for specific project-based technical oversight.',
-      },
-    ],
+  {
+    q: 'What is technical advisory?',
+    a: 'Technical advisory is the process of providing businesses with expert guidance on technology, software architecture, infrastructure, security, development, scalability, and other technical decisions.'
+  },
+
+  {
+    q: 'What does a technical advisor do?',
+    a: 'A technical advisor evaluates business and technical requirements, identifies technology risks and opportunities, reviews technical options, and provides practical recommendations for software, architecture, infrastructure, security, and scalability.'
+  },
+
+  {
+    q: 'Why does a business need technical advisory?',
+    a: 'Technical advisory can help businesses make better technology decisions, identify technical risks, avoid unsuitable technology choices, reduce unnecessary development costs, and create a clearer technical direction.'
+  },
+
+  {
+    q: 'What is included in technical advisory services?',
+    a: 'Technical advisory can include technology strategy, software architecture review, technology selection, technical due diligence, modernization planning, infrastructure evaluation, security considerations, integrations, performance, and scalability planning.'
+  },
+
+  {
+    q: 'How much does technical advisory cost in India?',
+    a: 'Technical advisory cost in India depends on the complexity of the technology environment, number of systems, scope of evaluation, architecture requirements, security requirements, infrastructure, technical risks, and level of advisory support required.'
+  },
+
+  {
+    q: 'Do you provide technical advisory services in Mumbai?',
+    a: 'Yes. VoidMatrix provides technical advisory services in Mumbai covering technology strategy, software architecture, technology selection, technical due diligence, modernization, infrastructure, security, and scalability.'
+  },
+
+  {
+    q: 'Do you provide technical advisory services across India?',
+    a: 'Yes. VoidMatrix provides technical advisory services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
+  },
+
+  {
+    q: 'Can you review our existing software architecture?',
+    a: 'Yes. We can review application architecture, databases, APIs, integrations, infrastructure, security considerations, performance, technical debt, and scalability requirements to identify technical risks and improvement opportunities.'
+  },
+
+  {
+    q: 'Can technical advisory help us choose a technology stack?',
+    a: 'Yes. Technical advisory can evaluate programming languages, frameworks, databases, cloud platforms, infrastructure, integrations, development resources, security, performance, and scalability requirements before recommending a technology direction.'
+  },
+
+  {
+    q: 'What is technical due diligence?',
+    a: 'Technical due diligence is an evaluation of a software product or technology environment to understand its architecture, technology stack, development practices, technical debt, infrastructure, security considerations, scalability, and technical risks before an important business decision.'
+  },
+
+  {
+    q: 'Can you provide technical advisory before software development starts?',
+    a: 'Yes. Technical advisory can be provided before development to help define technology requirements, evaluate technology options, plan architecture, identify technical dependencies, and establish a practical development direction.'
+  },
+
+  {
+    q: 'Can you provide technical advisory for existing software?',
+    a: 'Yes. VoidMatrix can evaluate existing software systems and provide recommendations for architecture improvements, modernization, performance, security, infrastructure, integrations, and scalability.'
+  },
+
+  {
+    q: 'Do you provide technical advisory for startups?',
+    a: 'Yes. Technical advisory can help startups with technology selection, architecture, MVP planning, development strategy, infrastructure, integrations, security, scalability, and long-term technology planning.'
+  },
+
+  {
+    q: 'Do you provide technical advisory for SaaS businesses?',
+    a: 'Yes. VoidMatrix provides technical advisory for SaaS businesses covering application architecture, databases, APIs, infrastructure, security, scalability, integrations, development strategy, and technology planning.'
+  },
+
+  {
+    q: 'Can technical advisory help with legacy software modernization?',
+    a: 'Yes. Technical advisory can help identify legacy system limitations, technical debt, outdated technologies, architecture issues, security concerns, and modernization opportunities and organize improvements into practical phases.'
+  },
+
+  {
+    q: 'Can technical advisory help with scalability planning?',
+    a: 'Yes. Technical advisory can evaluate application architecture, infrastructure, databases, APIs, performance, deployment, monitoring, and security requirements that may become important as users, traffic, and data increase.'
+  },
+
+  {
+    q: 'Can technical advisory identify technology risks?',
+    a: 'Yes. A technical assessment can identify risks related to architecture, technology choices, technical debt, security, infrastructure, integrations, performance, maintainability, and scalability.'
+  },
+
+  {
+    q: 'Do you provide technical advisory for international businesses?',
+    a: 'Yes. VoidMatrix provides technical advisory services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
+  },
+
+  {
+    q: 'Why choose VoidMatrix for technical advisory services?',
+    a: 'VoidMatrix connects technical decisions with business and product objectives. Our approach focuses on practical recommendations across software architecture, technology strategy, development, infrastructure, security, modernization, and scalability.'
+  }
+],
     offer: [40000, 250000],
   },
 
@@ -2710,35 +3015,101 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technology roadmap planning services in India for businesses that need to make significant technology investments over the next 12-36 months and want a structured, sequenced plan before committing budget. Based in Mumbai, we work with leadership teams, CTOs, and founders in Mumbai, Pune, Bangalore, and across India building product development roadmaps, infrastructure modernization plans, digital transformation strategies, and technology capability buildouts. Technology investment without sequencing is expensive: building system B before system A is ready, choosing a vendor that conflicts with a platform you plan to add in 6 months, or scaling infrastructure before the product architecture supports it. Our roadmap planning engagements audit current technology capabilities, define future-state requirements, identify dependencies and sequencing constraints, and deliver phased roadmaps with clear milestones, resource implications, and decision points - so your technology investment compounds intelligently rather than accruing debt.',
     faqs: [
-      {
-        q: 'What does a technology roadmap include?',
-        a: 'A technology roadmap includes: current-state technology assessment, future-state vision aligned to business objectives, phased initiatives with sequencing rationale, resource requirements and team implications, key dependencies and sequencing constraints, risk identification and mitigation strategies, milestone definitions and success metrics, and a review governance framework. It is a living document - not a one-time artifact.',
-      },
-      {
-        q: 'How is a technology roadmap different from a product roadmap?',
-        a: 'A product roadmap sequences features from a user and business value perspective. A technology roadmap covers the broader infrastructure, platform, and capability investments that enable the product - cloud architecture, data infrastructure, security framework, engineering tooling, and integration ecosystem. Both are needed; they should be aligned.',
-      },
-      {
-        q: 'How much does technology roadmap planning cost in India?',
-        a: 'Technology roadmap engagements in India range from ₹60,000 for a focused 2-week planning sprint to ₹4,00,000 for a comprehensive engagement with stakeholder workshops, competitive technology benchmarking, vendor evaluation, and a detailed 18-24 month roadmap.',
-      },
-      {
-        q: 'How do you facilitate stakeholder alignment around the roadmap?',
-        a: 'We run structured workshops - typically 2-3 sessions with different stakeholder groups - that surface competing priorities, identify hidden dependencies, and build shared understanding before documentation begins. Roadmaps built on stakeholder consensus get funded and executed; ones built in isolation get ignored.',
-      },
-      {
-        q: 'How do you prioritize what goes on the roadmap?',
-        a: 'Prioritization is based on business impact (revenue, cost, risk), strategic dependency (what needs to exist before something else can be built), resource feasibility (what is realistic given team size and budget), and timing constraints (regulatory deadlines, market windows, competitive pressure). Every initiative on the roadmap has a rationale, not just a position.',
-      },
-      {
-        q: 'Do you help with budget planning for the roadmap?',
-        a: 'Yes. We provide order-of-magnitude investment estimates for each roadmap initiative - giving leadership a financial planning baseline for each phase without requiring detailed specifications at the planning stage.',
-      },
-      {
-        q: 'Do you work with leadership teams in Mumbai and Pune?',
-        a: 'Yes. We work with founders, CTOs, and executive teams across Mumbai and Pune - facilitating roadmap workshops and delivering technology investment plans for both startup growth stages and enterprise transformation programs.',
-      },
-    ],
+  {
+    q: 'What is a technology roadmap?',
+    a: 'A technology roadmap is a structured plan that defines technology priorities, architecture improvements, development requirements, infrastructure needs, security considerations, and future technical objectives over different stages of business and product growth.',
+  },
+
+  {
+    q: 'Why is a technology roadmap important?',
+    a: 'A technology roadmap helps businesses organize technical priorities, understand dependencies, plan technology investments, reduce unnecessary technical changes, and create a clearer direction for application development, infrastructure, security, and scalability.',
+  },
+
+  {
+    q: 'What does a technology roadmap consultant do?',
+    a: 'A technology roadmap consultant evaluates the current technology environment, understands business and product objectives, identifies technical priorities, and creates a structured roadmap covering architecture, development, infrastructure, modernization, security, and scalability.',
+  },
+
+  {
+    q: 'How does VoidMatrix create technology roadmaps?',
+    a: 'VoidMatrix begins by understanding the business objectives, product requirements, current technology environment, architecture, infrastructure, development requirements, and future goals. We then identify priorities and organize them into practical technology roadmap phases.',
+  },
+
+  {
+    q: 'Can you create a technology roadmap for a startup?',
+    a: 'Yes. VoidMatrix can create technology roadmaps for startups covering technology selection, application architecture, databases, APIs, infrastructure, security, development priorities, MVP requirements, and future scalability.',
+  },
+
+  {
+    q: 'Can you create a technology roadmap for an existing application?',
+    a: 'Yes. Technology roadmaps can be created for existing applications to plan architecture improvements, technical debt reduction, modernization, performance improvements, infrastructure changes, security improvements, and future scalability.',
+  },
+
+  {
+    q: 'What is included in a technology roadmap?',
+    a: 'Depending on the requirements, a technology roadmap can include technology strategy, application architecture, technology stack, databases, APIs, integrations, cloud infrastructure, development priorities, security, scalability, modernization, technical debt, and future technology requirements.',
+  },
+
+  {
+    q: 'Can a technology roadmap include cloud infrastructure planning?',
+    a: 'Yes. A technology roadmap can include cloud infrastructure, hosting, storage, deployment, monitoring, reliability, security, performance, and scalability requirements.',
+  },
+
+  {
+    q: 'Can you help with technology modernization planning?',
+    a: 'Yes. VoidMatrix can help businesses plan technology modernization for legacy applications, outdated technology stacks, technical debt, infrastructure, development systems, and application architecture.',
+  },
+
+  {
+    q: 'Can a technology roadmap help with scalability?',
+    a: 'Yes. A technology roadmap can identify architecture, infrastructure, performance, database, API, security, and deployment improvements that may be required as application traffic, users, data, and operational requirements increase.',
+  },
+
+  {
+    q: 'How much does technology roadmap consulting cost in India?',
+    a: 'Technology roadmap consulting cost in India depends on the size and complexity of the technology environment, number of applications, existing architecture, infrastructure, product requirements, modernization needs, security requirements, and roadmap scope.',
+  },
+
+  {
+    q: 'Do you provide technology roadmap consulting in Mumbai and Pune?',
+    a: 'Yes. VoidMatrix provides technology roadmap consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
+  },
+
+  {
+    q: 'Can you create a technology roadmap for SaaS platforms?',
+    a: 'Yes. Technology roadmaps can be created for SaaS platforms covering application architecture, APIs, databases, infrastructure, security, scalability, integrations, development priorities, and future technical requirements.',
+  },
+
+  {
+    q: 'Can you create a technology roadmap for marketplace and eCommerce platforms?',
+    a: 'Yes. VoidMatrix can structure technology roadmaps for marketplaces and eCommerce platforms covering application architecture, customer and administrative systems, APIs, databases, integrations, infrastructure, security, scalability, and development priorities.',
+  },
+
+  {
+    q: 'What is the difference between a technology roadmap and a development roadmap?',
+    a: 'A technology roadmap covers the broader technical direction of a business or product, including architecture, infrastructure, security, scalability, modernization, and technology priorities. A development roadmap focuses more specifically on organizing software development work and implementation phases.',
+  },
+
+  {
+    q: 'How often should a technology roadmap be updated?',
+    a: 'A technology roadmap should evolve as business objectives, product requirements, technology capabilities, infrastructure needs, and technical priorities change. Periodic reviews help ensure that the roadmap remains aligned with the current direction of the business.',
+  },
+
+  {
+    q: 'Can a technology roadmap reduce technical debt?',
+    a: 'Yes. A technology roadmap can identify technical debt, prioritize modernization work, and organize technical improvements into manageable phases rather than attempting to address every technical issue at once.',
+  },
+
+  {
+    q: 'Can technology roadmap planning reduce development costs?',
+    a: 'A structured technology roadmap can help reduce unnecessary technical work by clarifying priorities, identifying dependencies, avoiding disconnected technology decisions, and planning architecture and infrastructure changes before they become more expensive to implement.',
+  },
+
+  {
+    q: 'Why should we choose VoidMatrix for technology roadmap consulting?',
+    a: 'VoidMatrix connects technology planning with business objectives, product requirements, development priorities, architecture, infrastructure, security, and scalability. This creates a practical technology roadmap that businesses and development teams can use for future planning.',
+  },
+],
     offer: [60000, 400000],
   },
 
