@@ -7,7 +7,7 @@ type Props = {
   heading: string;
   contents: paras[];
 };
-export default function WhyVmt({ heading, contents }: Props) {
+export default function WhyVmtService({ heading, contents }: Props) {
   return (
     <section className="services-core">
       <h2 className="section-title">{heading}</h2>

@@ -1131,6 +1131,9 @@ button {
   border-bottom: 1px solid rgb(255 255 255 /8%);
   padding: 20px 0;
 }
+.faq-item-hidden{
+  display:none;
+}
 
 /* Remove default arrow */
 .faq-item summary {

@@ -12,7 +12,7 @@ import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import ServiceComp from '@/components/services/ServiceComp';
 import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
-import WhyVmt from '@/components/services/WhyVmt';
+import WhyVmtService from '@/components/services/WhyVmtService';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Local SEO Company in Mumbai | Google Maps & SEO Services',
@@ -175,7 +175,7 @@ export default function LocalSEOPage() {
       {/* =====================================================
           WHY VMT?
       ===================================================== */}
-      <WhyVmt heading="Why Choose VoidMatrix Technology for Local SEO?" contents={whyContents} />
+      <WhyVmtService heading="Why Choose VoidMatrix Technology for Local SEO?" contents={whyContents} />
 
       {/* =============================================
           What You Get
