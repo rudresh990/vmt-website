@@ -12,12 +12,13 @@ import CtaButtonRe from '@/components/ui/CtaButtonRe';
 import ServiceComp from '@/components/services/ServiceComp';
 import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
+import WhyVmt from '@/components/services/WhyVmt';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Local SEO Company in Mumbai & India | Local SEO Services',
+  title: 'Local SEO Company in Mumbai | Google Maps & SEO Services',
 
   description:
-    'Grow local search visibility with professional local SEO services for Google Maps, Google Business Profile, local keywords, citations, reviews, and location pages.',
+    'Grow your visibility on Google Search & Maps. Get local SEO services in Mumbai focused on rankings, relevant traffic, calls and qualified enquiries.',
 
   path: '/services/local-seo',
 });
@@ -54,13 +55,62 @@ const contents = [
 
     para: 'Local SEO is particularly important for businesses that depend on customers from specific cities, areas, or service regions. Local searches often have strong commercial intent, making visibility in Google Search and Google Maps an important source of calls, enquiries, visits, leads, and sales.',
   },
-
+];
+const whyContents = [
   {
-    id: 'localseo6',
-
-    para: 'We provide local SEO services for businesses in Mumbai, Pune, Bangalore, Hyderabad, across India, and international markets. Whether you operate from one location or manage multiple business locations, we build local search strategies around your target customers, locations, services, and business objectives.',
+    id: 'why1',
+    paraHeading: 'SEO + Technical Expertise',
+    para: "We don't treat local SEO as just Google Business Profile optimization. We can address the website architecture, technical SEO, internal linking, structured data and location-page structure supporting your local search presence.",
+  },
+  {
+    id: 'why2',
+    paraHeading: 'Search-Intent Driven Strategy',
+    para: 'We map local searches to the services and pages that should actually satisfy them instead of stuffing city names into every page.',
+  },
+  {
+    id: 'why3',
+    parapHeading: 'Built Around Your Business',
+    para: 'Your strategy depends on your locations, services, competition, customers and business objectives.',
+  },
+  {
+    id: 'why4',
+    paraHeading: 'Focused on Business Outcomes',
+    para: "The goal isn't simply to produce rankings. We focus on improving visibility for searches that can contribute to enquiries, calls, visits and leads.",
   },
 ];
+
+// const whatYouGetContents = [
+//   {
+//     id: 'get1',
+//     paraHeading: 'Local SEO AuditLocal SEO Audit',
+//     para: 'Identify technical, content and local search opportunities.',
+//   },
+//   {
+//     id: 'get2',
+//     paraHeading: 'Google Business Profile Optimization',
+//     para: 'Improve the completeness and relevance of your business profile.',
+//   },
+//   {
+//     id: 'get3',
+//     paraHeading: 'Local Keyword Strategy',
+//     para: 'Identify valuable searches across services, locations and customer intent.',
+//   },
+//   {
+//     id: 'get4',
+//     paraHeading: 'Location Page Strategy',
+//     para: 'Build useful location pages around genuine business coverage.',
+//   },
+//   {
+//     id: 'get5',
+//     paraHeading: 'Citation & Authority Strategy',
+//     para: 'Strengthen relevant business listings and local authority.',
+//   },
+//   {
+//     id: 'get6',
+//     paraHeading: 'Monthly Performance Monitoring',
+//     para: 'Track visibility, rankings, traffic and enquiries and continuously improve the strategy.',
+//   }
+// ]
 
 export default function LocalSEOPage() {
   return (
@@ -73,8 +123,9 @@ export default function LocalSEOPage() {
         eyebrow="Local SEO Company in Mumbai, India"
         title={
           <>
-            Improve Your Visibility in
-            <span className="text-(--primary)"> Local Search</span>
+            Local SEO Services That
+            <span className="text-(--primary)"> Grow </span>Local
+            <span className="text-(--primary)"> Visibility</span>
           </>
         }
         herosub={
@@ -82,7 +133,8 @@ export default function LocalSEOPage() {
             <div className="my-2.5">
               <p>
                 <span className="text-white">
-                  Get found by customers searching for your business locally.
+                  Get found by customers searching for your business on Google Search and Google
+                  Maps.
                 </span>
                 <br />
                 VMT provides local SEO services that optimize Google Business Profile, Google Maps
@@ -120,12 +172,15 @@ export default function LocalSEOPage() {
           </>
         }
       />
-
       {/* =====================================================
-          WHAT IS LOCAL SEO?
+          WHY VMT?
       ===================================================== */}
+      <WhyVmt heading="Why Choose VoidMatrix Technology for Local SEO?" contents={whyContents} />
 
-      <WhaIsService heading="What Is Local SEO?" contents={contents} />
+      {/* =============================================
+          What You Get
+      ============================================= */}
+      {/* <WhatYouGet heading="What You Get With Our Local SEO Services" contents={whatYouGetContents} /> */}
 
       {/* =====================================================
           CORE LOCAL SEO SERVICES
@@ -342,6 +397,31 @@ export default function LocalSEOPage() {
       />
 
       {/* =====================================================
+          MUMBAI / PUNE / INDIA / GLOBAL
+      ===================================================== */}
+
+      <ServiceCost
+        heading="Local SEO Company in Mumbai"
+        costdesc={[
+          {
+            para: 'For businesses in Mumbai, we optimize local search assets around relevant services, areas, and customer search behavior. Our local SEO strategy can support businesses competing for searches across Mumbai and its surrounding service areas.',
+          },
+
+          {
+            para: 'For businesses in Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian cities, we can build location-aware SEO strategies based on local search demand, competition, services, and the geographic areas the business actually serves.',
+          },
+
+          {
+            para: 'For businesses targeting customers across India, we combine local and national SEO strategies where required, helping businesses maintain location relevance while building broader organic visibility.',
+          },
+
+          {
+            para: 'We also provide local SEO services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other regions. International local SEO strategies can be structured around the target market, business locations, service areas, and local search behavior.',
+          },
+        ]}
+      />
+
+      {/* =====================================================
           COST
       ===================================================== */}
 
@@ -524,29 +604,10 @@ export default function LocalSEOPage() {
       />
 
       {/* =====================================================
-          MUMBAI / PUNE / INDIA / GLOBAL
+          WHAT IS LOCAL SEO?
       ===================================================== */}
 
-      <ServiceCost
-        heading="Local SEO Company in Mumbai, Pune, India & Global Markets"
-        costdesc={[
-          {
-            para: 'For businesses in Mumbai, we optimize local search assets around relevant services, areas, and customer search behavior. Our local SEO strategy can support businesses competing for searches across Mumbai and its surrounding service areas.',
-          },
-
-          {
-            para: 'For businesses in Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian cities, we can build location-aware SEO strategies based on local search demand, competition, services, and the geographic areas the business actually serves.',
-          },
-
-          {
-            para: 'For businesses targeting customers across India, we combine local and national SEO strategies where required, helping businesses maintain location relevance while building broader organic visibility.',
-          },
-
-          {
-            para: 'We also provide local SEO services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other regions. International local SEO strategies can be structured around the target market, business locations, service areas, and local search behavior.',
-          },
-        ]}
-      />
+      <WhaIsService heading="What Is Local SEO?" contents={contents} />
 
       {/* =====================================================
           SERVICE FIT
@@ -591,8 +652,8 @@ export default function LocalSEOPage() {
       ===================================================== */}
 
       <MainServiceCTA
-        heading="Improve Your Local Search Visibility"
-        description="Get your website and local search presence reviewed for local SEO opportunities."
+        heading="Ready to Grow Your Local Visibility?"
+        description="Get a practical local SEO assessment of your website, Google Business Profile and target market - and identify the opportunities worth prioritizing."
       />
     </>
   );
