@@ -1,130 +1,282 @@
-import Hero from '@/components/sections/common/Hero';
 import { Metadata } from 'next';
-import ServiceCoreSection from '@/components/services/ServiceCoreSection';
-import ServiceApproachSection from '@/components/services/ServiceApproachSection';
-import ServiceFitSection from '@/components/services/ServiceFitSection';
-import MainServiceFAQ from '@/components/services/MainServiceFAQ';
-import MainServiceCTA from '@/components/services/MainServiceCTA';
+
+import Hero from '@/components/sections/common/Hero';
+
 import WhaIsService from '@/components/services/WhatIsService';
-import ServiceCost from '@/components/services/ServiceCost';
-import ServiceFactors from '@/components/services/ServiceFactors';
-import ServiceComp from '@/components/services/ServiceComp';
-import CtaButtonRe from '@/components/ui/CtaButtonRe';
+
 import { serviceData } from '@/app/lib/schema/data/services_data';
+
 import { buildMetadata } from '@/app/lib/schema/seo';
 
+import MainServiceCTA from '@/components/services/MainServiceCTA';
+
+import MainServiceFAQ from '@/components/services/MainServiceFAQ';
+
+import ServiceFitSection from '@/components/services/ServiceFitSection';
+
+import ServiceCost from '@/components/services/ServiceCost';
+
+import ServiceApproachSection from '@/components/services/ServiceApproachSection';
+
+import CtaButtonRe from '@/components/ui/CtaButtonRe';
+
+import ServiceComp from '@/components/services/ServiceComp';
+
+import ServiceFactors from '@/components/services/ServiceFactors';
+
+import ServiceCoreSection from '@/components/services/ServiceCoreSection';
+
+import WhyVmtService from '@/components/services/WhyVmtService';
+
+import WhatYouGet from '@/components/services/WhatYouGet';
+
 export const metadata: Metadata = buildMetadata({
-  title: 'CRM & ERP Development Company in Mumbai, Pune & India',
+  title: 'CRM & ERP Development Company in Mumbai, Pune & India | VoidMatrix',
+
   description:
-    'Build custom CRM and ERP software with VMT. We develop scalable business management systems, workflow automation, inventory, finance, HR, and enterprise software for businesses across Mumbai, Pune, India, and global markets.',
+    'VoidMatrix develops custom CRM and ERP software for businesses across Mumbai, Pune and India. Centralize business data, automate workflows, manage inventory and connect sales, operations and finance.',
+
   path: '/services/crm-erp-development',
 });
 
 const s_data = serviceData['/services/crm-erp-development'];
 
+const whyContents = [
+  {
+    id: 'why1',
+
+    paraHeading: 'CRM & ERP Built Around Your Business',
+
+    para: 'Your sales, operations, finance, inventory and customer workflows are different from another company. VoidMatrix builds CRM and ERP systems around your actual processes, business rules, users and organizational structure.',
+  },
+
+  {
+    id: 'why2',
+
+    paraHeading: 'Connected Business Operations',
+
+    para: 'Instead of managing information across disconnected spreadsheets and applications, we can connect customer management, sales, inventory, procurement, operations, finance and reporting into a centralized system.',
+  },
+
+  {
+    id: 'why3',
+
+    paraHeading: 'Automation Where It Matters',
+
+    para: 'Custom workflows can automate repetitive tasks, approvals, notifications, lead assignments, inventory processes, document flows and other operational activities so teams spend less time managing manual processes.',
+  },
+
+  {
+    id: 'why4',
+
+    paraHeading: 'Scalable & Maintainable Architecture',
+
+    para: 'VoidMatrix designs CRM and ERP systems with future users, modules, integrations, security requirements and business growth in mind. The system can evolve as your organization becomes more complex.',
+  },
+];
+
+const whatYouGetContents = [
+  {
+    id: 'get1',
+
+    paraHeading: 'Custom CRM System',
+
+    para: 'Centralize leads, customers, sales pipelines, communication, follow-ups and customer information in a system designed around your sales process.',
+  },
+
+  {
+    id: 'get2',
+
+    paraHeading: 'Custom ERP Platform',
+
+    para: 'Connect business functions such as inventory, procurement, finance, operations and other departments through a centralized enterprise system.',
+  },
+
+  {
+    id: 'get3',
+
+    paraHeading: 'Workflow Automation',
+
+    para: 'Automate approvals, notifications, task assignments, lead workflows, inventory processes and repetitive operational activities.',
+  },
+
+  {
+    id: 'get4',
+
+    paraHeading: 'Role-Based Dashboards',
+
+    para: 'Give administrators, managers, sales teams, operations teams and other users access to the information and functionality relevant to their roles.',
+  },
+
+  {
+    id: 'get5',
+
+    paraHeading: 'Business Integrations',
+
+    para: 'Connect your CRM or ERP with payment gateways, accounting systems, communication platforms, websites, APIs and other business applications.',
+  },
+
+  {
+    id: 'get6',
+
+    paraHeading: 'Deployment & Ongoing Support',
+
+    para: 'Production deployment, system maintenance, performance improvements, security updates, integrations and continued feature development as your business grows.',
+  },
+];
+
 const contents = [
   {
-    id: 'p1',
-    para: 'CRM (Customer Relationship Management) and ERP (Enterprise Resource Planning) software help organizations centralize operations, automate business processes, improve collaboration, and gain complete visibility across departments. Unlike off-the-shelf business software, custom CRM and ERP solutions are engineered specifically around your workflows, business rules, reporting requirements, and long-term growth objectives.',
+    id: 'crm1',
+
+    para: 'CRM, or Customer Relationship Management software, is used to organize and manage customer information, leads, sales activities, communication and relationships throughout the customer lifecycle. A CRM can give sales and management teams a centralized view of customer activity and sales opportunities.',
   },
+
   {
-    id: 'p2',
-    para: 'As businesses expand, spreadsheets and disconnected software often create duplicated work, inconsistent reporting, and operational inefficiencies. A custom CRM or ERP platform brings sales, customer support, inventory, purchasing, finance, HR, production, logistics, and management into one secure cloud-based system, allowing every department to work with accurate, real-time information.',
+    id: 'crm2',
+
+    para: 'ERP, or Enterprise Resource Planning software, connects business functions and operational data within a centralized system. Depending on the organization, an ERP can manage areas such as finance, procurement, inventory, operations, human resources and other business processes.',
   },
+
   {
-    id: 'p3',
-    para: 'Whether you operate a manufacturing company in Pune, a logistics business in Mumbai, a healthcare organization, a financial services firm, or a growing startup anywhere in India, a well-designed CRM or ERP system improves productivity, reduces manual work, strengthens decision-making, and supports sustainable business growth.',
+    id: 'crm3',
+
+    para: 'Businesses often require custom CRM or ERP software when generic platforms do not match their workflows, require extensive workarounds or cannot integrate effectively with existing systems. Custom development allows functionality, permissions, workflows, dashboards and integrations to be designed around the organization.',
   },
+
   {
-    id: 'p4',
-    para: 'At VoidMatrix Technology, we build architecture-first CRM and ERP platforms using modern technologies such as Next.js, React, Node.js, PostgreSQL, and cloud-native infrastructure. Every system is designed for scalability, security, maintainability, and seamless integration with existing business applications.',
+    id: 'crm4',
+
+    para: 'CRM and ERP systems can also work together. Customer and sales information can connect with inventory, finance, operations and other business data to create a more complete view of the organization and reduce duplicated manual data entry.',
   },
+
   {
-    id: 'p5',
-    para: 'Our objective is not simply to develop software—it is to engineer intelligent business systems that streamline operations, automate repetitive work, improve customer relationships, and provide organizations with a long-term competitive advantage.',
+    id: 'crm5',
+
+    para: 'VoidMatrix develops custom CRM and ERP software with business analysis, system architecture, frontend and backend development, workflow automation, integrations, dashboards, testing, deployment and ongoing engineering support.',
   },
 ];
 
 const engineeringSteps = [
   {
-    title: 'Business Discovery & Process Analysis',
+    title: 'Business Process & Requirements Discovery',
+
     description:
-      'We begin by understanding your workflows, operational challenges, reporting requirements, and future business goals.',
+      'We understand how your sales, operations, finance, inventory and other departments currently work before defining the CRM or ERP requirements.',
+
     points: [
-      'Stakeholder workshops',
-      'Department analysis',
-      'Workflow mapping',
-      'Business requirement documentation',
+      'Business workflow analysis',
+
+      'Department & user mapping',
+
+      'Current system assessment',
+
+      'Functional requirements',
     ],
   },
+
   {
-    title: 'CRM / ERP Architecture Design',
+    title: 'CRM & ERP Architecture Planning',
+
     description:
-      'Every platform is architected for scalability before development begins.',
+      'We define the system architecture, database structure, modules, roles, permissions, APIs and integration requirements before development begins.',
+
     points: [
-      'Database modelling',
+      'System architecture',
+
+      'Database design',
+
       'Module planning',
-      'Role-based permissions',
-      'Integration architecture',
+
+      'Role & permission structure',
     ],
   },
+
   {
-    title: 'Agile Development & Automation',
+    title: 'Core CRM & ERP Development',
+
     description:
-      'Modules are developed in structured sprints with continuous feedback and transparent progress tracking.',
+      'The prioritized business modules are developed in structured iterations so the organization can review functionality throughout the implementation.',
+
     points: [
-      'Sprint planning',
-      'Workflow automation',
-      'Dashboard development',
-      'API integrations',
+      'Frontend development',
+
+      'Backend development',
+
+      'Business modules',
+
+      'Role-based dashboards',
     ],
   },
+
   {
-    title: 'Testing & Business Validation',
+    title: 'Workflow Automation & Integrations',
+
     description:
-      'Every workflow is tested to ensure accuracy, reliability, security, and performance.',
+      'We connect the CRM or ERP with existing systems and automate repetitive processes, approvals, notifications and business workflows.',
+
+    points: [
+      'API integrations',
+
+      'Workflow automation',
+
+      'Approval systems',
+
+      'Third-party integrations',
+    ],
+  },
+
+  {
+    title: 'Testing, Security & Deployment',
+
+    description:
+      'The system is validated across functionality, permissions, integrations, security and performance before production deployment.',
+
     points: [
       'Functional testing',
-      'User acceptance testing',
-      'Security testing',
+
+      'Integration testing',
+
+      'Security validation',
+
+      'Production deployment',
+    ],
+  },
+
+  {
+    title: 'Optimization & Continuous Development',
+
+    description:
+      'After launch, the CRM or ERP can evolve through additional modules, integrations, reporting, performance improvements and new business requirements.',
+
+    points: [
       'Performance optimization',
-    ],
-  },
-  {
-    title: 'Deployment & Team Onboarding',
-    description:
-      'After deployment we assist with migration, onboarding, documentation, and user training.',
-    points: [
-      'Cloud deployment',
-      'Data migration',
-      'User onboarding',
-      'Documentation',
-    ],
-  },
-  {
-    title: 'Continuous Improvement',
-    description:
-      'Business software should evolve with your organization through ongoing enhancements and optimization.',
-    points: [
-      'New feature development',
-      'Performance improvements',
-      'Infrastructure scaling',
+
+      'New module development',
+
+      'Reporting improvements',
+
       'Long-term support',
     ],
   },
 ];
 
-export default function CRMERPDevelopment() {
+export default function CrmErpDevelopmentPage() {
   return (
     <>
+      {/* =====================================================
+          HERO
+      ===================================================== */}
+
       <Hero
         eyebrow="CRM & ERP Development Company in Mumbai, India"
         title={
           <>
-            Custom <span className="text-(--primary)">CRM & ERP Software</span> For
-            Growing Businesses Across{' '}
-            <span className="text-(--primary)">Mumbai</span>,{' '}
-            <span className="text-(--primary)">India</span> & Global Markets
+            Custom
+            <span className="text-(--primary)"> CRM & ERP Software</span> For
+            <br />
+            Growing Businesses Across
+            <span className="text-(--primary)"> Mumbai, India</span> & Global Markets
           </>
         }
         herosub={
@@ -132,16 +284,12 @@ export default function CRMERPDevelopment() {
             <div className="my-2.5">
               <p>
                 <span className="text-white">
-                  Replace spreadsheets and disconnected software with one powerful
-                  business platform.
+                  Centralize your business data, automate workflows and connect your operations
+                  through custom CRM and ERP software.
                 </span>
                 <br />
-                VMT develops custom CRM and ERP solutions that centralize customer
-                management, inventory, finance, HR, procurement, operations, and
-                workflow automation. Every platform is engineered using modern web
-                technologies with scalable architecture, enterprise security, and
-                seamless integrations for businesses across Mumbai, Pune, India, and
-                worldwide.
+                VoidMatrix develops scalable CRM and ERP platforms for startups, SMEs and
+                enterprises across Mumbai, Pune, India and global markets.
               </p>
             </div>
           </>
@@ -156,239 +304,422 @@ export default function CRMERPDevelopment() {
               <span className="text-glow">|</span>
 
               <span>
-                Workflow <span className="text-(--primary)">Automation</span>
+                Custom <span className="text-(--primary)">Workflows</span>
               </span>
 
               <span className="text-glow">|</span>
 
               <span>
-                Enterprise <span className="text-(--primary)">Architecture</span>
+                Business <span className="text-(--primary)">Automation</span>
               </span>
 
               <span className="text-glow">|</span>
 
               <span>
-                Long-term <span className="text-(--primary)">Support</span>
+                Scalable <span className="text-(--primary)">Architecture</span>
               </span>
             </div>
           </>
         }
       />
-      <WhaIsService
-        heading="What is CRM & ERP Development?"
-        contents={contents}
+
+      {/* =====================================================
+          WHY CHOOSE VOIDMATRIX
+      ===================================================== */}
+
+      <WhyVmtService
+        heading="Why Choose VoidMatrix for CRM & ERP Development?"
+        contents={whyContents}
       />
+
+      {/* =====================================================
+          WHAT YOU GET
+      ===================================================== */}
+
+      <WhatYouGet
+        heading="What You Get With Our CRM & ERP Development Services"
+        contents={whatYouGetContents}
+      />
+
+      {/* =====================================================
+          CORE CRM & ERP SERVICES
+      ===================================================== */}
+
       <ServiceCoreSection
         heading="Our CRM & ERP Development Services"
-        intro="We engineer custom CRM and ERP software that simplifies business operations, eliminates manual processes, and provides complete visibility across your organization. Every solution is built around your workflows, industry requirements, and long-term business objectives rather than forcing you to adapt to generic software."
+        intro="VoidMatrix builds CRM and ERP systems around your business processes, departments, users and technology environment. Whether you need a focused CRM, complete ERP platform or connected business management system, we can structure the software around your operational requirements."
         items={[
           {
-            item_link: '/services/custom-crm-development',
+            item_link: 'custom-crm-development',
+
             title: 'Custom CRM Development',
+
             description:
-              'Centralize customer relationships, sales, marketing, and support operations in one scalable platform.',
+              'Build a CRM around your sales process, customer lifecycle, lead management, communication and reporting requirements.',
           },
+
           {
-            item_link: 'erp',
+            item_link: 'custom-erp-development',
+
             title: 'Custom ERP Development',
+
             description:
-              'Integrate finance, inventory, HR, procurement, manufacturing, and operations into a unified business system.',
+              'Connect finance, inventory, procurement, operations, HR and other business functions through a centralized ERP system.',
           },
+
           {
-            item_link: 'automation',
-            title: 'Business Process Automation',
+            item_link: 'sales-crm-development',
+
+            title: 'Sales CRM Development',
+
             description:
-              'Automate repetitive workflows, approvals, notifications, and reporting to improve efficiency.',
+              'Manage leads, opportunities, sales pipelines, follow-ups and customer interactions through a custom sales platform.',
+          },
+
+          {
+            item_link: 'inventory-management-software',
+
+            title: 'Inventory & Warehouse Software',
+
+            description:
+              'Track inventory, warehouses, stock movements, procurement and operational data through custom business software.',
+          },
+
+          {
+            item_link: 'workflow-automation',
+
+            title: 'CRM & ERP Workflow Automation',
+
+            description:
+              'Automate approvals, notifications, assignments, task flows and repetitive business processes across departments.',
+          },
+
+          {
+            item_link: 'crm-erp-integration',
+
+            title: 'CRM & ERP Integration',
+
+            description:
+              'Connect CRM, ERP, accounting, payment, communication, website and other business systems through APIs and integrations.',
+          },
+
+          {
+            item_link: 'business-intelligence-dashboard',
+
+            title: 'Business Intelligence & Dashboards',
+
+            description:
+              'Turn centralized business data into dashboards, reports and analytics for management and operational decision-making.',
           },
         ]}
         details={[
           {
-            item_link_id: 'crm',
+            item_link_id: 'custom-crm-development',
+
             heading: 'Custom CRM Development',
+
             descriptions: [
               {
-                para: 'Every business manages customer relationships differently. Generic CRM software often includes unnecessary features while failing to support unique sales processes, quotation workflows, customer onboarding, service management, and reporting requirements. Our custom CRM development services are designed specifically around your organization rather than forcing your team to change established processes.',
+                para: 'A custom CRM can centralize customer information, leads, sales activities, communication and follow-up workflows around the way your sales team actually operates.',
               },
+
               {
-                para: 'We build CRM platforms that centralize lead management, customer communication, sales pipelines, quotations, support tickets, follow-ups, document management, task tracking, and analytics. Every module is designed to improve collaboration while providing management with complete visibility into customer interactions and business performance.',
+                para: 'VoidMatrix can develop CRM functionality such as lead management, customer records, sales pipelines, follow-ups, task management, communication tracking and reporting.',
               },
+
               {
-                para: 'Whether you operate in logistics, healthcare, finance, manufacturing, professional services, or real estate, a custom CRM system enables your team to work faster, improve customer satisfaction, and make informed decisions using accurate real-time business data.',
+                para: 'The system can also integrate with websites, marketing platforms, communication tools, payment systems and other applications required by your sales operation.',
               },
             ],
           },
 
           {
-            item_link_id: 'erp',
-            heading: 'Custom ERP Software Development',
+            item_link_id: 'custom-erp-development',
+
+            heading: 'Custom ERP Development',
+
             descriptions: [
               {
-                para: 'Enterprise Resource Planning software connects multiple departments into a single digital ecosystem. Instead of relying on separate applications for inventory, purchasing, finance, HR, production, and reporting, a custom ERP platform provides centralized operational control with accurate data shared across the entire organization.',
+                para: 'Custom ERP software connects business functions into a centralized operational system so departments can work from consistent information.',
               },
+
               {
-                para: 'Our ERP development services include inventory management, warehouse operations, procurement, finance, payroll, HR, manufacturing, project management, vendor management, and executive reporting. Every module works together seamlessly to eliminate duplicate data entry and improve operational efficiency.',
+                para: 'Depending on your requirements, the ERP can include finance, procurement, inventory, operations, HR, sales, reporting and other business modules.',
               },
+
               {
-                para: 'By developing ERP software specifically for your organization, businesses gain greater flexibility, stronger security, improved reporting accuracy, and the ability to expand the platform as operational requirements continue to evolve.',
+                para: 'Role-based access, approval workflows, dashboards and integrations can be designed around the organization’s actual structure and processes.',
               },
             ],
           },
 
           {
-            item_link_id: 'automation',
-            heading: 'Business Process Automation',
+            item_link_id: 'sales-crm-development',
+
+            heading: 'Sales CRM Development',
+
             descriptions: [
               {
-                para: 'Many growing businesses continue to rely on spreadsheets, emails, and manual approvals to manage everyday operations. These repetitive processes consume valuable employee time while increasing the risk of delays, inconsistencies, and human error.',
+                para: 'A sales CRM provides teams with centralized visibility into leads, prospects, opportunities, follow-ups and customer interactions.',
               },
+
               {
-                para: 'We develop intelligent workflow automation systems that streamline approvals, document generation, notifications, employee onboarding, procurement requests, customer communication, recurring tasks, and operational reporting. Automation improves consistency while allowing teams to focus on higher-value work.',
+                para: 'Custom sales workflows can include lead assignment, pipeline stages, reminders, follow-ups, task management, communication history and sales reporting.',
               },
+
               {
-                para: 'The result is a more efficient organization where repetitive administrative work is minimized, decisions happen faster, and business operations become significantly more scalable.',
+                para: 'The system can be adapted to the sales cycle and business rules of your organization instead of forcing sales teams into a generic workflow.',
               },
             ],
           },
 
           {
-            item_link_id: 'inventory',
-            heading: 'Inventory & Warehouse Management Software',
+            item_link_id: 'inventory-management-software',
+
+            heading: 'Inventory & Warehouse Software',
+
             descriptions: [
               {
-                para: 'Effective inventory management is critical for manufacturers, distributors, wholesalers, retailers, and logistics companies. We develop inventory management software that provides complete visibility into stock movement, warehouse operations, purchasing, supplier management, and product availability.',
+                para: 'Inventory software can provide centralized visibility into stock, warehouses, procurement, stock movements and other inventory-related operations.',
               },
+
               {
-                para: 'Our inventory systems support barcode integration, purchase orders, warehouse transfers, stock adjustments, batch tracking, reorder management, and real-time inventory reporting to reduce operational costs and improve supply chain efficiency.',
+                para: 'Custom functionality can support multiple warehouses, stock transfers, product records, purchase workflows, inventory adjustments and operational reporting.',
               },
+
               {
-                para: 'Whether you manage a single warehouse or multiple distribution centers across India, our inventory solutions provide accurate operational data that supports informed business decisions.',
+                para: 'Inventory systems can also be connected with ERP, ecommerce, accounting, sales and other business systems to reduce duplicated data entry.',
               },
             ],
           },
 
           {
-            item_link_id: 'dashboard',
-            heading: 'Business Intelligence Dashboards & Reporting',
+            item_link_id: 'workflow-automation',
+
+            heading: 'CRM & ERP Workflow Automation',
+
             descriptions: [
               {
-                para: 'Business leaders require accurate information to make strategic decisions. We build executive dashboards that consolidate operational, financial, sales, customer, inventory, and employee data into clear visual reports that update in real time.',
+                para: 'CRM and ERP systems become significantly more useful when repetitive business processes can be automated instead of being managed manually through email, spreadsheets or separate applications.',
               },
+
               {
-                para: 'Custom reporting modules allow management teams to monitor KPIs, profitability, customer growth, sales performance, operational efficiency, inventory turnover, and departmental productivity without relying on multiple disconnected systems.',
+                para: 'Automation can cover approvals, lead assignments, notifications, task creation, escalations, document workflows and other business rules.',
               },
+
               {
-                para: 'By transforming business data into actionable insights, organizations can identify opportunities, reduce operational bottlenecks, and improve long-term performance.',
+                para: 'Workflows are designed around your actual organizational processes and permission structure.',
               },
             ],
           },
 
           {
-            item_link_id: 'integration',
-            heading: 'API Integrations & Legacy System Modernization',
+            item_link_id: 'crm-erp-integration',
+
+            heading: 'CRM & ERP Integration',
+
             descriptions: [
               {
-                para: 'Modern businesses rely on multiple software platforms including accounting systems, payment gateways, logistics providers, HR software, communication platforms, ERP solutions, and third-party business applications. We build secure integration layers that allow these systems to exchange data automatically.',
+                para: 'Businesses often use multiple systems for sales, accounting, inventory, communication, payments and operations. Integrations can connect these systems and reduce fragmented information.',
               },
+
               {
-                para: 'Our team also modernizes legacy desktop software, spreadsheet-based workflows, and outdated business applications by migrating them to secure cloud-native architectures with improved usability, scalability, and long-term maintainability.',
+                para: 'VoidMatrix can develop API-based integrations between your CRM or ERP and relevant third-party platforms.',
               },
+
               {
-                para: 'Whether you need integrations with payment gateways, Tally, WhatsApp Business APIs, Microsoft services, Google Workspace, shipping providers, or custom enterprise systems, we develop reliable integration solutions that reduce manual work while improving operational efficiency.',
+                para: 'Integration architecture considers authentication, data consistency, reliability, error handling and future scalability.',
+              },
+            ],
+          },
+
+          {
+            item_link_id: 'business-intelligence-dashboard',
+
+            heading: 'Business Intelligence & Dashboards',
+
+            descriptions: [
+              {
+                para: 'Centralized CRM and ERP data can provide management and operational teams with better visibility through dashboards and reporting.',
+              },
+
+              {
+                para: 'Custom dashboards can provide different views for sales teams, managers, finance teams, operations and executives based on their responsibilities.',
+              },
+
+              {
+                para: 'Reporting functionality can be connected to the underlying business data so decision-makers have access to relevant and timely information.',
               },
             ],
           },
         ]}
       />
+
+      {/* =====================================================
+          COST
+      ===================================================== */}
+
       <ServiceCost
         heading="CRM & ERP Development Cost in India"
         costdesc={[
           {
-            para: 'The cost of custom CRM and ERP development in India typically depends on the number of business modules, workflow complexity, integrations, security requirements, reporting capabilities, and long-term scalability. A focused CRM for sales teams requires significantly less engineering than an enterprise ERP managing finance, inventory, HR, procurement, manufacturing, and multiple business locations.',
+            para: 'Custom CRM and ERP development in India can start around ₹3,00,000 for focused CRM applications and can exceed ₹25,00,000 for complex ERP platforms with multiple modules, departments, integrations and advanced workflows.',
           },
+
           {
-            para: 'Unlike subscription-based business software, custom CRM and ERP systems are designed specifically around your organization. This eliminates unnecessary licensing costs, removes workflow limitations, and allows the platform to evolve as your business grows. The result is a long-term digital asset rather than an ongoing software expense.',
+            para: 'A sales CRM with lead management and dashboards requires a different scope from a complete ERP connecting finance, inventory, procurement, operations and other departments.',
           },
+
           {
-            para: 'At VoidMatrix Technology, every CRM and ERP platform is architected for future expansion. Whether you need a departmental solution today or a complete enterprise management platform tomorrow, we build systems that support continuous business growth without expensive redevelopment.',
+            para: 'VoidMatrix scopes CRM and ERP projects around the business processes that need to be digitized. This makes it possible to prioritize the most important modules first and expand the platform as the organization grows.',
           },
         ]}
       />
+
+      {/* =====================================================
+          COST FACTORS
+      ===================================================== */}
 
       <ServiceFactors
         heading="Factors That Affect CRM & ERP Development Cost"
-        intro="Every organization operates differently, which means every CRM or ERP platform requires a unique architecture. The final project scope depends on operational complexity, required business modules, integrations, user access, and automation requirements."
+        intro="The investment depends on the number of business processes, users, modules, integrations and automation requirements your organization needs."
         facts={[
-          'Number of business departments',
-          'Sales and CRM workflow complexity',
-          'Inventory and warehouse management',
-          'Finance and accounting modules',
-          'HR and payroll management',
-          'Manufacturing or production workflows',
-          'Approval and workflow automation',
-          'Custom reporting and dashboards',
-          'Third-party software integrations',
-          'Mobile application requirements',
-          'Cloud infrastructure and security',
-          'Long-term scalability requirements',
+          'Number of CRM or ERP modules',
+
+          'Number of departments',
+
+          'Number of users and roles',
+
+          'Role-based access requirements',
+
+          'Sales and operational workflows',
+
+          'Approval and automation requirements',
+
+          'Inventory and warehouse complexity',
+
+          'Database and reporting requirements',
+
+          'Third-party system integrations',
+
+          'Payment and accounting integrations',
+
+          'Security and authentication requirements',
+
+          'Migration, maintenance and ongoing development',
         ]}
       />
+
+      {/* =====================================================
+          COMPARISON
+      ===================================================== */}
 
       <ServiceComp
         heading="Custom CRM & ERP vs Off-the-Shelf Business Software"
-        desc="Popular business software platforms provide excellent starting points for standardized operations, but growing organizations often require workflows, reports, approvals, and integrations that packaged software cannot easily support. A custom CRM or ERP platform gives your business complete ownership of its technology, allowing every process to match the way your teams actually work while providing unlimited flexibility for future expansion."
+        desc="Off-the-shelf CRM and ERP platforms can be effective when their workflows and functionality closely match your organization. Custom development becomes more valuable when your processes require significant customization, automation, specialized permissions, integrations or control over the product roadmap. A custom CRM or ERP allows the software to be structured around your business instead of forcing your teams to change established processes to fit a generic platform."
       />
 
+      {/* =====================================================
+          CTA
+      ===================================================== */}
+
       <CtaButtonRe
-        title="Get a Custom CRM & ERP Development Estimate"
+        title="Discuss Your CRM & ERP Requirements"
         url="/contact"
       />
 
+      {/* =====================================================
+          APPROACH
+      ===================================================== */}
+
       <ServiceApproachSection
         heading="Our CRM & ERP Development Process"
-        intro="Successful business software is engineered around operational efficiency rather than individual features. Our architecture-first development methodology ensures every CRM and ERP platform supports your current business processes while remaining flexible enough to accommodate future growth, new departments, and evolving operational requirements."
+        intro="VoidMatrix follows a structured business-first engineering process for CRM and ERP development. We connect workflow discovery, architecture, module development, integrations, automation, testing and deployment to build systems that support long-term business operations."
         steps={engineeringSteps}
       />
+
+      {/* =====================================================
+          LOCATION
+      ===================================================== */}
+
       <ServiceCost
-        heading="CRM & ERP Development Company for Mumbai, Pune, India & Global Businesses"
+        heading="CRM & ERP Development Company in Mumbai, Pune, India & Global Markets"
         costdesc={[
           {
-            para: "Mumbai is home to financial institutions, logistics companies, healthcare providers, professional service firms, real estate businesses, and fast-growing startups that depend on efficient operations and real-time business insights. We build custom CRM and ERP software that helps Mumbai businesses centralize customer management, automate workflows, improve reporting, and scale operations without relying on disconnected systems.",
+            para: 'For businesses in Mumbai, VoidMatrix develops custom CRM and ERP systems for sales management, operations, inventory, finance, workflow automation and other business processes.',
           },
+
           {
-            para: "Pune has become one of India's leading manufacturing, automotive, IT, engineering, and SaaS hubs. Our ERP development services help manufacturers, distributors, and technology companies streamline inventory management, procurement, production planning, warehouse operations, HR, finance, and business intelligence through secure cloud-based platforms built for long-term scalability.",
+            para: 'For businesses in Pune and other Indian markets, we develop CRM and ERP platforms that can connect departments, automate workflows and centralize operational information.',
           },
+
           {
-            para: "Beyond Mumbai and Pune, we work with organizations across India and international markets including the UAE, UK, US, Europe, and Australia. Whether your teams operate from a single office or across multiple countries, we engineer cloud-native CRM and ERP solutions that support distributed teams, multiple business locations, secure access, and continuous business growth.",
+            para: 'We also work with organizations across Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad and other Indian cities requiring custom business management software.',
+          },
+
+          {
+            para: 'For international businesses across the USA, UK, UAE, Europe, Australia and other markets, VoidMatrix provides remote CRM and ERP development, integration, modernization and ongoing engineering support.',
           },
         ]}
       />
 
+      {/* =====================================================
+          SERVICE FIT
+      ===================================================== */}
+
       <ServiceFitSection
-        heading="When Should Your Business Invest in a Custom CRM or ERP?"
-        intro="Custom CRM and ERP software becomes the right investment when your organization begins to outgrow spreadsheets, disconnected applications, and manual business processes. Instead of adapting your operations to packaged software, a custom platform is engineered around the way your business actually works."
-        subintro="A custom CRM or ERP solution is ideal when:"
+        heading="When Should Your Business Invest in Custom CRM or ERP Software?"
+        intro="Custom CRM or ERP development becomes valuable when your existing tools no longer provide the visibility, automation or flexibility your organization needs."
+        subintro="A custom CRM or ERP may be the right fit when:"
         points={[
-          'Your team manages customers, leads, or projects using spreadsheets',
-          'Multiple departments work with disconnected software and duplicate data',
-          'Manual approvals and repetitive administrative work slow down operations',
-          'Management lacks real-time reports and business visibility',
-          'Inventory, procurement, or warehouse operations are becoming difficult to manage',
-          'Sales, finance, HR, and operations need to share accurate business data',
-          'You require secure role-based access for multiple departments',
-          'Your business requires integrations with accounting, payment, logistics, or third-party software',
-          'Subscription software no longer supports your unique workflows',
-          'You want a scalable business platform that grows with your organization',
+          'Your sales team relies on spreadsheets to manage leads',
+
+          'Customer information is spread across multiple systems',
+
+          'Departments work with disconnected business data',
+
+          'Employees repeatedly enter the same information into different tools',
+
+          'Approvals are handled manually through email or messaging',
+
+          'Inventory information is difficult to track',
+
+          'Your existing CRM or ERP requires too many workarounds',
+
+          'You need custom dashboards and reporting',
+
+          'Multiple systems need to exchange business data',
+
+          'Your organization needs greater control over workflows and business software',
         ]}
-        finalPara="A well-engineered CRM or ERP system is more than operational software—it becomes the digital backbone of your business, enabling better decision-making, improved productivity, stronger customer relationships, and sustainable long-term growth."
+        finalPara="If your business has outgrown spreadsheets, disconnected applications or generic CRM and ERP workflows, VoidMatrix can evaluate your existing processes and recommend a practical custom software approach."
       />
+
+      {/* =====================================================
+          WHAT IS CRM & ERP
+      ===================================================== */}
+
+      <WhaIsService
+        heading="What Is CRM & ERP Development?"
+        contents={contents}
+      />
+
+      {/* =====================================================
+          FAQ
+      ===================================================== */}
+
       <MainServiceFAQ
-        heading="Frequently Asked Questions"
+        heading="CRM & ERP Development Frequently Asked Questions"
         faqs={s_data.faqs}
       />
 
+      {/* =====================================================
+          FINAL CTA
+      ===================================================== */}
+
       <MainServiceCTA
-        heading="Build a CRM or ERP Platform That Grows With Your Business"
-        description="We develop custom CRM and ERP software tailored to your business, helping you automate processes, manage operations, and accelerate growth."
+        heading="Ready to Build a CRM or ERP Platform That Grows With Your Business?"
+        description="Tell VoidMatrix about your current workflows, systems and business requirements. We can help define the right CRM or ERP architecture, implementation scope and development approach."
       />
     </>
   );

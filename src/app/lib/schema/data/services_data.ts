@@ -14,43 +14,52 @@ export const serviceData = {
     faqs: [
       {
         q: 'How much does custom software development cost in India?',
-        a: 'Custom software development in India typically ranges from ₹3,00,000 to ₹25,00,000 or more, depending on the complexity, number of integrations, user roles, and scalability demands. A lightweight internal business tool sits at the lower end; an enterprise-grade SaaS platform with AI components, cloud architecture, and multi-tenant design sits at the higher end. At VMT, we share a detailed cost breakdown after a free scoping session - no surprises, no vague estimates.',
+        a: 'Custom software development in India typically starts around ₹3,00,000 for smaller projects and can exceed ₹25,00,000 for complex platforms. The actual cost depends on features, workflows, user roles, integrations, architecture, security and scalability requirements.',
       },
+
       {
         q: 'How long does it take to build custom software?',
-        a: 'A focused MVP typically takes 6-10 weeks. A mid-complexity business platform with integrations and custom workflows runs 3-5 months. Enterprise-grade systems requiring multi-department coordination and compliance reviews can take 6-9 months. We follow an agile sprint model, so you see working software every 2 weeks - not just a delivery at the end.',
+        a: 'Development time depends on the scope and complexity of the application. A focused MVP or internal application can require significantly less time than a large SaaS platform, CRM, ERP or enterprise system with multiple integrations and user roles.',
       },
+
       {
-        q: 'Why choose custom software over off-the-shelf solutions?',
-        a: 'Off-the-shelf tools are built for the average business - which means they are rarely a perfect fit for yours. Custom software is built around your actual processes, giving you better performance, tighter security, full integration capability, and no recurring per-seat licensing costs. Businesses that invest in custom software consistently report higher operational efficiency and lower long-term technology costs versus patching together SaaS subscriptions.',
+        q: 'Can VoidMatrix build software from an existing business process?',
+        a: 'Yes. VoidMatrix can analyze existing workflows and translate them into custom software requirements. This can include manual processes currently handled through spreadsheets, email, documents or multiple disconnected applications.',
       },
+
       {
-        q: 'Which industries do you serve?',
-        a: 'We have built custom software for businesses in fintech, healthcare, logistics, manufacturing, eCommerce, education, and management consulting. If your industry has unique compliance requirements, workflow complexity, or data sensitivity, custom software almost always outperforms generic alternatives. We are comfortable in both regulated and unregulated sectors.',
+        q: 'Can you develop custom CRM and ERP software?',
+        a: 'Yes. VoidMatrix develops custom CRM and ERP systems for businesses that need centralized data, role-based dashboards, workflow automation, reporting, inventory management, sales management and integrations tailored to their operations.',
       },
+
       {
-        q: 'What technologies do you use?',
-        a: 'Our primary stack includes React and Next.js on the frontend, Node.js and Python on the backend, PostgreSQL and MongoDB for data, and AWS or Azure for cloud deployment. We do not push a one-size-fits-all stack - technology decisions are made based on your performance requirements, team capabilities, and long-term maintenance needs.',
+        q: 'Can you build a SaaS product from scratch?',
+        a: 'Yes. VoidMatrix can develop SaaS products from MVP through scalable production architecture. Depending on requirements, this can include authentication, multi-tenant architecture, dashboards, subscription workflows, APIs, database design, integrations and cloud deployment.',
       },
+
       {
-        q: 'Do you handle cloud deployment and DevOps?',
-        a: 'Yes - cloud deployment, CI/CD pipeline setup, server configuration, infrastructure-as-code, and DevOps automation are all part of our delivery. We do not hand off a codebase and leave you to figure out hosting. Your software launches in a production-ready, monitored cloud environment.',
+        q: 'Can custom software integrate with our existing systems?',
+        a: 'Yes. Custom software can be integrated with existing CRMs, ERPs, payment gateways, communication platforms, analytics systems, logistics platforms and other applications through APIs or appropriate integration methods.',
       },
+
       {
-        q: 'How do you keep the software secure?',
-        a: 'Security is built into our development process, not added at the end. We implement secure coding practices, role-based access control, encrypted data storage, JWT and OAuth authentication, secure API design, and pre-launch security reviews. For clients in fintech or healthcare, we align with applicable Indian regulatory and data protection standards.',
+        q: 'Should I build custom software or use an existing SaaS tool?',
+        a: 'The right choice depends on your workflows, budget, required functionality and long-term goals. Existing SaaS tools can be suitable when their functionality closely matches your needs. Custom development becomes more valuable when your processes require significant customization, automation, integration or control.',
       },
+
       {
-        q: 'What happens after launch - do you provide support?',
-        a: 'Yes. We offer post-launch maintenance retainers covering bug fixes, performance monitoring, dependency updates, feature additions, and scaling support. Custom software is a living system - we stay involved as your business evolves.',
+        q: 'Do you provide software maintenance after development?',
+        a: 'Yes. VoidMatrix can provide ongoing engineering support after launch, including bug fixes, performance optimization, security updates, infrastructure scaling, integrations and new feature development.',
       },
+
       {
-        q: 'Can the software scale as my user base grows?',
-        a: 'Scalability is an architecture decision, not an afterthought. We design systems with horizontal scaling, database optimization, load balancing, and caching layers from the start - whether you are serving 100 users today or planning for 100,000 tomorrow.',
+        q: 'Do you provide custom software development in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides custom software development for businesses in Mumbai, Pune and other Indian cities, as well as remote software development for international businesses.',
       },
+
       {
-        q: 'Do you sign NDAs before project discussions?',
-        a: 'Absolutely. We sign a Non-Disclosure Agreement before any detailed project conversation. Your business idea, operational processes, and proprietary data remain confidential throughout the engagement and after it ends.',
+        q: 'Why should I choose VoidMatrix for custom software development?',
+        a: 'VoidMatrix combines business-focused requirements analysis, software architecture, development, integrations, deployment and long-term engineering support. The objective is to build software around your actual business requirements rather than simply delivering a collection of requested features.',
       },
     ],
     offer: [300000, 2500000],
@@ -99,36 +108,53 @@ export const serviceData = {
       'VoidMatrix Technology builds enterprise software in India for organizations that have outgrown spreadsheets, disconnected tools, and rigid off-the-shelf systems. Based in Mumbai, our team designs and develops ERP systems, enterprise dashboards, workflow automation platforms, internal management systems, and data-driven business applications for companies across fintech, healthcare, logistics, manufacturing, SaaS, and consulting. Enterprise software demands a different level of engineering rigor - multi-department workflows, complex permission models, high-volume data processing, and integration with legacy systems. We approach every engagement with architecture-first thinking: defining scalable data models, secure authentication systems, and modular codebases that can evolve with your business over years, not months. Our end-to-end delivery covers requirements workshops, system architecture, cloud infrastructure, API development, DevOps automation, user training, and long-term support. If your organization needs software that handles real operational complexity - not a watered-down generic tool - our enterprise development team in Mumbai is built for that.',
     faqs: [
       {
-        q: 'What qualifies as enterprise software development?',
-        a: 'Enterprise software development involves building large-scale systems that manage complex organizational operations - ERP platforms, workflow automation engines, analytics dashboards, internal portals, and multi-department management tools. These systems typically serve dozens to thousands of internal users and integrate with multiple other business systems.',
-      },
-      {
         q: 'How much does enterprise software development cost in India?',
-        a: 'Enterprise software projects in India range from ₹5,00,000 for a focused departmental tool to ₹40,00,000 or more for a full multi-module ERP or enterprise platform. Cost is driven by the number of modules, user roles, integrations, compliance requirements, and infrastructure complexity. We provide detailed cost estimates after a thorough discovery session.',
+        a: 'Enterprise software development in India can start around ₹8,00,000 for a focused business application and exceed ₹25,00,000 for complex enterprise platforms. The final investment depends on modules, departments, users, workflows, integrations, security, infrastructure and scalability requirements.',
       },
-      {
-        q: 'Which industries need enterprise software most?',
-        a: 'Fintech, logistics, healthcare, manufacturing, SaaS, and management consulting are the heaviest users of custom enterprise software in India. These industries deal with high transaction volumes, regulatory complexity, multi-location operations, and data that cannot safely live in generic tools.',
-      },
+
       {
         q: 'How long does enterprise software development take?',
-        a: 'Enterprise projects typically run 3-8 months, depending on module count, integration complexity, and testing requirements. We break delivery into phases so you get working functionality early rather than waiting for a full launch. Each phase goes through UAT before moving forward.',
+        a: 'The timeline depends on the size and complexity of the enterprise system. A focused internal application can be delivered faster than a large ERP, CRM or integrated enterprise platform involving multiple departments, complex workflows and third-party systems. VoidMatrix defines the timeline after understanding the required scope.',
       },
+
       {
-        q: 'Do you build custom ERP systems?',
-        a: 'Yes. Custom ERP development is one of our core enterprise offerings. We build modular ERP systems covering finance, operations, HR, inventory, and procurement - designed around your actual workflows rather than forcing you to adapt to software limitations.',
+        q: 'Can VoidMatrix build custom ERP software for enterprises?',
+        a: 'Yes. VoidMatrix can build custom ERP systems around your finance, inventory, procurement, operations, HR, sales and other business processes. The system can include role-based access, workflows, dashboards, reporting and integrations based on your requirements.',
       },
+
       {
-        q: 'Can you integrate the enterprise software with our existing systems?',
-        a: 'Yes - legacy system integration is something we do regularly. We connect enterprise software with payment processors, CRMs, analytics platforms, communication tools, third-party APIs, and existing internal systems through secure, well-documented APIs and ETL pipelines.',
+        q: 'Can you develop enterprise CRM software?',
+        a: 'Yes. VoidMatrix develops custom enterprise CRM platforms covering lead management, customer records, sales pipelines, communication tracking, reporting, dashboards, permissions and integrations with other business systems.',
       },
+
       {
-        q: 'Do you serve enterprises in Mumbai and Pune?',
-        a: 'Yes. We actively work with mid-size and large enterprises in Mumbai, Pune, and other Indian cities. Our remote-first delivery model with structured milestones and dedicated project management works effectively for enterprise clients regardless of location.',
+        q: 'Can enterprise software integrate with our existing systems?',
+        a: 'Yes. Enterprise applications can be integrated with existing ERP, CRM, HR, finance, payment, logistics, communication, analytics and other systems through APIs and appropriate integration architecture.',
       },
+
       {
-        q: 'How do you ensure the software handles our scale?',
-        a: 'Scale is a design decision made before a single line of code is written. We architect enterprise systems with horizontal scalability, database sharding where needed, read replicas for reporting workloads, and load-balanced cloud infrastructure - so the system performs at 10x your current scale.',
+        q: 'Can you automate enterprise business workflows?',
+        a: 'Yes. VoidMatrix can develop workflow automation for approvals, task assignments, notifications, escalations, document processing, business rules and other repetitive operational processes across departments.',
+      },
+
+      {
+        q: 'Should we build custom enterprise software or use an existing platform?',
+        a: 'Existing platforms can be suitable when their functionality matches your organization’s requirements. Custom enterprise software becomes more valuable when your workflows require significant customization, integrations, automation, specialized permissions or greater control over the technology roadmap.',
+      },
+
+      {
+        q: 'Can VoidMatrix modernize legacy enterprise software?',
+        a: 'Yes. VoidMatrix can assess legacy applications and identify opportunities across architecture, databases, APIs, frontend systems, infrastructure, security and deployment. Depending on the system, modernization can be performed incrementally rather than replacing everything at once.',
+      },
+
+      {
+        q: 'Do you provide enterprise software development in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides enterprise software development for organizations in Mumbai, Pune and other Indian cities, as well as remote enterprise software engineering for international organizations.',
+      },
+
+      {
+        q: 'Why should we choose VoidMatrix for enterprise software development?',
+        a: 'VoidMatrix combines business requirements analysis, software architecture, application development, integrations, automation, deployment and long-term engineering support. Our approach focuses on building enterprise systems around the organization’s actual workflows and future technology requirements.',
       },
     ],
     offer: [500000, 4000000],
@@ -291,56 +317,56 @@ export const serviceData = {
       'VoidMatrix Technology helps businesses improve their visibility in Google Search and Google Maps through comprehensive Local SEO services. We optimise Google Business Profiles, location pages, local citations, structured data, reviews, and technical SEO to increase local enquiries and qualified leads. Whether you operate from a single location or manage multiple branches across India, our Local SEO strategies are designed to improve rankings, increase calls, and generate more local business.',
 
     faqs: [
-  {
-    q: 'How much does local SEO cost in Mumbai?',
-    a: 'Local SEO cost depends on factors such as the number of locations, competition, services, website condition, Google Business Profile requirements, content needs and ongoing optimization. VoidMatrix can recommend the appropriate scope after reviewing your business and target market.',
-  },
+      {
+        q: 'How much does local SEO cost in Mumbai?',
+        a: 'Local SEO cost depends on factors such as the number of locations, competition, services, website condition, Google Business Profile requirements, content needs and ongoing optimization. VoidMatrix can recommend the appropriate scope after reviewing your business and target market.',
+      },
 
-  {
-    q: 'How long does local SEO take to show results?',
-    a: 'Local SEO results vary depending on competition, website authority, current optimization, location and the condition of your existing local search presence. Some improvements can appear relatively quickly, while stronger organic visibility generally requires consistent optimization over time.',
-  },
+      {
+        q: 'How long does local SEO take to show results?',
+        a: 'Local SEO results vary depending on competition, website authority, current optimization, location and the condition of your existing local search presence. Some improvements can appear relatively quickly, while stronger organic visibility generally requires consistent optimization over time.',
+      },
 
-  {
-    q: 'Can you optimize our Google Business Profile?',
-    a: 'Yes. VoidMatrix provides Google Business Profile optimization as part of its local SEO services. We can review business information, categories, services, descriptions and the relationship between your Business Profile and website.',
-  },
+      {
+        q: 'Can you optimize our Google Business Profile?',
+        a: 'Yes. VoidMatrix provides Google Business Profile optimization as part of its local SEO services. We can review business information, categories, services, descriptions and the relationship between your Business Profile and website.',
+      },
 
-  {
-    q: 'Can local SEO help my business appear on Google Maps?',
-    a: 'Local SEO can improve the overall relevance and visibility of your business across Google Search and Google Maps by addressing Google Business Profile optimization, website relevance, local keywords, location pages, citations and other appropriate local signals.',
-  },
+      {
+        q: 'Can local SEO help my business appear on Google Maps?',
+        a: 'Local SEO can improve the overall relevance and visibility of your business across Google Search and Google Maps by addressing Google Business Profile optimization, website relevance, local keywords, location pages, citations and other appropriate local signals.',
+      },
 
-  {
-    q: 'Do you provide local SEO services for multiple locations?',
-    a: 'Yes. Local SEO strategies can be structured for businesses with multiple branches, cities or service areas. The strategy can include location-specific keyword mapping, location pages, Business Profile considerations and a scalable website architecture.',
-  },
+      {
+        q: 'Do you provide local SEO services for multiple locations?',
+        a: 'Yes. Local SEO strategies can be structured for businesses with multiple branches, cities or service areas. The strategy can include location-specific keyword mapping, location pages, Business Profile considerations and a scalable website architecture.',
+      },
 
-  {
-    q: 'Do you provide local SEO services outside Mumbai?',
-    a: 'Yes. VoidMatrix provides local SEO services for businesses targeting Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, other Indian cities and international markets.',
-  },
+      {
+        q: 'Do you provide local SEO services outside Mumbai?',
+        a: 'Yes. VoidMatrix provides local SEO services for businesses targeting Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, other Indian cities and international markets.',
+      },
 
-  {
-    q: 'Can local SEO generate leads for my business?',
-    a: 'Local SEO is designed to improve visibility for relevant searches that can lead to customer actions such as website visits, calls, enquiries, appointments and visits. Results depend on the market, competition, business offering and overall conversion experience.',
-  },
+      {
+        q: 'Can local SEO generate leads for my business?',
+        a: 'Local SEO is designed to improve visibility for relevant searches that can lead to customer actions such as website visits, calls, enquiries, appointments and visits. Results depend on the market, competition, business offering and overall conversion experience.',
+      },
 
-  {
-    q: 'Do I need a website for local SEO?',
-    a: 'A Google Business Profile can have its own local search presence, but a strong website can provide additional opportunities to target services, locations, commercial searches and supporting content. VoidMatrix can evaluate both your website and local search assets as part of the strategy.',
-  },
+      {
+        q: 'Do I need a website for local SEO?',
+        a: 'A Google Business Profile can have its own local search presence, but a strong website can provide additional opportunities to target services, locations, commercial searches and supporting content. VoidMatrix can evaluate both your website and local search assets as part of the strategy.',
+      },
 
-  {
-    q: 'Can you create location pages for local SEO?',
-    a: 'Yes. We can create or optimize location pages where they represent genuine business coverage and provide useful information for customers. The goal is to build useful location pages rather than duplicate pages that only change the city name.',
-  },
+      {
+        q: 'Can you create location pages for local SEO?',
+        a: 'Yes. We can create or optimize location pages where they represent genuine business coverage and provide useful information for customers. The goal is to build useful location pages rather than duplicate pages that only change the city name.',
+      },
 
-  {
-    q: 'Why should I choose VoidMatrix for local SEO?',
-    a: 'VoidMatrix combines SEO strategy with technical and web development expertise. This allows us to work across Google Business Profile, website architecture, location pages, internal linking, technical SEO, content and structured data instead of treating local SEO as a single optimization task.',
-  },
-],
+      {
+        q: 'Why should I choose VoidMatrix for local SEO?',
+        a: 'VoidMatrix combines SEO strategy with technical and web development expertise. This allows us to work across Google Business Profile, website architecture, location pages, internal linking, technical SEO, content and structured data instead of treating local SEO as a single optimization task.',
+      },
+    ],
 
     offer: [25000, 200000],
   },
@@ -1017,44 +1043,53 @@ export const serviceData = {
       'VoidMatrix Technology builds custom CRM and ERP systems in India for businesses that have grown beyond what spreadsheets and generic software can handle - and need systems that actually match how they work. Based in Mumbai, we design and develop CRM platforms, ERP systems, and business management tools for manufacturing companies, consulting firms, logistics businesses, retail brands, and service organizations in Mumbai, Pune, Bangalore, and across India. Off-the-shelf CRM and ERP tools are built for average workflows - which means every business using them is making workflow compromises to fit the software. Custom systems eliminate those compromises, giving you a platform that matches your sales process, reporting structure, operational hierarchy, and integration requirements exactly. We handle the complete delivery: requirements workshops, system architecture, module development, data migration from legacy systems or spreadsheets, third-party integrations, user training, and post-launch support. Whether you need a lightweight CRM for a 5-person sales team or a full multi-department ERP, we build it to scale with your business.',
     faqs: [
       {
-        q: 'What is the difference between CRM and ERP software?',
-        a: 'CRM software focuses on managing customer relationships, sales pipelines, marketing, and customer support, while ERP software manages internal business operations such as finance, inventory, HR, procurement, manufacturing, and reporting. Many growing businesses benefit from integrating both systems into a single platform.',
+        q: 'How much does custom CRM and ERP development cost in India?',
+        a: 'Custom CRM and ERP development in India can start around ₹3,00,000 for focused systems and exceed ₹25,00,000 for complex platforms. The final cost depends on modules, users, workflows, integrations, automation, reporting, security and infrastructure requirements.',
       },
+
       {
-        q: 'Should my business build a CRM, an ERP, or both?',
-        a: 'The right solution depends on your business processes. Companies primarily focused on sales and customer management usually begin with a CRM, while organizations managing inventory, finance, HR, or production often require an ERP. Businesses with multiple departments frequently benefit from an integrated CRM and ERP platform.',
+        q: 'How long does it take to develop a custom CRM or ERP?',
+        a: 'The timeline depends on the number of modules, workflows, users and integrations. A focused CRM can be developed faster than a complete ERP covering finance, inventory, procurement, operations and multiple departments. VoidMatrix defines the development timeline after understanding the required scope.',
       },
+
       {
-        q: 'How much does custom CRM or ERP development cost in India?',
-        a: 'The cost depends on the number of modules, workflow complexity, integrations, reporting requirements, security, user roles, and scalability. After understanding your business processes, we provide a detailed project scope and transparent development estimate.',
+        q: 'Can VoidMatrix build a CRM from scratch?',
+        a: 'Yes. VoidMatrix can build a custom CRM around your lead management, sales pipeline, customer records, follow-ups, communication, reporting and workflow requirements.',
       },
+
       {
-        q: 'Can you migrate our existing Excel sheets or legacy software into a new CRM or ERP?',
-        a: 'Yes. We help businesses migrate data from spreadsheets, desktop applications, legacy software, and existing databases into modern cloud-based CRM and ERP systems while maintaining data accuracy and minimizing operational disruption.',
+        q: 'Can you develop a custom ERP for our business?',
+        a: 'Yes. VoidMatrix develops custom ERP platforms that can connect functions such as finance, inventory, procurement, operations, HR, sales and reporting according to your organization’s requirements.',
       },
+
       {
-        q: 'Can the CRM or ERP integrate with third-party software?',
-        a: 'Absolutely. We develop secure integrations with payment gateways, accounting software, ERP systems, WhatsApp Business, email platforms, logistics providers, cloud services, and custom APIs to create a connected business ecosystem.',
+        q: 'Can CRM and ERP systems be integrated?',
+        a: 'Yes. CRM and ERP systems can be integrated so customer, sales, inventory, finance and operational information can move between systems. VoidMatrix can design API-based integrations around your existing technology environment.',
       },
+
       {
-        q: 'Which industries do you develop CRM and ERP software for?',
-        a: 'We build custom business software for manufacturing, logistics, healthcare, finance, education, retail, professional services, construction, real estate, technology companies, and many other industries requiring workflow automation and centralized business management.',
+        q: 'Can you migrate our existing Excel data into a CRM or ERP?',
+        a: 'Yes. Existing business data can be assessed and migrated into a custom CRM or ERP where the data structure and quality support migration. The migration approach depends on the volume, format and complexity of the existing data.',
       },
+
       {
-        q: 'Can multiple departments use the same CRM or ERP platform?',
-        a: 'Yes. Our platforms support role-based access control, allowing departments such as sales, finance, HR, inventory, procurement, management, and customer support to securely access the information relevant to their responsibilities.',
+        q: 'Can you automate our existing business workflows?',
+        a: 'Yes. VoidMatrix can digitize and automate workflows such as lead assignment, approvals, notifications, task management, inventory processes, document flows and other repetitive operational activities.',
       },
+
       {
-        q: 'Is the CRM or ERP scalable as our business grows?',
-        a: 'Yes. Every platform is architected for scalability so additional users, departments, business modules, reports, integrations, and automation workflows can be added as your organization expands.',
+        q: 'Should we choose a custom CRM or an off-the-shelf CRM?',
+        a: 'An off-the-shelf CRM can be suitable when its workflows and functionality closely match your sales process. Custom CRM development becomes more valuable when your organization requires specialized workflows, integrations, automation, permissions or control over future functionality.',
       },
+
       {
-        q: 'Do you provide support and maintenance after deployment?',
-        a: 'Yes. We offer ongoing maintenance, performance optimization, security updates, feature enhancements, cloud infrastructure support, and long-term technical assistance to ensure your business software continues to evolve with your organization.',
+        q: 'Do you provide CRM and ERP development in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides CRM and ERP development for businesses in Mumbai, Pune and other Indian cities, as well as remote development services for international businesses.',
       },
+
       {
-        q: 'Why choose VoidMatrix Technology for CRM and ERP development?',
-        a: 'We build architecture-first CRM and ERP solutions using modern technologies such as Next.js, React, Node.js, PostgreSQL, and cloud infrastructure. Every platform is engineered specifically for your business workflows, emphasizing scalability, security, performance, and long-term maintainability rather than generic templates.',
+        q: 'Why should we choose VoidMatrix for CRM and ERP development?',
+        a: 'VoidMatrix combines business process analysis, software architecture, application development, workflow automation, integrations, deployment and ongoing engineering support. This allows CRM and ERP systems to be designed around your actual business operations rather than generic software workflows.',
       },
     ],
     offer: [300000, 3000000],
@@ -1409,106 +1444,106 @@ export const serviceData = {
     description:
       "VoidMatrix Technology provides growth consulting services in India for startups and scaling businesses that have moved past initial traction but are struggling to identify what to do next - and how to do it systematically. Based in Mumbai, we work with founders and growth teams in Mumbai, Pune, Bangalore, and across India who are ready to replace ad-hoc experimentation with structured, repeatable growth systems. Growth consulting is not strategy for strategy's sake: our engagements diagnose exactly what is suppressing growth (acquisition bottlenecks, activation failures, retention problems, or sales funnel leaks), identify the highest-leverage interventions, and build execution frameworks your team can run without consultants present. We have worked across B2B SaaS, consumer apps, eCommerce, and service businesses - understanding that growth levers differ significantly by business model and market.",
     faqs: [
-  {
-    q: 'What is growth consulting?',
-    a: 'Growth consulting is the process of helping businesses identify and prioritize opportunities to improve customer acquisition, website traffic, conversions, revenue, retention, marketing efficiency, and overall business growth.'
-  },
+      {
+        q: 'What is growth consulting?',
+        a: 'Growth consulting is the process of helping businesses identify and prioritize opportunities to improve customer acquisition, website traffic, conversions, revenue, retention, marketing efficiency, and overall business growth.',
+      },
 
-  {
-    q: 'What does a growth consultant do?',
-    a: 'A growth consultant evaluates the business model, target customers, digital presence, acquisition channels, website performance, SEO, conversion opportunities, analytics, and marketing activities to identify practical opportunities for growth.'
-  },
+      {
+        q: 'What does a growth consultant do?',
+        a: 'A growth consultant evaluates the business model, target customers, digital presence, acquisition channels, website performance, SEO, conversion opportunities, analytics, and marketing activities to identify practical opportunities for growth.',
+      },
 
-  {
-    q: 'Why does a business need growth consulting?',
-    a: 'Growth consulting can help businesses identify growth opportunities, prioritize marketing activities, improve customer acquisition, optimize conversion journeys, strengthen digital performance, and connect marketing activities with measurable business objectives.'
-  },
+      {
+        q: 'Why does a business need growth consulting?',
+        a: 'Growth consulting can help businesses identify growth opportunities, prioritize marketing activities, improve customer acquisition, optimize conversion journeys, strengthen digital performance, and connect marketing activities with measurable business objectives.',
+      },
 
-  {
-    q: 'What is included in growth consulting services?',
-    a: 'Growth consulting can include growth strategy, customer acquisition, SEO, digital marketing, website optimization, conversion optimization, analytics, content strategy, customer journey analysis, and growth roadmap planning.'
-  },
+      {
+        q: 'What is included in growth consulting services?',
+        a: 'Growth consulting can include growth strategy, customer acquisition, SEO, digital marketing, website optimization, conversion optimization, analytics, content strategy, customer journey analysis, and growth roadmap planning.',
+      },
 
-  {
-    q: 'How much does growth consulting cost in India?',
-    a: 'Growth consulting cost in India depends on the business size, growth objectives, existing digital presence, marketing channels, SEO requirements, website performance, analytics requirements, competitive environment, and scope of consulting.'
-  },
+      {
+        q: 'How much does growth consulting cost in India?',
+        a: 'Growth consulting cost in India depends on the business size, growth objectives, existing digital presence, marketing channels, SEO requirements, website performance, analytics requirements, competitive environment, and scope of consulting.',
+      },
 
-  {
-    q: 'Do you provide growth consulting services in Mumbai?',
-    a: 'Yes. VoidMatrix provides growth consulting services in Mumbai covering SEO, digital marketing, website optimization, conversion optimization, customer acquisition, analytics, and growth strategy.'
-  },
+      {
+        q: 'Do you provide growth consulting services in Mumbai?',
+        a: 'Yes. VoidMatrix provides growth consulting services in Mumbai covering SEO, digital marketing, website optimization, conversion optimization, customer acquisition, analytics, and growth strategy.',
+      },
 
-  {
-    q: 'Do you provide growth consulting across India?',
-    a: 'Yes. VoidMatrix provides growth consulting services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
-  },
+      {
+        q: 'Do you provide growth consulting across India?',
+        a: 'Yes. VoidMatrix provides growth consulting services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.',
+      },
 
-  {
-    q: 'Can growth consulting help improve website conversions?',
-    a: 'Yes. Growth consulting can evaluate landing pages, website structure, calls to action, forms, content, user journeys, page performance, and other conversion factors to identify opportunities for improving conversion rates.'
-  },
+      {
+        q: 'Can growth consulting help improve website conversions?',
+        a: 'Yes. Growth consulting can evaluate landing pages, website structure, calls to action, forms, content, user journeys, page performance, and other conversion factors to identify opportunities for improving conversion rates.',
+      },
 
-  {
-    q: 'Can growth consulting include SEO?',
-    a: 'Yes. Growth consulting can include technical SEO, on-page SEO, content strategy, local SEO, search intent, internal linking, search visibility, and other SEO activities connected with business growth objectives.'
-  },
+      {
+        q: 'Can growth consulting include SEO?',
+        a: 'Yes. Growth consulting can include technical SEO, on-page SEO, content strategy, local SEO, search intent, internal linking, search visibility, and other SEO activities connected with business growth objectives.',
+      },
 
-  {
-    q: 'Can growth consulting include digital marketing?',
-    a: 'Yes. Growth consulting can evaluate SEO, paid advertising, social media, content marketing, email marketing, website performance, analytics, and other digital channels to determine how they can support customer acquisition and growth.'
-  },
+      {
+        q: 'Can growth consulting include digital marketing?',
+        a: 'Yes. Growth consulting can evaluate SEO, paid advertising, social media, content marketing, email marketing, website performance, analytics, and other digital channels to determine how they can support customer acquisition and growth.',
+      },
 
-  {
-    q: 'Can growth consulting help reduce customer acquisition costs?',
-    a: 'Growth consulting can identify opportunities to improve acquisition efficiency by evaluating marketing channels, targeting, landing pages, conversion rates, customer journeys, website performance, and marketing measurement.'
-  },
+      {
+        q: 'Can growth consulting help reduce customer acquisition costs?',
+        a: 'Growth consulting can identify opportunities to improve acquisition efficiency by evaluating marketing channels, targeting, landing pages, conversion rates, customer journeys, website performance, and marketing measurement.',
+      },
 
-  {
-    q: 'Can growth consulting help startups?',
-    a: 'Yes. Growth consulting can help startups define acquisition strategies, identify target customers, prioritize digital channels, improve websites and landing pages, establish analytics, and create a practical growth roadmap.'
-  },
+      {
+        q: 'Can growth consulting help startups?',
+        a: 'Yes. Growth consulting can help startups define acquisition strategies, identify target customers, prioritize digital channels, improve websites and landing pages, establish analytics, and create a practical growth roadmap.',
+      },
 
-  {
-    q: 'Do you provide growth consulting for SaaS businesses?',
-    a: 'Yes. VoidMatrix provides growth consulting for SaaS businesses covering customer acquisition, SEO, website conversion, digital marketing, analytics, content, customer journeys, and scalable growth strategies.'
-  },
+      {
+        q: 'Do you provide growth consulting for SaaS businesses?',
+        a: 'Yes. VoidMatrix provides growth consulting for SaaS businesses covering customer acquisition, SEO, website conversion, digital marketing, analytics, content, customer journeys, and scalable growth strategies.',
+      },
 
-  {
-    q: 'Do you provide growth consulting for eCommerce businesses?',
-    a: 'Yes. Growth consulting for eCommerce businesses can cover organic search, paid acquisition, website conversion, product journeys, customer acquisition, analytics, retention opportunities, and digital marketing strategy.'
-  },
+      {
+        q: 'Do you provide growth consulting for eCommerce businesses?',
+        a: 'Yes. Growth consulting for eCommerce businesses can cover organic search, paid acquisition, website conversion, product journeys, customer acquisition, analytics, retention opportunities, and digital marketing strategy.',
+      },
 
-  {
-    q: 'Can growth consulting help businesses entering new markets?',
-    a: 'Yes. Growth consulting can help businesses evaluate target markets, customer segments, search opportunities, digital channels, website requirements, competitive environments, and acquisition strategies when expanding into new markets.'
-  },
+      {
+        q: 'Can growth consulting help businesses entering new markets?',
+        a: 'Yes. Growth consulting can help businesses evaluate target markets, customer segments, search opportunities, digital channels, website requirements, competitive environments, and acquisition strategies when expanding into new markets.',
+      },
 
-  {
-    q: 'How is growth consulting different from digital marketing?',
-    a: 'Digital marketing focuses on executing marketing activities across channels. Growth consulting takes a broader strategic view by evaluating business objectives, customer acquisition, website performance, conversion, SEO, marketing channels, analytics, and growth priorities before deciding where execution should focus.'
-  },
+      {
+        q: 'How is growth consulting different from digital marketing?',
+        a: 'Digital marketing focuses on executing marketing activities across channels. Growth consulting takes a broader strategic view by evaluating business objectives, customer acquisition, website performance, conversion, SEO, marketing channels, analytics, and growth priorities before deciding where execution should focus.',
+      },
 
-  {
-    q: 'Can growth consulting help with analytics and tracking?',
-    a: 'Yes. Growth consulting can include evaluating analytics, conversion tracking, key performance indicators, acquisition sources, customer journeys, and other data required to measure and improve digital growth.'
-  },
+      {
+        q: 'Can growth consulting help with analytics and tracking?',
+        a: 'Yes. Growth consulting can include evaluating analytics, conversion tracking, key performance indicators, acquisition sources, customer journeys, and other data required to measure and improve digital growth.',
+      },
 
-  {
-    q: 'How long does growth consulting take?',
-    a: 'The duration depends on the scope of the business and the number of areas being evaluated. A focused growth strategy may require less consulting work than a broader engagement covering SEO, digital marketing, website optimization, analytics, and customer acquisition.'
-  },
+      {
+        q: 'How long does growth consulting take?',
+        a: 'The duration depends on the scope of the business and the number of areas being evaluated. A focused growth strategy may require less consulting work than a broader engagement covering SEO, digital marketing, website optimization, analytics, and customer acquisition.',
+      },
 
-  {
-    q: 'Do you provide growth consulting for international businesses?',
-    a: 'Yes. VoidMatrix provides growth consulting for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
-  },
+      {
+        q: 'Do you provide growth consulting for international businesses?',
+        a: 'Yes. VoidMatrix provides growth consulting for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.',
+      },
 
-  {
-    q: 'Why choose VoidMatrix for growth consulting?',
-    a: 'VoidMatrix connects business growth with technology, SEO, digital marketing, website performance, conversion optimization, analytics, and customer acquisition. Our approach focuses on identifying practical priorities rather than simply increasing the number of marketing activities.'
-  }
-],
+      {
+        q: 'Why choose VoidMatrix for growth consulting?',
+        a: 'VoidMatrix connects business growth with technology, SEO, digital marketing, website performance, conversion optimization, analytics, and customer acquisition. Our approach focuses on identifying practical priorities rather than simply increasing the number of marketing activities.',
+      },
+    ],
     offer: [75000, 500000],
   },
 
@@ -2008,47 +2043,56 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides product engineering services in India for startups and technology companies that need a technical partner who thinks about the product, not just the code. Based in Mumbai, we work as an embedded product engineering team for founders and product leaders in Mumbai, Pune, Bangalore, and across India who need full-stack technical execution combined with the product judgment to know what to build, how to build it, and when to cut scope. Product engineering is the discipline of building software products users actually want to use - combining frontend and backend development, API design, cloud deployment, and iterative quality improvement with the product thinking that ensures engineering effort goes toward features that create business value. We build SaaS products, consumer applications, B2B platforms, and internal tools on React, Node.js, and cloud infrastructure, using agile sprint delivery that gives you visibility into progress every two weeks rather than a finished product at the end.',
     faqs: [
-      {
-        q: 'What is product engineering?',
-        a: 'Product engineering is the end-to-end process of designing, developing, launching, maintaining, and continuously improving digital products. It combines product strategy, software engineering, cloud infrastructure, security, and continuous innovation to build products that remain scalable and competitive throughout their lifecycle.',
-      },
-      {
-        q: 'How is product engineering different from software development?',
-        a: 'Software development typically focuses on delivering a predefined application, while product engineering covers the entire lifecycle of a product—from idea validation and architecture to product launch, scaling, modernization, and continuous improvement. It is a long-term engineering approach rather than a one-time development project.',
-      },
-      {
-        q: 'Can you build MVPs for startups?',
-        a: 'Yes. We develop Minimum Viable Products (MVPs) that allow startups to validate business ideas, launch faster, gather user feedback, and attract investors. Every MVP is designed with scalable architecture so it can evolve into a complete production-ready product without rebuilding the foundation.',
-      },
-      {
-        q: 'Which technologies do you use for product engineering?',
-        a: 'Our engineering team builds digital products using modern technologies including Next.js, React, TypeScript, Node.js, PostgreSQL, REST APIs, Docker, cloud infrastructure, and scalable backend architectures selected according to each product’s requirements.',
-      },
-      {
-        q: 'Can you modernize our existing software product?',
-        a: 'Yes. We help businesses modernize legacy applications by upgrading outdated technologies, improving performance, redesigning user experiences, migrating to cloud-native architectures, strengthening security, and implementing scalable engineering practices while minimizing business disruption.',
-      },
-      {
-        q: 'How much do product engineering services cost in India?',
-        a: 'The investment depends on the product scope, engineering complexity, integrations, infrastructure, security, and long-term roadmap. After understanding your business objectives and technical requirements, we provide a detailed proposal with transparent pricing and phased development recommendations.',
-      },
-      {
-        q: 'Do you provide product engineering for enterprises?',
-        a: 'Yes. We work with startups, SMEs, and enterprise organizations to develop customer-facing applications, SaaS products, internal platforms, enterprise portals, and mission-critical software engineered for scalability, security, and long-term growth.',
-      },
-      {
-        q: 'Can you scale our product after launch?',
-        a: 'Absolutely. Product engineering continues after launch. We provide infrastructure scaling, performance optimization, new feature development, cloud optimization, analytics, monitoring, security updates, and ongoing engineering support to help products grow with increasing user demand.',
-      },
-      {
-        q: 'Do you offer dedicated product engineering teams?',
-        a: 'Yes. Businesses can work with dedicated cross-functional engineering teams including product engineers, frontend developers, backend developers, UI/UX designers, QA engineers, DevOps specialists, and technical architects depending on project requirements.',
-      },
-      {
-        q: 'Why choose VoidMatrix Technology for product engineering?',
-        a: 'VoidMatrix Technology builds architecture-first digital products designed for long-term success. We combine product strategy, modern engineering, cloud-native development, scalable architecture, security, and continuous product evolution to help startups and enterprises transform ideas into successful digital products.',
-      },
-    ],
+  {
+    q: 'How much does product engineering cost in India?',
+    a: 'Product engineering in India can start around ₹3,00,000 for focused MVP engineering and exceed ₹25,00,000 for larger product development engagements. The investment depends on product scope, features, architecture, integrations, infrastructure, security and ongoing engineering requirements.',
+  },
+
+  {
+    q: 'What is the difference between product engineering and software development?',
+    a: 'Software development can focus on delivering a specific application or feature set, while product engineering considers the broader product lifecycle including requirements, architecture, development, quality, deployment, scalability, modernization and continuous evolution.',
+  },
+
+  {
+    q: 'Can VoidMatrix help build an MVP?',
+    a: 'Yes. VoidMatrix can support MVP development from product requirements and technical planning through architecture, frontend and backend development, integrations, testing and deployment. The MVP scope is focused on the functionality required to validate the product and reach initial users.',
+  },
+
+  {
+    q: 'Can you modernize an existing software product?',
+    a: 'Yes. VoidMatrix can assess an existing product and identify modernization opportunities across architecture, frontend, backend, databases, APIs, infrastructure, deployment and security. Modernization can be performed incrementally depending on the existing system.',
+  },
+
+  {
+    q: 'Can you provide dedicated product engineering support?',
+    a: 'Yes. VoidMatrix can provide ongoing product engineering support for feature development, technical improvements, integrations, performance optimization, modernization, infrastructure scaling and maintenance based on your product roadmap.',
+  },
+
+  {
+    q: 'Can you integrate our product with third-party APIs?',
+    a: 'Yes. Product engineering can include integrations with payment gateways, CRM, ERP, analytics, communication, logistics and other third-party platforms. The integration architecture is designed around security, reliability and the product requirements.',
+  },
+
+  {
+    q: 'Can you scale an existing digital product?',
+    a: 'Yes. VoidMatrix can assess the current application architecture, database, APIs, infrastructure and performance to identify scaling opportunities. Improvements can be prioritized based on actual product usage and technical requirements.',
+  },
+
+  {
+    q: 'Do you provide product engineering services in Mumbai and Pune?',
+    a: 'Yes. VoidMatrix provides product engineering services in Mumbai, Pune and other Indian cities, including Bangalore, Hyderabad, Delhi, Chennai and Ahmedabad, as well as remote engineering services for international businesses.',
+  },
+
+  {
+    q: 'Do you work with startups as well as enterprises?',
+    a: 'Yes. VoidMatrix works with startups building new products as well as established businesses and enterprises expanding, modernizing or scaling existing digital products. The engineering scope is adapted to the product stage and business requirements.',
+  },
+
+  {
+    q: 'Why should I choose VoidMatrix for product engineering?',
+    a: 'VoidMatrix combines product requirements analysis, software architecture, frontend and backend development, APIs, integrations, cloud deployment, modernization and ongoing engineering support. This allows us to support the product lifecycle rather than focusing only on an initial software release.',
+  },
+],
     offer: [300000, 2500000],
   },
 
@@ -2057,86 +2101,86 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides product strategy services in India for startup founders and product leaders who need to cut through ambiguity and focus engineering investment on the features, workflows, and user journeys that actually move the business forward. Based in Mumbai, we work with companies in Mumbai, Pune, Bangalore, and across India at every stage: pre-seed teams defining their initial product scope, scaling companies managing growing feature complexity, and enterprises planning new digital product lines. Most failed products fail on strategy, not execution - they build the wrong thing, for the wrong user, solving the wrong problem. Our product strategy engagements are designed to prevent that: through structured discovery workshops, user research synthesis, competitive positioning analysis, and rigorous prioritization, we help you arrive at a product definition your team can build and your market actually wants. Deliverables include product roadmaps, feature priority frameworks, and go-to-market alignment documentation that your entire team can execute against.',
     faqs: [
-  {
-    q: 'What is product strategy?',
-    a: 'Product strategy is the process of defining a product’s goals, target users, core problems, features, priorities, and development direction. It connects business objectives with customer requirements and practical product development.',
-  },
+      {
+        q: 'What is product strategy?',
+        a: 'Product strategy is the process of defining a product’s goals, target users, core problems, features, priorities, and development direction. It connects business objectives with customer requirements and practical product development.',
+      },
 
-  {
-    q: 'Why is product strategy important for a startup?',
-    a: 'Product strategy helps startups determine what they should build first, which features are essential for the MVP, and which functionality can be developed later. This can help reduce unnecessary development work and provide a clearer product direction.',
-  },
+      {
+        q: 'Why is product strategy important for a startup?',
+        a: 'Product strategy helps startups determine what they should build first, which features are essential for the MVP, and which functionality can be developed later. This can help reduce unnecessary development work and provide a clearer product direction.',
+      },
 
-  {
-    q: 'What does a product strategy consultant do?',
-    a: 'A product strategy consultant helps businesses define product objectives, understand users, structure requirements, prioritize features, plan MVPs, create product roadmaps, and align product decisions with business and technology requirements.',
-  },
+      {
+        q: 'What does a product strategy consultant do?',
+        a: 'A product strategy consultant helps businesses define product objectives, understand users, structure requirements, prioritize features, plan MVPs, create product roadmaps, and align product decisions with business and technology requirements.',
+      },
 
-  {
-    q: 'How does VoidMatrix provide product strategy services?',
-    a: 'VoidMatrix begins by understanding the business model, product vision, target users, customer problems, requirements, and current product stage. We then structure product requirements, prioritize features, plan the MVP or product roadmap, and align the strategy with technology and development requirements.',
-  },
+      {
+        q: 'How does VoidMatrix provide product strategy services?',
+        a: 'VoidMatrix begins by understanding the business model, product vision, target users, customer problems, requirements, and current product stage. We then structure product requirements, prioritize features, plan the MVP or product roadmap, and align the strategy with technology and development requirements.',
+      },
 
-  {
-    q: 'Can you help us create an MVP product strategy?',
-    a: 'Yes. VoidMatrix can help define the essential functionality required for an MVP, prioritize features, structure user journeys, identify technical requirements, and create a practical roadmap for the initial product release.',
-  },
+      {
+        q: 'Can you help us create an MVP product strategy?',
+        a: 'Yes. VoidMatrix can help define the essential functionality required for an MVP, prioritize features, structure user journeys, identify technical requirements, and create a practical roadmap for the initial product release.',
+      },
 
-  {
-    q: 'How do you prioritize product features?',
-    a: 'Feature prioritization considers factors such as business objectives, customer value, product requirements, development effort, dependencies, technical requirements, and the importance of each feature to the initial product release.',
-  },
+      {
+        q: 'How do you prioritize product features?',
+        a: 'Feature prioritization considers factors such as business objectives, customer value, product requirements, development effort, dependencies, technical requirements, and the importance of each feature to the initial product release.',
+      },
 
-  {
-    q: 'Can product strategy be created for an existing product?',
-    a: 'Yes. Product strategy can be used for existing products that need improved functionality, feature prioritization, user journeys, product restructuring, technology alignment, or a clearer roadmap for future development.',
-  },
+      {
+        q: 'Can product strategy be created for an existing product?',
+        a: 'Yes. Product strategy can be used for existing products that need improved functionality, feature prioritization, user journeys, product restructuring, technology alignment, or a clearer roadmap for future development.',
+      },
 
-  {
-    q: 'Do you provide product roadmap planning services?',
-    a: 'Yes. VoidMatrix can create product roadmaps that organize features, improvements, technical requirements, and development priorities into logical product phases and future releases.',
-  },
+      {
+        q: 'Do you provide product roadmap planning services?',
+        a: 'Yes. VoidMatrix can create product roadmaps that organize features, improvements, technical requirements, and development priorities into logical product phases and future releases.',
+      },
 
-  {
-    q: 'Can product strategy include technology planning?',
-    a: 'Yes. Product strategy can include technology alignment covering application requirements, architecture considerations, APIs, integrations, scalability, security, and other technical requirements that affect product development.',
-  },
+      {
+        q: 'Can product strategy include technology planning?',
+        a: 'Yes. Product strategy can include technology alignment covering application requirements, architecture considerations, APIs, integrations, scalability, security, and other technical requirements that affect product development.',
+      },
 
-  {
-    q: 'How much does product strategy consulting cost in India?',
-    a: 'Product strategy consulting cost in India depends on factors such as product complexity, business model, product stage, research requirements, MVP scope, feature count, and the depth of strategy and roadmap planning required.',
-  },
+      {
+        q: 'How much does product strategy consulting cost in India?',
+        a: 'Product strategy consulting cost in India depends on factors such as product complexity, business model, product stage, research requirements, MVP scope, feature count, and the depth of strategy and roadmap planning required.',
+      },
 
-  {
-    q: 'Do you provide product strategy consulting in Mumbai and Pune?',
-    a: 'Yes. VoidMatrix provides product strategy consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
-  },
+      {
+        q: 'Do you provide product strategy consulting in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides product strategy consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
+      },
 
-  {
-    q: 'Can VoidMatrix help with product strategy for SaaS and marketplace platforms?',
-    a: 'Yes. Product strategy can be structured for SaaS platforms, marketplaces, eCommerce platforms, mobile applications, websites, business software, and other custom digital products.',
-  },
+      {
+        q: 'Can VoidMatrix help with product strategy for SaaS and marketplace platforms?',
+        a: 'Yes. Product strategy can be structured for SaaS platforms, marketplaces, eCommerce platforms, mobile applications, websites, business software, and other custom digital products.',
+      },
 
-  {
-    q: 'What is the difference between product strategy and product development?',
-    a: 'Product strategy defines what should be built, why it should be built, who it is for, and how features should be prioritized. Product development focuses on designing, developing, testing, deploying, and maintaining the actual product.',
-  },
+      {
+        q: 'What is the difference between product strategy and product development?',
+        a: 'Product strategy defines what should be built, why it should be built, who it is for, and how features should be prioritized. Product development focuses on designing, developing, testing, deploying, and maintaining the actual product.',
+      },
 
-  {
-    q: 'How long does product strategy planning take?',
-    a: 'The timeline depends on the product scope, complexity, research requirements, number of stakeholders, and depth of planning required. A smaller MVP strategy can generally require less planning than a comprehensive strategy for a complex digital platform.',
-  },
+      {
+        q: 'How long does product strategy planning take?',
+        a: 'The timeline depends on the product scope, complexity, research requirements, number of stakeholders, and depth of planning required. A smaller MVP strategy can generally require less planning than a comprehensive strategy for a complex digital platform.',
+      },
 
-  {
-    q: 'Can product strategy reduce development costs?',
-    a: 'A structured product strategy can help reduce unnecessary development by prioritizing essential functionality, identifying dependencies, clarifying requirements, and avoiding investment in features that are not required during the initial product stage.',
-  },
+      {
+        q: 'Can product strategy reduce development costs?',
+        a: 'A structured product strategy can help reduce unnecessary development by prioritizing essential functionality, identifying dependencies, clarifying requirements, and avoiding investment in features that are not required during the initial product stage.',
+      },
 
-  {
-    q: 'Why should we choose VoidMatrix for product strategy consulting?',
-    a: 'VoidMatrix connects product strategy with business objectives, user requirements, technology, and development planning. This provides businesses with a practical approach to defining products and creating structured roadmaps for development and future growth.',
-  },
-],
+      {
+        q: 'Why should we choose VoidMatrix for product strategy consulting?',
+        a: 'VoidMatrix connects product strategy with business objectives, user requirements, technology, and development planning. This provides businesses with a practical approach to defining products and creating structured roadmaps for development and future growth.',
+      },
+    ],
     offer: [60000, 400000],
   },
 
@@ -2147,43 +2191,52 @@ export const serviceData = {
     faqs: [
       {
         q: 'How much does SaaS development cost in India?',
-        a: 'The cost of SaaS development depends on the scope, architecture, integrations, security requirements, and scalability goals. A lean MVP typically requires a significantly lower investment than an enterprise-grade multi-tenant SaaS platform with subscription billing, advanced analytics, and third-party integrations. We provide a detailed technical estimate after understanding your product requirements rather than offering generic pricing packages.',
+        a: 'SaaS development in India can start around ₹2,50,000 for a focused MVP and can exceed ₹25,00,000 for complex production platforms. The actual cost depends on features, user roles, multi-tenant architecture, integrations, subscription functionality, security and scalability requirements.',
       },
+
       {
-        q: 'How long does it take to build a SaaS MVP?',
-        a: 'Most SaaS MVPs can be delivered within 8–12 weeks depending on feature complexity, integrations, authentication requirements, and user workflows. Our goal is to launch a production-ready MVP that can evolve into a complete SaaS platform without requiring major architectural rewrites.',
+        q: 'How long does it take to build a SaaS product?',
+        a: 'The timeline depends on the product scope and complexity. A focused SaaS MVP can be developed faster than a production platform with advanced dashboards, multi-tenant architecture, billing, integrations and enterprise requirements. VoidMatrix defines the timeline after the initial product scope is understood.',
       },
+
       {
-        q: 'What technologies do you use for SaaS development?',
-        a: 'We primarily build SaaS products using Next.js, React, TypeScript, Node.js, PostgreSQL, Prisma, Docker, cloud infrastructure, REST APIs, and secure authentication systems. The technology stack is selected based on scalability, long-term maintainability, and business requirements rather than short-term convenience.',
+        q: 'Can VoidMatrix build a SaaS MVP from scratch?',
+        a: 'Yes. VoidMatrix can take a SaaS product from an initial idea through requirements, architecture, UI, frontend and backend development, integrations, testing and deployment. MVP development focuses on the functionality required to validate the product without unnecessarily building every future feature.',
       },
+
       {
         q: 'Can you build a multi-tenant SaaS platform?',
-        a: 'Yes. Multi-tenant architecture is one of our core capabilities. We design secure tenant isolation, role-based access control, scalable databases, subscription management, and cloud infrastructure that supports thousands of organizations while maintaining performance and security.',
+        a: 'Yes. VoidMatrix can develop multi-tenant SaaS platforms designed to support multiple customers or organizations with appropriate tenant architecture, data boundaries, user roles, permissions and product functionality.',
       },
+
       {
-        q: 'Do you develop SaaS products for startups as well as enterprises?',
-        a: 'Yes. We work with early-stage founders validating new ideas, growing startups preparing for scale, and established enterprises launching new SaaS products or modernizing existing platforms. Our development approach adapts to your current stage while planning for future growth.',
+        q: 'Can you integrate subscription billing into a SaaS product?',
+        a: 'Yes. SaaS subscription development can include plans, trials, recurring payments, upgrades, downgrades, invoices, payment gateway integrations and access controls depending on the business model and billing requirements.',
       },
+
       {
-        q: 'Can you modernize or rebuild an existing SaaS application?',
-        a: 'Absolutely. We help businesses migrate legacy SaaS applications built on outdated technologies to modern cloud-native architectures. Our modernization process focuses on improving performance, maintainability, security, scalability, and developer productivity while minimizing disruption for existing customers.',
+        q: 'Can you integrate our SaaS product with third-party APIs?',
+        a: 'Yes. VoidMatrix can integrate SaaS platforms with payment gateways, CRMs, ERPs, communication tools, analytics platforms, logistics systems and other third-party services through appropriate APIs and integration workflows.',
       },
+
       {
-        q: 'Do you integrate payment gateways and subscription billing?',
-        a: 'Yes. We integrate subscription billing platforms such as Stripe, Razorpay, Paddle, and custom payment solutions. Features can include recurring subscriptions, usage-based pricing, invoices, coupon management, plan upgrades, downgrades, payment recovery, and customer billing portals.',
+        q: 'Should I build a custom SaaS platform or use existing software?',
+        a: 'Existing SaaS tools can be suitable when their functionality closely matches your requirements. Custom SaaS development becomes more valuable when you need proprietary functionality, unique workflows, custom integrations, control over the product roadmap or a software product that you intend to sell to customers.',
       },
+
       {
-        q: 'Will my SaaS platform be scalable as my business grows?',
-        a: 'Scalability is considered from the very beginning of every project. We design cloud-native architectures, optimized databases, API-first systems, caching strategies, and modular codebases that allow your platform to support increasing users, features, and business requirements without major redevelopment.',
+        q: 'Can you scale an existing SaaS application?',
+        a: 'Yes. VoidMatrix can assess an existing SaaS application and identify opportunities across architecture, database design, APIs, frontend performance, infrastructure, security and deployment. Modernization can be performed progressively depending on the condition of the existing system.',
       },
+
       {
-        q: 'Do you provide support after the SaaS product is launched?',
-        a: 'Yes. We offer post-launch support that includes performance optimization, infrastructure monitoring, feature development, security updates, bug fixes, cloud scaling, and technical consulting. Many clients continue working with us as their long-term technology partner after launch.',
+        q: 'Do you provide SaaS development services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides SaaS development services for businesses in Mumbai, Pune and other Indian cities, as well as remote SaaS development for startups and businesses in international markets.',
       },
+
       {
-        q: 'Why choose VoidMatrix Technology for SaaS development?',
-        a: 'We follow an architecture-first engineering approach instead of simply building features. Every SaaS platform is designed for scalability, security, maintainability, and long-term product evolution. You work directly with experienced engineers throughout the project, ensuring faster communication, technical transparency, and software built to support business growth.',
+        q: 'Why should I choose VoidMatrix for SaaS development?',
+        a: 'VoidMatrix combines product planning, software architecture, frontend and backend development, APIs, integrations, cloud deployment and long-term engineering support. This allows us to approach SaaS development as a complete software product rather than simply building a web application.',
       },
     ],
     offer: [500000, 3000000],
@@ -2603,81 +2656,81 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides software consulting services in India for businesses that need independent, experienced technical guidance before making consequential technology decisions. Based in Mumbai, we work with founders, CTOs, and business leaders in Mumbai, Pune, Bangalore, and across India who are evaluating significant software investments, facing architectural challenges, dealing with underperforming systems, or navigating technology modernization. Software consulting is different from software development - we are not here to build, we are here to advise. Our engagements are structured and time-bound, delivering concrete recommendations, risk assessments, and implementation roadmaps based on objective analysis of your situation. We provide guidance on software architecture, technology stack evaluation, build-versus-buy decisions, vendor selection, legacy system assessment, and technical due diligence - giving you the clarity to make decisions you can defend and execute with confidence.',
     faqs: [
-  {
-    q: 'What is software consulting?',
-    a: 'Software consulting is the process of helping businesses make better decisions about software technology, architecture, development, integrations, security, performance, scalability, and long-term technology planning.'
-  },
+      {
+        q: 'What is software consulting?',
+        a: 'Software consulting is the process of helping businesses make better decisions about software technology, architecture, development, integrations, security, performance, scalability, and long-term technology planning.',
+      },
 
-  {
-    q: 'What does a software consultant do?',
-    a: 'A software consultant evaluates business and technical requirements and provides recommendations related to technology stacks, software architecture, development strategy, integrations, security, modernization, performance, and scalability.'
-  },
+      {
+        q: 'What does a software consultant do?',
+        a: 'A software consultant evaluates business and technical requirements and provides recommendations related to technology stacks, software architecture, development strategy, integrations, security, modernization, performance, and scalability.',
+      },
 
-  {
-    q: 'Why does my business need software consulting?',
-    a: 'Software consulting can help businesses reduce technology risks, clarify requirements, select suitable technologies, plan software architecture, prioritize development, identify technical problems, and create a structured roadmap before investing heavily in software development.'
-  },
+      {
+        q: 'Why does my business need software consulting?',
+        a: 'Software consulting can help businesses reduce technology risks, clarify requirements, select suitable technologies, plan software architecture, prioritize development, identify technical problems, and create a structured roadmap before investing heavily in software development.',
+      },
 
-  {
-    q: 'How much does software consulting cost in India?',
-    a: 'Software consulting costs in India depend on the scope of consulting, software complexity, existing technology, architecture requirements, integrations, security requirements, and the level of technical planning required.'
-  },
+      {
+        q: 'How much does software consulting cost in India?',
+        a: 'Software consulting costs in India depend on the scope of consulting, software complexity, existing technology, architecture requirements, integrations, security requirements, and the level of technical planning required.',
+      },
 
-  {
-    q: 'Do you provide software consulting in Mumbai?',
-    a: 'Yes. VoidMatrix provides software consulting services in Mumbai covering technology strategy, software architecture, custom software planning, development strategy, integrations, modernization, security, and scalability.'
-  },
+      {
+        q: 'Do you provide software consulting in Mumbai?',
+        a: 'Yes. VoidMatrix provides software consulting services in Mumbai covering technology strategy, software architecture, custom software planning, development strategy, integrations, modernization, security, and scalability.',
+      },
 
-  {
-    q: 'Do you provide software consulting services across India?',
-    a: 'Yes. VoidMatrix provides software consulting services for businesses across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
-  },
+      {
+        q: 'Do you provide software consulting services across India?',
+        a: 'Yes. VoidMatrix provides software consulting services for businesses across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.',
+      },
 
-  {
-    q: 'Can you help us choose the right technology stack?',
-    a: 'Yes. We can evaluate your software requirements, business objectives, application complexity, integrations, infrastructure requirements, security needs, and scalability goals to help determine an appropriate technology stack.'
-  },
+      {
+        q: 'Can you help us choose the right technology stack?',
+        a: 'Yes. We can evaluate your software requirements, business objectives, application complexity, integrations, infrastructure requirements, security needs, and scalability goals to help determine an appropriate technology stack.',
+      },
 
-  {
-    q: 'Can software consultants review an existing application?',
-    a: 'Yes. Software consulting can include reviewing an existing application, architecture, technology stack, database, APIs, integrations, performance, security requirements, and technical limitations to identify improvement opportunities.'
-  },
+      {
+        q: 'Can software consultants review an existing application?',
+        a: 'Yes. Software consulting can include reviewing an existing application, architecture, technology stack, database, APIs, integrations, performance, security requirements, and technical limitations to identify improvement opportunities.',
+      },
 
-  {
-    q: 'Do you provide legacy software modernization consulting?',
-    a: 'Yes. VoidMatrix can help businesses evaluate legacy software and create a structured modernization approach focused on architecture, maintainability, performance, security, scalability, and future development requirements.'
-  },
+      {
+        q: 'Do you provide legacy software modernization consulting?',
+        a: 'Yes. VoidMatrix can help businesses evaluate legacy software and create a structured modernization approach focused on architecture, maintainability, performance, security, scalability, and future development requirements.',
+      },
 
-  {
-    q: 'Can you help with software architecture?',
-    a: 'Yes. Software architecture consulting can cover application architecture, databases, APIs, authentication, integrations, infrastructure, security, performance, and scalability requirements.'
-  },
+      {
+        q: 'Can you help with software architecture?',
+        a: 'Yes. Software architecture consulting can cover application architecture, databases, APIs, authentication, integrations, infrastructure, security, performance, and scalability requirements.',
+      },
 
-  {
-    q: 'Do you provide software integration consulting?',
-    a: 'Yes. Software integration consulting can cover APIs, payment gateways, third-party platforms, business applications, databases, external services, authentication, data flows, security, and integration requirements.'
-  },
+      {
+        q: 'Do you provide software integration consulting?',
+        a: 'Yes. Software integration consulting can cover APIs, payment gateways, third-party platforms, business applications, databases, external services, authentication, data flows, security, and integration requirements.',
+      },
 
-  {
-    q: 'Can you create a software development roadmap?',
-    a: 'Yes. We can create a structured software development roadmap covering requirements, technology decisions, architecture, development phases, technical dependencies, integrations, testing, deployment, security, and future scalability.'
-  },
+      {
+        q: 'Can you create a software development roadmap?',
+        a: 'Yes. We can create a structured software development roadmap covering requirements, technology decisions, architecture, development phases, technical dependencies, integrations, testing, deployment, security, and future scalability.',
+      },
 
-  {
-    q: 'Do you provide software consulting for startups?',
-    a: 'Yes. Software consulting can help startups with technology selection, software architecture, MVP planning, development strategy, integrations, security, scalability, and long-term technology planning.'
-  },
+      {
+        q: 'Do you provide software consulting for startups?',
+        a: 'Yes. Software consulting can help startups with technology selection, software architecture, MVP planning, development strategy, integrations, security, scalability, and long-term technology planning.',
+      },
 
-  {
-    q: 'Do you provide software consulting for SaaS businesses?',
-    a: 'Yes. VoidMatrix provides software consulting for SaaS businesses covering application architecture, technology strategy, APIs, databases, integrations, security, scalability, development planning, and software improvement.'
-  },
+      {
+        q: 'Do you provide software consulting for SaaS businesses?',
+        a: 'Yes. VoidMatrix provides software consulting for SaaS businesses covering application architecture, technology strategy, APIs, databases, integrations, security, scalability, development planning, and software improvement.',
+      },
 
-  {
-    q: 'Do you provide software consulting for international businesses?',
-    a: 'Yes. VoidMatrix provides software consulting services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
-  }
-],
+      {
+        q: 'Do you provide software consulting for international businesses?',
+        a: 'Yes. VoidMatrix provides software consulting services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.',
+      },
+    ],
     offer: [50000, 400000],
   },
 
@@ -2794,101 +2847,101 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technical advisory services in India for business leaders and non-technical founders who are making significant technology decisions without the internal expertise to evaluate them objectively - and need an independent, experienced technical perspective they can trust. Based in Mumbai, we serve as technical advisors and fractional CTOs for businesses in Mumbai, Pune, Bangalore, and across India: founders managing development teams without engineering backgrounds, business leaders evaluating technology vendors or digital transformation programs, and boards overseeing major technology investments. The cost of poor technical oversight is steep: vendors who deliver substandard work, technology stacks that cannot scale, development teams running without accountability, and platforms that need rebuilding 18 months after launch. Our technical advisory services put experienced engineering judgment in the room for the decisions that matter - vendor selection, architecture reviews, development team evaluation, and technology investment prioritization.',
     faqs: [
-  {
-    q: 'What is technical advisory?',
-    a: 'Technical advisory is the process of providing businesses with expert guidance on technology, software architecture, infrastructure, security, development, scalability, and other technical decisions.'
-  },
+      {
+        q: 'What is technical advisory?',
+        a: 'Technical advisory is the process of providing businesses with expert guidance on technology, software architecture, infrastructure, security, development, scalability, and other technical decisions.',
+      },
 
-  {
-    q: 'What does a technical advisor do?',
-    a: 'A technical advisor evaluates business and technical requirements, identifies technology risks and opportunities, reviews technical options, and provides practical recommendations for software, architecture, infrastructure, security, and scalability.'
-  },
+      {
+        q: 'What does a technical advisor do?',
+        a: 'A technical advisor evaluates business and technical requirements, identifies technology risks and opportunities, reviews technical options, and provides practical recommendations for software, architecture, infrastructure, security, and scalability.',
+      },
 
-  {
-    q: 'Why does a business need technical advisory?',
-    a: 'Technical advisory can help businesses make better technology decisions, identify technical risks, avoid unsuitable technology choices, reduce unnecessary development costs, and create a clearer technical direction.'
-  },
+      {
+        q: 'Why does a business need technical advisory?',
+        a: 'Technical advisory can help businesses make better technology decisions, identify technical risks, avoid unsuitable technology choices, reduce unnecessary development costs, and create a clearer technical direction.',
+      },
 
-  {
-    q: 'What is included in technical advisory services?',
-    a: 'Technical advisory can include technology strategy, software architecture review, technology selection, technical due diligence, modernization planning, infrastructure evaluation, security considerations, integrations, performance, and scalability planning.'
-  },
+      {
+        q: 'What is included in technical advisory services?',
+        a: 'Technical advisory can include technology strategy, software architecture review, technology selection, technical due diligence, modernization planning, infrastructure evaluation, security considerations, integrations, performance, and scalability planning.',
+      },
 
-  {
-    q: 'How much does technical advisory cost in India?',
-    a: 'Technical advisory cost in India depends on the complexity of the technology environment, number of systems, scope of evaluation, architecture requirements, security requirements, infrastructure, technical risks, and level of advisory support required.'
-  },
+      {
+        q: 'How much does technical advisory cost in India?',
+        a: 'Technical advisory cost in India depends on the complexity of the technology environment, number of systems, scope of evaluation, architecture requirements, security requirements, infrastructure, technical risks, and level of advisory support required.',
+      },
 
-  {
-    q: 'Do you provide technical advisory services in Mumbai?',
-    a: 'Yes. VoidMatrix provides technical advisory services in Mumbai covering technology strategy, software architecture, technology selection, technical due diligence, modernization, infrastructure, security, and scalability.'
-  },
+      {
+        q: 'Do you provide technical advisory services in Mumbai?',
+        a: 'Yes. VoidMatrix provides technical advisory services in Mumbai covering technology strategy, software architecture, technology selection, technical due diligence, modernization, infrastructure, security, and scalability.',
+      },
 
-  {
-    q: 'Do you provide technical advisory services across India?',
-    a: 'Yes. VoidMatrix provides technical advisory services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.'
-  },
+      {
+        q: 'Do you provide technical advisory services across India?',
+        a: 'Yes. VoidMatrix provides technical advisory services across India, including Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other locations.',
+      },
 
-  {
-    q: 'Can you review our existing software architecture?',
-    a: 'Yes. We can review application architecture, databases, APIs, integrations, infrastructure, security considerations, performance, technical debt, and scalability requirements to identify technical risks and improvement opportunities.'
-  },
+      {
+        q: 'Can you review our existing software architecture?',
+        a: 'Yes. We can review application architecture, databases, APIs, integrations, infrastructure, security considerations, performance, technical debt, and scalability requirements to identify technical risks and improvement opportunities.',
+      },
 
-  {
-    q: 'Can technical advisory help us choose a technology stack?',
-    a: 'Yes. Technical advisory can evaluate programming languages, frameworks, databases, cloud platforms, infrastructure, integrations, development resources, security, performance, and scalability requirements before recommending a technology direction.'
-  },
+      {
+        q: 'Can technical advisory help us choose a technology stack?',
+        a: 'Yes. Technical advisory can evaluate programming languages, frameworks, databases, cloud platforms, infrastructure, integrations, development resources, security, performance, and scalability requirements before recommending a technology direction.',
+      },
 
-  {
-    q: 'What is technical due diligence?',
-    a: 'Technical due diligence is an evaluation of a software product or technology environment to understand its architecture, technology stack, development practices, technical debt, infrastructure, security considerations, scalability, and technical risks before an important business decision.'
-  },
+      {
+        q: 'What is technical due diligence?',
+        a: 'Technical due diligence is an evaluation of a software product or technology environment to understand its architecture, technology stack, development practices, technical debt, infrastructure, security considerations, scalability, and technical risks before an important business decision.',
+      },
 
-  {
-    q: 'Can you provide technical advisory before software development starts?',
-    a: 'Yes. Technical advisory can be provided before development to help define technology requirements, evaluate technology options, plan architecture, identify technical dependencies, and establish a practical development direction.'
-  },
+      {
+        q: 'Can you provide technical advisory before software development starts?',
+        a: 'Yes. Technical advisory can be provided before development to help define technology requirements, evaluate technology options, plan architecture, identify technical dependencies, and establish a practical development direction.',
+      },
 
-  {
-    q: 'Can you provide technical advisory for existing software?',
-    a: 'Yes. VoidMatrix can evaluate existing software systems and provide recommendations for architecture improvements, modernization, performance, security, infrastructure, integrations, and scalability.'
-  },
+      {
+        q: 'Can you provide technical advisory for existing software?',
+        a: 'Yes. VoidMatrix can evaluate existing software systems and provide recommendations for architecture improvements, modernization, performance, security, infrastructure, integrations, and scalability.',
+      },
 
-  {
-    q: 'Do you provide technical advisory for startups?',
-    a: 'Yes. Technical advisory can help startups with technology selection, architecture, MVP planning, development strategy, infrastructure, integrations, security, scalability, and long-term technology planning.'
-  },
+      {
+        q: 'Do you provide technical advisory for startups?',
+        a: 'Yes. Technical advisory can help startups with technology selection, architecture, MVP planning, development strategy, infrastructure, integrations, security, scalability, and long-term technology planning.',
+      },
 
-  {
-    q: 'Do you provide technical advisory for SaaS businesses?',
-    a: 'Yes. VoidMatrix provides technical advisory for SaaS businesses covering application architecture, databases, APIs, infrastructure, security, scalability, integrations, development strategy, and technology planning.'
-  },
+      {
+        q: 'Do you provide technical advisory for SaaS businesses?',
+        a: 'Yes. VoidMatrix provides technical advisory for SaaS businesses covering application architecture, databases, APIs, infrastructure, security, scalability, integrations, development strategy, and technology planning.',
+      },
 
-  {
-    q: 'Can technical advisory help with legacy software modernization?',
-    a: 'Yes. Technical advisory can help identify legacy system limitations, technical debt, outdated technologies, architecture issues, security concerns, and modernization opportunities and organize improvements into practical phases.'
-  },
+      {
+        q: 'Can technical advisory help with legacy software modernization?',
+        a: 'Yes. Technical advisory can help identify legacy system limitations, technical debt, outdated technologies, architecture issues, security concerns, and modernization opportunities and organize improvements into practical phases.',
+      },
 
-  {
-    q: 'Can technical advisory help with scalability planning?',
-    a: 'Yes. Technical advisory can evaluate application architecture, infrastructure, databases, APIs, performance, deployment, monitoring, and security requirements that may become important as users, traffic, and data increase.'
-  },
+      {
+        q: 'Can technical advisory help with scalability planning?',
+        a: 'Yes. Technical advisory can evaluate application architecture, infrastructure, databases, APIs, performance, deployment, monitoring, and security requirements that may become important as users, traffic, and data increase.',
+      },
 
-  {
-    q: 'Can technical advisory identify technology risks?',
-    a: 'Yes. A technical assessment can identify risks related to architecture, technology choices, technical debt, security, infrastructure, integrations, performance, maintainability, and scalability.'
-  },
+      {
+        q: 'Can technical advisory identify technology risks?',
+        a: 'Yes. A technical assessment can identify risks related to architecture, technology choices, technical debt, security, infrastructure, integrations, performance, maintainability, and scalability.',
+      },
 
-  {
-    q: 'Do you provide technical advisory for international businesses?',
-    a: 'Yes. VoidMatrix provides technical advisory services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.'
-  },
+      {
+        q: 'Do you provide technical advisory for international businesses?',
+        a: 'Yes. VoidMatrix provides technical advisory services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other global markets.',
+      },
 
-  {
-    q: 'Why choose VoidMatrix for technical advisory services?',
-    a: 'VoidMatrix connects technical decisions with business and product objectives. Our approach focuses on practical recommendations across software architecture, technology strategy, development, infrastructure, security, modernization, and scalability.'
-  }
-],
+      {
+        q: 'Why choose VoidMatrix for technical advisory services?',
+        a: 'VoidMatrix connects technical decisions with business and product objectives. Our approach focuses on practical recommendations across software architecture, technology strategy, development, infrastructure, security, modernization, and scalability.',
+      },
+    ],
     offer: [40000, 250000],
   },
 
@@ -2965,101 +3018,101 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides technology roadmap planning services in India for businesses that need to make significant technology investments over the next 12-36 months and want a structured, sequenced plan before committing budget. Based in Mumbai, we work with leadership teams, CTOs, and founders in Mumbai, Pune, Bangalore, and across India building product development roadmaps, infrastructure modernization plans, digital transformation strategies, and technology capability buildouts. Technology investment without sequencing is expensive: building system B before system A is ready, choosing a vendor that conflicts with a platform you plan to add in 6 months, or scaling infrastructure before the product architecture supports it. Our roadmap planning engagements audit current technology capabilities, define future-state requirements, identify dependencies and sequencing constraints, and deliver phased roadmaps with clear milestones, resource implications, and decision points - so your technology investment compounds intelligently rather than accruing debt.',
     faqs: [
-  {
-    q: 'What is a technology roadmap?',
-    a: 'A technology roadmap is a structured plan that defines technology priorities, architecture improvements, development requirements, infrastructure needs, security considerations, and future technical objectives over different stages of business and product growth.',
-  },
+      {
+        q: 'What is a technology roadmap?',
+        a: 'A technology roadmap is a structured plan that defines technology priorities, architecture improvements, development requirements, infrastructure needs, security considerations, and future technical objectives over different stages of business and product growth.',
+      },
 
-  {
-    q: 'Why is a technology roadmap important?',
-    a: 'A technology roadmap helps businesses organize technical priorities, understand dependencies, plan technology investments, reduce unnecessary technical changes, and create a clearer direction for application development, infrastructure, security, and scalability.',
-  },
+      {
+        q: 'Why is a technology roadmap important?',
+        a: 'A technology roadmap helps businesses organize technical priorities, understand dependencies, plan technology investments, reduce unnecessary technical changes, and create a clearer direction for application development, infrastructure, security, and scalability.',
+      },
 
-  {
-    q: 'What does a technology roadmap consultant do?',
-    a: 'A technology roadmap consultant evaluates the current technology environment, understands business and product objectives, identifies technical priorities, and creates a structured roadmap covering architecture, development, infrastructure, modernization, security, and scalability.',
-  },
+      {
+        q: 'What does a technology roadmap consultant do?',
+        a: 'A technology roadmap consultant evaluates the current technology environment, understands business and product objectives, identifies technical priorities, and creates a structured roadmap covering architecture, development, infrastructure, modernization, security, and scalability.',
+      },
 
-  {
-    q: 'How does VoidMatrix create technology roadmaps?',
-    a: 'VoidMatrix begins by understanding the business objectives, product requirements, current technology environment, architecture, infrastructure, development requirements, and future goals. We then identify priorities and organize them into practical technology roadmap phases.',
-  },
+      {
+        q: 'How does VoidMatrix create technology roadmaps?',
+        a: 'VoidMatrix begins by understanding the business objectives, product requirements, current technology environment, architecture, infrastructure, development requirements, and future goals. We then identify priorities and organize them into practical technology roadmap phases.',
+      },
 
-  {
-    q: 'Can you create a technology roadmap for a startup?',
-    a: 'Yes. VoidMatrix can create technology roadmaps for startups covering technology selection, application architecture, databases, APIs, infrastructure, security, development priorities, MVP requirements, and future scalability.',
-  },
+      {
+        q: 'Can you create a technology roadmap for a startup?',
+        a: 'Yes. VoidMatrix can create technology roadmaps for startups covering technology selection, application architecture, databases, APIs, infrastructure, security, development priorities, MVP requirements, and future scalability.',
+      },
 
-  {
-    q: 'Can you create a technology roadmap for an existing application?',
-    a: 'Yes. Technology roadmaps can be created for existing applications to plan architecture improvements, technical debt reduction, modernization, performance improvements, infrastructure changes, security improvements, and future scalability.',
-  },
+      {
+        q: 'Can you create a technology roadmap for an existing application?',
+        a: 'Yes. Technology roadmaps can be created for existing applications to plan architecture improvements, technical debt reduction, modernization, performance improvements, infrastructure changes, security improvements, and future scalability.',
+      },
 
-  {
-    q: 'What is included in a technology roadmap?',
-    a: 'Depending on the requirements, a technology roadmap can include technology strategy, application architecture, technology stack, databases, APIs, integrations, cloud infrastructure, development priorities, security, scalability, modernization, technical debt, and future technology requirements.',
-  },
+      {
+        q: 'What is included in a technology roadmap?',
+        a: 'Depending on the requirements, a technology roadmap can include technology strategy, application architecture, technology stack, databases, APIs, integrations, cloud infrastructure, development priorities, security, scalability, modernization, technical debt, and future technology requirements.',
+      },
 
-  {
-    q: 'Can a technology roadmap include cloud infrastructure planning?',
-    a: 'Yes. A technology roadmap can include cloud infrastructure, hosting, storage, deployment, monitoring, reliability, security, performance, and scalability requirements.',
-  },
+      {
+        q: 'Can a technology roadmap include cloud infrastructure planning?',
+        a: 'Yes. A technology roadmap can include cloud infrastructure, hosting, storage, deployment, monitoring, reliability, security, performance, and scalability requirements.',
+      },
 
-  {
-    q: 'Can you help with technology modernization planning?',
-    a: 'Yes. VoidMatrix can help businesses plan technology modernization for legacy applications, outdated technology stacks, technical debt, infrastructure, development systems, and application architecture.',
-  },
+      {
+        q: 'Can you help with technology modernization planning?',
+        a: 'Yes. VoidMatrix can help businesses plan technology modernization for legacy applications, outdated technology stacks, technical debt, infrastructure, development systems, and application architecture.',
+      },
 
-  {
-    q: 'Can a technology roadmap help with scalability?',
-    a: 'Yes. A technology roadmap can identify architecture, infrastructure, performance, database, API, security, and deployment improvements that may be required as application traffic, users, data, and operational requirements increase.',
-  },
+      {
+        q: 'Can a technology roadmap help with scalability?',
+        a: 'Yes. A technology roadmap can identify architecture, infrastructure, performance, database, API, security, and deployment improvements that may be required as application traffic, users, data, and operational requirements increase.',
+      },
 
-  {
-    q: 'How much does technology roadmap consulting cost in India?',
-    a: 'Technology roadmap consulting cost in India depends on the size and complexity of the technology environment, number of applications, existing architecture, infrastructure, product requirements, modernization needs, security requirements, and roadmap scope.',
-  },
+      {
+        q: 'How much does technology roadmap consulting cost in India?',
+        a: 'Technology roadmap consulting cost in India depends on the size and complexity of the technology environment, number of applications, existing architecture, infrastructure, product requirements, modernization needs, security requirements, and roadmap scope.',
+      },
 
-  {
-    q: 'Do you provide technology roadmap consulting in Mumbai and Pune?',
-    a: 'Yes. VoidMatrix provides technology roadmap consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
-  },
+      {
+        q: 'Do you provide technology roadmap consulting in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides technology roadmap consulting services for businesses in Mumbai, Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, across India, and international markets.',
+      },
 
-  {
-    q: 'Can you create a technology roadmap for SaaS platforms?',
-    a: 'Yes. Technology roadmaps can be created for SaaS platforms covering application architecture, APIs, databases, infrastructure, security, scalability, integrations, development priorities, and future technical requirements.',
-  },
+      {
+        q: 'Can you create a technology roadmap for SaaS platforms?',
+        a: 'Yes. Technology roadmaps can be created for SaaS platforms covering application architecture, APIs, databases, infrastructure, security, scalability, integrations, development priorities, and future technical requirements.',
+      },
 
-  {
-    q: 'Can you create a technology roadmap for marketplace and eCommerce platforms?',
-    a: 'Yes. VoidMatrix can structure technology roadmaps for marketplaces and eCommerce platforms covering application architecture, customer and administrative systems, APIs, databases, integrations, infrastructure, security, scalability, and development priorities.',
-  },
+      {
+        q: 'Can you create a technology roadmap for marketplace and eCommerce platforms?',
+        a: 'Yes. VoidMatrix can structure technology roadmaps for marketplaces and eCommerce platforms covering application architecture, customer and administrative systems, APIs, databases, integrations, infrastructure, security, scalability, and development priorities.',
+      },
 
-  {
-    q: 'What is the difference between a technology roadmap and a development roadmap?',
-    a: 'A technology roadmap covers the broader technical direction of a business or product, including architecture, infrastructure, security, scalability, modernization, and technology priorities. A development roadmap focuses more specifically on organizing software development work and implementation phases.',
-  },
+      {
+        q: 'What is the difference between a technology roadmap and a development roadmap?',
+        a: 'A technology roadmap covers the broader technical direction of a business or product, including architecture, infrastructure, security, scalability, modernization, and technology priorities. A development roadmap focuses more specifically on organizing software development work and implementation phases.',
+      },
 
-  {
-    q: 'How often should a technology roadmap be updated?',
-    a: 'A technology roadmap should evolve as business objectives, product requirements, technology capabilities, infrastructure needs, and technical priorities change. Periodic reviews help ensure that the roadmap remains aligned with the current direction of the business.',
-  },
+      {
+        q: 'How often should a technology roadmap be updated?',
+        a: 'A technology roadmap should evolve as business objectives, product requirements, technology capabilities, infrastructure needs, and technical priorities change. Periodic reviews help ensure that the roadmap remains aligned with the current direction of the business.',
+      },
 
-  {
-    q: 'Can a technology roadmap reduce technical debt?',
-    a: 'Yes. A technology roadmap can identify technical debt, prioritize modernization work, and organize technical improvements into manageable phases rather than attempting to address every technical issue at once.',
-  },
+      {
+        q: 'Can a technology roadmap reduce technical debt?',
+        a: 'Yes. A technology roadmap can identify technical debt, prioritize modernization work, and organize technical improvements into manageable phases rather than attempting to address every technical issue at once.',
+      },
 
-  {
-    q: 'Can technology roadmap planning reduce development costs?',
-    a: 'A structured technology roadmap can help reduce unnecessary technical work by clarifying priorities, identifying dependencies, avoiding disconnected technology decisions, and planning architecture and infrastructure changes before they become more expensive to implement.',
-  },
+      {
+        q: 'Can technology roadmap planning reduce development costs?',
+        a: 'A structured technology roadmap can help reduce unnecessary technical work by clarifying priorities, identifying dependencies, avoiding disconnected technology decisions, and planning architecture and infrastructure changes before they become more expensive to implement.',
+      },
 
-  {
-    q: 'Why should we choose VoidMatrix for technology roadmap consulting?',
-    a: 'VoidMatrix connects technology planning with business objectives, product requirements, development priorities, architecture, infrastructure, security, and scalability. This creates a practical technology roadmap that businesses and development teams can use for future planning.',
-  },
-],
+      {
+        q: 'Why should we choose VoidMatrix for technology roadmap consulting?',
+        a: 'VoidMatrix connects technology planning with business objectives, product requirements, development priorities, architecture, infrastructure, security, and scalability. This creates a practical technology roadmap that businesses and development teams can use for future planning.',
+      },
+    ],
     offer: [60000, 400000],
   },
 
@@ -3490,47 +3543,56 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides workflow automation services in India for businesses that are still doing manually what software should be doing automatically - losing hours every week to data entry, copy-paste between systems, manual reporting, and status update emails. Based in Mumbai, we design and build workflow automation solutions for SMEs, startups, and enterprises across Mumbai, Pune, Bangalore, and India in retail, logistics, consulting, healthcare, and technology sectors. The arithmetic on automation is usually compelling: if a process takes 10 hours per week at ₹500/hour and automation costs ₹2,00,000, it pays back in 40 weeks - then saves money every week indefinitely. Our automation team uses custom code, API integrations, and no-code/low-code platforms (Zapier, Make, n8n) to connect systems and trigger actions automatically - from lead routing and invoice generation to inventory updates, approval workflows, and customer communication sequences. We map the process, design the automation, build and test it rigorously, and document it so your team understands and can maintain what we build.',
     faqs: [
-      {
-        q: 'What is workflow automation?',
-        a: 'Workflow automation uses software to automate repetitive business processes, approvals, notifications, and data movement based on predefined rules. It reduces manual work, improves operational efficiency, minimizes errors, and helps organizations complete tasks faster while maintaining consistency across departments.',
-      },
-      {
-        q: 'What business processes can be automated?',
-        a: 'Almost any repetitive business process can be automated, including approval workflows, employee onboarding, purchase requests, invoice processing, customer onboarding, document management, lead assignment, support ticket routing, inventory updates, procurement, HR operations, and recurring administrative tasks.',
-      },
-      {
-        q: 'How much does workflow automation software cost in India?',
-        a: 'The cost depends on the number of workflows, business rules, integrations, users, reporting requirements, and overall platform complexity. After understanding your operational requirements, we provide a detailed project scope with transparent pricing.',
-      },
-      {
-        q: 'Can workflow automation integrate with our existing CRM or ERP?',
-        a: 'Yes. We develop workflow automation platforms that integrate seamlessly with CRM systems, ERP software, HR platforms, accounting software, payment gateways, communication tools, and custom business applications using secure APIs.',
-      },
-      {
-        q: 'Is workflow automation suitable for small and medium-sized businesses?',
-        a: 'Absolutely. Small and medium-sized businesses often benefit the most because automation reduces administrative overhead, improves employee productivity, and enables teams to scale operations without significantly increasing staffing costs.',
-      },
-      {
-        q: 'Can approval workflows be automated?',
-        a: 'Yes. We develop approval workflow systems for finance, HR, procurement, purchase orders, quotations, contracts, reimbursements, leave requests, vendor onboarding, and other business processes that require one or multiple approval levels.',
-      },
-      {
-        q: 'Can you automate paper-based or spreadsheet-driven processes?',
-        a: 'Yes. We help organizations digitize manual workflows by replacing paper forms, spreadsheets, emails, and legacy approval processes with secure cloud-based workflow automation software that improves visibility, collaboration, and efficiency.',
-      },
-      {
-        q: 'How long does it take to build workflow automation software?',
-        a: 'Project timelines depend on the number of workflows, integrations, users, and business complexity. Smaller automation projects may take a few weeks, while enterprise workflow automation platforms with multiple departments typically require several months of structured development.',
-      },
-      {
-        q: 'Will the workflow automation platform grow with our business?',
-        a: 'Yes. Every workflow automation solution we develop is built using scalable architecture that allows additional workflows, departments, integrations, dashboards, users, and business modules to be added as your organization continues to grow.',
-      },
-      {
-        q: 'Why choose VoidMatrix Technology for workflow automation development?',
-        a: 'We engineer custom workflow automation software using Next.js, React, Node.js, PostgreSQL, and cloud-native technologies. Every solution is built around your existing business processes with an architecture-first approach that emphasizes scalability, security, performance, maintainability, and long-term business value.',
-      },
-    ],
+  {
+    q: 'How much does workflow automation development cost in India?',
+    a: 'Workflow automation development in India can start around ₹2,00,000 for a focused workflow and exceed ₹15,00,000 for complex multi-department automation platforms. The actual cost depends on workflow complexity, users, approvals, integrations, business rules and reporting requirements.',
+  },
+
+  {
+    q: 'How long does it take to automate a business workflow?',
+    a: 'The timeline depends on the complexity of the process being automated. A single approval or task workflow can require significantly less development than a platform connecting multiple departments, business systems and complex automation rules.',
+  },
+
+  {
+    q: 'What business processes can be automated?',
+    a: 'Businesses can automate approvals, lead assignment, customer follow-ups, document processing, procurement requests, employee workflows, notifications, task assignments, inventory processes, reporting and many other repetitive rule-based activities.',
+  },
+
+  {
+    q: 'Can VoidMatrix automate workflows in our existing CRM or ERP?',
+    a: 'Yes. VoidMatrix can build custom workflows around existing CRM and ERP systems through APIs and appropriate integrations. This can extend the capabilities of existing software without necessarily replacing the entire platform.',
+  },
+
+  {
+    q: 'Can workflow automation replace spreadsheets and manual processes?',
+    a: 'Yes, where the underlying process is suitable for digitization. VoidMatrix can analyze spreadsheet-driven and manually coordinated processes and convert appropriate workflows into structured software with defined rules, users, approvals and automation.',
+  },
+
+  {
+    q: 'Can you build custom approval workflow software?',
+    a: 'Yes. Custom approval systems can support multiple approval levels, role-based permissions, routing rules, notifications, escalations, comments and status tracking according to your organization’s requirements.',
+  },
+
+  {
+    q: 'Can workflow automation integrate with other software?',
+    a: 'Yes. Workflow automation can integrate with CRM, ERP, websites, payment gateways, email, communication platforms, analytics systems and other applications through APIs and appropriate integration methods.',
+  },
+
+  {
+    q: 'Should we use a generic workflow tool or build custom automation?',
+    a: 'Generic workflow software can work well for straightforward processes that fit its existing functionality. Custom workflow development becomes more valuable when your processes involve specialized rules, complex approvals, multiple systems, custom permissions or workflows that generic tools cannot model effectively.',
+  },
+
+  {
+    q: 'Do you provide workflow automation services in Mumbai and Pune?',
+    a: 'Yes. VoidMatrix provides workflow automation development for businesses in Mumbai, Pune and other Indian cities, as well as remote workflow automation services for international businesses.',
+  },
+
+  {
+    q: 'Why should we choose VoidMatrix for workflow automation?',
+    a: 'VoidMatrix combines business process analysis, software architecture, application development, API integration, workflow automation and ongoing engineering support. This allows automation to be designed around your actual business processes rather than simply applying generic workflow templates.',
+  },
+],
     offer: [75000, 500000],
   },
 } satisfies Record<string, servicePage>;
