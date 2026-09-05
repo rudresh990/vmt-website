@@ -291,106 +291,56 @@ export const serviceData = {
       'VoidMatrix Technology helps businesses improve their visibility in Google Search and Google Maps through comprehensive Local SEO services. We optimise Google Business Profiles, location pages, local citations, structured data, reviews, and technical SEO to increase local enquiries and qualified leads. Whether you operate from a single location or manage multiple branches across India, our Local SEO strategies are designed to improve rankings, increase calls, and generate more local business.',
 
     faqs: [
-      {
-        q: 'What is local SEO?',
-        a: 'Local SEO is the process of optimizing a business website and online presence to improve visibility for location-based searches on Google Search and Google Maps. It helps customers find relevant businesses, products, and services in their area.',
-      },
+  {
+    q: 'How much does local SEO cost in Mumbai?',
+    a: 'Local SEO cost depends on factors such as the number of locations, competition, services, website condition, Google Business Profile requirements, content needs and ongoing optimization. VoidMatrix can recommend the appropriate scope after reviewing your business and target market.',
+  },
 
-      {
-        q: 'What does a local SEO company do?',
-        a: 'A local SEO company improves a business’s local search presence through Google Business Profile optimization, local keyword research, location page optimization, citations, local content, internal linking, structured data, technical SEO, and local authority building.',
-      },
+  {
+    q: 'How long does local SEO take to show results?',
+    a: 'Local SEO results vary depending on competition, website authority, current optimization, location and the condition of your existing local search presence. Some improvements can appear relatively quickly, while stronger organic visibility generally requires consistent optimization over time.',
+  },
 
-      {
-        q: 'How can local SEO help my business?',
-        a: 'Local SEO can help your business become more visible when potential customers search for relevant products or services in your target location. Improved local visibility can contribute to more website visits, phone calls, enquiries, store visits, and leads.',
-      },
+  {
+    q: 'Can you optimize our Google Business Profile?',
+    a: 'Yes. VoidMatrix provides Google Business Profile optimization as part of its local SEO services. We can review business information, categories, services, descriptions and the relationship between your Business Profile and website.',
+  },
 
-      {
-        q: 'How much does local SEO cost in India?',
-        a: 'Local SEO costs in India vary depending on the number of locations, competition, services being targeted, website condition, Google Business Profile requirements, content needs, citation work, and the level of ongoing optimization required.',
-      },
+  {
+    q: 'Can local SEO help my business appear on Google Maps?',
+    a: 'Local SEO can improve the overall relevance and visibility of your business across Google Search and Google Maps by addressing Google Business Profile optimization, website relevance, local keywords, location pages, citations and other appropriate local signals.',
+  },
 
-      {
-        q: 'How long does local SEO take to show results?',
-        a: 'The time required to see local SEO results depends on competition, existing website authority, Google Business Profile condition, location, industry, and the amount of optimization required. Some improvements can appear relatively quickly, while stronger and more consistent organic growth generally requires ongoing SEO work.',
-      },
+  {
+    q: 'Do you provide local SEO services for multiple locations?',
+    a: 'Yes. Local SEO strategies can be structured for businesses with multiple branches, cities or service areas. The strategy can include location-specific keyword mapping, location pages, Business Profile considerations and a scalable website architecture.',
+  },
 
-      {
-        q: 'Can local SEO improve my Google Maps ranking?',
-        a: 'Local SEO can improve the factors that contribute to local search and Google Maps visibility, including Google Business Profile optimization, local relevance, website signals, citations, reviews, and local authority. Rankings cannot be guaranteed because Google determines search results dynamically.',
-      },
+  {
+    q: 'Do you provide local SEO services outside Mumbai?',
+    a: 'Yes. VoidMatrix provides local SEO services for businesses targeting Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, other Indian cities and international markets.',
+  },
 
-      {
-        q: 'What is Google Business Profile optimization?',
-        a: 'Google Business Profile optimization involves improving and maintaining important business information such as categories, services, descriptions, contact details, business information, images, and other relevant profile elements to create a stronger local search presence.',
-      },
+  {
+    q: 'Can local SEO generate leads for my business?',
+    a: 'Local SEO is designed to improve visibility for relevant searches that can lead to customer actions such as website visits, calls, enquiries, appointments and visits. Results depend on the market, competition, business offering and overall conversion experience.',
+  },
 
-      {
-        q: 'Do I need local SEO if I already have a website?',
-        a: 'Yes. Having a website does not automatically provide strong local search visibility. Local SEO connects your website with location-based search intent through Google Business Profile optimization, local keywords, location pages, citations, local content, structured data, and other local search signals.',
-      },
+  {
+    q: 'Do I need a website for local SEO?',
+    a: 'A Google Business Profile can have its own local search presence, but a strong website can provide additional opportunities to target services, locations, commercial searches and supporting content. VoidMatrix can evaluate both your website and local search assets as part of the strategy.',
+  },
 
-      {
-        q: 'Is local SEO useful for small businesses?',
-        a: 'Yes. Local SEO can be particularly valuable for small businesses that depend on customers from specific cities, neighborhoods, or service areas. It can help smaller businesses compete for relevant local searches without relying entirely on broad national keywords.',
-      },
+  {
+    q: 'Can you create location pages for local SEO?',
+    a: 'Yes. We can create or optimize location pages where they represent genuine business coverage and provide useful information for customers. The goal is to build useful location pages rather than duplicate pages that only change the city name.',
+  },
 
-      {
-        q: 'Do you provide local SEO services in Mumbai?',
-        a: 'Yes. We provide local SEO services for businesses targeting Mumbai and surrounding areas. Strategies can include Google Business Profile optimization, local keyword research, location pages, local on-page SEO, citations, and local authority building.',
-      },
-
-      {
-        q: 'Do you provide local SEO services in Pune?',
-        a: 'Yes. We provide local SEO services for businesses targeting Pune. The strategy can be tailored around local search demand, business services, target areas, competitors, website structure, and Google Business Profile visibility.',
-      },
-
-      {
-        q: 'What is the difference between local SEO and regular SEO?',
-        a: 'Traditional SEO focuses broadly on improving organic search visibility, while local SEO focuses specifically on searches connected to geographic locations. Local SEO includes additional areas such as Google Business Profile, Google Maps visibility, local citations, location pages, reviews, and geographic search intent.',
-      },
-
-      {
-        q: 'Do you optimize Google Business Profiles for local SEO?',
-        a: 'Yes. Google Business Profile optimization can be an important part of a local SEO strategy. We review business information, categories, services, descriptions, profile content, and the relationship between the profile and the website.',
-      },
-
-      {
-        q: 'Do you create location pages for local SEO?',
-        a: 'Yes. Location pages can be created and optimized when they represent genuine business locations or service areas. We focus on creating useful location-specific content rather than producing thin pages that only change the city name.',
-      },
-
-      {
-        q: 'Do local citations still matter for SEO?',
-        a: 'Relevant and consistent local citations can support a business’s local search presence by providing consistent information about the business across appropriate online platforms. We focus on relevant and trustworthy citation opportunities rather than building large volumes of low-quality listings.',
-      },
-
-      {
-        q: 'Can local SEO help generate more leads?',
-        a: 'Yes. Local SEO is designed to improve visibility for searches performed by people looking for relevant businesses, products, or services in a specific area. Greater visibility for high-intent local searches can create additional opportunities for calls, enquiries, visits, and leads.',
-      },
-
-      {
-        q: 'Do you provide local SEO for multi-location businesses?',
-        a: 'Yes. Multi-location businesses can use a structured local SEO strategy covering individual locations, Google Business Profiles, location pages, local keywords, citations, internal linking, and location-specific content.',
-      },
-
-      {
-        q: 'Do you provide local SEO services across India?',
-        a: 'Yes. We provide local SEO services for businesses targeting cities and markets across India. The strategy can be adapted according to the business location, services, competition, target customers, and search demand.',
-      },
-
-      {
-        q: 'Can local SEO help a new business?',
-        a: 'Yes. Local SEO can help establish the search presence of a new business by creating and optimizing relevant business information, Google Business Profile, website pages, local keywords, citations, content, and other local search assets.',
-      },
-
-      {
-        q: 'How do I choose the right local SEO company?',
-        a: 'Look for a local SEO company that explains its strategy clearly, understands your target locations and customers, focuses on relevant search intent, provides transparent reporting, avoids unrealistic ranking guarantees, and can demonstrate how its SEO work connects to meaningful business outcomes.',
-      },
-    ],
+  {
+    q: 'Why should I choose VoidMatrix for local SEO?',
+    a: 'VoidMatrix combines SEO strategy with technical and web development expertise. This allows us to work across Google Business Profile, website architecture, location pages, internal linking, technical SEO, content and structured data instead of treating local SEO as a single optimization task.',
+  },
+],
 
     offer: [25000, 200000],
   },

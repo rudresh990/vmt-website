@@ -13,104 +13,114 @@ import ServiceComp from '@/components/services/ServiceComp';
 import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
 import WhyVmtService from '@/components/services/WhyVmtService';
+import WhatYouGet from '@/components/services/WhatYouGet';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Local SEO Company in Mumbai | Google Maps & SEO Services',
+  title: 'Local SEO Company in Mumbai | Google Maps & Local SEO Services',
 
   description:
-    'Grow your visibility on Google Search & Maps. Get local SEO services in Mumbai focused on rankings, relevant traffic, calls and qualified enquiries.',
+    'Get more visibility on Google Search and Maps with local SEO services from VoidMatrix. We optimize Google Business Profile, local keywords, location pages, citations and website SEO to generate qualified local enquiries.',
 
   path: '/services/local-seo',
 });
 
 const s_data = serviceData['/services/local-seo'];
 
+const whyContents = [
+  {
+    id: 'why1',
+    paraHeading: 'Local SEO + Technical SEO Expertise',
+    para: 'Your Google visibility depends on more than your Business Profile. VoidMatrix can optimize the website, location pages, internal links, structured data, metadata and technical foundations supporting your local search presence.',
+  },
+
+  {
+    id: 'why2',
+    paraHeading: 'Strategy Built Around Your Services',
+    para: 'We connect local searches to the services you actually sell. Instead of creating generic location content, we build a search strategy around your services, locations, customers, competitors and commercial priorities.',
+  },
+
+  {
+    id: 'why3',
+    paraHeading: 'Focused on Qualified Local Searches',
+    para: 'Ranking for a large number of irrelevant searches does not create a strong business outcome. We prioritize searches that can put your business in front of customers actively looking for your products or services.',
+  },
+
+  {
+    id: 'why4',
+    paraHeading: 'Built for Long-Term Organic Growth',
+    para: 'We work across your local search ecosystem rather than relying on a single optimization tactic. The objective is to build a stronger, more consistent presence across Google Search, Google Maps and your website.',
+  },
+];
+
+const whatYouGetContents = [
+  {
+    id: 'get1',
+    paraHeading: 'Local SEO Audit',
+    para: 'Identify technical, content, Google Business Profile, location and competitive opportunities affecting your local search visibility.',
+  },
+
+  {
+    id: 'get2',
+    paraHeading: 'Google Business Profile Optimization',
+    para: 'Improve the relevance and completeness of your Google Business Profile around your actual services, business information and target locations.',
+  },
+
+  {
+    id: 'get3',
+    paraHeading: 'Local Keyword Strategy',
+    para: 'Identify valuable service + location searches and map them to the pages that should compete for those searches.',
+  },
+
+  {
+    id: 'get4',
+    paraHeading: 'Location & Service Page Optimization',
+    para: 'Create or improve pages that clearly communicate what you offer, where you offer it and which customer searches they are designed to satisfy.',
+  },
+
+  {
+    id: 'get5',
+    paraHeading: 'Citations & Local Authority',
+    para: 'Improve relevant business listings and identify appropriate opportunities for citations, mentions and local authority development.',
+  },
+
+  {
+    id: 'get6',
+    paraHeading: 'Performance Monitoring & Optimization',
+    para: 'Review rankings, visibility, traffic and business outcomes to identify what should be improved as your market and competitors change.',
+  },
+];
+
 const contents = [
   {
     id: 'localseo1',
 
-    para: 'Local SEO is the process of optimizing a business website and online presence so customers can find the business when searching for products or services in a specific geographic area. It focuses on local search visibility across Google Search, Google Maps, Google Business Profile, local listings, and location-focused website pages.',
+    para: 'Local SEO is the process of improving a business website and online presence so it can appear more prominently when customers search for products, services or businesses within a specific geographic area. It covers Google Search, Google Maps, Google Business Profile, location-focused pages, local listings and other relevant search signals.',
   },
 
   {
     id: 'localseo2',
 
-    para: 'A strong local SEO strategy connects a business with the searches performed by customers in its target locations. Instead of simply adding city names to website content, local SEO combines search intent, location relevance, Google Business Profile optimization, website optimization, citations, reviews, local content, and authority signals.',
+    para: 'For a business competing locally, the objective is not simply to rank for a city name. A useful local SEO strategy connects customer search intent with the right service, business location and website page while maintaining accurate and consistent business information across important local search assets.',
   },
 
   {
     id: 'localseo3',
 
-    para: 'At Void Matrix Technology, we provide local SEO services for small businesses, service companies, startups, SaaS companies, eCommerce businesses, professional services, and multi-location businesses. We optimize important local search assets including Google Business Profile, location pages, metadata, local keywords, internal links, citations, structured data, and supporting content.',
+    para: 'VoidMatrix provides local SEO services for small businesses, service companies, startups, professional services, SaaS companies, eCommerce businesses and multi-location organizations. Our work can include Google Business Profile optimization, local keyword research, on-page SEO, location pages, citations, local authority, internal linking and structured data.',
   },
 
   {
     id: 'localseo4',
 
-    para: 'Our approach combines SEO strategy with web development knowledge. This allows us to optimize both the local search presence and the website infrastructure supporting it, including location page architecture, internal linking, structured data, URLs, technical SEO, and content relationships.',
+    para: 'Because local SEO often depends on the relationship between a business profile and its website, our approach combines SEO strategy with technical and web development expertise. This allows us to address the website architecture supporting local search rather than treating the Business Profile as an isolated asset.',
   },
 
   {
     id: 'localseo5',
 
-    para: 'Local SEO is particularly important for businesses that depend on customers from specific cities, areas, or service regions. Local searches often have strong commercial intent, making visibility in Google Search and Google Maps an important source of calls, enquiries, visits, leads, and sales.',
+    para: 'Local SEO is particularly valuable when customers use location-based searches before contacting a business. Strong visibility for relevant searches can contribute to calls, enquiries, website visits, direction requests, appointments and other customer actions.',
   },
 ];
-const whyContents = [
-  {
-    id: 'why1',
-    paraHeading: 'SEO + Technical Expertise',
-    para: "We don't treat local SEO as just Google Business Profile optimization. We can address the website architecture, technical SEO, internal linking, structured data and location-page structure supporting your local search presence.",
-  },
-  {
-    id: 'why2',
-    paraHeading: 'Search-Intent Driven Strategy',
-    para: 'We map local searches to the services and pages that should actually satisfy them instead of stuffing city names into every page.',
-  },
-  {
-    id: 'why3',
-    parapHeading: 'Built Around Your Business',
-    para: 'Your strategy depends on your locations, services, competition, customers and business objectives.',
-  },
-  {
-    id: 'why4',
-    paraHeading: 'Focused on Business Outcomes',
-    para: "The goal isn't simply to produce rankings. We focus on improving visibility for searches that can contribute to enquiries, calls, visits and leads.",
-  },
-];
-
-// const whatYouGetContents = [
-//   {
-//     id: 'get1',
-//     paraHeading: 'Local SEO AuditLocal SEO Audit',
-//     para: 'Identify technical, content and local search opportunities.',
-//   },
-//   {
-//     id: 'get2',
-//     paraHeading: 'Google Business Profile Optimization',
-//     para: 'Improve the completeness and relevance of your business profile.',
-//   },
-//   {
-//     id: 'get3',
-//     paraHeading: 'Local Keyword Strategy',
-//     para: 'Identify valuable searches across services, locations and customer intent.',
-//   },
-//   {
-//     id: 'get4',
-//     paraHeading: 'Location Page Strategy',
-//     para: 'Build useful location pages around genuine business coverage.',
-//   },
-//   {
-//     id: 'get5',
-//     paraHeading: 'Citation & Authority Strategy',
-//     para: 'Strengthen relevant business listings and local authority.',
-//   },
-//   {
-//     id: 'get6',
-//     paraHeading: 'Monthly Performance Monitoring',
-//     para: 'Track visibility, rankings, traffic and enquiries and continuously improve the strategy.',
-//   }
-// ]
 
 export default function LocalSEOPage() {
   return (
@@ -123,9 +133,8 @@ export default function LocalSEOPage() {
         eyebrow="Local SEO Company in Mumbai, India"
         title={
           <>
-            Local SEO Services That
-            <span className="text-(--primary)"> Grow </span>Local
-            <span className="text-(--primary)"> Visibility</span>
+            Turn Local Google Searches Into
+            <span className="text-(--primary)"> Qualified Leads</span>
           </>
         }
         herosub={
@@ -133,13 +142,13 @@ export default function LocalSEOPage() {
             <div className="my-2.5">
               <p>
                 <span className="text-white">
-                  Get found by customers searching for your business on Google Search and Google
-                  Maps.
+                  Get your business in front of customers searching for your services on Google
+                  Search and Google Maps.
                 </span>
                 <br />
-                VMT provides local SEO services that optimize Google Business Profile, Google Maps
-                visibility, local keywords, location pages, citations, reviews, and website
-                structure across Mumbai, Pune, India, and global markets.
+                VoidMatrix provides local SEO services that improve Google Business Profile
+                visibility, local rankings, location pages, website relevance and local search
+                presence across Mumbai, Pune, India and global markets.
               </p>
             </div>
           </>
@@ -160,7 +169,7 @@ export default function LocalSEOPage() {
               <span className="text-glow">|</span>
 
               <span>
-                Local Keyword <span className="text-(--primary)">Optimization</span>
+                Local <span className="text-(--primary)">Keyword Strategy</span>
               </span>
 
               <span className="text-glow">|</span>
@@ -172,85 +181,77 @@ export default function LocalSEOPage() {
           </>
         }
       />
-      {/* =====================================================
-          WHY VMT?
-      ===================================================== */}
-      <WhyVmtService heading="Why Choose VoidMatrix Technology for Local SEO?" contents={whyContents} />
 
-      {/* =============================================
-          What You Get
-      ============================================= */}
-      {/* <WhatYouGet heading="What You Get With Our Local SEO Services" contents={whatYouGetContents} /> */}
+      {/* =====================================================
+          WHY CHOOSE VOIDMATRIX
+      ===================================================== */}
+
+      <WhyVmtService heading="Why Choose VoidMatrix for Local SEO?" contents={whyContents} />
+
+      {/* =====================================================
+          WHAT YOU GET
+      ===================================================== */}
+
+      <WhatYouGet
+        heading="What You Get With Our Local SEO Services"
+        contents={whatYouGetContents}
+      />
 
       {/* =====================================================
           CORE LOCAL SEO SERVICES
       ===================================================== */}
 
       <ServiceCoreSection
-        heading="Our Local SEO Services"
-        intro="We optimize the core elements of your local search presence to improve visibility across Google Search, Google Maps, and location-based searches. Our local SEO strategy is built around search intent, geographic relevance, business information, and the specific locations you want to target."
+        heading="Local SEO Services Built Around Your Business"
+        intro="We combine Google Business Profile optimization, website SEO, location targeting and local authority development into a practical strategy designed around the services, locations and customers that matter to your business."
         items={[
           {
             item_link: 'google-business-profile',
-
             title: 'Google Business Profile Optimization',
-
             description:
-              'Optimize your Google Business Profile with accurate business information, categories, services, descriptions, images, and relevant local signals.',
+              'Optimize your Google Business Profile around accurate business information, relevant categories, services, descriptions and local relevance.',
           },
 
           {
             item_link: 'local-keyword-research',
-
             title: 'Local Keyword Research & Mapping',
-
             description:
-              'Identify location-based search queries and map relevant keywords to the pages, services, and locations that best satisfy local search intent.',
+              'Find the local searches your potential customers use and map them to the right services, locations and website pages.',
           },
 
           {
             item_link: 'local-on-page-seo',
-
             title: 'Local On-Page SEO',
-
             description:
-              'Optimize titles, headings, content, URLs, internal links, and location pages for relevant local and commercial searches.',
+              'Optimize titles, headings, content, URLs, internal links and other page elements for relevant local and commercial searches.',
           },
 
           {
             item_link: 'location-pages',
-
             title: 'Location Page SEO',
-
             description:
-              'Create and optimize useful location-specific pages that clearly communicate the areas, services, and customers your business serves.',
+              'Build useful location pages that communicate your services, geographic coverage and relevance to customers in specific areas.',
           },
 
           {
             item_link: 'local-citations',
-
             title: 'Local Citations & Business Listings',
-
             description:
-              'Improve your presence across relevant business directories and local platforms while maintaining consistent business information.',
+              'Improve relevant business listings and maintain consistent business information across important local directories and platforms.',
           },
 
           {
             item_link: 'local-link-building',
-
             title: 'Local Link Building',
-
             description:
-              'Build relevant local authority through business directories, partnerships, local publications, community opportunities, and other relevant sources.',
+              'Develop relevant local authority through appropriate directories, partnerships, publications, mentions and other credible opportunities.',
           },
 
           {
             item_link: 'local-schema',
-
             title: 'Local Business Schema',
-
             description:
-              'Identify relevant structured data opportunities that help search engines better understand your business, services, locations, and website content.',
+              'Implement relevant structured data opportunities that help search engines better understand your business, services and website.',
           },
         ]}
         details={[
@@ -261,15 +262,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Google Business Profile is an important part of a local search presence. We review and optimize business information, categories, services, descriptions, images, and other profile elements so your business information is clearly represented.',
+                para: 'We review your Google Business Profile and identify opportunities across business information, categories, services, descriptions and other relevant profile elements.',
               },
 
               {
-                para: 'We also review the relationship between your Google Business Profile and website so important business details remain consistent across your digital presence.',
+                para: 'The strategy is aligned with the actual services and locations your business serves rather than relying on repetitive location keywords.',
               },
 
               {
-                para: 'For businesses targeting Mumbai, Pune, other Indian cities, or international locations, the profile strategy is aligned with the actual business location, services, and customers being targeted.',
+                para: 'We also consider how your Business Profile and website work together so your business information remains clear and consistent across your local search presence.',
               },
             ],
           },
@@ -281,15 +282,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Local SEO begins with understanding how customers search for your products and services within specific locations. We research relevant local keywords based on services, products, cities, areas, customer intent, competitors, and business objectives.',
+                para: 'We research the searches customers use when looking for your services in specific cities, areas and service regions.',
               },
 
               {
-                para: 'We map relevant keywords to the pages where they are most useful instead of repeatedly targeting the same location keyword across multiple pages. This creates a clearer relationship between services, locations, and search intent.',
+                para: 'Keywords are mapped according to search intent so commercial searches can be directed toward the most relevant service or location pages.',
               },
 
               {
-                para: 'Our keyword research can cover city-level searches, service-area searches, commercial searches, Google Maps queries, and longer-tail local searches depending on the business and target market.',
+                para: 'This helps prevent multiple pages from competing for the same search while creating a clearer relationship between services, locations and customer intent.',
               },
             ],
           },
@@ -301,15 +302,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Local on-page SEO ensures that important website pages clearly communicate the services offered, locations served, and search intent they are designed to satisfy.',
+                para: 'We optimize important website pages so search engines and customers can clearly understand your services, locations and commercial offering.',
               },
 
               {
-                para: 'We optimize titles, meta descriptions, headings, content, URLs, internal links, images, and other relevant page elements without relying on unnecessary repetition of city or location names.',
+                para: 'Optimization can include titles, meta descriptions, headings, content, URLs, internal links, images and other relevant page elements.',
               },
 
               {
-                para: 'For service businesses, location pages, landing pages, product pages, and other commercially important pages, we structure content around the actual questions and needs of customers in the target market.',
+                para: 'The focus is on relevance and usefulness rather than repeatedly inserting city names into content.',
               },
             ],
           },
@@ -321,15 +322,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Location pages can help businesses communicate their presence in specific cities or service areas. We create and optimize location pages around genuine business relevance rather than producing thin pages that only replace one city name with another.',
+                para: 'If your business serves multiple cities or areas, location pages can create dedicated entry points for relevant local searches.',
               },
 
               {
-                para: 'We structure location pages with useful information about the services provided, areas served, customer needs, business capabilities, and other relevant local information.',
+                para: 'We structure location pages around genuine business coverage, relevant services and useful information instead of creating thin pages that only change the city name.',
               },
 
               {
-                para: 'For businesses operating across Mumbai, Pune, Bangalore, Hyderabad, other Indian cities, or international markets, location page structures can be developed around the actual geographic footprint of the business.',
+                para: 'Location page architecture can also be connected through internal linking so search engines can better understand relationships between services and locations.',
               },
             ],
           },
@@ -341,15 +342,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Local citations are online references to important business information such as the business name, address, phone number, website, and other details. We review existing citations and identify relevant opportunities for improving local consistency and visibility.',
+                para: 'We identify relevant directories and business listing opportunities where your business information can be represented accurately and consistently.',
               },
 
               {
-                para: 'We focus on relevant and trustworthy business directories rather than building large numbers of low-quality listings simply for quantity.',
+                para: 'Citation work can help strengthen the consistency of important business information across the local search ecosystem.',
               },
 
               {
-                para: 'Consistent business information across important platforms can make it easier for customers and search engines to understand the business and its location.',
+                para: 'The focus remains on relevant and useful listings rather than creating large volumes of low-value directory submissions.',
               },
             ],
           },
@@ -361,15 +362,15 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: "Relevant local links and mentions can help strengthen a business website's authority and geographic relevance. We identify opportunities that are genuinely related to the business, industry, community, or target market.",
+                para: 'We identify appropriate opportunities for building local authority through relevant businesses, publications, partnerships, organizations and other credible sources.',
               },
 
               {
-                para: 'Depending on the business, opportunities may include local publications, business associations, partnerships, relevant directories, industry websites, community organizations, and digital PR opportunities.',
+                para: 'Local authority development is aligned with your industry and target market rather than relying on unrelated backlink volume.',
               },
 
               {
-                para: 'Our approach prioritizes relevance and quality rather than creating large volumes of unrelated backlinks.',
+                para: 'The objective is to strengthen the overall credibility and relevance of the website supporting your local search strategy.',
               },
             ],
           },
@@ -381,42 +382,17 @@ export default function LocalSEOPage() {
 
             descriptions: [
               {
-                para: 'Structured data can provide search engines with additional information about a business and the content represented on its website. We identify schema opportunities based on the actual business and page type.',
+                para: 'We identify structured data opportunities that accurately represent information already available on your website.',
               },
 
               {
-                para: 'Depending on the website, opportunities can include LocalBusiness, Organization, Service, BreadcrumbList, and other appropriate structured data types.',
+                para: 'Depending on the website, this can include appropriate LocalBusiness, Organization, Service, BreadcrumbList and other relevant schema types.',
               },
 
               {
-                para: 'Schema is treated as a supporting SEO layer and is implemented only where the structured data accurately represents information already available on the website.',
+                para: 'Structured data is treated as a supporting SEO layer rather than a replacement for strong content, website architecture or local relevance.',
               },
             ],
-          },
-        ]}
-      />
-
-      {/* =====================================================
-          MUMBAI / PUNE / INDIA / GLOBAL
-      ===================================================== */}
-
-      <ServiceCost
-        heading="Local SEO Company in Mumbai"
-        costdesc={[
-          {
-            para: 'For businesses in Mumbai, we optimize local search assets around relevant services, areas, and customer search behavior. Our local SEO strategy can support businesses competing for searches across Mumbai and its surrounding service areas.',
-          },
-
-          {
-            para: 'For businesses in Pune, Bangalore, Hyderabad, Delhi, Chennai, Ahmedabad, and other Indian cities, we can build location-aware SEO strategies based on local search demand, competition, services, and the geographic areas the business actually serves.',
-          },
-
-          {
-            para: 'For businesses targeting customers across India, we combine local and national SEO strategies where required, helping businesses maintain location relevance while building broader organic visibility.',
-          },
-
-          {
-            para: 'We also provide local SEO services for businesses targeting international markets including the USA, UK, UAE, Europe, Australia, and other regions. International local SEO strategies can be structured around the target market, business locations, service areas, and local search behavior.',
           },
         ]}
       />
@@ -429,28 +405,30 @@ export default function LocalSEOPage() {
         heading="Local SEO Cost in India"
         costdesc={[
           {
-            para: 'The cost of local SEO depends on the number of locations being targeted, level of competition, current website condition, Google Business Profile status, number of services, citation requirements, content requirements, and the depth of optimization required.',
+            para: 'Local SEO pricing depends on the number of locations, competitive difficulty, number of services, current website condition, Google Business Profile status, content requirements and the level of ongoing optimization required.',
           },
 
           {
-            para: 'A small local business targeting one city may require optimization for a limited number of important services and locations, while a multi-location business may require a much larger local SEO strategy covering multiple cities, branches, service areas, and location pages.',
+            para: 'A single-location business competing in one city may require a focused local SEO campaign, while a multi-location business may require a larger strategy covering multiple branches, cities, services, location pages and local search assets.',
           },
 
           {
-            para: 'Our local SEO recommendations are based on the actual condition and requirements of your business. This allows us to prioritize the locations, services, and SEO activities most relevant to generating local search visibility and enquiries.',
+            para: 'VoidMatrix recommends the scope based on your actual business requirements instead of applying the same local SEO package to every company. This allows the investment to be focused on the activities most likely to improve relevant local visibility and customer acquisition.',
           },
         ]}
       />
 
       {/* =====================================================
-          FACTORS
+          COST FACTORS
       ===================================================== */}
 
       <ServiceFactors
-        heading="Factors That Affect Local SEO Cost"
-        intro="Every business has different local search requirements. These factors influence the scope and investment required for local SEO work."
+        heading="What Determines Your Local SEO Investment?"
+        intro="The right local SEO budget depends on the market you are competing in and the amount of work required to establish a stronger local search presence."
         facts={[
           'Number of business locations',
+
+          'Number of cities or service areas',
 
           'Local search competition',
 
@@ -458,52 +436,50 @@ export default function LocalSEOPage() {
 
           'Current Google Business Profile condition',
 
-          'Website SEO condition',
+          'Existing website SEO condition',
 
-          'Number of location pages',
+          'Number of location and service pages',
 
-          'Local content requirements',
+          'Content creation requirements',
 
           'Citation and directory requirements',
 
-          'Review and reputation management requirements',
+          'Local authority and link-building requirements',
 
-          'Local link building requirements',
+          'Technical SEO requirements',
 
-          'Structured data requirements',
-
-          'Ongoing local SEO requirements',
+          'Ongoing monitoring and optimization',
         ]}
       />
 
       {/* =====================================================
-          BASIC VS PROFESSIONAL LOCAL SEO
+          COMPARISON
       ===================================================== */}
 
       <ServiceComp
         heading="Basic Local SEO vs Professional Local SEO"
-        desc="Basic local SEO often focuses on creating a Google Business Profile and adding a few location keywords to a website. Professional local SEO takes a broader approach by connecting Google Business Profile optimization, local keyword research, location pages, on-page SEO, citations, reviews, internal linking, structured data, local authority, and technical website optimization. The objective is to build a consistent local search presence that helps customers discover and evaluate the business."
+        desc="Basic local SEO may involve setting up or updating a Google Business Profile and adding location keywords to a website. Professional local SEO takes a broader business-focused approach by connecting Google Business Profile optimization, local keyword research, service pages, location pages, technical SEO, internal linking, citations, local authority and ongoing optimization. The difference is not simply the number of SEO activities performed - it is whether those activities work together around the searches that can generate customers."
       />
 
       {/* =====================================================
           CTA
       ===================================================== */}
 
-      <CtaButtonRe title="Get Local SEO Estimate" url="/contact" />
+      <CtaButtonRe title="Get Your Local SEO Estimate" url="/contact" />
 
       {/* =====================================================
-          APPROACH
+          LOCAL SEO PROCESS
       ===================================================== */}
 
       <ServiceApproachSection
-        heading="Our Local SEO Optimization Process"
-        intro="We follow a structured process to understand your local search market, identify opportunities, optimize important local assets, and continuously improve your visibility in relevant searches."
+        heading="How Our Local SEO Services Work"
+        intro="We build your local SEO strategy around your business, target locations, services, competitors and customer search behavior. Each stage is designed to identify opportunities, implement the right optimizations and improve the areas that matter most."
         steps={[
           {
-            title: 'Local SEO Analysis',
+            title: 'Local SEO & Competitor Analysis',
 
             description:
-              'We review your website, Google Business Profile, local rankings, business information, competitors, citations, and existing local search visibility.',
+              'We evaluate your current website, Google Business Profile, local visibility, competitors and target market to identify the strongest opportunities.',
 
             points: [
               'Local SEO audit',
@@ -520,7 +496,7 @@ export default function LocalSEOPage() {
             title: 'Local Keyword & Search Intent Research',
 
             description:
-              'We identify relevant local search queries and understand the intent behind them so keywords can be mapped to the most appropriate services, locations, and pages.',
+              'We identify relevant searches and map them to the services, locations and pages that should satisfy those searches.',
 
             points: [
               'Local keyword research',
@@ -529,7 +505,7 @@ export default function LocalSEOPage() {
 
               'Location mapping',
 
-              'Competitor keyword research',
+              'Competitor keyword analysis',
             ],
           },
 
@@ -537,7 +513,7 @@ export default function LocalSEOPage() {
             title: 'Google Business Profile & Website Optimization',
 
             description:
-              'We optimize your Google Business Profile and important website pages to strengthen relevance for the services and locations you want to target.',
+              'We optimize the local search assets that directly represent your business, services and target locations.',
 
             points: [
               'Profile optimization',
@@ -551,10 +527,10 @@ export default function LocalSEOPage() {
           },
 
           {
-            title: 'Local Citations & Authority',
+            title: 'Local Citations & Authority Development',
 
             description:
-              'We strengthen your local presence through relevant business listings, citations, local links, mentions, and other appropriate authority-building opportunities.',
+              'We strengthen relevant local signals through appropriate listings, citations, mentions and authority-building opportunities.',
 
             points: [
               'Citation optimization',
@@ -568,34 +544,26 @@ export default function LocalSEOPage() {
           },
 
           {
-            title: 'Local Content & Structured Data',
+            title: 'Local Content & Technical SEO',
 
             description:
-              'We improve local content and identify appropriate structured data opportunities that help search engines better understand your business and website.',
+              'We improve the supporting website structure so services, locations and related pages are easier for users and search engines to understand.',
 
-            points: [
-              'Location content',
-
-              'Local service content',
-
-              'Structured data',
-
-              'Internal linking',
-            ],
+            points: ['Location content', 'Service content', 'Internal linking', 'Structured data'],
           },
 
           {
-            title: 'Monitoring & Continuous Optimization',
+            title: 'Performance Monitoring & Optimization',
 
             description:
-              'We review local search performance and identify additional opportunities as rankings, competitors, search demand, locations, and business priorities change.',
+              'We review local search performance and identify the next opportunities as rankings, competitors, search demand and business priorities change.',
 
             points: [
               'Local ranking monitoring',
 
               'Google visibility analysis',
 
-              'Traffic and enquiry analysis',
+              'Traffic analysis',
 
               'Ongoing optimization',
             ],
@@ -604,7 +572,7 @@ export default function LocalSEOPage() {
       />
 
       {/* =====================================================
-          WHAT IS LOCAL SEO?
+          WHAT IS LOCAL SEO
       ===================================================== */}
 
       <WhaIsService heading="What Is Local SEO?" contents={contents} />
@@ -614,19 +582,19 @@ export default function LocalSEOPage() {
       ===================================================== */}
 
       <ServiceFitSection
-        heading="Who Needs Local SEO Services?"
-        intro="Local SEO can benefit businesses that depend on customers searching for products, services, professionals, or businesses within specific geographic areas."
-        subintro="Our local SEO services are suitable for:"
+        heading="Is Local SEO Right for Your Business?"
+        intro="Local SEO is most valuable when customers search for your products or services within specific cities, areas or service regions and your business wants to turn that search visibility into enquiries, calls, visits or sales."
+        subintro="Our local SEO services can be suitable for:"
         points={[
-          'Small businesses targeting local customers',
+          'Local businesses competing within a city',
 
-          'Service businesses competing in city-level searches',
+          'Service businesses targeting specific areas',
 
-          'Businesses targeting Mumbai and Pune',
+          'Businesses targeting customers across Mumbai or Pune',
 
           'Professional service companies',
 
-          'Restaurants, clinics, agencies, and local businesses',
+          'Restaurants, clinics, agencies and local businesses',
 
           'SaaS and technology companies targeting specific markets',
 
@@ -634,11 +602,11 @@ export default function LocalSEOPage() {
 
           'Multi-location businesses',
 
-          'Businesses launching in new cities',
+          'Businesses expanding into new cities',
 
           'Companies targeting international local search markets',
         ]}
-        finalPara="Whether you operate from one location or manage multiple branches, strong local SEO creates a clearer connection between your business, its services, its locations, and the customers searching for them."
+        finalPara="Whether you operate from one location or multiple branches, VoidMatrix can structure the local SEO strategy around the services you sell, the locations you serve and the customers you want to reach."
       />
 
       {/* =====================================================
@@ -652,8 +620,8 @@ export default function LocalSEOPage() {
       ===================================================== */}
 
       <MainServiceCTA
-        heading="Ready to Grow Your Local Visibility?"
-        description="Get a practical local SEO assessment of your website, Google Business Profile and target market - and identify the opportunities worth prioritizing."
+        heading="Ready to Get More Local Customers From Google?"
+        description="Tell VoidMatrix about your business, target locations and services. We can assess your current local search presence and identify the SEO opportunities worth prioritizing."
       />
     </>
   );
