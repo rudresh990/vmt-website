@@ -3660,5 +3660,6 @@ export const serviceData = {
     a: 'VoidMatrix combines product scope definition, technical architecture, frontend and backend development, API integration, testing, deployment and ongoing product engineering. The focus is on building the smallest useful product without unnecessarily limiting its ability to evolve.',
   },
 ],
+offer: [150000, 800000],
   }
 } satisfies Record<string, servicePage>;
