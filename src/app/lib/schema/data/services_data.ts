@@ -72,33 +72,95 @@ export const serviceData = {
     faqs: [
       {
         q: 'How much does website development cost in India?',
-        a: 'Website development cost in India ranges from ₹25,000 for a straightforward business brochure site to ₹3,00,000 or more for a dynamic platform with custom functionality, eCommerce, or CMS integration. The biggest cost drivers are design complexity, number of pages, backend requirements, and integrations. We offer a free scoping call to give you an accurate estimate before any commitment.',
+        a: 'Website development cost in India depends on the number of pages, design requirements, functionality, CMS, integrations, ecommerce requirements and SEO scope. A focused business website requires a smaller scope than a large corporate, ecommerce or custom web platform. VoidMatrix provides a project-specific estimate after understanding the actual requirements.',
       },
+
+      {
+        q: 'How much does a professional website cost in Mumbai?',
+        a: 'The cost of a professional website in Mumbai depends on the business type, number of pages, custom design, functionality, integrations and SEO requirements. VoidMatrix provides custom website development for businesses in Mumbai based on the actual project scope rather than a one-size-fits-all package.',
+      },
+
+      {
+        q: 'How much does website development cost in the USA?',
+        a: 'Website development cost in the USA varies according to design complexity, functionality, number of pages, integrations, ecommerce requirements and engineering involvement. VoidMatrix works with USA businesses remotely from India and provides structured estimates based on the required website scope.',
+      },
+
       {
         q: 'How long does it take to build a professional website?',
-        a: 'A standard business website typically takes 3-5 weeks from kickoff to launch. eCommerce sites, content-heavy platforms, or websites with custom backend logic take 5-10 weeks. Timeline depends on content readiness, revision cycles, and feature scope - we share a clear project schedule upfront so nothing is a surprise.',
+        a: 'The timeline depends on the website size, design requirements, content readiness, functionality, integrations and approval process. A focused business website can be completed faster than a large corporate, ecommerce or custom website. VoidMatrix defines the expected timeline after the project scope is finalized.',
       },
+
       {
-        q: 'Is SEO included in your website development?',
-        a: 'Yes - SEO-friendly architecture is standard in every website we build. This includes proper heading hierarchy, clean URL structures, optimized page speed, mobile-first design, schema markup, and XML sitemap generation. We build sites that search engines can crawl and rank, not just ones that look good.',
+        q: 'What type of websites does VoidMatrix develop?',
+        a: 'VoidMatrix develops business websites, corporate websites, custom websites, ecommerce websites, SaaS websites, web applications, service websites and SEO-focused websites for startups, SMEs and established businesses.',
       },
+
       {
-        q: 'Can you redesign my existing website without hurting my SEO?',
-        a: 'Yes, and this is something we handle carefully. A poor redesign can destroy years of ranking equity. We audit your existing URL structure, backlinks, and indexed pages before redesigning - and implement proper redirects, canonical tags, and content migration to preserve your SEO value while modernizing the site.',
+        q: 'Can VoidMatrix build an SEO-friendly website?',
+        a: 'Yes. VoidMatrix can structure the website around technical SEO requirements including page architecture, metadata, semantic structure, crawlability, internal linking, performance and future content expansion. This creates a stronger technical foundation for ongoing SEO.',
       },
+
+      {
+        q: 'Can you redesign my existing website without losing SEO?',
+        a: 'Yes. A website redesign can be planned around SEO preservation. Existing URLs, rankings, metadata, content, redirects, internal links and technical signals should be reviewed before migration to reduce the risk of unnecessary organic search disruption.',
+      },
+
+      {
+        q: 'Do you build websites for startups and small businesses?',
+        a: 'Yes. VoidMatrix works with startups, small businesses and growing companies that need a professional website for launching their business, generating enquiries, presenting their services or expanding into new markets.',
+      },
+
+      {
+        q: 'Can you build a website for a USA-based business?',
+        a: 'Yes. VoidMatrix works with USA businesses through a remote website development model from India. Projects can be structured around defined requirements, milestones, communication processes, technical SEO and production deployment.',
+      },
+
+      {
+        q: 'Do you provide website development outside India?',
+        a: 'Yes. VoidMatrix works with businesses in the USA and other international markets including the UK, UAE, Europe and Australia through remote website development engagements.',
+      },
+
+      {
+        q: 'Do you provide website development in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides website development services in Mumbai, Pune and across India, including Bangalore, Hyderabad, Delhi, Chennai and Ahmedabad.',
+      },
+
+      {
+        q: 'Can you integrate WhatsApp, CRM and payment gateways into a website?',
+        a: 'Yes. Website integrations can include WhatsApp, CRM systems, payment gateways, email platforms, analytics, forms, ERP systems and other third-party services depending on the business requirements and available APIs.',
+      },
+
+      {
+        q: 'Can you build an ecommerce website for my business?',
+        a: 'Yes. VoidMatrix can develop ecommerce websites with product catalogues, product variants, shopping carts, checkout, payment gateway integration, customer accounts, order workflows and other ecommerce requirements based on the project scope.',
+      },
+
+      {
+        q: 'Should I use WordPress or custom website development?',
+        a: 'The right approach depends on your requirements. WordPress can be suitable when standard website functionality and easy content management are the main priorities. Custom development can be more suitable when the website requires custom functionality, integrations, performance requirements or a controlled architecture.',
+      },
+
+      {
+        q: 'Can VoidMatrix build websites using Next.js?',
+        a: 'Yes. VoidMatrix can use Next.js and other modern technologies when the project requires a custom application architecture, performance-focused development, scalable page structures and modern frontend engineering.',
+      },
+
       {
         q: 'Do you provide website maintenance after launch?',
-        a: 'Yes. We offer monthly maintenance plans covering security updates, plugin management, performance monitoring, content updates, and uptime tracking. A website is not a one-time project - it needs ongoing care to stay fast, secure, and competitive.',
+        a: 'Yes. VoidMatrix can continue supporting websites after launch through technical maintenance, new page development, feature improvements, performance optimization, SEO-related technical changes and ongoing development.',
       },
+
       {
-        q: 'Do you work with businesses in Mumbai and Pune?',
-        a: 'Yes - Mumbai and Pune businesses make up a significant share of our client base. We work remotely with structured weekly check-ins, shared project management, and video reviews at every milestone. Location is never a barrier to quality or communication.',
+        q: 'How does VoidMatrix approach website development?',
+        a: 'VoidMatrix begins by understanding the business, target customers, website goals, required pages and functionality. We then define the architecture, develop the website, test important user journeys and prepare the project for production. The website can also be structured for future SEO, content and functionality expansion.',
       },
+
       {
-        q: 'Why hire a website development agency in Mumbai instead of a freelancer?',
-        a: 'A freelancer might be cheaper upfront, but agencies provide something freelancers rarely can: accountability across design, development, SEO, and post-launch support simultaneously. At VMT, you get a dedicated project manager, a structured process, and a team that handles every layer - so nothing falls through the cracks.',
+        q: 'Why should I hire VoidMatrix for website development?',
+        a: 'VoidMatrix combines website development with performance, technical SEO, conversion architecture and long-term scalability. Instead of treating the website as only a visual project, we structure it around how the business needs to attract, inform and convert potential customers.',
       },
     ],
+
     offer: [25000, 500000],
   },
 
@@ -2043,56 +2105,56 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides product engineering services in India for startups and technology companies that need a technical partner who thinks about the product, not just the code. Based in Mumbai, we work as an embedded product engineering team for founders and product leaders in Mumbai, Pune, Bangalore, and across India who need full-stack technical execution combined with the product judgment to know what to build, how to build it, and when to cut scope. Product engineering is the discipline of building software products users actually want to use - combining frontend and backend development, API design, cloud deployment, and iterative quality improvement with the product thinking that ensures engineering effort goes toward features that create business value. We build SaaS products, consumer applications, B2B platforms, and internal tools on React, Node.js, and cloud infrastructure, using agile sprint delivery that gives you visibility into progress every two weeks rather than a finished product at the end.',
     faqs: [
-  {
-    q: 'How much does product engineering cost in India?',
-    a: 'Product engineering in India can start around ₹3,00,000 for focused MVP engineering and exceed ₹25,00,000 for larger product development engagements. The investment depends on product scope, features, architecture, integrations, infrastructure, security and ongoing engineering requirements.',
-  },
+      {
+        q: 'How much does product engineering cost in India?',
+        a: 'Product engineering in India can start around ₹3,00,000 for focused MVP engineering and exceed ₹25,00,000 for larger product development engagements. The investment depends on product scope, features, architecture, integrations, infrastructure, security and ongoing engineering requirements.',
+      },
 
-  {
-    q: 'What is the difference between product engineering and software development?',
-    a: 'Software development can focus on delivering a specific application or feature set, while product engineering considers the broader product lifecycle including requirements, architecture, development, quality, deployment, scalability, modernization and continuous evolution.',
-  },
+      {
+        q: 'What is the difference between product engineering and software development?',
+        a: 'Software development can focus on delivering a specific application or feature set, while product engineering considers the broader product lifecycle including requirements, architecture, development, quality, deployment, scalability, modernization and continuous evolution.',
+      },
 
-  {
-    q: 'Can VoidMatrix help build an MVP?',
-    a: 'Yes. VoidMatrix can support MVP development from product requirements and technical planning through architecture, frontend and backend development, integrations, testing and deployment. The MVP scope is focused on the functionality required to validate the product and reach initial users.',
-  },
+      {
+        q: 'Can VoidMatrix help build an MVP?',
+        a: 'Yes. VoidMatrix can support MVP development from product requirements and technical planning through architecture, frontend and backend development, integrations, testing and deployment. The MVP scope is focused on the functionality required to validate the product and reach initial users.',
+      },
 
-  {
-    q: 'Can you modernize an existing software product?',
-    a: 'Yes. VoidMatrix can assess an existing product and identify modernization opportunities across architecture, frontend, backend, databases, APIs, infrastructure, deployment and security. Modernization can be performed incrementally depending on the existing system.',
-  },
+      {
+        q: 'Can you modernize an existing software product?',
+        a: 'Yes. VoidMatrix can assess an existing product and identify modernization opportunities across architecture, frontend, backend, databases, APIs, infrastructure, deployment and security. Modernization can be performed incrementally depending on the existing system.',
+      },
 
-  {
-    q: 'Can you provide dedicated product engineering support?',
-    a: 'Yes. VoidMatrix can provide ongoing product engineering support for feature development, technical improvements, integrations, performance optimization, modernization, infrastructure scaling and maintenance based on your product roadmap.',
-  },
+      {
+        q: 'Can you provide dedicated product engineering support?',
+        a: 'Yes. VoidMatrix can provide ongoing product engineering support for feature development, technical improvements, integrations, performance optimization, modernization, infrastructure scaling and maintenance based on your product roadmap.',
+      },
 
-  {
-    q: 'Can you integrate our product with third-party APIs?',
-    a: 'Yes. Product engineering can include integrations with payment gateways, CRM, ERP, analytics, communication, logistics and other third-party platforms. The integration architecture is designed around security, reliability and the product requirements.',
-  },
+      {
+        q: 'Can you integrate our product with third-party APIs?',
+        a: 'Yes. Product engineering can include integrations with payment gateways, CRM, ERP, analytics, communication, logistics and other third-party platforms. The integration architecture is designed around security, reliability and the product requirements.',
+      },
 
-  {
-    q: 'Can you scale an existing digital product?',
-    a: 'Yes. VoidMatrix can assess the current application architecture, database, APIs, infrastructure and performance to identify scaling opportunities. Improvements can be prioritized based on actual product usage and technical requirements.',
-  },
+      {
+        q: 'Can you scale an existing digital product?',
+        a: 'Yes. VoidMatrix can assess the current application architecture, database, APIs, infrastructure and performance to identify scaling opportunities. Improvements can be prioritized based on actual product usage and technical requirements.',
+      },
 
-  {
-    q: 'Do you provide product engineering services in Mumbai and Pune?',
-    a: 'Yes. VoidMatrix provides product engineering services in Mumbai, Pune and other Indian cities, including Bangalore, Hyderabad, Delhi, Chennai and Ahmedabad, as well as remote engineering services for international businesses.',
-  },
+      {
+        q: 'Do you provide product engineering services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides product engineering services in Mumbai, Pune and other Indian cities, including Bangalore, Hyderabad, Delhi, Chennai and Ahmedabad, as well as remote engineering services for international businesses.',
+      },
 
-  {
-    q: 'Do you work with startups as well as enterprises?',
-    a: 'Yes. VoidMatrix works with startups building new products as well as established businesses and enterprises expanding, modernizing or scaling existing digital products. The engineering scope is adapted to the product stage and business requirements.',
-  },
+      {
+        q: 'Do you work with startups as well as enterprises?',
+        a: 'Yes. VoidMatrix works with startups building new products as well as established businesses and enterprises expanding, modernizing or scaling existing digital products. The engineering scope is adapted to the product stage and business requirements.',
+      },
 
-  {
-    q: 'Why should I choose VoidMatrix for product engineering?',
-    a: 'VoidMatrix combines product requirements analysis, software architecture, frontend and backend development, APIs, integrations, cloud deployment, modernization and ongoing engineering support. This allows us to support the product lifecycle rather than focusing only on an initial software release.',
-  },
-],
+      {
+        q: 'Why should I choose VoidMatrix for product engineering?',
+        a: 'VoidMatrix combines product requirements analysis, software architecture, frontend and backend development, APIs, integrations, cloud deployment, modernization and ongoing engineering support. This allows us to support the product lifecycle rather than focusing only on an initial software release.',
+      },
+    ],
     offer: [300000, 2500000],
   },
 
@@ -3543,123 +3605,124 @@ export const serviceData = {
     description:
       'VoidMatrix Technology provides workflow automation services in India for businesses that are still doing manually what software should be doing automatically - losing hours every week to data entry, copy-paste between systems, manual reporting, and status update emails. Based in Mumbai, we design and build workflow automation solutions for SMEs, startups, and enterprises across Mumbai, Pune, Bangalore, and India in retail, logistics, consulting, healthcare, and technology sectors. The arithmetic on automation is usually compelling: if a process takes 10 hours per week at ₹500/hour and automation costs ₹2,00,000, it pays back in 40 weeks - then saves money every week indefinitely. Our automation team uses custom code, API integrations, and no-code/low-code platforms (Zapier, Make, n8n) to connect systems and trigger actions automatically - from lead routing and invoice generation to inventory updates, approval workflows, and customer communication sequences. We map the process, design the automation, build and test it rigorously, and document it so your team understands and can maintain what we build.',
     faqs: [
-  {
-    q: 'How much does workflow automation development cost in India?',
-    a: 'Workflow automation development in India can start around ₹2,00,000 for a focused workflow and exceed ₹15,00,000 for complex multi-department automation platforms. The actual cost depends on workflow complexity, users, approvals, integrations, business rules and reporting requirements.',
-  },
+      {
+        q: 'How much does workflow automation development cost in India?',
+        a: 'Workflow automation development in India can start around ₹2,00,000 for a focused workflow and exceed ₹15,00,000 for complex multi-department automation platforms. The actual cost depends on workflow complexity, users, approvals, integrations, business rules and reporting requirements.',
+      },
 
-  {
-    q: 'How long does it take to automate a business workflow?',
-    a: 'The timeline depends on the complexity of the process being automated. A single approval or task workflow can require significantly less development than a platform connecting multiple departments, business systems and complex automation rules.',
-  },
+      {
+        q: 'How long does it take to automate a business workflow?',
+        a: 'The timeline depends on the complexity of the process being automated. A single approval or task workflow can require significantly less development than a platform connecting multiple departments, business systems and complex automation rules.',
+      },
 
-  {
-    q: 'What business processes can be automated?',
-    a: 'Businesses can automate approvals, lead assignment, customer follow-ups, document processing, procurement requests, employee workflows, notifications, task assignments, inventory processes, reporting and many other repetitive rule-based activities.',
-  },
+      {
+        q: 'What business processes can be automated?',
+        a: 'Businesses can automate approvals, lead assignment, customer follow-ups, document processing, procurement requests, employee workflows, notifications, task assignments, inventory processes, reporting and many other repetitive rule-based activities.',
+      },
 
-  {
-    q: 'Can VoidMatrix automate workflows in our existing CRM or ERP?',
-    a: 'Yes. VoidMatrix can build custom workflows around existing CRM and ERP systems through APIs and appropriate integrations. This can extend the capabilities of existing software without necessarily replacing the entire platform.',
-  },
+      {
+        q: 'Can VoidMatrix automate workflows in our existing CRM or ERP?',
+        a: 'Yes. VoidMatrix can build custom workflows around existing CRM and ERP systems through APIs and appropriate integrations. This can extend the capabilities of existing software without necessarily replacing the entire platform.',
+      },
 
-  {
-    q: 'Can workflow automation replace spreadsheets and manual processes?',
-    a: 'Yes, where the underlying process is suitable for digitization. VoidMatrix can analyze spreadsheet-driven and manually coordinated processes and convert appropriate workflows into structured software with defined rules, users, approvals and automation.',
-  },
+      {
+        q: 'Can workflow automation replace spreadsheets and manual processes?',
+        a: 'Yes, where the underlying process is suitable for digitization. VoidMatrix can analyze spreadsheet-driven and manually coordinated processes and convert appropriate workflows into structured software with defined rules, users, approvals and automation.',
+      },
 
-  {
-    q: 'Can you build custom approval workflow software?',
-    a: 'Yes. Custom approval systems can support multiple approval levels, role-based permissions, routing rules, notifications, escalations, comments and status tracking according to your organization’s requirements.',
-  },
+      {
+        q: 'Can you build custom approval workflow software?',
+        a: 'Yes. Custom approval systems can support multiple approval levels, role-based permissions, routing rules, notifications, escalations, comments and status tracking according to your organization’s requirements.',
+      },
 
-  {
-    q: 'Can workflow automation integrate with other software?',
-    a: 'Yes. Workflow automation can integrate with CRM, ERP, websites, payment gateways, email, communication platforms, analytics systems and other applications through APIs and appropriate integration methods.',
-  },
+      {
+        q: 'Can workflow automation integrate with other software?',
+        a: 'Yes. Workflow automation can integrate with CRM, ERP, websites, payment gateways, email, communication platforms, analytics systems and other applications through APIs and appropriate integration methods.',
+      },
 
-  {
-    q: 'Should we use a generic workflow tool or build custom automation?',
-    a: 'Generic workflow software can work well for straightforward processes that fit its existing functionality. Custom workflow development becomes more valuable when your processes involve specialized rules, complex approvals, multiple systems, custom permissions or workflows that generic tools cannot model effectively.',
-  },
+      {
+        q: 'Should we use a generic workflow tool or build custom automation?',
+        a: 'Generic workflow software can work well for straightforward processes that fit its existing functionality. Custom workflow development becomes more valuable when your processes involve specialized rules, complex approvals, multiple systems, custom permissions or workflows that generic tools cannot model effectively.',
+      },
 
-  {
-    q: 'Do you provide workflow automation services in Mumbai and Pune?',
-    a: 'Yes. VoidMatrix provides workflow automation development for businesses in Mumbai, Pune and other Indian cities, as well as remote workflow automation services for international businesses.',
-  },
+      {
+        q: 'Do you provide workflow automation services in Mumbai and Pune?',
+        a: 'Yes. VoidMatrix provides workflow automation development for businesses in Mumbai, Pune and other Indian cities, as well as remote workflow automation services for international businesses.',
+      },
 
-  {
-    q: 'Why should we choose VoidMatrix for workflow automation?',
-    a: 'VoidMatrix combines business process analysis, software architecture, application development, API integration, workflow automation and ongoing engineering support. This allows automation to be designed around your actual business processes rather than simply applying generic workflow templates.',
-  },
-],
+      {
+        q: 'Why should we choose VoidMatrix for workflow automation?',
+        a: 'VoidMatrix combines business process analysis, software architecture, application development, API integration, workflow automation and ongoing engineering support. This allows automation to be designed around your actual business processes rather than simply applying generic workflow templates.',
+      },
+    ],
     offer: [75000, 500000],
   },
 
   '/services/mvp-development': {
     name: 'mvp development',
-    description:'Build and launch faster with custom MVP development services from VoidMatrix. Validate your idea, reduce costs, and scale with a market-ready MVP.',
+    description:
+      'Build and launch faster with custom MVP development services from VoidMatrix. Validate your idea, reduce costs, and scale with a market-ready MVP.',
     faqs: [
-  {
-    q: 'How much does MVP development cost in the USA?',
-    a: 'MVP development cost in the USA varies significantly based on scope, platform, integrations and technical complexity. Published 2026 market references commonly place professionally built MVPs from roughly USD 15,000 for simpler products to USD 150,000 or more for complex products. A project-specific estimate requires defining the actual MVP scope.',
-  },
+      {
+        q: 'How much does MVP development cost in the USA?',
+        a: 'MVP development cost in the USA varies significantly based on scope, platform, integrations and technical complexity. Published 2026 market references commonly place professionally built MVPs from roughly USD 15,000 for simpler products to USD 150,000 or more for complex products. A project-specific estimate requires defining the actual MVP scope.',
+      },
 
-  {
-    q: 'How much does MVP development cost in India?',
-    a: 'MVP development in India depends on the product type, features, technology, integrations and development scope. A focused web MVP can require significantly less investment than a SaaS, marketplace, AI or multi-platform product. VoidMatrix provides project-specific estimates after defining the MVP scope.',
-  },
+      {
+        q: 'How much does MVP development cost in India?',
+        a: 'MVP development in India depends on the product type, features, technology, integrations and development scope. A focused web MVP can require significantly less investment than a SaaS, marketplace, AI or multi-platform product. VoidMatrix provides project-specific estimates after defining the MVP scope.',
+      },
 
-  {
-    q: 'How long does it take to build an MVP?',
-    a: 'The timeline depends on the number of core workflows, platforms, integrations and technical requirements. A focused MVP can be developed faster than a multi-role SaaS, marketplace, AI product or mobile-and-web platform. VoidMatrix defines the timeline after the MVP scope is established.',
-  },
+      {
+        q: 'How long does it take to build an MVP?',
+        a: 'The timeline depends on the number of core workflows, platforms, integrations and technical requirements. A focused MVP can be developed faster than a multi-role SaaS, marketplace, AI product or mobile-and-web platform. VoidMatrix defines the timeline after the MVP scope is established.',
+      },
 
-  {
-    q: 'What should be included in an MVP?',
-    a: 'An MVP should include the functionality required for users to complete the core product workflow and validate the primary business assumption. Depending on the product, this can include authentication, user roles, dashboards, payments, databases, APIs, notifications and essential integrations.',
-  },
+      {
+        q: 'What should be included in an MVP?',
+        a: 'An MVP should include the functionality required for users to complete the core product workflow and validate the primary business assumption. Depending on the product, this can include authentication, user roles, dashboards, payments, databases, APIs, notifications and essential integrations.',
+      },
 
-  {
-    q: 'Can VoidMatrix build an MVP for a startup?',
-    a: 'Yes. VoidMatrix provides MVP development for startups from product scope and technical planning through frontend and backend development, integrations, testing and production deployment.',
-  },
+      {
+        q: 'Can VoidMatrix build an MVP for a startup?',
+        a: 'Yes. VoidMatrix provides MVP development for startups from product scope and technical planning through frontend and backend development, integrations, testing and production deployment.',
+      },
 
-  {
-    q: 'Can you build a SaaS MVP?',
-    a: 'Yes. VoidMatrix can build SaaS MVPs with features such as authentication, user accounts, roles, dashboards, subscriptions, payments, core product workflows, APIs and integrations depending on the requirements.',
-  },
+      {
+        q: 'Can you build a SaaS MVP?',
+        a: 'Yes. VoidMatrix can build SaaS MVPs with features such as authentication, user accounts, roles, dashboards, subscriptions, payments, core product workflows, APIs and integrations depending on the requirements.',
+      },
 
-  {
-    q: 'Can you develop a mobile app MVP?',
-    a: 'Yes. VoidMatrix can develop mobile MVPs around the core user journey and functionality required for the first release. The technology approach depends on platform requirements, product complexity and the future roadmap.',
-  },
+      {
+        q: 'Can you develop a mobile app MVP?',
+        a: 'Yes. VoidMatrix can develop mobile MVPs around the core user journey and functionality required for the first release. The technology approach depends on platform requirements, product complexity and the future roadmap.',
+      },
 
-  {
-    q: 'Can you build an MVP for the US market from India?',
-    a: 'Yes. VoidMatrix can provide remote MVP development for US-based founders and businesses from its India-based engineering team. The engagement can cover product engineering, integrations, deployment and continued development after launch.',
-  },
+      {
+        q: 'Can you build an MVP for the US market from India?',
+        a: 'Yes. VoidMatrix can provide remote MVP development for US-based founders and businesses from its India-based engineering team. The engagement can cover product engineering, integrations, deployment and continued development after launch.',
+      },
 
-  {
-    q: 'Should I build a prototype, no-code product or custom MVP?',
-    a: 'It depends on what you need to validate. A prototype can be appropriate for testing user experience or demonstrating an idea, while no-code can work for certain early validation scenarios. A custom MVP is more appropriate when real backend functionality, users, data, integrations or production deployment are required.',
-  },
+      {
+        q: 'Should I build a prototype, no-code product or custom MVP?',
+        a: 'It depends on what you need to validate. A prototype can be appropriate for testing user experience or demonstrating an idea, while no-code can work for certain early validation scenarios. A custom MVP is more appropriate when real backend functionality, users, data, integrations or production deployment are required.',
+      },
 
-  {
-    q: 'Can you take our existing prototype and turn it into an MVP?',
-    a: 'Yes. VoidMatrix can assess an existing prototype, design, wireframe or feature specification and convert the validated product direction into functional software with the required frontend, backend, database, APIs and integrations.',
-  },
+      {
+        q: 'Can you take our existing prototype and turn it into an MVP?',
+        a: 'Yes. VoidMatrix can assess an existing prototype, design, wireframe or feature specification and convert the validated product direction into functional software with the required frontend, backend, database, APIs and integrations.',
+      },
 
-  {
-    q: 'Can the MVP be scaled into a full product later?',
-    a: 'Yes. The MVP can be treated as the first stage of a larger product roadmap. VoidMatrix can continue development through new features, integrations, architecture improvements, performance optimization, infrastructure scaling and product modernization.',
-  },
+      {
+        q: 'Can the MVP be scaled into a full product later?',
+        a: 'Yes. The MVP can be treated as the first stage of a larger product roadmap. VoidMatrix can continue development through new features, integrations, architecture improvements, performance optimization, infrastructure scaling and product modernization.',
+      },
 
-  {
-    q: 'Why should I choose VoidMatrix for MVP development?',
-    a: 'VoidMatrix combines product scope definition, technical architecture, frontend and backend development, API integration, testing, deployment and ongoing product engineering. The focus is on building the smallest useful product without unnecessarily limiting its ability to evolve.',
+      {
+        q: 'Why should I choose VoidMatrix for MVP development?',
+        a: 'VoidMatrix combines product scope definition, technical architecture, frontend and backend development, API integration, testing, deployment and ongoing product engineering. The focus is on building the smallest useful product without unnecessarily limiting its ability to evolve.',
+      },
+    ],
+    offer: [150000, 800000],
   },
-],
-offer: [150000, 800000],
-  }
 } satisfies Record<string, servicePage>;

@@ -84,7 +84,7 @@ export default function Navbar() {
                   </Link>
 
                   <Link href="/services/website-development" className="mega-item">
-                    <div className="mega-title">Professional Websites</div>
+                    <div className="mega-title">Website Development</div>
                   </Link>
 
                   <Link href="/services/web-app-development" className="mega-item">
@@ -460,7 +460,7 @@ export default function Navbar() {
                 href="/services/website-development"
                 className="mobile-item"
               >
-                Professional Websites
+                Website Development
               </Link>
 
               <Link
