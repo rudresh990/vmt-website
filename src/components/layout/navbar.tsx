@@ -135,8 +135,11 @@ export default function Navbar() {
                     <div className="mega-title">CI/CD Pipelines</div>
                   </Link>
                 </div>
-                <div className="mega-footer mega-item">
-                  <Link href="/services/maintenance-and-support">Maintenance & Support</Link>
+                <div className="mega-footer mega-item flex-wrap gap-2 py-2!">
+                  <div className="flex justify-around gap-2 flex-wrap">
+                    <Link href="/services/maintenance-and-support" className='mega-footer mega-item w-full px-8!'>Maintenance & Support</Link>
+                    <Link href="/services/mvp-development" className='mega-footer mega-item w-full px-8!'>MVP Development</Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -498,6 +501,9 @@ export default function Navbar() {
 
               <Link href="/services/maintenance-and-support" className="mobile-item">
                 Maintenance & Support
+              </Link>
+              <Link href="/services/mvp-development" className="mobile-item">
+                MVP Development
               </Link>
             </div>
 
