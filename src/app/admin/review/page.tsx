@@ -89,12 +89,12 @@ export default function ReviewPage() {
       {loading && <p>Loading...</p>}
       {!loading && blogs.length === 0 && <p>No blogs pending review.</p>}
       {!previewBlog && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-wrap w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full">
             {blogs.map((blog: any) => (
               <div
                 key={blog.id}
-                className="vmt-glass-card hover:scale-[1.02] transition w-full p4 bg-gray-800 p-4 rounded-lg"
+                className="vmt-glass-card no-hover transition w-full p4 bg-gray-800 p-4 rounded-lg"
                 onClick={() => showPreview(blog)}
               >
                 <h2>{blog.title}</h2>

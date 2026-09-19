@@ -13,13 +13,13 @@ export default function Myblogs() {
   return (
     <div>
       <h1 className="text-2xl mb-4">My Blogs</h1>
-      <div className="flex flex-col gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {blogs.map((blog: any) => (
-          <div key={blog.id} className="p-4">
+          <div key={blog.id} className="vmt-glass-card transition w-full p4 bg-gray-800 p-4 rounded-lg">
             <Link href={`/blog/${blog.slug}`}>
               <h2>{blog.title}</h2>
             </Link>
-            <p className="text-sm text-(--text-muted)">
+            <p className="text-sm text-[--text-muted]">
               {blog.status} Views: {blog._count.views}
             </p>
           </div>
