@@ -3,9 +3,9 @@ import MainServiceCTA from '@/components/services/MainServiceCTA';
 import ProofStrip from '@/components/layout/proofstrip';
 import Position from '@/components/sections/home/Positioning';
 export const metadata = {
-  title: 'Software & Web Development Company in Mumbai, India',
+  title: 'About VoidMatrix Technology | Mumbai IT Company',
   description:
-    'VoidMatrix Technology is a Mumbai-based software development and digital growth company helping businesses build fast, SEO-friendly websites and software.',
+    'Full-stack software, SEO & digital marketing company in Mumbai. NDA-protected, architecture-first delivery, 75+ projects. See who we are.',
   path: '/company',
 };
 

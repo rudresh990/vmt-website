@@ -27,10 +27,10 @@ import ServiceFactors from '@/components/services/ServiceFactors';
 import ServiceCoreSection from '@/components/services/ServiceCoreSection';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Meta Ads Management Services in Mumbai & India | Facebook & Instagram Ads',
+  title: 'Meta Ads Management Agency in Mumbai | Facebook & Instagram Ads',
 
   description:
-    'Meta Ads management services for businesses in Mumbai, Pune, and across India. We manage Facebook and Instagram advertising, lead generation, retargeting, conversion tracking, and campaign optimization.',
+    'Run profitable Meta Ads campaigns with a Mumbai-based agency. Facebook & Instagram ads built for lead gen, not vanity metrics. Free audit.',
 
   path: '/services/meta-ads',
 });
@@ -298,7 +298,7 @@ export default function MetaAdsPage() {
 
             descriptions: [
               {
-                para: 'Retargeting allows businesses to reconnect with people who have already interacted with their website, advertisements, social media profiles, products, or other digital properties.',
+                para: 'Retargeting allows businesses to reconnect with people who have already interacted with their website, advertisements, social m  a profiles, products, or other digital properties.',
               },
 
               {
