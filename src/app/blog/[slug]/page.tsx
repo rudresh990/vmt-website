@@ -146,7 +146,7 @@ export default async function BlogDetail({ params }: { params: { slug: string } 
             </div>
           )}
         </div>
-        <div className="w-full">
+        <div className="w-full sticky top-0 self-start">
           <TrendingSidebar />
         </div>
         {/* CATEGORY */}
